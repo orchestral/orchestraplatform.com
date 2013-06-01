@@ -4,6 +4,7 @@ $(function() {
 		$(this).tab('show');
 	})
 	$('.nav-tabs a:first').tab('show');
+	$('.docs table').addClass('table table-striped');
 	$('.section pre, table code').addClass('prettyprint');
 	prettyPrint();
 });
