@@ -16,6 +16,16 @@ lead: Orchestra Platform Official Blog
 					</h2>
 					<p class="post-meta muted">
 						<span><i class="icon-calendar"></i>{{ post.date | date: "%B %d, %Y" }}</span>
+						{% if post.author and post.author.name %}
+						<span>
+							<i class="icon-user"></i>
+							{% if post.author.url %}
+								<a href="{{ post.author.url }}" target="_blank">{{ post.author.name }}</a>
+							{% else %}
+								{{ post.author.name }}
+							{% endif %}
+						</span>
+						{% endif %}
 					</p>
 				</div>
 				<div class="post-body">

@@ -48,6 +48,16 @@
 								</h2>
 								<p class="post-meta muted">
 									<span><i class="icon-calendar"></i>{{ page.date | date: "%B %d, %Y" }}</span>
+									{% if page.author and page.author.name %}
+									<span>
+										<i class="icon-user"></i>
+										{% if page.author.url %}
+											<a href="{{ page.author.url }}" target="_blank">{{ page.author.name }}</a>
+										{% else %}
+											{{ page.author.name }}
+										{% endif %}
+									</span>
+									{% endif %}
 								</p>
 							</div>
 							<div class="post-body">
