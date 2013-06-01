@@ -33,6 +33,7 @@
   - [Usage](/docs/2.0/components/memory/usage)
 - Resources
   - [Overview](/docs/2.0/components/resources)
+  - [Usage](/docs/2.0/components/resources/usage)
 - Support
   - [Overview](/docs/2.0/components/support)
   - Manager
