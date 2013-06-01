@@ -4,4 +4,6 @@ $(function() {
 		$(this).tab('show');
 	})
 	$('.nav-tabs a:first').tab('show');
+	$('.section pre, table code').addClass('prettyprint');
+	prettyPrint();
 });
