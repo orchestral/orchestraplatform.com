@@ -8,7 +8,7 @@ lead: Orchestra Platform Official Blog
 <section class="section blog">
 	<div class="row-fluid">
 		<div class="span7">
-			{% for post in site.posts %}
+			{% for post in paginator.posts %}
 			<article class="post">
 				<div class="post-head">
 					<h2 class="post-title">
@@ -26,6 +26,19 @@ lead: Orchestra Platform Official Blog
 				</div>
 			</article>
 			{% endfor %}
+
+			<div class="pager">
+				{% if paginator.previous_page %}
+				{% if paginator.previous_page == 1 %}
+					<a href="/">Previous</a>
+				{% else %}
+					<a href="/page{{paginator.previous_page}}">Previous</a>
+				{% endif %}
+				{% endif %}
+				{% if paginator.next_page %}
+					<a href="/page{{paginator.next_page}}">Next</a>
+				{% endif %}
+			</div>
 		</div>
 		<div class="span5">
 			{% capture sidebar %}{% include sidebar.html %}{% endcapture %}
