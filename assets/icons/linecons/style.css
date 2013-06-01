@@ -1,0 +1,183 @@
+@font-face {
+	font-family: 'icomoon-1';
+	src:url('fonts/icomoon-1.eot');
+	src:url('fonts/icomoon-1.eot?#iefix') format('embedded-opentype'),
+		url('fonts/icomoon-1.woff') format('woff'),
+		url('fonts/icomoon-1.ttf') format('truetype'),
+		url('fonts/icomoon-1.svg#icomoon-1') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'icomoon-1';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icomoon-"] {
+*/
+.icomoon-heart, .icomoon-cloud, .icomoon-star, .icomoon-tv, .icomoon-sound, .icomoon-video, .icomoon-trash, .icomoon-user, .icomoon-key, .icomoon-search, .icomoon-settings, .icomoon-camera, .icomoon-tag, .icomoon-lock, .icomoon-bulb, .icomoon-pen, .icomoon-diamond, .icomoon-display, .icomoon-location, .icomoon-eye, .icomoon-bubble, .icomoon-stack, .icomoon-cup, .icomoon-phone, .icomoon-news, .icomoon-mail, .icomoon-like, .icomoon-photo, .icomoon-note, .icomoon-clock, .icomoon-paperplane, .icomoon-params, .icomoon-banknote, .icomoon-data, .icomoon-music, .icomoon-megaphone, .icomoon-study, .icomoon-lab, .icomoon-food, .icomoon-t-shirt, .icomoon-fire, .icomoon-clip, .icomoon-shop, .icomoon-calendar, .icomoon-wallet, .icomoon-vynil, .icomoon-truck, .icomoon-world {
+	font-family: 'icomoon-1';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icomoon-heart:before {
+	content: "\e000";
+}
+.icomoon-cloud:before {
+	content: "\e001";
+}
+.icomoon-star:before {
+	content: "\e002";
+}
+.icomoon-tv:before {
+	content: "\e003";
+}
+.icomoon-sound:before {
+	content: "\e004";
+}
+.icomoon-video:before {
+	content: "\e005";
+}
+.icomoon-trash:before {
+	content: "\e006";
+}
+.icomoon-user:before {
+	content: "\e007";
+}
+.icomoon-key:before {
+	content: "\e008";
+}
+.icomoon-search:before {
+	content: "\e009";
+}
+.icomoon-settings:before {
+	content: "\e00a";
+}
+.icomoon-camera:before {
+	content: "\e00b";
+}
+.icomoon-tag:before {
+	content: "\e00c";
+}
+.icomoon-lock:before {
+	content: "\e00d";
+}
+.icomoon-bulb:before {
+	content: "\e00e";
+}
+.icomoon-pen:before {
+	content: "\e00f";
+}
+.icomoon-diamond:before {
+	content: "\e010";
+}
+.icomoon-display:before {
+	content: "\e011";
+}
+.icomoon-location:before {
+	content: "\e012";
+}
+.icomoon-eye:before {
+	content: "\e013";
+}
+.icomoon-bubble:before {
+	content: "\e014";
+}
+.icomoon-stack:before {
+	content: "\e015";
+}
+.icomoon-cup:before {
+	content: "\e016";
+}
+.icomoon-phone:before {
+	content: "\e017";
+}
+.icomoon-news:before {
+	content: "\e018";
+}
+.icomoon-mail:before {
+	content: "\e019";
+}
+.icomoon-like:before {
+	content: "\e01a";
+}
+.icomoon-photo:before {
+	content: "\e01b";
+}
+.icomoon-note:before {
+	content: "\e01c";
+}
+.icomoon-clock:before {
+	content: "\e01d";
+}
+.icomoon-paperplane:before {
+	content: "\e01e";
+}
+.icomoon-params:before {
+	content: "\e01f";
+}
+.icomoon-banknote:before {
+	content: "\e020";
+}
+.icomoon-data:before {
+	content: "\e021";
+}
+.icomoon-music:before {
+	content: "\e022";
+}
+.icomoon-megaphone:before {
+	content: "\e023";
+}
+.icomoon-study:before {
+	content: "\e024";
+}
+.icomoon-lab:before {
+	content: "\e025";
+}
+.icomoon-food:before {
+	content: "\e026";
+}
+.icomoon-t-shirt:before {
+	content: "\e027";
+}
+.icomoon-fire:before {
+	content: "\e028";
+}
+.icomoon-clip:before {
+	content: "\e029";
+}
+.icomoon-shop:before {
+	content: "\e02a";
+}
+.icomoon-calendar:before {
+	content: "\e02b";
+}
+.icomoon-wallet:before {
+	content: "\e02c";
+}
+.icomoon-vynil:before {
+	content: "\e02d";
+}
+.icomoon-truck:before {
+	content: "\e02e";
+}
+.icomoon-world:before {
+	content: "\e02f";
+}

@@ -1,0 +1,35 @@
+---
+layout: blog
+title: Blog
+lead: Orchestra Platform Official Blog
+
+---
+
+<section class="section blog">
+	<div class="row-fluid">
+		<div class="span7">
+			{% for post in site.posts %}
+			<article class="post">
+				<div class="post-head">
+					<h2 class="post-title">
+						<a href="{{ post.url }}">{{ post.title }}</a>
+					</h2>
+					<p class="post-meta muted">
+						<span><i class="icon-calendar"></i>April 11, 2013</span>
+					</p>
+				</div>
+				<div class="post-body">
+					{{ post.content }}
+				</div>
+				<div class="post-foot">
+					<span><a href="{{ post.url }}" class="btn">Read More</a></span>
+				</div>
+			</article>
+			{% endfor %}
+		</div>
+		<div class="span5">
+			{% capture sidebar %}{% include sidebar.html %}{% endcapture %}
+			{{ sidebar }}
+		</div>
+	</div>
+</section>
