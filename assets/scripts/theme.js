@@ -5,6 +5,6 @@ $(function() {
 	})
 	$('.nav-tabs a:first').tab('show');
 	$('.docs table').addClass('table table-striped');
-	$('.section pre, table code').addClass('prettyprint');
+	$('.section pre').addClass('prettyprint');
 	prettyPrint();
 });
