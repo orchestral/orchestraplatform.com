@@ -134,7 +134,7 @@ Let's check our database again and see if anything has changed:
 	+---------------------------------------------------------------------------+
 	1 row in set (0.00 sec)
 
-As you would see, we do have successfully populated our ACL (you might need sometime to understand the structure), but let's not worry about it and alow `Orchestra\Acl` with it's magic.
+As you would see, we do have successfully populated our ACL (you might need sometime to understand the structure), but let's not worry about it and allow `Orchestra\Acl` to do it's magic.
 
 ## What's Next?
 
