@@ -1,7 +1,7 @@
 ---
 layout: single-blog
 title: Simple Website with Orchestra Platform 2 (Part 2)
-lead: Introduction of Orchestra Platform 2
+lead: Creating a Simple Extension
 author:
   name: crynobone
   url: https://github.com/crynobone
