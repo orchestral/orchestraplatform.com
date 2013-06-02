@@ -8,7 +8,7 @@ author:
 
 ---
 
-Let straight away continue from where we left of on [Simple Website with Orchestra Platform 2 (Part 1)](/blogs/2013/06/01/simple-website-1/). First we need to convert the `app` folder to be an extension, to do this lets create `app/orchestra.json` file and insert the content below.
+Let straight away continue from where we left off on [Simple Website with Orchestra Platform 2 (Part 1)](/blogs/2013/06/01/simple-website-1/). First we need to convert the `app` folder to be an extension, to do this lets create `app/orchestra.json` file and insert the content below.
 
 	{
 		"name": "Playground",
@@ -18,17 +18,18 @@ Let straight away continue from where we left of on [Simple Website with Orchest
 		"version": "1.0.0"
 	}
 
-So what have we accomplish by doing this, browsing to <http://localhost:8000/admin/extensions> would show you that `app` is now available as an extension, cool eh?
+So what have we accomplish by doing this? Browsing to <http://localhost:8000/admin/extensions> would show you that `app` is now available as an extension, cool eh?
 
 ![Playground Extension is available](/blogs/assets/2013/06/playground-extension-available.png)
 
 ## Our `app` Migrations
 
-Before we activate this extension, let's do prepare our migrations so we can see how easy it is to manage migration process for extension.
+Before we activate this extension, let's prepare our migrations so we can see how easy it is to manage migration process for extension.
 
 ### Articles migration
 
 	$ php artisan migrate:make create_articles_table --table=articles --create
+	
 	Created Migration: 2013_06_02_072044_create_articles_table
 	Generating optimized class loader
 	Compiling common classes
@@ -76,6 +77,7 @@ The following command would create an empty migration at `app/database/migration
 ### Pages migration
 
 	$ php artisan migrate:make create_pages_table --table=pages --create
+	
 	Created Migration: 2013_06_02_072828_create_pages_table
 	Generating optimized class loader
 	Compiling common classes
@@ -126,6 +128,7 @@ Let's see some cool stuff, instead of running `php artisan migrate`, let simply 
 	$ mysql -uroot -proot
 	mysql> use playground;
 	mysql> show tables;
+	
 	+----------------------+
 	| Tables_in_playground |
 	+----------------------+
