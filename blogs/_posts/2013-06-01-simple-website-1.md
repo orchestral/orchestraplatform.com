@@ -63,7 +63,5 @@ Hit **Submit** and your installation is done, how cool is that? Once the install
 
 What I just shown you is the most basic requirement to setup the installation, in next chapter we would start using your `app` as an extension and what the cool feature that you can use to setup your application with Orchestra Platform.
 
-Stay tune.
-
-	
+[Continue reading Part 2](/blogs/2013/06/01/simple-website-2).
 
