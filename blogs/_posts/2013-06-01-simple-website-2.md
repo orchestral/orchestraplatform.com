@@ -184,4 +184,4 @@ Next we going to look at creating resources to manage articles and pages from Or
 
 There wouldn't be any seeding example since we don't need one. With Orchestra Platform installation, we already have an administrator user account and pages or articles seeding can be done directly using our resource in later tutorial.
 
-Stay tune.
+[Continue reading Part 3](/blogs/2013/06/01/simple-website-3).
