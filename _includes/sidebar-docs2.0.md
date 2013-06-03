@@ -36,7 +36,7 @@
   - [Usage](/docs/2.0/components/resources/usage)
 - Support
   - [Overview](/docs/2.0/components/support)
-  - Manager
+  - [Manager](/docs/2.0/components/support/manager)
   - [Messages](/docs/2.0/components/support/messages)
   - [String Helper](/docs/2.0/components/support/str)
 - View
