@@ -140,4 +140,4 @@ As you would see, we do have successfully populated our ACL (you might need some
 
 Next we going to look at creating resources to manage articles and pages from Orchestra Platform Administrator Interface. 
 
-Stay tune.
+[Continue reading Part 4](/blogs/2013/06/02/simple-website-4).
