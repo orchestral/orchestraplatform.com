@@ -22,6 +22,7 @@ To start things off, lets open up `app/orchestra.php` and append the following:
 		$playground = Orchestra\Resources::make('playground', [
 			'name' => 'Playground',
 			'uses' => 'restful:AdminHomeController',
+		]);
 	});
 	
 So what did we accomplish with this little code, we can see that it has `'uses' => 'restful:AdminHomeController'`, so lets add this controller first in `app/controllers/admin/HomeController.php`.
