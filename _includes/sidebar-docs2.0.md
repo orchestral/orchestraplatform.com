@@ -27,7 +27,8 @@
   - [Overview](/docs/2.0/components/facile)
   - [Template](/docs/2.0/components/facile/templating)
 - HTML
-  - [Overview](/docs/2.0/components/html) 
+  - [Overview](/docs/2.0/components/html)
+  - [Usage](/docs/2.0/components/html/usage)
 - Memory
   - [Overview](/docs/2.0/components/memory)
   - [Usage](/docs/2.0/components/memory/usage)
