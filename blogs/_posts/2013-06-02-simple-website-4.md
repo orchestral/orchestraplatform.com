@@ -133,6 +133,4 @@ This isn't something new in Orchestra Platform, but as a guide I'll show you how
 
 Next we going to look into using [Resource Controllers](http://laravel.com/docs/controllers#resource-controllers) with `Orchestra\Resources`.
 
-Stay tune. 
-
-	
+[Continue reading Part 5](/blogs/2013/06/12/simple-website-5).

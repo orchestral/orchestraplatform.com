@@ -158,7 +158,7 @@ Additional to our migrations, we should be able to create basic model for `Artic
 	
 		public function author()
 		{
-			return $this->belongsTo('User');
+			return $this->belongsTo('User', 'user_id');
 		}
 	}
 	
@@ -172,7 +172,7 @@ Additional to our migrations, we should be able to create basic model for `Artic
 	
 		public function author()
 		{
-			return $this->belongsTo('User');
+			return $this->belongsTo('User', 'user_id');
 		}
 	}
 
