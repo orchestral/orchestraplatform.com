@@ -11,6 +11,8 @@ author:
 Time to finally dive in an create resources on Orchestra Platform, basically resource are mapping between Orchestra Platform routing to catch request that should be managed by individual extension within the administration interface, if you missed the previous chapter it's available at 
 [Simple Website with Orchestra Platform 2 (Part 3)](/blogs/2013/06/01/simple-website-3).
 
+## Adding a Resource
+
 To start things off, lets open up `app/orchestra.php` and append the following:
 
 	<?php
