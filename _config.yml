@@ -6,6 +6,9 @@ baseurl: /
 url: http://localhost:4000
 exclude: ['init.sh', 'README.md', 'docs/README.md']
 
+name: 'Orchestra Platform'
+description: "Provide a solid base off of which to build your new web applications. It's not a CMS. Instead, it's a springboard to build off of with many of the tools you wish you had on projects but never took the time to build."
+
 markdown: rdiscount
 pygments: true
 permalink: pretty
