@@ -1,7 +1,7 @@
 ---
 layout: single-blog
 title: Simple Website with Orchestra Platform 2 (Part 5)
-lead: Defining Resource Using Resource
+lead: Defining Resource Using Resource Controller
 author:
   name: crynobone
   url: https://github.com/crynobone

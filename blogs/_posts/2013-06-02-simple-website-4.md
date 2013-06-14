@@ -1,7 +1,7 @@
 ---
 layout: single-blog
 title: Simple Website with Orchestra Platform 2 (Part 4)
-lead: Defining Resource Using Restful
+lead: Defining Resource Using Restful Controller
 author:
   name: crynobone
   url: https://github.com/crynobone
