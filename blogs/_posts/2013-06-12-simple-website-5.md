@@ -29,9 +29,9 @@ We would know that when <http://localhost:8000/admin/resources/playground.pages>
 	Event::listen('orchestra.started: admin', function ()
 	{
 		$playground = Orchestra\Resources::make('playground', [
-			'name'       => 'Playground',
-			'uses'       => 'restful:AdminHomeController',
-			'visibility' => function ()
+			'name'    => 'Playground',
+			'uses'    => 'restful:AdminHomeController',
+			'visible' => function ()
 			{
 				$acl = Orchestra\Acl::make('playground');
 				

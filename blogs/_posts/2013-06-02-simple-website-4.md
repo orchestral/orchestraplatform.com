@@ -83,9 +83,9 @@ First let's not display the menu if the user doesn't have access to the resource
 	Event::listen('orchestra.started: admin', function ()
 	{
 		$playground = Orchestra\Resources::make('playground', [
-			'name'       => 'Playground',
-			'uses'       => 'restful:AdminHomeController',
-			'visibility' => function ()
+			'name'    => 'Playground',
+			'uses'    => 'restful:AdminHomeController',
+			'visible' => function ()
 			{
 				$acl = Orchestra\Acl::make('playground');
 				
