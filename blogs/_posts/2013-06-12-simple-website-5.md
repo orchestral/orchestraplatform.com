@@ -14,7 +14,7 @@ A bit of recap, until up to now we have learn about [Installation](/blogs/2013/0
 
 ## Adding child Resource
 
-To add a child resource is as easier, since we already have `$playground` as instance of `Orchestra\Resources\Container` all you need to do is add:
+To add a child resource is as easier, since we already have `$playground` as instance of `Orchestra\Resources\Container` in `app/orchestra.php`, all you need to do is add either one of the following:
 
 	$playground['pages'] = 'resource:AdminPagesController';
 	
@@ -45,6 +45,8 @@ We would know that when <http://localhost:8000/admin/resources/playground.pages>
 ## Pages Controller
 
 `AdminPagesController` would be using resource routing, this is cool. Now everything that you would see next is almost 90% following Laravel 4 structure except that Orchestra Platform has few helper class that would definitely make your life easier. Do take note on `Orchestra\Form`, `Orchestra\Messages` and `Orchestra\Site` usage.
+
+Add the following code to `app/controllers/admin/PagesController.php`.
 
 	<?php 
 
@@ -202,6 +204,8 @@ As you can see we only need two views:
 
 ### index.blade.php
 
+Add the following code to `app/views/admin/pages/index.blade.php`:
+
 	<?php Orchestra\Site::set('header::add-button', true); ?>
 	@include('orchestra/foundation::layout.widgets.header')
 
@@ -243,6 +247,8 @@ As you can see we only need two views:
 
 ### edit.blade.php
 
+Add the following code to `app/views/admin/pages/edit.blade.php`:
+
 	@include('orchestra/foundation::layout.widgets.header')
 	
 	<?php echo $form; ?>
@@ -260,6 +266,8 @@ It was due to misconfigured Eloquent relationship that we set earlier. To fixed 
 
 ### Article
 
+Update `app/models/Article.php`:
+
 	<?php 
 
 	class Article extends Eloquent {
@@ -274,6 +282,8 @@ It was due to misconfigured Eloquent relationship that we set earlier. To fixed 
 
 
 ### Page
+
+Update `app/models/Page.php`:
 
 	<?php 
 

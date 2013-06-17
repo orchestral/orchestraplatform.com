@@ -12,7 +12,7 @@ In this chapter I would like to introduce Control Extension for Orchestra Platfo
 
 ## Installation
 
-Installation is as easy as adding the it to `composer.json`:
+Installation is as easy as adding the it to playground's main `composer.json`:
 
 	"require": {
 		"orchestra/foundation": "2.0.0-BETA4",
