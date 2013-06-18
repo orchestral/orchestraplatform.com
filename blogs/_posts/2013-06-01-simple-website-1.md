@@ -12,9 +12,9 @@ This tutorial is based from [Laravel 4 - Simple Website with Backend Tutorial](h
 
 To get started I would believe you already have some minimum knowledge on [Laravel 4](http://laravel.com), [Composer](http://getcomposer.org) and [Packagist](http://packagist.org). Now without wasting time let's boot up your terminal and run:
 
-	$ composer create-project orchestra/platform playground v2.0.0-BETA4 --prefer-dist
+	$ composer create-project orchestra/platform playground v2.0.0-RC1 --prefer-dist
 	
-This composer command would create a new project for you on `playground` folder using `v2.0.0-BETA4` version tag, `--prefer-dist` is another option that you can use to indicate that you want to download a distributed version instead of cloning the repository, otherwise use `--prefer-source`.
+This composer command would create a new project for you on `playground` folder using `v2.0.0-RC1` version tag, `--prefer-dist` is another option that you can use to indicate that you want to download a distributed version instead of cloning the repository, otherwise use `--prefer-source`.
 
 Now let make sure we got Laravel 4 running.
 
