@@ -31,6 +31,9 @@
   - [Overview](/docs/2.0/components/facile)
   - [Change Log](/docs/2.0/components/facile/changes)
   - [Template](/docs/2.0/components/facile/templating)
+- Foundation
+  - [Overview](/docs/2.0/components/foundation)
+  - [Change Log](/docs/2.0/components/foundation/changes)
 - HTML
   - [Overview](/docs/2.0/components/html)
   - [Change Log](/docs/2.0/components/html/changes)
