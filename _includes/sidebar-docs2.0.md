@@ -15,34 +15,44 @@
 ### Components
 - Asset
   - [Overview](/docs/2.0/components/asset)
+  - [Change Logs](/docs/2.0/components/asset/changes)
   - [Usage](/docs/2.0/components/asset/usage)
 - Auth
   - [Overview](/docs/2.0/components/auth)
+  - [Change Logs](/docs/2.0/components/auth/changes)
   - [Auth Usage](/docs/2.0/components/auth/usage)
   - [ACL Usage](/docs/2.0/components/auth/rbac)
 - Extension
   - [Overview](/docs/2.0/components/extension)
+  - [Change Logs](/docs/2.0/components/extension/changes)
   - [Usage](/docs/2.0/components/extension/usage)
   - [Extend](/docs/2.0/components/extension/extend)
 - Facile
   - [Overview](/docs/2.0/components/facile)
+  - [Change Logs](/docs/2.0/components/facile/changes)
   - [Template](/docs/2.0/components/facile/templating)
 - HTML
   - [Overview](/docs/2.0/components/html)
+  - [Change Logs](/docs/2.0/components/html/changes)
   - [Usage](/docs/2.0/components/html/usage)
 - Memory
   - [Overview](/docs/2.0/components/memory)
+  - [Change Logs](/docs/2.0/components/memory/changes)
   - [Usage](/docs/2.0/components/memory/usage)
 - Resources
   - [Overview](/docs/2.0/components/resources)
+  - [Change Logs](/docs/2.0/components/resources/changes)
   - [Usage](/docs/2.0/components/resources/usage)
 - Support
   - [Overview](/docs/2.0/components/support)
+  - [Change Logs](/docs/2.0/components/support/changes)
   - [Manager](/docs/2.0/components/support/manager)
   - [Messages](/docs/2.0/components/support/messages)
   - [String Helper](/docs/2.0/components/support/str)
 - View
   - [Overview](/docs/2.0/components/view)
+  - [Change Logs](/docs/2.0/components/view/changes)
   - [Usage](/docs/2.0/components/view/usage)
 - Widget
   - [Overview](/docs/2.0/components/widget)
+  - [Change Logs](/docs/2.0/components/widget/changes)
