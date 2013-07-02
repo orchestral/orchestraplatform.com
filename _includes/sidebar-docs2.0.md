@@ -15,47 +15,47 @@
 ### Components
 - Asset
   - [Overview](/docs/2.0/components/asset)
-  - [Change Log](/docs/2.0/components/asset/changes)
   - [Usage](/docs/2.0/components/asset/usage)
+  - [Change Log](/docs/2.0/components/asset/changes)
 - Auth
   - [Overview](/docs/2.0/components/auth)
-  - [Change Log](/docs/2.0/components/auth/changes)
   - [Auth Usage](/docs/2.0/components/auth/usage)
   - [ACL Usage](/docs/2.0/components/auth/rbac)
+  - [Change Log](/docs/2.0/components/auth/changes)
 - Extension
   - [Overview](/docs/2.0/components/extension)
-  - [Change Log](/docs/2.0/components/extension/changes)
   - [Usage](/docs/2.0/components/extension/usage)
   - [Extend](/docs/2.0/components/extension/extend)
+  - [Change Log](/docs/2.0/components/extension/changes)
 - Facile
   - [Overview](/docs/2.0/components/facile)
-  - [Change Log](/docs/2.0/components/facile/changes)
   - [Template](/docs/2.0/components/facile/templating)
+  - [Change Log](/docs/2.0/components/facile/changes)
 - Foundation
   - [Overview](/docs/2.0/components/foundation)
   - [Change Log](/docs/2.0/components/foundation/changes)
 - HTML
   - [Overview](/docs/2.0/components/html)
-  - [Change Log](/docs/2.0/components/html/changes)
   - [Usage](/docs/2.0/components/html/usage)
+  - [Change Log](/docs/2.0/components/html/changes)
 - Memory
   - [Overview](/docs/2.0/components/memory)
-  - [Change Log](/docs/2.0/components/memory/changes)
   - [Usage](/docs/2.0/components/memory/usage)
+  - [Change Log](/docs/2.0/components/memory/changes)
 - Resources
   - [Overview](/docs/2.0/components/resources)
-  - [Change Log](/docs/2.0/components/resources/changes)
   - [Usage](/docs/2.0/components/resources/usage)
+  - [Change Log](/docs/2.0/components/resources/changes)
 - Support
   - [Overview](/docs/2.0/components/support)
-  - [Change Log](/docs/2.0/components/support/changes)
   - [Manager](/docs/2.0/components/support/manager)
   - [Messages](/docs/2.0/components/support/messages)
-  - [String Helper](/docs/2.0/components/support/str)
+  - [String](/docs/2.0/components/support/str)
+  - [Change Log](/docs/2.0/components/support/changes)
 - View
   - [Overview](/docs/2.0/components/view)
-  - [Change Log](/docs/2.0/components/view/changes)
   - [Usage](/docs/2.0/components/view/usage)
+  - [Change Log](/docs/2.0/components/view/changes)
 - Widget
   - [Overview](/docs/2.0/components/widget)
   - [Change Log](/docs/2.0/components/widget/changes)
