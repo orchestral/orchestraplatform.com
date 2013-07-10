@@ -12,5 +12,5 @@ description: "Provide a solid base off of which to build your new web applicatio
 markdown: rdiscount
 pygments: true
 permalink: pretty
-paginate: 12
-paginate_path: '/blogs/page:num'
+paginate: 10
+paginate_path: '/blogs/page-:num'
