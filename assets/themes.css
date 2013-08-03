@@ -1,0 +1,24 @@
+body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;}
+.tm-navbar{background:#343D4C;border:none;color:#ccc;padding:15px 0;}.tm-navbar .uk-navbar-brand{color:#fff;font-family:Arial,sans-serif;font-size:20px;font-weight:600;text-rendering:optimizelegibility;text-shadow:0 1px 0 rgba(0, 0, 0, 0.15);}
+.tm-navbar ul.uk-navbar-nav>li>a{color:#ccc;height:40px;margin:0;border:none;border-radius:3px;text-shadow:none;font-size:15px;}.tm-navbar ul.uk-navbar-nav>li>a:hover{background:inherit;color:#fff;}
+.tm-navbar ul.uk-navbar-nav>li.uk-active>a,.tm-navbar ul.uk-navbar-nav>li.uk-open>a{background:#4EA3D1;color:#fff !important;}
+.tm-teaser{background:#4ea3d1 url('/assets/teaser.svg') 50% 50% no-repeat;color:#fff;padding:80px 0;}.tm-teaser h1,.tm-teaser h2,.tm-teaser h3,.tm-teaser h4,.tm-teaser h5,.tm-teaser h6{color:#fff;font-family:Arial,sans-serif;}
+.tm-teaser.laravel{background-color:#E7624C;}
+.tm-teaser .tm-button-download{margin:15px 0;box-shadow:1px 1px 1px rgba(0, 0, 0, 0.1);background:#fff;border:none;color:#2ba3d4 !important;min-height:50px;padding:0 30px;line-height:50px;font-size:18px;}
+.tm-teaser+div.uk-container{padding-top:60px;}
+.tm-doc-sidebar>ul>li>ul{font-weight:normal;}
+.tm-blog-section article.uk-article:not(:first-child){padding-top:40px;}
+footer{padding-top:30px;}
+.prettyprint{font-family:Monaco,Consolas,"Lucida Console",monospace;background-color:#333;padding:1.5em;font-size:0.85em;border:0;color:#e9e4e5;line-height:1.9em;margin:20px 0;}.prettyprint .pln{color:#e9e4e5;}
+.prettyprint .str{color:#bcd42a;}
+.prettyprint .kwd{color:#4bb1b1;}
+.prettyprint .com{color:#888888;}
+.prettyprint .typ{color:#ef7c61;}
+.prettyprint .lit{color:#bcd42a;}
+.prettyprint .pun,.prettyprint .opn,.prettyprint .clo{color:#ffffff;}
+.prettyprint .tag{color:#4bb1b1;}
+.prettyprint .atn{color:#ef7c61;}
+.prettyprint .atv{color:#bcd42a;}
+.prettyprint .dec,.prettyprint .var{color:#660066;}
+.prettyprint .fun{color:#ff0000;}
+.prettyprint code{font-family:Monaco,Consolas,"Lucida Console",monospace;}

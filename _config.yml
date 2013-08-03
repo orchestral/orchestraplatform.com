@@ -1,7 +1,5 @@
-auto: true
 safe: true
-server: true
-server_port: 4000
+port: 4001
 baseurl: /
 url: http://orchestraplatform.com
 exclude: ['init.sh', 'README.md', 'docs/README.md']

@@ -1,89 +1,22 @@
 <!DOCTYPE html>
-<html lang="en"><head>
+<html lang="en">
+<head>
+	{% capture asset %}{% include asset.html %}{% endcapture %}
+	{% capture header %}{% include header.html %}{% endcapture %}
+	{% capture teaser %}{% include teaser.html %}{% endcapture %}
+	{% capture footer %}{% include footer.html %}{% endcapture %}
+
 	<meta charset="utf-8">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>{% if page.title %}{{page.title}} - {% endif %}Orchestra Platform</title>
-	<!-- BOOTSTRAP -->
-	<link type="text/css" href="/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	<link type="text/css" href="/assets/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
-	<!-- THEME -->
-	<link type="text/css" href="/assets/css/theme.css" rel="stylesheet">
-	<!--ICONS-->
-	<link type="text/css" href="/assets/icons/font-awesome/css/font-awesome.css" rel="stylesheet">
-	<link type="text/css" href="/assets/icons/linecons/style.css" rel="stylesheet">
-	<!--FONTS-->
-	<link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic,500italic,500,300italic,300' rel='stylesheet' type='text/css'>
+	{{ asset }}
+
 </head>
 <body>
-	<div class="above">
-		<header class="header">
-			<div class="container">
-				<div class="header-wrapper">
-					{% capture header %}{% include header.html %}{% endcapture %}
-					{{ header }}
-				</div>
-			</div>
-		</header>
-
-		<div class="container">
-			<div class="above-wrapper">
-				<div id="splash" class="carousel slide splash">
-					<div class="carousel-inner">
-						<div class="item active">
-							<div class="carousel-wrapper">
-								<div class="row-fluid">
-									<div class="span5">
-										<div class="carousel-content">
-											<div>
-												<h3>What is Orchestra Platform?</h3>
-												<p class="lead">
-													Provide a solid base off of which to build your new web applications. It's not a CMS. Instead, it's a springboard to build off of with many of the tools you wish you had on projects but never took the time to build. Orchestra Platform is what Bonfire is for CodeIgniter.
-												</p>
-												<hr>
-												<a href="/docs/2.0/" class="btn btn-large btn-primary">Learn Now</a>
-											</div>
-										</div>
-									</div>
-									<div class="span7">
-										<div class="carousel-splash"></div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="item">
-							<div class="carousel-wrapper">
-								<div class="row-fluid">
-									<div class="span5">
-										<div class="carousel-content">
-											<div>
-												<h3>Built on top of Laravel</h3>
-												<p class="lead">
-													Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, and caching.
-												</p>
-											</div>
-										</div>
-									</div>
-									<div class="span7">
-										<div class="carousel-splash"></div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<a class="left carousel-control" href="#splash" data-slide="prev"><i class="icon-angle-left"></i></a>
-					<a class="right carousel-control" href="#splash" data-slide="next"><i class="icon-angle-right"></i></a>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="container">		
-		<div class="content-wrapper">
-			{{ content }}
-		</div>
-	</div>
-
-	{% capture footer %}{% include footer.html %}{% endcapture %}
+	{{ header }}
+	{{ teaser }}
+	{{ content }}
 	{{ footer }}
 </body>
+</html>

@@ -3,7 +3,6 @@
 <head>
 	{% capture asset %}{% include asset.html %}{% endcapture %}
 	{% capture header %}{% include header.html %}{% endcapture %}
-	{% capture sidebar %}{% include sidebar-docs2.0.md %}{% endcapture %}
 	{% capture lead %}{% include lead.html %}{% endcapture %}
 	{% capture footer %}{% include footer.html %}{% endcapture %}
 
@@ -12,23 +11,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>{% if page.title %}{{page.title}} - {% endif %}Orchestra Platform</title>
 	{{ asset }}
-
 </head>
 <body>
 	{{ header }}
 	{{ lead }}
-	<div class="uk-container uk-container-center">
-		<div class="uk-grid">
-			<div class="uk-width-large-1-4">
-				<div class="tm-doc-sidebar">
-					{{ sidebar|markdownify }}
-				</div>
-			</div>
-			<div class="uk-width-large-3-4">
-				{{ content }}
-			</div>
-		</div>
-	</div>
+	{{ content }}
 	{{ footer }}
 </body>
 </html>

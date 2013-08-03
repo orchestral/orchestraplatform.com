@@ -1,62 +1,61 @@
 ---
-layout: blog
+layout: blogs
 title: Blog
 lead: Orchestra Platform Official Blog
 
 ---
 
-<section class="section blog">
-	<div class="row-fluid">
-		<div class="span8">
+<div class="uk-container uk-container-center tm-blog-section">
+	<div class="uk-grid">
+		<div class="uk-width-large-3-4">
 			{% for post in paginator.posts %}
-			<article class="post">
-				<div class="post-head">
-					<h2 class="post-title">
-						<a href="{{ post.url }}">{{ post.title }}</a>
-					</h2>
-					<p class="post-meta muted">
-						<span><i class="icon-calendar"></i>{{ post.date | date: "%B %d, %Y" }}</span>
-						{% if post.author and post.author.name %}
-						<span>
-							<i class="icon-user"></i>
-							{% if post.author.url %}
-								<a href="{{ post.author.url }}" target="_blank">{{ post.author.name }}</a>
-							{% else %}
-								{{ post.author.name }}
-							{% endif %}
-						</span>
+			<article class="uk-article">
+				<h2 class="uk-article-title">
+					<a href="{{ post.url }}">{{ post.title }}</a>
+				</h2>
+				<p class="uk-article-meta">
+					Written 
+					{% if post.author and post.author.name %}
+					by 
+						{% if post.author.url %}
+							<a href="{{ post.author.url }}" target="_blank">{{ post.author.name }}</a>
+						{% else %}
+							{{ post.author.name }}
 						{% endif %}
-						<span><i class="icon-comments"></i><a href="{{ post.url }}#disqus_thread">Comments</a></span>
-					</p>
-				</div>
-				<div class="post-body">
+					{% endif %}
+					on {{ post.date | date: "%B %d, %Y" }}
+				</p>
+				<div class="tm-article-body">
 					{{ post.excerpt }}
 				</div>
-				<div class="post-foot">
-					<span><a href="{{ post.url }}" class="btn">Read More</a></span>
+				<div class="uk-button-group">
+					<a href="{{ post.url }}" class="uk-button">Read More</a>
+					<a href="{{ post.url }}#disqus_thread" class="uk-button">No Comments</a>
 				</div>
 			</article>
 			{% endfor %}
-
-			<div class="pager">
+			<hr>
+			<ul class="uk-pagination">
 				{% if paginator.previous_page %}
+				<li class="uk-pagination-previous">
 				{% if paginator.previous_page == 1 %}
 					<a href="/blogs/">Previous</a>
 				{% else %}
 					<a href="/blogs/page-{{paginator.previous_page}}">Previous</a>
 				{% endif %}
+				</li>
 				{% endif %}
 				{% if paginator.next_page %}
-					<a href="/blogs/page-{{paginator.next_page}}">Next</a>
+					<li class="uk-pagination-next"><a href="/blogs/page-{{paginator.next_page}}">Next</a></li>
 				{% endif %}
-			</div>
+			</ul>
 		</div>
-		<div class="span4">
+		<div class="uk-width-large-1-4">
 			{% capture sidebar %}{% include sidebar.html %}{% endcapture %}
 			{{ sidebar }}
 		</div>
 	</div>
-</section>
+</div>
 <script type="text/javascript">
 /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
 var disqus_shortname = 'orchestraplatform-blog'; // required: replace example with your forum shortname
