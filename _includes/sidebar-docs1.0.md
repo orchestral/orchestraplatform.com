@@ -1,6 +1,6 @@
 ### Foundation
 - General
-  - [Overviews](/docs/1.0/home)
+  - [Overviews](/docs/1.0)
   - [Change Logs](/docs/1.0/changes)
   - [License](/docs/1.0/license)
 - Getting Started
