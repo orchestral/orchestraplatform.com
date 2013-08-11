@@ -1,4 +1,4 @@
-### Foundation
+### Platform
 - Preface
   - [Introduction](/docs/2.0)
   - [Change Log](/docs/2.0/changes)
