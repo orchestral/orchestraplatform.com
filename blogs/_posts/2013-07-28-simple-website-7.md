@@ -38,7 +38,7 @@ What happen if we visit <http://localhost:8000/admin/extensions>?
 
 ![Broken Extension](/blogs/assets/2013/07/broken-extension.png)
 
-## Use safe mode
+### Use Safe Mode
 
 So what should you do? There a way for you to run Orchestra Platform in safe mode (where extension is not booted at all). To run this simply append `?safe_mode=on` from any page (e.g: <http://localhost:8000/admin/extensions?safe_mode=on>).
 
@@ -46,6 +46,6 @@ So what should you do? There a way for you to run Orchestra Platform in safe mod
 
 Now you can safely deactivate playground extension by clicking on the deactivate button, problem solved.
 
-## Use normal mode
+### Revert to Normal Mode
 
-To reset back to normal mode, all you need to do is appen `?safe_mode=off` and you're done (e.g: <http://localhost:8000/admin/extensions?safe_mode=off>).
+To reset back to normal mode, all you need to do is append `?safe_mode=off` and you're done (e.g: <http://localhost:8000/admin/extensions?safe_mode=off>).
