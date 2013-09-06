@@ -46,6 +46,9 @@
   - [Overview](/docs/2.0/components/resources)
   - [Usage](/docs/2.0/components/resources/usage)
   - [Change Log](/docs/2.0/components/resources/changes)
+- Translation
+  - [Overview](/docs/2.0/components/translation)
+  - [Change Log](/docs/2.0/components/translation/changes)
 - Support
   - [Overview](/docs/2.0/components/support)
   - [Manager](/docs/2.0/components/support/manager)
