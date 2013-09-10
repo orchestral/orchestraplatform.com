@@ -84,12 +84,13 @@ After adding this file, we can then complete the Orchestra Platform install proc
 	| address2   | varchar(64)      | YES  |     | NULL                |                |
 	| address3   | varchar(64)      | YES  |     | NULL                |                |
 	| postcode   | varchar(16)      | YES  |     | NULL                |                |
+	| telephone  | varchar(24)      | YES  |     | NULL                |                |
 	| status     | int(11)          | YES  |     | NULL                |                |
 	| created_at | timestamp        | NO   |     | 0000-00-00 00:00:00 |                |
 	| updated_at | timestamp        | NO   |     | 0000-00-00 00:00:00 |                |
 	| deleted_at | timestamp        | YES  |     | NULL                |                |
 	+------------+------------------+------+-----+---------------------+----------------+
-	11 rows in set (0.01 sec)
+	12 rows in set (0.01 sec)
 
 Great! So we've successfully extended the `users` table. 
 
@@ -109,8 +110,7 @@ The specific events that we'll be interested in listening for are:
 * **orchestra.list: users**: occurs when listing users on the ```admin/users``` page.
 * **orchestra.form: users**: occurs when rendering the form for adding or updating users.
 * **orchestra.validate: users**: fires before form validation.
-* **orchestra.updating: users**: fires when updating an existing user.
-* **orchestra.creating: users**: fires when creating a new user.
+* **orchestra.saving: users**: fires before saving when creating a new user or updating an existing one.
 
 So for our scenario, the event handlers will be:
 
@@ -159,26 +159,18 @@ So for our scenario, the event handlers will be:
 			$rules['telephone'] = array('alpha_dash', 'between:0,24');
 		});
 		
-		// Add the new values to the model object before saving on update
-		Event::listen('orchestra.updating: users', function ($user)
+		// Add the new values to the model object before saving
+		Event::listen('orchestra.saving: users', function ($user)
 		{
 			$user->address1 = Input::get('address1');
 			$user->address2 = Input::get('address2');
 			$user->address3 = Input::get('address3');
 			$user->postcode = Input::get('postcode');
-			$user->hometel = Input::get('telephone');
-		});
-
-		// Add the new values to the model object before saving on create
-		Event::listen('orchestra.creating: users', function ($user)
-		{
-			$user->address1 = Input::get('address1');
-			$user->address2 = Input::get('address2');
-			$user->address3 = Input::get('address3');
-			$user->postcode = Input::get('postcode');
-			$user->hometel = Input::get('telephone');
+			$user->telephone = Input::get('telephone');
 		});
 	});
+
+Note that we can use ```user.account``` in place of ```users``` in the event names above if we want the user to also have the ability to view and edit these fields - for example, ```orchestra.saving: users``` becomes ```orchestra.saving: user.account```. If we listen for the ```users``` events instead (as demonstrated above), only Administrators will be able to see and use the new fields. 
 
 And that's it!
 
