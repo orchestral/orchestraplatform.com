@@ -110,7 +110,6 @@ return array(
 		'Illuminate\Foundation\Providers\TinkerServiceProvider',
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
-		'Illuminate\Workbench\WorkbenchServiceProvider',
 
 		'Orchestra\Asset\AssetServiceProvider',
 		'Orchestra\Auth\AuthServiceProvider',
