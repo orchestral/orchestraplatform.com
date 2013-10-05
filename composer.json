@@ -1,0 +1,42 @@
+{
+	"name": "orchestra/platform",
+	"description": "Orchestra Platform",
+	"homepage": "http://orchestraplatform.com/docs/2.0/",
+	"keywords": ["framework", "laravel", "orchestra-platform", "orchestral"],
+	"license": "MIT",
+	"require": {
+		"orchestra/foundation": "2.1.*",
+		"orchestra/control": "2.1.*",
+		"orchestra/story": "2.1.*"
+	},
+	"autoload": {
+		"classmap": [
+			"app/commands",
+			"app/controllers",
+			"app/models",
+			"app/database/migrations",
+			"app/database/seeds",
+			"app/tests/TestCase.php"
+		]
+	},
+	"scripts": {
+		"post-install-cmd": [
+			"php artisan optimize",
+			"php artisan asset:publish orchestra/foundation"
+		],
+		"pre-update-cmd": [
+			"php artisan clear-compiled"
+		],
+		"post-update-cmd": [
+			"php artisan optimize",
+			"php artisan asset:publish orchestra/foundation"
+		],
+		"post-create-project-cmd": [
+			"php artisan key:generate"
+		]
+	},
+	"config": {
+		"preferred-install": "dist"
+	},
+	"minimum-stability": "dev"
+}
