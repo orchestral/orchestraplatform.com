@@ -1,9 +1,6 @@
 {
-	"name": "orchestra/platform",
-	"description": "Orchestra Platform",
-	"homepage": "http://orchestraplatform.com/docs/2.0/",
-	"keywords": ["framework", "laravel", "orchestra-platform", "orchestral"],
-	"license": "MIT",
+	"description": "Orchestra Platform Website",
+	"license": "proprietary",
 	"require": {
 		"orchestra/foundation": "2.1.*",
 		"orchestra/control": "2.1.*",
