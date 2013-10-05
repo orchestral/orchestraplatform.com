@@ -1,1 +1,7 @@
-/vendor
+# Laravel 
+/bootstrap/compiled.php
+/public/packages/*
+
+# Composer
+vendor/*
+composer.phar
