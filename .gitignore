@@ -1,5 +1,6 @@
 # Laravel 
 /bootstrap/compiled.php
+/bootstrap/env.php
 /public/packages/*
 
 # Composer

@@ -26,11 +26,10 @@ $app->redirectIfTrailingSlash();
 |
 */
 
-$env = $app->detectEnvironment(array(
-
-	'local' => array('your-machine-name'),
-
-));
+$env = $app->detectEnvironment(function ()
+{
+	return require __DIR__.'/env.php';
+});
 
 /*
 |--------------------------------------------------------------------------
