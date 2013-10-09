@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "a14a0617bef7ebd3be29c166d06ce259",
+    "hash": "9ffa4cf4b1ca0739d81ab0a448534899",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -87,28 +87,60 @@
             "time": "2013-10-05 05:55:21"
         },
         {
-            "name": "dflydev/markdown",
-            "version": "v1.0.3",
+            "name": "daylerees/kurenai",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/dflydev/dflydev-markdown.git",
-                "reference": "6baed9b50f29c980795b6656d43722aadb126f7e"
+                "url": "https://github.com/daylerees/kurenai.git",
+                "reference": "77dc02abb652783d92783bffeee95afe3c741205"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dflydev/dflydev-markdown/zipball/6baed9b50f29c980795b6656d43722aadb126f7e",
-                "reference": "6baed9b50f29c980795b6656d43722aadb126f7e",
+                "url": "https://api.github.com/repos/daylerees/kurenai/zipball/77dc02abb652783d92783bffeee95afe3c741205",
+                "reference": "77dc02abb652783d92783bffeee95afe3c741205",
+                "shasum": ""
+            },
+            "require": {
+                "dflydev/markdown": "v1.0.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Kurenai": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Markdown document parser with metadata.",
+            "keywords": [
+                "daylerees",
+                "document",
+                "kurenai",
+                "markdown",
+                "metadata"
+            ],
+            "time": "2013-03-16 01:43:13"
+        },
+        {
+            "name": "dflydev/markdown",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dflydev/dflydev-markdown.git",
+                "reference": "2a1b3516bd5af6e722b40ae9e1fccd03e1772060"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dflydev/dflydev-markdown/zipball/2a1b3516bd5af6e722b40ae9e1fccd03e1772060",
+                "reference": "2a1b3516bd5af6e722b40ae9e1fccd03e1772060",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                }
-            },
             "autoload": {
                 "psr-0": {
                     "dflydev\\markdown": "src"
@@ -116,7 +148,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "BSD-3-Clause"
+                "New BSD License"
             ],
             "authors": [
                 {
@@ -143,7 +175,7 @@
             "keywords": [
                 "markdown"
             ],
-            "time": "2013-09-23 12:00:18"
+            "time": "2012-01-16 03:36:37"
         },
         {
             "name": "evenement/evenement",
@@ -773,6 +805,49 @@
             "time": "2013-10-05 08:59:29"
         },
         {
+            "name": "orchestra/dochub",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/orchestral/dochub.git",
+                "reference": "443a9cba90e562bbb966fdbe052393d751463030"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/orchestral/dochub/zipball/443a9cba90e562bbb966fdbe052393d751463030",
+                "reference": "443a9cba90e562bbb966fdbe052393d751463030",
+                "shasum": ""
+            },
+            "require": {
+                "daylerees/kurenai": "1.0.0",
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "illuminate/support": "4.0.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Orchestra\\Dochub": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "crynobone",
+                    "email": "crynobone@gmail.com"
+                }
+            ],
+            "description": "Documentation Viewer Package for Laravel 4",
+            "support": {
+                "source": "https://github.com/orchestral/dochub/tree/master",
+                "issues": "https://github.com/orchestral/dochub/issues"
+            },
+            "time": "2013-10-04 13:02:39"
+        },
+        {
             "name": "orchestra/extension",
             "version": "dev-master",
             "source": {
@@ -1191,16 +1266,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/story.git",
-                "reference": "58aa5fcd63f634b4009409edd85effef488ee46e"
+                "reference": "e5b401c50e71cb0367fb84eaee00867e00e1304a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/story/zipball/58aa5fcd63f634b4009409edd85effef488ee46e",
-                "reference": "58aa5fcd63f634b4009409edd85effef488ee46e",
+                "url": "https://api.github.com/repos/orchestral/story/zipball/e5b401c50e71cb0367fb84eaee00867e00e1304a",
+                "reference": "e5b401c50e71cb0367fb84eaee00867e00e1304a",
                 "shasum": ""
             },
             "require": {
-                "dflydev/markdown": "v1.0.3",
+                "dflydev/markdown": "1.0.*",
                 "php": ">=5.3.3"
             },
             "require-dev": {
@@ -1240,7 +1315,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-10-05 11:28:38"
+            "time": "2013-10-09 06:37:14"
         },
         {
             "name": "orchestra/support",
@@ -2507,9 +2582,9 @@
 
     ],
     "minimum-stability": "dev",
-    "stability-flags": [
-
-    ],
+    "stability-flags": {
+        "orchestra/dochub": 20
+    },
     "platform": [
 
     ],
