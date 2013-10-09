@@ -778,12 +778,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/extension.git",
-                "reference": "fa5594a1d0a32dbc91c0ea28856258fd655d6549"
+                "reference": "4b717d4d3e210843f42c4ad33615659850269662"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/extension/zipball/fa5594a1d0a32dbc91c0ea28856258fd655d6549",
-                "reference": "fa5594a1d0a32dbc91c0ea28856258fd655d6549",
+                "url": "https://api.github.com/repos/orchestral/extension/zipball/4b717d4d3e210843f42c4ad33615659850269662",
+                "reference": "4b717d4d3e210843f42c4ad33615659850269662",
                 "shasum": ""
             },
             "require": {
@@ -828,7 +828,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-10-08 01:26:07"
+            "time": "2013-10-09 03:30:39"
         },
         {
             "name": "orchestra/facile",
