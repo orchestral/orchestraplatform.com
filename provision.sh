@@ -1,4 +1,5 @@
 git pull
+git submodule foreach git pull
 chmod -Rf 777 app/storage
 chown -R www-data:www-data public/packages
 chown -R www-data:www-data app/storage
