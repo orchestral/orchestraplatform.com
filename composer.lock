@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "9ffa4cf4b1ca0739d81ab0a448534899",
+    "hash": "bfb9a797ff3e6e11f8c0b45533dabd4b",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -178,51 +178,6 @@
             "time": "2012-01-16 03:36:37"
         },
         {
-            "name": "evenement/evenement",
-            "version": "1.0.x-dev",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/igorw/evenement.git",
-                "reference": "8b0918f8374327dfed4408fe467980ab41d556dd"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/igorw/evenement/zipball/8b0918f8374327dfed4408fe467980ab41d556dd",
-                "reference": "8b0918f8374327dfed4408fe467980ab41d556dd",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Evenement": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Igor Wiedler",
-                    "email": "igor@wiedler.ch",
-                    "homepage": "http://wiedler.ch/igor/"
-                }
-            ],
-            "description": "Événement is a very simple event dispatching library for PHP 5.3",
-            "keywords": [
-                "event-dispatcher"
-            ],
-            "time": "2012-12-29 17:04:52"
-        },
-        {
             "name": "filp/whoops",
             "version": "1.0.7",
             "source": {
@@ -313,6 +268,75 @@
             "time": "2013-04-30 19:58:08"
         },
         {
+            "name": "jasonlewis/basset",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jasonlewis/basset.git",
+                "reference": "d1e7d7c8c448a1cca2538d38289af3b34fc3e18c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jasonlewis/basset/zipball/d1e7d7c8c448a1cca2538d38289af3b34fc3e18c",
+                "reference": "d1e7d7c8c448a1cca2538d38289af3b34fc3e18c",
+                "shasum": ""
+            },
+            "require": {
+                "kriswallsmith/assetic": "1.1.*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "illuminate/config": "4.0.*",
+                "illuminate/console": "4.0.*",
+                "illuminate/filesystem": "4.0.*",
+                "illuminate/log": "4.0.*",
+                "illuminate/routing": "4.0.*",
+                "illuminate/support": "4.0.*",
+                "mockery/mockery": ">=0.7.2",
+                "symfony/process": "2.3.*"
+            },
+            "suggest": {
+                "aws/aws-sdk-php": "Deploy static assets directly to your S3 buckets.",
+                "rackspace/php-cloudfiles": "Deploy static assets directly to your Cloud Files container."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Basset": "src/"
+                },
+                "classmap": [
+                    "tests/Cases/FilterTestCase.php"
+                ],
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Jason Lewis",
+                    "email": "jason.lewis1991@gmail.com",
+                    "homepage": "http://jasonlewis.me",
+                    "role": "Creator"
+                }
+            ],
+            "description": "A better asset management package for Laravel.",
+            "keywords": [
+                "assets",
+                "basset",
+                "laravel"
+            ],
+            "time": "2013-06-14 06:13:15"
+        },
+        {
             "name": "jeremeamia/SuperClosure",
             "version": "1.0.1",
             "source": {
@@ -361,17 +385,88 @@
             "time": "2013-10-09 04:20:00"
         },
         {
+            "name": "kriswallsmith/assetic",
+            "version": "1.1.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kriswallsmith/assetic.git",
+                "reference": "1d671c54f147ece319642132330927672b6190a7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kriswallsmith/assetic/zipball/1d671c54f147ece319642132330927672b6190a7",
+                "reference": "1d671c54f147ece319642132330927672b6190a7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.1",
+                "symfony/process": "~2.1"
+            },
+            "require-dev": {
+                "cssmin/cssmin": "*",
+                "joliclic/javascript-packer": "*",
+                "kamicane/packager": "*",
+                "leafo/lessphp": "*",
+                "leafo/scssphp": "*",
+                "leafo/scssphp-compass": "*",
+                "mrclay/minify": "*",
+                "phpunit/phpunit": "~3.7",
+                "ptachoire/cssembed": "*",
+                "twig/twig": "~1.6"
+            },
+            "suggest": {
+                "leafo/lessphp": "Assetic provides the integration with the lessphp LESS compiler",
+                "leafo/scssphp": "Assetic provides the integration with the scssphp SCSS compiler",
+                "leafo/scssphp-compass": "Assetic provides the integration with the SCSS compass plugin",
+                "ptachoire/cssembed": "Assetic provides the integration with phpcssembed to embed data uris",
+                "twig/twig": "Assetic provides the integration with the Twig templating engine"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Assetic": "src/"
+                },
+                "files": [
+                    "src/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kris Wallsmith",
+                    "email": "kris.wallsmith@gmail.com",
+                    "homepage": "http://kriswallsmith.net/"
+                }
+            ],
+            "description": "Asset Management for PHP",
+            "homepage": "https://github.com/kriswallsmith/assetic",
+            "keywords": [
+                "assets",
+                "compression",
+                "minification"
+            ],
+            "time": "2013-09-03 12:44:05"
+        },
+        {
             "name": "laravel/framework",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "c54daa1db7f34f7982e31dce2c9b10445f2068c8"
+                "reference": "4e631eb3e10ba6cc1006ffe39abcc6be30053006"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/c54daa1db7f34f7982e31dce2c9b10445f2068c8",
-                "reference": "c54daa1db7f34f7982e31dce2c9b10445f2068c8",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/4e631eb3e10ba6cc1006ffe39abcc6be30053006",
+                "reference": "4e631eb3e10ba6cc1006ffe39abcc6be30053006",
                 "shasum": ""
             },
             "require": {
@@ -386,7 +481,6 @@
                 "php": ">=5.3.0",
                 "phpseclib/phpseclib": "0.3.*",
                 "predis/predis": "0.8.*",
-                "react/socket": "0.3.*",
                 "swiftmailer/swiftmailer": "5.0.*",
                 "symfony/browser-kit": "2.4.*",
                 "symfony/console": "2.4.*",
@@ -429,10 +523,10 @@
                 "illuminate/workbench": "self.version"
             },
             "require-dev": {
-                "aws/aws-sdk-php": "2.2.*",
-                "iron-io/iron_mq": "1.4.4",
+                "aws/aws-sdk-php": "2.4.*",
+                "iron-io/iron_mq": "1.4.*",
                 "mockery/mockery": "0.8.0",
-                "pda/pheanstalk": "2.0.*",
+                "pda/pheanstalk": "2.1.*",
                 "phpunit/phpunit": "3.7.*"
             },
             "suggest": {
@@ -474,7 +568,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2013-10-16 03:33:21"
+            "time": "2013-10-21 01:47:05"
         },
         {
             "name": "monolog/monolog",
@@ -633,12 +727,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/asset.git",
-                "reference": "273f9c282a103685ccb9c5ad9cb00bb7fcda35ad"
+                "reference": "393c2ae324ac8c958bfdfa81299a7bd2a89f8321"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/asset/zipball/273f9c282a103685ccb9c5ad9cb00bb7fcda35ad",
-                "reference": "273f9c282a103685ccb9c5ad9cb00bb7fcda35ad",
+                "url": "https://api.github.com/repos/orchestral/asset/zipball/393c2ae324ac8c958bfdfa81299a7bd2a89f8321",
+                "reference": "393c2ae324ac8c958bfdfa81299a7bd2a89f8321",
                 "shasum": ""
             },
             "require": {
@@ -683,7 +777,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-10-15 12:08:28"
+            "time": "2013-10-21 03:21:11"
         },
         {
             "name": "orchestra/auth",
@@ -691,12 +785,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/auth.git",
-                "reference": "aafed86dcea28e004872f96cfd37d55af561669f"
+                "reference": "dfae60a478600d1b49194839f415065f132f8b06"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/auth/zipball/aafed86dcea28e004872f96cfd37d55af561669f",
-                "reference": "aafed86dcea28e004872f96cfd37d55af561669f",
+                "url": "https://api.github.com/repos/orchestral/auth/zipball/dfae60a478600d1b49194839f415065f132f8b06",
+                "reference": "dfae60a478600d1b49194839f415065f132f8b06",
                 "shasum": ""
             },
             "require": {
@@ -745,7 +839,7 @@
                 "orchestral",
                 "rbac"
             ],
-            "time": "2013-10-14 12:27:09"
+            "time": "2013-10-21 01:52:34"
         },
         {
             "name": "orchestra/control",
@@ -753,12 +847,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/control.git",
-                "reference": "8d4947712f5391536738566b721c0dd82b0d16c7"
+                "reference": "ff397f7a0af19203023a3f1e8c4ae536e0940156"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/control/zipball/8d4947712f5391536738566b721c0dd82b0d16c7",
-                "reference": "8d4947712f5391536738566b721c0dd82b0d16c7",
+                "url": "https://api.github.com/repos/orchestral/control/zipball/ff397f7a0af19203023a3f1e8c4ae536e0940156",
+                "reference": "ff397f7a0af19203023a3f1e8c4ae536e0940156",
                 "shasum": ""
             },
             "require": {
@@ -802,7 +896,7 @@
                 "theme",
                 "timezone"
             ],
-            "time": "2013-10-11 13:21:56"
+            "time": "2013-10-20 11:27:23"
         },
         {
             "name": "orchestra/dochub",
@@ -853,12 +947,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/extension.git",
-                "reference": "5c69b7e55204520b0a79ef4a6e08cbe757030a54"
+                "reference": "7404cf0f33e7e2778d4e2960a97852a7d348da6e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/extension/zipball/5c69b7e55204520b0a79ef4a6e08cbe757030a54",
-                "reference": "5c69b7e55204520b0a79ef4a6e08cbe757030a54",
+                "url": "https://api.github.com/repos/orchestral/extension/zipball/7404cf0f33e7e2778d4e2960a97852a7d348da6e",
+                "reference": "7404cf0f33e7e2778d4e2960a97852a7d348da6e",
                 "shasum": ""
             },
             "require": {
@@ -904,7 +998,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-10-14 12:08:35"
+            "time": "2013-10-21 10:23:19"
         },
         {
             "name": "orchestra/facile",
@@ -912,12 +1006,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/facile.git",
-                "reference": "9be2daa61ddb3588ff871e1996d5fcf2652df658"
+                "reference": "b1ed1d2469afab043cb8866dc179d5b5f79f4f13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/facile/zipball/9be2daa61ddb3588ff871e1996d5fcf2652df658",
-                "reference": "9be2daa61ddb3588ff871e1996d5fcf2652df658",
+                "url": "https://api.github.com/repos/orchestral/facile/zipball/b1ed1d2469afab043cb8866dc179d5b5f79f4f13",
+                "reference": "b1ed1d2469afab043cb8866dc179d5b5f79f4f13",
                 "shasum": ""
             },
             "require": {
@@ -963,7 +1057,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-10-05 08:58:23"
+            "time": "2013-10-21 03:05:34"
         },
         {
             "name": "orchestra/foundation",
@@ -971,12 +1065,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "379373857405615a8eeca7d0e66cc83efdd0e758"
+                "reference": "a8b60e9a9c3f9a64a63c95184bf829bb86217b4f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/379373857405615a8eeca7d0e66cc83efdd0e758",
-                "reference": "379373857405615a8eeca7d0e66cc83efdd0e758",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/a8b60e9a9c3f9a64a63c95184bf829bb86217b4f",
+                "reference": "a8b60e9a9c3f9a64a63c95184bf829bb86217b4f",
                 "shasum": ""
             },
             "require": {
@@ -997,7 +1091,9 @@
             },
             "require-dev": {
                 "mockery/mockery": "0.8.0",
-                "orchestra/testbench": "2.1.*"
+                "orchestra/testbench": "2.1.*",
+                "packagist/yuicompressor-bin": "dev-master",
+                "twbs/bootstrap": "3.0.*"
             },
             "type": "library",
             "extra": {
@@ -1031,7 +1127,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-10-15 12:29:08"
+            "time": "2013-10-21 05:45:37"
         },
         {
             "name": "orchestra/html",
@@ -1039,12 +1135,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/html.git",
-                "reference": "b6a805de491165880d1da2fdbc0791f188ab39bd"
+                "reference": "3f53bddfe056424adb2dd5fa9a494745143c4b32"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/html/zipball/b6a805de491165880d1da2fdbc0791f188ab39bd",
-                "reference": "b6a805de491165880d1da2fdbc0791f188ab39bd",
+                "url": "https://api.github.com/repos/orchestral/html/zipball/3f53bddfe056424adb2dd5fa9a494745143c4b32",
+                "reference": "3f53bddfe056424adb2dd5fa9a494745143c4b32",
                 "shasum": ""
             },
             "require": {
@@ -1089,7 +1185,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-10-16 06:48:57"
+            "time": "2013-10-21 03:44:33"
         },
         {
             "name": "orchestra/memory",
@@ -1097,12 +1193,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/memory.git",
-                "reference": "fc480c6235d800135e12e10e157c6e7730ab7504"
+                "reference": "5af7a7d80d2f14868df2316dda851671d658883b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/memory/zipball/fc480c6235d800135e12e10e157c6e7730ab7504",
-                "reference": "fc480c6235d800135e12e10e157c6e7730ab7504",
+                "url": "https://api.github.com/repos/orchestral/memory/zipball/5af7a7d80d2f14868df2316dda851671d658883b",
+                "reference": "5af7a7d80d2f14868df2316dda851671d658883b",
                 "shasum": ""
             },
             "require": {
@@ -1146,7 +1242,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-10-12 05:11:08"
+            "time": "2013-10-21 01:35:33"
         },
         {
             "name": "orchestra/model",
@@ -1154,12 +1250,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/model.git",
-                "reference": "bcc88f978199b9362f2b0d701e0ac0cf64cb549f"
+                "reference": "4ac00fa7271aba023fd15578295cf5917ad7a155"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/model/zipball/bcc88f978199b9362f2b0d701e0ac0cf64cb549f",
-                "reference": "bcc88f978199b9362f2b0d701e0ac0cf64cb549f",
+                "url": "https://api.github.com/repos/orchestral/model/zipball/4ac00fa7271aba023fd15578295cf5917ad7a155",
+                "reference": "4ac00fa7271aba023fd15578295cf5917ad7a155",
                 "shasum": ""
             },
             "require": {
@@ -1201,7 +1297,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-10-15 09:12:21"
+            "time": "2013-10-21 03:27:24"
         },
         {
             "name": "orchestra/resources",
@@ -1209,12 +1305,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/resources.git",
-                "reference": "585c01c17ba643521a410159fe5662ffa72e3b4e"
+                "reference": "dd297a586ea29d3ac7d1d9a5dad94e312a1c586c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/resources/zipball/585c01c17ba643521a410159fe5662ffa72e3b4e",
-                "reference": "585c01c17ba643521a410159fe5662ffa72e3b4e",
+                "url": "https://api.github.com/repos/orchestral/resources/zipball/dd297a586ea29d3ac7d1d9a5dad94e312a1c586c",
+                "reference": "dd297a586ea29d3ac7d1d9a5dad94e312a1c586c",
                 "shasum": ""
             },
             "require": {
@@ -1260,7 +1356,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-10-13 15:22:30"
+            "time": "2013-10-21 03:49:47"
         },
         {
             "name": "orchestra/story",
@@ -1268,12 +1364,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/story.git",
-                "reference": "34604604ad3ed943eb3f7e5047a41d025142afc4"
+                "reference": "01ac2a7ecb740c9c24f74f41358df48d404c0b23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/story/zipball/34604604ad3ed943eb3f7e5047a41d025142afc4",
-                "reference": "34604604ad3ed943eb3f7e5047a41d025142afc4",
+                "url": "https://api.github.com/repos/orchestral/story/zipball/01ac2a7ecb740c9c24f74f41358df48d404c0b23",
+                "reference": "01ac2a7ecb740c9c24f74f41358df48d404c0b23",
                 "shasum": ""
             },
             "require": {
@@ -1283,7 +1379,8 @@
             "require-dev": {
                 "mockery/mockery": "0.8.0",
                 "orchestra/foundation": "2.1.*",
-                "orchestra/testbench": "2.1.*"
+                "orchestra/testbench": "2.1.*",
+                "packagist/yuicompressor-bin": "dev-master"
             },
             "type": "library",
             "extra": {
@@ -1317,7 +1414,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-10-13 11:42:59"
+            "time": "2013-10-20 12:01:46"
         },
         {
             "name": "orchestra/support",
@@ -1325,12 +1422,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/support.git",
-                "reference": "939ac64e6fe278415256cb55278fad4db7a35368"
+                "reference": "1376a4fb8c17a1dd5f6939f4a67b56d184fce027"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/support/zipball/939ac64e6fe278415256cb55278fad4db7a35368",
-                "reference": "939ac64e6fe278415256cb55278fad4db7a35368",
+                "url": "https://api.github.com/repos/orchestral/support/zipball/1376a4fb8c17a1dd5f6939f4a67b56d184fce027",
+                "reference": "1376a4fb8c17a1dd5f6939f4a67b56d184fce027",
                 "shasum": ""
             },
             "require": {
@@ -1374,7 +1471,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-10-14 06:08:07"
+            "time": "2013-10-21 01:13:33"
         },
         {
             "name": "orchestra/translation",
@@ -1382,12 +1479,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/translation.git",
-                "reference": "02138eb384e4421453fd18991f1586afccd3d7c4"
+                "reference": "aa54877c5d6a7a3e779ee6b6ec0ffd3f0d0ad663"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/translation/zipball/02138eb384e4421453fd18991f1586afccd3d7c4",
-                "reference": "02138eb384e4421453fd18991f1586afccd3d7c4",
+                "url": "https://api.github.com/repos/orchestral/translation/zipball/aa54877c5d6a7a3e779ee6b6ec0ffd3f0d0ad663",
+                "reference": "aa54877c5d6a7a3e779ee6b6ec0ffd3f0d0ad663",
                 "shasum": ""
             },
             "require": {
@@ -1398,8 +1495,7 @@
                 "mockery/mockery": "0.8.0"
             },
             "suggest": {
-                "laravel/framework": "Allow using orchestra/translation component outside of Orchestra Platform 2",
-                "orchestra/foundation": "Allow using orchestra/translation with Orchestra Platform 2"
+                "laravel/framework": "Allow using orchestra/translation as added feature to illuminate/translation"
             },
             "type": "library",
             "extra": {
@@ -1431,7 +1527,7 @@
                 "orchestral",
                 "translation"
             ],
-            "time": "2013-10-15 11:42:30"
+            "time": "2013-10-21 02:04:39"
         },
         {
             "name": "orchestra/view",
@@ -1439,12 +1535,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/view.git",
-                "reference": "5b29bbae7ecbdc48a8faa05b45b8cb1ea24e6246"
+                "reference": "40acd1861f7ff6e3e8355d51937d3197c7807bb2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/view/zipball/5b29bbae7ecbdc48a8faa05b45b8cb1ea24e6246",
-                "reference": "5b29bbae7ecbdc48a8faa05b45b8cb1ea24e6246",
+                "url": "https://api.github.com/repos/orchestral/view/zipball/40acd1861f7ff6e3e8355d51937d3197c7807bb2",
+                "reference": "40acd1861f7ff6e3e8355d51937d3197c7807bb2",
                 "shasum": ""
             },
             "require": {
@@ -1489,7 +1585,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-10-15 09:32:32"
+            "time": "2013-10-21 02:51:44"
         },
         {
             "name": "orchestra/widget",
@@ -1497,12 +1593,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/widget.git",
-                "reference": "c3d3681e2aba4eec257b3131483c32d3af40c411"
+                "reference": "9b3cedb075c214347d441c4e7ed84cdd49bde7db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/widget/zipball/c3d3681e2aba4eec257b3131483c32d3af40c411",
-                "reference": "c3d3681e2aba4eec257b3131483c32d3af40c411",
+                "url": "https://api.github.com/repos/orchestral/widget/zipball/9b3cedb075c214347d441c4e7ed84cdd49bde7db",
+                "reference": "9b3cedb075c214347d441c4e7ed84cdd49bde7db",
                 "shasum": ""
             },
             "require": {
@@ -1547,7 +1643,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-10-15 09:25:55"
+            "time": "2013-10-21 02:38:28"
         },
         {
             "name": "patchwork/utf8",
@@ -1606,12 +1702,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "22502c24cdaa8ed51e85d2f64d6ce2caafb06948"
+                "reference": "1e3ff81e7d1978e87aefee604e9da0f8169a0020"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/22502c24cdaa8ed51e85d2f64d6ce2caafb06948",
-                "reference": "22502c24cdaa8ed51e85d2f64d6ce2caafb06948",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/1e3ff81e7d1978e87aefee604e9da0f8169a0020",
+                "reference": "1e3ff81e7d1978e87aefee604e9da0f8169a0020",
                 "shasum": ""
             },
             "require": {
@@ -1672,7 +1768,7 @@
                 "x.509",
                 "x509"
             ],
-            "time": "2013-10-12 17:19:54"
+            "time": "2013-10-18 18:24:06"
         },
         {
             "name": "predis/predis",
@@ -1758,136 +1854,6 @@
                 "psr-3"
             ],
             "time": "2012-12-21 11:40:51"
-        },
-        {
-            "name": "react/event-loop",
-            "version": "dev-master",
-            "target-dir": "React/EventLoop",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/reactphp/event-loop.git",
-                "reference": "49208fa3a15c9eae4adf8351ee9caa4064fe550d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/event-loop/zipball/49208fa3a15c9eae4adf8351ee9caa4064fe550d",
-                "reference": "49208fa3a15c9eae4adf8351ee9caa4064fe550d",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.3"
-            },
-            "suggest": {
-                "ext-libev": "*",
-                "ext-libevent": ">=0.0.5"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "0.3-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "React\\EventLoop": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Event loop abstraction layer that libraries can use for evented I/O.",
-            "keywords": [
-                "event-loop"
-            ],
-            "time": "2013-07-08 22:38:22"
-        },
-        {
-            "name": "react/socket",
-            "version": "dev-master",
-            "target-dir": "React/Socket",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/reactphp/socket.git",
-                "reference": "9cc32838d25a934ce950d2662cce2ff1b9e9f8aa"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/socket/zipball/9cc32838d25a934ce950d2662cce2ff1b9e9f8aa",
-                "reference": "9cc32838d25a934ce950d2662cce2ff1b9e9f8aa",
-                "shasum": ""
-            },
-            "require": {
-                "evenement/evenement": "1.0.*",
-                "php": ">=5.3.3",
-                "react/event-loop": "0.3.*",
-                "react/stream": "0.3.*"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "0.3-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "React\\Socket": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Library for building an evented socket server.",
-            "keywords": [
-                "Socket"
-            ],
-            "time": "2013-04-26 20:23:10"
-        },
-        {
-            "name": "react/stream",
-            "version": "dev-master",
-            "target-dir": "React/Stream",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/reactphp/stream.git",
-                "reference": "b72900ab00513b591fb101faecad38f9c8eab8da"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/stream/zipball/b72900ab00513b591fb101faecad38f9c8eab8da",
-                "reference": "b72900ab00513b591fb101faecad38f9c8eab8da",
-                "shasum": ""
-            },
-            "require": {
-                "evenement/evenement": "1.0.*",
-                "php": ">=5.3.3"
-            },
-            "suggest": {
-                "react/event-loop": "0.3.*",
-                "react/promise": "~1.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "0.3-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "React\\Stream": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Basic readable and writable stream interfaces that support piping.",
-            "keywords": [
-                "pipe",
-                "stream"
-            ],
-            "time": "2013-07-09 00:44:12"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -2212,12 +2178,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/EventDispatcher.git",
-                "reference": "9b4fe5757870682eb2251e283228a66d938265a8"
+                "reference": "d51d78b34c1d9dcc384ba48155105fe99284dd67"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/9b4fe5757870682eb2251e283228a66d938265a8",
-                "reference": "9b4fe5757870682eb2251e283228a66d938265a8",
+                "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/d51d78b34c1d9dcc384ba48155105fe99284dd67",
+                "reference": "d51d78b34c1d9dcc384ba48155105fe99284dd67",
                 "shasum": ""
             },
             "require": {
@@ -2257,7 +2223,7 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "http://symfony.com",
-            "time": "2013-09-19 09:47:34"
+            "time": "2013-10-17 11:48:11"
         },
         {
             "name": "symfony/filesystem",
@@ -2360,12 +2326,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpFoundation.git",
-                "reference": "e2cef23b88161d35f179383803ba8d8ba9d2e7ae"
+                "reference": "a7af7a60fa83695c85c62a1253b15e7e67993274"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/e2cef23b88161d35f179383803ba8d8ba9d2e7ae",
-                "reference": "e2cef23b88161d35f179383803ba8d8ba9d2e7ae",
+                "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/a7af7a60fa83695c85c62a1253b15e7e67993274",
+                "reference": "a7af7a60fa83695c85c62a1253b15e7e67993274",
                 "shasum": ""
             },
             "require": {
@@ -2401,7 +2367,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "http://symfony.com",
-            "time": "2013-10-07 10:30:10"
+            "time": "2013-10-17 21:29:17"
         },
         {
             "name": "symfony/http-kernel",
@@ -2585,7 +2551,8 @@
     ],
     "minimum-stability": "dev",
     "stability-flags": {
-        "orchestra/dochub": 20
+        "orchestra/dochub": 20,
+        "jasonlewis/basset": 20
     },
     "platform": [
 

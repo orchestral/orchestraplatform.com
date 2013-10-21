@@ -92,7 +92,6 @@ return array(
 		'Illuminate\Filesystem\FilesystemServiceProvider',
 		'Illuminate\Hashing\HashServiceProvider',
 		'Illuminate\Foundation\Providers\KeyGeneratorServiceProvider',
-		'Illuminate\Exception\LiveServiceProvider',
 		'Illuminate\Log\LogServiceProvider',
 		'Illuminate\Mail\MailServiceProvider',
 		'Illuminate\Foundation\Providers\MaintenanceServiceProvider',
@@ -126,7 +125,7 @@ return array(
 		'Orchestra\Translation\TranslationServiceProvider',
 		'Orchestra\View\ViewServiceProvider',
 		'Orchestra\Widget\WidgetServiceProvider',
-		
+
 		'Orchestra\Foundation\FoundationServiceProvider',
 	),
 
