@@ -26,9 +26,8 @@ $app->redirectIfTrailingSlash();
 |
 */
 
-$env = $app->detectEnvironment(function ()
-{
-	return require __DIR__.'/env.php';
+$env = $app->detectEnvironment(function () {
+    return require __DIR__.'/env.php';
 });
 
 /*
