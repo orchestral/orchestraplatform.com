@@ -1,4 +1,4 @@
-git artisan down
+php artisan down
 supervisorctl stop all
 git pull
 git submodule update
