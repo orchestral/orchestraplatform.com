@@ -506,12 +506,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "126c928e38b56ded03c85c4ec6a00ea6fc08f351"
+                "reference": "562124239dffa3e77add4d00fbc10ff43acf52b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/126c928e38b56ded03c85c4ec6a00ea6fc08f351",
-                "reference": "126c928e38b56ded03c85c4ec6a00ea6fc08f351",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/562124239dffa3e77add4d00fbc10ff43acf52b0",
+                "reference": "562124239dffa3e77add4d00fbc10ff43acf52b0",
                 "shasum": ""
             },
             "require": {
@@ -613,7 +613,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2013-10-27 00:08:39"
+            "time": "2013-10-28 01:52:00"
         },
         {
             "name": "monolog/monolog",
@@ -1052,12 +1052,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/extension.git",
-                "reference": "7404cf0f33e7e2778d4e2960a97852a7d348da6e"
+                "reference": "5bd29342343dd4f66053fd986a0c4318c0062c64"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/extension/zipball/7404cf0f33e7e2778d4e2960a97852a7d348da6e",
-                "reference": "7404cf0f33e7e2778d4e2960a97852a7d348da6e",
+                "url": "https://api.github.com/repos/orchestral/extension/zipball/5bd29342343dd4f66053fd986a0c4318c0062c64",
+                "reference": "5bd29342343dd4f66053fd986a0c4318c0062c64",
                 "shasum": ""
             },
             "require": {
@@ -1103,7 +1103,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-10-21 10:23:19"
+            "time": "2013-10-28 04:02:32"
         },
         {
             "name": "orchestra/facile",
@@ -1170,12 +1170,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "14028be9377af0a9c93ba6e9de8ec05daa7169f3"
+                "reference": "081ff22b222aaf432ef1e5181c6ddcb2c6ce4e91"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/14028be9377af0a9c93ba6e9de8ec05daa7169f3",
-                "reference": "14028be9377af0a9c93ba6e9de8ec05daa7169f3",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/081ff22b222aaf432ef1e5181c6ddcb2c6ce4e91",
+                "reference": "081ff22b222aaf432ef1e5181c6ddcb2c6ce4e91",
                 "shasum": ""
             },
             "require": {
@@ -1188,6 +1188,7 @@
                 "orchestra/html": "2.1.*",
                 "orchestra/memory": "2.1.*",
                 "orchestra/model": "2.1.*",
+                "orchestra/optimize": "2.1.*",
                 "orchestra/resources": "2.1.*",
                 "orchestra/support": "2.1.*",
                 "orchestra/translation": "2.1.*",
@@ -1198,7 +1199,7 @@
             "require-dev": {
                 "mockery/mockery": "0.8.0",
                 "orchestra/testbench": "2.1.*",
-                "packagist/yuicompressor-bin": "dev-master",
+                "packagist/yuicompressor-bin": "2.4.8",
                 "twbs/bootstrap": "3.0.*"
             },
             "type": "library",
@@ -1233,7 +1234,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-10-26 07:38:31"
+            "time": "2013-10-28 04:00:48"
         },
         {
             "name": "orchestra/html",
@@ -1404,6 +1405,60 @@
                 "orchestral"
             ],
             "time": "2013-10-21 03:27:24"
+        },
+        {
+            "name": "orchestra/optimize",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/orchestral/optimize.git",
+                "reference": "cd6175090ae53eef66591e26712e9a81b099906b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/orchestral/optimize/zipball/cd6175090ae53eef66591e26712e9a81b099906b",
+                "reference": "cd6175090ae53eef66591e26712e9a81b099906b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "illuminate/console": "4.1.*",
+                "illuminate/container": "4.1.*",
+                "illuminate/filesystem": "4.1.*",
+                "illuminate/support": "4.1.*",
+                "mockery/mockery": "0.8.0",
+                "symfony/event-dispatcher": "2.4.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Orchestra\\Optimize": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mior Muhammad Zaki",
+                    "email": "crynobone@gmail.com",
+                    "homepage": "https://github.com/crynobone"
+                }
+            ],
+            "description": "Orchestra Platform 2 Optimize Component",
+            "keywords": [
+                "orchestra-platform",
+                "orchestral"
+            ],
+            "time": "2013-10-28 04:25:18"
         },
         {
             "name": "orchestra/resources",
