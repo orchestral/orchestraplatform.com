@@ -4,13 +4,13 @@ branches:
 
 language: php
 
-php: 
+php:
   - 5.4
   - 5.5
 
 before_script:
   - git submodule update
-  - echo "<?php return \"production\";" > bootstrap/env.php
+  - echo "<?php return \"production\";" > bootstrap/environment.php
   - composer self-update
   - composer install --prefer-source --no-interaction --dev
 
