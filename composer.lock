@@ -366,12 +366,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "de871fe7db2798071e8ca877d04ba7e6629f9f18"
+                "reference": "8294d6c509e0a746a38534bb9aa9eecbba19854f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/de871fe7db2798071e8ca877d04ba7e6629f9f18",
-                "reference": "de871fe7db2798071e8ca877d04ba7e6629f9f18",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/8294d6c509e0a746a38534bb9aa9eecbba19854f",
+                "reference": "8294d6c509e0a746a38534bb9aa9eecbba19854f",
                 "shasum": ""
             },
             "require": {
@@ -474,7 +474,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2013-11-03 00:46:06"
+            "time": "2013-11-04 02:47:44"
         },
         {
             "name": "monolog/monolog",
@@ -482,12 +482,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "7f99ac07d38fd367d1f5f85693ae8433738f7f94"
+                "reference": "a5010756d905264ea2b3f7f27c7df22fb9a3bd8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/7f99ac07d38fd367d1f5f85693ae8433738f7f94",
-                "reference": "7f99ac07d38fd367d1f5f85693ae8433738f7f94",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/a5010756d905264ea2b3f7f27c7df22fb9a3bd8e",
+                "reference": "a5010756d905264ea2b3f7f27c7df22fb9a3bd8e",
                 "shasum": ""
             },
             "require": {
@@ -537,7 +537,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2013-10-31 21:38:39"
+            "time": "2013-11-04 08:48:35"
         },
         {
             "name": "nesbot/carbon",
@@ -1671,12 +1671,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "c3197e98db2e9a11dc8e9f5c362dd563b6fe329a"
+                "reference": "ccfe02a44ea35715da43e3666323e369ce1b1281"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/c3197e98db2e9a11dc8e9f5c362dd563b6fe329a",
-                "reference": "c3197e98db2e9a11dc8e9f5c362dd563b6fe329a",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/ccfe02a44ea35715da43e3666323e369ce1b1281",
+                "reference": "ccfe02a44ea35715da43e3666323e369ce1b1281",
                 "shasum": ""
             },
             "require": {
@@ -1737,7 +1737,7 @@
                 "x.509",
                 "x509"
             ],
-            "time": "2013-11-01 18:04:34"
+            "time": "2013-11-04 08:24:50"
         },
         {
             "name": "predis/predis",
@@ -2525,12 +2525,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpKernel.git",
-                "reference": "659660b8fe3a3de84b9d92993eea2b7a1db851aa"
+                "reference": "32b635be49e4001ee7d11479d380d176d692ecd3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/HttpKernel/zipball/659660b8fe3a3de84b9d92993eea2b7a1db851aa",
-                "reference": "659660b8fe3a3de84b9d92993eea2b7a1db851aa",
+                "url": "https://api.github.com/repos/symfony/HttpKernel/zipball/32b635be49e4001ee7d11479d380d176d692ecd3",
+                "reference": "32b635be49e4001ee7d11479d380d176d692ecd3",
                 "shasum": ""
             },
             "require": {
@@ -2587,7 +2587,7 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "http://symfony.com",
-            "time": "2013-10-31 11:15:14"
+            "time": "2013-11-04 06:11:47"
         },
         {
             "name": "symfony/process",
