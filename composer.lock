@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "bd7cf2056c629e6826263cccff894167",
+    "hash": "ae542e590c2d2f0075fe6c14d9be549a",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -1035,12 +1035,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "0e01d52cc4d2fda040b2b62b2151805984dcadd4"
+                "reference": "ce03f64e391ba833411303babdcf36f20882c1cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/0e01d52cc4d2fda040b2b62b2151805984dcadd4",
-                "reference": "0e01d52cc4d2fda040b2b62b2151805984dcadd4",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/ce03f64e391ba833411303babdcf36f20882c1cf",
+                "reference": "ce03f64e391ba833411303babdcf36f20882c1cf",
                 "shasum": ""
             },
             "require": {
@@ -1098,7 +1098,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-11-03 06:05:44"
+            "time": "2013-11-04 11:11:42"
         },
         {
             "name": "orchestra/html",
