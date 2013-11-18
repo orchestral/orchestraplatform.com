@@ -20,7 +20,7 @@
 		"classmap": [
 			"app/database/migrations",
 			"app/database/seeds",
-			"tests/TestCase.php"
+			"app/tests/TestCase.php"
 		]
 	},
 	"scripts": {
