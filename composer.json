@@ -8,10 +8,10 @@
 		"stackie/dochub": "dev-master"
 	},
 	"repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/stackie/dochub"
-        }
+		{
+			"type": "vcs",
+			"url": "https://github.com/stackie/dochub"
+		}
 	],
 	"autoload": {
 		"psr-0": {

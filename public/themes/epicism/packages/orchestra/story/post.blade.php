@@ -5,7 +5,6 @@
 @section('content')
 <section id="single">
     <div class="boxed">
-
         <article class="post single_post">
             <div class="one_full">
                 <h4>

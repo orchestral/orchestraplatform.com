@@ -24,6 +24,13 @@
                     <li{{ Orchestra::is('orchestra/story::/', 'orchestra/story::*') ? $active : '' }}>
                         <a href="{{ handles('orchestra/story::/') }}">Blog</a>
                     </li>
+                    <li{{ Orchestra::is('app::docs', 'app::docs/*') ? $active : '' }}>
+                        <a href="#">Documentation</a>
+                        <ul>
+                            <li><a href="{{ handles('app::docs/2.1') }}">2.1 (Latest)</a></li>
+                            <li><a href="{{ handles('app::docs/2.0') }}">2.0 (Stable)</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
             <a class="open" href="#menu-primary">Menu</a>
