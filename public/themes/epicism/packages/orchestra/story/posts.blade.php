@@ -25,14 +25,14 @@ Site::set('html::header', ['class' => 'inner']); ?>
                     <a href="{{ $post->link }}">{{ $post->title }}</a>
                 </h4>
             </div>
-            <div class="one_quarter">
+            <div class="one_fifth">
                 <ul class="postmeta nolist muted">
                     <li class="date">Date: <strong>{{ $post->published_at->toFormattedDateString() }}</strong></li>
-                    <li class="comments">Comments: <strong>4</strong></li>
+                    <li class="comments">Comments: <strong><a href="{{ $post->link }}#disqus_thread">0</a></strong></li>
                     <li class="author">Author: <strong>{{ $post->author->fullname }}</strong></li>
                 </ul>
             </div>
-            <div class="three_quarter post-body">
+            <div class="four_fifth post-body">
                 {{ $post->body }}
             </div>
         </article>
@@ -47,4 +47,16 @@ Site::set('html::header', ['class' => 'inner']); ?>
         </div>
     </div>
 </section>
+<script type="text/javascript">
+/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+var disqus_shortname = 'orchestraplatform-blog'; // required: replace example with your forum shortname
+
+/* * * DON'T EDIT BELOW THIS LINE * * */
+(function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>
 @stop

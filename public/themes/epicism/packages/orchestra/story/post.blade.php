@@ -7,12 +7,15 @@
     <div class="boxed">
 
         <article class="post single_post">
-            <div class="one_quarter">
-                <h4><a href="{{ $page->link }}">{{ $page->title }}</a></h4>
-                <hr>
+            <div class="one_full">
+                <h4>
+                    <a href="{{ $page->link }}">{{ $page->title }}</a>
+                </h4>
+            </div>
+            <div class="one_fifth">
                 <ul class="postmeta nolist muted">
-                    <li class="date">Date: <strong>4 November 2013</strong></li>
-                    <li class="comments">Comments: <strong>4</strong></li>
+                    <li class="date">Date: <strong>{{ $page->published_at->toFormattedDateString() }}</strong></li>
+                    <li class="comments">Comments: <strong><a href="{{ $page->link }}#disqus_thread">0</a></strong></li>
                     <li class="author">Author: <strong>{{ $page->author->fullname }}</strong></li>
                     <li class="tweet">
                         <a href="//twitter.com/share" class="twitter-share-button" data-lang="en" url="#" data-via="getorchestra">Tweet</a>
@@ -22,12 +25,12 @@
                 <hr>
                 <div class="postnavi">
                     <ul class="nolist">
-                        <li><a href="#" rel="prev"><span class="tooltip-s" title="The Jezabels.">&lsaquo;</span></a></li>
+                        <li><a href="{{ URL::to(handles('orchestra/story::/')) }}" rel="prev"><span class="tooltip-s" title="The Jezabels.">&lsaquo;</span></a></li>
                         <li></li>
                     </ul>
                 </div>
             </div>
-            <div class="three_quarter post-body">
+            <div class="four_fifth post-body">
             	{{ $page->body }}
             </div>
         </article>
@@ -36,6 +39,18 @@
 </section>
 <section id="commentbox">
     <div class="boxed">
+        <div id="disqus_thread" class="one_full"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'orchestraplatform-blog'; // required: replace example with your forum shortname
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
     </div>
 </section>
 @stop
