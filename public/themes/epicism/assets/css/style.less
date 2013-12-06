@@ -1,4 +1,4 @@
-@import 'plugins.less';
+/*@import 'plugins.less';*/
 @import 'workless.less';
 @import 'typography.less';
 @import 'forms.less';
@@ -16,3 +16,95 @@
 @import 'application.less';
 @import 'custom.less';
 @import 'responsive.less';
+
+pre {
+	color: #fff;
+	background: #3F4049;
+
+	&.prettyprint {
+		padding: 10px;
+
+		> code {
+			border: 0px;
+			border-radius: 0px;
+			color: #fff;
+			padding: 0;
+		}
+	}
+}
+
+body.blog, body.single-post {
+	article.post {
+		.post-body {
+			h1, h2, h3, h4, h5, h6 {
+				&:not(:first-child) {
+					clear: both;
+					padding: 15px 0;
+				}
+			}
+			h2 {
+				font-size: 200%;
+			}
+			h3 {
+				font-size: 160%;
+			}
+			h4 {
+				font-size: 120%;
+			}
+			h5 {
+				font-size: 80%;
+			}
+			h6 {
+				font-size: 40%;
+			}
+		}
+
+		blockquote {
+			background: #a3c75e;
+			color: #fff;
+			font-size: -9px;
+			padding: 0;
+			margin: 0;
+			width: 100%;
+
+			code {
+				border: 0;
+				color: #000;
+			}
+
+			p {
+				font-size: 14px;
+				padding: 10px;
+				margin: 0;
+				font-weight: bold;
+			}
+		}
+	}
+}
+
+.prettyprint {
+	font-family: Monaco, Consolas, "Lucida Console", monospace;
+	background-color:#333;
+	padding:1.5em;
+	font-size: 0.85em;
+	border:0;
+	color:#e9e4e5;
+	line-height:1.9em;
+	margin: 20px 0;
+
+	.pln { color: #FFFEFE; }
+	.str { color: #F4645F; }
+	.kwd { color: #4BB1B1; }
+	.com { color: #888 }
+	.typ { color: #EF7C61 }
+	.lit { color: #BCD42A }
+	.pun, .opn, .clo { color: #fff }
+	.tag { color: #4bb1b1 }
+	.atn { color: #ef7c61 }
+	.atv { color: #bcd42a }
+	.dec, .var { color: #606 }
+	.fun { color: red }
+	code {
+		font-family: Monaco, Consolas, "Lucida Console", monospace;
+	}
+}

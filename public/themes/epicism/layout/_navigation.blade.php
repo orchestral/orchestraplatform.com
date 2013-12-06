@@ -1,7 +1,4 @@
-<!-- fixed nav -->
 <div id="fixed-nav">
-
-    <!-- social module -->
     <div id="social">
         <div class="boxed">
             <ul class="nolist">
@@ -11,20 +8,13 @@
              </ul>
         </div>
     </div>
-    <!-- /social module -->
-
-    <!-- nav -->
     <nav id="primary">
         <div class="boxed">
-
-            <!-- logo -->
             <div id="logo" class="animated bounceInDown">
                 <a href="{{ Request::root() }}">
                     <h1>Orchestra Platform</h1>
                 </a>
             </div>
-            <!-- /logo -->
-
             <div class="nav">
                 <ul id="menu-primary" class="menu">
                     <? $active = ' class="current_page_item"'; ?>
@@ -39,7 +29,4 @@
             <a class="open" href="#menu-primary">Menu</a>
         </div>
     </nav>
-    <!-- /nav -->
-
 </div>
-<!-- /fixed nav -->

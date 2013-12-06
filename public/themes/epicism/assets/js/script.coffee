@@ -90,6 +90,8 @@ bootstrap = ($)->
         true
     )
 
+    $('pre').addClass('prettyprint')
+
     new Parallax(root)
     true
 

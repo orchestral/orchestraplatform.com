@@ -1,8 +1,6 @@
-<!-- footer -->
+
 <footer id="foot">
     <div class="boxed">
-
-        <!-- widgets -->
         <div class="one_quarter widget">
             <h6>What is Orchestra Platform?</h6>
             <div class="textwidget">
@@ -22,17 +20,9 @@
             </ul>
         </div>
         --}}
-        <!-- /widgets -->
-
     </div>
-
     <hr>
-
-    <!-- copyright -->
     <section id="copyright" class="animated slideInRight textcenter">
         © 2013 Orchestra Platform. All rights reserved.
     </section>
-    <!-- /copyright -->
-
 </footer>
-<!-- /footer -->

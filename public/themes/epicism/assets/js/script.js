@@ -100,6 +100,7 @@
       }, 300, 'linear');
       return true;
     });
+    $('pre').addClass('prettyprint');
     new Parallax(root);
     return true;
   };
