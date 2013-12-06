@@ -5,12 +5,12 @@
 		"orchestra/foundation": "2.1.*",
 		"orchestra/control": "2.1.*",
 		"orchestra/story": "2.1.*",
-		"orchestra/dochub": "dev-master"
+		"stackie/dochub": "dev-master"
 	},
 	"repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/orchestral/dochub"
+            "url": "https://github.com/stackie/dochub"
         }
 	],
 	"autoload": {

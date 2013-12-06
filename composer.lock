@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "61859059b2df8f5cd687ed983ae7f039",
+    "hash": "1aed27f3434e849af9992f99d1b4ad61",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -366,12 +366,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "e4b70fe924ceb62bc977c4a9a8efd15d0d209ee6"
+                "reference": "1a67ab0a88b2b7cd7e5fbc6f60241b43b902813f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/e4b70fe924ceb62bc977c4a9a8efd15d0d209ee6",
-                "reference": "e4b70fe924ceb62bc977c4a9a8efd15d0d209ee6",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/1a67ab0a88b2b7cd7e5fbc6f60241b43b902813f",
+                "reference": "1a67ab0a88b2b7cd7e5fbc6f60241b43b902813f",
                 "shasum": ""
             },
             "require": {
@@ -474,7 +474,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2013-12-01 17:30:13"
+            "time": "2013-12-06 03:41:42"
         },
         {
             "name": "monolog/monolog",
@@ -482,12 +482,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "6f5b3d2a9c63a857d40d200f1bb9f62991c07bf8"
+                "reference": "5ad421d6a1d5d7066a45b617e5164d309c4e2852"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/6f5b3d2a9c63a857d40d200f1bb9f62991c07bf8",
-                "reference": "6f5b3d2a9c63a857d40d200f1bb9f62991c07bf8",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/5ad421d6a1d5d7066a45b617e5164d309c4e2852",
+                "reference": "5ad421d6a1d5d7066a45b617e5164d309c4e2852",
                 "shasum": ""
             },
             "require": {
@@ -541,20 +541,20 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2013-11-25 13:58:14"
+            "time": "2013-12-02 09:38:32"
         },
         {
             "name": "nesbot/carbon",
-            "version": "1.6.0",
+            "version": "1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "b0450b539d1567b2acee6467b6b323a8547b5559"
+                "reference": "03ede52a1f360441b5826cb8a798e0d0a919731f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/b0450b539d1567b2acee6467b6b323a8547b5559",
-                "reference": "b0450b539d1567b2acee6467b6b323a8547b5559",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/03ede52a1f360441b5826cb8a798e0d0a919731f",
+                "reference": "03ede52a1f360441b5826cb8a798e0d0a919731f",
                 "shasum": ""
             },
             "require": {
@@ -587,7 +587,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2013-11-23 15:22:05"
+            "time": "2013-12-05 04:13:29"
         },
         {
             "name": "nikic/php-parser",
@@ -876,60 +876,17 @@
             "time": "2013-11-30 16:06:51"
         },
         {
-            "name": "orchestra/dochub",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/orchestral/dochub.git",
-                "reference": "443a9cba90e562bbb966fdbe052393d751463030"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/dochub/zipball/443a9cba90e562bbb966fdbe052393d751463030",
-                "reference": "443a9cba90e562bbb966fdbe052393d751463030",
-                "shasum": ""
-            },
-            "require": {
-                "daylerees/kurenai": "1.0.0",
-                "php": ">=5.3.3"
-            },
-            "require-dev": {
-                "illuminate/support": "4.0.*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Orchestra\\Dochub": "src/"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "crynobone",
-                    "email": "crynobone@gmail.com"
-                }
-            ],
-            "description": "Documentation Viewer Package for Laravel 4",
-            "support": {
-                "source": "https://github.com/orchestral/dochub/tree/master",
-                "issues": "https://github.com/orchestral/dochub/issues"
-            },
-            "time": "2013-10-04 13:02:39"
-        },
-        {
             "name": "orchestra/extension",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/extension.git",
-                "reference": "4caab3cd675d7aa238fb613e10025b81f08310a0"
+                "reference": "0c8a5c27bd8cd94952c12783a00452f8ccf334a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/extension/zipball/4caab3cd675d7aa238fb613e10025b81f08310a0",
-                "reference": "4caab3cd675d7aa238fb613e10025b81f08310a0",
+                "url": "https://api.github.com/repos/orchestral/extension/zipball/0c8a5c27bd8cd94952c12783a00452f8ccf334a1",
+                "reference": "0c8a5c27bd8cd94952c12783a00452f8ccf334a1",
                 "shasum": ""
             },
             "require": {
@@ -977,7 +934,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-11-28 15:40:15"
+            "time": "2013-12-03 17:18:36"
         },
         {
             "name": "orchestra/facile",
@@ -1044,12 +1001,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "8013e17acb669e086b98415e4fddcab40d807fcc"
+                "reference": "da23bc1786d5372cc43f3812950a2f196ab1ce0e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/8013e17acb669e086b98415e4fddcab40d807fcc",
-                "reference": "8013e17acb669e086b98415e4fddcab40d807fcc",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/da23bc1786d5372cc43f3812950a2f196ab1ce0e",
+                "reference": "da23bc1786d5372cc43f3812950a2f196ab1ce0e",
                 "shasum": ""
             },
             "require": {
@@ -1070,7 +1027,7 @@
                 "php": ">=5.3.3"
             },
             "require-dev": {
-                "mockery/mockery": "0.8.0",
+                "mockery/mockery": "0.8.*",
                 "orchestra/testbench": "2.1.*",
                 "packagist/yuicompressor-bin": "2.4.8",
                 "twbs/bootstrap": "3.0.*@stable"
@@ -1107,7 +1064,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-12-01 11:27:13"
+            "time": "2013-12-06 10:04:43"
         },
         {
             "name": "orchestra/html",
@@ -1115,12 +1072,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/html.git",
-                "reference": "6424f694e88ddb3c409b62ad66bbb121c7f49d57"
+                "reference": "34d8649fc1dc306893d882113364db54ec2f1ecf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/html/zipball/6424f694e88ddb3c409b62ad66bbb121c7f49d57",
-                "reference": "6424f694e88ddb3c409b62ad66bbb121c7f49d57",
+                "url": "https://api.github.com/repos/orchestral/html/zipball/34d8649fc1dc306893d882113364db54ec2f1ecf",
+                "reference": "34d8649fc1dc306893d882113364db54ec2f1ecf",
                 "shasum": ""
             },
             "require": {
@@ -1166,7 +1123,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-11-26 16:09:39"
+            "time": "2013-12-05 05:19:05"
         },
         {
             "name": "orchestra/memory",
@@ -1457,12 +1414,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/support.git",
-                "reference": "a082976391686b27aa5acf57ded5967d43a73fa5"
+                "reference": "3a378848772022c493e0cb9bf682e9ed2ef2f329"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/support/zipball/a082976391686b27aa5acf57ded5967d43a73fa5",
-                "reference": "a082976391686b27aa5acf57ded5967d43a73fa5",
+                "url": "https://api.github.com/repos/orchestral/support/zipball/3a378848772022c493e0cb9bf682e9ed2ef2f329",
+                "reference": "3a378848772022c493e0cb9bf682e9ed2ef2f329",
                 "shasum": ""
             },
             "require": {
@@ -1506,7 +1463,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-11-30 15:38:02"
+            "time": "2013-12-05 04:22:04"
         },
         {
             "name": "orchestra/view",
@@ -1514,12 +1471,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/view.git",
-                "reference": "ed74fc892df6e08c439e5102a2988086bd8488a4"
+                "reference": "c29f51fe1fd691770aa215809f53ffcedd021097"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/view/zipball/ed74fc892df6e08c439e5102a2988086bd8488a4",
-                "reference": "ed74fc892df6e08c439e5102a2988086bd8488a4",
+                "url": "https://api.github.com/repos/orchestral/view/zipball/c29f51fe1fd691770aa215809f53ffcedd021097",
+                "reference": "c29f51fe1fd691770aa215809f53ffcedd021097",
                 "shasum": ""
             },
             "require": {
@@ -1564,7 +1521,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-11-08 10:49:48"
+            "time": "2013-12-04 13:36:05"
         },
         {
             "name": "orchestra/widget",
@@ -1572,12 +1529,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/widget.git",
-                "reference": "cf8b0d8a34db7734b03a94e35145df32f57cd1a2"
+                "reference": "7e8f80bcfbf072baa42f91a88fea621e99e700a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/widget/zipball/cf8b0d8a34db7734b03a94e35145df32f57cd1a2",
-                "reference": "cf8b0d8a34db7734b03a94e35145df32f57cd1a2",
+                "url": "https://api.github.com/repos/orchestral/widget/zipball/7e8f80bcfbf072baa42f91a88fea621e99e700a8",
+                "reference": "7e8f80bcfbf072baa42f91a88fea621e99e700a8",
                 "shasum": ""
             },
             "require": {
@@ -1622,7 +1579,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-11-11 12:40:56"
+            "time": "2013-12-03 05:44:06"
         },
         {
             "name": "patchwork/utf8",
@@ -1681,12 +1638,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "ecd58b6a03636264983907613a3f8c1cf2ac6c14"
+                "reference": "52e85604e5352ec2d6e675ef7f9056159287e0be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/ecd58b6a03636264983907613a3f8c1cf2ac6c14",
-                "reference": "ecd58b6a03636264983907613a3f8c1cf2ac6c14",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/52e85604e5352ec2d6e675ef7f9056159287e0be",
+                "reference": "52e85604e5352ec2d6e675ef7f9056159287e0be",
                 "shasum": ""
             },
             "require": {
@@ -1767,7 +1724,7 @@
                 "x.509",
                 "x509"
             ],
-            "time": "2013-12-01 11:49:17"
+            "time": "2013-12-05 23:57:54"
         },
         {
             "name": "predis/predis",
@@ -1775,12 +1732,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nrk/predis.git",
-                "reference": "987f27556fdb6acf5d6e3c6e80d809e4c9ecb0af"
+                "reference": "381023ad8f019eb4859550538e4affdb5bb9a68b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nrk/predis/zipball/987f27556fdb6acf5d6e3c6e80d809e4c9ecb0af",
-                "reference": "987f27556fdb6acf5d6e3c6e80d809e4c9ecb0af",
+                "url": "https://api.github.com/repos/nrk/predis/zipball/381023ad8f019eb4859550538e4affdb5bb9a68b",
+                "reference": "381023ad8f019eb4859550538e4affdb5bb9a68b",
                 "shasum": ""
             },
             "require": {
@@ -1814,7 +1771,7 @@
                 "predis",
                 "redis"
             ],
-            "time": "2013-12-01 14:21:05"
+            "time": "2013-12-02 10:44:40"
         },
         {
             "name": "psr/log",
@@ -1822,12 +1779,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "134145e8d08ddcb9bb8f49a2feb9aa1f2393650c"
+                "reference": "5144da9525d24346bf009ff28f10cbaa1f0f166e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/134145e8d08ddcb9bb8f49a2feb9aa1f2393650c",
-                "reference": "134145e8d08ddcb9bb8f49a2feb9aa1f2393650c",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/5144da9525d24346bf009ff28f10cbaa1f0f166e",
+                "reference": "5144da9525d24346bf009ff28f10cbaa1f0f166e",
                 "shasum": ""
             },
             "type": "library",
@@ -1857,7 +1814,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2013-11-19 10:21:35"
+            "time": "2013-12-05 15:25:07"
         },
         {
             "name": "react/event-loop",
@@ -2040,17 +1997,60 @@
             "time": "2013-10-25 14:04:45"
         },
         {
-            "name": "swiftmailer/swiftmailer",
-            "version": "v5.0.2",
+            "name": "stackie/dochub",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "f3917ecef35a4e4d98b303eb9fee463bc983f379"
+                "url": "https://github.com/stackie/dochub.git",
+                "reference": "73c9537035a3613aa1baa9e87bd53919aca983d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/f3917ecef35a4e4d98b303eb9fee463bc983f379",
-                "reference": "f3917ecef35a4e4d98b303eb9fee463bc983f379",
+                "url": "https://api.github.com/repos/stackie/dochub/zipball/73c9537035a3613aa1baa9e87bd53919aca983d0",
+                "reference": "73c9537035a3613aa1baa9e87bd53919aca983d0",
+                "shasum": ""
+            },
+            "require": {
+                "daylerees/kurenai": "1.0.0",
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "illuminate/support": "4.1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Stackie\\Dochub": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "crynobone",
+                    "email": "crynobone@gmail.com"
+                }
+            ],
+            "description": "Documentation Viewer Package for Laravel 4",
+            "support": {
+                "source": "https://github.com/stackie/dochub/tree/master",
+                "issues": "https://github.com/stackie/dochub/issues"
+            },
+            "time": "2013-12-06 10:26:54"
+        },
+        {
+            "name": "swiftmailer/swiftmailer",
+            "version": "v5.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/swiftmailer/swiftmailer.git",
+                "reference": "32edc3b0de0fdc1b10f5c4912e8677b3f411a230"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/32edc3b0de0fdc1b10f5c4912e8677b3f411a230",
+                "reference": "32edc3b0de0fdc1b10f5c4912e8677b3f411a230",
                 "shasum": ""
             },
             "require": {
@@ -2086,7 +2086,7 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2013-08-30 12:35:21"
+            "time": "2013-12-03 13:33:24"
         },
         {
             "name": "symfony/browser-kit",
@@ -2254,12 +2254,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Debug.git",
-                "reference": "e298bae5e386cce8279be6e313fda0f8ed365759"
+                "reference": "848565cb83d985eb77dac3f9e4486f3bce92b4a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Debug/zipball/e298bae5e386cce8279be6e313fda0f8ed365759",
-                "reference": "e298bae5e386cce8279be6e313fda0f8ed365759",
+                "url": "https://api.github.com/repos/symfony/Debug/zipball/848565cb83d985eb77dac3f9e4486f3bce92b4a2",
+                "reference": "848565cb83d985eb77dac3f9e4486f3bce92b4a2",
                 "shasum": ""
             },
             "require": {
@@ -2300,7 +2300,7 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "http://symfony.com",
-            "time": "2013-11-28 10:27:26"
+            "time": "2013-12-03 14:52:22"
         },
         {
             "name": "symfony/dom-crawler",
@@ -2309,12 +2309,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/DomCrawler.git",
-                "reference": "fa72ed7c181dd093076c9b4c6d4c8dfac3dd9282"
+                "reference": "809495cca56a45e0df92b8d68764cf7d454b88c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/DomCrawler/zipball/fa72ed7c181dd093076c9b4c6d4c8dfac3dd9282",
-                "reference": "fa72ed7c181dd093076c9b4c6d4c8dfac3dd9282",
+                "url": "https://api.github.com/repos/symfony/DomCrawler/zipball/809495cca56a45e0df92b8d68764cf7d454b88c5",
+                "reference": "809495cca56a45e0df92b8d68764cf7d454b88c5",
                 "shasum": ""
             },
             "require": {
@@ -2353,7 +2353,7 @@
             ],
             "description": "Symfony DomCrawler Component",
             "homepage": "http://symfony.com",
-            "time": "2013-11-23 07:20:18"
+            "time": "2013-12-03 14:52:22"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -2362,12 +2362,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/EventDispatcher.git",
-                "reference": "805980381ccb3d8d92c51860323e7646e9219df6"
+                "reference": "81c64d4567f7cf1a983f71f4a5b4d338165aa6e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/805980381ccb3d8d92c51860323e7646e9219df6",
-                "reference": "805980381ccb3d8d92c51860323e7646e9219df6",
+                "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/81c64d4567f7cf1a983f71f4a5b4d338165aa6e4",
+                "reference": "81c64d4567f7cf1a983f71f4a5b4d338165aa6e4",
                 "shasum": ""
             },
             "require": {
@@ -2407,7 +2407,7 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "http://symfony.com",
-            "time": "2013-11-28 10:27:35"
+            "time": "2013-12-03 14:52:29"
         },
         {
             "name": "symfony/filesystem",
@@ -2560,12 +2560,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpKernel.git",
-                "reference": "64f3cb174df07d5a0905d334627b6e6c599b47ff"
+                "reference": "92411c7af99293ba8b3af27654855fbdbec4114b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/HttpKernel/zipball/64f3cb174df07d5a0905d334627b6e6c599b47ff",
-                "reference": "64f3cb174df07d5a0905d334627b6e6c599b47ff",
+                "url": "https://api.github.com/repos/symfony/HttpKernel/zipball/92411c7af99293ba8b3af27654855fbdbec4114b",
+                "reference": "92411c7af99293ba8b3af27654855fbdbec4114b",
                 "shasum": ""
             },
             "require": {
@@ -2622,7 +2622,7 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "http://symfony.com",
-            "time": "2013-11-27 17:32:46"
+            "time": "2013-12-03 17:55:46"
         },
         {
             "name": "symfony/process",
@@ -2735,7 +2735,7 @@
     ],
     "minimum-stability": "dev",
     "stability-flags": {
-        "orchestra/dochub": 20
+        "stackie/dochub": 20
     },
     "platform": [
 
