@@ -5,14 +5,8 @@
 		"orchestra/foundation": "2.1.*",
 		"orchestra/control": "2.1.*",
 		"orchestra/story": "2.1.*",
-		"stackie/dochub": "dev-master"
+		"daylerees/kurenai": "1.0.*"
 	},
-	"repositories": [
-		{
-			"type": "vcs",
-			"url": "https://github.com/stackie/dochub"
-		}
-	],
 	"autoload": {
 		"psr-0": {
 			"Platform": "src/"

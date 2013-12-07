@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "1aed27f3434e849af9992f99d1b4ad61",
+    "hash": "2a238177a427df434c788884cf089ba1",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -88,20 +88,23 @@
         },
         {
             "name": "daylerees/kurenai",
-            "version": "1.0.0",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/daylerees/kurenai.git",
-                "reference": "77dc02abb652783d92783bffeee95afe3c741205"
+                "reference": "b4b268653f8a1312317370001c42c1149bafcbcb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/daylerees/kurenai/zipball/77dc02abb652783d92783bffeee95afe3c741205",
-                "reference": "77dc02abb652783d92783bffeee95afe3c741205",
+                "url": "https://api.github.com/repos/daylerees/kurenai/zipball/b4b268653f8a1312317370001c42c1149bafcbcb",
+                "reference": "b4b268653f8a1312317370001c42c1149bafcbcb",
                 "shasum": ""
             },
             "require": {
-                "dflydev/markdown": "v1.0.2"
+                "dflydev/markdown": "1.0.*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
             },
             "type": "library",
             "autoload": {
@@ -121,26 +124,31 @@
                 "markdown",
                 "metadata"
             ],
-            "time": "2013-03-16 01:43:13"
+            "time": "2013-11-22 15:49:31"
         },
         {
             "name": "dflydev/markdown",
-            "version": "v1.0.2",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dflydev/dflydev-markdown.git",
-                "reference": "2a1b3516bd5af6e722b40ae9e1fccd03e1772060"
+                "reference": "6baed9b50f29c980795b6656d43722aadb126f7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dflydev/dflydev-markdown/zipball/2a1b3516bd5af6e722b40ae9e1fccd03e1772060",
-                "reference": "2a1b3516bd5af6e722b40ae9e1fccd03e1772060",
+                "url": "https://api.github.com/repos/dflydev/dflydev-markdown/zipball/6baed9b50f29c980795b6656d43722aadb126f7e",
+                "reference": "6baed9b50f29c980795b6656d43722aadb126f7e",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3"
             },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
             "autoload": {
                 "psr-0": {
                     "dflydev\\markdown": "src"
@@ -148,7 +156,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "New BSD License"
+                "BSD-3-Clause"
             ],
             "authors": [
                 {
@@ -175,7 +183,7 @@
             "keywords": [
                 "markdown"
             ],
-            "time": "2012-01-16 03:36:37"
+            "time": "2013-09-23 12:00:18"
         },
         {
             "name": "evenement/evenement",
@@ -366,12 +374,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "1d25771524810d886db41d7260105b31bfad6225"
+                "reference": "e134a92136add9b313fdfcf4823de12c0e6c8d14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/1d25771524810d886db41d7260105b31bfad6225",
-                "reference": "1d25771524810d886db41d7260105b31bfad6225",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/e134a92136add9b313fdfcf4823de12c0e6c8d14",
+                "reference": "e134a92136add9b313fdfcf4823de12c0e6c8d14",
                 "shasum": ""
             },
             "require": {
@@ -474,7 +482,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2013-12-06 15:49:20"
+            "time": "2013-12-06 17:50:34"
         },
         {
             "name": "monolog/monolog",
@@ -1997,49 +2005,6 @@
             "time": "2013-10-25 14:04:45"
         },
         {
-            "name": "stackie/dochub",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/stackie/dochub.git",
-                "reference": "73c9537035a3613aa1baa9e87bd53919aca983d0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/stackie/dochub/zipball/73c9537035a3613aa1baa9e87bd53919aca983d0",
-                "reference": "73c9537035a3613aa1baa9e87bd53919aca983d0",
-                "shasum": ""
-            },
-            "require": {
-                "daylerees/kurenai": "1.0.0",
-                "php": ">=5.3.3"
-            },
-            "require-dev": {
-                "illuminate/support": "4.1.*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Stackie\\Dochub": "src/"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "crynobone",
-                    "email": "crynobone@gmail.com"
-                }
-            ],
-            "description": "Documentation Viewer Package for Laravel 4",
-            "support": {
-                "source": "https://github.com/stackie/dochub/tree/master",
-                "issues": "https://github.com/stackie/dochub/issues"
-            },
-            "time": "2013-12-06 10:26:54"
-        },
-        {
             "name": "swiftmailer/swiftmailer",
             "version": "v5.0.3",
             "source": {
@@ -2734,9 +2699,9 @@
 
     ],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "stackie/dochub": 20
-    },
+    "stability-flags": [
+
+    ],
     "platform": [
 
     ],
