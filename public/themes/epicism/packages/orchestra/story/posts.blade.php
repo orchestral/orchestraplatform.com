@@ -27,9 +27,9 @@ Site::set('html::header', ['class' => 'inner']); ?>
             </div>
             <div class="one_fifth">
                 <ul class="postmeta nolist muted">
-                    <li class="date">Date: <strong>{{ $post->published_at->toFormattedDateString() }}</strong></li>
-                    <li class="comments">Comments: <strong><a href="{{ $post->link }}#disqus_thread">0</a></strong></li>
-                    <li class="author">Author: <strong>{{ $post->author->fullname }}</strong></li>
+                    <li class="date">Published on <strong>{{ $post->published_at->toFormattedDateString() }}</strong></li>
+                    <li class="comments">With <strong><a href="{{ $post->link }}/#disqus_thread">0 Comments</a></strong></li>
+                    <li class="author">By <strong>{{ $post->author->fullname }}</strong></li>
                 </ul>
             </div>
             <div class="four_fifth post-body">
@@ -41,9 +41,11 @@ Site::set('html::header', ['class' => 'inner']); ?>
 
     <div class="pagination">
         <div class="boxed">
-            <span class='page-numbers current'>1</span>
-            <a class='page-numbers' href="#">2</a>
-            <a class="next page-numbers" href="#">Older Posts &raquo;</a>
+            <? $presenter = new Platform\Workless\WorklessPresenter($posts) ?>
+
+            @if ($posts->getLastPage() > 1)
+                {{ $presenter->render() }}
+            @endif
         </div>
     </div>
 </section>

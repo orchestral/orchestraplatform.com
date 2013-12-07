@@ -13,9 +13,8 @@
             </div>
             <div class="one_fifth">
                 <ul class="postmeta nolist muted">
-                    <li class="date">Date: <strong>{{ $page->published_at->toFormattedDateString() }}</strong></li>
-                    <li class="comments">Comments: <strong><a href="{{ $page->link }}#disqus_thread">0</a></strong></li>
-                    <li class="author">Author: <strong>{{ $page->author->fullname }}</strong></li>
+                    <li class="date">Published on <strong>{{ $page->published_at->toFormattedDateString() }}</strong></li>
+                    <li class="author">By <strong>{{ $page->author->fullname }}</strong></li>
                     <li class="tweet">
                         <a href="//twitter.com/share" class="twitter-share-button" data-lang="en" url="#" data-via="getorchestra">Tweet</a>
                         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
