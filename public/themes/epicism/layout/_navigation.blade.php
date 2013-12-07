@@ -27,8 +27,8 @@
                     <li{{ Request::is('docs/', 'docs/*') ? $active : '' }}>
                         <a href="#">Documentation</a>
                         <ul>
-                            <li><a href="{{ handles('app::docs/2.1/') }}">2.1 (Latest)</a></li>
-                            <li><a href="{{ handles('app::docs/2.0/') }}">2.0 (Stable)</a></li>
+                            <li><a href="{{ handles('app::docs/2.1/') }}">2.1 (Development)</a></li>
+                            <li><a href="{{ handles('app::docs/2.0/') }}">2.0 (Latest Stable)</a></li>
                         </ul>
                     </li>
                 </ul>
