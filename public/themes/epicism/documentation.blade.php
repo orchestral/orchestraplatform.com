@@ -1,16 +1,25 @@
 @extends('layout.master')
 
-<? Site::set('html::body', ['id' => 'index', 'class' => 'single documentation']); ?>
+<?
+
+Site::set('html::body', ['id' => 'index', 'class' => 'single documentation']);
+Site::set('html::header', ['class' => 'inner']); ?>
+
+@section('header')
+<div id="header_image" style="background: url({{ Theme::asset('assets/img/static.jpg') }}) top center no-repeat;">
+    <div class="boxed">
+        <div id="tagline" class="textcenter">
+            <h1 class="tagline animated bounceInUp">{{ $document->get('title') }}</h1>
+            <h6 class="textcenter animated bounceInDown">{{ $version }} documentation</h6>
+        </div>
+    </div>
+</div>
+@stop
 
 @section('content')
 <section id="single">
     <div class="boxed">
         <article class="documentation single_post">
-            <div class="one_full">
-                <h4>
-                    <a href="{{ URL::current() }}">{{ $document->get('title') }}</a>
-                </h4>
-            </div>
             <div class="one_fifth">
                 {{ $toc->getHtmlContent() }}
                 <hr>

@@ -37,8 +37,9 @@ Route::get('docs/{version}/{filename}', function ($version, $filename) {
 	}
 
 	return View::make('documentation', [
-		'toc' => $parser->parse(File::get($toc)),
+		'toc'      => $parser->parse(File::get($toc)),
 		'document' => $parser->parse(File::get($document)),
+		'version'  => $version,
 	]);
 })->where('filename', '(.*)');
 
