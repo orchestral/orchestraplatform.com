@@ -28,7 +28,7 @@ Site::set('html::header', ['class' => 'inner']); ?>
             <div class="one_fifth">
                 <ul class="postmeta nolist muted">
                     <li class="date">Published on <strong>{{ $post->published_at->toFormattedDateString() }}</strong></li>
-                    <li class="comments">With <strong><a href="{{ $post->link }}/#disqus_thread">0 Comments</a></strong></li>
+                    <li class="comments">With <strong><a href="{{ $post->link }}#disqus_thread">0 Comments</a></strong></li>
                     <li class="author">By <strong>{{ $post->author->fullname }}</strong></li>
                 </ul>
             </div>
