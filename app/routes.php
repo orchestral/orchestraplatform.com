@@ -3,7 +3,7 @@
 use Kurenai\DocumentParser;
 use Kurenai\Document;
 use Kurenai\Parser\DflydevMarkdownExtra;
-	use dflydev\markdown\MarkdownExtraParser;
+use dflydev\markdown\MarkdownExtraParser;
 
 /*
 |--------------------------------------------------------------------------

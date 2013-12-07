@@ -19,8 +19,8 @@ Site::set('html::header', ['class' => 'inner']); ?>
 @section('content')
 <section id="single">
     <div class="boxed">
-        <article class="documentation single_post">
-            <div class="one_fifth">
+        <article class="documentation">
+            <div class="one_fifth post-toc">
                 {{ $toc->getHtmlContent() }}
                 <hr>
             </div>

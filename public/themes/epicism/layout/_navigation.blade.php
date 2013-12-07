@@ -21,10 +21,10 @@
                     <li{{ Request::is('/') ? $active : '' }}>
                         <a href="{{ handles('app::/') }}">Home</a>
                     </li>
-                    <li{{ Orchestra::is('orchestra/story::/', 'orchestra/story::*') ? $active : '' }}>
+                    <li{{ Request::is('blogs', 'blogs/*') ? $active : '' }}>
                         <a href="{{ handles('orchestra/story::/') }}">Blog</a>
                     </li>
-                    <li{{ Orchestra::is('app::docs', 'app::docs/*') ? $active : '' }}>
+                    <li{{ Request::is('docs/', 'docs/*') ? $active : '' }}>
                         <a href="#">Documentation</a>
                         <ul>
                             <li><a href="{{ handles('app::docs/2.1/') }}">2.1 (Latest)</a></li>

@@ -80,6 +80,79 @@ section#articles, section#single {
 	}
 }
 
+
+
+body.single.documentation {
+	#content {
+		background: #F5F5F5;
+	}
+
+	section#single {
+		padding: 0;
+		margin-bottom: 0px;
+
+		article.documentation {
+			.post-toc {
+				margin-top: 50px;
+			}
+
+			.post-body {
+				padding: 50px 15px 25px;
+				background: #fff;
+			}
+
+			.post-toc {
+				padding-right: 0px;
+
+				h3 {
+					padding-top: 10px;
+					font-size: 17px;
+				}
+
+				ul {
+					list-style: none;
+
+					li {
+						cursor: pointer;
+					}
+				}
+
+				> ul {
+					list-style: none;
+					margin: 0;
+
+					> li {
+						font-weight: 600;
+						padding: 5px 0;
+						margin-bottom: 5px;
+						border-bottom: 1px solid #e9e9e9;
+
+						ul {
+							margin-left: 10px;
+							li {
+								font-weight: normal;
+								font-size: 13px !important;
+								padding: 0;
+								margin-bottom: 0;
+
+								ul {
+									margin-left: 20px;
+								}
+
+								&:before {
+									content: "↳ ";
+									color: #cccccc;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
 .prettyprint {
 	font-family: Monaco, Consolas, "Lucida Console", monospace;
 	background-color:#333;
@@ -105,4 +178,12 @@ section#articles, section#single {
 	code {
 		font-family: Monaco, Consolas, "Lucida Console", monospace;
 	}
+}
+
+header #tagline h6 {
+	clear: both;
+	text-align: left;
+	margin-top: 0px;
+	padding-top: 0px;
+	color: #eee;
 }
