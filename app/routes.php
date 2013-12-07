@@ -16,11 +16,7 @@ use dflydev\markdown\MarkdownExtraParser;
 |
 */
 
-Route::get('docs/{version}', function ($version) {
-	return Redirect::to("docs/{$version}/index");
-});
-
-Route::get('docs/{version}/{filename}', function ($version, $filename) {
+Route::get('docs/{version}/{filename?}', function ($version, $filename = 'index') {
 	$base = app('path.base').'/docs';
 	$path = "{$base}/{$version}";
 
