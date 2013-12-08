@@ -32,9 +32,14 @@ Route::get('docs/{version}/{filename?}', function ($version, $filename = 'index'
 		return App::abort(404);
 	}
 
+	$toc = $parser->parse(File::get($toc));
+	$document = $parser->parse(File::get($document));
+
+	Site::set('title', sprintf('%s on v%s', $document->get('title'), $version));
+
 	return View::make('documentation', [
-		'toc'      => $parser->parse(File::get($toc)),
-		'document' => $parser->parse(File::get($document)),
+		'toc'      => $toc,
+		'document' => $document,
 		'version'  => $version,
 	]);
 })->where('filename', '(.*)');
