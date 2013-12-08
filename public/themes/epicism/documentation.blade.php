@@ -22,7 +22,6 @@ Site::set('html::header', ['class' => 'inner']); ?>
         <article class="documentation">
             <div class="one_fifth post-toc">
                 {{ $toc->getHtmlContent() }}
-                <hr>
             </div>
             <div class="four_fifth post-body">
             	{{ $document->getHtmlContent() }}
