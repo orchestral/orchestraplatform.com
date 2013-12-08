@@ -27,7 +27,6 @@ Site::set('html::header', ['class' => 'inner']); ?>
             	{{ $document->getHtmlContent() }}
             </div>
         </article>
-
     </div>
 </section>
 @stop
