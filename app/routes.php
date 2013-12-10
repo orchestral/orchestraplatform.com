@@ -17,6 +17,9 @@ use dflydev\markdown\MarkdownExtraParser;
 */
 
 Route::get('docs/{version}/{filename?}', function ($version, $filename = 'index') {
+	$aliases = ['latest' => '2.1', 'stable' => '2.0'];
+	$version = array_get($aliases, $version, $version);
+
 	$base = app('path.base').'/docs';
 	$path = "{$base}/{$version}";
 
