@@ -18,13 +18,13 @@
             <div class="nav">
                 <ul id="menu-primary" class="menu">
                     <? $active = ' class="current_page_item"'; ?>
-                    <li{{ Request::is('/') ? $active : '' }}>
+                    <li{{ Orchestra\App::is('/') ? $active : '' }}>
                         <a href="{{ handles('app::/') }}">Home</a>
                     </li>
-                    <li{{ Request::is('blogs', 'blogs/*') ? $active : '' }}>
+                    <li{{ Orchestra\App::is('orchestra/story::*') ? $active : '' }}>
                         <a href="{{ handles('orchestra/story::/') }}">Blog</a>
                     </li>
-                    <li{{ Request::is('docs/', 'docs/*') ? $active : '' }}>
+                    <li{{ Orchestra\App::is('app::docs*') ? $active : '' }}>
                         <a href="#">Documentation</a>
                         <ul>
                             <li><a href="{{ handles('app::docs/2.1/') }}">2.1 (Development)</a></li>
