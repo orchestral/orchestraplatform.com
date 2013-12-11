@@ -33,7 +33,6 @@
                     </li>
                 </ul>
             </div>
-            <a class="open" href="#menu-primary">Menu</a>
         </div>
     </nav>
 </div>
