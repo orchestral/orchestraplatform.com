@@ -374,12 +374,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "7b7df5a18c38bd2bc24b1721d06e21dff11a418e"
+                "reference": "805d4cf1f7efd128472ff1b0aa61ba5cc3c49448"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/7b7df5a18c38bd2bc24b1721d06e21dff11a418e",
-                "reference": "7b7df5a18c38bd2bc24b1721d06e21dff11a418e",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/805d4cf1f7efd128472ff1b0aa61ba5cc3c49448",
+                "reference": "805d4cf1f7efd128472ff1b0aa61ba5cc3c49448",
                 "shasum": ""
             },
             "require": {
@@ -482,7 +482,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2013-12-12 13:21:25"
+            "time": "2013-12-12 15:37:54"
         },
         {
             "name": "monolog/monolog",
@@ -769,19 +769,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/control.git",
-                "reference": "978ff4a15c6a2f23c03425bbc8a127375f10a02a"
+                "reference": "7c5af71421fe6e63de36b6f1a488a148aa1ce05e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/control/zipball/978ff4a15c6a2f23c03425bbc8a127375f10a02a",
-                "reference": "978ff4a15c6a2f23c03425bbc8a127375f10a02a",
+                "url": "https://api.github.com/repos/orchestral/control/zipball/7c5af71421fe6e63de36b6f1a488a148aa1ce05e",
+                "reference": "7c5af71421fe6e63de36b6f1a488a148aa1ce05e",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
             "require-dev": {
-                "mockery/mockery": "0.8.0",
+                "mockery/mockery": "0.8.*",
                 "orchestra/foundation": "2.1.*",
                 "orchestra/support": "2.1.*",
                 "orchestra/testbench": "2.1.*"
@@ -818,7 +818,7 @@
                 "theme",
                 "timezone"
             ],
-            "time": "2013-11-09 01:24:44"
+            "time": "2013-12-12 15:42:52"
         },
         {
             "name": "orchestra/debug",
@@ -1367,12 +1367,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/story.git",
-                "reference": "cec9ac5717c4f0f12a90794609ca7fa0292f83a9"
+                "reference": "c5297377323bfe04d09212c2d3b03702301fc881"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/story/zipball/cec9ac5717c4f0f12a90794609ca7fa0292f83a9",
-                "reference": "cec9ac5717c4f0f12a90794609ca7fa0292f83a9",
+                "url": "https://api.github.com/repos/orchestral/story/zipball/c5297377323bfe04d09212c2d3b03702301fc881",
+                "reference": "c5297377323bfe04d09212c2d3b03702301fc881",
                 "shasum": ""
             },
             "require": {
@@ -1380,10 +1380,10 @@
                 "php": ">=5.3.3"
             },
             "require-dev": {
-                "mockery/mockery": "0.8.0",
+                "mockery/mockery": "0.8.*",
                 "orchestra/foundation": "2.1.*",
                 "orchestra/testbench": "2.1.*",
-                "packagist/yuicompressor-bin": "dev-master"
+                "packagist/yuicompressor-bin": "2.4.8"
             },
             "type": "library",
             "extra": {
@@ -1417,7 +1417,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-12-06 13:44:04"
+            "time": "2013-12-12 15:47:25"
         },
         {
             "name": "orchestra/support",
