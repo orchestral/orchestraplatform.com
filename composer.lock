@@ -374,12 +374,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "3ce83dcbe0b2326b4255e84a594f5fc6a4ae70b3"
+                "reference": "7b7df5a18c38bd2bc24b1721d06e21dff11a418e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/3ce83dcbe0b2326b4255e84a594f5fc6a4ae70b3",
-                "reference": "3ce83dcbe0b2326b4255e84a594f5fc6a4ae70b3",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/7b7df5a18c38bd2bc24b1721d06e21dff11a418e",
+                "reference": "7b7df5a18c38bd2bc24b1721d06e21dff11a418e",
                 "shasum": ""
             },
             "require": {
@@ -482,7 +482,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2013-12-12 04:04:22"
+            "time": "2013-12-12 13:21:25"
         },
         {
             "name": "monolog/monolog",
@@ -648,12 +648,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/asset.git",
-                "reference": "3383e4fb4e374f8ba413670e64248433c855278d"
+                "reference": "e033a0de3453af0e930832d3df099213d313ab70"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/asset/zipball/3383e4fb4e374f8ba413670e64248433c855278d",
-                "reference": "3383e4fb4e374f8ba413670e64248433c855278d",
+                "url": "https://api.github.com/repos/orchestral/asset/zipball/e033a0de3453af0e930832d3df099213d313ab70",
+                "reference": "e033a0de3453af0e930832d3df099213d313ab70",
                 "shasum": ""
             },
             "require": {
@@ -692,14 +692,14 @@
                 }
             ],
             "description": "Orchestra Platform 2 Asset Component",
-            "homepage": "http://orchestraplatform.com/docs/2.1/components/asset/",
+            "homepage": "http://orchestraplatform.com/docs/latest/components/asset/",
             "keywords": [
                 "asset",
                 "laravel",
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-12-12 02:27:21"
+            "time": "2013-12-12 14:34:15"
         },
         {
             "name": "orchestra/auth",
@@ -707,12 +707,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/auth.git",
-                "reference": "eb96b48f08ec2232fc62580d47180895163f0bfd"
+                "reference": "4d43b002fc9e9c26fc2cf12a76ce9070a2f1f4e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/auth/zipball/eb96b48f08ec2232fc62580d47180895163f0bfd",
-                "reference": "eb96b48f08ec2232fc62580d47180895163f0bfd",
+                "url": "https://api.github.com/repos/orchestral/auth/zipball/4d43b002fc9e9c26fc2cf12a76ce9070a2f1f4e6",
+                "reference": "4d43b002fc9e9c26fc2cf12a76ce9070a2f1f4e6",
                 "shasum": ""
             },
             "require": {
@@ -752,7 +752,7 @@
                 }
             ],
             "description": "Orchestra Platform 2 Auth Component",
-            "homepage": "http://orchestraplatform.com/docs/2.0/components/auth/",
+            "homepage": "http://orchestraplatform.com/docs/latest/components/auth/",
             "keywords": [
                 "acl",
                 "auth",
@@ -761,7 +761,7 @@
                 "orchestral",
                 "rbac"
             ],
-            "time": "2013-12-10 01:28:18"
+            "time": "2013-12-12 12:59:11"
         },
         {
             "name": "orchestra/control",
@@ -826,12 +826,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/debug.git",
-                "reference": "18418eb73ab0e9471d638a4b52ed171440e9ac4b"
+                "reference": "65142af8f5c19019b93378a8fd330faef8735f5e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/debug/zipball/18418eb73ab0e9471d638a4b52ed171440e9ac4b",
-                "reference": "18418eb73ab0e9471d638a4b52ed171440e9ac4b",
+                "url": "https://api.github.com/repos/orchestral/debug/zipball/65142af8f5c19019b93378a8fd330faef8735f5e",
+                "reference": "65142af8f5c19019b93378a8fd330faef8735f5e",
                 "shasum": ""
             },
             "require": {
@@ -876,12 +876,13 @@
                 }
             ],
             "description": "Artisan Debug Profiler for Laravel 4",
+            "homepage": "http://orchestraplatform.com/docs/latest/components/debug/",
             "keywords": [
                 "laravel",
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-12-10 00:46:28"
+            "time": "2013-12-12 14:45:27"
         },
         {
             "name": "orchestra/extension",
@@ -950,12 +951,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/facile.git",
-                "reference": "719e8c1fbd4d71152cb3f9e443c4b3ad1523ce9b"
+                "reference": "05237c50df93fc9a7af6386a029f3bc45bc82045"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/facile/zipball/719e8c1fbd4d71152cb3f9e443c4b3ad1523ce9b",
-                "reference": "719e8c1fbd4d71152cb3f9e443c4b3ad1523ce9b",
+                "url": "https://api.github.com/repos/orchestral/facile/zipball/05237c50df93fc9a7af6386a029f3bc45bc82045",
+                "reference": "05237c50df93fc9a7af6386a029f3bc45bc82045",
                 "shasum": ""
             },
             "require": {
@@ -966,7 +967,7 @@
                 "illuminate/container": "4.1.*",
                 "illuminate/http": "4.1.*",
                 "illuminate/pagination": "4.1.*",
-                "mockery/mockery": "0.8.0"
+                "mockery/mockery": "0.8.*"
             },
             "suggest": {
                 "laravel/framework": "Allow using orchestra/facile component outside of Orchestra Platform 2",
@@ -995,13 +996,13 @@
                 }
             ],
             "description": "Orchestra Platform 2 Facile Component",
-            "homepage": "http://orchestraplatform.com/docs/2.0/components/facile/",
+            "homepage": "http://orchestraplatform.com/docs/latest/components/facile/",
             "keywords": [
                 "laravel",
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-12-10 00:48:52"
+            "time": "2013-12-12 14:52:17"
         },
         {
             "name": "orchestra/foundation",
@@ -1009,12 +1010,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "e369e092baded9d7b12230ae2434a354b35e9fcd"
+                "reference": "f20e0834245b90c0012d55cde9ef196a74b918c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/e369e092baded9d7b12230ae2434a354b35e9fcd",
-                "reference": "e369e092baded9d7b12230ae2434a354b35e9fcd",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/f20e0834245b90c0012d55cde9ef196a74b918c1",
+                "reference": "f20e0834245b90c0012d55cde9ef196a74b918c1",
                 "shasum": ""
             },
             "require": {
@@ -1067,13 +1068,13 @@
                 }
             ],
             "description": "Orchestra Platform 2 Foundation Component",
-            "homepage": "http://orchestraplatform.com/docs/2.0/",
+            "homepage": "http://orchestraplatform.com/docs/latest/",
             "keywords": [
                 "laravel",
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-12-11 14:01:42"
+            "time": "2013-12-12 15:26:07"
         },
         {
             "name": "orchestra/html",
@@ -1081,12 +1082,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/html.git",
-                "reference": "fb006a3f458245cfc061086990a961d02f61fee5"
+                "reference": "84f50bcefdee14ecc3f9e454af17e1e8deb7812d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/html/zipball/fb006a3f458245cfc061086990a961d02f61fee5",
-                "reference": "fb006a3f458245cfc061086990a961d02f61fee5",
+                "url": "https://api.github.com/repos/orchestral/html/zipball/84f50bcefdee14ecc3f9e454af17e1e8deb7812d",
+                "reference": "84f50bcefdee14ecc3f9e454af17e1e8deb7812d",
                 "shasum": ""
             },
             "require": {
@@ -1126,13 +1127,13 @@
                 }
             ],
             "description": "Orchestra Platform 2 Html Component",
-            "homepage": "http://orchestraplatform.com/docs/2.0/components/html/",
+            "homepage": "http://orchestraplatform.com/docs/latest/components/html/",
             "keywords": [
                 "laravel",
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-12-10 00:50:39"
+            "time": "2013-12-12 14:56:07"
         },
         {
             "name": "orchestra/memory",
@@ -1140,12 +1141,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/memory.git",
-                "reference": "73577d03591ca273632b1d346594ad9d142a6e58"
+                "reference": "f27f1b6524c4e8216dc7ce3a22582e5a32497b13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/memory/zipball/73577d03591ca273632b1d346594ad9d142a6e58",
-                "reference": "73577d03591ca273632b1d346594ad9d142a6e58",
+                "url": "https://api.github.com/repos/orchestral/memory/zipball/f27f1b6524c4e8216dc7ce3a22582e5a32497b13",
+                "reference": "f27f1b6524c4e8216dc7ce3a22582e5a32497b13",
                 "shasum": ""
             },
             "require": {
@@ -1184,13 +1185,13 @@
                 }
             ],
             "description": "Orchestra Platform 2 Memory Component",
-            "homepage": "http://orchestraplatform.com/docs/2.0/components/memory/",
+            "homepage": "http://orchestraplatform.com/docs/latest/components/memory/",
             "keywords": [
                 "laravel",
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-12-10 00:52:09"
+            "time": "2013-12-12 14:30:45"
         },
         {
             "name": "orchestra/model",
@@ -1198,12 +1199,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/model.git",
-                "reference": "a12a20bff667289ac3850d6e16ed5eba658db7c3"
+                "reference": "cb569f791bdad7c00c69939b9f910f31b6821746"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/model/zipball/a12a20bff667289ac3850d6e16ed5eba658db7c3",
-                "reference": "a12a20bff667289ac3850d6e16ed5eba658db7c3",
+                "url": "https://api.github.com/repos/orchestral/model/zipball/cb569f791bdad7c00c69939b9f910f31b6821746",
+                "reference": "cb569f791bdad7c00c69939b9f910f31b6821746",
                 "shasum": ""
             },
             "require": {
@@ -1213,7 +1214,7 @@
             "require-dev": {
                 "illuminate/auth": "4.1.*",
                 "illuminate/database": "4.1.*",
-                "mockery/mockery": "0.8.0"
+                "mockery/mockery": "0.8.*"
             },
             "type": "library",
             "extra": {
@@ -1238,14 +1239,14 @@
                 }
             ],
             "description": "Orchestra Platform 2 Model Component",
-            "homepage": "http://orchestraplatform.com/docs/2.0/",
+            "homepage": "http://orchestraplatform.com/docs/latest/components/model",
             "keywords": [
                 "laravel",
                 "model",
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-12-10 00:54:06"
+            "time": "2013-12-12 14:59:15"
         },
         {
             "name": "orchestra/optimize",
@@ -1253,12 +1254,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/optimize.git",
-                "reference": "a5cadb020654439b10c3c3d14abf718197447dc1"
+                "reference": "d7bef6c66b889e36bd50c331241a56f1db70ed06"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/optimize/zipball/a5cadb020654439b10c3c3d14abf718197447dc1",
-                "reference": "a5cadb020654439b10c3c3d14abf718197447dc1",
+                "url": "https://api.github.com/repos/orchestral/optimize/zipball/d7bef6c66b889e36bd50c331241a56f1db70ed06",
+                "reference": "d7bef6c66b889e36bd50c331241a56f1db70ed06",
                 "shasum": ""
             },
             "require": {
@@ -1269,7 +1270,7 @@
                 "illuminate/container": "4.1.*",
                 "illuminate/filesystem": "4.1.*",
                 "illuminate/support": "4.1.*",
-                "mockery/mockery": "0.8.0",
+                "mockery/mockery": "0.8.*",
                 "symfony/event-dispatcher": "2.4.*"
             },
             "type": "library",
@@ -1299,7 +1300,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-12-10 00:55:03"
+            "time": "2013-12-12 15:04:34"
         },
         {
             "name": "orchestra/resources",
@@ -1307,12 +1308,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/resources.git",
-                "reference": "c38d1cd4f1fa6dfd969d258ab5bc1d7e5d9fbdf6"
+                "reference": "95f4907548677aaed4c6e4ef596ad657233d21ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/resources/zipball/c38d1cd4f1fa6dfd969d258ab5bc1d7e5d9fbdf6",
-                "reference": "c38d1cd4f1fa6dfd969d258ab5bc1d7e5d9fbdf6",
+                "url": "https://api.github.com/repos/orchestral/resources/zipball/95f4907548677aaed4c6e4ef596ad657233d21ac",
+                "reference": "95f4907548677aaed4c6e4ef596ad657233d21ac",
                 "shasum": ""
             },
             "require": {
@@ -1323,7 +1324,7 @@
                 "illuminate/events": "4.1.*",
                 "illuminate/http": "4.1.*",
                 "illuminate/routing": "4.1.*",
-                "mockery/mockery": "0.8.0"
+                "mockery/mockery": "0.8.*"
             },
             "suggest": {
                 "laravel/framework": "Allow using orchestra/resources component outside of Orchestra Platform 2",
@@ -1352,13 +1353,13 @@
                 }
             ],
             "description": "Orchestra Platform 2 Resources Component",
-            "homepage": "http://orchestraplatform.com/docs/2.0/components/resources/",
+            "homepage": "http://orchestraplatform.com/docs/latest/components/resources/",
             "keywords": [
                 "laravel",
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-12-10 00:58:39"
+            "time": "2013-12-12 15:08:41"
         },
         {
             "name": "orchestra/story",
@@ -1424,12 +1425,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/support.git",
-                "reference": "4018f7c951584e318a5f654be7ab2158f284ed7a"
+                "reference": "703c9c15666eb8b6881f9d7cd32c2ad956fa96aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/support/zipball/4018f7c951584e318a5f654be7ab2158f284ed7a",
-                "reference": "4018f7c951584e318a5f654be7ab2158f284ed7a",
+                "url": "https://api.github.com/repos/orchestral/support/zipball/703c9c15666eb8b6881f9d7cd32c2ad956fa96aa",
+                "reference": "703c9c15666eb8b6881f9d7cd32c2ad956fa96aa",
                 "shasum": ""
             },
             "require": {
@@ -1467,13 +1468,13 @@
                 }
             ],
             "description": "Orchestra Platform 2 Support Component",
-            "homepage": "http://orchestraplatform.com/docs/2.0/components/support/",
+            "homepage": "http://orchestraplatform.com/docs/latest/components/support/",
             "keywords": [
                 "laravel",
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-12-10 01:00:28"
+            "time": "2013-12-12 14:06:37"
         },
         {
             "name": "orchestra/translation",
@@ -1481,12 +1482,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/translation.git",
-                "reference": "6e9b09f0552494818fcf5ba4a748656279ca7352"
+                "reference": "d76ee5f4e332d04248364e9cc03a00c60c236c33"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/translation/zipball/6e9b09f0552494818fcf5ba4a748656279ca7352",
-                "reference": "6e9b09f0552494818fcf5ba4a748656279ca7352",
+                "url": "https://api.github.com/repos/orchestral/translation/zipball/d76ee5f4e332d04248364e9cc03a00c60c236c33",
+                "reference": "d76ee5f4e332d04248364e9cc03a00c60c236c33",
                 "shasum": ""
             },
             "require": {
@@ -1494,7 +1495,7 @@
             },
             "require-dev": {
                 "illuminate/translation": "4.1.*",
-                "mockery/mockery": "0.8.0"
+                "mockery/mockery": "0.8.*"
             },
             "suggest": {
                 "laravel/framework": "Allow using orchestra/translation as added feature to illuminate/translation"
@@ -1522,14 +1523,14 @@
                 }
             ],
             "description": "Orchestra Platform 2 Translation Component",
-            "homepage": "http://orchestraplatform.com/docs/2.0/components/translation/",
+            "homepage": "http://orchestraplatform.com/docs/latest/components/translation/",
             "keywords": [
                 "laravel",
                 "orchestra-platform",
                 "orchestral",
                 "translation"
             ],
-            "time": "2013-12-11 11:38:28"
+            "time": "2013-12-12 15:14:23"
         },
         {
             "name": "orchestra/view",
@@ -1537,12 +1538,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/view.git",
-                "reference": "08b2e9cfd051705c7d594ef84f57286ba77fda69"
+                "reference": "f174685b07df09a74938effc185420bf6f6a9e57"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/view/zipball/08b2e9cfd051705c7d594ef84f57286ba77fda69",
-                "reference": "08b2e9cfd051705c7d594ef84f57286ba77fda69",
+                "url": "https://api.github.com/repos/orchestral/view/zipball/f174685b07df09a74938effc185420bf6f6a9e57",
+                "reference": "f174685b07df09a74938effc185420bf6f6a9e57",
                 "shasum": ""
             },
             "require": {
@@ -1552,7 +1553,7 @@
             "require-dev": {
                 "illuminate/container": "4.1.*",
                 "illuminate/view": "4.1.*",
-                "mockery/mockery": "0.8.0"
+                "mockery/mockery": "0.8.*"
             },
             "suggest": {
                 "laravel/framework": "Allow using orchestra/view component outside of Orchestra Platform 2",
@@ -1581,13 +1582,13 @@
                 }
             ],
             "description": "Orchestra Platform 2 View Component",
-            "homepage": "http://orchestraplatform.com/docs/2.0/components/view/",
+            "homepage": "http://orchestraplatform.com/docs/latest/components/view/",
             "keywords": [
                 "laravel",
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-12-10 01:01:58"
+            "time": "2013-12-12 15:19:40"
         },
         {
             "name": "orchestra/widget",
@@ -1595,12 +1596,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/widget.git",
-                "reference": "eeee4f0382dbe8f81c8b425ca245642ee0ab71c6"
+                "reference": "cc07acdf7049b641e00a7dd5ec3344b46b55808a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/widget/zipball/eeee4f0382dbe8f81c8b425ca245642ee0ab71c6",
-                "reference": "eeee4f0382dbe8f81c8b425ca245642ee0ab71c6",
+                "url": "https://api.github.com/repos/orchestral/widget/zipball/cc07acdf7049b641e00a7dd5ec3344b46b55808a",
+                "reference": "cc07acdf7049b641e00a7dd5ec3344b46b55808a",
                 "shasum": ""
             },
             "require": {
@@ -1610,7 +1611,7 @@
             "require-dev": {
                 "illuminate/container": "4.1.*",
                 "illuminate/support": "4.1.*",
-                "mockery/mockery": "0.8.0"
+                "mockery/mockery": "0.8.*"
             },
             "suggest": {
                 "laravel/framework": "Allow using orchestra/widget component outside of Orchestra Platform 2",
@@ -1639,13 +1640,13 @@
                 }
             ],
             "description": "Orchestra Platform 2 Widget Component",
-            "homepage": "http://orchestraplatform.com/docs/2.0/components/widget/",
+            "homepage": "http://orchestraplatform.com/docs/latest/components/widget/",
             "keywords": [
                 "laravel",
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-12-10 01:06:05"
+            "time": "2013-12-12 15:22:57"
         },
         {
             "name": "patchwork/utf8",
