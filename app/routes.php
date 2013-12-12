@@ -27,7 +27,7 @@ Route::get('docs/{version}/{filename?}', function ($version, $filename = 'index'
 		return new Document(new DflydevMarkdownExtra);
 	});
 
-	if (File::isDirectory("{$path}/{$filename}")) {
+	if (File::isDirectory("{$path}/src/{$filename}")) {
 		$filename = "{$filename}/index";
 	}
 
