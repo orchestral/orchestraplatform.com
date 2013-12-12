@@ -374,12 +374,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "cc0bd4d8c8f86d4fb841d02d3a7a2106c4f037f9"
+                "reference": "8927d4cd7a260ee17186845248c8f1e94c91e8e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/cc0bd4d8c8f86d4fb841d02d3a7a2106c4f037f9",
-                "reference": "cc0bd4d8c8f86d4fb841d02d3a7a2106c4f037f9",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/8927d4cd7a260ee17186845248c8f1e94c91e8e3",
+                "reference": "8927d4cd7a260ee17186845248c8f1e94c91e8e3",
                 "shasum": ""
             },
             "require": {
@@ -449,7 +449,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.1-dev"
+                    "dev-master": "4.2-dev"
                 }
             },
             "autoload": {
@@ -482,7 +482,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2013-12-11 03:57:59"
+            "time": "2013-12-11 20:39:45"
         },
         {
             "name": "monolog/monolog",
@@ -648,12 +648,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/asset.git",
-                "reference": "b4dc6a0afb566194391431a4254bf75acc062541"
+                "reference": "3383e4fb4e374f8ba413670e64248433c855278d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/asset/zipball/b4dc6a0afb566194391431a4254bf75acc062541",
-                "reference": "b4dc6a0afb566194391431a4254bf75acc062541",
+                "url": "https://api.github.com/repos/orchestral/asset/zipball/3383e4fb4e374f8ba413670e64248433c855278d",
+                "reference": "3383e4fb4e374f8ba413670e64248433c855278d",
                 "shasum": ""
             },
             "require": {
@@ -663,7 +663,7 @@
             "require-dev": {
                 "illuminate/container": "4.1.*",
                 "illuminate/support": "4.1.*",
-                "mockery/mockery": "0.8.0"
+                "mockery/mockery": "0.8.*"
             },
             "suggest": {
                 "laravel/framework": "Allow using orchestra/asset component outside of Orchestra Platform 2",
@@ -692,14 +692,14 @@
                 }
             ],
             "description": "Orchestra Platform 2 Asset Component",
-            "homepage": "http://orchestraplatform.com/docs/2.0/components/asset/",
+            "homepage": "http://orchestraplatform.com/docs/2.1/components/asset/",
             "keywords": [
                 "asset",
                 "laravel",
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-12-09 15:14:37"
+            "time": "2013-12-12 02:27:21"
         },
         {
             "name": "orchestra/auth",
@@ -889,12 +889,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/extension.git",
-                "reference": "b32f1f37f10bf084a988a6562ac2bdf02176fbdd"
+                "reference": "2dd79b152474158cd5504d1b5e625e372f6101bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/extension/zipball/b32f1f37f10bf084a988a6562ac2bdf02176fbdd",
-                "reference": "b32f1f37f10bf084a988a6562ac2bdf02176fbdd",
+                "url": "https://api.github.com/repos/orchestral/extension/zipball/2dd79b152474158cd5504d1b5e625e372f6101bf",
+                "reference": "2dd79b152474158cd5504d1b5e625e372f6101bf",
                 "shasum": ""
             },
             "require": {
@@ -906,7 +906,7 @@
                 "illuminate/container": "4.1.*",
                 "illuminate/http": "4.1.*",
                 "illuminate/support": "4.1.*",
-                "mockery/mockery": "0.8.0"
+                "mockery/mockery": "0.8.*"
             },
             "suggest": {
                 "laravel/framework": "Allow using orchestra/extension component outside of Orchestra Platform 2",
@@ -935,14 +935,14 @@
                 }
             ],
             "description": "Orchestra Platform 2 Extension Component",
-            "homepage": "http://orchestraplatform.com/docs/2.0/components/extension/",
+            "homepage": "http://orchestraplatform.com/docs/latest/components/extension/",
             "keywords": [
                 "extension",
                 "laravel",
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-12-11 14:36:50"
+            "time": "2013-12-12 02:41:15"
         },
         {
             "name": "orchestra/facile",
@@ -1009,12 +1009,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "94392175079bdd12d929241b8413f8d0af58260c"
+                "reference": "e369e092baded9d7b12230ae2434a354b35e9fcd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/94392175079bdd12d929241b8413f8d0af58260c",
-                "reference": "94392175079bdd12d929241b8413f8d0af58260c",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/e369e092baded9d7b12230ae2434a354b35e9fcd",
+                "reference": "e369e092baded9d7b12230ae2434a354b35e9fcd",
                 "shasum": ""
             },
             "require": {
@@ -1073,7 +1073,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-12-11 13:41:27"
+            "time": "2013-12-11 14:01:42"
         },
         {
             "name": "orchestra/html",
@@ -1704,12 +1704,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "b1cf3aeb0ab970c5857fe0e3cc171f50a62512a5"
+                "reference": "df8c3723aa0e575a3fccaf91acb79091d46bb2f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/b1cf3aeb0ab970c5857fe0e3cc171f50a62512a5",
-                "reference": "b1cf3aeb0ab970c5857fe0e3cc171f50a62512a5",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/df8c3723aa0e575a3fccaf91acb79091d46bb2f3",
+                "reference": "df8c3723aa0e575a3fccaf91acb79091d46bb2f3",
                 "shasum": ""
             },
             "require": {
@@ -1790,7 +1790,7 @@
                 "x.509",
                 "x509"
             ],
-            "time": "2013-12-10 21:29:05"
+            "time": "2013-12-11 22:30:13"
         },
         {
             "name": "predis/predis",
