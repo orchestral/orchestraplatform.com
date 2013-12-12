@@ -31,7 +31,7 @@ Route::get('docs/{version}/{filename?}', function ($version, $filename = 'index'
 		$filename = "{$filename}/index";
 	}
 
-	if (! File::exists($document = "{$path}/{$filename}.md") or ! File::exists($toc = "{$base}/toc/{$version}.md")) {
+	if (! File::exists($document = "{$path}/src/{$filename}.md") or ! File::exists($toc = "{$path}/src/contents.md")) {
 		return App::abort(404);
 	}
 
