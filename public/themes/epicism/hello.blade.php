@@ -9,14 +9,14 @@
            <h1 class="animated bounceInLeft">Let build awesome.</h1>
            <div class="animated bounceInUp">
            		<p>Orchestra Platform provide all the boilerplate for your application, so you can create awesomeness.</p>
-               <p><a class="button" href="#">I want it now</a></p>
+               <p><a class="button" href="{{ handles('app::docs/latest/installation') }}">I want it now</a></p>
            </div>
        </li>
        <li class="textcenter animated slideInDown" style="background-image: url({{ Theme::asset('assets/img/slide1.jpg') }});" title="The next level.">
            <h1 class="animated bounceInLeft">The next level.</h1>
            <div class="animated bounceInUp">
            		<p>Orchestra Platform is built from 17 components that utilize all the best tool available with Laravel 4 and PHP</p>
-               <p><a class="button" href="#">I want it now</a></p>
+               <p><a class="button" href="{{ handles('app::docs/latest/installation') }}">I want it now</a></p>
            </div>
        </li>
    </ul>
