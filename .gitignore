@@ -1,3 +1,6 @@
+# Package configuration
+/app/config/*/*/production/*
+
 # Laravel
 /bootstrap/compiled.php
 /bootstrap/environment.php

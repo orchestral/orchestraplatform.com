@@ -5,7 +5,8 @@
 		"orchestra/foundation": "2.1.*",
 		"orchestra/control": "2.1.*",
 		"orchestra/story": "2.1.*",
-		"daylerees/kurenai": "1.0.*"
+		"daylerees/kurenai": "1.0.*",
+		"bugsnag/bugsnag-laravel": "1.*"
 	},
 	"autoload": {
 		"psr-0": {
