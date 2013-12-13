@@ -1,5 +1,6 @@
 # Package configuration
-/app/config/*/*/production/*
+/app/config/packages/*/awesome/*
+/app/config/packages/*/*/awesome/*
 
 # Laravel
 /bootstrap/compiled.php
