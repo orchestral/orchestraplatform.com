@@ -156,6 +156,7 @@ return array(
         'Asset'           => 'Orchestra\Support\Facades\Asset',
         'Auth'            => 'Illuminate\Support\Facades\Auth',
         'Blade'           => 'Illuminate\Support\Facades\Blade',
+        'Bugsnag'         => 'Bugsnag\BugsnagLaravel\BugsnagFacade',
         'Cache'           => 'Illuminate\Support\Facades\Cache',
         'ClassLoader'     => 'Illuminate\Support\ClassLoader',
         'Config'          => 'Illuminate\Support\Facades\Config',
