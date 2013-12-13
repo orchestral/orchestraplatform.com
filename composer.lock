@@ -1006,7 +1006,7 @@
         },
         {
             "name": "orchestra/foundation",
-            "version": "dev-master",
+            "version": "v2.1.0-BETA1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
@@ -1534,16 +1534,16 @@
         },
         {
             "name": "orchestra/view",
-            "version": "dev-master",
+            "version": "2.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/view.git",
-                "reference": "f174685b07df09a74938effc185420bf6f6a9e57"
+                "reference": "97ee0fdb8f78cfa2a79a886327cec99a71cc24ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/view/zipball/f174685b07df09a74938effc185420bf6f6a9e57",
-                "reference": "f174685b07df09a74938effc185420bf6f6a9e57",
+                "url": "https://api.github.com/repos/orchestral/view/zipball/97ee0fdb8f78cfa2a79a886327cec99a71cc24ea",
+                "reference": "97ee0fdb8f78cfa2a79a886327cec99a71cc24ea",
                 "shasum": ""
             },
             "require": {
@@ -1562,7 +1562,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.1-dev"
+                    "dev-master": "2.2-dev"
                 }
             },
             "autoload": {
@@ -1588,7 +1588,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-12-12 15:19:40"
+            "time": "2013-12-13 04:35:16"
         },
         {
             "name": "orchestra/widget",
