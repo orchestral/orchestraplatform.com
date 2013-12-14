@@ -1,4 +1,6 @@
 # Package configuration
+/app/config/packages/*/local/*
+/app/config/packages/*/*/local/*
 /app/config/packages/*/awesome/*
 /app/config/packages/*/*/awesome/*
 
