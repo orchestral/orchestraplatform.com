@@ -54,6 +54,7 @@ class PostsTableSeeder extends Seeder
             $content->user_id      = 1;
             $content->save();
 
+            $this->command->info("Seed: [{$post}]");
             sleep(10);
         }
     }
