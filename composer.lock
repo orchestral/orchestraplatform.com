@@ -1107,12 +1107,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "6eaa5f2ebac5d7a1e92c17cd12955d9783d4cd72"
+                "reference": "a0ef7a2061a0e9673e739bb793def2f127e74c66"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/6eaa5f2ebac5d7a1e92c17cd12955d9783d4cd72",
-                "reference": "6eaa5f2ebac5d7a1e92c17cd12955d9783d4cd72",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/a0ef7a2061a0e9673e739bb793def2f127e74c66",
+                "reference": "a0ef7a2061a0e9673e739bb793def2f127e74c66",
                 "shasum": ""
             },
             "require": {
@@ -1171,7 +1171,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-12-14 13:04:50"
+            "time": "2013-12-16 12:25:27"
         },
         {
             "name": "orchestra/html",
@@ -1351,12 +1351,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/optimize.git",
-                "reference": "dcf96572f60108c2b087e8ef5f7fe190413cf00a"
+                "reference": "8a18f3a2b4126bcb35124d83c8a4ce105ca1411d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/optimize/zipball/dcf96572f60108c2b087e8ef5f7fe190413cf00a",
-                "reference": "dcf96572f60108c2b087e8ef5f7fe190413cf00a",
+                "url": "https://api.github.com/repos/orchestral/optimize/zipball/8a18f3a2b4126bcb35124d83c8a4ce105ca1411d",
+                "reference": "8a18f3a2b4126bcb35124d83c8a4ce105ca1411d",
                 "shasum": ""
             },
             "require": {
@@ -1398,7 +1398,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-12-16 03:24:33"
+            "time": "2013-12-16 04:20:05"
         },
         {
             "name": "orchestra/resources",
@@ -1897,12 +1897,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nrk/predis.git",
-                "reference": "bd48225edcf73ca82edf97abf420b82d9df4e292"
+                "reference": "87ca5a1a49737e15c1b4b429f7a21a5682bb62f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nrk/predis/zipball/bd48225edcf73ca82edf97abf420b82d9df4e292",
-                "reference": "bd48225edcf73ca82edf97abf420b82d9df4e292",
+                "url": "https://api.github.com/repos/nrk/predis/zipball/87ca5a1a49737e15c1b4b429f7a21a5682bb62f7",
+                "reference": "87ca5a1a49737e15c1b4b429f7a21a5682bb62f7",
                 "shasum": ""
             },
             "require": {
@@ -1936,7 +1936,7 @@
                 "predis",
                 "redis"
             ],
-            "time": "2013-12-14 19:47:23"
+            "time": "2013-12-16 10:45:50"
         },
         {
             "name": "psr/log",
