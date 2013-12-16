@@ -866,12 +866,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/control.git",
-                "reference": "55275a472d05fe852212e0aa4cc9a844c9d632fb"
+                "reference": "f6e2cf4a09cdab9d126c8e7573503836bf3330ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/control/zipball/55275a472d05fe852212e0aa4cc9a844c9d632fb",
-                "reference": "55275a472d05fe852212e0aa4cc9a844c9d632fb",
+                "url": "https://api.github.com/repos/orchestral/control/zipball/f6e2cf4a09cdab9d126c8e7573503836bf3330ab",
+                "reference": "f6e2cf4a09cdab9d126c8e7573503836bf3330ab",
                 "shasum": ""
             },
             "require": {
@@ -915,7 +915,7 @@
                 "theme",
                 "timezone"
             ],
-            "time": "2013-12-15 07:06:33"
+            "time": "2013-12-15 18:34:56"
         },
         {
             "name": "orchestra/debug",
@@ -1351,24 +1351,25 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/optimize.git",
-                "reference": "761e5d7c7fec2cacee0657437333d9386738641e"
+                "reference": "dcf96572f60108c2b087e8ef5f7fe190413cf00a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/optimize/zipball/761e5d7c7fec2cacee0657437333d9386738641e",
-                "reference": "761e5d7c7fec2cacee0657437333d9386738641e",
+                "url": "https://api.github.com/repos/orchestral/optimize/zipball/dcf96572f60108c2b087e8ef5f7fe190413cf00a",
+                "reference": "dcf96572f60108c2b087e8ef5f7fe190413cf00a",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
             "require-dev": {
+                "illuminate/config": "4.1.*",
                 "illuminate/console": "4.1.*",
                 "illuminate/container": "4.1.*",
+                "illuminate/events": "4.1.*",
                 "illuminate/filesystem": "4.1.*",
                 "illuminate/support": "4.1.*",
-                "mockery/mockery": "0.8.*",
-                "symfony/event-dispatcher": "2.4.*"
+                "mockery/mockery": "0.8.*"
             },
             "type": "library",
             "extra": {
@@ -1397,7 +1398,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-12-13 04:28:28"
+            "time": "2013-12-16 03:24:33"
         },
         {
             "name": "orchestra/resources",
