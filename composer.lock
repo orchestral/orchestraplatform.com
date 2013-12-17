@@ -866,12 +866,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/control.git",
-                "reference": "f6e2cf4a09cdab9d126c8e7573503836bf3330ab"
+                "reference": "645571e9f6c238b2de9d498ac6e75b6661724ebe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/control/zipball/f6e2cf4a09cdab9d126c8e7573503836bf3330ab",
-                "reference": "f6e2cf4a09cdab9d126c8e7573503836bf3330ab",
+                "url": "https://api.github.com/repos/orchestral/control/zipball/645571e9f6c238b2de9d498ac6e75b6661724ebe",
+                "reference": "645571e9f6c238b2de9d498ac6e75b6661724ebe",
                 "shasum": ""
             },
             "require": {
@@ -915,7 +915,7 @@
                 "theme",
                 "timezone"
             ],
-            "time": "2013-12-15 18:34:56"
+            "time": "2013-12-17 15:53:08"
         },
         {
             "name": "orchestra/debug",
@@ -1107,12 +1107,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "a0ef7a2061a0e9673e739bb793def2f127e74c66"
+                "reference": "476e958fbac08a1a0cd2805cb925bb15f51c5ccb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/a0ef7a2061a0e9673e739bb793def2f127e74c66",
-                "reference": "a0ef7a2061a0e9673e739bb793def2f127e74c66",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/476e958fbac08a1a0cd2805cb925bb15f51c5ccb",
+                "reference": "476e958fbac08a1a0cd2805cb925bb15f51c5ccb",
                 "shasum": ""
             },
             "require": {
@@ -1125,11 +1125,13 @@
                 "orchestra/html": "2.1.*",
                 "orchestra/memory": "2.1.*",
                 "orchestra/model": "2.1.*",
+                "orchestra/notifier": "2.1.*",
                 "orchestra/optimize": "2.1.*",
                 "orchestra/resources": "2.1.*",
                 "orchestra/support": "2.1.*",
                 "orchestra/translation": "2.1.*",
                 "orchestra/view": "2.1.*",
+                "orchestra/warden": "2.1.*",
                 "orchestra/widget": "2.1.*",
                 "php": ">=5.3.3"
             },
@@ -1171,7 +1173,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-12-16 12:25:27"
+            "time": "2013-12-17 15:46:55"
         },
         {
             "name": "orchestra/html",
@@ -1344,6 +1346,60 @@
                 "orchestral"
             ],
             "time": "2013-12-13 04:25:42"
+        },
+        {
+            "name": "orchestra/notifier",
+            "version": "2.1.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/orchestral/notifier.git",
+                "reference": "232accc12ca280afd99b0563da576082895887d5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/orchestral/notifier/zipball/232accc12ca280afd99b0563da576082895887d5",
+                "reference": "232accc12ca280afd99b0563da576082895887d5",
+                "shasum": ""
+            },
+            "require": {
+                "orchestra/support": "2.1.*",
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "illuminate/auth": "4.1.*",
+                "illuminate/mail": "4.1.*",
+                "illuminate/support": "4.1.*",
+                "mockery/mockery": "0.8.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Orchestra\\Notifier": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mior Muhammad Zaki",
+                    "email": "crynobone@gmail.com",
+                    "homepage": "https://github.com/crynobone"
+                }
+            ],
+            "description": "[WIP] Orchestra Platform 2 User Notification Component",
+            "keywords": [
+                "laravel",
+                "orchestra-platform",
+                "orchestral"
+            ],
+            "time": "2013-12-15 18:36:46"
         },
         {
             "name": "orchestra/optimize",
@@ -1689,6 +1745,64 @@
             "time": "2013-12-13 04:35:16"
         },
         {
+            "name": "orchestra/warden",
+            "version": "2.1.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/orchestral/warden.git",
+                "reference": "263e352770bf9ae0f5332de80f9916e75374c64d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/orchestral/warden/zipball/263e352770bf9ae0f5332de80f9916e75374c64d",
+                "reference": "263e352770bf9ae0f5332de80f9916e75374c64d",
+                "shasum": ""
+            },
+            "require": {
+                "orchestra/memory": "2.1.*",
+                "orchestra/notifier": "2.1.*",
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "illuminate/auth": "4.1.*",
+                "illuminate/container": "4.1.*",
+                "illuminate/database": "4.1.*",
+                "illuminate/mail": "4.1.*",
+                "illuminate/support": "4.1.*",
+                "mockery/mockery": "0.8.*",
+                "nesbot/carbon": "1.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Orchestra\\Warden": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mior Muhammad Zaki",
+                    "email": "crynobone@gmail.com",
+                    "homepage": "https://github.com/crynobone"
+                }
+            ],
+            "description": "[WIP] Orchestra Platform 2 User Warden Component",
+            "keywords": [
+                "laravel",
+                "orchestra-platform",
+                "orchestral"
+            ],
+            "time": "2013-12-15 18:37:57"
+        },
+        {
             "name": "orchestra/widget",
             "version": "2.1.x-dev",
             "source": {
@@ -1897,12 +2011,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nrk/predis.git",
-                "reference": "87ca5a1a49737e15c1b4b429f7a21a5682bb62f7"
+                "reference": "56627f30f83e1adf5e27c8d44bf0f55eaeab801a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nrk/predis/zipball/87ca5a1a49737e15c1b4b429f7a21a5682bb62f7",
-                "reference": "87ca5a1a49737e15c1b4b429f7a21a5682bb62f7",
+                "url": "https://api.github.com/repos/nrk/predis/zipball/56627f30f83e1adf5e27c8d44bf0f55eaeab801a",
+                "reference": "56627f30f83e1adf5e27c8d44bf0f55eaeab801a",
                 "shasum": ""
             },
             "require": {
@@ -1936,7 +2050,7 @@
                 "predis",
                 "redis"
             ],
-            "time": "2013-12-16 10:45:50"
+            "time": "2013-12-17 12:00:39"
         },
         {
             "name": "psr/log",
@@ -2431,12 +2545,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/DomCrawler.git",
-                "reference": "809495cca56a45e0df92b8d68764cf7d454b88c5"
+                "reference": "34ae881791b5efd8fd44fdc2b0e2ad1da20aa86b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/DomCrawler/zipball/809495cca56a45e0df92b8d68764cf7d454b88c5",
-                "reference": "809495cca56a45e0df92b8d68764cf7d454b88c5",
+                "url": "https://api.github.com/repos/symfony/DomCrawler/zipball/34ae881791b5efd8fd44fdc2b0e2ad1da20aa86b",
+                "reference": "34ae881791b5efd8fd44fdc2b0e2ad1da20aa86b",
                 "shasum": ""
             },
             "require": {
@@ -2475,7 +2589,7 @@
             ],
             "description": "Symfony DomCrawler Component",
             "homepage": "http://symfony.com",
-            "time": "2013-12-03 14:52:22"
+            "time": "2013-12-17 13:01:50"
         },
         {
             "name": "symfony/event-dispatcher",
