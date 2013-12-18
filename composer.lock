@@ -11,12 +11,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/bugsnag/bugsnag-php.git",
-                "reference": "f853167d2a5c125b4e66be53e466b7bc18b5f01e"
+                "reference": "8cc93bbe009bd76a103e6070e44742f60ae30a71"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bugsnag/bugsnag-php/zipball/f853167d2a5c125b4e66be53e466b7bc18b5f01e",
-                "reference": "f853167d2a5c125b4e66be53e466b7bc18b5f01e",
+                "url": "https://api.github.com/repos/bugsnag/bugsnag-php/zipball/8cc93bbe009bd76a103e6070e44742f60ae30a71",
+                "reference": "8cc93bbe009bd76a103e6070e44742f60ae30a71",
                 "shasum": ""
             },
             "require": {
@@ -51,7 +51,7 @@
                 "logging",
                 "tracking"
             ],
-            "time": "2013-12-14 01:30:10"
+            "time": "2013-12-17 23:50:53"
         },
         {
             "name": "bugsnag/bugsnag-laravel",
@@ -745,12 +745,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/asset.git",
-                "reference": "a1c7acc9789acbea26a9e461982fdf40d3e84882"
+                "reference": "1b8f189f2d2c48225c51f47b8f539dc70b8532c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/asset/zipball/a1c7acc9789acbea26a9e461982fdf40d3e84882",
-                "reference": "a1c7acc9789acbea26a9e461982fdf40d3e84882",
+                "url": "https://api.github.com/repos/orchestral/asset/zipball/1b8f189f2d2c48225c51f47b8f539dc70b8532c1",
+                "reference": "1b8f189f2d2c48225c51f47b8f539dc70b8532c1",
                 "shasum": ""
             },
             "require": {
@@ -796,7 +796,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-12-13 03:35:46"
+            "time": "2013-12-17 23:58:55"
         },
         {
             "name": "orchestra/auth",
@@ -1240,12 +1240,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/memory.git",
-                "reference": "b2f4d07676948eb77793f1dfdcf7035c7d87a892"
+                "reference": "3da2d536e26e1a108a55fe3b04ccaf2f1a9b99b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/memory/zipball/b2f4d07676948eb77793f1dfdcf7035c7d87a892",
-                "reference": "b2f4d07676948eb77793f1dfdcf7035c7d87a892",
+                "url": "https://api.github.com/repos/orchestral/memory/zipball/3da2d536e26e1a108a55fe3b04ccaf2f1a9b99b0",
+                "reference": "3da2d536e26e1a108a55fe3b04ccaf2f1a9b99b0",
                 "shasum": ""
             },
             "require": {
@@ -1290,7 +1290,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-12-13 03:22:09"
+            "time": "2013-12-18 01:58:42"
         },
         {
             "name": "orchestra/model",
@@ -1917,12 +1917,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "df8c3723aa0e575a3fccaf91acb79091d46bb2f3"
+                "reference": "0dc8b27a6a47c22a20efd7172fd71d88234869ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/df8c3723aa0e575a3fccaf91acb79091d46bb2f3",
-                "reference": "df8c3723aa0e575a3fccaf91acb79091d46bb2f3",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/0dc8b27a6a47c22a20efd7172fd71d88234869ca",
+                "reference": "0dc8b27a6a47c22a20efd7172fd71d88234869ca",
                 "shasum": ""
             },
             "require": {
@@ -2003,7 +2003,7 @@
                 "x.509",
                 "x509"
             ],
-            "time": "2013-12-11 22:30:13"
+            "time": "2013-12-17 19:55:56"
         },
         {
             "name": "predis/predis",
