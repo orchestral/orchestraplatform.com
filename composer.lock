@@ -1523,12 +1523,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/story.git",
-                "reference": "4d529b6dd7d8ceac4ed88564e0942c665878167c"
+                "reference": "0fa827015b334fa5044092c4a3cdb27380909357"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/story/zipball/4d529b6dd7d8ceac4ed88564e0942c665878167c",
-                "reference": "4d529b6dd7d8ceac4ed88564e0942c665878167c",
+                "url": "https://api.github.com/repos/orchestral/story/zipball/0fa827015b334fa5044092c4a3cdb27380909357",
+                "reference": "0fa827015b334fa5044092c4a3cdb27380909357",
                 "shasum": ""
             },
             "require": {
@@ -1573,7 +1573,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-12-15 15:33:35"
+            "time": "2013-12-19 11:16:48"
         },
         {
             "name": "orchestra/support",
@@ -2012,12 +2012,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nrk/predis.git",
-                "reference": "b7cba070147e9c430e813fa411d2851cac3e2b96"
+                "reference": "b45f87caf2aac0c9d84b35d60ccf4e8cc74c8dc1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nrk/predis/zipball/b7cba070147e9c430e813fa411d2851cac3e2b96",
-                "reference": "b7cba070147e9c430e813fa411d2851cac3e2b96",
+                "url": "https://api.github.com/repos/nrk/predis/zipball/b45f87caf2aac0c9d84b35d60ccf4e8cc74c8dc1",
+                "reference": "b45f87caf2aac0c9d84b35d60ccf4e8cc74c8dc1",
                 "shasum": ""
             },
             "require": {
@@ -2051,7 +2051,7 @@
                 "predis",
                 "redis"
             ],
-            "time": "2013-12-18 15:09:01"
+            "time": "2013-12-19 10:51:45"
         },
         {
             "name": "psr/log",
