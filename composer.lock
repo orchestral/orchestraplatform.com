@@ -1048,12 +1048,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/facile.git",
-                "reference": "995492a4f0e6c5de27f1b6c52c533d802f813965"
+                "reference": "9cf1b9a919ed039241dee05c57d102b02a669307"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/facile/zipball/995492a4f0e6c5de27f1b6c52c533d802f813965",
-                "reference": "995492a4f0e6c5de27f1b6c52c533d802f813965",
+                "url": "https://api.github.com/repos/orchestral/facile/zipball/9cf1b9a919ed039241dee05c57d102b02a669307",
+                "reference": "9cf1b9a919ed039241dee05c57d102b02a669307",
                 "shasum": ""
             },
             "require": {
@@ -1099,7 +1099,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-12-19 09:11:38"
+            "time": "2013-12-19 09:41:15"
         },
         {
             "name": "orchestra/foundation",
