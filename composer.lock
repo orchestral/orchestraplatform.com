@@ -1048,12 +1048,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/facile.git",
-                "reference": "419c51830d8cce35f7d92a9a56df1922fc67303f"
+                "reference": "995492a4f0e6c5de27f1b6c52c533d802f813965"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/facile/zipball/419c51830d8cce35f7d92a9a56df1922fc67303f",
-                "reference": "419c51830d8cce35f7d92a9a56df1922fc67303f",
+                "url": "https://api.github.com/repos/orchestral/facile/zipball/995492a4f0e6c5de27f1b6c52c533d802f813965",
+                "reference": "995492a4f0e6c5de27f1b6c52c533d802f813965",
                 "shasum": ""
             },
             "require": {
@@ -1099,7 +1099,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-12-19 07:00:18"
+            "time": "2013-12-19 09:11:38"
         },
         {
             "name": "orchestra/foundation",
@@ -1809,12 +1809,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/widget.git",
-                "reference": "8a91fbe06a1407c0cceeb23fe1d9e56746299a9f"
+                "reference": "99b0c6f53fb9b98277cf63910fda0682e7928af9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/widget/zipball/8a91fbe06a1407c0cceeb23fe1d9e56746299a9f",
-                "reference": "8a91fbe06a1407c0cceeb23fe1d9e56746299a9f",
+                "url": "https://api.github.com/repos/orchestral/widget/zipball/99b0c6f53fb9b98277cf63910fda0682e7928af9",
+                "reference": "99b0c6f53fb9b98277cf63910fda0682e7928af9",
                 "shasum": ""
             },
             "require": {
@@ -1859,7 +1859,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-12-13 03:32:01"
+            "time": "2013-12-19 07:41:11"
         },
         {
             "name": "patchwork/utf8",
