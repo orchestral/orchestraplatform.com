@@ -804,12 +804,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/auth.git",
-                "reference": "a83b3f00c50cd5c7ec2e3b101b0443603025df57"
+                "reference": "1389d8065f17ec5d8e5debc39065459e7455f736"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/auth/zipball/a83b3f00c50cd5c7ec2e3b101b0443603025df57",
-                "reference": "a83b3f00c50cd5c7ec2e3b101b0443603025df57",
+                "url": "https://api.github.com/repos/orchestral/auth/zipball/1389d8065f17ec5d8e5debc39065459e7455f736",
+                "reference": "1389d8065f17ec5d8e5debc39065459e7455f736",
                 "shasum": ""
             },
             "require": {
@@ -858,7 +858,7 @@
                 "orchestral",
                 "rbac"
             ],
-            "time": "2013-12-20 08:02:08"
+            "time": "2013-12-20 11:27:35"
         },
         {
             "name": "orchestra/control",
@@ -1109,12 +1109,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "731aa073e4244049b880f528f85a00448572b0fd"
+                "reference": "bc35b6df836babdcd899706faf40fa1d99990b11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/731aa073e4244049b880f528f85a00448572b0fd",
-                "reference": "731aa073e4244049b880f528f85a00448572b0fd",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/bc35b6df836babdcd899706faf40fa1d99990b11",
+                "reference": "bc35b6df836babdcd899706faf40fa1d99990b11",
                 "shasum": ""
             },
             "require": {
@@ -1175,7 +1175,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-12-20 07:39:48"
+            "time": "2013-12-20 11:29:40"
         },
         {
             "name": "orchestra/html",
