@@ -1414,12 +1414,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/optimize.git",
-                "reference": "3058f19dd576214df27c097375d3c6e5842e11ad"
+                "reference": "41268da6ff81357ef8b289974fc89181ae51f806"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/optimize/zipball/3058f19dd576214df27c097375d3c6e5842e11ad",
-                "reference": "3058f19dd576214df27c097375d3c6e5842e11ad",
+                "url": "https://api.github.com/repos/orchestral/optimize/zipball/41268da6ff81357ef8b289974fc89181ae51f806",
+                "reference": "41268da6ff81357ef8b289974fc89181ae51f806",
                 "shasum": ""
             },
             "require": {
@@ -1461,7 +1461,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-12-20 15:48:18"
+            "time": "2013-12-22 10:37:58"
         },
         {
             "name": "orchestra/resources",
