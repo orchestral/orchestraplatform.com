@@ -1414,12 +1414,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/optimize.git",
-                "reference": "41268da6ff81357ef8b289974fc89181ae51f806"
+                "reference": "430faabebf2d29e1e4d7653d11b773e76e1750a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/optimize/zipball/41268da6ff81357ef8b289974fc89181ae51f806",
-                "reference": "41268da6ff81357ef8b289974fc89181ae51f806",
+                "url": "https://api.github.com/repos/orchestral/optimize/zipball/430faabebf2d29e1e4d7653d11b773e76e1750a8",
+                "reference": "430faabebf2d29e1e4d7653d11b773e76e1750a8",
                 "shasum": ""
             },
             "require": {
@@ -1461,7 +1461,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-12-22 10:37:58"
+            "time": "2013-12-22 11:22:03"
         },
         {
             "name": "orchestra/resources",
@@ -1528,12 +1528,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/story.git",
-                "reference": "270114cc0a2dea7415f825404a4def91c452d869"
+                "reference": "2552212d878ad7dc4281cc9d5c0544a6b5f6e4f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/story/zipball/270114cc0a2dea7415f825404a4def91c452d869",
-                "reference": "270114cc0a2dea7415f825404a4def91c452d869",
+                "url": "https://api.github.com/repos/orchestral/story/zipball/2552212d878ad7dc4281cc9d5c0544a6b5f6e4f4",
+                "reference": "2552212d878ad7dc4281cc9d5c0544a6b5f6e4f4",
                 "shasum": ""
             },
             "require": {
@@ -1578,7 +1578,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-12-22 07:24:08"
+            "time": "2013-12-23 01:36:17"
         },
         {
             "name": "orchestra/support",
@@ -1924,12 +1924,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "0dc8b27a6a47c22a20efd7172fd71d88234869ca"
+                "reference": "4bd9a546ab5cfa9838eaabe4e0c32643e4eed412"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/0dc8b27a6a47c22a20efd7172fd71d88234869ca",
-                "reference": "0dc8b27a6a47c22a20efd7172fd71d88234869ca",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/4bd9a546ab5cfa9838eaabe4e0c32643e4eed412",
+                "reference": "4bd9a546ab5cfa9838eaabe4e0c32643e4eed412",
                 "shasum": ""
             },
             "require": {
@@ -2010,7 +2010,7 @@
                 "x.509",
                 "x509"
             ],
-            "time": "2013-12-17 19:55:56"
+            "time": "2013-12-22 17:53:35"
         },
         {
             "name": "predis/predis",
@@ -2018,12 +2018,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nrk/predis.git",
-                "reference": "317fa42891f647b69603708d96d3a16db1ff1559"
+                "reference": "d2debfd43eb8a5201204bb70275a0ef83b3d11ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nrk/predis/zipball/317fa42891f647b69603708d96d3a16db1ff1559",
-                "reference": "317fa42891f647b69603708d96d3a16db1ff1559",
+                "url": "https://api.github.com/repos/nrk/predis/zipball/d2debfd43eb8a5201204bb70275a0ef83b3d11ff",
+                "reference": "d2debfd43eb8a5201204bb70275a0ef83b3d11ff",
                 "shasum": ""
             },
             "require": {
@@ -2057,7 +2057,7 @@
                 "predis",
                 "redis"
             ],
-            "time": "2013-12-21 11:00:44"
+            "time": "2013-12-22 16:51:18"
         },
         {
             "name": "psr/log",
