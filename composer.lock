@@ -866,12 +866,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/control.git",
-                "reference": "435e96cd9ff0ac5cd8f607f51c7ac61586f98cff"
+                "reference": "ed15096993da4f5ee69215076f9e8750a5ce04e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/control/zipball/435e96cd9ff0ac5cd8f607f51c7ac61586f98cff",
-                "reference": "435e96cd9ff0ac5cd8f607f51c7ac61586f98cff",
+                "url": "https://api.github.com/repos/orchestral/control/zipball/ed15096993da4f5ee69215076f9e8750a5ce04e5",
+                "reference": "ed15096993da4f5ee69215076f9e8750a5ce04e5",
                 "shasum": ""
             },
             "require": {
@@ -915,7 +915,7 @@
                 "theme",
                 "timezone"
             ],
-            "time": "2013-12-20 15:19:06"
+            "time": "2013-12-24 10:01:00"
         },
         {
             "name": "orchestra/debug",
