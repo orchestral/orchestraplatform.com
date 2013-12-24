@@ -1050,12 +1050,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/facile.git",
-                "reference": "74ce9eceeed124330ee167dc6681be4530610703"
+                "reference": "0b49036d6eb1eded9a2bd59784047031f359c0e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/facile/zipball/74ce9eceeed124330ee167dc6681be4530610703",
-                "reference": "74ce9eceeed124330ee167dc6681be4530610703",
+                "url": "https://api.github.com/repos/orchestral/facile/zipball/0b49036d6eb1eded9a2bd59784047031f359c0e1",
+                "reference": "0b49036d6eb1eded9a2bd59784047031f359c0e1",
                 "shasum": ""
             },
             "require": {
@@ -1101,7 +1101,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-12-20 15:23:40"
+            "time": "2013-12-24 01:46:22"
         },
         {
             "name": "orchestra/foundation",
@@ -1109,12 +1109,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "7ff40869fb43541762ae9ce432c8bac0d56834b7"
+                "reference": "dd9e78e87fc4904a8da4f08ee31661a63a1ea8bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/7ff40869fb43541762ae9ce432c8bac0d56834b7",
-                "reference": "7ff40869fb43541762ae9ce432c8bac0d56834b7",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/dd9e78e87fc4904a8da4f08ee31661a63a1ea8bc",
+                "reference": "dd9e78e87fc4904a8da4f08ee31661a63a1ea8bc",
                 "shasum": ""
             },
             "require": {
@@ -1175,7 +1175,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-12-23 03:42:20"
+            "time": "2013-12-23 12:12:39"
         },
         {
             "name": "orchestra/html",
@@ -2605,12 +2605,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/EventDispatcher.git",
-                "reference": "81c64d4567f7cf1a983f71f4a5b4d338165aa6e4"
+                "reference": "bdab22742ef40a9c5a6d000da19a7691f7efbb59"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/81c64d4567f7cf1a983f71f4a5b4d338165aa6e4",
-                "reference": "81c64d4567f7cf1a983f71f4a5b4d338165aa6e4",
+                "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/bdab22742ef40a9c5a6d000da19a7691f7efbb59",
+                "reference": "bdab22742ef40a9c5a6d000da19a7691f7efbb59",
                 "shasum": ""
             },
             "require": {
@@ -2650,7 +2650,7 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "http://symfony.com",
-            "time": "2013-12-03 14:52:29"
+            "time": "2013-12-18 17:16:40"
         },
         {
             "name": "symfony/filesystem",
