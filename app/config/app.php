@@ -125,6 +125,7 @@ return array(
         'Orchestra\Foundation\ConsoleSupportServiceProvider',
         'Orchestra\Foundation\FoundationServiceProvider',
 
+        'Platform\PlatformServiceProvider',
         'Bugsnag\BugsnagLaravel\BugsnagLaravelServiceProvider',
     ),
 
