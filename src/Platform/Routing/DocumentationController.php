@@ -1,6 +1,7 @@
 <?php namespace Platform\Routing;
 
 use App;
+use Cache;
 use Config;
 use File;
 use Site;
@@ -68,9 +69,20 @@ class DocumentationController extends BaseController
             throw new NotFoundHttpException;
         }
 
-        return [
-            $parser->parse(File::get($toc)),
-            $parser->parse(File::get($document)),
-        ];
+        $toc = Cache::get("doc.{$toc}", function () use ($parser, $toc) {
+            $content = $parser->parse(File::get($toc));
+            Cache::forever("doc.{$toc}", $content);
+
+            return $content;
+        });
+
+        $document = Cache::get("doc.{$document}", function () use ($parser, $document) {
+            $content = $parser->parse(File::get($document));
+            Cache::forever("doc.{$document}", $content);
+
+            return $content;
+        });
+
+        return [$toc, $document];
     }
 }
