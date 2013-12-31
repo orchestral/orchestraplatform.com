@@ -1110,12 +1110,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "bcf5ec7ae5871fd663f700e8da0aa6677df1028d"
+                "reference": "6c833c11a59b7ea5fda675ba3d20e3d1d2e6dce2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/bcf5ec7ae5871fd663f700e8da0aa6677df1028d",
-                "reference": "bcf5ec7ae5871fd663f700e8da0aa6677df1028d",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/6c833c11a59b7ea5fda675ba3d20e3d1d2e6dce2",
+                "reference": "6c833c11a59b7ea5fda675ba3d20e3d1d2e6dce2",
                 "shasum": ""
             },
             "require": {
@@ -1176,7 +1176,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-12-30 17:03:33"
+            "time": "2013-12-31 03:44:58"
         },
         {
             "name": "orchestra/html",
@@ -1360,12 +1360,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/notifier.git",
-                "reference": "4ab7aa055da05ffd1aef359a36b6d08a338d92c5"
+                "reference": "0eea21b15091e8ee9c369bd0e135073519a2fd91"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/notifier/zipball/4ab7aa055da05ffd1aef359a36b6d08a338d92c5",
-                "reference": "4ab7aa055da05ffd1aef359a36b6d08a338d92c5",
+                "url": "https://api.github.com/repos/orchestral/notifier/zipball/0eea21b15091e8ee9c369bd0e135073519a2fd91",
+                "reference": "0eea21b15091e8ee9c369bd0e135073519a2fd91",
                 "shasum": ""
             },
             "require": {
@@ -1402,13 +1402,13 @@
                     "homepage": "https://github.com/crynobone"
                 }
             ],
-            "description": "[WIP] Orchestra Platform 2 User Notification Component",
+            "description": "Orchestra Platform 2 User Notification Component",
             "keywords": [
                 "laravel",
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-12-30 17:14:55"
+            "time": "2013-12-31 03:15:35"
         },
         {
             "name": "orchestra/optimize",
@@ -1760,15 +1760,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/warden.git",
-                "reference": "2aa03aebc2160060a046310c6946e2fae66c5151"
+                "reference": "6df176421a31b7070ad4d62d3dace728d0723b80"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/warden/zipball/2aa03aebc2160060a046310c6946e2fae66c5151",
-                "reference": "2aa03aebc2160060a046310c6946e2fae66c5151",
+                "url": "https://api.github.com/repos/orchestral/warden/zipball/6df176421a31b7070ad4d62d3dace728d0723b80",
+                "reference": "6df176421a31b7070ad4d62d3dace728d0723b80",
                 "shasum": ""
             },
             "require": {
+                "orchestra/model": "2.1.*",
                 "orchestra/notifier": "2.1.*",
                 "php": ">=5.3.3"
             },
@@ -1777,7 +1778,6 @@
                 "illuminate/config": "4.1.*",
                 "illuminate/container": "4.1.*",
                 "illuminate/database": "4.1.*",
-                "illuminate/mail": "4.1.*",
                 "illuminate/support": "4.1.*",
                 "mockery/mockery": "0.8.*",
                 "nesbot/carbon": "1.*"
@@ -1810,7 +1810,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-12-29 15:14:44"
+            "time": "2013-12-30 18:12:33"
         },
         {
             "name": "orchestra/widget",
