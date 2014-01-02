@@ -587,12 +587,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "e92cb54c24e990c505be1b4af82e962d55d092df"
+                "reference": "a1e98f4e1da5b0235a74d11dcf7cdb2692b28ffc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/e92cb54c24e990c505be1b4af82e962d55d092df",
-                "reference": "e92cb54c24e990c505be1b4af82e962d55d092df",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/a1e98f4e1da5b0235a74d11dcf7cdb2692b28ffc",
+                "reference": "a1e98f4e1da5b0235a74d11dcf7cdb2692b28ffc",
                 "shasum": ""
             },
             "require": {
@@ -646,7 +646,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2013-12-26 13:24:17"
+            "time": "2014-01-01 18:24:16"
         },
         {
             "name": "nesbot/carbon",
@@ -804,12 +804,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/auth.git",
-                "reference": "996be0ba0ea31d77c391543707398cee98c9b7a7"
+                "reference": "32b04076304e8217bf933de2a62c30655c05ec41"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/auth/zipball/996be0ba0ea31d77c391543707398cee98c9b7a7",
-                "reference": "996be0ba0ea31d77c391543707398cee98c9b7a7",
+                "url": "https://api.github.com/repos/orchestral/auth/zipball/32b04076304e8217bf933de2a62c30655c05ec41",
+                "reference": "32b04076304e8217bf933de2a62c30655c05ec41",
                 "shasum": ""
             },
             "require": {
@@ -859,7 +859,7 @@
                 "orchestral",
                 "rbac"
             ],
-            "time": "2013-12-29 12:21:54"
+            "time": "2014-01-01 15:01:56"
         },
         {
             "name": "orchestra/control",
