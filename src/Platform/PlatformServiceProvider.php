@@ -13,7 +13,7 @@ class PlatformServiceProvider extends ServiceProvider
      *
      * @var boolean
      */
-    protected $defer = true;
+    protected $defer = false;
 
     /**
      * Register the service provider.
@@ -27,6 +27,18 @@ class PlatformServiceProvider extends ServiceProvider
                 return new Document(new DflydevMarkdownExtra);
             });
         });
+    }
+
+    /**
+     * Boot the service provider.
+     *
+     * @return void
+     */
+    public function boot()
+    {
+        $path = realpath(__DIR__.'/../');
+
+        require "{$path}/start/widget.php";
     }
 
      /**
