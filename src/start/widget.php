@@ -2,14 +2,14 @@
 
 use Orchestra\Story\Model\Content;
 
-$placeholder = Widget::make('placeholder.footer');
+Widget::of('placeholder.footer', function ($placeholder) {
+    $placeholder->add('what', function () {
+        return View::make('widgets.what');
+    });
 
-$placeholder->add('what', function () {
-    return View::make('widgets.what');
-});
+    $placeholder->add('latest', function () {
+        $posts = Content::post()->latestPublish()->take(5)->remember(60)->get();
 
-$placeholder->add('latest', function () {
-    $posts = Content::post()->latestPublish()->take(5)->remember(60)->get();
-
-    return View::make('widgets.latest', compact('posts'));
+        return View::make('widgets.latest', compact('posts'));
+    });
 });

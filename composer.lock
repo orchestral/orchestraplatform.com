@@ -1820,12 +1820,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/widget.git",
-                "reference": "81a8b7d0076eb9e333a43847b9768eae7cae2fd3"
+                "reference": "076c7c723e277ea8aa33e7bb9b2759528db40f28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/widget/zipball/81a8b7d0076eb9e333a43847b9768eae7cae2fd3",
-                "reference": "81a8b7d0076eb9e333a43847b9768eae7cae2fd3",
+                "url": "https://api.github.com/repos/orchestral/widget/zipball/076c7c723e277ea8aa33e7bb9b2759528db40f28",
+                "reference": "076c7c723e277ea8aa33e7bb9b2759528db40f28",
                 "shasum": ""
             },
             "require": {
@@ -1870,7 +1870,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-12-27 15:59:52"
+            "time": "2014-01-04 16:42:46"
         },
         {
             "name": "patchwork/utf8",
