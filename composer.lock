@@ -1246,12 +1246,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/memory.git",
-                "reference": "78ebf1a8b367fd5406dd1767da8caeb39a24bdf7"
+                "reference": "6427e7c4b524a56c29d4927753e3b7153db33198"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/memory/zipball/78ebf1a8b367fd5406dd1767da8caeb39a24bdf7",
-                "reference": "78ebf1a8b367fd5406dd1767da8caeb39a24bdf7",
+                "url": "https://api.github.com/repos/orchestral/memory/zipball/6427e7c4b524a56c29d4927753e3b7153db33198",
+                "reference": "6427e7c4b524a56c29d4927753e3b7153db33198",
                 "shasum": ""
             },
             "require": {
@@ -1296,7 +1296,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-12-29 13:44:29"
+            "time": "2014-01-03 01:24:53"
         },
         {
             "name": "orchestra/model",
@@ -1360,12 +1360,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/notifier.git",
-                "reference": "0eea21b15091e8ee9c369bd0e135073519a2fd91"
+                "reference": "b5f3ddce52f17209534758c2af7968c40025b3e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/notifier/zipball/0eea21b15091e8ee9c369bd0e135073519a2fd91",
-                "reference": "0eea21b15091e8ee9c369bd0e135073519a2fd91",
+                "url": "https://api.github.com/repos/orchestral/notifier/zipball/b5f3ddce52f17209534758c2af7968c40025b3e1",
+                "reference": "b5f3ddce52f17209534758c2af7968c40025b3e1",
                 "shasum": ""
             },
             "require": {
@@ -1408,7 +1408,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-12-31 03:15:35"
+            "time": "2014-01-03 02:23:38"
         },
         {
             "name": "orchestra/optimize",
@@ -1874,26 +1874,26 @@
         },
         {
             "name": "patchwork/utf8",
-            "version": "v1.1.16",
+            "version": "v1.1.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nicolas-grekas/Patchwork-UTF8.git",
-                "reference": "bc719e850b57791c1024d06f9fe7d474348e7ba6"
+                "reference": "1396fedf134f71d479236fce0833dc4c88079391"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nicolas-grekas/Patchwork-UTF8/zipball/bc719e850b57791c1024d06f9fe7d474348e7ba6",
-                "reference": "bc719e850b57791c1024d06f9fe7d474348e7ba6",
+                "url": "https://api.github.com/repos/nicolas-grekas/Patchwork-UTF8/zipball/1396fedf134f71d479236fce0833dc4c88079391",
+                "reference": "1396fedf134f71d479236fce0833dc4c88079391",
                 "shasum": ""
             },
             "require": {
-                "lib-pcre": "*",
+                "lib-pcre": ">=7.9",
                 "php": ">=5.3.0"
             },
             "suggest": {
-                "ext-mbstring": "Use Mbstring for best performance",
-                "lib-iconv": "Use iconv for best performance",
-                "lib-icu": "Use Intl for best performance"
+                "ext-iconv": "Use iconv for best performance",
+                "ext-intl": "Use Intl for best performance",
+                "ext-mbstring": "Use Mbstring for best performance"
             },
             "type": "library",
             "autoload": {
@@ -1921,7 +1921,7 @@
                 "utf-8",
                 "utf8"
             ],
-            "time": "2013-12-07 12:20:20"
+            "time": "2014-01-02 10:19:36"
         },
         {
             "name": "phpseclib/phpseclib",
@@ -2398,12 +2398,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Console.git",
-                "reference": "4534a0033d379d9d5a6031ead6a31c9813b9e03b"
+                "reference": "4c1ed2ff514bd85ee186eebb010ccbdeeab05af7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Console/zipball/4534a0033d379d9d5a6031ead6a31c9813b9e03b",
-                "reference": "4534a0033d379d9d5a6031ead6a31c9813b9e03b",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/4c1ed2ff514bd85ee186eebb010ccbdeeab05af7",
+                "reference": "4c1ed2ff514bd85ee186eebb010ccbdeeab05af7",
                 "shasum": ""
             },
             "require": {
@@ -2442,7 +2442,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "http://symfony.com",
-            "time": "2013-12-31 13:43:26"
+            "time": "2014-01-01 08:14:50"
         },
         {
             "name": "symfony/css-selector",
@@ -2760,12 +2760,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpFoundation.git",
-                "reference": "979b5cf2bdf1f5785a8faa30e2cea97044b31c4d"
+                "reference": "51dba46f98ff2ee026cb0591088daa117d2a5025"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/979b5cf2bdf1f5785a8faa30e2cea97044b31c4d",
-                "reference": "979b5cf2bdf1f5785a8faa30e2cea97044b31c4d",
+                "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/51dba46f98ff2ee026cb0591088daa117d2a5025",
+                "reference": "51dba46f98ff2ee026cb0591088daa117d2a5025",
                 "shasum": ""
             },
             "require": {
@@ -2801,7 +2801,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "http://symfony.com",
-            "time": "2013-12-31 13:43:26"
+            "time": "2014-01-01 08:14:50"
         },
         {
             "name": "symfony/http-kernel",
