@@ -33,7 +33,7 @@ Site::set('html::header', ['class' => 'inner']); ?>
                 </ul>
             </div>
             <div class="four_fifth post-body">
-                {{ $post->body }}
+                {{ $post->excerpt }}
             </div>
         </article>
         @endforeach
