@@ -12,4 +12,8 @@ Widget::of('placeholder.footer', function ($placeholder) {
 
         return View::make('widgets.latest', compact('posts'));
     });
+
+    $placeholder->add('sponsor', function () {
+        return View::make('widgets.sponsor');
+    });
 });
