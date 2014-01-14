@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "4298dccc17b46091543de32e0621be2e",
+    "hash": "a9cf6baabb7470f28d191e9dbfb83cd7",
     "packages": [
         {
             "name": "bugsnag/bugsnag",
@@ -1519,16 +1519,16 @@
         },
         {
             "name": "orchestra/story",
-            "version": "v2.1.0",
+            "version": "2.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/story.git",
-                "reference": "908fa28af51ef8f57cb9de8d5d55fd4747439c10"
+                "reference": "1019925ef5ef86b077d158e35a74864e33daa4f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/story/zipball/908fa28af51ef8f57cb9de8d5d55fd4747439c10",
-                "reference": "908fa28af51ef8f57cb9de8d5d55fd4747439c10",
+                "url": "https://api.github.com/repos/orchestral/story/zipball/1019925ef5ef86b077d158e35a74864e33daa4f7",
+                "reference": "1019925ef5ef86b077d158e35a74864e33daa4f7",
                 "shasum": ""
             },
             "require": {
@@ -1573,7 +1573,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-01-07 13:59:59"
+            "time": "2014-01-13 02:47:46"
         },
         {
             "name": "orchestra/support",
@@ -2958,9 +2958,9 @@
 
     ],
     "minimum-stability": "stable",
-    "stability-flags": [
-
-    ],
+    "stability-flags": {
+        "orchestra/story": 20
+    },
     "platform": [
 
     ],
