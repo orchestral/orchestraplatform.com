@@ -30,8 +30,8 @@
                     <li{{ Orchestra\App::is('app::docs*') ? $active : '' }}>
                         <a href="{{ handles('app::docs/latest/') }}">Documentation</a>
                         <ul>
-                            <li><a href="{{ handles('app::docs/2.1/') }}">2.1 (Development)</a></li>
-                            <li><a href="{{ handles('app::docs/2.0/') }}">2.0 (Latest Stable)</a></li>
+                            <li><a href="{{ handles('app::docs/2.1/') }}">2.1 (Latest Stable)</a></li>
+                            <li><a href="{{ handles('app::docs/2.0/') }}">2.0 (Legacy)</a></li>
                         </ul>
                     </li>
                 </ul>

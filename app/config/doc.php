@@ -10,6 +10,6 @@ return array(
 
     'aliases' => array(
         'latest' => '2.1',
-        'stable' => '2.0',
+        'stable' => '2.1',
     ),
 );
