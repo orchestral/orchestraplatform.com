@@ -14,6 +14,8 @@ class DocumentationController extends BaseController
     public function __construct(DocumentationProcessor $processor)
     {
         $this->processor = $processor;
+
+        parent::__construct();
     }
 
     /**
