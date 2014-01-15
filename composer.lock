@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "a9cf6baabb7470f28d191e9dbfb83cd7",
+    "hash": "4298dccc17b46091543de32e0621be2e",
     "packages": [
         {
             "name": "bugsnag/bugsnag",
@@ -1519,7 +1519,7 @@
         },
         {
             "name": "orchestra/story",
-            "version": "2.1.x-dev",
+            "version": "v2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/story.git",
@@ -2958,9 +2958,9 @@
 
     ],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "orchestra/story": 20
-    },
+    "stability-flags": [
+
+    ],
     "platform": [
 
     ],
