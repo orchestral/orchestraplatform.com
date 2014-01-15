@@ -5,6 +5,13 @@ use Illuminate\Routing\Controller;
 abstract class BaseController extends Controller
 {
     /**
+     * Processor instance.
+     *
+     * @var \Platform\Processor\AbstractableProcessor
+     */
+    protected $processor;
+
+    /**
      * Setup a new controller.
      */
     public function __construct()
