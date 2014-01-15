@@ -1,6 +1,6 @@
-<?php
+<?php namespace TestCase;
 
-class TestCase extends Illuminate\Foundation\Testing\TestCase
+class TestCase extends \Illuminate\Foundation\Testing\TestCase
 {
     /**
      * Creates the application.
@@ -13,6 +13,6 @@ class TestCase extends Illuminate\Foundation\Testing\TestCase
 
         $testEnvironment = 'testing';
 
-        return require __DIR__.'/../../bootstrap/start.php';
+        return require __DIR__.'/../bootstrap/start.php';
     }
 }
