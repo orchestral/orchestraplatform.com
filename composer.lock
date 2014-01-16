@@ -471,12 +471,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "22e60f4741666aa01ee625ce7aac0fb5c6fd4986"
+                "reference": "97f5fece6ce23a25581dde2a28f4ffc175405022"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/22e60f4741666aa01ee625ce7aac0fb5c6fd4986",
-                "reference": "22e60f4741666aa01ee625ce7aac0fb5c6fd4986",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/97f5fece6ce23a25581dde2a28f4ffc175405022",
+                "reference": "97f5fece6ce23a25581dde2a28f4ffc175405022",
                 "shasum": ""
             },
             "require": {
@@ -580,7 +580,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-01-15 05:48:58"
+            "time": "2014-01-16 04:17:29"
         },
         {
             "name": "monolog/monolog",
@@ -805,12 +805,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/auth.git",
-                "reference": "8bc658050c6dd2587cddff3e461cf0019cde65c0"
+                "reference": "41236761166c603d1d71a01408135dcd80bdd7d7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/auth/zipball/8bc658050c6dd2587cddff3e461cf0019cde65c0",
-                "reference": "8bc658050c6dd2587cddff3e461cf0019cde65c0",
+                "url": "https://api.github.com/repos/orchestral/auth/zipball/41236761166c603d1d71a01408135dcd80bdd7d7",
+                "reference": "41236761166c603d1d71a01408135dcd80bdd7d7",
                 "shasum": ""
             },
             "require": {
@@ -860,7 +860,7 @@
                 "orchestral",
                 "rbac"
             ],
-            "time": "2014-01-15 06:47:02"
+            "time": "2014-01-16 06:36:28"
         },
         {
             "name": "orchestra/control",
@@ -1111,12 +1111,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "6f463e0d33ce7deaef5050c36af7be50a16fba8d"
+                "reference": "856e99521fad03015996679c6cfe9fe6080d5abd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/6f463e0d33ce7deaef5050c36af7be50a16fba8d",
-                "reference": "6f463e0d33ce7deaef5050c36af7be50a16fba8d",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/856e99521fad03015996679c6cfe9fe6080d5abd",
+                "reference": "856e99521fad03015996679c6cfe9fe6080d5abd",
                 "shasum": ""
             },
             "require": {
@@ -1176,7 +1176,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-01-15 09:09:34"
+            "time": "2014-01-15 15:38:46"
         },
         {
             "name": "orchestra/html",
@@ -1246,12 +1246,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/memory.git",
-                "reference": "a6572191fdddca7bd7f286d78db4d6e402fd1a81"
+                "reference": "8b5af427c3b47705d25581a36fbc052fe5b6ed2a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/memory/zipball/a6572191fdddca7bd7f286d78db4d6e402fd1a81",
-                "reference": "a6572191fdddca7bd7f286d78db4d6e402fd1a81",
+                "url": "https://api.github.com/repos/orchestral/memory/zipball/8b5af427c3b47705d25581a36fbc052fe5b6ed2a",
+                "reference": "8b5af427c3b47705d25581a36fbc052fe5b6ed2a",
                 "shasum": ""
             },
             "require": {
@@ -1296,7 +1296,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-01-15 07:09:21"
+            "time": "2014-01-15 15:02:32"
         },
         {
             "name": "orchestra/model",
