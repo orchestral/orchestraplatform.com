@@ -1461,16 +1461,16 @@
         },
         {
             "name": "orchestra/resources",
-            "version": "v2.1.0",
+            "version": "v2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/resources.git",
-                "reference": "1d26295de380cc1de2e889e1481ef0b1b432860a"
+                "reference": "689428b9ddbc713d3688ea9a6c15c997bd102329"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/resources/zipball/1d26295de380cc1de2e889e1481ef0b1b432860a",
-                "reference": "1d26295de380cc1de2e889e1481ef0b1b432860a",
+                "url": "https://api.github.com/repos/orchestral/resources/zipball/689428b9ddbc713d3688ea9a6c15c997bd102329",
+                "reference": "689428b9ddbc713d3688ea9a6c15c997bd102329",
                 "shasum": ""
             },
             "require": {
@@ -1516,7 +1516,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-12-25 15:14:23"
+            "time": "2014-01-24 10:11:32"
         },
         {
             "name": "orchestra/story",
