@@ -8,6 +8,8 @@
 /bootstrap/compiled.php
 /bootstrap/environment.php
 /public/packages/*
+.env.local.php
+.env.php
 
 # Composer
 vendor/*
