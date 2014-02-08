@@ -858,23 +858,23 @@
         },
         {
             "name": "orchestra/control",
-            "version": "v2.1.2",
+            "version": "v2.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/control.git",
-                "reference": "03183efcb5bdf94f37c5f52cb2b67bae92374700"
+                "reference": "00726a2fdcc613c032fb087300f5dd04a122b4b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/control/zipball/03183efcb5bdf94f37c5f52cb2b67bae92374700",
-                "reference": "03183efcb5bdf94f37c5f52cb2b67bae92374700",
+                "url": "https://api.github.com/repos/orchestral/control/zipball/00726a2fdcc613c032fb087300f5dd04a122b4b6",
+                "reference": "00726a2fdcc613c032fb087300f5dd04a122b4b6",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
             "require-dev": {
-                "mockery/mockery": "0.8.*",
+                "mockery/mockery": "0.9.*",
                 "orchestra/foundation": "2.1.*",
                 "orchestra/support": "2.1.*",
                 "orchestra/testbench": "2.1.*"
@@ -911,7 +911,7 @@
                 "theme",
                 "timezone"
             ],
-            "time": "2014-01-07 23:14:54"
+            "time": "2014-02-07 15:38:35"
         },
         {
             "name": "orchestra/debug",
@@ -1174,16 +1174,16 @@
         },
         {
             "name": "orchestra/html",
-            "version": "v2.1.0",
+            "version": "v2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/html.git",
-                "reference": "1e408eda4c96b42372910c0815734e3d5f168b57"
+                "reference": "901e44c63dbb951bbbf13237c0b88c338110a480"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/html/zipball/1e408eda4c96b42372910c0815734e3d5f168b57",
-                "reference": "1e408eda4c96b42372910c0815734e3d5f168b57",
+                "url": "https://api.github.com/repos/orchestral/html/zipball/901e44c63dbb951bbbf13237c0b88c338110a480",
+                "reference": "901e44c63dbb951bbbf13237c0b88c338110a480",
                 "shasum": ""
             },
             "require": {
@@ -1197,7 +1197,7 @@
                 "illuminate/routing": "4.1.*",
                 "illuminate/translation": "4.1.*",
                 "illuminate/view": "4.1.*",
-                "mockery/mockery": "0.8.*"
+                "mockery/mockery": "0.9.*"
             },
             "suggest": {
                 "laravel/framework": "Allow using orchestra/html component outside of Orchestra Platform 2",
@@ -1232,7 +1232,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-12-27 16:22:11"
+            "time": "2014-02-08 01:40:06"
         },
         {
             "name": "orchestra/memory",
