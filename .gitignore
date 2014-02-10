@@ -14,3 +14,6 @@
 # Composer
 vendor/*
 composer.phar
+
+# Node.js
+node_modules/*
