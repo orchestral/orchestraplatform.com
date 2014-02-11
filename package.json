@@ -1,5 +1,9 @@
 {
   "devDependencies": {
-    "gulp": "~3.5.2"
+    "gulp": "~3.5.2",
+    "gulp-util": "~2.2.14",
+    "gulp-coffee": "~1.4.1",
+    "gulp-csso": "~0.2.3",
+    "gulp-less": "~1.2.1"
   }
 }
