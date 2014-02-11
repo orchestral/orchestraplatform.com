@@ -400,7 +400,7 @@
             "authors": [
                 {
                     "name": "Anthony Ferrara",
-                    "email": "ircmaxell@php.net",
+                    "email": "ircmaxell@ircmaxell.com",
                     "homepage": "http://blog.ircmaxell.com"
                 }
             ],
@@ -1294,16 +1294,16 @@
         },
         {
             "name": "orchestra/model",
-            "version": "v2.1.1",
+            "version": "v2.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/model.git",
-                "reference": "266d0c2771dfae3bf4d855bc47f7514a92ac3be1"
+                "reference": "e3d97b16000d606d90f8f3ecac0ae978dddda5b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/model/zipball/266d0c2771dfae3bf4d855bc47f7514a92ac3be1",
-                "reference": "266d0c2771dfae3bf4d855bc47f7514a92ac3be1",
+                "url": "https://api.github.com/repos/orchestral/model/zipball/e3d97b16000d606d90f8f3ecac0ae978dddda5b2",
+                "reference": "e3d97b16000d606d90f8f3ecac0ae978dddda5b2",
                 "shasum": ""
             },
             "require": {
@@ -1314,7 +1314,7 @@
             "require-dev": {
                 "illuminate/auth": "4.1.*",
                 "illuminate/database": "4.1.*",
-                "mockery/mockery": "0.8.*"
+                "mockery/mockery": "0.9.*"
             },
             "type": "library",
             "extra": {
@@ -1346,7 +1346,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-01-12 02:13:28"
+            "time": "2014-02-10 13:08:03"
         },
         {
             "name": "orchestra/notifier",
