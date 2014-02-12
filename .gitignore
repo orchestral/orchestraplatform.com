@@ -10,6 +10,7 @@
 /public/packages/*
 .env.local.php
 .env.php
+Envoy.blade.php
 
 # Composer
 vendor/*
