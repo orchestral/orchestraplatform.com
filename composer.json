@@ -12,8 +12,8 @@
 		"mockery/mockery": "0.9.*"
 	},
 	"autoload": {
-		"psr-0": {
-			"Platform": "src/"
+		"psr-4": {
+			"Platform\\": "src/"
 		},
 		"classmap": [
 			"app/database/migrations",

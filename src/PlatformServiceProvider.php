@@ -36,7 +36,7 @@ class PlatformServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $path = realpath(__DIR__.'/../');
+        $path = realpath(__DIR__);
 
         require "{$path}/start/widget.php";
     }
