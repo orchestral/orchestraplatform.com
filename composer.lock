@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "df1398c23f4c8ad1d92a5a00a97ac12a",
+    "hash": "9ac0a2100b5b595657584232d83d0524",
     "packages": [
         {
             "name": "bugsnag/bugsnag",
@@ -462,16 +462,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v4.1.21",
+            "version": "v4.1.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "d4b2d82d7ec26d193d179df7b4fc653f37dcae6b"
+                "reference": "a18a892c9d768464249baa1d16117fe52e0a7004"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/d4b2d82d7ec26d193d179df7b4fc653f37dcae6b",
-                "reference": "d4b2d82d7ec26d193d179df7b4fc653f37dcae6b",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/a18a892c9d768464249baa1d16117fe52e0a7004",
+                "reference": "a18a892c9d768464249baa1d16117fe52e0a7004",
                 "shasum": ""
             },
             "require": {
@@ -531,8 +531,8 @@
             },
             "require-dev": {
                 "aws/aws-sdk-php": "2.5.*",
-                "iron-io/iron_mq": "1.4.*",
-                "mockery/mockery": "0.8.0",
+                "iron-io/iron_mq": "1.5.*",
+                "mockery/mockery": "0.9.*",
                 "pda/pheanstalk": "2.1.*",
                 "phpunit/phpunit": "3.7.*"
             },
@@ -575,7 +575,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-02-04 01:21:04"
+            "time": "2014-02-20 15:13:32"
         },
         {
             "name": "monolog/monolog",
