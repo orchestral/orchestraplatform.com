@@ -22,11 +22,13 @@ class Parallax
         navHomeY = nav.offset().top
         isFixed  = false
 
-        canvas.scroll(->
-            scrollTop = canvas.scrollTop()
-            shouldBeFixed = scrollTop > navHomeY
+        fn = ->
+            scroll = canvas.scrollTop()
+            shouldBeFixed = scroll > navHomeY
 
             if shouldBeFixed and !isFixed
+                app('section#single').css('margin-top', '140px')
+
                 nav.css(
                     position: 'fixed',
                     width: '100%',
@@ -48,6 +50,8 @@ class Parallax
 
                 isFixed = true
             else if ! shouldBeFixed and isFixed
+                app('section#single').css('margin-top', 'inherit')
+
                 nav.css(
                     position: 'relative',
                     width: '100%',
@@ -67,20 +71,26 @@ class Parallax
                 )
 
                 isFixed = false
-        )
+
+        fn()
+        canvas.scroll(fn)
         true
     header: ->
         app = @app
         canvas = @canvas
-        canvas.scroll(->
+        fn = ->
             scroll = canvas.scrollTop()
             slowScroll = scroll / 2
+
             app('#header').css(
                 transform: "translateY(#{slowScroll}px)"
             )
-        )
+
+        fn()
+        canvas.scroll(fn)
 
 bootstrap = ($)->
+    new Parallax(root)
     $('li', '#primary').hover(->
         $(this).find('ul:first').stop(true, true).animate(
             height: ['toggle', 'swing'],
@@ -91,8 +101,6 @@ bootstrap = ($)->
     )
 
     $('pre').addClass('prettyprint')
-
-    new Parallax(root)
     true
 
 jQuery(bootstrap)
