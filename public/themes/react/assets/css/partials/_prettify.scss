@@ -1,5 +1,6 @@
 
 pre {
+	font-family: $sourceSans;
 	color: #fff;
 	background: #3F4049;
 
@@ -16,7 +17,8 @@ pre {
 }
 
 .prettyprint {
-	font-family: Monaco, Consolas, "Lucida Console", monospace;
+	/*font-family: Monaco, Consolas, "Lucida Console", monospace;*/
+	font-family: $sourceSans;
 	background-color:#333;
 	padding:1.5em;
 	font-size: 0.85em;

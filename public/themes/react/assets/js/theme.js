@@ -1,1 +1,2 @@
-(function(){var t,a;t=this.jQuery,a=function(){return t("pre").addClass("prettyprint"),t("table").addClass("table table-striped")},t(a)}).call(this);
+(function(){var t,e;t=this.jQuery,e=function(){var e,i,s,r;return t("pre").addClass("prettyprint"),t("table").addClass("table table-striped"),e=t(document),r=t(window),i=t("#toc","#docs"),s=function(){var t;
+return t=e.height(),e.width()>=768?i.css("height",t+"px"):i.css("height",null),!0},i.size()>0?(r.resize(s),s()):void 0},t(e)}).call(this);
