@@ -14,7 +14,7 @@ gulp.task('scss', function () {
             relative: true,
             config_file: './config.rb'
         }))
-        //.pipe(csso())
+        .pipe(csso())
         .pipe(gulp.dest(assetDir + '/css'));
 });
 
