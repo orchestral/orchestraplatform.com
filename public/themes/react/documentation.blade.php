@@ -19,9 +19,20 @@ Site::set('html::header', ['class' => 'navbar-inverse normal']); ?>
 
 <script>
 jQuery(function (app) {
-	var height = app(document).height();
-	app('#toc').height(height);
-	console.log(height);
+	var doc, viewport;
+	doc = app(document);
+
+	viewport = function () {
+		var height = doc.height();
+
+		if (doc.width() >= 768) {
+			app('#toc').css('height', height+'px');
+		} else {
+			app('#toc').css('height', null);
+		}
+	};
+	$(window).resize(viewport);
+	viewport();
 });
 </script>
 @stop
