@@ -1,6 +1,11 @@
 @import "../../../vendor/css/partials/pages/blogpost";
 
 #blogpost-wrapper {
+	.post {
+		.content {
+			font-family: $sourceSans !important;
+		}
+	}
 	img {
 		width: 100%;
 		height: auto;
