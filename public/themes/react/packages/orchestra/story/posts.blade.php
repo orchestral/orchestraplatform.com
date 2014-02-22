@@ -22,7 +22,7 @@ Site::set('html::header', ['class' => 'navbar-inverse normal']); ?>
 					<div class="intro">
 						{{ $post->excerpt }}
 					</div>
-					<a href="blogpost.html" class="continue-reading">Continue reading this post</a>
+					<a href="{{ $post->link }}" class="continue-reading">Continue reading this post</a>
 				</div>
 				@endforeach
 
