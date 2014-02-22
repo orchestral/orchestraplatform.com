@@ -20,9 +20,23 @@ Site::set('html::header', ['class' => 'navbar-inverse hero']); ?>
 		</div>
 	</div>
 </div>
+<div class="modal fade" id="download">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title">Quick Installation</h4>
+			</div>
+			<div class="modal-body">
+				<p>You can install Orchestra Platform using Composer:</p>
+				<pre>composer create-project orchestra/platform website 2.1.x --prefer-dist</pre>
+			</div>
+		</div>
+	 </div>
+</div>
 @stop
 
 @section('content')
 @include('hello._features')
 {{-- @include('hello._pricing') --}}
+
 @stop
