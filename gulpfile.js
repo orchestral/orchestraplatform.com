@@ -1,26 +1,21 @@
 var gulp = require('gulp'),
     gutil = require('gulp-util'),
     coffee = require('gulp-coffee'),
+    compass = require('gulp-compass'),
     csso = require('gulp-minify-css'),
     less = require('gulp-less'),
     uglify = require('gulp-uglify');
 
-dir = 'public/themes/epicism/assets';
+assetDir = './public/themes/react/assets';
 
-gulp.task('less', function () {
-    gulp.src(dir + '/css/style.less')
-        .pipe(less({
-            paths: [
-                dir + '/css'
-            ]
+gulp.task('scss', function () {
+    gulp.src(assetDir + '/css/theme.scss')
+        .pipe(compass({
+            relative: true,
+            config_file: './config.rb'
         }))
-        .pipe(gulp.dest(dir + '/css'));
-});
-
-gulp.task('css', function () {
-    gulp.src(dir + '/css/style.css')
-        .pipe(csso())
-        .pipe(gulp.dest(dir + '/css'));
+        //.pipe(csso())
+        .pipe(gulp.dest(assetDir + '/css'));
 });
 
 gulp.task('coffee', function () {
@@ -31,16 +26,15 @@ gulp.task('coffee', function () {
         }
     };
 
-    return gulp.src(dir + '/js/script.coffee')
+    return gulp.src(assetDir + '/js/theme.coffee')
         .pipe(coffee().on('error', gutil.log))
         .pipe(uglify(options))
-        .pipe(gulp.dest(dir + '/js'));
+        .pipe(gulp.dest(assetDir + '/js'));
 });
 
 gulp.task('watch', function () {
-    gulp.watch(dir + '/css/*.less', ['less']);
-    gulp.watch(dir + '/css/style.css', ['css']);
-    gulp.watch(dir + '/js/script.coffee', ['coffee']);
+    gulp.watch(assetDir + '/css/**/*.scss', ['scss']);
+    gulp.watch(assetDir + '/js/theme.coffee', ['coffee']);
 });
 
-gulp.task('default', ['less', 'css', 'coffee', 'watch']);
+gulp.task('default', ['scss', 'coffee', 'watch']);

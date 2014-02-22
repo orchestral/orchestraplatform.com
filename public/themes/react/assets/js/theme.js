@@ -1,0 +1,1 @@
+(function(){var t,a;t=this.jQuery,a=function(){return t("pre").addClass("prettyprint"),t("table").addClass("table table-striped")},t(a)}).call(this);
