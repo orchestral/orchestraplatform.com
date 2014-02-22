@@ -5,7 +5,7 @@
 		background-image: url("../images/bg.png");
 
 		.cta a {
-			&.blog {
+			&.blog, &.documentation {
 				color: #fff;
 				-webkit-font-smoothing: antialiased;
 				font-size: 16px;

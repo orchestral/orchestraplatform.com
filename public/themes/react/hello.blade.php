@@ -11,7 +11,7 @@ Site::set('html::header', ['class' => 'navbar-inverse hero']); ?>
 		<h1 class="hero-text">Orchestra Platform provide all the boilerplate for your application, so you can create awesomeness.</h1>
 		<div class="cta">
 			<a href="#" class="button" data-toggle="modal" data-target="#download" class="download">I want it now</a>
-			<a href="{{ handles('orchestra/story::/') }}" class="blog">Read the blog</a>
+			<a href="{{ handles('app::docs/latest') }}" class="documentation">Read the documentation</a>
 		</div>
 		<div class="screenshot animated fadeInUp">
 			{{--
