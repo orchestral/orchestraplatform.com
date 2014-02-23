@@ -9,7 +9,7 @@ Site::set('html::header', ['class' => 'navbar-inverse normal']); ?>
 <div id="toc" class="col-sm-2">
 	{{ $toc->getHtmlContent() }}
 </div>
-<div id="content" class="col-sm-10">
+<div id="content" class="col-sm-8">
 	<div class="page-header">
 		<h1>{{ $document->get('title') }} <small>{{ $version }} documentation</small></h1>
 	</div>
