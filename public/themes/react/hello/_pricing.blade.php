@@ -44,8 +44,8 @@
 							licensed
 						</div>
 					</div>
-					<a class="btn-signup button-clear" href="signup.html">
-						<span>Start free trial</span>
+					<a href="#" class="btn-signup button-clear" data-toggle="modal" data-target="#download">
+						<span>Start today</span>
 					</a>
 				</div>
 			</div>
