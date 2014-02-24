@@ -14,9 +14,7 @@ Site::set('html::header', ['class' => 'navbar-inverse hero']); ?>
 			<a href="{{ handles('app::docs/latest') }}" class="documentation">Read the documentation</a>
 		</div>
 		<div class="screenshot animated fadeInUp">
-			{{--
 			<img src="{{ Theme::asset('assets/images/ss2.png') }}" class="img-responsive" alt="screenshot" />
-			--}}
 		</div>
 	</div>
 </div>
