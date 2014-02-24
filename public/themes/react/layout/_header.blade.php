@@ -9,6 +9,7 @@
 $asset = Asset::container('frontend');
 $asset->style('bootstrap', 'packages/orchestra/foundation/vendor/bootstrap/css/bootstrap.min.css', []);
 $asset->style('theme', Theme::asset('assets/css/theme.css'), ['bootstrap']);
+$asset->style('custom', Theme::asset('assets/css/custom.css'), ['theme']);
 
 $asset->script('jquery', 'packages/orchestra/foundation/vendor/jquery/jquery.min.js', []);
 $asset->script('bootstrap', 'packages/orchestra/foundation/vendor/bootstrap/js/bootstrap.min.js', ['jquery']);

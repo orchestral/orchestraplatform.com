@@ -8,8 +8,18 @@ var gulp = require('gulp'),
 
 assetDir = './public/themes/react/assets';
 
-gulp.task('scss', function () {
+gulp.task('theme', function () {
     gulp.src(assetDir + '/css/theme.scss')
+        .pipe(compass({
+            relative: true,
+            config_file: './config.rb'
+        }))
+        .pipe(csso())
+        .pipe(gulp.dest(assetDir + '/css'));
+});
+
+gulp.task('custom', function () {
+    gulp.src(assetDir + '/css/custom.scss')
         .pipe(compass({
             relative: true,
             config_file: './config.rb'
@@ -33,8 +43,8 @@ gulp.task('coffee', function () {
 });
 
 gulp.task('watch', function () {
-    gulp.watch(assetDir + '/css/**/*.scss', ['scss']);
+    gulp.watch(assetDir + '/css/**/*.scss', ['theme', 'custom']);
     gulp.watch(assetDir + '/js/theme.coffee', ['coffee']);
 });
 
-gulp.task('default', ['scss', 'coffee', 'watch']);
+gulp.task('default', ['theme', 'custom', 'coffee', 'watch']);
