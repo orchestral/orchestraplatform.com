@@ -400,7 +400,7 @@
             "authors": [
                 {
                     "name": "Anthony Ferrara",
-                    "email": "ircmaxell@ircmaxell.com",
+                    "email": "ircmaxell@php.net",
                     "homepage": "http://blog.ircmaxell.com"
                 }
             ],
@@ -462,16 +462,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v4.1.22",
+            "version": "v4.1.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "a18a892c9d768464249baa1d16117fe52e0a7004"
+                "reference": "054c1a29aaf537c6c6ca7e7804375c671eddcaaf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/a18a892c9d768464249baa1d16117fe52e0a7004",
-                "reference": "a18a892c9d768464249baa1d16117fe52e0a7004",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/054c1a29aaf537c6c6ca7e7804375c671eddcaaf",
+                "reference": "054c1a29aaf537c6c6ca7e7804375c671eddcaaf",
                 "shasum": ""
             },
             "require": {
@@ -575,7 +575,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-02-20 15:13:32"
+            "time": "2014-02-28 22:07:47"
         },
         {
             "name": "monolog/monolog",
@@ -736,16 +736,16 @@
         },
         {
             "name": "orchestra/asset",
-            "version": "v2.1.0",
+            "version": "v2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/asset.git",
-                "reference": "1b8f189f2d2c48225c51f47b8f539dc70b8532c1"
+                "reference": "e9aeb0e9bd78c435efe2d9a14409354be4b1d8c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/asset/zipball/1b8f189f2d2c48225c51f47b8f539dc70b8532c1",
-                "reference": "1b8f189f2d2c48225c51f47b8f539dc70b8532c1",
+                "url": "https://api.github.com/repos/orchestral/asset/zipball/e9aeb0e9bd78c435efe2d9a14409354be4b1d8c3",
+                "reference": "e9aeb0e9bd78c435efe2d9a14409354be4b1d8c3",
                 "shasum": ""
             },
             "require": {
@@ -755,7 +755,7 @@
             "require-dev": {
                 "illuminate/container": "4.1.*",
                 "illuminate/support": "4.1.*",
-                "mockery/mockery": "0.8.*"
+                "mockery/mockery": "0.9.*"
             },
             "suggest": {
                 "laravel/framework": "Allow using orchestra/asset component outside of Orchestra Platform 2",
@@ -768,8 +768,8 @@
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Orchestra\\Asset": "src/"
+                "psr-4": {
+                    "Orchestra\\Asset\\": "src/Asset/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -791,20 +791,20 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-12-17 23:58:55"
+            "time": "2014-03-04 10:17:22"
         },
         {
             "name": "orchestra/auth",
-            "version": "v2.1.3",
+            "version": "v2.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/auth.git",
-                "reference": "d27794af9ebece7f73a492dd3521f6dc60a1d70d"
+                "reference": "d9bdcbe2509ccd4474abed3ce250844b72c98629"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/auth/zipball/d27794af9ebece7f73a492dd3521f6dc60a1d70d",
-                "reference": "d27794af9ebece7f73a492dd3521f6dc60a1d70d",
+                "url": "https://api.github.com/repos/orchestral/auth/zipball/d9bdcbe2509ccd4474abed3ce250844b72c98629",
+                "reference": "d9bdcbe2509ccd4474abed3ce250844b72c98629",
                 "shasum": ""
             },
             "require": {
@@ -814,7 +814,7 @@
             "require-dev": {
                 "illuminate/auth": "4.1.*",
                 "illuminate/database": "4.1.*",
-                "mockery/mockery": "0.8.*",
+                "mockery/mockery": "0.9.*",
                 "patchwork/utf8": "1.1.*"
             },
             "suggest": {
@@ -829,8 +829,8 @@
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Orchestra\\Auth": "src/"
+                "psr-4": {
+                    "Orchestra\\Auth\\": "src/Auth/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -854,7 +854,7 @@
                 "orchestral",
                 "rbac"
             ],
-            "time": "2014-01-16 18:08:42"
+            "time": "2014-03-04 10:24:07"
         },
         {
             "name": "orchestra/control",
@@ -915,16 +915,16 @@
         },
         {
             "name": "orchestra/debug",
-            "version": "v2.1.0",
+            "version": "v2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/debug.git",
-                "reference": "bb3224dabac5f10ad4bed1780ed752a4cf316889"
+                "reference": "cb29a265d3d1f8833bf294ebfb0b90613c42c56d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/debug/zipball/bb3224dabac5f10ad4bed1780ed752a4cf316889",
-                "reference": "bb3224dabac5f10ad4bed1780ed752a4cf316889",
+                "url": "https://api.github.com/repos/orchestral/debug/zipball/cb29a265d3d1f8833bf294ebfb0b90613c42c56d",
+                "reference": "cb29a265d3d1f8833bf294ebfb0b90613c42c56d",
                 "shasum": ""
             },
             "require": {
@@ -937,7 +937,7 @@
                 "illuminate/container": "4.1.*",
                 "illuminate/events": "4.1.*",
                 "illuminate/support": "4.1.*",
-                "mockery/mockery": "0.8.0",
+                "mockery/mockery": "0.9.*",
                 "monolog/monolog": "1.*"
             },
             "suggest": {
@@ -950,12 +950,9 @@
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Orchestra\\Debug": "src/"
-                },
-                "files": [
-                    "src/Orchestra/Debug/helpers.php"
-                ]
+                "psr-4": {
+                    "Orchestra\\Debug\\": "src/Debug/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -975,20 +972,20 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-12-28 03:40:15"
+            "time": "2014-03-04 10:27:31"
         },
         {
             "name": "orchestra/extension",
-            "version": "v2.1.1",
+            "version": "v2.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/extension.git",
-                "reference": "ffa1729832f9ca7e9ec31938f137944423f3e313"
+                "reference": "1cd85b0d5a5928c2943f243074c81bffa5c3b1bb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/extension/zipball/ffa1729832f9ca7e9ec31938f137944423f3e313",
-                "reference": "ffa1729832f9ca7e9ec31938f137944423f3e313",
+                "url": "https://api.github.com/repos/orchestral/extension/zipball/1cd85b0d5a5928c2943f243074c81bffa5c3b1bb",
+                "reference": "1cd85b0d5a5928c2943f243074c81bffa5c3b1bb",
                 "shasum": ""
             },
             "require": {
@@ -1002,7 +999,7 @@
                 "illuminate/events": "4.1.*",
                 "illuminate/http": "4.1.*",
                 "illuminate/support": "4.1.*",
-                "mockery/mockery": "0.8.*"
+                "mockery/mockery": "0.9.*"
             },
             "suggest": {
                 "laravel/framework": "Allow using orchestra/extension component outside of Orchestra Platform 2",
@@ -1015,8 +1012,8 @@
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Orchestra\\Extension": "src/"
+                "psr-4": {
+                    "Orchestra\\Extension\\": "src/Extension/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1038,20 +1035,20 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-01-10 13:55:27"
+            "time": "2014-03-04 10:29:27"
         },
         {
             "name": "orchestra/facile",
-            "version": "v2.1.0",
+            "version": "v2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/facile.git",
-                "reference": "0b49036d6eb1eded9a2bd59784047031f359c0e1"
+                "reference": "eba82a04a84b4592303598011267e11eec3b7a1f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/facile/zipball/0b49036d6eb1eded9a2bd59784047031f359c0e1",
-                "reference": "0b49036d6eb1eded9a2bd59784047031f359c0e1",
+                "url": "https://api.github.com/repos/orchestral/facile/zipball/eba82a04a84b4592303598011267e11eec3b7a1f",
+                "reference": "eba82a04a84b4592303598011267e11eec3b7a1f",
                 "shasum": ""
             },
             "require": {
@@ -1062,7 +1059,7 @@
                 "illuminate/http": "4.1.*",
                 "illuminate/pagination": "4.1.*",
                 "illuminate/view": "4.1.*",
-                "mockery/mockery": "0.8.*"
+                "mockery/mockery": "0.9.*"
             },
             "suggest": {
                 "laravel/framework": "Allow using orchestra/facile component outside of Orchestra Platform 2",
@@ -1075,8 +1072,8 @@
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Orchestra\\Facile": "src/"
+                "psr-4": {
+                    "Orchestra\\Facile\\": "src/Facile/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1097,20 +1094,20 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-12-24 01:46:22"
+            "time": "2014-03-04 10:31:04"
         },
         {
             "name": "orchestra/foundation",
-            "version": "v2.1.4",
+            "version": "v2.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "b757978e4b7f6f58a5c9c801b32a032efe15235c"
+                "reference": "d659588417855eee9d35d1547e11d72e87bbe066"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/b757978e4b7f6f58a5c9c801b32a032efe15235c",
-                "reference": "b757978e4b7f6f58a5c9c801b32a032efe15235c",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/d659588417855eee9d35d1547e11d72e87bbe066",
+                "reference": "d659588417855eee9d35d1547e11d72e87bbe066",
                 "shasum": ""
             },
             "require": {
@@ -1145,8 +1142,8 @@
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Orchestra\\Foundation": "src/"
+                "psr-4": {
+                    "Orchestra\\Foundation\\": "src/Foundation/"
                 },
                 "files": [
                     "src/helpers.php"
@@ -1170,20 +1167,20 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-02-21 08:18:23"
+            "time": "2014-03-04 10:32:47"
         },
         {
             "name": "orchestra/html",
-            "version": "v2.1.1",
+            "version": "v2.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/html.git",
-                "reference": "901e44c63dbb951bbbf13237c0b88c338110a480"
+                "reference": "1f301e577a0d9adca2ef31e402ab320dfd6df933"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/html/zipball/901e44c63dbb951bbbf13237c0b88c338110a480",
-                "reference": "901e44c63dbb951bbbf13237c0b88c338110a480",
+                "url": "https://api.github.com/repos/orchestral/html/zipball/1f301e577a0d9adca2ef31e402ab320dfd6df933",
+                "reference": "1f301e577a0d9adca2ef31e402ab320dfd6df933",
                 "shasum": ""
             },
             "require": {
@@ -1210,8 +1207,8 @@
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Orchestra\\Html": "src/"
+                "psr-4": {
+                    "Orchestra\\Html\\": "src/Html/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1232,20 +1229,20 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-02-08 01:40:06"
+            "time": "2014-03-04 10:34:30"
         },
         {
             "name": "orchestra/memory",
-            "version": "v2.1.3",
+            "version": "v2.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/memory.git",
-                "reference": "710e6ca710d3f916c5f4a24a29fd2fc486bf2859"
+                "reference": "96ed7815f68ce502c769dd5f3d1862ea571cdea3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/memory/zipball/710e6ca710d3f916c5f4a24a29fd2fc486bf2859",
-                "reference": "710e6ca710d3f916c5f4a24a29fd2fc486bf2859",
+                "url": "https://api.github.com/repos/orchestral/memory/zipball/96ed7815f68ce502c769dd5f3d1862ea571cdea3",
+                "reference": "96ed7815f68ce502c769dd5f3d1862ea571cdea3",
                 "shasum": ""
             },
             "require": {
@@ -1255,7 +1252,7 @@
             "require-dev": {
                 "illuminate/container": "4.1.*",
                 "illuminate/support": "4.1.*",
-                "mockery/mockery": "0.8.*"
+                "mockery/mockery": "0.9.*"
             },
             "suggest": {
                 "laravel/framework": "Allow using orchestra/memory component outside of Orchestra Platform 2",
@@ -1268,8 +1265,8 @@
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Orchestra\\Memory": "src/"
+                "psr-4": {
+                    "Orchestra\\Memory\\": "src/Memory/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1290,20 +1287,20 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-01-19 01:09:41"
+            "time": "2014-03-04 12:26:18"
         },
         {
             "name": "orchestra/model",
-            "version": "v2.1.2",
+            "version": "v2.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/model.git",
-                "reference": "e3d97b16000d606d90f8f3ecac0ae978dddda5b2"
+                "reference": "3985db97630ee1c15abf8ce8b222df22c65fa1c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/model/zipball/e3d97b16000d606d90f8f3ecac0ae978dddda5b2",
-                "reference": "e3d97b16000d606d90f8f3ecac0ae978dddda5b2",
+                "url": "https://api.github.com/repos/orchestral/model/zipball/3985db97630ee1c15abf8ce8b222df22c65fa1c5",
+                "reference": "3985db97630ee1c15abf8ce8b222df22c65fa1c5",
                 "shasum": ""
             },
             "require": {
@@ -1323,8 +1320,8 @@
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Orchestra\\Model": "src/"
+                "psr-4": {
+                    "Orchestra\\Model\\": "src/Model/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1346,20 +1343,20 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-02-10 13:08:03"
+            "time": "2014-03-04 12:28:25"
         },
         {
             "name": "orchestra/notifier",
-            "version": "v2.1.1",
+            "version": "v2.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/notifier.git",
-                "reference": "71c117c145a7d160dc35ab4c57052d0720843b59"
+                "reference": "281f0202226622e66fc7f25c7c8e1a2c5a5b5625"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/notifier/zipball/71c117c145a7d160dc35ab4c57052d0720843b59",
-                "reference": "71c117c145a7d160dc35ab4c57052d0720843b59",
+                "url": "https://api.github.com/repos/orchestral/notifier/zipball/281f0202226622e66fc7f25c7c8e1a2c5a5b5625",
+                "reference": "281f0202226622e66fc7f25c7c8e1a2c5a5b5625",
                 "shasum": ""
             },
             "require": {
@@ -1372,7 +1369,7 @@
                 "illuminate/queue": "4.1.*",
                 "illuminate/support": "4.1.*",
                 "jeremeamia/superclosure": "1.0.*",
-                "mockery/mockery": "0.8.*"
+                "mockery/mockery": "0.9.*"
             },
             "type": "library",
             "extra": {
@@ -1381,8 +1378,8 @@
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Orchestra\\Notifier": "src/"
+                "psr-4": {
+                    "Orchestra\\Notifier\\": "src/Notifier/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1402,20 +1399,20 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-01-19 01:02:29"
+            "time": "2014-03-04 12:29:37"
         },
         {
             "name": "orchestra/optimize",
-            "version": "v2.1.0",
+            "version": "v2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/optimize.git",
-                "reference": "11921a41182b53a6c5849707fccaf106761e5bbe"
+                "reference": "ffa1e9ba48dd171f09be0e4465b69f9ea82f78be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/optimize/zipball/11921a41182b53a6c5849707fccaf106761e5bbe",
-                "reference": "11921a41182b53a6c5849707fccaf106761e5bbe",
+                "url": "https://api.github.com/repos/orchestral/optimize/zipball/ffa1e9ba48dd171f09be0e4465b69f9ea82f78be",
+                "reference": "ffa1e9ba48dd171f09be0e4465b69f9ea82f78be",
                 "shasum": ""
             },
             "require": {
@@ -1428,7 +1425,7 @@
                 "illuminate/events": "4.1.*",
                 "illuminate/filesystem": "4.1.*",
                 "illuminate/support": "4.1.*",
-                "mockery/mockery": "0.8.*"
+                "mockery/mockery": "0.9.*"
             },
             "type": "library",
             "extra": {
@@ -1437,8 +1434,8 @@
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Orchestra\\Optimize": "src/"
+                "psr-4": {
+                    "Orchestra\\Optimize\\": "src/Optimize/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1457,20 +1454,20 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-01-11 01:10:58"
+            "time": "2014-03-04 12:30:24"
         },
         {
             "name": "orchestra/resources",
-            "version": "v2.1.1",
+            "version": "v2.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/resources.git",
-                "reference": "689428b9ddbc713d3688ea9a6c15c997bd102329"
+                "reference": "651db7b86ee637361a2dfa30bdd17e03481737b3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/resources/zipball/689428b9ddbc713d3688ea9a6c15c997bd102329",
-                "reference": "689428b9ddbc713d3688ea9a6c15c997bd102329",
+                "url": "https://api.github.com/repos/orchestral/resources/zipball/651db7b86ee637361a2dfa30bdd17e03481737b3",
+                "reference": "651db7b86ee637361a2dfa30bdd17e03481737b3",
                 "shasum": ""
             },
             "require": {
@@ -1481,7 +1478,7 @@
                 "illuminate/events": "4.1.*",
                 "illuminate/http": "4.1.*",
                 "illuminate/routing": "4.1.*",
-                "mockery/mockery": "0.8.*"
+                "mockery/mockery": "0.9.*"
             },
             "suggest": {
                 "laravel/framework": "Allow using orchestra/resources component outside of Orchestra Platform 2",
@@ -1494,8 +1491,8 @@
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Orchestra\\Resources": "src/"
+                "psr-4": {
+                    "Orchestra\\Resources\\": "src/Resources/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1516,7 +1513,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-01-24 10:11:32"
+            "time": "2014-03-04 12:32:04"
         },
         {
             "name": "orchestra/story",
@@ -1578,16 +1575,16 @@
         },
         {
             "name": "orchestra/support",
-            "version": "v2.1.0",
+            "version": "v2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/support.git",
-                "reference": "b385c6dc43f672aec7b48a4a1e55e1cbe015d985"
+                "reference": "4c9816f2c5572c47f0951e03c437342feca47d1c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/support/zipball/b385c6dc43f672aec7b48a4a1e55e1cbe015d985",
-                "reference": "b385c6dc43f672aec7b48a4a1e55e1cbe015d985",
+                "url": "https://api.github.com/repos/orchestral/support/zipball/4c9816f2c5572c47f0951e03c437342feca47d1c",
+                "reference": "4c9816f2c5572c47f0951e03c437342feca47d1c",
                 "shasum": ""
             },
             "require": {
@@ -1598,7 +1595,7 @@
                 "illuminate/session": "4.1.*",
                 "illuminate/support": "4.1.*",
                 "illuminate/validation": "4.1.*",
-                "mockery/mockery": "0.8.*",
+                "mockery/mockery": "0.9.*",
                 "patchwork/utf8": "1.1.*"
             },
             "suggest": {
@@ -1612,8 +1609,8 @@
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Orchestra\\Support": "src/"
+                "psr-4": {
+                    "Orchestra\\Support\\": "src/Support/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1634,20 +1631,20 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-01-07 16:04:43"
+            "time": "2014-03-04 12:34:16"
         },
         {
             "name": "orchestra/translation",
-            "version": "v2.1.0",
+            "version": "v2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/translation.git",
-                "reference": "d76ee5f4e332d04248364e9cc03a00c60c236c33"
+                "reference": "83bc4ce2113000407e1fe0ba3a5ae72917b3ec14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/translation/zipball/d76ee5f4e332d04248364e9cc03a00c60c236c33",
-                "reference": "d76ee5f4e332d04248364e9cc03a00c60c236c33",
+                "url": "https://api.github.com/repos/orchestral/translation/zipball/83bc4ce2113000407e1fe0ba3a5ae72917b3ec14",
+                "reference": "83bc4ce2113000407e1fe0ba3a5ae72917b3ec14",
                 "shasum": ""
             },
             "require": {
@@ -1655,7 +1652,7 @@
             },
             "require-dev": {
                 "illuminate/translation": "4.1.*",
-                "mockery/mockery": "0.8.*"
+                "mockery/mockery": "0.9.*"
             },
             "suggest": {
                 "laravel/framework": "Allow using orchestra/translation as added feature to illuminate/translation"
@@ -1663,12 +1660,12 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.1-dev"
+                    "dev-master": "2.2-dev"
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Orchestra\\Translation": "src/"
+                "psr-4": {
+                    "Orchestra\\Translation\\": "src/Translation/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1690,20 +1687,20 @@
                 "orchestral",
                 "translation"
             ],
-            "time": "2013-12-12 15:14:23"
+            "time": "2014-03-04 12:40:11"
         },
         {
             "name": "orchestra/view",
-            "version": "v2.1.0",
+            "version": "v2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/view.git",
-                "reference": "d7042e676e01f6410edf061b4ab5f6b9a3a78257"
+                "reference": "30ba76832ca25052be7eb79459df54de919c13f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/view/zipball/d7042e676e01f6410edf061b4ab5f6b9a3a78257",
-                "reference": "d7042e676e01f6410edf061b4ab5f6b9a3a78257",
+                "url": "https://api.github.com/repos/orchestral/view/zipball/30ba76832ca25052be7eb79459df54de919c13f0",
+                "reference": "30ba76832ca25052be7eb79459df54de919c13f0",
                 "shasum": ""
             },
             "require": {
@@ -1713,7 +1710,7 @@
             "require-dev": {
                 "illuminate/container": "4.1.*",
                 "illuminate/view": "4.1.*",
-                "mockery/mockery": "0.8.*"
+                "mockery/mockery": "0.9.*"
             },
             "suggest": {
                 "laravel/framework": "Allow using orchestra/view component outside of Orchestra Platform 2",
@@ -1726,8 +1723,8 @@
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Orchestra\\View": "src/"
+                "psr-4": {
+                    "Orchestra\\View\\": "src/View/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1748,20 +1745,20 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-01-10 07:01:06"
+            "time": "2014-03-04 12:41:32"
         },
         {
             "name": "orchestra/widget",
-            "version": "v2.1.1",
+            "version": "v2.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/widget.git",
-                "reference": "4a967c7c90cb397a5d582eb8ef602295f0aa6ed0"
+                "reference": "fc7fdbea9987f5a1ee1daeb872c03ccc343511d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/widget/zipball/4a967c7c90cb397a5d582eb8ef602295f0aa6ed0",
-                "reference": "4a967c7c90cb397a5d582eb8ef602295f0aa6ed0",
+                "url": "https://api.github.com/repos/orchestral/widget/zipball/fc7fdbea9987f5a1ee1daeb872c03ccc343511d9",
+                "reference": "fc7fdbea9987f5a1ee1daeb872c03ccc343511d9",
                 "shasum": ""
             },
             "require": {
@@ -1771,7 +1768,7 @@
             "require-dev": {
                 "illuminate/container": "4.1.*",
                 "illuminate/support": "4.1.*",
-                "mockery/mockery": "0.8.*"
+                "mockery/mockery": "0.9.*"
             },
             "suggest": {
                 "laravel/framework": "Allow using orchestra/widget component outside of Orchestra Platform 2",
@@ -1784,8 +1781,8 @@
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Orchestra\\Widget": "src/"
+                "psr-4": {
+                    "Orchestra\\Widget\\": "src/Widget/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1806,20 +1803,20 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-01-14 07:27:46"
+            "time": "2014-03-04 12:42:10"
         },
         {
             "name": "patchwork/utf8",
-            "version": "v1.1.18",
+            "version": "v1.1.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nicolas-grekas/Patchwork-UTF8.git",
-                "reference": "66a936cc633fe13378c91f81030d5193be968480"
+                "reference": "aea0de833cba7cf2c25239be71f2787edaee36d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nicolas-grekas/Patchwork-UTF8/zipball/66a936cc633fe13378c91f81030d5193be968480",
-                "reference": "66a936cc633fe13378c91f81030d5193be968480",
+                "url": "https://api.github.com/repos/nicolas-grekas/Patchwork-UTF8/zipball/aea0de833cba7cf2c25239be71f2787edaee36d5",
+                "reference": "aea0de833cba7cf2c25239be71f2787edaee36d5",
                 "shasum": ""
             },
             "require": {
@@ -1857,7 +1854,7 @@
                 "utf-8",
                 "utf8"
             ],
-            "time": "2014-02-02 17:09:49"
+            "time": "2014-03-01 20:01:07"
         },
         {
             "name": "phpseclib/phpseclib",
@@ -1865,12 +1862,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "76c9692908a6c25601df2db373043fcbb335332e"
+                "reference": "0ea31d9b65d49a8661e93bec19f44e989bd34c69"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/76c9692908a6c25601df2db373043fcbb335332e",
-                "reference": "76c9692908a6c25601df2db373043fcbb335332e",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/0ea31d9b65d49a8661e93bec19f44e989bd34c69",
+                "reference": "0ea31d9b65d49a8661e93bec19f44e989bd34c69",
                 "shasum": ""
             },
             "require": {
@@ -1895,7 +1892,8 @@
                     "Crypt": "phpseclib/",
                     "File": "phpseclib/",
                     "Math": "phpseclib/",
-                    "Net": "phpseclib/"
+                    "Net": "phpseclib/",
+                    "System": "phpseclib/"
                 },
                 "files": [
                     "phpseclib/Crypt/Random.php"
@@ -1951,7 +1949,7 @@
                 "x.509",
                 "x509"
             ],
-            "time": "2014-02-23 01:03:22"
+            "time": "2014-02-28 16:05:05"
         },
         {
             "name": "predis/predis",
