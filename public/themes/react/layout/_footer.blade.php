@@ -4,13 +4,22 @@
 			<div class="col-md-3 copyright">
 				&copy; {{ date('Y') }} Orchestra Platform
 			</div>
-			<div class="col-md-3 social">
-			</div>
 			<div class="col-md-6 menu">
 				<ul>
 					<li><a href="{{ handles('orchestra/story::/') }}">Blog</a></li>
 					<li><a href="{{ handles('app::docs/latest') }}">Documentation</a></li>
 				</ul>
+			</div>
+			<div class="col-md-3 social">
+				<a href="https://github.com/orchestral">
+					<img src="{{ Theme::asset('assets/images/social/github.png') }}" alt="github" />
+				</a>
+				<a href="https://www.facebook.com/groups/orchestraplatform">
+					<img src="{{ Theme::asset('assets/images/social/facebook.png') }}" alt="facebook" />
+				</a>
+				<a href="https://twitter.com/getorchestra">
+					<img src="{{ Theme::asset('assets/images/social/twitter.png') }}" alt="twitter" />
+				</a>
 			</div>
 		</div>
 	</div>
