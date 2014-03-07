@@ -56,16 +56,16 @@
         },
         {
             "name": "bugsnag/bugsnag-laravel",
-            "version": "v1.0.3",
+            "version": "v1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bugsnag/bugsnag-laravel.git",
-                "reference": "f1843ce8d8076a12c5b382115fa0abba28539662"
+                "reference": "30bbe33aa2713a25161d9e79a277314d352cbe45"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bugsnag/bugsnag-laravel/zipball/f1843ce8d8076a12c5b382115fa0abba28539662",
-                "reference": "f1843ce8d8076a12c5b382115fa0abba28539662",
+                "url": "https://api.github.com/repos/bugsnag/bugsnag-laravel/zipball/30bbe33aa2713a25161d9e79a277314d352cbe45",
+                "reference": "30bbe33aa2713a25161d9e79a277314d352cbe45",
                 "shasum": ""
             },
             "require": {
@@ -100,7 +100,7 @@
                 "logging",
                 "tracking"
             ],
-            "time": "2013-12-11 22:00:42"
+            "time": "2014-02-06 01:55:00"
         },
         {
             "name": "classpreloader/classpreloader",
