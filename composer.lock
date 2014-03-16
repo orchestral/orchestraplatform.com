@@ -7,16 +7,16 @@
     "packages": [
         {
             "name": "bugsnag/bugsnag",
-            "version": "v2.1.4",
+            "version": "v2.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bugsnag/bugsnag-php.git",
-                "reference": "834c605c188a2f52fa506f69f9e904fbf01ad906"
+                "reference": "6da9f6644a507eae98ed89f9f4fdeff55323c110"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bugsnag/bugsnag-php/zipball/834c605c188a2f52fa506f69f9e904fbf01ad906",
-                "reference": "834c605c188a2f52fa506f69f9e904fbf01ad906",
+                "url": "https://api.github.com/repos/bugsnag/bugsnag-php/zipball/6da9f6644a507eae98ed89f9f4fdeff55323c110",
+                "reference": "6da9f6644a507eae98ed89f9f4fdeff55323c110",
                 "shasum": ""
             },
             "require": {
@@ -52,24 +52,24 @@
                 "logging",
                 "tracking"
             ],
-            "time": "2014-01-18 22:59:55"
+            "time": "2014-03-10 18:57:17"
         },
         {
             "name": "bugsnag/bugsnag-laravel",
-            "version": "v1.0.4",
+            "version": "v1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bugsnag/bugsnag-laravel.git",
-                "reference": "30bbe33aa2713a25161d9e79a277314d352cbe45"
+                "reference": "e0227fde19879ceb67e5459eefb364712cf7384b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bugsnag/bugsnag-laravel/zipball/30bbe33aa2713a25161d9e79a277314d352cbe45",
-                "reference": "30bbe33aa2713a25161d9e79a277314d352cbe45",
+                "url": "https://api.github.com/repos/bugsnag/bugsnag-laravel/zipball/e0227fde19879ceb67e5459eefb364712cf7384b",
+                "reference": "e0227fde19879ceb67e5459eefb364712cf7384b",
                 "shasum": ""
             },
             "require": {
-                "bugsnag/bugsnag": ">=2.0.3",
+                "bugsnag/bugsnag": ">=2.2.0",
                 "illuminate/support": "~4.0",
                 "php": ">=5.3.0"
             },
@@ -100,7 +100,7 @@
                 "logging",
                 "tracking"
             ],
-            "time": "2014-02-06 01:55:00"
+            "time": "2014-03-10 00:29:32"
         },
         {
             "name": "classpreloader/classpreloader",
