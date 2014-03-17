@@ -462,16 +462,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v4.1.23",
+            "version": "v4.1.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "054c1a29aaf537c6c6ca7e7804375c671eddcaaf"
+                "reference": "4f69e545e0ca19b54010ca4c68a66ba6de6e853c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/054c1a29aaf537c6c6ca7e7804375c671eddcaaf",
-                "reference": "054c1a29aaf537c6c6ca7e7804375c671eddcaaf",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/4f69e545e0ca19b54010ca4c68a66ba6de6e853c",
+                "reference": "4f69e545e0ca19b54010ca4c68a66ba6de6e853c",
                 "shasum": ""
             },
             "require": {
@@ -534,7 +534,7 @@
                 "iron-io/iron_mq": "1.5.*",
                 "mockery/mockery": "0.9.*",
                 "pda/pheanstalk": "2.1.*",
-                "phpunit/phpunit": "3.7.*"
+                "phpunit/phpunit": "4.0.*"
             },
             "suggest": {
                 "doctrine/dbal": "Allow renaming columns and dropping SQLite columns."
@@ -575,7 +575,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-02-28 22:07:47"
+            "time": "2014-03-17 15:49:21"
         },
         {
             "name": "monolog/monolog",
@@ -1171,16 +1171,16 @@
         },
         {
             "name": "orchestra/html",
-            "version": "v2.1.2",
+            "version": "v2.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/html.git",
-                "reference": "1f301e577a0d9adca2ef31e402ab320dfd6df933"
+                "reference": "8de12267d7a5d3111c4f54609a7400103b5db0cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/html/zipball/1f301e577a0d9adca2ef31e402ab320dfd6df933",
-                "reference": "1f301e577a0d9adca2ef31e402ab320dfd6df933",
+                "url": "https://api.github.com/repos/orchestral/html/zipball/8de12267d7a5d3111c4f54609a7400103b5db0cf",
+                "reference": "8de12267d7a5d3111c4f54609a7400103b5db0cf",
                 "shasum": ""
             },
             "require": {
@@ -1229,7 +1229,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-03-04 10:34:30"
+            "time": "2014-03-17 23:41:36"
         },
         {
             "name": "orchestra/memory",
