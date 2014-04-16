@@ -7,16 +7,16 @@
     "packages": [
         {
             "name": "bugsnag/bugsnag",
-            "version": "v2.2.2",
+            "version": "v2.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bugsnag/bugsnag-php.git",
-                "reference": "6da9f6644a507eae98ed89f9f4fdeff55323c110"
+                "reference": "5c394b9bff1a3b3862fcc7361e035d96beb8099b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bugsnag/bugsnag-php/zipball/6da9f6644a507eae98ed89f9f4fdeff55323c110",
-                "reference": "6da9f6644a507eae98ed89f9f4fdeff55323c110",
+                "url": "https://api.github.com/repos/bugsnag/bugsnag-php/zipball/5c394b9bff1a3b3862fcc7361e035d96beb8099b",
+                "reference": "5c394b9bff1a3b3862fcc7361e035d96beb8099b",
                 "shasum": ""
             },
             "require": {
@@ -52,20 +52,20 @@
                 "logging",
                 "tracking"
             ],
-            "time": "2014-03-10 18:57:17"
+            "time": "2014-04-11 21:12:43"
         },
         {
             "name": "bugsnag/bugsnag-laravel",
-            "version": "v1.0.5",
+            "version": "v1.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bugsnag/bugsnag-laravel.git",
-                "reference": "e0227fde19879ceb67e5459eefb364712cf7384b"
+                "reference": "5798924b581e653ff2f3eff5555298727f21b25d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bugsnag/bugsnag-laravel/zipball/e0227fde19879ceb67e5459eefb364712cf7384b",
-                "reference": "e0227fde19879ceb67e5459eefb364712cf7384b",
+                "url": "https://api.github.com/repos/bugsnag/bugsnag-laravel/zipball/5798924b581e653ff2f3eff5555298727f21b25d",
+                "reference": "5798924b581e653ff2f3eff5555298727f21b25d",
                 "shasum": ""
             },
             "require": {
@@ -100,7 +100,7 @@
                 "logging",
                 "tracking"
             ],
-            "time": "2014-03-10 00:29:32"
+            "time": "2014-04-14 22:42:04"
         },
         {
             "name": "classpreloader/classpreloader",
@@ -462,16 +462,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v4.1.24",
+            "version": "v4.1.26",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "4f69e545e0ca19b54010ca4c68a66ba6de6e853c"
+                "reference": "0888ff0d2b32c51f712187c9382da0a8af2aa2fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/4f69e545e0ca19b54010ca4c68a66ba6de6e853c",
-                "reference": "4f69e545e0ca19b54010ca4c68a66ba6de6e853c",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/0888ff0d2b32c51f712187c9382da0a8af2aa2fd",
+                "reference": "0888ff0d2b32c51f712187c9382da0a8af2aa2fd",
                 "shasum": ""
             },
             "require": {
@@ -530,7 +530,7 @@
                 "illuminate/workbench": "self.version"
             },
             "require-dev": {
-                "aws/aws-sdk-php": "2.5.*",
+                "aws/aws-sdk-php": "2.6.*",
                 "iron-io/iron_mq": "1.5.*",
                 "mockery/mockery": "0.9.*",
                 "pda/pheanstalk": "2.1.*",
@@ -575,7 +575,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-03-17 15:49:21"
+            "time": "2014-04-15 16:05:47"
         },
         {
             "name": "monolog/monolog",
@@ -796,16 +796,16 @@
         },
         {
             "name": "orchestra/auth",
-            "version": "v2.1.4",
+            "version": "v2.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/auth.git",
-                "reference": "d9bdcbe2509ccd4474abed3ce250844b72c98629"
+                "reference": "6e47db69e36075927bf742d96ba0b1cb192b725b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/auth/zipball/d9bdcbe2509ccd4474abed3ce250844b72c98629",
-                "reference": "d9bdcbe2509ccd4474abed3ce250844b72c98629",
+                "url": "https://api.github.com/repos/orchestral/auth/zipball/6e47db69e36075927bf742d96ba0b1cb192b725b",
+                "reference": "6e47db69e36075927bf742d96ba0b1cb192b725b",
                 "shasum": ""
             },
             "require": {
@@ -830,6 +830,9 @@
                 }
             },
             "autoload": {
+                "classmap": [
+                    "src/migrations"
+                ],
                 "psr-4": {
                     "Orchestra\\Auth\\": "src/Auth/"
                 }
@@ -855,7 +858,7 @@
                 "orchestral",
                 "rbac"
             ],
-            "time": "2014-03-04 10:24:07"
+            "time": "2014-04-16 05:12:32"
         },
         {
             "name": "orchestra/control",
@@ -1292,16 +1295,16 @@
         },
         {
             "name": "orchestra/model",
-            "version": "v2.1.3",
+            "version": "v2.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/model.git",
-                "reference": "3985db97630ee1c15abf8ce8b222df22c65fa1c5"
+                "reference": "c184c690bbd8cb4feec4b3b259d8910f837e7c8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/model/zipball/3985db97630ee1c15abf8ce8b222df22c65fa1c5",
-                "reference": "3985db97630ee1c15abf8ce8b222df22c65fa1c5",
+                "url": "https://api.github.com/repos/orchestral/model/zipball/c184c690bbd8cb4feec4b3b259d8910f837e7c8e",
+                "reference": "c184c690bbd8cb4feec4b3b259d8910f837e7c8e",
                 "shasum": ""
             },
             "require": {
@@ -1344,7 +1347,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-03-04 12:28:25"
+            "time": "2014-04-16 05:23:27"
         },
         {
             "name": "orchestra/notifier",
