@@ -11,7 +11,7 @@ class WorklessPresenter extends Presenter {
 	 * @param  int  $page
 	 * @return string
 	 */
-	public function getPageLinkWrapper($url, $page)
+	public function getPageLinkWrapper($url, $page, $rel = null)
 	{
 		return '<a href="'.$url.'" class="page-numbers">'.$page.'</a>';
 	}
