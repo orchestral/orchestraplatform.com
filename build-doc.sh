@@ -4,5 +4,7 @@ cd ../2.1;
 git checkout 2.1;
 cd ../2.2
 git checkout 2.2;
+cd ../2.3
+git checkout master;
 cd ../..;
 git submodule foreach git pull;

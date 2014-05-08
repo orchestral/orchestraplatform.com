@@ -7,3 +7,6 @@
 [submodule "docs/2.2"]
 	path = docs/2.2
 	url = https://github.com/orchestral/docs.git
+[submodule "docs/2.3"]
+	path = docs/2.3
+	url = git@github.com:orchestral/docs.git

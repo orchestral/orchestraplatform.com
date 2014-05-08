@@ -9,7 +9,8 @@ return array(
     */
 
     'aliases' => array(
-        'latest' => '2.1',
-        'stable' => '2.1',
+        'develop' => '2.3',
+        'latest'  => '2.2',
+        'stable'  => '2.1',
     ),
 );
