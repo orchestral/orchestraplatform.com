@@ -472,12 +472,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "8055c87740e9709b9d733364b8544d8b3753f20d"
+                "reference": "f9b40e84164b3037891f0c690b34eb8cdf4e88e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/8055c87740e9709b9d733364b8544d8b3753f20d",
-                "reference": "8055c87740e9709b9d733364b8544d8b3753f20d",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/f9b40e84164b3037891f0c690b34eb8cdf4e88e1",
+                "reference": "f9b40e84164b3037891f0c690b34eb8cdf4e88e1",
                 "shasum": ""
             },
             "require": {
@@ -580,7 +580,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-05-03 22:08:25"
+            "time": "2014-05-04 20:21:59"
         },
         {
             "name": "monolog/monolog",
@@ -742,16 +742,16 @@
         },
         {
             "name": "orchestra/asset",
-            "version": "v2.2.0-BETA1",
+            "version": "v2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/asset.git",
-                "reference": "c66b7d1fc415fc81697da373c3f9b950131d406d"
+                "reference": "e0ae609ad0d803da2a8a276ae00a6309c4e19ffc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/asset/zipball/c66b7d1fc415fc81697da373c3f9b950131d406d",
-                "reference": "c66b7d1fc415fc81697da373c3f9b950131d406d",
+                "url": "https://api.github.com/repos/orchestral/asset/zipball/e0ae609ad0d803da2a8a276ae00a6309c4e19ffc",
+                "reference": "e0ae609ad0d803da2a8a276ae00a6309c4e19ffc",
                 "shasum": ""
             },
             "require": {
@@ -770,7 +770,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.2-dev"
+                    "dev-master": "2.3-dev"
                 }
             },
             "autoload": {
@@ -797,7 +797,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-05-03 14:07:22"
+            "time": "2014-05-08 06:12:37"
         },
         {
             "name": "orchestra/auth",
@@ -1819,16 +1819,16 @@
         },
         {
             "name": "patchwork/utf8",
-            "version": "v1.1.21",
+            "version": "v1.1.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nicolas-grekas/Patchwork-UTF8.git",
-                "reference": "f45ba8bc7962b7356847724989a6949b68d975a2"
+                "reference": "156e66249f48e439a31df2347290bb9ab1d3d242"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nicolas-grekas/Patchwork-UTF8/zipball/f45ba8bc7962b7356847724989a6949b68d975a2",
-                "reference": "f45ba8bc7962b7356847724989a6949b68d975a2",
+                "url": "https://api.github.com/repos/nicolas-grekas/Patchwork-UTF8/zipball/156e66249f48e439a31df2347290bb9ab1d3d242",
+                "reference": "156e66249f48e439a31df2347290bb9ab1d3d242",
                 "shasum": ""
             },
             "require": {
@@ -1866,7 +1866,7 @@
                 "utf-8",
                 "utf8"
             ],
-            "time": "2014-03-26 10:52:02"
+            "time": "2014-05-06 15:47:10"
         },
         {
             "name": "phpseclib/phpseclib",
@@ -2228,25 +2228,28 @@
         },
         {
             "name": "swiftmailer/swiftmailer",
-            "version": "v5.1.0",
+            "version": "v5.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "748c01c1144713ac0118396935d10b6ceec91b68"
+                "reference": "043e336b871f17a117f76ef8e190eddfc04c8d48"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/748c01c1144713ac0118396935d10b6ceec91b68",
-                "reference": "748c01c1144713ac0118396935d10b6ceec91b68",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/043e336b871f17a117f76ef8e190eddfc04c8d48",
+                "reference": "043e336b871f17a117f76ef8e190eddfc04c8d48",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.2.4"
             },
+            "require-dev": {
+                "mockery/mockery": "~0.9.1"
+            },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.1-dev"
+                    "dev-master": "5.2-dev"
                 }
             },
             "autoload": {
@@ -2275,7 +2278,7 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2014-03-18 09:03:27"
+            "time": "2014-05-08 08:11:19"
         },
         {
             "name": "symfony/browser-kit",
