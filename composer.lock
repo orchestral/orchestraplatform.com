@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "14490b684cd2255934c06517d6d8372f",
+    "hash": "1d884af989ff8b1d8cecb922b202c3db",
     "packages": [
         {
             "name": "bugsnag/bugsnag",
@@ -468,16 +468,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "dev-master",
+            "version": "v4.2.0-BETA1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "f9b40e84164b3037891f0c690b34eb8cdf4e88e1"
+                "reference": "2eb8ac78d7cd680ed88e4bee222bda4b9266db57"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/f9b40e84164b3037891f0c690b34eb8cdf4e88e1",
-                "reference": "f9b40e84164b3037891f0c690b34eb8cdf4e88e1",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/2eb8ac78d7cd680ed88e4bee222bda4b9266db57",
+                "reference": "2eb8ac78d7cd680ed88e4bee222bda4b9266db57",
                 "shasum": ""
             },
             "require": {
@@ -580,7 +580,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-05-04 20:21:59"
+            "time": "2014-05-09 16:42:29"
         },
         {
             "name": "monolog/monolog",
@@ -801,16 +801,16 @@
         },
         {
             "name": "orchestra/auth",
-            "version": "v2.2.0-BETA1",
+            "version": "v2.2.0-BETA2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/auth.git",
-                "reference": "d20ecbf02fac4875044aa6309640396a73589aa2"
+                "reference": "6ad57b70d5fdd3b4cd85ae8cff18a3dec9745718"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/auth/zipball/d20ecbf02fac4875044aa6309640396a73589aa2",
-                "reference": "d20ecbf02fac4875044aa6309640396a73589aa2",
+                "url": "https://api.github.com/repos/orchestral/auth/zipball/6ad57b70d5fdd3b4cd85ae8cff18a3dec9745718",
+                "reference": "6ad57b70d5fdd3b4cd85ae8cff18a3dec9745718",
                 "shasum": ""
             },
             "require": {
@@ -831,7 +831,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.2-dev"
+                    "dev-master": "2.3-dev"
                 }
             },
             "autoload": {
@@ -863,7 +863,7 @@
                 "orchestral",
                 "rbac"
             ],
-            "time": "2014-04-30 06:52:38"
+            "time": "2014-05-09 22:58:22"
         },
         {
             "name": "orchestra/control",
@@ -1529,16 +1529,16 @@
         },
         {
             "name": "orchestra/story",
-            "version": "dev-master",
+            "version": "v2.2.0-BETA1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/story.git",
-                "reference": "1078c338ecc2889ea1cf3e99b165a70d088000f1"
+                "reference": "307f1e31f33e33994bba4a281f6efb4939ec4e33"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/story/zipball/1078c338ecc2889ea1cf3e99b165a70d088000f1",
-                "reference": "1078c338ecc2889ea1cf3e99b165a70d088000f1",
+                "url": "https://api.github.com/repos/orchestral/story/zipball/307f1e31f33e33994bba4a281f6efb4939ec4e33",
+                "reference": "307f1e31f33e33994bba4a281f6efb4939ec4e33",
                 "shasum": ""
             },
             "require": {
@@ -1553,7 +1553,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.2-dev"
+                    "dev-master": "2.3-dev"
                 }
             },
             "autoload": {
@@ -1582,7 +1582,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-05-04 07:09:12"
+            "time": "2014-05-09 23:05:22"
         },
         {
             "name": "orchestra/support",
@@ -3152,10 +3152,7 @@
     ],
     "aliases": [],
     "minimum-stability": "beta",
-    "stability-flags": {
-        "orchestra/story": 20,
-        "laravel/framework": 20
-    },
+    "stability-flags": [],
     "platform": [],
     "platform-dev": []
 }
