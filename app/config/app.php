@@ -128,7 +128,6 @@ return array(
         'Orchestra\Foundation\FoundationServiceProvider',
 
         'Platform\PlatformServiceProvider',
-        'Bugsnag\BugsnagLaravel\BugsnagLaravelServiceProvider',
     ),
 
     /*
