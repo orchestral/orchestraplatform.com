@@ -7,12 +7,12 @@
 
 @section('content')
 <div class="info">
-    <h1>404</h1>
-    <p>The page you're looking for doesn't exist.</p>
+	<h1>404</h1>
+	<p>The page you're looking for doesn't exist.</p>
 
-    <p class="go-back">
-        Continue to our <a href="{{ handles('app::/') }}">Home page</a>.
-    </p>
+	<p class="go-back">
+		Continue to our <a href="{{ handles('app::/') }}">Home page</a>.
+	</p>
 </div>
 <div id="container">
 </div>

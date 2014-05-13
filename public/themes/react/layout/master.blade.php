@@ -5,13 +5,13 @@
 </head>
 <body{{ HTML::attributes(HTML::decorate(Site::get('html::body', []), [])) }}>
 	@if (Site::get('html::header.enabled', true) === true)
-    @include('layout._navigation')
-    @endif
+	@include('layout._navigation')
+	@endif
 	@yield('header')
 	@yield('content')
 
-    @if (Site::get('html::footer.enabled', true) === true)
+	@if (Site::get('html::footer.enabled', true) === true)
 	@include('layout._footer')
-    @endif
+	@endif
 </body>
 </html>
