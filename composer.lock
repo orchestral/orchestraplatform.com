@@ -652,16 +652,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "1.8.0",
+            "version": "1.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "21c4cb4301969c7d85aee8a62eefdfa881413af0"
+                "reference": "b94de7192b01d0e80794eae984dcc773220ab0dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/21c4cb4301969c7d85aee8a62eefdfa881413af0",
-                "reference": "21c4cb4301969c7d85aee8a62eefdfa881413af0",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/b94de7192b01d0e80794eae984dcc773220ab0dc",
+                "reference": "b94de7192b01d0e80794eae984dcc773220ab0dc",
                 "shasum": ""
             },
             "require": {
@@ -694,7 +694,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2014-01-07 05:10:44"
+            "time": "2014-05-13 02:29:30"
         },
         {
             "name": "nikic/php-parser",
@@ -1242,16 +1242,16 @@
         },
         {
             "name": "orchestra/memory",
-            "version": "v2.2.0-BETA1",
+            "version": "v2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/memory.git",
-                "reference": "4fad983d6137b095559b870944319436e0547486"
+                "reference": "a1a5bac56c322e60d624e5022c51f10f4a07f5a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/memory/zipball/4fad983d6137b095559b870944319436e0547486",
-                "reference": "4fad983d6137b095559b870944319436e0547486",
+                "url": "https://api.github.com/repos/orchestral/memory/zipball/a1a5bac56c322e60d624e5022c51f10f4a07f5a7",
+                "reference": "a1a5bac56c322e60d624e5022c51f10f4a07f5a7",
                 "shasum": ""
             },
             "require": {
@@ -1270,7 +1270,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.2-dev"
+                    "dev-master": "2.3-dev"
                 }
             },
             "autoload": {
@@ -1299,20 +1299,20 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-04-30 03:55:58"
+            "time": "2014-05-16 07:00:20"
         },
         {
             "name": "orchestra/model",
-            "version": "v2.2.0-BETA1",
+            "version": "v2.2.0-BETA2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/model.git",
-                "reference": "0b73f45e17c1332bdada5f73d04f54c6973c222c"
+                "reference": "f187c11c7cc3ef9a8bd5b29fe59e79f994dc4f39"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/model/zipball/0b73f45e17c1332bdada5f73d04f54c6973c222c",
-                "reference": "0b73f45e17c1332bdada5f73d04f54c6973c222c",
+                "url": "https://api.github.com/repos/orchestral/model/zipball/f187c11c7cc3ef9a8bd5b29fe59e79f994dc4f39",
+                "reference": "f187c11c7cc3ef9a8bd5b29fe59e79f994dc4f39",
                 "shasum": ""
             },
             "require": {
@@ -1328,7 +1328,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.2-dev"
+                    "dev-master": "2.3-dev"
                 }
             },
             "autoload": {
@@ -1355,20 +1355,20 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-05-04 01:51:40"
+            "time": "2014-05-15 01:19:54"
         },
         {
             "name": "orchestra/notifier",
-            "version": "v2.2.0-BETA1",
+            "version": "v2.2.0-BETA2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/notifier.git",
-                "reference": "439ce02aee77981bff3e0781c7a570624c29898b"
+                "reference": "f78702f8c4f9c9e121b56cabb4ddad0e7d730fab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/notifier/zipball/439ce02aee77981bff3e0781c7a570624c29898b",
-                "reference": "439ce02aee77981bff3e0781c7a570624c29898b",
+                "url": "https://api.github.com/repos/orchestral/notifier/zipball/f78702f8c4f9c9e121b56cabb4ddad0e7d730fab",
+                "reference": "f78702f8c4f9c9e121b56cabb4ddad0e7d730fab",
                 "shasum": ""
             },
             "require": {
@@ -1386,7 +1386,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.2-dev"
+                    "dev-master": "2.3-dev"
                 }
             },
             "autoload": {
@@ -1411,7 +1411,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-05-04 02:34:05"
+            "time": "2014-05-14 09:32:08"
         },
         {
             "name": "orchestra/optimize",
@@ -1586,16 +1586,16 @@
         },
         {
             "name": "orchestra/support",
-            "version": "v2.2.0-BETA1",
+            "version": "v2.2.0-BETA2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/support.git",
-                "reference": "1b2ca2193a94289cc65bb5bef2ea1a93241604ad"
+                "reference": "43497cb04b82c971f7b6cfe76b50f4a61636da79"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/support/zipball/1b2ca2193a94289cc65bb5bef2ea1a93241604ad",
-                "reference": "1b2ca2193a94289cc65bb5bef2ea1a93241604ad",
+                "url": "https://api.github.com/repos/orchestral/support/zipball/43497cb04b82c971f7b6cfe76b50f4a61636da79",
+                "reference": "43497cb04b82c971f7b6cfe76b50f4a61636da79",
                 "shasum": ""
             },
             "require": {
@@ -1617,7 +1617,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.2-dev"
+                    "dev-master": "2.3-dev"
                 }
             },
             "autoload": {
@@ -1643,7 +1643,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-04-21 11:40:20"
+            "time": "2014-05-13 01:25:45"
         },
         {
             "name": "orchestra/translation",
