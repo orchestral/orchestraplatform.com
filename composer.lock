@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "dfad1000fdcf005b87a1de1b81e4d35a",
+    "hash": "b62bdfbec0b44b5676eec9debd505ebf",
     "packages": [
         {
             "name": "bugsnag/bugsnag",
@@ -330,30 +330,37 @@
         },
         {
             "name": "filp/whoops",
-            "version": "1.0.10",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filp/whoops.git",
-                "reference": "91e3fd4b0812017ffbeb24add55330664e1ea32a"
+                "reference": "ae05259236204ccf904a94e5b0d96df8d4351da5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filp/whoops/zipball/91e3fd4b0812017ffbeb24add55330664e1ea32a",
-                "reference": "91e3fd4b0812017ffbeb24add55330664e1ea32a",
+                "url": "https://api.github.com/repos/filp/whoops/zipball/ae05259236204ccf904a94e5b0d96df8d4351da5",
+                "reference": "ae05259236204ccf904a94e5b0d96df8d4351da5",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0"
             },
             "require-dev": {
-                "mockery/mockery": "dev-master",
-                "silex/silex": "1.0.*@dev"
+                "mockery/mockery": "0.9.*"
             },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.2-dev"
+                }
+            },
             "autoload": {
                 "psr-0": {
                     "Whoops": "src/"
-                }
+                },
+                "classmap": [
+                    "src/deprecated"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -377,7 +384,7 @@
                 "whoops",
                 "zf2"
             ],
-            "time": "2013-12-04 14:19:30"
+            "time": "2014-05-13 05:05:11"
         },
         {
             "name": "ircmaxell/password-compat",
@@ -468,22 +475,22 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v4.2.0-BETA1",
+            "version": "4.2.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "2eb8ac78d7cd680ed88e4bee222bda4b9266db57"
+                "reference": "6a33b69fef679bb575e966d9c8410649fc690d96"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/2eb8ac78d7cd680ed88e4bee222bda4b9266db57",
-                "reference": "2eb8ac78d7cd680ed88e4bee222bda4b9266db57",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/6a33b69fef679bb575e966d9c8410649fc690d96",
+                "reference": "6a33b69fef679bb575e966d9c8410649fc690d96",
                 "shasum": ""
             },
             "require": {
                 "classpreloader/classpreloader": "~1.0",
                 "d11wtq/boris": "~1.0",
-                "filp/whoops": "1.0.10",
+                "filp/whoops": "1.1.*",
                 "ircmaxell/password-compat": "~1.0",
                 "jeremeamia/superclosure": "~1.0",
                 "monolog/monolog": "~1.6",
@@ -580,7 +587,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-05-09 16:42:29"
+            "time": "2014-05-16 17:53:30"
         },
         {
             "name": "monolog/monolog",
@@ -3848,6 +3855,7 @@
     "aliases": [],
     "minimum-stability": "beta",
     "stability-flags": {
+        "laravel/framework": 20,
         "orchestra/optimize": 20
     },
     "platform": [],
