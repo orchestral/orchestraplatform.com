@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "23496214315d99603172b3276e981c52",
+    "hash": "dfad1000fdcf005b87a1de1b81e4d35a",
     "packages": [
         {
             "name": "bugsnag/bugsnag",
@@ -1415,16 +1415,16 @@
         },
         {
             "name": "orchestra/optimize",
-            "version": "v2.2.0-BETA1",
+            "version": "2.2.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/optimize.git",
-                "reference": "a0ec484605b650d2005a9ae47aaec48290f25275"
+                "reference": "dad1118778c77b9381e7f7170767f60b434fcaa2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/optimize/zipball/a0ec484605b650d2005a9ae47aaec48290f25275",
-                "reference": "a0ec484605b650d2005a9ae47aaec48290f25275",
+                "url": "https://api.github.com/repos/orchestral/optimize/zipball/dad1118778c77b9381e7f7170767f60b434fcaa2",
+                "reference": "dad1118778c77b9381e7f7170767f60b434fcaa2",
                 "shasum": ""
             },
             "require": {
@@ -1442,7 +1442,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.2-dev"
+                    "dev-master": "2.3-dev"
                 }
             },
             "autoload": {
@@ -1466,7 +1466,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-04-21 12:57:17"
+            "time": "2014-05-17 16:34:12"
         },
         {
             "name": "orchestra/resources",
@@ -3847,7 +3847,9 @@
     ],
     "aliases": [],
     "minimum-stability": "beta",
-    "stability-flags": [],
+    "stability-flags": {
+        "orchestra/optimize": 20
+    },
     "platform": [],
     "platform-dev": []
 }
