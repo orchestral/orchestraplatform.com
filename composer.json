@@ -7,8 +7,7 @@
 		"orchestra/story": "2.2.*",
 		"daylerees/kurenai": "1.0.*",
 		"bugsnag/bugsnag-laravel": "1.*",
-        "laravel/framework": "@dev",
-        "orchestra/optimize": "@dev"
+		"laravel/framework": "@dev"
 	},
 	"require-dev": {
 		"mockery/mockery": "0.9.*",

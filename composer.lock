@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "b62bdfbec0b44b5676eec9debd505ebf",
+    "hash": "edb2a91963a7ba1b669177b752fcab15",
     "packages": [
         {
             "name": "bugsnag/bugsnag",
@@ -1422,7 +1422,7 @@
         },
         {
             "name": "orchestra/optimize",
-            "version": "2.2.x-dev",
+            "version": "v2.2.0-BETA2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/optimize.git",
@@ -3855,8 +3855,7 @@
     "aliases": [],
     "minimum-stability": "beta",
     "stability-flags": {
-        "laravel/framework": 20,
-        "orchestra/optimize": 20
+        "laravel/framework": 20
     },
     "platform": [],
     "platform-dev": []
