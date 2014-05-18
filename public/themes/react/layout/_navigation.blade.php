@@ -21,6 +21,7 @@
 					</a>
 
 					<ul class="dropdown-menu">
+						<li><a href="{{ handles('app::docs/2.2/') }}">2.2 (Development)</a></li>
 						<li><a href="{{ handles('app::docs/2.1/') }}">2.1 (Latest Stable)</a></li>
 						<li><a href="{{ handles('app::docs/2.0/') }}">2.0 (Legacy)</a></li>
 					</ul>
