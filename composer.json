@@ -6,8 +6,7 @@
 		"orchestra/control": "2.2.*",
 		"orchestra/story": "2.2.*",
 		"daylerees/kurenai": "1.0.*",
-		"bugsnag/bugsnag-laravel": "1.*",
-		"laravel/framework": "@dev"
+		"bugsnag/bugsnag-laravel": "1.*"
 	},
 	"require-dev": {
 		"mockery/mockery": "0.9.*",
@@ -41,5 +40,5 @@
 	"config": {
 		"preferred-install": "dist"
 	},
-	"minimum-stability": "beta"
+	"minimum-stability": "dev"
 }
