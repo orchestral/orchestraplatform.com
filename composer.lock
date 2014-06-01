@@ -1,7 +1,8 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
     ],
     "hash": "e6b88edf308eac5ae3615eb33ef8e63b",
     "packages": [
@@ -479,12 +480,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "518c923713372cd45bf1c466b4ee7fbfe9dc78b1"
+                "reference": "80cc5fd606afc2afd3d89f6e1636c5fc2e0dd296"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/518c923713372cd45bf1c466b4ee7fbfe9dc78b1",
-                "reference": "518c923713372cd45bf1c466b4ee7fbfe9dc78b1",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/80cc5fd606afc2afd3d89f6e1636c5fc2e0dd296",
+                "reference": "80cc5fd606afc2afd3d89f6e1636c5fc2e0dd296",
                 "shasum": ""
             },
             "require": {
@@ -588,7 +589,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-05-29 04:02:13"
+            "time": "2014-06-01 02:01:51"
         },
         {
             "name": "monolog/monolog",
@@ -2100,16 +2101,16 @@
         },
         {
             "name": "react/socket",
-            "version": "v0.4.1",
+            "version": "v0.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/socket.git",
-                "reference": "43b9343418999b7f379b81e6aaea7983aa1e698d"
+                "reference": "a6acf405ca53fc6cfbfe7c77778ededff46aa7cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/socket/zipball/43b9343418999b7f379b81e6aaea7983aa1e698d",
-                "reference": "43b9343418999b7f379b81e6aaea7983aa1e698d",
+                "url": "https://api.github.com/repos/reactphp/socket/zipball/a6acf405ca53fc6cfbfe7c77778ededff46aa7cc",
+                "reference": "a6acf405ca53fc6cfbfe7c77778ededff46aa7cc",
                 "shasum": ""
             },
             "require": {
@@ -2126,7 +2127,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "React\\Socket\\": ""
+                    "React\\Socket\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2137,7 +2138,7 @@
             "keywords": [
                 "Socket"
             ],
-            "time": "2014-04-13 16:32:50"
+            "time": "2014-05-25 17:02:16"
         },
         {
             "name": "react/stream",
@@ -2289,7 +2290,7 @@
         },
         {
             "name": "symfony/browser-kit",
-            "version": "v2.5.0-RC1",
+            "version": "v2.5.0",
             "target-dir": "Symfony/Component/BrowserKit",
             "source": {
                 "type": "git",
@@ -2346,7 +2347,7 @@
         },
         {
             "name": "symfony/console",
-            "version": "v2.5.0-RC1",
+            "version": "v2.5.0",
             "target-dir": "Symfony/Component/Console",
             "source": {
                 "type": "git",
@@ -2403,7 +2404,7 @@
         },
         {
             "name": "symfony/css-selector",
-            "version": "v2.5.0-RC1",
+            "version": "v2.5.0",
             "target-dir": "Symfony/Component/CssSelector",
             "source": {
                 "type": "git",
@@ -2456,7 +2457,7 @@
         },
         {
             "name": "symfony/debug",
-            "version": "v2.5.0-RC1",
+            "version": "v2.5.0",
             "target-dir": "Symfony/Component/Debug",
             "source": {
                 "type": "git",
@@ -2513,17 +2514,17 @@
         },
         {
             "name": "symfony/dom-crawler",
-            "version": "v2.5.0-RC1",
+            "version": "v2.5.0",
             "target-dir": "Symfony/Component/DomCrawler",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/DomCrawler.git",
-                "reference": "2c2cda98977149bbefd7ac3d616d28c0baafc212"
+                "reference": "6cda499120860286fe3d3d2fd631dacb7ae17f92"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/DomCrawler/zipball/2c2cda98977149bbefd7ac3d616d28c0baafc212",
-                "reference": "2c2cda98977149bbefd7ac3d616d28c0baafc212",
+                "url": "https://api.github.com/repos/symfony/DomCrawler/zipball/6cda499120860286fe3d3d2fd631dacb7ae17f92",
+                "reference": "6cda499120860286fe3d3d2fd631dacb7ae17f92",
                 "shasum": ""
             },
             "require": {
@@ -2564,11 +2565,11 @@
             ],
             "description": "Symfony DomCrawler Component",
             "homepage": "http://symfony.com",
-            "time": "2014-05-26 15:36:38"
+            "time": "2014-05-31 02:02:56"
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v2.5.0-RC1",
+            "version": "v2.5.0",
             "target-dir": "Symfony/Component/EventDispatcher",
             "source": {
                 "type": "git",
@@ -2627,7 +2628,7 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v2.5.0-RC1",
+            "version": "v2.5.0",
             "target-dir": "Symfony/Component/Filesystem",
             "source": {
                 "type": "git",
@@ -2676,7 +2677,7 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v2.5.0-RC1",
+            "version": "v2.5.0",
             "target-dir": "Symfony/Component/Finder",
             "source": {
                 "type": "git",
@@ -2725,7 +2726,7 @@
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v2.5.0-RC1",
+            "version": "v2.5.0",
             "target-dir": "Symfony/Component/HttpFoundation",
             "source": {
                 "type": "git",
@@ -2780,17 +2781,17 @@
         },
         {
             "name": "symfony/http-kernel",
-            "version": "v2.5.0-RC1",
+            "version": "v2.5.0",
             "target-dir": "Symfony/Component/HttpKernel",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpKernel.git",
-                "reference": "4a6ad84f4c251ce912ad6f484524aea605e16376"
+                "reference": "432a828e796a575d4a325a0fdf14132a615d2c53"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/HttpKernel/zipball/4a6ad84f4c251ce912ad6f484524aea605e16376",
-                "reference": "4a6ad84f4c251ce912ad6f484524aea605e16376",
+                "url": "https://api.github.com/repos/symfony/HttpKernel/zipball/432a828e796a575d4a325a0fdf14132a615d2c53",
+                "reference": "432a828e796a575d4a325a0fdf14132a615d2c53",
                 "shasum": ""
             },
             "require": {
@@ -2849,11 +2850,11 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "http://symfony.com",
-            "time": "2014-05-28 01:21:58"
+            "time": "2014-05-31 18:45:50"
         },
         {
             "name": "symfony/process",
-            "version": "v2.5.0-RC1",
+            "version": "v2.5.0",
             "target-dir": "Symfony/Component/Process",
             "source": {
                 "type": "git",
@@ -2902,7 +2903,7 @@
         },
         {
             "name": "symfony/routing",
-            "version": "v2.5.0-RC1",
+            "version": "v2.5.0",
             "target-dir": "Symfony/Component/Routing",
             "source": {
                 "type": "git",
@@ -2970,7 +2971,7 @@
         },
         {
             "name": "symfony/security-core",
-            "version": "v2.5.0-RC1",
+            "version": "v2.5.0",
             "target-dir": "Symfony/Component/Security/Core",
             "source": {
                 "type": "git",
@@ -3034,7 +3035,7 @@
         },
         {
             "name": "symfony/translation",
-            "version": "v2.5.0-RC1",
+            "version": "v2.5.0",
             "target-dir": "Symfony/Component/Translation",
             "source": {
                 "type": "git",
@@ -3805,7 +3806,7 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v2.5.0-RC1",
+            "version": "v2.5.0",
             "target-dir": "Symfony/Component/Yaml",
             "source": {
                 "type": "git",
