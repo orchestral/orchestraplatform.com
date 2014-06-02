@@ -933,16 +933,16 @@
         },
         {
             "name": "orchestra/debug",
-            "version": "v2.2.0-BETA1",
+            "version": "v2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/debug.git",
-                "reference": "ebe55c0b8073721a8944d7b53b7ac33a797f0b5d"
+                "reference": "a15d0b1fb41e6e2f2f77755f110340e486910522"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/debug/zipball/ebe55c0b8073721a8944d7b53b7ac33a797f0b5d",
-                "reference": "ebe55c0b8073721a8944d7b53b7ac33a797f0b5d",
+                "url": "https://api.github.com/repos/orchestral/debug/zipball/a15d0b1fb41e6e2f2f77755f110340e486910522",
+                "reference": "a15d0b1fb41e6e2f2f77755f110340e486910522",
                 "shasum": ""
             },
             "require": {
@@ -964,7 +964,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.2-dev"
+                    "dev-master": "2.3-dev"
                 }
             },
             "autoload": {
@@ -990,20 +990,20 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-03-04 13:05:39"
+            "time": "2014-06-02 08:38:44"
         },
         {
             "name": "orchestra/extension",
-            "version": "v2.2.0-BETA2",
+            "version": "v2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/extension.git",
-                "reference": "45f972c6fde0db2e38fefa4edbfd1414f779aa1f"
+                "reference": "0183fb0eb07e1982e0886b87a2bd0cfe1f3403fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/extension/zipball/45f972c6fde0db2e38fefa4edbfd1414f779aa1f",
-                "reference": "45f972c6fde0db2e38fefa4edbfd1414f779aa1f",
+                "url": "https://api.github.com/repos/orchestral/extension/zipball/0183fb0eb07e1982e0886b87a2bd0cfe1f3403fd",
+                "reference": "0183fb0eb07e1982e0886b87a2bd0cfe1f3403fd",
                 "shasum": ""
             },
             "require": {
@@ -1053,7 +1053,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-05-18 18:44:59"
+            "time": "2014-06-02 09:20:50"
         },
         {
             "name": "orchestra/facile",
@@ -1367,7 +1367,7 @@
         },
         {
             "name": "orchestra/notifier",
-            "version": "v2.2.0-BETA3",
+            "version": "v2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/notifier.git",
@@ -1478,16 +1478,16 @@
         },
         {
             "name": "orchestra/resources",
-            "version": "v2.2.0",
+            "version": "v2.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/resources.git",
-                "reference": "963852eb6c8624a2a6ee6e386b0bbf8b6f1b1c42"
+                "reference": "c062585fab201ea488a367864f8d7278346c5ddd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/resources/zipball/963852eb6c8624a2a6ee6e386b0bbf8b6f1b1c42",
-                "reference": "963852eb6c8624a2a6ee6e386b0bbf8b6f1b1c42",
+                "url": "https://api.github.com/repos/orchestral/resources/zipball/c062585fab201ea488a367864f8d7278346c5ddd",
+                "reference": "c062585fab201ea488a367864f8d7278346c5ddd",
                 "shasum": ""
             },
             "require": {
@@ -1533,7 +1533,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-06-02 04:22:31"
+            "time": "2014-06-02 16:13:48"
         },
         {
             "name": "orchestra/story",
@@ -1594,7 +1594,7 @@
         },
         {
             "name": "orchestra/support",
-            "version": "v2.2.0-BETA3",
+            "version": "v2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/support.git",
