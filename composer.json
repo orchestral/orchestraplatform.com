@@ -5,7 +5,6 @@
 		"orchestra/foundation": "2.2.*",
 		"orchestra/control": "2.2.*",
 		"orchestra/story": "2.2.*",
-		"laravel/framework": "@dev",
 		"daylerees/kurenai": "1.0.*",
 		"bugsnag/bugsnag-laravel": "1.*"
 	},
