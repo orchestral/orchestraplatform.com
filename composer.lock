@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "bugsnag/bugsnag",
-            "version": "v2.2.8",
+            "version": "v2.2.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bugsnag/bugsnag-php.git",
-                "reference": "a38df53d81658d9408221d021ef16dfa53151df7"
+                "reference": "a8227e0ea501b30befd5f3df9e1bf4ca35b2ae8a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bugsnag/bugsnag-php/zipball/a38df53d81658d9408221d021ef16dfa53151df7",
-                "reference": "a38df53d81658d9408221d021ef16dfa53151df7",
+                "url": "https://api.github.com/repos/bugsnag/bugsnag-php/zipball/a8227e0ea501b30befd5f3df9e1bf4ca35b2ae8a",
+                "reference": "a8227e0ea501b30befd5f3df9e1bf4ca35b2ae8a",
                 "shasum": ""
             },
             "require": {
@@ -53,7 +53,7 @@
                 "logging",
                 "tracking"
             ],
-            "time": "2014-05-26 00:39:02"
+            "time": "2014-06-02 20:49:09"
         },
         {
             "name": "bugsnag/bugsnag-laravel",
@@ -593,16 +593,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "1.9.1",
+            "version": "1.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "65026b610f8c19e61d7242f600530677b0466aac"
+                "reference": "25b16e801979098cb2f120e697bfce454b18bf23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/65026b610f8c19e61d7242f600530677b0466aac",
-                "reference": "65026b610f8c19e61d7242f600530677b0466aac",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/25b16e801979098cb2f120e697bfce454b18bf23",
+                "reference": "25b16e801979098cb2f120e697bfce454b18bf23",
                 "shasum": ""
             },
             "require": {
@@ -630,7 +630,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.9.x-dev"
+                    "dev-master": "1.10.x-dev"
                 }
             },
             "autoload": {
@@ -657,7 +657,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2014-04-24 13:29:03"
+            "time": "2014-06-04 16:30:04"
         },
         {
             "name": "nesbot/carbon",
