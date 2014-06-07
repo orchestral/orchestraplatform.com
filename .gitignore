@@ -18,3 +18,5 @@ composer.phar
 
 # Node.js
 node_modules/*
+
+tests/_output/*
