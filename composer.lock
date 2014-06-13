@@ -876,16 +876,16 @@
         },
         {
             "name": "orchestra/control",
-            "version": "v2.2.0-BETA1",
+            "version": "v2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/control.git",
-                "reference": "cbc7668d7eb595d22e324e0a1174d2bc3ec66709"
+                "reference": "ba1b90d53672aefb0fffba7253e81d6c84e8447b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/control/zipball/cbc7668d7eb595d22e324e0a1174d2bc3ec66709",
-                "reference": "cbc7668d7eb595d22e324e0a1174d2bc3ec66709",
+                "url": "https://api.github.com/repos/orchestral/control/zipball/ba1b90d53672aefb0fffba7253e81d6c84e8447b",
+                "reference": "ba1b90d53672aefb0fffba7253e81d6c84e8447b",
                 "shasum": ""
             },
             "require": {
@@ -900,7 +900,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.2-dev"
+                    "dev-master": "2.3-dev"
                 }
             },
             "autoload": {
@@ -929,7 +929,7 @@
                 "theme",
                 "timezone"
             ],
-            "time": "2014-05-04 07:06:24"
+            "time": "2014-05-19 16:50:50"
         },
         {
             "name": "orchestra/debug",
@@ -1116,16 +1116,16 @@
         },
         {
             "name": "orchestra/foundation",
-            "version": "v2.2.0-BETA2",
+            "version": "v2.2.0-BETA3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "868044f36ede41557cda54dcf9b47b7e8fc2209c"
+                "reference": "7eaf9346bcdb1a70a9c1c2e1e4d7b4a0481efdaf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/868044f36ede41557cda54dcf9b47b7e8fc2209c",
-                "reference": "868044f36ede41557cda54dcf9b47b7e8fc2209c",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/7eaf9346bcdb1a70a9c1c2e1e4d7b4a0481efdaf",
+                "reference": "7eaf9346bcdb1a70a9c1c2e1e4d7b4a0481efdaf",
                 "shasum": ""
             },
             "require": {
@@ -1184,20 +1184,20 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-05-26 14:40:11"
+            "time": "2014-06-12 05:34:23"
         },
         {
             "name": "orchestra/html",
-            "version": "v2.2.0",
+            "version": "v2.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/html.git",
-                "reference": "98ecf200a06bd62aad6423643f047bcf35ec3b80"
+                "reference": "a1da0ebc7142e334a11edb5b33c052bf092fbe32"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/html/zipball/98ecf200a06bd62aad6423643f047bcf35ec3b80",
-                "reference": "98ecf200a06bd62aad6423643f047bcf35ec3b80",
+                "url": "https://api.github.com/repos/orchestral/html/zipball/a1da0ebc7142e334a11edb5b33c052bf092fbe32",
+                "reference": "a1da0ebc7142e334a11edb5b33c052bf092fbe32",
                 "shasum": ""
             },
             "require": {
@@ -1205,13 +1205,16 @@
                 "php": ">=5.4.0"
             },
             "require-dev": {
+                "illuminate/config": "4.2.*",
                 "illuminate/container": "4.2.*",
                 "illuminate/database": "4.2.*",
                 "illuminate/html": "4.2.*",
+                "illuminate/pagination": "4.2.*",
                 "illuminate/routing": "4.2.*",
                 "illuminate/translation": "4.2.*",
                 "illuminate/view": "4.2.*",
-                "mockery/mockery": "0.9.*"
+                "mockery/mockery": "0.9.*",
+                "patchwork/utf8": "1.1.*"
             },
             "suggest": {
                 "laravel/framework": "Allow using orchestra/html component outside of Orchestra Platform 2",
@@ -1246,7 +1249,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-06-02 03:52:06"
+            "time": "2014-06-13 07:51:17"
         },
         {
             "name": "orchestra/memory",
