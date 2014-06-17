@@ -994,20 +994,21 @@
         },
         {
             "name": "orchestra/extension",
-            "version": "v2.2.0",
+            "version": "v2.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/extension.git",
-                "reference": "0183fb0eb07e1982e0886b87a2bd0cfe1f3403fd"
+                "reference": "6b7fb81723edd012d8ab9d6240d21c76f8deba48"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/extension/zipball/0183fb0eb07e1982e0886b87a2bd0cfe1f3403fd",
-                "reference": "0183fb0eb07e1982e0886b87a2bd0cfe1f3403fd",
+                "url": "https://api.github.com/repos/orchestral/extension/zipball/6b7fb81723edd012d8ab9d6240d21c76f8deba48",
+                "reference": "6b7fb81723edd012d8ab9d6240d21c76f8deba48",
                 "shasum": ""
             },
             "require": {
                 "orchestra/memory": "2.2.*",
+                "orchestra/publisher": "2.2.*",
                 "php": ">=5.4.0"
             },
             "require-dev": {
@@ -1053,7 +1054,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-06-02 09:20:50"
+            "time": "2014-06-17 02:19:22"
         },
         {
             "name": "orchestra/facile",
@@ -1116,16 +1117,16 @@
         },
         {
             "name": "orchestra/foundation",
-            "version": "v2.2.0-BETA3",
+            "version": "v2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "7eaf9346bcdb1a70a9c1c2e1e4d7b4a0481efdaf"
+                "reference": "695f439ebe7826b0ba74622eee9c243bc653c57f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/7eaf9346bcdb1a70a9c1c2e1e4d7b4a0481efdaf",
-                "reference": "7eaf9346bcdb1a70a9c1c2e1e4d7b4a0481efdaf",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/695f439ebe7826b0ba74622eee9c243bc653c57f",
+                "reference": "695f439ebe7826b0ba74622eee9c243bc653c57f",
                 "shasum": ""
             },
             "require": {
@@ -1184,7 +1185,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-06-12 05:34:23"
+            "time": "2014-06-17 02:17:56"
         },
         {
             "name": "orchestra/html",
@@ -1480,6 +1481,57 @@
             "time": "2014-05-26 14:26:20"
         },
         {
+            "name": "orchestra/publisher",
+            "version": "v2.2.0-BETA1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/orchestral/publisher.git",
+                "reference": "2d08c0f9e74b6805a4a316a1179168653b7fbf32"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/orchestral/publisher/zipball/2d08c0f9e74b6805a4a316a1179168653b7fbf32",
+                "reference": "2d08c0f9e74b6805a4a316a1179168653b7fbf32",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "4.2.*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "illuminate/container": "4.2.*",
+                "mockery/mockery": "0.9.*"
+            },
+            "suggest": {
+                "laravel/framework": "Allow using orchestra/extension component outside of Orchestra Platform 2",
+                "orchestra/foundation": "Allow using orchestra/extension with Orchestra Platform 2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Orchestra\\Publisher\\": "src/Publisher/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mior Muhammad Zaki",
+                    "email": "crynobone@gmail.com",
+                    "homepage": "https://github.com/crynobone"
+                }
+            ],
+            "description": "Orchestra Platform 2 Publisher Component",
+            "time": "2014-06-16 18:01:22"
+        },
+        {
             "name": "orchestra/resources",
             "version": "v2.2.1",
             "source": {
@@ -1714,16 +1766,16 @@
         },
         {
             "name": "orchestra/view",
-            "version": "v2.2.0-BETA1",
+            "version": "v2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/view.git",
-                "reference": "3cf88806138172a7afb8d5c96fbb5066154da7f8"
+                "reference": "a41a4ff48e43dd10035c35bb663e7ce9bcd51c14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/view/zipball/3cf88806138172a7afb8d5c96fbb5066154da7f8",
-                "reference": "3cf88806138172a7afb8d5c96fbb5066154da7f8",
+                "url": "https://api.github.com/repos/orchestral/view/zipball/a41a4ff48e43dd10035c35bb663e7ce9bcd51c14",
+                "reference": "a41a4ff48e43dd10035c35bb663e7ce9bcd51c14",
                 "shasum": ""
             },
             "require": {
@@ -1731,6 +1783,7 @@
                 "php": ">=5.4.0"
             },
             "require-dev": {
+                "illuminate/console": "4.2.*",
                 "illuminate/container": "4.2.*",
                 "illuminate/view": "4.2.*",
                 "mockery/mockery": "0.9.*"
@@ -1742,7 +1795,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.2-dev"
+                    "dev-master": "2.3-dev"
                 }
             },
             "autoload": {
@@ -1768,7 +1821,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-03-04 13:05:56"
+            "time": "2014-06-17 02:14:52"
         },
         {
             "name": "orchestra/widget",
@@ -2239,16 +2292,16 @@
         },
         {
             "name": "swiftmailer/swiftmailer",
-            "version": "v5.2.0",
+            "version": "v5.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "043e336b871f17a117f76ef8e190eddfc04c8d48"
+                "reference": "2b9af56cc676c338d52fca4c657e5bdff73bb7af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/043e336b871f17a117f76ef8e190eddfc04c8d48",
-                "reference": "043e336b871f17a117f76ef8e190eddfc04c8d48",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/2b9af56cc676c338d52fca4c657e5bdff73bb7af",
+                "reference": "2b9af56cc676c338d52fca4c657e5bdff73bb7af",
                 "shasum": ""
             },
             "require": {
@@ -2289,7 +2342,7 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2014-05-08 08:11:19"
+            "time": "2014-06-13 11:44:54"
         },
         {
             "name": "symfony/browser-kit",
