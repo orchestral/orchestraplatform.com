@@ -1315,16 +1315,16 @@
         },
         {
             "name": "orchestra/model",
-            "version": "v2.2.0-BETA2",
+            "version": "v2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/model.git",
-                "reference": "f187c11c7cc3ef9a8bd5b29fe59e79f994dc4f39"
+                "reference": "ae6ddc8332c3cc6e03ded6a75d35e8b1b4def68e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/model/zipball/f187c11c7cc3ef9a8bd5b29fe59e79f994dc4f39",
-                "reference": "f187c11c7cc3ef9a8bd5b29fe59e79f994dc4f39",
+                "url": "https://api.github.com/repos/orchestral/model/zipball/ae6ddc8332c3cc6e03ded6a75d35e8b1b4def68e",
+                "reference": "ae6ddc8332c3cc6e03ded6a75d35e8b1b4def68e",
                 "shasum": ""
             },
             "require": {
@@ -1367,7 +1367,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-05-15 01:19:54"
+            "time": "2014-06-12 18:08:13"
         },
         {
             "name": "orchestra/notifier",
@@ -1427,16 +1427,16 @@
         },
         {
             "name": "orchestra/optimize",
-            "version": "v2.2.0-BETA3",
+            "version": "v2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/optimize.git",
-                "reference": "4592b8e6a74e12a50a9662a9f293ff7105146598"
+                "reference": "a52cbeac8ac853af470ce5297b65d2ed1d50976c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/optimize/zipball/4592b8e6a74e12a50a9662a9f293ff7105146598",
-                "reference": "4592b8e6a74e12a50a9662a9f293ff7105146598",
+                "url": "https://api.github.com/repos/orchestral/optimize/zipball/a52cbeac8ac853af470ce5297b65d2ed1d50976c",
+                "reference": "a52cbeac8ac853af470ce5297b65d2ed1d50976c",
                 "shasum": ""
             },
             "require": {
@@ -1478,11 +1478,11 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-05-26 14:26:20"
+            "time": "2014-06-18 00:27:44"
         },
         {
             "name": "orchestra/publisher",
-            "version": "v2.2.0-BETA1",
+            "version": "v2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/publisher.git",
@@ -1592,16 +1592,16 @@
         },
         {
             "name": "orchestra/story",
-            "version": "v2.2.0-BETA1",
+            "version": "v2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/story.git",
-                "reference": "307f1e31f33e33994bba4a281f6efb4939ec4e33"
+                "reference": "2b5848bcc438db5b1c12915877018a867d7ccfb2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/story/zipball/307f1e31f33e33994bba4a281f6efb4939ec4e33",
-                "reference": "307f1e31f33e33994bba4a281f6efb4939ec4e33",
+                "url": "https://api.github.com/repos/orchestral/story/zipball/2b5848bcc438db5b1c12915877018a867d7ccfb2",
+                "reference": "2b5848bcc438db5b1c12915877018a867d7ccfb2",
                 "shasum": ""
             },
             "require": {
@@ -1645,7 +1645,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-05-09 23:05:22"
+            "time": "2014-06-17 13:52:27"
         },
         {
             "name": "orchestra/support",
@@ -1883,16 +1883,16 @@
         },
         {
             "name": "patchwork/utf8",
-            "version": "v1.1.23",
+            "version": "v1.1.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nicolas-grekas/Patchwork-UTF8.git",
-                "reference": "c1edbc82aed49ff2bdef0a0f659bf69e3f7b14cc"
+                "reference": "40f552c019956f446553b19f7de2da2f9c74d730"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nicolas-grekas/Patchwork-UTF8/zipball/c1edbc82aed49ff2bdef0a0f659bf69e3f7b14cc",
-                "reference": "c1edbc82aed49ff2bdef0a0f659bf69e3f7b14cc",
+                "url": "https://api.github.com/repos/nicolas-grekas/Patchwork-UTF8/zipball/40f552c019956f446553b19f7de2da2f9c74d730",
+                "reference": "40f552c019956f446553b19f7de2da2f9c74d730",
                 "shasum": ""
             },
             "require": {
@@ -1930,7 +1930,7 @@
                 "utf-8",
                 "utf8"
             ],
-            "time": "2014-05-22 13:59:09"
+            "time": "2014-06-17 08:23:06"
         },
         {
             "name": "phpseclib/phpseclib",
