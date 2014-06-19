@@ -476,16 +476,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v4.2.3",
+            "version": "v4.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "0efc0c962f28c9b5f3ce2da899c7a08a9471b5b1"
+                "reference": "ee370ac91ee0a51303765c870e139b1ecd1e222c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/0efc0c962f28c9b5f3ce2da899c7a08a9471b5b1",
-                "reference": "0efc0c962f28c9b5f3ce2da899c7a08a9471b5b1",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/ee370ac91ee0a51303765c870e139b1ecd1e222c",
+                "reference": "ee370ac91ee0a51303765c870e139b1ecd1e222c",
                 "shasum": ""
             },
             "require": {
@@ -589,7 +589,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-06-11 21:33:06"
+            "time": "2014-06-18 05:07:22"
         },
         {
             "name": "monolog/monolog",
@@ -3259,16 +3259,16 @@
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "4.1.1",
+            "version": "4.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "577a69ff7d0a24e9576a2885c3a7afbaadd51ec1"
+                "reference": "095cf4db559bebc78d967890eb93280d8ceb5a08"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/577a69ff7d0a24e9576a2885c3a7afbaadd51ec1",
-                "reference": "577a69ff7d0a24e9576a2885c3a7afbaadd51ec1",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/095cf4db559bebc78d967890eb93280d8ceb5a08",
+                "reference": "095cf4db559bebc78d967890eb93280d8ceb5a08",
                 "shasum": ""
             },
             "require": {
@@ -3320,7 +3320,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2014-06-08 20:00:20"
+            "time": "2014-06-18 18:22:41"
         },
         {
             "name": "guzzlehttp/streams",
