@@ -476,16 +476,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v4.2.4",
+            "version": "v4.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "ee370ac91ee0a51303765c870e139b1ecd1e222c"
+                "reference": "30088567a133fadf14b708dcc4001d6c639b8c59"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/ee370ac91ee0a51303765c870e139b1ecd1e222c",
-                "reference": "ee370ac91ee0a51303765c870e139b1ecd1e222c",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/30088567a133fadf14b708dcc4001d6c639b8c59",
+                "reference": "30088567a133fadf14b708dcc4001d6c639b8c59",
                 "shasum": ""
             },
             "require": {
@@ -589,7 +589,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-06-18 05:07:22"
+            "time": "2014-06-26 17:33:59"
         },
         {
             "name": "monolog/monolog",
@@ -3150,16 +3150,16 @@
     "packages-dev": [
         {
             "name": "codeception/codeception",
-            "version": "2.0.0",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Codeception/Codeception.git",
-                "reference": "fdf91e9379a551b24b11b53ca64fb28cd5550011"
+                "reference": "07511243c22ab1229047cda593bc6b29fb4511a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Codeception/Codeception/zipball/fdf91e9379a551b24b11b53ca64fb28cd5550011",
-                "reference": "fdf91e9379a551b24b11b53ca64fb28cd5550011",
+                "url": "https://api.github.com/repos/Codeception/Codeception/zipball/07511243c22ab1229047cda593bc6b29fb4511a4",
+                "reference": "07511243c22ab1229047cda593bc6b29fb4511a4",
                 "shasum": ""
             },
             "require": {
@@ -3215,7 +3215,7 @@
                 "functional testing",
                 "unit testing"
             ],
-            "time": "2014-06-06 04:49:07"
+            "time": "2014-06-21 01:03:08"
         },
         {
             "name": "facebook/webdriver",
