@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "67dfafe1d6df0df7885e17ae15a9ec63",
+    "hash": "32baa25b640b241ca06671983e79db8d",
     "packages": [
         {
             "name": "bugsnag/bugsnag",
@@ -476,16 +476,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v4.2.5",
+            "version": "v4.2.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "30088567a133fadf14b708dcc4001d6c639b8c59"
+                "reference": "2e73cd58ee42919166a51897b965e1135b85048c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/30088567a133fadf14b708dcc4001d6c639b8c59",
-                "reference": "30088567a133fadf14b708dcc4001d6c639b8c59",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/2e73cd58ee42919166a51897b965e1135b85048c",
+                "reference": "2e73cd58ee42919166a51897b965e1135b85048c",
                 "shasum": ""
             },
             "require": {
@@ -589,7 +589,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-06-26 17:33:59"
+            "time": "2014-06-29 00:16:51"
         },
         {
             "name": "monolog/monolog",
@@ -1117,16 +1117,16 @@
         },
         {
             "name": "orchestra/foundation",
-            "version": "v2.2.0",
+            "version": "2.2.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "695f439ebe7826b0ba74622eee9c243bc653c57f"
+                "reference": "3473c219262ea44a17dc9f6398e110b17c245dd0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/695f439ebe7826b0ba74622eee9c243bc653c57f",
-                "reference": "695f439ebe7826b0ba74622eee9c243bc653c57f",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/3473c219262ea44a17dc9f6398e110b17c245dd0",
+                "reference": "3473c219262ea44a17dc9f6398e110b17c245dd0",
                 "shasum": ""
             },
             "require": {
@@ -1185,7 +1185,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-06-17 02:17:56"
+            "time": "2014-06-29 13:40:14"
         },
         {
             "name": "orchestra/html",
@@ -1592,16 +1592,16 @@
         },
         {
             "name": "orchestra/story",
-            "version": "v2.2.0",
+            "version": "v2.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/story.git",
-                "reference": "2b5848bcc438db5b1c12915877018a867d7ccfb2"
+                "reference": "178d5e3366c755cb71c164c8b8d1d775e502351a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/story/zipball/2b5848bcc438db5b1c12915877018a867d7ccfb2",
-                "reference": "2b5848bcc438db5b1c12915877018a867d7ccfb2",
+                "url": "https://api.github.com/repos/orchestral/story/zipball/178d5e3366c755cb71c164c8b8d1d775e502351a",
+                "reference": "178d5e3366c755cb71c164c8b8d1d775e502351a",
                 "shasum": ""
             },
             "require": {
@@ -1645,7 +1645,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-06-17 13:52:27"
+            "time": "2014-06-29 13:06:37"
         },
         {
             "name": "orchestra/support",
@@ -3443,16 +3443,16 @@
         },
         {
             "name": "phpunit/php-code-coverage",
-            "version": "2.0.8",
+            "version": "2.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "58401826c8cfc8fd689b60026e91c337df374bca"
+                "reference": "ed8ac99ce38c3fd134128c898f7ca74665abef7f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/58401826c8cfc8fd689b60026e91c337df374bca",
-                "reference": "58401826c8cfc8fd689b60026e91c337df374bca",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/ed8ac99ce38c3fd134128c898f7ca74665abef7f",
+                "reference": "ed8ac99ce38c3fd134128c898f7ca74665abef7f",
                 "shasum": ""
             },
             "require": {
@@ -3504,7 +3504,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2014-05-26 14:55:24"
+            "time": "2014-06-29 08:14:40"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -3765,16 +3765,16 @@
         },
         {
             "name": "phpunit/phpunit-mock-objects",
-            "version": "2.1.4",
+            "version": "2.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git",
-                "reference": "1a894a16b6c15fcdc5ef2b110f0e6233952c9b0f"
+                "reference": "7878b9c41edb3afab92b85edf5f0981014a2713a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/1a894a16b6c15fcdc5ef2b110f0e6233952c9b0f",
-                "reference": "1a894a16b6c15fcdc5ef2b110f0e6233952c9b0f",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/7878b9c41edb3afab92b85edf5f0981014a2713a",
+                "reference": "7878b9c41edb3afab92b85edf5f0981014a2713a",
                 "shasum": ""
             },
             "require": {
@@ -3818,7 +3818,7 @@
                 "mock",
                 "xunit"
             ],
-            "time": "2014-06-07 16:22:57"
+            "time": "2014-06-12 07:22:15"
         },
         {
             "name": "sebastian/comparator",
@@ -4139,7 +4139,9 @@
     ],
     "aliases": [],
     "minimum-stability": "beta",
-    "stability-flags": [],
+    "stability-flags": {
+        "orchestra/foundation": 20
+    },
     "platform": [],
     "platform-dev": []
 }
