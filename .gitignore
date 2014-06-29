@@ -19,4 +19,8 @@ composer.phar
 # Node.js
 node_modules/*
 
+# Codeception
 tests/_output/*
+
+# Vagrant
+/.vagrant/
