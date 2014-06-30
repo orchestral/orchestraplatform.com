@@ -65,7 +65,7 @@ return array(
     |
     */
 
-    'key' => 'H7Unue6FQbbuDufHoJAe6mHuMEw8OJX1',
+    'key' => getenv('APP.KEY'),
 
     'cipher' => MCRYPT_RIJNDAEL_256,
 
