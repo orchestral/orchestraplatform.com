@@ -3,6 +3,7 @@
 	"license": "proprietary",
 	"require": {
 		"orchestra/foundation": "2.2.*@dev",
+		"orchestra/html": "@dev",
 		"orchestra/control": "2.2.*",
 		"orchestra/story": "2.2.*",
 		"daylerees/kurenai": "1.0.*",

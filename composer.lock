@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "32baa25b640b241ca06671983e79db8d",
+    "hash": "2eb98d04eb1b4aa6b0cda30aebc70ae4",
     "packages": [
         {
             "name": "bugsnag/bugsnag",
@@ -1189,16 +1189,16 @@
         },
         {
             "name": "orchestra/html",
-            "version": "v2.2.1",
+            "version": "2.2.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/html.git",
-                "reference": "a1da0ebc7142e334a11edb5b33c052bf092fbe32"
+                "reference": "8c48c469096afa834740a52fa047888fc08d4fae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/html/zipball/a1da0ebc7142e334a11edb5b33c052bf092fbe32",
-                "reference": "a1da0ebc7142e334a11edb5b33c052bf092fbe32",
+                "url": "https://api.github.com/repos/orchestral/html/zipball/8c48c469096afa834740a52fa047888fc08d4fae",
+                "reference": "8c48c469096afa834740a52fa047888fc08d4fae",
                 "shasum": ""
             },
             "require": {
@@ -1250,7 +1250,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-06-13 07:51:17"
+            "time": "2014-06-30 01:31:23"
         },
         {
             "name": "orchestra/memory",
@@ -4140,7 +4140,8 @@
     "aliases": [],
     "minimum-stability": "beta",
     "stability-flags": {
-        "orchestra/foundation": 20
+        "orchestra/foundation": 20,
+        "orchestra/html": 20
     },
     "platform": [],
     "platform-dev": []
