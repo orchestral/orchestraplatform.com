@@ -26,7 +26,7 @@ Site::set('html::header', ['class' => 'navbar-inverse hero']); ?>
 			</div>
 			<div class="modal-body">
 				<p>You can install Orchestra Platform using Composer:</p>
-				<pre>composer create-project orchestra/platform website 2.1.x --prefer-dist</pre>
+				<pre>composer create-project orchestra/platform website 2.2.x --prefer-dist</pre>
 			</div>
 		</div>
 	 </div>
