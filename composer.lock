@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b4a1fa52c67f4d8819cfbc914c3234d8",
+    "hash": "e3b138c42c050a386b48286386244701",
     "packages": [
         {
             "name": "bugsnag/bugsnag",
@@ -1121,12 +1121,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "0f9250feb00cb4dcf2e7b0b8f9bbbede59ecea06"
+                "reference": "cbf46932a4c82c633061dd7adfa6ead40ed258c0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/0f9250feb00cb4dcf2e7b0b8f9bbbede59ecea06",
-                "reference": "0f9250feb00cb4dcf2e7b0b8f9bbbede59ecea06",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/cbf46932a4c82c633061dd7adfa6ead40ed258c0",
+                "reference": "cbf46932a4c82c633061dd7adfa6ead40ed258c0",
                 "shasum": ""
             },
             "require": {
@@ -1185,7 +1185,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-06-30 03:19:13"
+            "time": "2014-06-30 12:36:39"
         },
         {
             "name": "orchestra/html",
@@ -1371,16 +1371,16 @@
         },
         {
             "name": "orchestra/notifier",
-            "version": "v2.2.0",
+            "version": "2.2.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/notifier.git",
-                "reference": "0b226c9ba2bd0561dcec53b3c141f16de29c59b2"
+                "reference": "89a345b8d93163ee7bfe9dba86327b99bb34a411"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/notifier/zipball/0b226c9ba2bd0561dcec53b3c141f16de29c59b2",
-                "reference": "0b226c9ba2bd0561dcec53b3c141f16de29c59b2",
+                "url": "https://api.github.com/repos/orchestral/notifier/zipball/89a345b8d93163ee7bfe9dba86327b99bb34a411",
+                "reference": "89a345b8d93163ee7bfe9dba86327b99bb34a411",
                 "shasum": ""
             },
             "require": {
@@ -1423,7 +1423,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-05-26 14:35:09"
+            "time": "2014-06-30 12:33:21"
         },
         {
             "name": "orchestra/optimize",
@@ -4183,7 +4183,8 @@
     "minimum-stability": "beta",
     "stability-flags": {
         "orchestra/foundation": 20,
-        "orchestra/html": 20
+        "orchestra/html": 20,
+        "orchestra/notifier": 20
     },
     "platform": [],
     "platform-dev": []
