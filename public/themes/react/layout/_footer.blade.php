@@ -1,14 +1,8 @@
 <div id="footer">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-3 copyright">
+			<div class="col-md-6 copyright">
 				&copy; {{ date('Y') }} Orchestra Platform, hosted with <a href="https://www.digitalocean.com/?refcode=e1f9dab486bc" target="_blank">DigitalOcean</a>.
-			</div>
-			<div class="col-md-6 menu">
-				<ul>
-					<li><a href="{{ handles('orchestra/story::/') }}">Blog</a></li>
-					<li><a href="{{ handles('app::docs/latest') }}">Documentation</a></li>
-				</ul>
 			</div>
 			<div class="col-md-3 social">
 				<a href="https://github.com/orchestral">
