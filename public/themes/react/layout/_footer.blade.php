@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-3 copyright">
-				&copy; {{ date('Y') }} Orchestra Platform
+				&copy; {{ date('Y') }} Orchestra Platform, hosted with <a href="https://www.digitalocean.com/?refcode=e1f9dab486bc" target="_blank">DigitalOcean</a>.
 			</div>
 			<div class="col-md-6 menu">
 				<ul>
