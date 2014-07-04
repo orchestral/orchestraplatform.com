@@ -1117,16 +1117,16 @@
         },
         {
             "name": "orchestra/foundation",
-            "version": "v2.2.1",
+            "version": "v2.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "6cb1e706f09d8c0b4acd9b770094dacce4e09cff"
+                "reference": "458c2ac681f298c6c5281b913c423e086cb4b9d7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/6cb1e706f09d8c0b4acd9b770094dacce4e09cff",
-                "reference": "6cb1e706f09d8c0b4acd9b770094dacce4e09cff",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/458c2ac681f298c6c5281b913c423e086cb4b9d7",
+                "reference": "458c2ac681f298c6c5281b913c423e086cb4b9d7",
                 "shasum": ""
             },
             "require": {
@@ -1185,7 +1185,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-07-01 13:14:48"
+            "time": "2014-07-04 13:33:52"
         },
         {
             "name": "orchestra/html",
@@ -1766,16 +1766,16 @@
         },
         {
             "name": "orchestra/view",
-            "version": "v2.2.0",
+            "version": "v2.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/view.git",
-                "reference": "a41a4ff48e43dd10035c35bb663e7ce9bcd51c14"
+                "reference": "8cfaa28d1e7aa39be1ab344d2c931bb6185a90d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/view/zipball/a41a4ff48e43dd10035c35bb663e7ce9bcd51c14",
-                "reference": "a41a4ff48e43dd10035c35bb663e7ce9bcd51c14",
+                "url": "https://api.github.com/repos/orchestral/view/zipball/8cfaa28d1e7aa39be1ab344d2c931bb6185a90d0",
+                "reference": "8cfaa28d1e7aa39be1ab344d2c931bb6185a90d0",
                 "shasum": ""
             },
             "require": {
@@ -1821,7 +1821,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-06-17 02:14:52"
+            "time": "2014-07-04 11:58:57"
         },
         {
             "name": "orchestra/widget",
