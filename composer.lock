@@ -1482,16 +1482,16 @@
         },
         {
             "name": "orchestra/publisher",
-            "version": "v2.2.0",
+            "version": "v2.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/publisher.git",
-                "reference": "2d08c0f9e74b6805a4a316a1179168653b7fbf32"
+                "reference": "451eb7411af5a72cb229d449512e992ba3e5ce72"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/publisher/zipball/2d08c0f9e74b6805a4a316a1179168653b7fbf32",
-                "reference": "2d08c0f9e74b6805a4a316a1179168653b7fbf32",
+                "url": "https://api.github.com/repos/orchestral/publisher/zipball/451eb7411af5a72cb229d449512e992ba3e5ce72",
+                "reference": "451eb7411af5a72cb229d449512e992ba3e5ce72",
                 "shasum": ""
             },
             "require": {
@@ -1500,7 +1500,10 @@
             },
             "require-dev": {
                 "illuminate/container": "4.2.*",
-                "mockery/mockery": "0.9.*"
+                "illuminate/database": "4.2.*",
+                "illuminate/filesystem": "4.2.*",
+                "mockery/mockery": "0.9.*",
+                "orchestra/extension": "2.2.*"
             },
             "suggest": {
                 "laravel/framework": "Allow using orchestra/extension component outside of Orchestra Platform 2",
@@ -1529,7 +1532,7 @@
                 }
             ],
             "description": "Orchestra Platform 2 Publisher Component",
-            "time": "2014-06-16 18:01:22"
+            "time": "2014-07-07 16:23:31"
         },
         {
             "name": "orchestra/resources",
@@ -1976,22 +1979,24 @@
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "0.3.6",
+            "version": "0.3.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "0ea31d9b65d49a8661e93bec19f44e989bd34c69"
+                "reference": "8b8c62f278e363b75ddcacaf5803710232fbd3e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/0ea31d9b65d49a8661e93bec19f44e989bd34c69",
-                "reference": "0ea31d9b65d49a8661e93bec19f44e989bd34c69",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/8b8c62f278e363b75ddcacaf5803710232fbd3e4",
+                "reference": "8b8c62f278e363b75ddcacaf5803710232fbd3e4",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.0.0"
             },
             "require-dev": {
+                "phing/phing": "2.7.*",
+                "phpunit/phpunit": "4.0.*",
                 "squizlabs/php_codesniffer": "1.*"
             },
             "suggest": {
@@ -2067,7 +2072,7 @@
                 "x.509",
                 "x509"
             ],
-            "time": "2014-02-28 16:05:05"
+            "time": "2014-07-05 16:36:21"
         },
         {
             "name": "predis/predis",
@@ -2388,17 +2393,17 @@
         },
         {
             "name": "symfony/browser-kit",
-            "version": "v2.5.0",
+            "version": "v2.5.1",
             "target-dir": "Symfony/Component/BrowserKit",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/BrowserKit.git",
-                "reference": "cc1716dafa04277a0c987aee5bce8c3cf8939de3"
+                "reference": "f0d863ccb34fbb3e448ba71d24dc0ce5690e1b51"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/BrowserKit/zipball/cc1716dafa04277a0c987aee5bce8c3cf8939de3",
-                "reference": "cc1716dafa04277a0c987aee5bce8c3cf8939de3",
+                "url": "https://api.github.com/repos/symfony/BrowserKit/zipball/f0d863ccb34fbb3e448ba71d24dc0ce5690e1b51",
+                "reference": "f0d863ccb34fbb3e448ba71d24dc0ce5690e1b51",
                 "shasum": ""
             },
             "require": {
@@ -2441,7 +2446,7 @@
             ],
             "description": "Symfony BrowserKit Component",
             "homepage": "http://symfony.com",
-            "time": "2014-05-12 09:28:39"
+            "time": "2014-07-08 12:21:33"
         },
         {
             "name": "symfony/console",
@@ -3192,19 +3197,21 @@
     "packages-dev": [
         {
             "name": "codeception/codeception",
-            "version": "2.0.1",
+            "version": "2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Codeception/Codeception.git",
-                "reference": "07511243c22ab1229047cda593bc6b29fb4511a4"
+                "reference": "2e51e6ffc037b9cf8b8cc8b93f9805ac2bfbbbaa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Codeception/Codeception/zipball/07511243c22ab1229047cda593bc6b29fb4511a4",
-                "reference": "07511243c22ab1229047cda593bc6b29fb4511a4",
+                "url": "https://api.github.com/repos/Codeception/Codeception/zipball/2e51e6ffc037b9cf8b8cc8b93f9805ac2bfbbbaa",
+                "reference": "2e51e6ffc037b9cf8b8cc8b93f9805ac2bfbbbaa",
                 "shasum": ""
             },
             "require": {
+                "ext-json": "*",
+                "ext-mbstring": "*",
                 "facebook/webdriver": "~0.4",
                 "guzzlehttp/guzzle": "4.*",
                 "php": ">=5.4.0",
@@ -3220,13 +3227,15 @@
             "require-dev": {
                 "facebook/php-sdk": "3.*",
                 "monolog/monolog": "*",
+                "phpseclib/phpseclib": "0.3.6",
                 "videlalvaro/php-amqplib": "*"
             },
             "suggest": {
                 "codeception/phpbuiltinserver": "Extension to start and stop PHP built-in web server for your tests",
                 "codeception/specify": "BDD-style code blocks",
                 "codeception/verify": "BDD-style assertions",
-                "monolog/monolog": "Log test steps"
+                "monolog/monolog": "Log test steps",
+                "phpseclib/phpseclib": "Extension required to use the SFTP option in the FTP Module."
             },
             "bin": [
                 "codecept"
@@ -3257,7 +3266,7 @@
                 "functional testing",
                 "unit testing"
             ],
-            "time": "2014-06-21 01:03:08"
+            "time": "2014-07-08 02:12:19"
         },
         {
             "name": "facebook/webdriver",
