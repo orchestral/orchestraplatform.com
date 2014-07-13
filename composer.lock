@@ -1117,16 +1117,16 @@
         },
         {
             "name": "orchestra/foundation",
-            "version": "v2.2.2",
+            "version": "v2.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "458c2ac681f298c6c5281b913c423e086cb4b9d7"
+                "reference": "251a2d53605ab6aeec6c2e0251ef86fc4b8a34ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/458c2ac681f298c6c5281b913c423e086cb4b9d7",
-                "reference": "458c2ac681f298c6c5281b913c423e086cb4b9d7",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/251a2d53605ab6aeec6c2e0251ef86fc4b8a34ba",
+                "reference": "251a2d53605ab6aeec6c2e0251ef86fc4b8a34ba",
                 "shasum": ""
             },
             "require": {
@@ -1181,11 +1181,14 @@
             "description": "Orchestra Platform 2 Foundation Component",
             "homepage": "http://orchestraplatform.com/docs/latest/",
             "keywords": [
+                "admin",
+                "administrator",
                 "laravel",
                 "orchestra-platform",
-                "orchestral"
+                "orchestral",
+                "user-management"
             ],
-            "time": "2014-07-04 13:33:52"
+            "time": "2014-07-13 12:45:46"
         },
         {
             "name": "orchestra/html",
@@ -1371,16 +1374,16 @@
         },
         {
             "name": "orchestra/notifier",
-            "version": "v2.2.2",
+            "version": "v2.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/notifier.git",
-                "reference": "8f0d0cba312cbdc6a023143256a63f55fcebc5b7"
+                "reference": "16ff5ea9ce1ffa8f26cf9def4aa441fb57163899"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/notifier/zipball/8f0d0cba312cbdc6a023143256a63f55fcebc5b7",
-                "reference": "8f0d0cba312cbdc6a023143256a63f55fcebc5b7",
+                "url": "https://api.github.com/repos/orchestral/notifier/zipball/16ff5ea9ce1ffa8f26cf9def4aa441fb57163899",
+                "reference": "16ff5ea9ce1ffa8f26cf9def4aa441fb57163899",
                 "shasum": ""
             },
             "require": {
@@ -1420,10 +1423,11 @@
             "description": "Orchestra Platform 2 User Notification Component",
             "keywords": [
                 "laravel",
+                "mailer",
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-07-01 05:42:40"
+            "time": "2014-07-13 12:35:23"
         },
         {
             "name": "orchestra/optimize",
