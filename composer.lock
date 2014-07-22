@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "18d47aec7e8d1eec8cf3edc371bee366",
+    "hash": "1752de2e181e5a8909fa2de3392af7bd",
     "packages": [
         {
             "name": "bugsnag/bugsnag",
@@ -876,16 +876,16 @@
         },
         {
             "name": "orchestra/control",
-            "version": "v2.2.0",
+            "version": "v2.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/control.git",
-                "reference": "ba1b90d53672aefb0fffba7253e81d6c84e8447b"
+                "reference": "570de5182c37ff00078064b73aed47c1682e4f06"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/control/zipball/ba1b90d53672aefb0fffba7253e81d6c84e8447b",
-                "reference": "ba1b90d53672aefb0fffba7253e81d6c84e8447b",
+                "url": "https://api.github.com/repos/orchestral/control/zipball/570de5182c37ff00078064b73aed47c1682e4f06",
+                "reference": "570de5182c37ff00078064b73aed47c1682e4f06",
                 "shasum": ""
             },
             "require": {
@@ -929,7 +929,7 @@
                 "theme",
                 "timezone"
             ],
-            "time": "2014-05-19 16:50:50"
+            "time": "2014-07-22 06:56:03"
         },
         {
             "name": "orchestra/debug",
@@ -1777,16 +1777,16 @@
         },
         {
             "name": "orchestra/view",
-            "version": "v2.2.1",
+            "version": "v2.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/view.git",
-                "reference": "8cfaa28d1e7aa39be1ab344d2c931bb6185a90d0"
+                "reference": "9f5e6cad421dc1f89fd7d65ca8d4a8bb6f8bbab7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/view/zipball/8cfaa28d1e7aa39be1ab344d2c931bb6185a90d0",
-                "reference": "8cfaa28d1e7aa39be1ab344d2c931bb6185a90d0",
+                "url": "https://api.github.com/repos/orchestral/view/zipball/9f5e6cad421dc1f89fd7d65ca8d4a8bb6f8bbab7",
+                "reference": "9f5e6cad421dc1f89fd7d65ca8d4a8bb6f8bbab7",
                 "shasum": ""
             },
             "require": {
@@ -1830,9 +1830,11 @@
             "keywords": [
                 "laravel",
                 "orchestra-platform",
-                "orchestral"
+                "orchestral",
+                "theme",
+                "view"
             ],
-            "time": "2014-07-04 11:58:57"
+            "time": "2014-07-21 09:17:24"
         },
         {
             "name": "orchestra/widget",
@@ -3208,16 +3210,16 @@
     "packages-dev": [
         {
             "name": "codeception/codeception",
-            "version": "2.0.2",
+            "version": "2.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Codeception/Codeception.git",
-                "reference": "2e51e6ffc037b9cf8b8cc8b93f9805ac2bfbbbaa"
+                "reference": "b231b6a49af17420d786aead8ffa94433e07c36c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Codeception/Codeception/zipball/2e51e6ffc037b9cf8b8cc8b93f9805ac2bfbbbaa",
-                "reference": "2e51e6ffc037b9cf8b8cc8b93f9805ac2bfbbbaa",
+                "url": "https://api.github.com/repos/Codeception/Codeception/zipball/b231b6a49af17420d786aead8ffa94433e07c36c",
+                "reference": "b231b6a49af17420d786aead8ffa94433e07c36c",
                 "shasum": ""
             },
             "require": {
@@ -3236,6 +3238,7 @@
                 "symfony/yaml": "~2.4"
             },
             "require-dev": {
+                "codeception/specify": "*",
                 "facebook/php-sdk": "3.*",
                 "monolog/monolog": "*",
                 "phpseclib/phpseclib": "0.3.6",
@@ -3277,7 +3280,7 @@
                 "functional testing",
                 "unit testing"
             ],
-            "time": "2014-07-08 02:12:19"
+            "time": "2014-07-21 21:07:20"
         },
         {
             "name": "facebook/webdriver",
