@@ -705,19 +705,20 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v0.9.4",
+            "version": "v0.9.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "1e5e280ae88a27effa2ae4aa2bd088494ed8594f"
+                "reference": "ef70767475434bdb3615b43c327e2cae17ef12eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/1e5e280ae88a27effa2ae4aa2bd088494ed8594f",
-                "reference": "1e5e280ae88a27effa2ae4aa2bd088494ed8594f",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/ef70767475434bdb3615b43c327e2cae17ef12eb",
+                "reference": "ef70767475434bdb3615b43c327e2cae17ef12eb",
                 "shasum": ""
             },
             "require": {
+                "ext-tokenizer": "*",
                 "php": ">=5.2"
             },
             "type": "library",
@@ -745,7 +746,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2013-08-25 17:11:40"
+            "time": "2014-07-23 18:24:17"
         },
         {
             "name": "orchestra/asset",
@@ -1255,16 +1256,16 @@
         },
         {
             "name": "orchestra/memory",
-            "version": "v2.2.0",
+            "version": "v2.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/memory.git",
-                "reference": "a1a5bac56c322e60d624e5022c51f10f4a07f5a7"
+                "reference": "747f318d2118fbe5c3fc31a1c9aa58028063c2fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/memory/zipball/a1a5bac56c322e60d624e5022c51f10f4a07f5a7",
-                "reference": "a1a5bac56c322e60d624e5022c51f10f4a07f5a7",
+                "url": "https://api.github.com/repos/orchestral/memory/zipball/747f318d2118fbe5c3fc31a1c9aa58028063c2fd",
+                "reference": "747f318d2118fbe5c3fc31a1c9aa58028063c2fd",
                 "shasum": ""
             },
             "require": {
@@ -1272,7 +1273,9 @@
                 "php": ">=5.4.0"
             },
             "require-dev": {
+                "illuminate/cache": "4.2.*",
                 "illuminate/container": "4.2.*",
+                "illuminate/database": "4.2.*",
                 "illuminate/support": "4.2.*",
                 "mockery/mockery": "0.9.*"
             },
@@ -1305,14 +1308,16 @@
                     "homepage": "https://github.com/crynobone"
                 }
             ],
-            "description": "Orchestra Platform 2 Memory Component",
+            "description": "Memory Component for Orchestra Platform 2",
             "homepage": "http://orchestraplatform.com/docs/latest/components/memory/",
             "keywords": [
+                "config",
+                "database-config",
                 "laravel",
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-05-16 07:00:20"
+            "time": "2014-07-25 03:42:35"
         },
         {
             "name": "orchestra/model",
@@ -3322,21 +3327,21 @@
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "4.1.3",
+            "version": "4.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "012b2aecbda4e38f119c19580898685851015fa7"
+                "reference": "5ae164dae6e65784286a698800190bc094407f7c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/012b2aecbda4e38f119c19580898685851015fa7",
-                "reference": "012b2aecbda4e38f119c19580898685851015fa7",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/5ae164dae6e65784286a698800190bc094407f7c",
+                "reference": "5ae164dae6e65784286a698800190bc094407f7c",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
-                "guzzlehttp/streams": "~1.3",
+                "guzzlehttp/streams": "~1.4",
                 "php": ">=5.4.0"
             },
             "require-dev": {
@@ -3383,7 +3388,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2014-07-16 03:01:02"
+            "time": "2014-07-23 00:52:39"
         },
         {
             "name": "guzzlehttp/streams",
