@@ -65,6 +65,12 @@ class Documentation extends AbstractableProcessor
         $version = array_get($this->config->get('doc.aliases'), $version, $version);
         list($toc, $document) = $this->getDocumentation($version, $filename);
 
+        $redirect = $document->get('see');
+
+        if (! is_null($redirect)) {
+            return $listener->redirect(handles("app::{$redirect}"));
+        }
+
         return $listener->showSucceed($version, $toc, $document);
     }
 

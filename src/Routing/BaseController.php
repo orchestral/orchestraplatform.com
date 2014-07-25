@@ -1,9 +1,12 @@
 <?php namespace Platform\Routing;
 
 use Illuminate\Routing\Controller;
+use Orchestra\Support\Traits\ControllerResponseTrait;
 
 abstract class BaseController extends Controller
 {
+    use ControllerResponseTrait;
+
     /**
      * Processor instance.
      *
