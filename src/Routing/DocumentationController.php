@@ -1,7 +1,7 @@
 <?php namespace Platform\Routing;
 
-use Site;
-use View;
+use Orchestra\Support\Facades\Site;
+use Illuminate\Support\Facades\View;
 use Platform\Processor\Documentation as DocumentationProcessor;
 
 class DocumentationController extends BaseController
