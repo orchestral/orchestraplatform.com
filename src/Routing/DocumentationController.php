@@ -31,13 +31,21 @@ class DocumentationController extends BaseController
      *
      * @param  string  $version
      * @param  string  $filename
-     * @return Response
+     * @return \Symfony\Component\HttpFoundation\Response
      */
     public function show($version, $filename = 'index')
     {
         return $this->processor->show($this, $version, $filename);
     }
 
+    /**
+     * Display documentation.
+     *
+     * @param  string   $version
+     * @param  string   $toc
+     * @param  object   $document
+     * @return mixed
+     */
     public function showSucceed($version, $toc, $document)
     {
         Site::set('title', sprintf('%s on v%s', $document->get('title'), $version));

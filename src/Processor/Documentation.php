@@ -85,7 +85,7 @@ class Documentation extends AbstractableProcessor
      * @param  string  $version
      * @param  string  $filename
      * @return array
-     * @throws
+     * @throws \Symfony\Component\HttpKernel\Exception\NotFoundHttpException
      */
     protected function getDocumentation($version, $filename)
     {
