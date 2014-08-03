@@ -15,12 +15,16 @@ class DocumentationControllerTest extends TestCase
     public function testDocsRoute()
     {
         $processor = m::mock('\Platform\Processor\Documentation');
-        $document  = m::mock('MarkdownDocument');
+        $toc       = m::mock('\Kurenai\Document');
+        $document  = m::mock('\Kurenai\Document');
 
-        $document->shouldReceive('get')->once()->with('title')->andReturn('Documentation');
+        $toc->shouldReceive('getHtmlContent')->andReturn('toc');
+        $document->shouldReceive('get')->once()->with('title')->andReturn('Documentation')
+            ->shouldReceive('getHtmlContent')->andReturn('document');
+
         $processor->shouldReceive('show')->once()
-            ->andReturnUsing(function ($listener) use ($document) {
-                return $listener->showSucceed('2.0', 'toc', $document);
+            ->andReturnUsing(function ($listener) use ($toc, $document) {
+                return $listener->showSucceed('2.0', $toc, $document);
             });
         $this->app->instance('Platform\Processor\Documentation', $processor);
 
