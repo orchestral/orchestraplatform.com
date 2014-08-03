@@ -1543,16 +1543,16 @@
         },
         {
             "name": "orchestra/resources",
-            "version": "v2.2.1",
+            "version": "v2.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/resources.git",
-                "reference": "c062585fab201ea488a367864f8d7278346c5ddd"
+                "reference": "ff29b221174b9296aba9d8379217936f8fadc982"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/resources/zipball/c062585fab201ea488a367864f8d7278346c5ddd",
-                "reference": "c062585fab201ea488a367864f8d7278346c5ddd",
+                "url": "https://api.github.com/repos/orchestral/resources/zipball/ff29b221174b9296aba9d8379217936f8fadc982",
+                "reference": "ff29b221174b9296aba9d8379217936f8fadc982",
                 "shasum": ""
             },
             "require": {
@@ -1591,14 +1591,14 @@
                     "homepage": "https://github.com/crynobone"
                 }
             ],
-            "description": "Orchestra Platform 2 Resources Component",
+            "description": "Resources Component for Orchestra Platform 2",
             "homepage": "http://orchestraplatform.com/docs/latest/components/resources/",
             "keywords": [
                 "laravel",
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-06-02 16:13:48"
+            "time": "2014-08-03 02:32:07"
         },
         {
             "name": "orchestra/story",
