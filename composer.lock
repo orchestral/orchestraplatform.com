@@ -1116,16 +1116,16 @@
         },
         {
             "name": "orchestra/foundation",
-            "version": "v2.2.3",
+            "version": "v2.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "251a2d53605ab6aeec6c2e0251ef86fc4b8a34ba"
+                "reference": "8c8ad0d105c39a071edf7230300c2d64f2433ed1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/251a2d53605ab6aeec6c2e0251ef86fc4b8a34ba",
-                "reference": "251a2d53605ab6aeec6c2e0251ef86fc4b8a34ba",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/8c8ad0d105c39a071edf7230300c2d64f2433ed1",
+                "reference": "8c8ad0d105c39a071edf7230300c2d64f2433ed1",
                 "shasum": ""
             },
             "require": {
@@ -1137,6 +1137,7 @@
                 "orchestra/facile": "2.2.*",
                 "orchestra/html": "2.2.*",
                 "orchestra/memory": "2.2.*",
+                "orchestra/messages": "2.2.*",
                 "orchestra/model": "2.2.*",
                 "orchestra/notifier": "2.2.*",
                 "orchestra/optimize": "2.2.*",
@@ -1187,20 +1188,20 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2014-07-13 12:45:46"
+            "time": "2014-08-03 16:47:18"
         },
         {
             "name": "orchestra/html",
-            "version": "v2.2.2",
+            "version": "v2.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/html.git",
-                "reference": "18a9369116adbc407b89fbd27a1965214e92cad2"
+                "reference": "56f87e9dfe5b068eec46f270048d7b7400574e42"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/html/zipball/18a9369116adbc407b89fbd27a1965214e92cad2",
-                "reference": "18a9369116adbc407b89fbd27a1965214e92cad2",
+                "url": "https://api.github.com/repos/orchestral/html/zipball/56f87e9dfe5b068eec46f270048d7b7400574e42",
+                "reference": "56f87e9dfe5b068eec46f270048d7b7400574e42",
                 "shasum": ""
             },
             "require": {
@@ -1245,14 +1246,17 @@
                     "homepage": "https://github.com/crynobone"
                 }
             ],
-            "description": "Orchestra Platform 2 Html Component",
+            "description": "HTML Component for Orchestra Platform 2",
             "homepage": "http://orchestraplatform.com/docs/latest/components/html/",
             "keywords": [
+                "form",
+                "html",
                 "laravel",
                 "orchestra-platform",
-                "orchestral"
+                "orchestral",
+                "table"
             ],
-            "time": "2014-06-30 13:15:24"
+            "time": "2014-08-03 16:18:43"
         },
         {
             "name": "orchestra/memory",
@@ -1318,6 +1322,67 @@
                 "orchestral"
             ],
             "time": "2014-08-02 11:40:17"
+        },
+        {
+            "name": "orchestra/messages",
+            "version": "v2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/orchestral/messages.git",
+                "reference": "29b7ac14953f1a5df7796c9d493aa962ffd7a835"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/orchestral/messages/zipball/29b7ac14953f1a5df7796c9d493aa962ffd7a835",
+                "reference": "29b7ac14953f1a5df7796c9d493aa962ffd7a835",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "illuminate/container": "4.2.*",
+                "illuminate/session": "4.2.*",
+                "illuminate/support": "4.2.*",
+                "mockery/mockery": "0.9.*",
+                "patchwork/utf8": "1.1.*"
+            },
+            "suggest": {
+                "laravel/framework": "Allow using orchestra/support component outside of Orchestra Platform 2",
+                "orchestra/foundation": "Allow using orchestra/support with Orchestra Platform 2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Orchestra\\Messages\\": "src/Messages/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mior Muhammad Zaki",
+                    "email": "crynobone@gmail.com",
+                    "homepage": "https://github.com/crynobone"
+                }
+            ],
+            "description": "Messages Component for Laravel 4 and Orchestra Platform 2",
+            "homepage": "http://orchestraplatform.com/docs/latest/components/messages/",
+            "keywords": [
+                "laravel",
+                "messages",
+                "notification",
+                "orchestra-platform",
+                "orchestral"
+            ],
+            "time": "2014-08-03 05:11:41"
         },
         {
             "name": "orchestra/model",
@@ -1659,16 +1724,16 @@
         },
         {
             "name": "orchestra/support",
-            "version": "v2.2.2",
+            "version": "v2.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/support.git",
-                "reference": "61fa5729fd3d7ac65e392dc896fc464d8bfa0220"
+                "reference": "b6cb732c0cca45062289b27e240b2ff5d611063c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/support/zipball/61fa5729fd3d7ac65e392dc896fc464d8bfa0220",
-                "reference": "61fa5729fd3d7ac65e392dc896fc464d8bfa0220",
+                "url": "https://api.github.com/repos/orchestral/support/zipball/b6cb732c0cca45062289b27e240b2ff5d611063c",
+                "reference": "b6cb732c0cca45062289b27e240b2ff5d611063c",
                 "shasum": ""
             },
             "require": {
@@ -1681,11 +1746,13 @@
                 "illuminate/support": "4.2.*",
                 "illuminate/validation": "4.2.*",
                 "mockery/mockery": "0.9.*",
+                "orchestra/messages": "2.2.*",
                 "patchwork/utf8": "1.1.*"
             },
             "suggest": {
                 "laravel/framework": "Allow using orchestra/support component outside of Orchestra Platform 2",
-                "orchestra/foundation": "Allow using orchestra/support with Orchestra Platform 2"
+                "orchestra/foundation": "Allow using orchestra/support with Orchestra Platform 2",
+                "orchestra/messages": "Allow using Messages component"
             },
             "type": "library",
             "extra": {
@@ -1720,7 +1787,7 @@
                 "utilities",
                 "validator"
             ],
-            "time": "2014-07-26 14:36:48"
+            "time": "2014-08-03 13:36:56"
         },
         {
             "name": "orchestra/translation",
