@@ -2,6 +2,7 @@
 
 use Orchestra\Support\Facades\Site;
 use Illuminate\Support\Facades\View;
+use Orchestra\Support\Str;
 use Platform\Processor\Documentation as DocumentationProcessor;
 
 class DocumentationController extends BaseController
@@ -50,10 +51,18 @@ class DocumentationController extends BaseController
     {
         Site::set('title', sprintf('%s on v%s', $document->get('title'), $version));
 
+        $replacement = [
+            'doc-url' => handles("app::docs/{$version}"),
+        ];
+
         return View::make('documentation', [
             'toc'      => $toc,
             'document' => $document,
             'version'  => $version,
+            'html'     => [
+                'toc'      => Str::replace($toc->getHtmlContent(), $replacement),
+                'document' => Str::replace($document->getHtmlContent(), $replacement),
+            ],
         ]);
     }
 }

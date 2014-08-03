@@ -75,13 +75,6 @@ class Documentation extends AbstractableProcessor
             return $listener->redirect(handles("app::{$redirect}"));
         }
 
-        $replacement = [
-            'doc-url' => handles("app::docs/{$version}"),
-        ];
-
-        $toc = Str::replace($toc, $replacement);
-        $document = Str::replace($document, $replacement);
-
         return $listener->showSucceed($version, $toc, $document);
     }
 
