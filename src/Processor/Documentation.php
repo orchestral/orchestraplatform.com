@@ -4,6 +4,9 @@ use Illuminate\Cache\Repository as CacheRepository;
 use Illuminate\Config\Repository as ConfigRepository;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Foundation\Application;
+use Illuminate\Support\Arr;
+use Illuminate\Support\Facades\URL;
+use Orchestra\Support\Str;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 class Documentation extends AbstractableProcessor
@@ -62,7 +65,8 @@ class Documentation extends AbstractableProcessor
 
     public function show($listener, $version, $filename = 'index')
     {
-        $version = array_get($this->config->get('doc.aliases'), $version, $version);
+        $version = Arr::get($this->config->get('doc.aliases'), $version, $version);
+
         list($toc, $document) = $this->getDocumentation($version, $filename);
 
         $redirect = $document->get('see');
@@ -70,6 +74,13 @@ class Documentation extends AbstractableProcessor
         if (! is_null($redirect)) {
             return $listener->redirect(handles("app::{$redirect}"));
         }
+
+        $replacement = [
+            'doc-url' => handles("app::docs/{$version}"),
+        ];
+
+        $toc = Str::replace($toc, $replacement);
+        $document = Str::replace($document, $replacement);
 
         return $listener->showSucceed($version, $toc, $document);
     }
@@ -108,20 +119,41 @@ class Documentation extends AbstractableProcessor
             throw new NotFoundHttpException;
         }
 
-        $toc = $this->cache->get("doc.{$toc}", function () use ($toc) {
+        return [
+            $this->getTableOfContent($toc),
+            $this->getBodyContent($document),
+        ];
+    }
+
+    /**
+     * Get table of content.
+     *
+     * @param  string   $toc
+     * @return string
+     */
+    protected function getTableOfContent($toc)
+    {
+        return $this->cache->get("doc.{$toc}", function () use ($toc) {
             $content = $this->parser->parse($this->files->get($toc));
             $this->cache->forever("doc.{$toc}", $content);
 
             return $content;
         });
+    }
 
-        $document = $this->cache->get("doc.{$document}", function () use ($document) {
+    /**
+     * Get content body.
+     *
+     * @param  string   $document
+     * @return mixed
+     */
+    protected function getBodyContent($document)
+    {
+        return $this->cache->get("doc.{$document}", function () use ($document) {
             $content = $this->parser->parse($this->files->get($document));
             $this->cache->forever("doc.{$document}", $content);
 
             return $content;
         });
-
-        return [$toc, $document];
     }
 }
