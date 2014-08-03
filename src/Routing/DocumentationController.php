@@ -51,17 +51,13 @@ class DocumentationController extends BaseController
     {
         Site::set('title', sprintf('%s on v%s', $document->get('title'), $version));
 
-        $replacement = [
-            'doc-url' => handles("app::docs/{$version}"),
-        ];
-
         return View::make('documentation', [
             'toc'      => $toc,
             'document' => $document,
             'version'  => $version,
             'html'     => [
-                'toc'      => Str::replace($toc->getHtmlContent(), $replacement),
-                'document' => Str::replace($document->getHtmlContent(), $replacement),
+                'toc'      => $this->processor->parseMarkdown($toc, $version),
+                'document' => $this->processor->parseMarkdown($document, $version),
             ],
         ]);
     }

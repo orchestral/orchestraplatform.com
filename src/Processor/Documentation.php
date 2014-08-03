@@ -5,7 +5,7 @@ use Illuminate\Config\Repository as ConfigRepository;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Arr;
-use Illuminate\Support\Facades\URL;
+use Kurenai\Document;
 use Orchestra\Support\Str;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
@@ -63,6 +63,14 @@ class Documentation extends AbstractableProcessor
         $this->files = $files;
     }
 
+    /**
+     * Show a documentation.
+     *
+     * @param  object   $listener
+     * @param  string   $version
+     * @param  string   $filename
+     * @return mixed
+     */
     public function show($listener, $version, $filename = 'index')
     {
         $version = Arr::get($this->config->get('doc.aliases'), $version, $version);
@@ -72,10 +80,40 @@ class Documentation extends AbstractableProcessor
         $redirect = $document->get('see');
 
         if (! is_null($redirect)) {
+            $redirect = $this->parseContent($redirect, $version);
+
             return $listener->redirect(handles("app::{$redirect}"));
         }
 
         return $listener->showSucceed($version, $toc, $document);
+    }
+
+    /**
+     * Parse HTML/Content from markdown.
+     *
+     * @param  \Kurenai\Document    $content
+     * @param  string               $version
+     * @return string
+     */
+    public function parseMarkdown(Document $content, $version)
+    {
+        return $this->parseContent($content->getHtmlContent(), $version);
+    }
+
+    /**
+     * Parse HTML/Content from string.
+     *
+     * @param  \Kurenai\Document    $content
+     * @param  string               $version
+     * @return string
+     */
+    public function parseContent($content, $version)
+    {
+        $replacement = [
+            'doc-url' => handles("app::docs/{$version}"),
+        ];
+
+        return Str::replace($content, $replacement);
     }
 
     /**
