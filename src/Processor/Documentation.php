@@ -82,7 +82,9 @@ class Documentation extends AbstractableProcessor
         if (! is_null($redirect)) {
             $redirect = $this->parseContent($redirect, $version);
 
-            return $listener->redirect(handles("app::{$redirect}"));
+            ! Str::startsWith($redirect, 'http') && $redirect = handles("app::{$redirect}");
+
+            return $listener->redirect($redirect);
         }
 
         return $listener->showSucceed($version, $toc, $document);
