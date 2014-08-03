@@ -1256,16 +1256,16 @@
         },
         {
             "name": "orchestra/memory",
-            "version": "v2.2.1",
+            "version": "v2.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/memory.git",
-                "reference": "747f318d2118fbe5c3fc31a1c9aa58028063c2fd"
+                "reference": "d5c705de9d3bce0e66915ddf5e8cdb7a5152cc4d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/memory/zipball/747f318d2118fbe5c3fc31a1c9aa58028063c2fd",
-                "reference": "747f318d2118fbe5c3fc31a1c9aa58028063c2fd",
+                "url": "https://api.github.com/repos/orchestral/memory/zipball/d5c705de9d3bce0e66915ddf5e8cdb7a5152cc4d",
+                "reference": "d5c705de9d3bce0e66915ddf5e8cdb7a5152cc4d",
                 "shasum": ""
             },
             "require": {
@@ -1317,7 +1317,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-07-25 03:42:35"
+            "time": "2014-08-02 11:40:17"
         },
         {
             "name": "orchestra/model",
@@ -1659,16 +1659,16 @@
         },
         {
             "name": "orchestra/support",
-            "version": "v2.2.1",
+            "version": "v2.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/support.git",
-                "reference": "2a81b14fe4da019421dd2db77e18b829e2c58b19"
+                "reference": "61fa5729fd3d7ac65e392dc896fc464d8bfa0220"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/support/zipball/2a81b14fe4da019421dd2db77e18b829e2c58b19",
-                "reference": "2a81b14fe4da019421dd2db77e18b829e2c58b19",
+                "url": "https://api.github.com/repos/orchestral/support/zipball/61fa5729fd3d7ac65e392dc896fc464d8bfa0220",
+                "reference": "61fa5729fd3d7ac65e392dc896fc464d8bfa0220",
                 "shasum": ""
             },
             "require": {
@@ -1720,7 +1720,7 @@
                 "utilities",
                 "validator"
             ],
-            "time": "2014-07-18 01:20:34"
+            "time": "2014-07-26 14:36:48"
         },
         {
             "name": "orchestra/translation",
@@ -2089,16 +2089,16 @@
         },
         {
             "name": "predis/predis",
-            "version": "v0.8.6",
+            "version": "v0.8.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nrk/predis.git",
-                "reference": "239864d9a0929f29bf8c5a8370ef743537c4953d"
+                "reference": "4123fcd85d61354c6c9900db76c9597dbd129bf6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nrk/predis/zipball/239864d9a0929f29bf8c5a8370ef743537c4953d",
-                "reference": "239864d9a0929f29bf8c5a8370ef743537c4953d",
+                "url": "https://api.github.com/repos/nrk/predis/zipball/4123fcd85d61354c6c9900db76c9597dbd129bf6",
+                "reference": "4123fcd85d61354c6c9900db76c9597dbd129bf6",
                 "shasum": ""
             },
             "require": {
@@ -2135,7 +2135,7 @@
                 "predis",
                 "redis"
             ],
-            "time": "2014-07-15 09:54:33"
+            "time": "2014-08-01 09:43:10"
         },
         {
             "name": "psr/log",
@@ -2580,13 +2580,13 @@
             "target-dir": "Symfony/Component/Debug",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony/Debug.git",
-                "reference": "189da713c1f8bb03f9184eb87b43ecbc732284ac"
+                "url": "git@github.com:symfony/Debug.git",
+                "reference": "a725879a4b1c0e9a242c7a0480e787cb6465cb8f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Debug/zipball/189da713c1f8bb03f9184eb87b43ecbc732284ac",
-                "reference": "189da713c1f8bb03f9184eb87b43ecbc732284ac",
+                "url": "https://api.github.com/repos/symfony/Debug/zipball/a725879a4b1c0e9a242c7a0480e787cb6465cb8f",
+                "reference": "a725879a4b1c0e9a242c7a0480e787cb6465cb8f",
                 "shasum": ""
             },
             "require": {
@@ -2617,14 +2617,12 @@
             ],
             "authors": [
                 {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com",
-                    "homepage": "http://fabien.potencier.org",
-                    "role": "Lead Developer"
-                },
-                {
                     "name": "Symfony Community",
                     "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
                 }
             ],
             "description": "Symfony Debug Component",
@@ -3327,16 +3325,16 @@
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "4.1.4",
+            "version": "4.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "5ae164dae6e65784286a698800190bc094407f7c"
+                "reference": "75e58ada121dffe1038331b808f8d3109499edc4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/5ae164dae6e65784286a698800190bc094407f7c",
-                "reference": "5ae164dae6e65784286a698800190bc094407f7c",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/75e58ada121dffe1038331b808f8d3109499edc4",
+                "reference": "75e58ada121dffe1038331b808f8d3109499edc4",
                 "shasum": ""
             },
             "require": {
@@ -3388,7 +3386,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2014-07-23 00:52:39"
+            "time": "2014-08-02 22:52:37"
         },
         {
             "name": "guzzlehttp/streams",
