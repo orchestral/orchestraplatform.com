@@ -27,6 +27,8 @@ class PlatformServiceProvider extends ServiceProvider
                 return new Document(new DflydevMarkdownExtra);
             });
         });
+
+        $this->app->middleware('Illuminate\Http\FrameGuard');
     }
 
     /**
