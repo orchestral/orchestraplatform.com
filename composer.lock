@@ -56,20 +56,20 @@
         },
         {
             "name": "bugsnag/bugsnag-laravel",
-            "version": "v1.0.8",
+            "version": "v1.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bugsnag/bugsnag-laravel.git",
-                "reference": "d43674ba89d062102fe0e1222ecc0937678eb7fa"
+                "reference": "1be7703e7e0582e46dfe30ac946a14ecbb44e647"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bugsnag/bugsnag-laravel/zipball/d43674ba89d062102fe0e1222ecc0937678eb7fa",
-                "reference": "d43674ba89d062102fe0e1222ecc0937678eb7fa",
+                "url": "https://api.github.com/repos/bugsnag/bugsnag-laravel/zipball/1be7703e7e0582e46dfe30ac946a14ecbb44e647",
+                "reference": "1be7703e7e0582e46dfe30ac946a14ecbb44e647",
                 "shasum": ""
             },
             "require": {
-                "bugsnag/bugsnag": ">=2.2.8",
+                "bugsnag/bugsnag": ">=2.3.0",
                 "illuminate/support": "~4.0",
                 "php": ">=5.3.0"
             },
@@ -86,8 +86,7 @@
             "authors": [
                 {
                     "name": "James Smith",
-                    "email": "notifiers@bugsnag.com",
-                    "homepage": "https://bugsnag.com"
+                    "email": "notifiers@bugsnag.com"
                 }
             ],
             "description": "Official Bugsnag notifier for Laravel applications.",
@@ -100,7 +99,7 @@
                 "logging",
                 "tracking"
             ],
-            "time": "2014-05-26 19:58:22"
+            "time": "2014-08-06 23:51:58"
         },
         {
             "name": "classpreloader/classpreloader",
@@ -3370,16 +3369,16 @@
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "4.1.6",
+            "version": "4.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "e49ad58038b46a0d7739627a72f6d998cd92d3d6"
+                "reference": "448f2c2076cf0fb756230611491c4f7ecb735a29"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/e49ad58038b46a0d7739627a72f6d998cd92d3d6",
-                "reference": "e49ad58038b46a0d7739627a72f6d998cd92d3d6",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/448f2c2076cf0fb756230611491c4f7ecb735a29",
+                "reference": "448f2c2076cf0fb756230611491c4f7ecb735a29",
                 "shasum": ""
             },
             "require": {
@@ -3398,7 +3397,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.1.x-dev"
+                    "dev-master": "4.1-dev"
                 }
             },
             "autoload": {
@@ -3431,20 +3430,20 @@
                 "rest",
                 "web service"
             ],
-            "time": "2014-08-03 20:38:45"
+            "time": "2014-08-08 01:30:43"
         },
         {
             "name": "guzzlehttp/streams",
-            "version": "1.4.0",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/streams.git",
-                "reference": "3b761a328e5ed6ed519e960aded95d7acbe77894"
+                "reference": "78f73ec74a87d5c6c29279119773693cc732789e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/streams/zipball/3b761a328e5ed6ed519e960aded95d7acbe77894",
-                "reference": "3b761a328e5ed6ed519e960aded95d7acbe77894",
+                "url": "https://api.github.com/repos/guzzle/streams/zipball/78f73ec74a87d5c6c29279119773693cc732789e",
+                "reference": "78f73ec74a87d5c6c29279119773693cc732789e",
                 "shasum": ""
             },
             "require": {
@@ -3456,7 +3455,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4.x-dev"
+                    "dev-master": "1.5-dev"
                 }
             },
             "autoload": {
@@ -3484,7 +3483,7 @@
                 "Guzzle",
                 "stream"
             ],
-            "time": "2014-07-19 18:43:42"
+            "time": "2014-08-08 01:24:01"
         },
         {
             "name": "mockery/mockery",
@@ -3915,16 +3914,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "4.1.4",
+            "version": "4.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "a71c4842c5fb836d8b200624583b859ec34e8a26"
+                "reference": "58db726aa45fe26bca93f692cb3d77e9a46b7830"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/a71c4842c5fb836d8b200624583b859ec34e8a26",
-                "reference": "a71c4842c5fb836d8b200624583b859ec34e8a26",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/58db726aa45fe26bca93f692cb3d77e9a46b7830",
+                "reference": "58db726aa45fe26bca93f692cb3d77e9a46b7830",
                 "shasum": ""
             },
             "require": {
@@ -3938,7 +3937,7 @@
                 "phpunit/php-file-iterator": "~1.3.1",
                 "phpunit/php-text-template": "~1.2",
                 "phpunit/php-timer": "~1.0.2",
-                "phpunit/phpunit-mock-objects": "~2.1",
+                "phpunit/phpunit-mock-objects": "~2.2",
                 "sebastian/comparator": "~1.0",
                 "sebastian/diff": "~1.1",
                 "sebastian/environment": "~1.0",
@@ -3955,7 +3954,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.1.x-dev"
+                    "dev-master": "4.2.x-dev"
                 }
             },
             "autoload": {
@@ -3985,7 +3984,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2014-07-18 07:15:58"
+            "time": "2014-08-08 05:13:30"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
