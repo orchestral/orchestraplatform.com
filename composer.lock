@@ -3434,16 +3434,16 @@
         },
         {
             "name": "guzzlehttp/streams",
-            "version": "1.5.0",
+            "version": "1.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/streams.git",
-                "reference": "78f73ec74a87d5c6c29279119773693cc732789e"
+                "reference": "fb0d1ee29987c2bdc59867bffaade6fc88c2675f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/streams/zipball/78f73ec74a87d5c6c29279119773693cc732789e",
-                "reference": "78f73ec74a87d5c6c29279119773693cc732789e",
+                "url": "https://api.github.com/repos/guzzle/streams/zipball/fb0d1ee29987c2bdc59867bffaade6fc88c2675f",
+                "reference": "fb0d1ee29987c2bdc59867bffaade6fc88c2675f",
                 "shasum": ""
             },
             "require": {
@@ -3483,7 +3483,7 @@
                 "Guzzle",
                 "stream"
             ],
-            "time": "2014-08-08 01:24:01"
+            "time": "2014-08-10 23:57:01"
         },
         {
             "name": "mockery/mockery",
