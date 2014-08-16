@@ -930,16 +930,16 @@
         },
         {
             "name": "orchestra/debug",
-            "version": "v2.2.0",
+            "version": "v2.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/debug.git",
-                "reference": "a15d0b1fb41e6e2f2f77755f110340e486910522"
+                "reference": "573410d63e011430bf3ada3cc9634a6b71ce0f2f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/debug/zipball/a15d0b1fb41e6e2f2f77755f110340e486910522",
-                "reference": "a15d0b1fb41e6e2f2f77755f110340e486910522",
+                "url": "https://api.github.com/repos/orchestral/debug/zipball/573410d63e011430bf3ada3cc9634a6b71ce0f2f",
+                "reference": "573410d63e011430bf3ada3cc9634a6b71ce0f2f",
                 "shasum": ""
             },
             "require": {
@@ -951,6 +951,7 @@
                 "illuminate/console": "4.2.*",
                 "illuminate/container": "4.2.*",
                 "illuminate/events": "4.2.*",
+                "illuminate/log": "4.2.*",
                 "illuminate/support": "4.2.*",
                 "mockery/mockery": "0.9.*",
                 "monolog/monolog": "1.*"
@@ -983,11 +984,13 @@
             "description": "Artisan Debug Profiler for Laravel 4",
             "homepage": "http://orchestraplatform.com/docs/latest/components/debug/",
             "keywords": [
+                "debug",
                 "laravel",
                 "orchestra-platform",
-                "orchestral"
+                "orchestral",
+                "profiler"
             ],
-            "time": "2014-06-02 08:38:44"
+            "time": "2014-08-16 09:59:25"
         },
         {
             "name": "orchestra/extension",
@@ -1845,16 +1848,16 @@
         },
         {
             "name": "orchestra/view",
-            "version": "v2.2.2",
+            "version": "v2.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/view.git",
-                "reference": "9f5e6cad421dc1f89fd7d65ca8d4a8bb6f8bbab7"
+                "reference": "95971cca5812b784c6dac7484da617edc4ecfdc7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/view/zipball/9f5e6cad421dc1f89fd7d65ca8d4a8bb6f8bbab7",
-                "reference": "9f5e6cad421dc1f89fd7d65ca8d4a8bb6f8bbab7",
+                "url": "https://api.github.com/repos/orchestral/view/zipball/95971cca5812b784c6dac7484da617edc4ecfdc7",
+                "reference": "95971cca5812b784c6dac7484da617edc4ecfdc7",
                 "shasum": ""
             },
             "require": {
@@ -1902,7 +1905,7 @@
                 "theme",
                 "view"
             ],
-            "time": "2014-07-21 09:17:24"
+            "time": "2014-08-16 10:10:54"
         },
         {
             "name": "orchestra/widget",
