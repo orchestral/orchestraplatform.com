@@ -1,6 +1,6 @@
 @extends('layout.api')
 
-<?
+<?php
 
 Site::set('html::body', ['id' => 'docs']);
 Site::set('html::header', ['class' => 'navbar-inverse normal']); ?>

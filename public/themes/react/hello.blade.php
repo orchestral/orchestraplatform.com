@@ -1,6 +1,6 @@
 @extends('layout.master')
 
-<?
+<?php
 
 Site::set('html::body', ['id' => 'home4']);
 Site::set('html::header', ['class' => 'navbar-inverse hero']); ?>
