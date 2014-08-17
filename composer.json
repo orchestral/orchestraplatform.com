@@ -2,9 +2,9 @@
 	"description": "Orchestra Platform Website",
 	"license": "proprietary",
 	"require": {
-		"orchestra/foundation": "2.2.*@dev",
-		"orchestra/control": "2.2.*@dev",
-		"orchestra/story": "2.2.*@dev",
+		"orchestra/foundation": "2.2.*",
+		"orchestra/control": "2.2.*",
+		"orchestra/story": "2.2.*",
 		"daylerees/kurenai": "~1.0",
 		"pda/pheanstalk": "~2.1",
 		"bugsnag/bugsnag-laravel": "~1.0"
@@ -39,7 +39,8 @@
 		]
 	},
 	"config": {
+		"prefer-stable": true,
 		"preferred-install": "dist"
 	},
-	"minimum-stability": "beta"
+	"minimum-stability": "dev"
 }
