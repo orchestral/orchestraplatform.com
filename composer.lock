@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1752de2e181e5a8909fa2de3392af7bd",
+    "hash": "37dfdd9db341e8ed6623994304ed7764",
     "packages": [
         {
             "name": "bugsnag/bugsnag",
@@ -873,16 +873,16 @@
         },
         {
             "name": "orchestra/control",
-            "version": "v2.2.1",
+            "version": "2.2.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/control.git",
-                "reference": "570de5182c37ff00078064b73aed47c1682e4f06"
+                "reference": "8d9f637df7d9a87e31298e07d7c149aabab91a93"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/control/zipball/570de5182c37ff00078064b73aed47c1682e4f06",
-                "reference": "570de5182c37ff00078064b73aed47c1682e4f06",
+                "url": "https://api.github.com/repos/orchestral/control/zipball/8d9f637df7d9a87e31298e07d7c149aabab91a93",
+                "reference": "8d9f637df7d9a87e31298e07d7c149aabab91a93",
                 "shasum": ""
             },
             "require": {
@@ -926,7 +926,7 @@
                 "theme",
                 "timezone"
             ],
-            "time": "2014-07-22 06:56:03"
+            "time": "2014-08-16 23:30:46"
         },
         {
             "name": "orchestra/debug",
@@ -1117,16 +1117,16 @@
         },
         {
             "name": "orchestra/foundation",
-            "version": "v2.2.4",
+            "version": "2.2.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "8c8ad0d105c39a071edf7230300c2d64f2433ed1"
+                "reference": "894ab53a28109345b9078f44498ea50295b22089"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/8c8ad0d105c39a071edf7230300c2d64f2433ed1",
-                "reference": "8c8ad0d105c39a071edf7230300c2d64f2433ed1",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/894ab53a28109345b9078f44498ea50295b22089",
+                "reference": "894ab53a28109345b9078f44498ea50295b22089",
                 "shasum": ""
             },
             "require": {
@@ -1189,7 +1189,7 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2014-08-03 16:47:18"
+            "time": "2014-08-17 00:35:03"
         },
         {
             "name": "orchestra/html",
@@ -1668,16 +1668,16 @@
         },
         {
             "name": "orchestra/story",
-            "version": "v2.2.2",
+            "version": "2.2.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/story.git",
-                "reference": "b6a05bd6f9295102ebbd65e7866939a68112d151"
+                "reference": "b4b0e7f1d02320a5ab7f5af32f499fb08a3b5764"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/story/zipball/b6a05bd6f9295102ebbd65e7866939a68112d151",
-                "reference": "b6a05bd6f9295102ebbd65e7866939a68112d151",
+                "url": "https://api.github.com/repos/orchestral/story/zipball/b4b0e7f1d02320a5ab7f5af32f499fb08a3b5764",
+                "reference": "b4b0e7f1d02320a5ab7f5af32f499fb08a3b5764",
                 "shasum": ""
             },
             "require": {
@@ -1721,7 +1721,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-07-15 14:06:52"
+            "time": "2014-08-17 00:17:55"
         },
         {
             "name": "orchestra/support",
@@ -4365,7 +4365,11 @@
     ],
     "aliases": [],
     "minimum-stability": "beta",
-    "stability-flags": [],
+    "stability-flags": {
+        "orchestra/foundation": 20,
+        "orchestra/control": 20,
+        "orchestra/story": 20
+    },
     "prefer-stable": false,
     "platform": [],
     "platform-dev": []
