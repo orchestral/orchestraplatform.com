@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "44ff54d12757dc66800f43b140bb5cf9",
+    "hash": "d6900f53c08713b7e5247879f4cc9870",
     "packages": [
         {
             "name": "bugsnag/bugsnag",
@@ -521,12 +521,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "e947cf986844fe8d8f9b1679e106346c80e26bc1"
+                "reference": "144782276861285490c3f7919ddf69f775710678"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/e947cf986844fe8d8f9b1679e106346c80e26bc1",
-                "reference": "e947cf986844fe8d8f9b1679e106346c80e26bc1",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/144782276861285490c3f7919ddf69f775710678",
+                "reference": "144782276861285490c3f7919ddf69f775710678",
                 "shasum": ""
             },
             "require": {
@@ -627,20 +627,20 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-08-25 21:24:06"
+            "time": "2014-08-26 12:52:28"
         },
         {
             "name": "league/flysystem",
-            "version": "0.5.4",
+            "version": "0.5.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "33acb69d2db7c1e4c5c59083da4e680546d40a12"
+                "reference": "17bb2a0f522f3d325b6406a9db0292bc7484ade5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/33acb69d2db7c1e4c5c59083da4e680546d40a12",
-                "reference": "33acb69d2db7c1e4c5c59083da4e680546d40a12",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/17bb2a0f522f3d325b6406a9db0292bc7484ade5",
+                "reference": "17bb2a0f522f3d325b6406a9db0292bc7484ade5",
                 "shasum": ""
             },
             "require": {
@@ -649,7 +649,7 @@
             "require-dev": {
                 "aws/aws-sdk-php": "~2.4",
                 "dropbox/dropbox-sdk": "~1.1.1",
-                "league/event": "~0.2.0",
+                "league/event": "~0.3",
                 "league/phpunit-coverage-listener": "~1.1",
                 "mockery/mockery": "~0.9@dev",
                 "phpseclib/phpseclib": "~0.3.5",
@@ -703,7 +703,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2014-08-24 09:33:41"
+            "time": "2014-08-26 11:05:47"
         },
         {
             "name": "monolog/monolog",
@@ -1243,12 +1243,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "803ca87adf07691a84763b7aa1c7ad676ee8694a"
+                "reference": "d90ea21b7704d5cc8369164421179f590ac22cec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/803ca87adf07691a84763b7aa1c7ad676ee8694a",
-                "reference": "803ca87adf07691a84763b7aa1c7ad676ee8694a",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/d90ea21b7704d5cc8369164421179f590ac22cec",
+                "reference": "d90ea21b7704d5cc8369164421179f590ac22cec",
                 "shasum": ""
             },
             "require": {
@@ -1311,7 +1311,7 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2014-08-26 03:43:40"
+            "time": "2014-08-26 14:14:54"
         },
         {
             "name": "orchestra/html",
@@ -1802,12 +1802,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/story.git",
-                "reference": "b2554494b25442857a33c0144c16d249b37e80b7"
+                "reference": "43f63add30857c533bf97eef539642c9ae1a46af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/story/zipball/b2554494b25442857a33c0144c16d249b37e80b7",
-                "reference": "b2554494b25442857a33c0144c16d249b37e80b7",
+                "url": "https://api.github.com/repos/orchestral/story/zipball/43f63add30857c533bf97eef539642c9ae1a46af",
+                "reference": "43f63add30857c533bf97eef539642c9ae1a46af",
                 "shasum": ""
             },
             "require": {
@@ -1851,7 +1851,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-08-17 00:18:49"
+            "time": "2014-08-26 14:22:42"
         },
         {
             "name": "orchestra/support",
@@ -2753,12 +2753,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/DomCrawler.git",
-                "reference": "3e422fb1963cefd679f724286ca22ae4e2c06dcb"
+                "reference": "69a55873dd4078b6ba528575e1c3f9cd143a54f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/DomCrawler/zipball/3e422fb1963cefd679f724286ca22ae4e2c06dcb",
-                "reference": "3e422fb1963cefd679f724286ca22ae4e2c06dcb",
+                "url": "https://api.github.com/repos/symfony/DomCrawler/zipball/69a55873dd4078b6ba528575e1c3f9cd143a54f1",
+                "reference": "69a55873dd4078b6ba528575e1c3f9cd143a54f1",
                 "shasum": ""
             },
             "require": {
@@ -2797,7 +2797,7 @@
             ],
             "description": "Symfony DomCrawler Component",
             "homepage": "http://symfony.com",
-            "time": "2014-08-05 09:07:51"
+            "time": "2014-08-26 14:16:42"
         },
         {
             "name": "symfony/event-dispatcher",
