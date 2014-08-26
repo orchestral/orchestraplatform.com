@@ -1,4 +1,4 @@
-<?php namespace TestCase\Platform\Routing;
+<?php namespace TestCase\App\Http\Controllers;
 
 use Site;
 use View;

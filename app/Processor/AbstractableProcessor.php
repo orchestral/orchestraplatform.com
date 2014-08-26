@@ -1,4 +1,4 @@
-<?php namespace Platform\Processor;
+<?php namespace App\Processor;
 
 abstract class AbstractableProcessor
 {

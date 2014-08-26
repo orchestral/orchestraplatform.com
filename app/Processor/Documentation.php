@@ -1,4 +1,4 @@
-<?php namespace Platform\Processor;
+<?php namespace App\Processor;
 
 use Illuminate\Cache\Repository as CacheRepository;
 use Illuminate\Config\Repository as ConfigRepository;

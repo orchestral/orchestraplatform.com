@@ -3,7 +3,7 @@
 use Orchestra\Support\Facades\Site;
 use Illuminate\Support\Facades\View;
 use Orchestra\Support\Str;
-use Platform\Processor\Documentation as DocumentationProcessor;
+use App\Processor\Documentation as DocumentationProcessor;
 
 class DocumentationController extends BaseController
 {
