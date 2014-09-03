@@ -1,6 +1,6 @@
 <?php
 
-return array(
+return [
 
     /*
     |--------------------------------------------------------------------------
@@ -14,23 +14,23 @@ return array(
     |
     */
 
-   'hipchat' => array(
+    'hipchat' => [
         'token' => getenv('HIPCHAT.TOKEN'),
         'room'  => getenv('HIPCHAT.ROOM'),
-    ),
+    ],
 
-    'mailgun' => array(
+    'mailgun' => [
         'domain' => '',
         'secret' => '',
-    ),
+    ],
 
-    'mandrill' => array(
+    'mandrill' => [
         'secret' => '',
-    ),
+    ],
 
-    'stripe' => array(
+    'stripe' => [
         'model'  => 'User',
         'secret' => '',
-    ),
+    ],
 
-);
+];

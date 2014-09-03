@@ -1,6 +1,6 @@
 <?php
 
-return array(
+return [
 
     /*
     |--------------------------------------------------------------------------
@@ -93,7 +93,7 @@ return array(
     |
     */
 
-    'providers' => array(
+    'providers' => [
 
         /*
          * Application Service Providers...
@@ -101,7 +101,6 @@ return array(
         'App\Providers\AppServiceProvider',
         'App\Providers\ArtisanServiceProvider',
         'App\Providers\ErrorServiceProvider',
-        'App\Providers\EventServiceProvider',
         'App\Providers\ExtensionServiceProvider',
         'App\Providers\FilterServiceProvider',
         'App\Providers\LogServiceProvider',
@@ -117,16 +116,14 @@ return array(
         'Illuminate\Database\DatabaseServiceProvider',
         'Illuminate\Encryption\EncryptionServiceProvider',
         'Illuminate\Filesystem\FilesystemServiceProvider',
-        'Illuminate\Foundation\Providers\FormRequestServiceProvider',
+        'Illuminate\Foundation\Providers\FoundationServiceProvider',
         'Illuminate\Hashing\HashServiceProvider',
         'Illuminate\Log\LogServiceProvider',
         'Illuminate\Mail\MailServiceProvider',
-        'Illuminate\Database\MigrationServiceProvider',
         'Illuminate\Pagination\PaginationServiceProvider',
         'Illuminate\Foundation\Providers\PublisherServiceProvider',
         'Illuminate\Queue\QueueServiceProvider',
         'Illuminate\Redis\RedisServiceProvider',
-        'Illuminate\Database\SeedServiceProvider',
         'Illuminate\Session\SessionServiceProvider',
         'Illuminate\Validation\ValidationServiceProvider',
         'Illuminate\View\ViewServiceProvider',
@@ -155,7 +152,8 @@ return array(
 
         'Orchestra\Foundation\ConsoleSupportServiceProvider',
         'Orchestra\Foundation\FoundationServiceProvider',
-    ),
+
+    ],
 
     /*
     |--------------------------------------------------------------------------
@@ -181,50 +179,45 @@ return array(
     |
     */
 
-    'aliases' => array(
+    'aliases' => [
 
-        'App'               => 'Illuminate\Support\Facades\App',
-        'Artisan'           => 'Illuminate\Support\Facades\Artisan',
-        'Asset'             => 'Orchestra\Support\Facades\Asset',
-        'Auth'              => 'Illuminate\Support\Facades\Auth',
-        'Blade'             => 'Illuminate\Support\Facades\Blade',
-        'Cache'             => 'Illuminate\Support\Facades\Cache',
-        'Config'            => 'Illuminate\Support\Facades\Config',
-        'Controller'        => 'Illuminate\Routing\Controller',
-        'Cookie'            => 'Illuminate\Support\Facades\Cookie',
-        'Crypt'             => 'Illuminate\Support\Facades\Crypt',
-        'DB'                => 'Illuminate\Support\Facades\DB',
-        'Eloquent'          => 'Illuminate\Database\Eloquent\Model',
-        'Event'             => 'Illuminate\Support\Facades\Event',
-        'Facile'            => 'Orchestra\Support\Facades\Facile',
-        'File'              => 'Illuminate\Support\Facades\File',
-        'Form'              => 'Orchestra\Support\Facades\Form',
-        'FormRequest'       => 'Illuminate\Foundation\Http\FormRequest',
-        'Hash'              => 'Illuminate\Support\Facades\Hash',
-        'HTML'              => 'Orchestra\Support\Facades\HTML',
-        'Input'             => 'Illuminate\Support\Facades\Input',
-        'Lang'              => 'Illuminate\Support\Facades\Lang',
-        'Log'               => 'Illuminate\Support\Facades\Log',
-        'Mail'              => 'Illuminate\Support\Facades\Mail',
-        'Paginator'         => 'Illuminate\Support\Facades\Paginator',
-        'Password'          => 'Illuminate\Support\Facades\Password',
-        'Queue'             => 'Illuminate\Support\Facades\Queue',
-        'Redirect'          => 'Illuminate\Support\Facades\Redirect',
-        'Redis'             => 'Illuminate\Support\Facades\Redis',
-        'Request'           => 'Illuminate\Support\Facades\Request',
-        'Response'          => 'Illuminate\Support\Facades\Response',
-        'Route'             => 'Illuminate\Support\Facades\Route',
-        'Site'              => 'Orchestra\Support\Facades\Site',
-        'Schema'            => 'Illuminate\Support\Facades\Schema',
-        'Seeder'            => 'Illuminate\Database\Seeder',
-        'Session'           => 'Illuminate\Support\Facades\Session',
-        'Str'               => 'Orchestra\Support\Str',
-        'SoftDeletingTrait' => 'Illuminate\Database\Eloquent\SoftDeletingTrait',
-        'Theme'             => 'Orchestra\Support\Facades\Theme',
-        'URL'               => 'Illuminate\Support\Facades\URL',
-        'Validator'         => 'Illuminate\Support\Facades\Validator',
-        'View'              => 'Illuminate\Support\Facades\View',
-        'Widget'            => 'Orchestra\Support\Facades\Widget',
-    ),
+        'App'        => 'Illuminate\Support\Facades\App',
+        'ACL'        => 'Orchestra\Support\Facades\ACL',
+        'Artisan'    => 'Illuminate\Support\Facades\Artisan',
+        'Asset'      => 'Orchestra\Support\Facades\Asset',
+        'Auth'       => 'Illuminate\Support\Facades\Auth',
+        'Blade'      => 'Illuminate\Support\Facades\Blade',
+        'Cache'      => 'Illuminate\Support\Facades\Cache',
+        'Config'     => 'Illuminate\Support\Facades\Config',
+        'Cookie'     => 'Illuminate\Support\Facades\Cookie',
+        'Crypt'      => 'Illuminate\Support\Facades\Crypt',
+        'DB'         => 'Illuminate\Support\Facades\DB',
+        'Event'      => 'Illuminate\Support\Facades\Event',
+        'Facile'     => 'Orchestra\Support\Facades\Facile',
+        'File'       => 'Illuminate\Support\Facades\File',
+        'Form'       => 'Orchestra\Support\Facades\Form',
+        'Hash'       => 'Illuminate\Support\Facades\Hash',
+        'HTML'       => 'Orchestra\Support\Facades\HTML',
+        'Input'      => 'Illuminate\Support\Facades\Input',
+        'Lang'       => 'Illuminate\Support\Facades\Lang',
+        'Log'        => 'Illuminate\Support\Facades\Log',
+        'Mail'       => 'Illuminate\Support\Facades\Mail',
+        'Paginator'  => 'Illuminate\Support\Facades\Paginator',
+        'Password'   => 'Illuminate\Support\Facades\Password',
+        'Queue'      => 'Illuminate\Support\Facades\Queue',
+        'Redirect'   => 'Illuminate\Support\Facades\Redirect',
+        'Redis'      => 'Illuminate\Support\Facades\Redis',
+        'Request'    => 'Illuminate\Support\Facades\Request',
+        'Response'   => 'Illuminate\Support\Facades\Response',
+        'Route'      => 'Illuminate\Support\Facades\Route',
+        'Schema'     => 'Illuminate\Support\Facades\Schema',
+        'Session'    => 'Illuminate\Support\Facades\Session',
+        'Site'       => 'Orchestra\Support\Facades\Site',
+        'Theme'      => 'Orchestra\Support\Facades\Theme',
+        'URL'        => 'Illuminate\Support\Facades\URL',
+        'Validator'  => 'Illuminate\Support\Facades\Validator',
+        'View'       => 'Illuminate\Support\Facades\View',
 
-);
+    ],
+
+];
