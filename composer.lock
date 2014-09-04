@@ -521,12 +521,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "79148f3d780c61f7fc43eb81577e952d5697a0df"
+                "reference": "3af74dac3eda2cdcdb42b35cbb9212779683b9b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/79148f3d780c61f7fc43eb81577e952d5697a0df",
-                "reference": "79148f3d780c61f7fc43eb81577e952d5697a0df",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/3af74dac3eda2cdcdb42b35cbb9212779683b9b4",
+                "reference": "3af74dac3eda2cdcdb42b35cbb9212779683b9b4",
                 "shasum": ""
             },
             "require": {
@@ -627,7 +627,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-09-03 02:34:29"
+            "time": "2014-09-03 20:07:20"
         },
         {
             "name": "league/flysystem",
@@ -870,12 +870,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/asset.git",
-                "reference": "c07fd40561dca1c2c1fc7b6a55fb418d7c1329b1"
+                "reference": "0568d1da4399f2bdb3134f5823f7b17e0f3ff421"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/asset/zipball/c07fd40561dca1c2c1fc7b6a55fb418d7c1329b1",
-                "reference": "c07fd40561dca1c2c1fc7b6a55fb418d7c1329b1",
+                "url": "https://api.github.com/repos/orchestral/asset/zipball/0568d1da4399f2bdb3134f5823f7b17e0f3ff421",
+                "reference": "0568d1da4399f2bdb3134f5823f7b17e0f3ff421",
                 "shasum": ""
             },
             "require": {
@@ -888,7 +888,6 @@
             },
             "suggest": {
                 "illuminate/filesystem": "Allow using orchestra/asset component outside of Laravel app",
-                "illuminate/html": "Allow using orchestra/asset component outside of Laravel app",
                 "laravel/framework": "Allow using orchestra/asset component outside of Orchestra Platform 2",
                 "orchestra/foundation": "Allow using orchestra/asset with Orchestra Platform 2"
             },
@@ -922,7 +921,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-08-22 00:31:17"
+            "time": "2014-09-03 10:29:41"
         },
         {
             "name": "orchestra/auth",
@@ -930,12 +929,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/auth.git",
-                "reference": "ae7f00ebe7dad528e9a4a5f22ac881975c59f7e2"
+                "reference": "e37f96e1d389b08753bf2763d2f744669311ea59"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/auth/zipball/ae7f00ebe7dad528e9a4a5f22ac881975c59f7e2",
-                "reference": "ae7f00ebe7dad528e9a4a5f22ac881975c59f7e2",
+                "url": "https://api.github.com/repos/orchestral/auth/zipball/e37f96e1d389b08753bf2763d2f744669311ea59",
+                "reference": "e37f96e1d389b08753bf2763d2f744669311ea59",
                 "shasum": ""
             },
             "require": {
@@ -990,7 +989,7 @@
                 "permission",
                 "rbac"
             ],
-            "time": "2014-08-25 01:31:26"
+            "time": "2014-09-03 09:33:25"
         },
         {
             "name": "orchestra/control",
@@ -998,12 +997,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/control.git",
-                "reference": "fb454402bc7b3401a7ab10cd9d4c4dfb3f967014"
+                "reference": "1f2b5b11d51bc4d0c31e16d450125bc80aff0054"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/control/zipball/fb454402bc7b3401a7ab10cd9d4c4dfb3f967014",
-                "reference": "fb454402bc7b3401a7ab10cd9d4c4dfb3f967014",
+                "url": "https://api.github.com/repos/orchestral/control/zipball/1f2b5b11d51bc4d0c31e16d450125bc80aff0054",
+                "reference": "1f2b5b11d51bc4d0c31e16d450125bc80aff0054",
                 "shasum": ""
             },
             "require": {
@@ -1047,7 +1046,7 @@
                 "theme",
                 "timezone"
             ],
-            "time": "2014-09-03 06:37:17"
+            "time": "2014-09-03 14:50:46"
         },
         {
             "name": "orchestra/debug",
@@ -1119,24 +1118,23 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/extension.git",
-                "reference": "83bf2487c9ffba7c227fc26405fb427d8ca179fd"
+                "reference": "b10378005462e881e5ebf986cce7e1df1b242abc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/extension/zipball/83bf2487c9ffba7c227fc26405fb427d8ca179fd",
-                "reference": "83bf2487c9ffba7c227fc26405fb427d8ca179fd",
+                "url": "https://api.github.com/repos/orchestral/extension/zipball/b10378005462e881e5ebf986cce7e1df1b242abc",
+                "reference": "b10378005462e881e5ebf986cce7e1df1b242abc",
                 "shasum": ""
             },
             "require": {
+                "illuminate/contracts": "4.3.*",
                 "orchestra/memory": "2.3.*",
                 "orchestra/publisher": "2.3.*",
                 "php": ">=5.4.0"
             },
             "require-dev": {
-                "illuminate/config": "4.3.*",
                 "illuminate/console": "4.3.*",
                 "illuminate/container": "4.3.*",
-                "illuminate/events": "4.3.*",
                 "illuminate/http": "4.3.*",
                 "illuminate/support": "4.3.*",
                 "mockery/mockery": "0.9.*"
@@ -1175,7 +1173,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-08-22 13:04:39"
+            "time": "2014-09-03 10:28:08"
         },
         {
             "name": "orchestra/facile",
@@ -1183,15 +1181,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/facile.git",
-                "reference": "9c0ee1d2a2a78753869afe5cb06d2e6a979bb261"
+                "reference": "46008cf52be97d943b4520235e5c4600f1e67823"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/facile/zipball/9c0ee1d2a2a78753869afe5cb06d2e6a979bb261",
-                "reference": "9c0ee1d2a2a78753869afe5cb06d2e6a979bb261",
+                "url": "https://api.github.com/repos/orchestral/facile/zipball/46008cf52be97d943b4520235e5c4600f1e67823",
+                "reference": "46008cf52be97d943b4520235e5c4600f1e67823",
                 "shasum": ""
             },
             "require": {
+                "illuminate/contracts": "4.3.*",
                 "orchestra/support": "2.3.*",
                 "php": ">=5.4.0"
             },
@@ -1199,7 +1198,6 @@
                 "illuminate/database": "4.3.*",
                 "illuminate/http": "4.3.*",
                 "illuminate/pagination": "4.3.*",
-                "illuminate/view": "4.3.*",
                 "mockery/mockery": "0.9.*"
             },
             "suggest": {
@@ -1235,7 +1233,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-08-23 12:30:10"
+            "time": "2014-09-03 10:54:34"
         },
         {
             "name": "orchestra/foundation",
@@ -1321,27 +1319,25 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/html.git",
-                "reference": "aafd249ea9fbc0e989bde843b9154f604b430439"
+                "reference": "d59bf7bc41da1642304d9f83daeca7c433a52eb8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/html/zipball/aafd249ea9fbc0e989bde843b9154f604b430439",
-                "reference": "aafd249ea9fbc0e989bde843b9154f604b430439",
+                "url": "https://api.github.com/repos/orchestral/html/zipball/d59bf7bc41da1642304d9f83daeca7c433a52eb8",
+                "reference": "d59bf7bc41da1642304d9f83daeca7c433a52eb8",
                 "shasum": ""
             },
             "require": {
+                "illuminate/contracts": "4.3.*",
                 "illuminate/html": "4.3.*",
                 "orchestra/support": "2.3.*",
                 "php": ">=5.4.0"
             },
             "require-dev": {
-                "illuminate/config": "4.3.*",
-                "illuminate/container": "4.3.*",
                 "illuminate/database": "4.3.*",
                 "illuminate/pagination": "4.3.*",
                 "illuminate/routing": "4.3.*",
                 "illuminate/translation": "4.3.*",
-                "illuminate/view": "4.3.*",
                 "mockery/mockery": "0.9.*",
                 "patchwork/utf8": "1.1.*"
             },
@@ -1381,7 +1377,7 @@
                 "orchestral",
                 "table"
             ],
-            "time": "2014-08-26 02:19:16"
+            "time": "2014-09-03 11:13:29"
         },
         {
             "name": "orchestra/http",
@@ -1389,20 +1385,21 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/http.git",
-                "reference": "ccee989bbf1e9b63851abd0f11e97e2af7e4966c"
+                "reference": "67a8b5e8553db7829606cc0ee61f934dc699ca59"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/http/zipball/ccee989bbf1e9b63851abd0f11e97e2af7e4966c",
-                "reference": "ccee989bbf1e9b63851abd0f11e97e2af7e4966c",
+                "url": "https://api.github.com/repos/orchestral/http/zipball/67a8b5e8553db7829606cc0ee61f934dc699ca59",
+                "reference": "67a8b5e8553db7829606cc0ee61f934dc699ca59",
                 "shasum": ""
             },
             "require": {
+                "illuminate/contracts": "4.3.*",
                 "orchestra/support": "2.3.*",
                 "php": ">=5.4.0"
             },
             "require-dev": {
-                "laravel/framework": "4.3.*",
+                "illuminate/container": "4.3.*",
                 "mockery/mockery": "0.9.*",
                 "orchestra/extension": "2.3.*"
             },
@@ -1429,7 +1426,7 @@
                 }
             ],
             "description": "HTTP Component for Orchestra Platform 2",
-            "time": "2014-09-03 00:04:54"
+            "time": "2014-09-03 10:32:27"
         },
         {
             "name": "orchestra/memory",
@@ -1437,12 +1434,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/memory.git",
-                "reference": "23ef228b7698c4844a012eb3617d3dd39bcf74ea"
+                "reference": "477270bebf740ba8ad7dd3c1efae4bb5a6171cb3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/memory/zipball/23ef228b7698c4844a012eb3617d3dd39bcf74ea",
-                "reference": "23ef228b7698c4844a012eb3617d3dd39bcf74ea",
+                "url": "https://api.github.com/repos/orchestral/memory/zipball/477270bebf740ba8ad7dd3c1efae4bb5a6171cb3",
+                "reference": "477270bebf740ba8ad7dd3c1efae4bb5a6171cb3",
                 "shasum": ""
             },
             "require": {
@@ -1494,7 +1491,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-09-01 09:50:11"
+            "time": "2014-09-03 12:02:00"
         },
         {
             "name": "orchestra/messages",
@@ -1502,12 +1499,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/messages.git",
-                "reference": "5e12be992e9e16217f0f2b1529d33d466d8527f4"
+                "reference": "c36e228ee84d15aa7e199a7b32f7dde9f1d96557"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/messages/zipball/5e12be992e9e16217f0f2b1529d33d466d8527f4",
-                "reference": "5e12be992e9e16217f0f2b1529d33d466d8527f4",
+                "url": "https://api.github.com/repos/orchestral/messages/zipball/c36e228ee84d15aa7e199a7b32f7dde9f1d96557",
+                "reference": "c36e228ee84d15aa7e199a7b32f7dde9f1d96557",
                 "shasum": ""
             },
             "require": {
@@ -1555,7 +1552,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-08-03 05:12:47"
+            "time": "2014-09-03 14:56:06"
         },
         {
             "name": "orchestra/model",
@@ -1563,12 +1560,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/model.git",
-                "reference": "267934ee5adbabc75bf105394ff61d2c2f11c4be"
+                "reference": "bd09ee5bbc6595d5c24963f07ae05360d5e8d2d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/model/zipball/267934ee5adbabc75bf105394ff61d2c2f11c4be",
-                "reference": "267934ee5adbabc75bf105394ff61d2c2f11c4be",
+                "url": "https://api.github.com/repos/orchestral/model/zipball/bd09ee5bbc6595d5c24963f07ae05360d5e8d2d5",
+                "reference": "bd09ee5bbc6595d5c24963f07ae05360d5e8d2d5",
                 "shasum": ""
             },
             "require": {
@@ -1612,7 +1609,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-08-23 01:25:03"
+            "time": "2014-09-03 15:41:13"
         },
         {
             "name": "orchestra/notifier",
@@ -1620,15 +1617,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/notifier.git",
-                "reference": "df70e0ad551acbfb4ff2e6e11eae656dd0e02625"
+                "reference": "5aaa2b126c6294578a262020d1939e5a59ed9c71"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/notifier/zipball/df70e0ad551acbfb4ff2e6e11eae656dd0e02625",
-                "reference": "df70e0ad551acbfb4ff2e6e11eae656dd0e02625",
+                "url": "https://api.github.com/repos/orchestral/notifier/zipball/5aaa2b126c6294578a262020d1939e5a59ed9c71",
+                "reference": "5aaa2b126c6294578a262020d1939e5a59ed9c71",
                 "shasum": ""
             },
             "require": {
+                "illuminate/contracts": "4.3.*",
                 "orchestra/memory": "2.3.*",
                 "php": ">=5.4.0"
             },
@@ -1669,7 +1667,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-08-23 12:46:04"
+            "time": "2014-09-04 05:08:07"
         },
         {
             "name": "orchestra/optimize",
@@ -1732,12 +1730,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/publisher.git",
-                "reference": "8276e9e03d7f240e58249b3edff1bb6f199dc1c9"
+                "reference": "53a50713316433ce38b156c173c7735ac893209d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/publisher/zipball/8276e9e03d7f240e58249b3edff1bb6f199dc1c9",
-                "reference": "8276e9e03d7f240e58249b3edff1bb6f199dc1c9",
+                "url": "https://api.github.com/repos/orchestral/publisher/zipball/53a50713316433ce38b156c173c7735ac893209d",
+                "reference": "53a50713316433ce38b156c173c7735ac893209d",
                 "shasum": ""
             },
             "require": {
@@ -1785,7 +1783,7 @@
                 "orchestral",
                 "orchestral-platform"
             ],
-            "time": "2014-07-23 22:53:09"
+            "time": "2014-09-03 15:27:04"
         },
         {
             "name": "orchestra/resources",
@@ -1793,12 +1791,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/resources.git",
-                "reference": "08b13bec0996234eed79b6febe7d1c2370be87dc"
+                "reference": "26aad5ffb6e9306ef5033171eceb0cdc87dc2bc7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/resources/zipball/08b13bec0996234eed79b6febe7d1c2370be87dc",
-                "reference": "08b13bec0996234eed79b6febe7d1c2370be87dc",
+                "url": "https://api.github.com/repos/orchestral/resources/zipball/26aad5ffb6e9306ef5033171eceb0cdc87dc2bc7",
+                "reference": "26aad5ffb6e9306ef5033171eceb0cdc87dc2bc7",
                 "shasum": ""
             },
             "require": {
@@ -1844,7 +1842,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-08-04 01:38:49"
+            "time": "2014-09-04 03:40:12"
         },
         {
             "name": "orchestra/story",
@@ -1974,12 +1972,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/translation.git",
-                "reference": "7c1ae1a616ecee311cd7f7808ea7ba58e1bea6a7"
+                "reference": "ad87b89f4d6eed578f9ff0cbb712aa7e1288a0f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/translation/zipball/7c1ae1a616ecee311cd7f7808ea7ba58e1bea6a7",
-                "reference": "7c1ae1a616ecee311cd7f7808ea7ba58e1bea6a7",
+                "url": "https://api.github.com/repos/orchestral/translation/zipball/ad87b89f4d6eed578f9ff0cbb712aa7e1288a0f5",
+                "reference": "ad87b89f4d6eed578f9ff0cbb712aa7e1288a0f5",
                 "shasum": ""
             },
             "require": {
@@ -2022,7 +2020,7 @@
                 "orchestral",
                 "translation"
             ],
-            "time": "2014-08-14 14:02:03"
+            "time": "2014-09-03 14:38:18"
         },
         {
             "name": "orchestra/view",
@@ -2030,12 +2028,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/view.git",
-                "reference": "5f2f4735f65bc7664b9a7f1004fcec206dfb5c6e"
+                "reference": "8c2b30b396b55fa4f1ed4be4ff1a182336a77198"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/view/zipball/5f2f4735f65bc7664b9a7f1004fcec206dfb5c6e",
-                "reference": "5f2f4735f65bc7664b9a7f1004fcec206dfb5c6e",
+                "url": "https://api.github.com/repos/orchestral/view/zipball/8c2b30b396b55fa4f1ed4be4ff1a182336a77198",
+                "reference": "8c2b30b396b55fa4f1ed4be4ff1a182336a77198",
                 "shasum": ""
             },
             "require": {
@@ -2083,7 +2081,7 @@
                 "theme",
                 "view"
             ],
-            "time": "2014-08-14 10:32:24"
+            "time": "2014-09-04 09:32:22"
         },
         {
             "name": "orchestra/widget",
@@ -2091,12 +2089,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/widget.git",
-                "reference": "42622ef33f055a43ed143e0d10e4e00158f8d6ea"
+                "reference": "96c1f6926f7fa54c5af787186d6bfdc084b19f8b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/widget/zipball/42622ef33f055a43ed143e0d10e4e00158f8d6ea",
-                "reference": "42622ef33f055a43ed143e0d10e4e00158f8d6ea",
+                "url": "https://api.github.com/repos/orchestral/widget/zipball/96c1f6926f7fa54c5af787186d6bfdc084b19f8b",
+                "reference": "96c1f6926f7fa54c5af787186d6bfdc084b19f8b",
                 "shasum": ""
             },
             "require": {
@@ -2142,7 +2140,7 @@
                 "orchestral",
                 "widget"
             ],
-            "time": "2014-08-14 14:00:50"
+            "time": "2014-09-03 17:57:30"
         },
         {
             "name": "patchwork/utf8",
@@ -2849,7 +2847,7 @@
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v2.5.3",
+            "version": "v2.5.4",
             "target-dir": "Symfony/Component/EventDispatcher",
             "source": {
                 "type": "git",
@@ -2906,17 +2904,17 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v2.5.3",
+            "version": "v2.5.4",
             "target-dir": "Symfony/Component/Filesystem",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Filesystem.git",
-                "reference": "c1309b0ee195ad264a4314435bdaecdfacb8ae9c"
+                "reference": "a765efd199e02ff4001c115c318e219030be9364"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Filesystem/zipball/c1309b0ee195ad264a4314435bdaecdfacb8ae9c",
-                "reference": "c1309b0ee195ad264a4314435bdaecdfacb8ae9c",
+                "url": "https://api.github.com/repos/symfony/Filesystem/zipball/a765efd199e02ff4001c115c318e219030be9364",
+                "reference": "a765efd199e02ff4001c115c318e219030be9364",
                 "shasum": ""
             },
             "require": {
@@ -2949,7 +2947,7 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "http://symfony.com",
-            "time": "2014-07-09 09:05:48"
+            "time": "2014-09-03 09:00:14"
         },
         {
             "name": "symfony/finder",
@@ -2958,12 +2956,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Finder.git",
-                "reference": "d43931fa00edf66b9f83dc624c36d67b0c74a509"
+                "reference": "b7b98cf609a94ebc4cd299b736282901223a4b12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Finder/zipball/d43931fa00edf66b9f83dc624c36d67b0c74a509",
-                "reference": "d43931fa00edf66b9f83dc624c36d67b0c74a509",
+                "url": "https://api.github.com/repos/symfony/Finder/zipball/b7b98cf609a94ebc4cd299b736282901223a4b12",
+                "reference": "b7b98cf609a94ebc4cd299b736282901223a4b12",
                 "shasum": ""
             },
             "require": {
@@ -2996,7 +2994,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "http://symfony.com",
-            "time": "2014-08-31 03:28:38"
+            "time": "2014-09-03 09:12:11"
         },
         {
             "name": "symfony/http-foundation",
@@ -3060,12 +3058,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpKernel.git",
-                "reference": "acd4607163c88b627b4e1e444ac0af27846a9787"
+                "reference": "3ee13b9e3df25e8695324db7adb6a33bda6b9b3e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/HttpKernel/zipball/acd4607163c88b627b4e1e444ac0af27846a9787",
-                "reference": "acd4607163c88b627b4e1e444ac0af27846a9787",
+                "url": "https://api.github.com/repos/symfony/HttpKernel/zipball/3ee13b9e3df25e8695324db7adb6a33bda6b9b3e",
+                "reference": "3ee13b9e3df25e8695324db7adb6a33bda6b9b3e",
                 "shasum": ""
             },
             "require": {
@@ -3122,7 +3120,7 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "http://symfony.com",
-            "time": "2014-08-31 03:32:49"
+            "time": "2014-09-03 09:12:11"
         },
         {
             "name": "symfony/process",
@@ -3244,12 +3242,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/security-core.git",
-                "reference": "dd5649bbabaaa9a5ed6fe76de720b046cead1382"
+                "reference": "d234eea02581c28f77d1aee06b1f4d6b47618e83"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/security-core/zipball/dd5649bbabaaa9a5ed6fe76de720b046cead1382",
-                "reference": "dd5649bbabaaa9a5ed6fe76de720b046cead1382",
+                "url": "https://api.github.com/repos/symfony/security-core/zipball/d234eea02581c28f77d1aee06b1f4d6b47618e83",
+                "reference": "d234eea02581c28f77d1aee06b1f4d6b47618e83",
                 "shasum": ""
             },
             "require": {
@@ -3297,7 +3295,7 @@
             ],
             "description": "Symfony Security Component - Core Library",
             "homepage": "http://symfony.com",
-            "time": "2014-08-26 14:16:42"
+            "time": "2014-09-03 09:22:23"
         },
         {
             "name": "symfony/translation",
@@ -3306,12 +3304,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Translation.git",
-                "reference": "6e1a96744f513ee1f80d28a467aab62be2e0235d"
+                "reference": "bdab9642c2f131c12a824803656fcbbbe065e284"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Translation/zipball/6e1a96744f513ee1f80d28a467aab62be2e0235d",
-                "reference": "6e1a96744f513ee1f80d28a467aab62be2e0235d",
+                "url": "https://api.github.com/repos/symfony/Translation/zipball/bdab9642c2f131c12a824803656fcbbbe065e284",
+                "reference": "bdab9642c2f131c12a824803656fcbbbe065e284",
                 "shasum": ""
             },
             "require": {
@@ -3352,7 +3350,7 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "http://symfony.com",
-            "time": "2014-08-27 12:56:02"
+            "time": "2014-09-03 09:12:11"
         }
     ],
     "packages-dev": [
@@ -3591,16 +3589,16 @@
         },
         {
             "name": "mockery/mockery",
-            "version": "0.9.1",
+            "version": "0.9.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/padraic/mockery.git",
-                "reference": "17f63ee40ed14a8afb7ba1f0ae15cc4491d719d1"
+                "reference": "95a4855380dc70176c51807c678fb3bd6198529a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/padraic/mockery/zipball/17f63ee40ed14a8afb7ba1f0ae15cc4491d719d1",
-                "reference": "17f63ee40ed14a8afb7ba1f0ae15cc4491d719d1",
+                "url": "https://api.github.com/repos/padraic/mockery/zipball/95a4855380dc70176c51807c678fb3bd6198529a",
+                "reference": "95a4855380dc70176c51807c678fb3bd6198529a",
                 "shasum": ""
             },
             "require": {
@@ -3653,7 +3651,7 @@
                 "test double",
                 "testing"
             ],
-            "time": "2014-05-02 12:16:45"
+            "time": "2014-09-03 10:11:10"
         },
         {
             "name": "ocramius/instantiator",
@@ -4417,17 +4415,17 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v2.5.3",
+            "version": "v2.5.4",
             "target-dir": "Symfony/Component/Yaml",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Yaml.git",
-                "reference": "5a75366ae9ca8b4792cd0083e4ca4dff9fe96f1f"
+                "reference": "01a7695bcfb013d0a15c6757e15aae120342986f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Yaml/zipball/5a75366ae9ca8b4792cd0083e4ca4dff9fe96f1f",
-                "reference": "5a75366ae9ca8b4792cd0083e4ca4dff9fe96f1f",
+                "url": "https://api.github.com/repos/symfony/Yaml/zipball/01a7695bcfb013d0a15c6757e15aae120342986f",
+                "reference": "01a7695bcfb013d0a15c6757e15aae120342986f",
                 "shasum": ""
             },
             "require": {
@@ -4460,7 +4458,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "http://symfony.com",
-            "time": "2014-08-05 09:00:40"
+            "time": "2014-08-31 03:22:04"
         }
     ],
     "aliases": [],
