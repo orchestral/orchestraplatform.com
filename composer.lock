@@ -521,12 +521,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "3af74dac3eda2cdcdb42b35cbb9212779683b9b4"
+                "reference": "42b0784fdaa1059f0190d20ff7e33d58b96a8c67"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/3af74dac3eda2cdcdb42b35cbb9212779683b9b4",
-                "reference": "3af74dac3eda2cdcdb42b35cbb9212779683b9b4",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/42b0784fdaa1059f0190d20ff7e33d58b96a8c67",
+                "reference": "42b0784fdaa1059f0190d20ff7e33d58b96a8c67",
                 "shasum": ""
             },
             "require": {
@@ -627,7 +627,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-09-03 20:07:20"
+            "time": "2014-09-04 14:15:15"
         },
         {
             "name": "league/flysystem",
@@ -1118,12 +1118,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/extension.git",
-                "reference": "b10378005462e881e5ebf986cce7e1df1b242abc"
+                "reference": "a65b46b2bc3b5c14e13dddfeb0bcf0778875a000"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/extension/zipball/b10378005462e881e5ebf986cce7e1df1b242abc",
-                "reference": "b10378005462e881e5ebf986cce7e1df1b242abc",
+                "url": "https://api.github.com/repos/orchestral/extension/zipball/a65b46b2bc3b5c14e13dddfeb0bcf0778875a000",
+                "reference": "a65b46b2bc3b5c14e13dddfeb0bcf0778875a000",
                 "shasum": ""
             },
             "require": {
@@ -1173,7 +1173,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-09-03 10:28:08"
+            "time": "2014-09-04 15:42:09"
         },
         {
             "name": "orchestra/facile",
@@ -2028,21 +2028,23 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/view.git",
-                "reference": "8c2b30b396b55fa4f1ed4be4ff1a182336a77198"
+                "reference": "a81ff207e97987da6ae5802a1cd0787919a09db1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/view/zipball/8c2b30b396b55fa4f1ed4be4ff1a182336a77198",
-                "reference": "8c2b30b396b55fa4f1ed4be4ff1a182336a77198",
+                "url": "https://api.github.com/repos/orchestral/view/zipball/a81ff207e97987da6ae5802a1cd0787919a09db1",
+                "reference": "a81ff207e97987da6ae5802a1cd0787919a09db1",
                 "shasum": ""
             },
             "require": {
+                "illuminate/contracts": "4.3.*",
                 "orchestra/memory": "2.3.*",
                 "php": ">=5.4.0"
             },
             "require-dev": {
                 "illuminate/console": "4.3.*",
                 "illuminate/container": "4.3.*",
+                "illuminate/events": "4.3.*",
                 "illuminate/view": "4.3.*",
                 "mockery/mockery": "0.9.*"
             },
@@ -2081,7 +2083,7 @@
                 "theme",
                 "view"
             ],
-            "time": "2014-09-04 09:32:22"
+            "time": "2014-09-04 15:27:30"
         },
         {
             "name": "orchestra/widget",
