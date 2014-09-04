@@ -1,6 +1,7 @@
 <?php
 
 use Carbon\Carbon;
+use Illuminate\Database\Seeder;
 use Kurenai\DocumentParser;
 use Orchestra\Story\Model\Content;
 
