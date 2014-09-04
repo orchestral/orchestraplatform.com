@@ -2028,12 +2028,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/view.git",
-                "reference": "a81ff207e97987da6ae5802a1cd0787919a09db1"
+                "reference": "bbd1303365c89bb701c24b74beea3c430157f903"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/view/zipball/a81ff207e97987da6ae5802a1cd0787919a09db1",
-                "reference": "a81ff207e97987da6ae5802a1cd0787919a09db1",
+                "url": "https://api.github.com/repos/orchestral/view/zipball/bbd1303365c89bb701c24b74beea3c430157f903",
+                "reference": "bbd1303365c89bb701c24b74beea3c430157f903",
                 "shasum": ""
             },
             "require": {
@@ -2083,7 +2083,7 @@
                 "theme",
                 "view"
             ],
-            "time": "2014-09-04 15:27:30"
+            "time": "2014-09-04 17:02:18"
         },
         {
             "name": "orchestra/widget",
