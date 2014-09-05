@@ -1434,12 +1434,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/memory.git",
-                "reference": "477270bebf740ba8ad7dd3c1efae4bb5a6171cb3"
+                "reference": "a8e5611f7d0ade447d4d13ffee98b266e378dcaf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/memory/zipball/477270bebf740ba8ad7dd3c1efae4bb5a6171cb3",
-                "reference": "477270bebf740ba8ad7dd3c1efae4bb5a6171cb3",
+                "url": "https://api.github.com/repos/orchestral/memory/zipball/a8e5611f7d0ade447d4d13ffee98b266e378dcaf",
+                "reference": "a8e5611f7d0ade447d4d13ffee98b266e378dcaf",
                 "shasum": ""
             },
             "require": {
@@ -1491,7 +1491,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-09-03 12:02:00"
+            "time": "2014-09-05 08:15:51"
         },
         {
             "name": "orchestra/messages",
@@ -2028,12 +2028,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/view.git",
-                "reference": "bbd1303365c89bb701c24b74beea3c430157f903"
+                "reference": "7b55966f68092159a5f04fc137b2764b80c3850d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/view/zipball/bbd1303365c89bb701c24b74beea3c430157f903",
-                "reference": "bbd1303365c89bb701c24b74beea3c430157f903",
+                "url": "https://api.github.com/repos/orchestral/view/zipball/7b55966f68092159a5f04fc137b2764b80c3850d",
+                "reference": "7b55966f68092159a5f04fc137b2764b80c3850d",
                 "shasum": ""
             },
             "require": {
@@ -2083,7 +2083,7 @@
                 "theme",
                 "view"
             ],
-            "time": "2014-09-04 17:02:18"
+            "time": "2014-09-05 04:27:26"
         },
         {
             "name": "orchestra/widget",
@@ -3060,12 +3060,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpKernel.git",
-                "reference": "3ee13b9e3df25e8695324db7adb6a33bda6b9b3e"
+                "reference": "48918338e531309221ebe3d4385b61ab5f360f4d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/HttpKernel/zipball/3ee13b9e3df25e8695324db7adb6a33bda6b9b3e",
-                "reference": "3ee13b9e3df25e8695324db7adb6a33bda6b9b3e",
+                "url": "https://api.github.com/repos/symfony/HttpKernel/zipball/48918338e531309221ebe3d4385b61ab5f360f4d",
+                "reference": "48918338e531309221ebe3d4385b61ab5f360f4d",
                 "shasum": ""
             },
             "require": {
@@ -3122,7 +3122,7 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "http://symfony.com",
-            "time": "2014-09-03 09:12:11"
+            "time": "2014-09-04 19:31:49"
         },
         {
             "name": "symfony/process",
