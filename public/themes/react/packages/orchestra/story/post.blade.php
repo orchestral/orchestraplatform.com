@@ -11,14 +11,14 @@ Site::set('html::header', ['class' => 'navbar-inverse normal']); ?>
 		<div class="row">
 			<div class="col-md-12 post">
 				<div class="title">
-					<a href="{{ $page->link }}">{{ $page->title }}</a>
+					<a href="{!! $page->link !!}">{!! $page->title !!}</a>
 				</div>
 				<div class="author">
 					{{-- <img src="images/testimonials/testimonial2.jpg" class="avatar" alt="author" /> --}}
 					{{ $page->author->fullname }} on {{ $page->published_at->toFormattedDateString() }}
 				</div>
 				<div class="content">
-					{{ $page->body }}
+					{!! $page->body !!}
 				</div>
 
 				<div id="disqus_thread"></div>

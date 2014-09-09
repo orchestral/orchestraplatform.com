@@ -11,7 +11,7 @@
 	<p>The page you're looking for doesn't exist.</p>
 
 	<p class="go-back">
-		Continue to our <a href="{{ handles('app::/') }}">Home page</a>.
+		Continue to our <a href="{!! handles('app::/') !!}">Home page</a>.
 	</p>
 </div>
 <div id="container">

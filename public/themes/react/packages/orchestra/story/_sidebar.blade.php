@@ -6,7 +6,7 @@
 	</strong>
 	<p>
 		Never miss an update.
-		Subscribe to <a href="{{ handles('orchestra/story::rss') }}">the feed</a>.
+		Subscribe to <a href="{!! handles('orchestra/story::rss') !!}">the feed</a>.
 	</p>
 </div>
 <div class="follow-tw"></div>
