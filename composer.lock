@@ -391,12 +391,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/html.git",
-                "reference": "823d69b277266730d123c0c388b704e63af35628"
+                "reference": "3b6955936855733a7b27c0c12b6d72ab244779b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/html/zipball/823d69b277266730d123c0c388b704e63af35628",
-                "reference": "823d69b277266730d123c0c388b704e63af35628",
+                "url": "https://api.github.com/repos/illuminate/html/zipball/3b6955936855733a7b27c0c12b6d72ab244779b2",
+                "reference": "3b6955936855733a7b27c0c12b6d72ab244779b2",
                 "shasum": ""
             },
             "require": {
@@ -414,7 +414,10 @@
             "autoload": {
                 "psr-4": {
                     "Illuminate\\Html\\": ""
-                }
+                },
+                "files": [
+                    "helpers.php"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -426,7 +429,7 @@
                     "email": "taylorotwell@gmail.com"
                 }
             ],
-            "time": "2014-08-21 17:54:16"
+            "time": "2014-09-09 16:25:34"
         },
         {
             "name": "ircmaxell/password-compat",
@@ -521,12 +524,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "7588983c8f59756535f8d281eef033960d3eb7bf"
+                "reference": "1293e7458cd5daf8aa264b64586e474d14e3615c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/7588983c8f59756535f8d281eef033960d3eb7bf",
-                "reference": "7588983c8f59756535f8d281eef033960d3eb7bf",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/1293e7458cd5daf8aa264b64586e474d14e3615c",
+                "reference": "1293e7458cd5daf8aa264b64586e474d14e3615c",
                 "shasum": ""
             },
             "require": {
@@ -628,20 +631,20 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-09-09 14:22:53"
+            "time": "2014-09-10 13:37:16"
         },
         {
             "name": "league/flysystem",
-            "version": "0.5.5",
+            "version": "0.5.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "17bb2a0f522f3d325b6406a9db0292bc7484ade5"
+                "reference": "6f626418670641bc643962cd85b2d33ec4c87137"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/17bb2a0f522f3d325b6406a9db0292bc7484ade5",
-                "reference": "17bb2a0f522f3d325b6406a9db0292bc7484ade5",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/6f626418670641bc643962cd85b2d33ec4c87137",
+                "reference": "6f626418670641bc643962cd85b2d33ec4c87137",
                 "shasum": ""
             },
             "require": {
@@ -649,7 +652,9 @@
             },
             "require-dev": {
                 "aws/aws-sdk-php": "~2.4",
+                "barracuda/copy": "~1.1.4",
                 "dropbox/dropbox-sdk": "~1.1.1",
+                "guzzlehttp/guzzle": "~4.0",
                 "league/event": "~0.3",
                 "league/phpunit-coverage-listener": "~1.1",
                 "mockery/mockery": "~0.9@dev",
@@ -662,7 +667,9 @@
             },
             "suggest": {
                 "aws/aws-sdk-php": "Allows you to use AWS S3 storage",
+                "barracuda/copy": "Allows you to use Copy.com storage",
                 "dropbox/dropbox-sdk": "Allows you to use Dropbox storage",
+                "guzzlehttp/guzzle": "Allows you to use http files (reading only)",
                 "league/event": "Required for EventableFilesystem",
                 "phpseclib/phpseclib": "Allows SFTP server storage",
                 "predis/predis": "Allows you to use Predis for caching",
@@ -672,7 +679,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.6-dev"
+                    "dev-master": "0.5-dev"
                 }
             },
             "autoload": {
@@ -704,7 +711,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2014-08-26 11:05:47"
+            "time": "2014-09-06 17:49:44"
         },
         {
             "name": "monolog/monolog",
@@ -776,16 +783,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "1.11.0",
+            "version": "1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "2b60366be6dcb9f9cd3e244ab25eb98eaea99551"
+                "reference": "cde7a00d1410a17fb6d61b993cb017a78be1137c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/2b60366be6dcb9f9cd3e244ab25eb98eaea99551",
-                "reference": "2b60366be6dcb9f9cd3e244ab25eb98eaea99551",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/cde7a00d1410a17fb6d61b993cb017a78be1137c",
+                "reference": "cde7a00d1410a17fb6d61b993cb017a78be1137c",
                 "shasum": ""
             },
             "require": {
@@ -818,7 +825,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2014-08-26 03:18:44"
+            "time": "2014-09-10 03:26:33"
         },
         {
             "name": "nikic/php-parser",
@@ -1242,12 +1249,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "c02d953bb2b2cd6d0337e951650719fe297ad3f8"
+                "reference": "fa257763e25b01e350cd0b690759ee2095c9c939"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/c02d953bb2b2cd6d0337e951650719fe297ad3f8",
-                "reference": "c02d953bb2b2cd6d0337e951650719fe297ad3f8",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/fa257763e25b01e350cd0b690759ee2095c9c939",
+                "reference": "fa257763e25b01e350cd0b690759ee2095c9c939",
                 "shasum": ""
             },
             "require": {
@@ -1312,7 +1319,7 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2014-09-09 14:24:18"
+            "time": "2014-09-09 14:32:31"
         },
         {
             "name": "orchestra/html",
@@ -2430,21 +2437,25 @@
         },
         {
             "name": "react/stream",
-            "version": "v0.4.1",
+            "version": "v0.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/stream.git",
-                "reference": "9db28e85a6fe7b57fad5e8c036f3434bcb8c8f60"
+                "reference": "acc7a5fec02e0aea674560e1d13c40ed0c8c5465"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/stream/zipball/9db28e85a6fe7b57fad5e8c036f3434bcb8c8f60",
-                "reference": "9db28e85a6fe7b57fad5e8c036f3434bcb8c8f60",
+                "url": "https://api.github.com/repos/reactphp/stream/zipball/acc7a5fec02e0aea674560e1d13c40ed0c8c5465",
+                "reference": "acc7a5fec02e0aea674560e1d13c40ed0c8c5465",
                 "shasum": ""
             },
             "require": {
                 "evenement/evenement": "~2.0",
                 "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "react/event-loop": "0.4.*",
+                "react/promise": "~2.0"
             },
             "suggest": {
                 "react/event-loop": "0.4.*",
@@ -2453,12 +2464,12 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.4-dev"
+                    "dev-master": "0.5-dev"
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "React\\Stream\\": ""
+                    "React\\Stream\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2470,7 +2481,7 @@
                 "pipe",
                 "stream"
             ],
-            "time": "2014-03-30 17:19:02"
+            "time": "2014-09-10 03:32:31"
         },
         {
             "name": "stack/builder",
