@@ -2,6 +2,6 @@
 
 return [
     'providers' => append_config([
-        'Bugsnag\BugsnagLaravel\BugsnagLaravelServiceProvider',
+        //'Bugsnag\BugsnagLaravel\BugsnagLaravelServiceProvider',
     ]),
 ];

@@ -2,12 +2,11 @@
 	"description": "Orchestra Platform Website",
 	"license": "proprietary",
 	"require": {
-		"orchestra/foundation": "2.3.*",
-		"orchestra/control": "2.3.*",
-		"orchestra/story": "2.3.*",
+		"orchestra/foundation": "3.0.*",
+		"orchestra/control": "3.0.*",
+		"orchestra/story": "3.0.*",
 		"daylerees/kurenai": "~1.0",
-		"pda/pheanstalk": "~3.0",
-		"bugsnag/bugsnag-laravel": "~1.0"
+		"pda/pheanstalk": "~3.0"
 	},
 	"require-dev": {
 		"mockery/mockery": "0.9.*",

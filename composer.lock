@@ -4,103 +4,8 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d6900f53c08713b7e5247879f4cc9870",
+    "hash": "cb61490c33001df63fe1de3bf46fceeb",
     "packages": [
-        {
-            "name": "bugsnag/bugsnag",
-            "version": "v2.3.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/bugsnag/bugsnag-php.git",
-                "reference": "869a72bf261a1d7ad514d9ac511733bd9faa6ccb"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/bugsnag/bugsnag-php/zipball/869a72bf261a1d7ad514d9ac511733bd9faa6ccb",
-                "reference": "869a72bf261a1d7ad514d9ac511733bd9faa6ccb",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.2.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "3.7.*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Bugsnag_": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "James Smith",
-                    "email": "notifiers@bugsnag.com",
-                    "homepage": "https://bugsnag.com"
-                }
-            ],
-            "description": "Official Bugsnag notifier for PHP applications.",
-            "homepage": "https://github.com/bugsnag/bugsnag-php",
-            "keywords": [
-                "bugsnag",
-                "errors",
-                "exceptions",
-                "logging",
-                "tracking"
-            ],
-            "time": "2014-09-05 20:59:28"
-        },
-        {
-            "name": "bugsnag/bugsnag-laravel",
-            "version": "v1.0.9",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/bugsnag/bugsnag-laravel.git",
-                "reference": "1be7703e7e0582e46dfe30ac946a14ecbb44e647"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/bugsnag/bugsnag-laravel/zipball/1be7703e7e0582e46dfe30ac946a14ecbb44e647",
-                "reference": "1be7703e7e0582e46dfe30ac946a14ecbb44e647",
-                "shasum": ""
-            },
-            "require": {
-                "bugsnag/bugsnag": ">=2.3.0",
-                "illuminate/support": "~4.0",
-                "php": ">=5.3.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Bugsnag\\BugsnagLaravel\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "James Smith",
-                    "email": "notifiers@bugsnag.com"
-                }
-            ],
-            "description": "Official Bugsnag notifier for Laravel applications.",
-            "homepage": "https://github.com/bugsnag/bugsnag-laravel",
-            "keywords": [
-                "bugsnag",
-                "errors",
-                "exceptions",
-                "laravel",
-                "logging",
-                "tracking"
-            ],
-            "time": "2014-08-06 23:51:58"
-        },
         {
             "name": "classpreloader/classpreloader",
             "version": "1.0.2",
@@ -391,24 +296,24 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/html.git",
-                "reference": "3b6955936855733a7b27c0c12b6d72ab244779b2"
+                "reference": "1076478696f786833a1b753be5097c2e82d36a6e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/html/zipball/3b6955936855733a7b27c0c12b6d72ab244779b2",
-                "reference": "3b6955936855733a7b27c0c12b6d72ab244779b2",
+                "url": "https://api.github.com/repos/illuminate/html/zipball/1076478696f786833a1b753be5097c2e82d36a6e",
+                "reference": "1076478696f786833a1b753be5097c2e82d36a6e",
                 "shasum": ""
             },
             "require": {
-                "illuminate/http": "~4.3",
-                "illuminate/session": "~4.3",
-                "illuminate/support": "~4.3",
+                "illuminate/http": "~5.0",
+                "illuminate/session": "~5.0",
+                "illuminate/support": "~5.0",
                 "php": ">=5.4.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.3-dev"
+                    "dev-master": "5.0-dev"
                 }
             },
             "autoload": {
@@ -429,7 +334,7 @@
                     "email": "taylorotwell@gmail.com"
                 }
             ],
-            "time": "2014-09-09 16:25:34"
+            "time": "2014-09-12 14:32:46"
         },
         {
             "name": "ircmaxell/password-compat",
@@ -524,12 +429,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "1293e7458cd5daf8aa264b64586e474d14e3615c"
+                "reference": "be101265c08aaeec3d6dbea8d7e04adb587000c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/1293e7458cd5daf8aa264b64586e474d14e3615c",
-                "reference": "1293e7458cd5daf8aa264b64586e474d14e3615c",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/be101265c08aaeec3d6dbea8d7e04adb587000c9",
+                "reference": "be101265c08aaeec3d6dbea8d7e04adb587000c9",
                 "shasum": ""
             },
             "require": {
@@ -596,12 +501,13 @@
                 "phpunit/phpunit": "~4.0"
             },
             "suggest": {
-                "doctrine/dbal": "Allow renaming columns and dropping SQLite columns."
+                "doctrine/dbal": "Allow renaming columns and dropping SQLite columns.",
+                "guzzlehttp/guzzle": "Required for Mailgun and Mandrill mail drivers."
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.3-dev"
+                    "dev-master": "5.0-dev"
                 }
             },
             "autoload": {
@@ -631,7 +537,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-09-10 13:37:16"
+            "time": "2014-09-12 22:01:49"
         },
         {
             "name": "league/flysystem",
@@ -878,31 +784,31 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/asset.git",
-                "reference": "0568d1da4399f2bdb3134f5823f7b17e0f3ff421"
+                "reference": "380b0e30317eaf0fc1b0719f560cde83add366b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/asset/zipball/0568d1da4399f2bdb3134f5823f7b17e0f3ff421",
-                "reference": "0568d1da4399f2bdb3134f5823f7b17e0f3ff421",
+                "url": "https://api.github.com/repos/orchestral/asset/zipball/380b0e30317eaf0fc1b0719f560cde83add366b7",
+                "reference": "380b0e30317eaf0fc1b0719f560cde83add366b7",
                 "shasum": ""
             },
             "require": {
-                "orchestra/html": "2.3.*",
+                "orchestra/html": "3.0.*",
                 "php": ">=5.4.0"
             },
             "require-dev": {
-                "illuminate/filesystem": "4.3.*",
+                "illuminate/filesystem": "5.0.*",
                 "mockery/mockery": "0.9.*"
             },
             "suggest": {
                 "illuminate/filesystem": "Allow using orchestra/asset component outside of Laravel app",
-                "laravel/framework": "Allow using orchestra/asset component outside of Orchestra Platform 2",
-                "orchestra/foundation": "Allow using orchestra/asset with Orchestra Platform 2"
+                "laravel/framework": "Allow using orchestra/asset component outside of Orchestra Platform",
+                "orchestra/foundation": "Allow using orchestra/asset with Orchestra Platform"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.3-dev"
+                    "dev-master": "3.0-dev"
                 }
             },
             "autoload": {
@@ -921,7 +827,7 @@
                     "homepage": "https://github.com/crynobone"
                 }
             ],
-            "description": "Asset Component for Orchestra Platform 2",
+            "description": "Asset Component for Orchestra Platform",
             "homepage": "http://orchestraplatform.com/docs/latest/components/asset/",
             "keywords": [
                 "asset",
@@ -929,7 +835,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-09-03 10:29:41"
+            "time": "2014-09-12 12:26:23"
         },
         {
             "name": "orchestra/auth",
@@ -937,34 +843,34 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/auth.git",
-                "reference": "e37f96e1d389b08753bf2763d2f744669311ea59"
+                "reference": "9c00f836fe219115081af603df6d72614996f263"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/auth/zipball/e37f96e1d389b08753bf2763d2f744669311ea59",
-                "reference": "e37f96e1d389b08753bf2763d2f744669311ea59",
+                "url": "https://api.github.com/repos/orchestral/auth/zipball/9c00f836fe219115081af603df6d72614996f263",
+                "reference": "9c00f836fe219115081af603df6d72614996f263",
                 "shasum": ""
             },
             "require": {
-                "illuminate/contracts": "4.3.*",
-                "orchestra/memory": "2.3.*",
+                "illuminate/contracts": "5.0.*",
+                "orchestra/memory": "3.0.*",
                 "php": ">=5.4.0"
             },
             "require-dev": {
-                "illuminate/auth": "4.3.*",
-                "illuminate/database": "4.3.*",
+                "illuminate/auth": "5.0.*",
+                "illuminate/database": "5.0.*",
                 "mockery/mockery": "0.9.*",
                 "patchwork/utf8": "1.1.*"
             },
             "suggest": {
-                "laravel/framework": "Allow using orchestra/auth component outside of Orchestra Platform 2",
-                "orchestra/foundation": "Allow using orchestra/auth with Orchestra Platform 2",
-                "orchestra/model": "Allow using orchestra/auth component outside of Orchestra Platform 2"
+                "laravel/framework": "Allow using orchestra/auth component outside of Orchestra Platform",
+                "orchestra/foundation": "Allow using orchestra/auth with Orchestra Platform",
+                "orchestra/model": "Allow using orchestra/auth component outside of Orchestra Platform"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.3-dev"
+                    "dev-master": "3.0-dev"
                 }
             },
             "autoload": {
@@ -986,7 +892,7 @@
                     "homepage": "https://github.com/crynobone"
                 }
             ],
-            "description": "Orchestra Platform 2 Auth Component",
+            "description": "Auth Component for Orchestra Platform",
             "homepage": "http://orchestraplatform.com/docs/latest/components/auth/",
             "keywords": [
                 "acl",
@@ -997,7 +903,7 @@
                 "permission",
                 "rbac"
             ],
-            "time": "2014-09-03 09:33:25"
+            "time": "2014-09-12 12:25:36"
         },
         {
             "name": "orchestra/control",
@@ -1005,12 +911,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/control.git",
-                "reference": "666ef783fd6d69fb33ea522d40fce2aed10164e1"
+                "reference": "92561d9f16faa5ab4bf4fcc473cf70dfc9eb1171"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/control/zipball/666ef783fd6d69fb33ea522d40fce2aed10164e1",
-                "reference": "666ef783fd6d69fb33ea522d40fce2aed10164e1",
+                "url": "https://api.github.com/repos/orchestral/control/zipball/92561d9f16faa5ab4bf4fcc473cf70dfc9eb1171",
+                "reference": "92561d9f16faa5ab4bf4fcc473cf70dfc9eb1171",
                 "shasum": ""
             },
             "require": {
@@ -1018,14 +924,13 @@
             },
             "require-dev": {
                 "mockery/mockery": "0.9.*",
-                "orchestra/foundation": "2.3.*",
-                "orchestra/support": "2.3.*",
-                "orchestra/testbench": "2.3.*"
+                "orchestra/foundation": "3.0.*",
+                "orchestra/testbench": "3.0.*"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.3-dev"
+                    "dev-master": "3.0-dev"
                 }
             },
             "autoload": {
@@ -1044,7 +949,7 @@
                     "homepage": "https://github.com/crynobone"
                 }
             ],
-            "description": "Control Extension for Orchestra Platform 2",
+            "description": "Control Extension for Orchestra Platform",
             "keywords": [
                 "extension",
                 "laravel",
@@ -1054,7 +959,7 @@
                 "theme",
                 "timezone"
             ],
-            "time": "2014-09-09 13:37:02"
+            "time": "2014-09-12 12:22:38"
         },
         {
             "name": "orchestra/debug",
@@ -1062,35 +967,35 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/debug.git",
-                "reference": "df1c3b5ccc4dc744362d5295c3dd34d0661e008a"
+                "reference": "c1b73c5166e4708087f966c190382a00e226025c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/debug/zipball/df1c3b5ccc4dc744362d5295c3dd34d0661e008a",
-                "reference": "df1c3b5ccc4dc744362d5295c3dd34d0661e008a",
+                "url": "https://api.github.com/repos/orchestral/debug/zipball/c1b73c5166e4708087f966c190382a00e226025c",
+                "reference": "c1b73c5166e4708087f966c190382a00e226025c",
                 "shasum": ""
             },
             "require": {
-                "orchestra/support": "2.3.*",
+                "orchestra/support": "3.0.*",
                 "php": ">=5.4.0",
                 "react/socket": "0.4.*"
             },
             "require-dev": {
-                "illuminate/console": "4.3.*",
-                "illuminate/container": "4.3.*",
-                "illuminate/events": "4.3.*",
-                "illuminate/log": "4.3.*",
-                "illuminate/support": "4.3.*",
+                "illuminate/console": "5.0.*",
+                "illuminate/container": "5.0.*",
+                "illuminate/events": "5.0.*",
+                "illuminate/log": "5.0.*",
+                "illuminate/support": "5.0.*",
                 "mockery/mockery": "0.9.*",
                 "monolog/monolog": "1.*"
             },
             "suggest": {
-                "laravel/framework": "Allow using orchestra/debug as added feature for Laravel 4.*"
+                "laravel/framework": "Allow using orchestra/debug as added feature for Laravel"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.3-dev"
+                    "dev-master": "3.0-dev"
                 }
             },
             "autoload": {
@@ -1109,7 +1014,7 @@
                     "homepage": "https://github.com/crynobone"
                 }
             ],
-            "description": "Artisan Debug Profiler for Laravel 4",
+            "description": "Artisan Debug Profiler for Laravel",
             "homepage": "http://orchestraplatform.com/docs/latest/components/debug/",
             "keywords": [
                 "debug",
@@ -1118,7 +1023,7 @@
                 "orchestral",
                 "profiler"
             ],
-            "time": "2014-08-16 10:01:29"
+            "time": "2014-09-12 12:21:31"
         },
         {
             "name": "orchestra/extension",
@@ -1126,35 +1031,35 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/extension.git",
-                "reference": "a65b46b2bc3b5c14e13dddfeb0bcf0778875a000"
+                "reference": "e3935c7953cbeb1a2d6f6f23625768c0c74a1ed0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/extension/zipball/a65b46b2bc3b5c14e13dddfeb0bcf0778875a000",
-                "reference": "a65b46b2bc3b5c14e13dddfeb0bcf0778875a000",
+                "url": "https://api.github.com/repos/orchestral/extension/zipball/e3935c7953cbeb1a2d6f6f23625768c0c74a1ed0",
+                "reference": "e3935c7953cbeb1a2d6f6f23625768c0c74a1ed0",
                 "shasum": ""
             },
             "require": {
-                "illuminate/contracts": "4.3.*",
-                "orchestra/memory": "2.3.*",
-                "orchestra/publisher": "2.3.*",
+                "illuminate/contracts": "5.0.*",
+                "orchestra/memory": "3.0.*",
+                "orchestra/publisher": "3.0.*",
                 "php": ">=5.4.0"
             },
             "require-dev": {
-                "illuminate/console": "4.3.*",
-                "illuminate/container": "4.3.*",
-                "illuminate/http": "4.3.*",
-                "illuminate/support": "4.3.*",
+                "illuminate/console": "5.0.*",
+                "illuminate/container": "5.0.*",
+                "illuminate/http": "5.0.*",
+                "illuminate/support": "5.0.*",
                 "mockery/mockery": "0.9.*"
             },
             "suggest": {
-                "laravel/framework": "Allow using orchestra/extension component outside of Orchestra Platform 2",
-                "orchestra/foundation": "Allow using orchestra/extension with Orchestra Platform 2"
+                "laravel/framework": "Allow using orchestra/extension component outside of Orchestra Platform",
+                "orchestra/foundation": "Allow using orchestra/extension with Orchestra Platform"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.3-dev"
+                    "dev-master": "3.0-dev"
                 }
             },
             "autoload": {
@@ -1173,7 +1078,7 @@
                     "homepage": "https://github.com/crynobone"
                 }
             ],
-            "description": "Orchestra Platform 2 Extension Component",
+            "description": "Extension Component for Orchestra Platform",
             "homepage": "http://orchestraplatform.com/docs/latest/components/extension/",
             "keywords": [
                 "extension",
@@ -1181,7 +1086,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-09-04 15:42:09"
+            "time": "2014-09-12 12:19:38"
         },
         {
             "name": "orchestra/facile",
@@ -1189,33 +1094,33 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/facile.git",
-                "reference": "aee53a49db2aa3ae56e10899aaea20862db0a3f9"
+                "reference": "9a3361cc2ab5b794efb8ea932c8a96b568c25a10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/facile/zipball/aee53a49db2aa3ae56e10899aaea20862db0a3f9",
-                "reference": "aee53a49db2aa3ae56e10899aaea20862db0a3f9",
+                "url": "https://api.github.com/repos/orchestral/facile/zipball/9a3361cc2ab5b794efb8ea932c8a96b568c25a10",
+                "reference": "9a3361cc2ab5b794efb8ea932c8a96b568c25a10",
                 "shasum": ""
             },
             "require": {
-                "illuminate/contracts": "4.3.*",
-                "orchestra/support": "2.3.*",
+                "illuminate/contracts": "5.0.*",
+                "orchestra/support": "3.0.*",
                 "php": ">=5.4.0"
             },
             "require-dev": {
-                "illuminate/database": "4.3.*",
-                "illuminate/http": "4.3.*",
-                "illuminate/pagination": "4.3.*",
+                "illuminate/database": "5.0.*",
+                "illuminate/http": "5.0.*",
+                "illuminate/pagination": "5.0.*",
                 "mockery/mockery": "0.9.*"
             },
             "suggest": {
-                "laravel/framework": "Allow using orchestra/facile component outside of Orchestra Platform 2",
-                "orchestra/foundation": "Allow using orchestra/facile with Orchestra Platform 2"
+                "laravel/framework": "Allow using orchestra/facile component outside of Orchestra Platform",
+                "orchestra/foundation": "Allow using orchestra/facile with Orchestra Platform"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.3-dev"
+                    "dev-master": "3.0-dev"
                 }
             },
             "autoload": {
@@ -1234,14 +1139,14 @@
                     "homepage": "https://github.com/crynobone"
                 }
             ],
-            "description": "Orchestra Platform 2 Facile Component",
+            "description": "Facile Component for Orchestra Platform",
             "homepage": "http://orchestraplatform.com/docs/latest/components/facile/",
             "keywords": [
                 "laravel",
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-09-09 08:17:05"
+            "time": "2014-09-13 13:08:02"
         },
         {
             "name": "orchestra/foundation",
@@ -1249,45 +1154,45 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "fa257763e25b01e350cd0b690759ee2095c9c939"
+                "reference": "710b2a1244b80511ec12928d43354bdf4607b858"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/fa257763e25b01e350cd0b690759ee2095c9c939",
-                "reference": "fa257763e25b01e350cd0b690759ee2095c9c939",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/710b2a1244b80511ec12928d43354bdf4607b858",
+                "reference": "710b2a1244b80511ec12928d43354bdf4607b858",
                 "shasum": ""
             },
             "require": {
-                "laravel/framework": "4.3.*",
-                "orchestra/asset": "2.3.*",
-                "orchestra/auth": "2.3.*",
-                "orchestra/debug": "2.3.*",
-                "orchestra/extension": "2.3.*",
-                "orchestra/facile": "2.3.*",
-                "orchestra/html": "2.3.*",
-                "orchestra/http": "2.3.*",
-                "orchestra/memory": "2.3.*",
-                "orchestra/messages": "2.3.*",
-                "orchestra/model": "2.3.*",
-                "orchestra/notifier": "2.3.*",
-                "orchestra/optimize": "2.3.*",
-                "orchestra/publisher": "2.3.*",
-                "orchestra/resources": "2.3.*",
-                "orchestra/support": "2.3.*",
-                "orchestra/translation": "2.3.*",
-                "orchestra/view": "2.3.*",
-                "orchestra/widget": "2.3.*",
+                "laravel/framework": "5.0.*",
+                "orchestra/asset": "3.0.*",
+                "orchestra/auth": "3.0.*",
+                "orchestra/debug": "3.0.*",
+                "orchestra/extension": "3.0.*",
+                "orchestra/facile": "3.0.*",
+                "orchestra/html": "3.0.*",
+                "orchestra/http": "3.0.*",
+                "orchestra/memory": "3.0.*",
+                "orchestra/messages": "3.0.*",
+                "orchestra/model": "3.0.*",
+                "orchestra/notifier": "3.0.*",
+                "orchestra/optimize": "3.0.*",
+                "orchestra/publisher": "3.0.*",
+                "orchestra/resources": "3.0.*",
+                "orchestra/support": "3.0.*",
+                "orchestra/translation": "3.0.*",
+                "orchestra/view": "3.0.*",
+                "orchestra/widget": "3.0.*",
                 "php": ">=5.4.0"
             },
             "require-dev": {
                 "mockery/mockery": "0.9.*",
-                "orchestra/testbench": "2.3.*",
+                "orchestra/testbench": "3.0.*",
                 "twbs/bootstrap": "~3@stable"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.3-dev"
+                    "dev-master": "3.0-dev"
                 }
             },
             "autoload": {
@@ -1309,7 +1214,7 @@
                     "homepage": "https://github.com/crynobone"
                 }
             ],
-            "description": "Orchestra Platform 2 Foundation Component",
+            "description": "Orchestra Platform Foundation",
             "homepage": "http://orchestraplatform.com/docs/latest/",
             "keywords": [
                 "admin",
@@ -1319,7 +1224,7 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2014-09-09 14:32:31"
+            "time": "2014-09-12 12:16:25"
         },
         {
             "name": "orchestra/html",
@@ -1327,36 +1232,36 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/html.git",
-                "reference": "a17f36997fc6109d89e78c48ac43f419604e3af2"
+                "reference": "295a483a32dc8299f2a7ae2a5608a90d2b60e2a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/html/zipball/a17f36997fc6109d89e78c48ac43f419604e3af2",
-                "reference": "a17f36997fc6109d89e78c48ac43f419604e3af2",
+                "url": "https://api.github.com/repos/orchestral/html/zipball/295a483a32dc8299f2a7ae2a5608a90d2b60e2a4",
+                "reference": "295a483a32dc8299f2a7ae2a5608a90d2b60e2a4",
                 "shasum": ""
             },
             "require": {
-                "illuminate/contracts": "4.3.*",
-                "illuminate/html": "4.3.*",
-                "orchestra/support": "2.3.*",
+                "illuminate/contracts": "5.0.*",
+                "illuminate/html": "5.0.*",
+                "orchestra/support": "3.0.*",
                 "php": ">=5.4.0"
             },
             "require-dev": {
-                "illuminate/database": "4.3.*",
-                "illuminate/pagination": "4.3.*",
-                "illuminate/routing": "4.3.*",
-                "illuminate/translation": "4.3.*",
+                "illuminate/database": "5.0.*",
+                "illuminate/pagination": "5.0.*",
+                "illuminate/routing": "5.0.*",
+                "illuminate/translation": "5.0.*",
                 "mockery/mockery": "0.9.*",
                 "patchwork/utf8": "1.1.*"
             },
             "suggest": {
-                "laravel/framework": "Allow using orchestra/html component outside of Orchestra Platform 2",
-                "orchestra/foundation": "Allow using orchestra/html with Orchestra Platform 2"
+                "laravel/framework": "Allow using orchestra/html component outside of Orchestra Platform",
+                "orchestra/foundation": "Allow using orchestra/html with Orchestra Platform"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.3-dev"
+                    "dev-master": "3.0-dev"
                 }
             },
             "autoload": {
@@ -1375,7 +1280,7 @@
                     "homepage": "https://github.com/crynobone"
                 }
             ],
-            "description": "HTML Component for Orchestra Platform 2",
+            "description": "HTML Component for Orchestra Platform",
             "homepage": "http://orchestraplatform.com/docs/latest/components/html/",
             "keywords": [
                 "form",
@@ -1385,7 +1290,7 @@
                 "orchestral",
                 "table"
             ],
-            "time": "2014-09-09 08:22:00"
+            "time": "2014-09-12 12:14:58"
         },
         {
             "name": "orchestra/http",
@@ -1393,28 +1298,29 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/http.git",
-                "reference": "67a8b5e8553db7829606cc0ee61f934dc699ca59"
+                "reference": "3f81eb72e2587869dde83d5d6a640c25e3eda5e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/http/zipball/67a8b5e8553db7829606cc0ee61f934dc699ca59",
-                "reference": "67a8b5e8553db7829606cc0ee61f934dc699ca59",
+                "url": "https://api.github.com/repos/orchestral/http/zipball/3f81eb72e2587869dde83d5d6a640c25e3eda5e2",
+                "reference": "3f81eb72e2587869dde83d5d6a640c25e3eda5e2",
                 "shasum": ""
             },
             "require": {
-                "illuminate/contracts": "4.3.*",
-                "orchestra/support": "2.3.*",
+                "illuminate/contracts": "5.0.*",
+                "orchestra/support": "3.0.*",
                 "php": ">=5.4.0"
             },
             "require-dev": {
-                "illuminate/container": "4.3.*",
+                "illuminate/container": "5.0.*",
+                "laravel/framework": "5.0.*",
                 "mockery/mockery": "0.9.*",
-                "orchestra/extension": "2.3.*"
+                "orchestra/extension": "3.0.*"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.3-dev"
+                    "dev-master": "3.0-dev"
                 }
             },
             "autoload": {
@@ -1434,7 +1340,7 @@
                 }
             ],
             "description": "HTTP Component for Orchestra Platform 2",
-            "time": "2014-09-03 10:32:27"
+            "time": "2014-09-12 17:10:38"
         },
         {
             "name": "orchestra/memory",
@@ -1442,33 +1348,33 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/memory.git",
-                "reference": "a8e5611f7d0ade447d4d13ffee98b266e378dcaf"
+                "reference": "e8273f36f242f2a33cacb65a9d5b4d053a2fd7a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/memory/zipball/a8e5611f7d0ade447d4d13ffee98b266e378dcaf",
-                "reference": "a8e5611f7d0ade447d4d13ffee98b266e378dcaf",
+                "url": "https://api.github.com/repos/orchestral/memory/zipball/e8273f36f242f2a33cacb65a9d5b4d053a2fd7a3",
+                "reference": "e8273f36f242f2a33cacb65a9d5b4d053a2fd7a3",
                 "shasum": ""
             },
             "require": {
-                "orchestra/support": "2.3.*",
+                "orchestra/support": "3.0.*",
                 "php": ">=5.4.0"
             },
             "require-dev": {
-                "illuminate/cache": "4.3.*",
-                "illuminate/container": "4.3.*",
-                "illuminate/database": "4.3.*",
-                "illuminate/support": "4.3.*",
+                "illuminate/cache": "5.0.*",
+                "illuminate/container": "5.0.*",
+                "illuminate/database": "5.0.*",
+                "illuminate/support": "5.0.*",
                 "mockery/mockery": "0.9.*"
             },
             "suggest": {
-                "laravel/framework": "Allow using orchestra/memory component outside of Orchestra Platform 2",
-                "orchestra/foundation": "Allow using orchestra/memory with Orchestra Platform 2"
+                "laravel/framework": "Allow using orchestra/memory component outside of Orchestra Platform",
+                "orchestra/foundation": "Allow using orchestra/memory with Orchestra Platform"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.3-dev"
+                    "dev-master": "3.0-dev"
                 }
             },
             "autoload": {
@@ -1490,7 +1396,7 @@
                     "homepage": "https://github.com/crynobone"
                 }
             ],
-            "description": "Memory Component for Orchestra Platform 2",
+            "description": "Memory Component for Orchestra Platform",
             "homepage": "http://orchestraplatform.com/docs/latest/components/memory/",
             "keywords": [
                 "config",
@@ -1499,7 +1405,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-09-05 08:15:51"
+            "time": "2014-09-12 12:12:13"
         },
         {
             "name": "orchestra/messages",
@@ -1507,32 +1413,32 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/messages.git",
-                "reference": "c36e228ee84d15aa7e199a7b32f7dde9f1d96557"
+                "reference": "f88e25e3680a775f33930a51bad5dafc52dd65d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/messages/zipball/c36e228ee84d15aa7e199a7b32f7dde9f1d96557",
-                "reference": "c36e228ee84d15aa7e199a7b32f7dde9f1d96557",
+                "url": "https://api.github.com/repos/orchestral/messages/zipball/f88e25e3680a775f33930a51bad5dafc52dd65d8",
+                "reference": "f88e25e3680a775f33930a51bad5dafc52dd65d8",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4.0"
             },
             "require-dev": {
-                "illuminate/container": "4.3.*",
-                "illuminate/session": "4.3.*",
-                "illuminate/support": "4.3.*",
+                "illuminate/container": "5.0.*",
+                "illuminate/session": "5.0.*",
+                "illuminate/support": "5.0.*",
                 "mockery/mockery": "0.9.*",
                 "patchwork/utf8": "1.1.*"
             },
             "suggest": {
-                "laravel/framework": "Allow using orchestra/support component outside of Orchestra Platform 2",
-                "orchestra/foundation": "Allow using orchestra/support with Orchestra Platform 2"
+                "laravel/framework": "Allow using orchestra/support component outside of Orchestra Platform",
+                "orchestra/foundation": "Allow using orchestra/support with Orchestra Platform"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.3-dev"
+                    "dev-master": "3.0-dev"
                 }
             },
             "autoload": {
@@ -1551,7 +1457,7 @@
                     "homepage": "https://github.com/crynobone"
                 }
             ],
-            "description": "Messages Component for Laravel 4 and Orchestra Platform 2",
+            "description": "Messages Component for Laravel and Orchestra Platform",
             "homepage": "http://orchestraplatform.com/docs/latest/components/messages/",
             "keywords": [
                 "laravel",
@@ -1560,7 +1466,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-09-03 14:56:06"
+            "time": "2014-09-12 12:11:51"
         },
         {
             "name": "orchestra/model",
@@ -1568,29 +1474,29 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/model.git",
-                "reference": "bd09ee5bbc6595d5c24963f07ae05360d5e8d2d5"
+                "reference": "f7656538e59208fb4cb7c2e5c070c27fd7187c77"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/model/zipball/bd09ee5bbc6595d5c24963f07ae05360d5e8d2d5",
-                "reference": "bd09ee5bbc6595d5c24963f07ae05360d5e8d2d5",
+                "url": "https://api.github.com/repos/orchestral/model/zipball/f7656538e59208fb4cb7c2e5c070c27fd7187c77",
+                "reference": "f7656538e59208fb4cb7c2e5c070c27fd7187c77",
                 "shasum": ""
             },
             "require": {
-                "illuminate/contracts": "4.3.*",
-                "orchestra/notifier": "2.3.*",
-                "orchestra/support": "2.3.*",
+                "illuminate/contracts": "5.0.*",
+                "orchestra/notifier": "3.0.*",
+                "orchestra/support": "3.0.*",
                 "php": ">=5.4.0"
             },
             "require-dev": {
-                "illuminate/auth": "4.3.*",
-                "illuminate/database": "4.3.*",
+                "illuminate/auth": "5.0.*",
+                "illuminate/database": "5.0.*",
                 "mockery/mockery": "0.9.*"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.3-dev"
+                    "dev-master": "3.0-dev"
                 }
             },
             "autoload": {
@@ -1609,7 +1515,7 @@
                     "homepage": "https://github.com/crynobone"
                 }
             ],
-            "description": "Orchestra Platform 2 Model Component",
+            "description": "Model Component for Orchestra Platform",
             "homepage": "http://orchestraplatform.com/docs/latest/components/model",
             "keywords": [
                 "laravel",
@@ -1617,7 +1523,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-09-03 15:41:13"
+            "time": "2014-09-12 12:11:24"
         },
         {
             "name": "orchestra/notifier",
@@ -1625,31 +1531,31 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/notifier.git",
-                "reference": "5aaa2b126c6294578a262020d1939e5a59ed9c71"
+                "reference": "50c1d7d3ed54572a8f02dd86d68fabf3eb69e621"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/notifier/zipball/5aaa2b126c6294578a262020d1939e5a59ed9c71",
-                "reference": "5aaa2b126c6294578a262020d1939e5a59ed9c71",
+                "url": "https://api.github.com/repos/orchestral/notifier/zipball/50c1d7d3ed54572a8f02dd86d68fabf3eb69e621",
+                "reference": "50c1d7d3ed54572a8f02dd86d68fabf3eb69e621",
                 "shasum": ""
             },
             "require": {
-                "illuminate/contracts": "4.3.*",
-                "orchestra/memory": "2.3.*",
+                "illuminate/contracts": "5.0.*",
+                "orchestra/memory": "3.0.*",
                 "php": ">=5.4.0"
             },
             "require-dev": {
-                "illuminate/auth": "4.3.*",
-                "illuminate/mail": "4.3.*",
-                "illuminate/queue": "4.3.*",
-                "illuminate/support": "4.3.*",
+                "illuminate/auth": "5.0.*",
+                "illuminate/mail": "5.0.*",
+                "illuminate/queue": "5.0.*",
+                "illuminate/support": "5.0.*",
                 "jeremeamia/superclosure": "1.0.*",
                 "mockery/mockery": "0.9.*"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.3-dev"
+                    "dev-master": "3.0-dev"
                 }
             },
             "autoload": {
@@ -1668,14 +1574,14 @@
                     "homepage": "https://github.com/crynobone"
                 }
             ],
-            "description": "Orchestra Platform 2 User Notification Component",
+            "description": "User Notification Component for Orchestra Platform",
             "keywords": [
                 "laravel",
                 "mailer",
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-09-04 05:08:07"
+            "time": "2014-09-12 12:10:56"
         },
         {
             "name": "orchestra/optimize",
@@ -1683,30 +1589,30 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/optimize.git",
-                "reference": "7b38f6bd4efdc759a6691aa4d3f2e87ac0f492ed"
+                "reference": "60ba55bb6001f3a4892c615f59899a63ffbee873"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/optimize/zipball/7b38f6bd4efdc759a6691aa4d3f2e87ac0f492ed",
-                "reference": "7b38f6bd4efdc759a6691aa4d3f2e87ac0f492ed",
+                "url": "https://api.github.com/repos/orchestral/optimize/zipball/60ba55bb6001f3a4892c615f59899a63ffbee873",
+                "reference": "60ba55bb6001f3a4892c615f59899a63ffbee873",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4.0"
             },
             "require-dev": {
-                "illuminate/config": "4.3.*",
-                "illuminate/console": "4.3.*",
-                "illuminate/container": "4.3.*",
-                "illuminate/events": "4.3.*",
-                "illuminate/filesystem": "4.3.*",
-                "illuminate/support": "4.3.*",
+                "illuminate/config": "5.0.*",
+                "illuminate/console": "5.0.*",
+                "illuminate/container": "5.0.*",
+                "illuminate/events": "5.0.*",
+                "illuminate/filesystem": "5.0.*",
+                "illuminate/support": "5.0.*",
                 "mockery/mockery": "0.9.*"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.3-dev"
+                    "dev-master": "3.0-dev"
                 }
             },
             "autoload": {
@@ -1725,12 +1631,12 @@
                     "homepage": "https://github.com/crynobone"
                 }
             ],
-            "description": "Orchestra Platform 2 Optimize Component",
+            "description": "Optimize Component for Orchestra Platform",
             "keywords": [
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-09-09 13:59:42"
+            "time": "2014-09-12 12:10:08"
         },
         {
             "name": "orchestra/publisher",
@@ -1738,24 +1644,24 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/publisher.git",
-                "reference": "53a50713316433ce38b156c173c7735ac893209d"
+                "reference": "b721ce7f7236d5c13b85983fdfb797c3a5b15ce6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/publisher/zipball/53a50713316433ce38b156c173c7735ac893209d",
-                "reference": "53a50713316433ce38b156c173c7735ac893209d",
+                "url": "https://api.github.com/repos/orchestral/publisher/zipball/b721ce7f7236d5c13b85983fdfb797c3a5b15ce6",
+                "reference": "b721ce7f7236d5c13b85983fdfb797c3a5b15ce6",
                 "shasum": ""
             },
             "require": {
-                "illuminate/support": "4.3.*",
+                "illuminate/support": "5.0.*",
                 "php": ">=5.4.0"
             },
             "require-dev": {
-                "illuminate/container": "4.3.*",
-                "illuminate/database": "4.3.*",
-                "illuminate/filesystem": "4.3.*",
+                "illuminate/container": "5.0.*",
+                "illuminate/database": "5.0.*",
+                "illuminate/filesystem": "5.0.*",
                 "mockery/mockery": "0.9.*",
-                "orchestra/extension": "2.3.*"
+                "orchestra/extension": "3.0.*"
             },
             "suggest": {
                 "laravel/framework": "Allow using orchestra/extension component outside of Orchestra Platform 2",
@@ -1764,7 +1670,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.3-dev"
+                    "dev-master": "3.0-dev"
                 }
             },
             "autoload": {
@@ -1791,7 +1697,7 @@
                 "orchestral",
                 "orchestral-platform"
             ],
-            "time": "2014-09-03 15:27:04"
+            "time": "2014-09-12 00:04:19"
         },
         {
             "name": "orchestra/resources",
@@ -1799,32 +1705,32 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/resources.git",
-                "reference": "c9ee6bcb8a666f33289576346ff3d82e78e4f558"
+                "reference": "5fa0a63eca9f23ceae7db3c75cea7cfd75a5dcce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/resources/zipball/c9ee6bcb8a666f33289576346ff3d82e78e4f558",
-                "reference": "c9ee6bcb8a666f33289576346ff3d82e78e4f558",
+                "url": "https://api.github.com/repos/orchestral/resources/zipball/5fa0a63eca9f23ceae7db3c75cea7cfd75a5dcce",
+                "reference": "5fa0a63eca9f23ceae7db3c75cea7cfd75a5dcce",
                 "shasum": ""
             },
             "require": {
-                "orchestra/facile": "2.3.*",
+                "orchestra/facile": "3.0.*",
                 "php": ">=5.4.0"
             },
             "require-dev": {
-                "illuminate/events": "4.3.*",
-                "illuminate/http": "4.3.*",
-                "illuminate/routing": "4.3.*",
+                "illuminate/events": "5.0.*",
+                "illuminate/http": "5.0.*",
+                "illuminate/routing": "5.0.*",
                 "mockery/mockery": "0.9.*"
             },
             "suggest": {
-                "laravel/framework": "Allow using orchestra/resources component outside of Orchestra Platform 2",
-                "orchestra/foundation": "Allow using orchestra/resources with Orchestra Platform 2"
+                "laravel/framework": "Allow using orchestra/resources component outside of Orchestra Platform",
+                "orchestra/foundation": "Allow using orchestra/resources with Orchestra Platform"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.3-dev"
+                    "dev-master": "3.0-dev"
                 }
             },
             "autoload": {
@@ -1843,14 +1749,14 @@
                     "homepage": "https://github.com/crynobone"
                 }
             ],
-            "description": "Resources Component for Orchestra Platform 2",
+            "description": "Resources Component for Orchestra Platform",
             "homepage": "http://orchestraplatform.com/docs/latest/components/resources/",
             "keywords": [
                 "laravel",
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-09-06 12:38:04"
+            "time": "2014-09-12 12:06:04"
         },
         {
             "name": "orchestra/story",
@@ -1858,12 +1764,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/story.git",
-                "reference": "8287d213c28e297e9aac3e0a73ca21581abc6605"
+                "reference": "a6cf2196e47fa66d2edc6eb2388538964d990a16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/story/zipball/8287d213c28e297e9aac3e0a73ca21581abc6605",
-                "reference": "8287d213c28e297e9aac3e0a73ca21581abc6605",
+                "url": "https://api.github.com/repos/orchestral/story/zipball/a6cf2196e47fa66d2edc6eb2388538964d990a16",
+                "reference": "a6cf2196e47fa66d2edc6eb2388538964d990a16",
                 "shasum": ""
             },
             "require": {
@@ -1872,13 +1778,13 @@
             },
             "require-dev": {
                 "mockery/mockery": "0.9.*",
-                "orchestra/foundation": "2.3.*",
-                "orchestra/testbench": "2.3.*"
+                "orchestra/foundation": "3.0.*",
+                "orchestra/testbench": "3.0.*"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.3-dev"
+                    "dev-master": "3.0-dev"
                 }
             },
             "autoload": {
@@ -1900,14 +1806,14 @@
                     "homepage": "https://github.com/crynobone"
                 }
             ],
-            "description": "CMS Extension for Orchestra Platform 2",
+            "description": "CMS Extension for Orchestra Platform",
             "keywords": [
                 "cms",
                 "laravel",
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-09-09 13:51:04"
+            "time": "2014-09-12 12:03:40"
         },
         {
             "name": "orchestra/support",
@@ -1915,36 +1821,36 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/support.git",
-                "reference": "3c75a1c573229819b14f7e178b76a546cbbf5232"
+                "reference": "f215a3f10bf702dfc16ed37e243ab97c19b7fb53"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/support/zipball/3c75a1c573229819b14f7e178b76a546cbbf5232",
-                "reference": "3c75a1c573229819b14f7e178b76a546cbbf5232",
+                "url": "https://api.github.com/repos/orchestral/support/zipball/f215a3f10bf702dfc16ed37e243ab97c19b7fb53",
+                "reference": "f215a3f10bf702dfc16ed37e243ab97c19b7fb53",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4.0"
             },
             "require-dev": {
-                "illuminate/database": "4.3.*",
-                "illuminate/events": "4.3.*",
-                "illuminate/session": "4.3.*",
-                "illuminate/support": "4.3.*",
-                "illuminate/validation": "4.3.*",
+                "illuminate/database": "5.0.*",
+                "illuminate/events": "5.0.*",
+                "illuminate/session": "5.0.*",
+                "illuminate/support": "5.0.*",
+                "illuminate/validation": "5.0.*",
                 "mockery/mockery": "0.9.*",
-                "orchestra/messages": "2.3.*",
+                "orchestra/messages": "3.0.*",
                 "patchwork/utf8": "1.1.*"
             },
             "suggest": {
-                "laravel/framework": "Allow using orchestra/support component outside of Orchestra Platform 2",
-                "orchestra/foundation": "Allow using orchestra/support with Orchestra Platform 2",
+                "laravel/framework": "Allow using orchestra/support component outside of Orchestra Platform",
+                "orchestra/foundation": "Allow using orchestra/support with Orchestra Platform",
                 "orchestra/messages": "Allow using Messages component"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.3-dev"
+                    "dev-master": "3.0-dev"
                 }
             },
             "autoload": {
@@ -1963,7 +1869,7 @@
                     "homepage": "https://github.com/crynobone"
                 }
             ],
-            "description": "Support Component for Orchestra Platform 2",
+            "description": "Support Component for Orchestra Platform",
             "homepage": "http://orchestraplatform.com/docs/latest/components/support/",
             "keywords": [
                 "laravel",
@@ -1972,7 +1878,7 @@
                 "utilities",
                 "validator"
             ],
-            "time": "2014-09-03 06:32:12"
+            "time": "2014-09-12 07:27:37"
         },
         {
             "name": "orchestra/translation",
@@ -1980,19 +1886,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/translation.git",
-                "reference": "ad87b89f4d6eed578f9ff0cbb712aa7e1288a0f5"
+                "reference": "36cc95aa77220df4559c61a06cd0de00d5285c6e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/translation/zipball/ad87b89f4d6eed578f9ff0cbb712aa7e1288a0f5",
-                "reference": "ad87b89f4d6eed578f9ff0cbb712aa7e1288a0f5",
+                "url": "https://api.github.com/repos/orchestral/translation/zipball/36cc95aa77220df4559c61a06cd0de00d5285c6e",
+                "reference": "36cc95aa77220df4559c61a06cd0de00d5285c6e",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4.0"
             },
             "require-dev": {
-                "illuminate/translation": "4.3.*",
+                "illuminate/translation": "5.0.*",
                 "mockery/mockery": "0.9.*"
             },
             "suggest": {
@@ -2001,7 +1907,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.3-dev"
+                    "dev-master": "3.0-dev"
                 }
             },
             "autoload": {
@@ -2020,7 +1926,7 @@
                     "homepage": "https://github.com/crynobone"
                 }
             ],
-            "description": "Orchestra Platform 2 Translation Component",
+            "description": "Translation Component for Orchestra Platform",
             "homepage": "http://orchestraplatform.com/docs/latest/components/translation/",
             "keywords": [
                 "laravel",
@@ -2028,7 +1934,7 @@
                 "orchestral",
                 "translation"
             ],
-            "time": "2014-09-03 14:38:18"
+            "time": "2014-09-12 06:58:19"
         },
         {
             "name": "orchestra/view",
@@ -2036,34 +1942,34 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/view.git",
-                "reference": "7b55966f68092159a5f04fc137b2764b80c3850d"
+                "reference": "fb7eed0833581346692e04ba8088964b0d805be9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/view/zipball/7b55966f68092159a5f04fc137b2764b80c3850d",
-                "reference": "7b55966f68092159a5f04fc137b2764b80c3850d",
+                "url": "https://api.github.com/repos/orchestral/view/zipball/fb7eed0833581346692e04ba8088964b0d805be9",
+                "reference": "fb7eed0833581346692e04ba8088964b0d805be9",
                 "shasum": ""
             },
             "require": {
-                "illuminate/contracts": "4.3.*",
-                "orchestra/memory": "2.3.*",
+                "illuminate/contracts": "5.0.*",
+                "orchestra/memory": "3.0.*",
                 "php": ">=5.4.0"
             },
             "require-dev": {
-                "illuminate/console": "4.3.*",
-                "illuminate/container": "4.3.*",
-                "illuminate/events": "4.3.*",
-                "illuminate/view": "4.3.*",
+                "illuminate/console": "5.0.*",
+                "illuminate/container": "5.0.*",
+                "illuminate/events": "5.0.*",
+                "illuminate/view": "5.0.*",
                 "mockery/mockery": "0.9.*"
             },
             "suggest": {
-                "laravel/framework": "Allow using orchestra/view component outside of Orchestra Platform 2",
-                "orchestra/foundation": "Allow using orchestra/view with Orchestra Platform 2"
+                "laravel/framework": "Allow using orchestra/view component outside of Orchestra Platform",
+                "orchestra/foundation": "Allow using orchestra/view with Orchestra Platform"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.3-dev"
+                    "dev-master": "3.0-dev"
                 }
             },
             "autoload": {
@@ -2082,7 +1988,7 @@
                     "homepage": "https://github.com/crynobone"
                 }
             ],
-            "description": "Orchestra Platform 2 View Component",
+            "description": "View Component for Orchestra Platform",
             "homepage": "http://orchestraplatform.com/docs/latest/components/view/",
             "keywords": [
                 "laravel",
@@ -2091,7 +1997,7 @@
                 "theme",
                 "view"
             ],
-            "time": "2014-09-05 04:27:26"
+            "time": "2014-09-12 06:57:07"
         },
         {
             "name": "orchestra/widget",
@@ -2099,31 +2005,31 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/widget.git",
-                "reference": "96c1f6926f7fa54c5af787186d6bfdc084b19f8b"
+                "reference": "9ccbabeb305c8a5fe650cdccb4351c2d3bc173b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/widget/zipball/96c1f6926f7fa54c5af787186d6bfdc084b19f8b",
-                "reference": "96c1f6926f7fa54c5af787186d6bfdc084b19f8b",
+                "url": "https://api.github.com/repos/orchestral/widget/zipball/9ccbabeb305c8a5fe650cdccb4351c2d3bc173b7",
+                "reference": "9ccbabeb305c8a5fe650cdccb4351c2d3bc173b7",
                 "shasum": ""
             },
             "require": {
-                "orchestra/support": "2.3.*",
+                "orchestra/support": "3.0.*",
                 "php": ">=5.4.0"
             },
             "require-dev": {
-                "illuminate/container": "4.3.*",
-                "illuminate/support": "4.3.*",
+                "illuminate/container": "5.0.*",
+                "illuminate/support": "5.0.*",
                 "mockery/mockery": "0.9.*"
             },
             "suggest": {
-                "laravel/framework": "Allow using orchestra/widget component outside of Orchestra Platform 2",
-                "orchestra/foundation": "Allow using orchestra/widget with Orchestra Platform 2"
+                "laravel/framework": "Allow using orchestra/widget component outside of Orchestra Platform",
+                "orchestra/foundation": "Allow using orchestra/widget with Orchestra Platform"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.3-dev"
+                    "dev-master": "3.0-dev"
                 }
             },
             "autoload": {
@@ -2142,7 +2048,7 @@
                     "homepage": "https://github.com/crynobone"
                 }
             ],
-            "description": "Orchestra Platform 2 Widget Component",
+            "description": "Widget Component for Orchestra Platform",
             "homepage": "http://orchestraplatform.com/docs/latest/components/widget/",
             "keywords": [
                 "laravel",
@@ -2150,7 +2056,7 @@
                 "orchestral",
                 "widget"
             ],
-            "time": "2014-09-03 17:57:30"
+            "time": "2014-09-12 06:43:34"
         },
         {
             "name": "patchwork/utf8",
