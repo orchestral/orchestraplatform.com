@@ -429,12 +429,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "be101265c08aaeec3d6dbea8d7e04adb587000c9"
+                "reference": "37729d1f01d19f89d33bac3e6dc446f74a3ad36f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/be101265c08aaeec3d6dbea8d7e04adb587000c9",
-                "reference": "be101265c08aaeec3d6dbea8d7e04adb587000c9",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/37729d1f01d19f89d33bac3e6dc446f74a3ad36f",
+                "reference": "37729d1f01d19f89d33bac3e6dc446f74a3ad36f",
                 "shasum": ""
             },
             "require": {
@@ -537,20 +537,20 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-09-12 22:01:49"
+            "time": "2014-09-15 04:06:39"
         },
         {
             "name": "league/flysystem",
-            "version": "0.5.6",
+            "version": "0.5.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "6f626418670641bc643962cd85b2d33ec4c87137"
+                "reference": "63759ca1f3bb25d52946f684b54fe3821d084215"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/6f626418670641bc643962cd85b2d33ec4c87137",
-                "reference": "6f626418670641bc643962cd85b2d33ec4c87137",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/63759ca1f3bb25d52946f684b54fe3821d084215",
+                "reference": "63759ca1f3bb25d52946f684b54fe3821d084215",
                 "shasum": ""
             },
             "require": {
@@ -561,14 +561,14 @@
                 "barracuda/copy": "~1.1.4",
                 "dropbox/dropbox-sdk": "~1.1.1",
                 "guzzlehttp/guzzle": "~4.0",
-                "league/event": "~0.3",
+                "league/event": "~1.0",
                 "league/phpunit-coverage-listener": "~1.1",
-                "mockery/mockery": "~0.9@dev",
+                "mockery/mockery": "~0.9",
                 "phpseclib/phpseclib": "~0.3.5",
                 "phpspec/phpspec": "~2.0",
                 "phpunit/phpunit": "~4.0",
                 "predis/predis": "~1.0",
-                "rackspace/php-opencloud": "~1.9.1",
+                "rackspace/php-opencloud": "~1.10.0",
                 "sabre/dav": "~2.0.2"
             },
             "suggest": {
@@ -617,7 +617,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2014-09-06 17:49:44"
+            "time": "2014-09-16 06:55:04"
         },
         {
             "name": "monolog/monolog",
@@ -1154,12 +1154,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "710b2a1244b80511ec12928d43354bdf4607b858"
+                "reference": "7eff7e2a7a71e7010c15e4c059629f514ee0cd4d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/710b2a1244b80511ec12928d43354bdf4607b858",
-                "reference": "710b2a1244b80511ec12928d43354bdf4607b858",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/7eff7e2a7a71e7010c15e4c059629f514ee0cd4d",
+                "reference": "7eff7e2a7a71e7010c15e4c059629f514ee0cd4d",
                 "shasum": ""
             },
             "require": {
@@ -1224,7 +1224,7 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2014-09-12 12:16:25"
+            "time": "2014-09-14 23:53:23"
         },
         {
             "name": "orchestra/html",
@@ -1298,12 +1298,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/http.git",
-                "reference": "3f81eb72e2587869dde83d5d6a640c25e3eda5e2"
+                "reference": "863ded265cd730696ea2159161c90b3bc904a696"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/http/zipball/3f81eb72e2587869dde83d5d6a640c25e3eda5e2",
-                "reference": "3f81eb72e2587869dde83d5d6a640c25e3eda5e2",
+                "url": "https://api.github.com/repos/orchestral/http/zipball/863ded265cd730696ea2159161c90b3bc904a696",
+                "reference": "863ded265cd730696ea2159161c90b3bc904a696",
                 "shasum": ""
             },
             "require": {
@@ -1339,8 +1339,8 @@
                     "homepage": "https://github.com/crynobone"
                 }
             ],
-            "description": "HTTP Component for Orchestra Platform 2",
-            "time": "2014-09-12 17:10:38"
+            "description": "HTTP Component for Orchestra Platform",
+            "time": "2014-09-15 00:24:13"
         },
         {
             "name": "orchestra/memory",
@@ -1531,12 +1531,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/notifier.git",
-                "reference": "50c1d7d3ed54572a8f02dd86d68fabf3eb69e621"
+                "reference": "7d5a6cc2e521582e35e54044900eda2e33d97eb3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/notifier/zipball/50c1d7d3ed54572a8f02dd86d68fabf3eb69e621",
-                "reference": "50c1d7d3ed54572a8f02dd86d68fabf3eb69e621",
+                "url": "https://api.github.com/repos/orchestral/notifier/zipball/7d5a6cc2e521582e35e54044900eda2e33d97eb3",
+                "reference": "7d5a6cc2e521582e35e54044900eda2e33d97eb3",
                 "shasum": ""
             },
             "require": {
@@ -1581,7 +1581,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-09-12 12:10:56"
+            "time": "2014-09-13 13:30:58"
         },
         {
             "name": "orchestra/optimize",
@@ -1644,12 +1644,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/publisher.git",
-                "reference": "b721ce7f7236d5c13b85983fdfb797c3a5b15ce6"
+                "reference": "54ed12831f8e215ce487a9b4b3e5a92010fc43dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/publisher/zipball/b721ce7f7236d5c13b85983fdfb797c3a5b15ce6",
-                "reference": "b721ce7f7236d5c13b85983fdfb797c3a5b15ce6",
+                "url": "https://api.github.com/repos/orchestral/publisher/zipball/54ed12831f8e215ce487a9b4b3e5a92010fc43dd",
+                "reference": "54ed12831f8e215ce487a9b4b3e5a92010fc43dd",
                 "shasum": ""
             },
             "require": {
@@ -1664,8 +1664,8 @@
                 "orchestra/extension": "3.0.*"
             },
             "suggest": {
-                "laravel/framework": "Allow using orchestra/extension component outside of Orchestra Platform 2",
-                "orchestra/foundation": "Allow using orchestra/extension with Orchestra Platform 2"
+                "laravel/framework": "Allow using orchestra/extension component outside of Orchestra Platform",
+                "orchestra/foundation": "Allow using orchestra/extension with Orchestra Platform"
             },
             "type": "library",
             "extra": {
@@ -1689,7 +1689,7 @@
                     "homepage": "https://github.com/crynobone"
                 }
             ],
-            "description": "Orchestra Platform 2 Publisher Component",
+            "description": "Publisher Component for Orchestra Platform",
             "keywords": [
                 "asset-publishing",
                 "laravel",
@@ -1697,7 +1697,7 @@
                 "orchestral",
                 "orchestral-platform"
             ],
-            "time": "2014-09-12 00:04:19"
+            "time": "2014-09-15 00:27:13"
         },
         {
             "name": "orchestra/resources",
@@ -3935,16 +3935,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "4.2.5",
+            "version": "4.2.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "c3abe5953d1e60a0bf23012b1bc8c4d07f4832d7"
+                "reference": "c28a790620fe30b049bb693be1ef9cd4e0fe906c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/c3abe5953d1e60a0bf23012b1bc8c4d07f4832d7",
-                "reference": "c3abe5953d1e60a0bf23012b1bc8c4d07f4832d7",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/c28a790620fe30b049bb693be1ef9cd4e0fe906c",
+                "reference": "c28a790620fe30b049bb693be1ef9cd4e0fe906c",
                 "shasum": ""
             },
             "require": {
@@ -4005,7 +4005,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2014-09-06 18:38:27"
+            "time": "2014-09-14 09:31:24"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
