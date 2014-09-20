@@ -14,6 +14,5 @@
 		Continue to our <a href="{!! handles('app::/') !!}">Home page</a>.
 	</p>
 </div>
-<div id="container">
-</div>
+<div id="container"></div>
 @stop

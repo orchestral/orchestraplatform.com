@@ -1,6 +1,5 @@
 <?php namespace App\Providers;
 
-use App;
 use Exception;
 use Log;
 use Response;
@@ -22,15 +21,15 @@ class ErrorServiceProvider extends ServiceProvider
         // exceptions. If nothing is returned, the default error view is
         // shown, which includes a detailed stack trace during debug.
 
-        App::missing(function () {
+        $this->app->missing(function () {
             return Response::view('404', [], 404);
         });
 
-        App::error(function (ModelNotFoundException $e) {
+        $this->app->error(function (ModelNotFoundException $e) {
             return Response::view('404', [], 404);
         });
 
-        App::error(function (Exception $exception, $code) {
+        $this->app->error(function (Exception $exception, $code) {
             Log::error($exception);
         });
     }
