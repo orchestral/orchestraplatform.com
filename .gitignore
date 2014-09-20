@@ -7,9 +7,8 @@
 # Laravel
 /bootstrap/environment.php
 /public/packages/*
-.env.local.php
-.env.php
-Envoy.blade.php
+/.env*
+/Envoy.blade.php
 
 # Composer
 vendor/*
