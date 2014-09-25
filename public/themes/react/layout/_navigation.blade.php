@@ -21,7 +21,7 @@
 					</a>
 
 					<ul class="dropdown-menu">
-						<li><a href="{!! handles('app::docs/2.3/') !!}">2.3 (Development)</a></li>
+						<li><a href="{!! handles('app::docs/3.0/') !!}">3.0 (Development)</a></li>
 						<li><a href="{!! handles('app::docs/2.2/') !!}">2.2 (Latest Stable)</a></li>
 						<li><a href="{!! handles('app::docs/2.1/') !!}">2.1 (LTS)</a></li>
 						<li class="divider"></li>
