@@ -73,7 +73,7 @@ class Documentation extends AbstractableProcessor
      */
     public function show($listener, $version, $filename = 'index')
     {
-        $version = Arr::get($this->config->get('doc.aliases'), $version, $version);
+        $version = (string) Arr::get($this->config->get('doc.aliases'), $version, $version);
 
         list($toc, $document) = $this->getDocumentation($version, $filename);
 
@@ -112,7 +112,7 @@ class Documentation extends AbstractableProcessor
     public function parseContent($content, $version)
     {
         $replacement = [
-            'doc-url' => handles("app::docs/{$version}"),
+            'doc-url' => handles("app::docs")."/{$version}",
         ];
 
         return Str::replace($content, $replacement);
