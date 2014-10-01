@@ -27,7 +27,7 @@ class RouteServiceProvider extends ServiceProvider
     public function map()
     {
         $this->app->booted(function () {
-            $this->namespaced(function () {
+            $this->namespaced('App\Http\Controllers', function () {
                 require app_path('Http/routes.php');
             });
         });
