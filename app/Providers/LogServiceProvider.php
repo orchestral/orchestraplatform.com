@@ -28,5 +28,4 @@ class LogServiceProvider extends ServiceProvider
     {
         //
     }
-
 }

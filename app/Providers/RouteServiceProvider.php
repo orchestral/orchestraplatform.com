@@ -1,10 +1,10 @@
 <?php namespace App\Providers;
 
 use URL;
-use Illuminate\Routing\RouteServiceProvider as ServiceProvider;
+use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
 
-class RouteServiceProvider extends ServiceProvider {
-
+class RouteServiceProvider extends ServiceProvider
+{
     /**
      * Called before routes are registered.
      *
@@ -32,5 +32,4 @@ class RouteServiceProvider extends ServiceProvider {
             });
         });
     }
-
 }
