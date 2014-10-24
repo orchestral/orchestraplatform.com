@@ -25,10 +25,24 @@ class DocumentationController extends BaseController
     }
 
     /**
+     * Show documentation index.
+     *
+     * @Get("docs/{version}")
+     * @Where({"version": "([a-zA-Z0-9\.]+)"})
+     *
+     * @param  string   $version
+     * @return mixed
+     */
+    public function index($version)
+    {
+        return $this->show($version, 'index');
+    }
+
+    /**
      * Show documentation.
      *
-     * @Get("docs/{version}/{filename?}")
-     * @Where({"version": "(.*)"})
+     * @Get("docs/{version}/{filename}")
+     * @Where({"version": "([a-zA-Z0-9\.]+)", "filename": "(.+)?"})
      *
      * @param  string   $version
      * @param  string   $filename
