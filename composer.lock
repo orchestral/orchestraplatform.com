@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0790398e0a9d6b1c51a62e171ab6bcd2",
+    "hash": "64c186665325259fd8362d875cb3bdb6",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -3671,6 +3671,67 @@
                 "testing"
             ],
             "time": "2014-09-03 10:11:10"
+        },
+        {
+            "name": "orchestra/testbench",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/orchestral/testbench.git",
+                "reference": "67281d6ad8e791ff8d884f9797b966b535fd1068"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/orchestral/testbench/zipball/67281d6ad8e791ff8d884f9797b966b535fd1068",
+                "reference": "67281d6ad8e791ff8d884f9797b966b535fd1068",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "5.0.*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "behat/behat": "~2.5",
+                "mockery/mockery": "0.9.*",
+                "phpunit/phpunit": "~4.0"
+            },
+            "suggest": {
+                "behat/behat": "Allow to use Behat for testing your Laravel Application/Package",
+                "phpunit/phpunit": "Allow to use PHPUnit for testing your Laravel Application/Package"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Orchestra\\Testbench\\": "src/Testbench/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mior Muhammad Zaki",
+                    "email": "crynobone@gmail.com",
+                    "homepage": "https://github.com/crynobone"
+                }
+            ],
+            "description": "Laravel Package Unit Testing Helper",
+            "homepage": "http://orchestraplatform.com/docs/latest/components/testbench/",
+            "keywords": [
+                "BDD",
+                "TDD",
+                "laravel",
+                "orchestra-platform",
+                "orchestral",
+                "testing"
+            ],
+            "time": "2014-10-23 11:17:05"
         },
         {
             "name": "phpunit/php-code-coverage",

@@ -1,9 +1,9 @@
 <?php namespace TestCase\App\Http\Controllers;
 
-use Site;
-use View;
 use Mockery as m;
 use TestCase\TestCase;
+use Orchestra\Support\Facades\Meta;
+use Illuminate\Support\Facades\View;
 
 class DocumentationControllerTest extends TestCase
 {
@@ -28,8 +28,9 @@ class DocumentationControllerTest extends TestCase
             ->shouldReceive('parseMarkdown')->once()->with($document, '2.0')->andReturn('document');
         $this->app->instance('App\Processor\Documentation', $processor);
 
-        Site::shouldReceive('set')->once()->with('title', m::any())->andReturnNull();
-        View::shouldReceive('make')->once()->with('documentation', m::type('Array'))->andReturn('documentation');
+        Meta::shouldReceive('set')->once()->with('title', m::any())->andReturnNull();
+        View::shouldReceive('share')->once();
+        View::shouldReceive('make')->once()->with('documentation', m::type('Array'), [])->andReturn('documentation');
 
         $this->call('GET', 'docs/2.0/index');
 

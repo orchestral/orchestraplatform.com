@@ -1,18 +1,23 @@
 <?php namespace TestCase;
 
-class TestCase extends \Illuminate\Foundation\Testing\TestCase
+class TestCase extends \Orchestra\Foundation\Testing\TestCase
 {
-    /**
-     * Creates the application.
-     *
-     * @return Symfony\Component\HttpKernel\HttpKernelInterface
-     */
-    public function createApplication()
+    protected function getBasePath()
     {
-        $unitTesting = true;
+        return realpath(__DIR__.'/../');
+    }
 
-        $testEnvironment = 'testing';
+    protected function getApplicationProviders()
+    {
+        $config = require __DIR__.'/../config/app.php';
 
-        return require __DIR__.'/../bootstrap/start.php';
+        return $config['providers'];
+    }
+
+    protected function getApplicationAliases()
+    {
+        $config = require __DIR__.'/../config/app.php';
+
+        return $config['aliases'];
     }
 }
