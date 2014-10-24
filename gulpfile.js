@@ -1,4 +1,5 @@
-var gulp = require('gulp'),
+var elixir = require('laravel-elixir'),
+    gulp = require('gulp'),
     gutil = require('gulp-util'),
     coffee = require('gulp-coffee'),
     compass = require('gulp-compass'),

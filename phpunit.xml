@@ -8,11 +8,10 @@
          convertWarningsToExceptions="true"
          processIsolation="false"
          stopOnFailure="false"
-         syntaxCheck="false"
->
+         syntaxCheck="false">
     <testsuites>
         <testsuite name="Application Test Suite">
-            <directory>./tests/unit/</directory>
+            <directory>./tests/unit</directory>
         </testsuite>
     </testsuites>
 
@@ -29,4 +28,7 @@
             <directory suffix=".php">app/</directory>
         </whitelist>
     </filter>
+    <php>
+        <env name="APP_ENV" value="testing"/>
+    </php>
 </phpunit>

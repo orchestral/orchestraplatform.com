@@ -1,4 +1,4 @@
-<?php namespace App\Console;
+<?php namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Foundation\Inspiring;
@@ -19,7 +19,7 @@ class InspireCommand extends Command
      *
      * @var string
      */
-    protected $description = 'Display an inpiring quote';
+    protected $description = 'Display an inspiring quote';
 
     /**
      * Create a new command instance.

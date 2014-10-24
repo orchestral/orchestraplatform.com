@@ -1,25 +1,25 @@
 <?php namespace App\Http\Controllers;
 
-use View;
-use Illuminate\Routing\Controller;
+use Orchestra\Routing\Controller;
 
 class HomeController extends Controller
 {
     /*
     |--------------------------------------------------------------------------
-    | Default Home Controller
+    | Home Controller
     |--------------------------------------------------------------------------
     |
-    | You may wish to use controllers instead of, or in addition to, Closure
-    | based routes. That's great! Here is an example controller method to
-    | get you started. To route to this controller, just add the route:
-    |
-    |   Route::get('/', 'HomeController@index');
+    | Controller methods are called when a request enters the application
+    | with their assigned URI. The URI a method responds to may be set
+    | via simple annotations. Here is an example to get you started!
     |
     */
 
+    /**
+     * @Get("/")
+     */
     public function index()
     {
-        return View::make('hello');
+        return view('hello');
     }
 }

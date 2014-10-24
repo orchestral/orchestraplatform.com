@@ -98,13 +98,8 @@ return [
         /*
          * Application Service Providers...
          */
-        'App\Providers\AppServiceProvider',
-        'App\Providers\ArtisanServiceProvider',
-        'App\Providers\ErrorServiceProvider',
         'App\Providers\EventServiceProvider',
         'App\Providers\ExtensionServiceProvider',
-        'App\Providers\FilterServiceProvider',
-        'App\Providers\LogServiceProvider',
         'App\Providers\RouteServiceProvider',
 
         /*
@@ -134,6 +129,7 @@ return [
          */
         'Orchestra\Asset\AssetServiceProvider',
         'Orchestra\Auth\AuthServiceProvider',
+        'Orchestra\Routing\ControllerServiceProvider',
         'Orchestra\Debug\DebugServiceProvider',
         'Orchestra\View\DecoratorServiceProvider',
         'Orchestra\Extension\ExtensionServiceProvider',
@@ -143,17 +139,19 @@ return [
         'Orchestra\Messages\MessagesServiceProvider',
         'Orchestra\Notifier\NotifierServiceProvider',
         'Orchestra\Optimize\OptimizeServiceProvider',
+        'Orchestra\Auth\Passwords\PasswordResetServiceProvider',
         'Orchestra\Publisher\PublisherServiceProvider',
-        'Orchestra\Foundation\Reminders\ReminderServiceProvider',
         'Orchestra\Resources\ResourcesServiceProvider',
-        'Orchestra\Foundation\SiteServiceProvider',
+        'Orchestra\Foundation\SupportServiceProvider',
         'Orchestra\Translation\TranslationServiceProvider',
         'Orchestra\View\ViewServiceProvider',
         'Orchestra\Widget\WidgetServiceProvider',
 
         'Orchestra\Foundation\ConsoleSupportServiceProvider',
+        'Orchestra\Foundation\FilterServiceProvider',
         'Orchestra\Foundation\FoundationServiceProvider',
 
+        'Orchestra\Installation\InstallerServiceProvider',
     ],
 
     /*
@@ -197,12 +195,14 @@ return [
         'Facile'     => 'Orchestra\Support\Facades\Facile',
         'File'       => 'Illuminate\Support\Facades\File',
         'Form'       => 'Orchestra\Support\Facades\Form',
+        'Foundation' => 'Orchestra\Support\Facades\Foundation',
         'Hash'       => 'Illuminate\Support\Facades\Hash',
         'HTML'       => 'Orchestra\Support\Facades\HTML',
         'Input'      => 'Illuminate\Support\Facades\Input',
         'Lang'       => 'Illuminate\Support\Facades\Lang',
         'Log'        => 'Illuminate\Support\Facades\Log',
         'Mail'       => 'Illuminate\Support\Facades\Mail',
+        'Meta'       => 'Orchestra\Support\Facades\Meta',
         'Paginator'  => 'Illuminate\Support\Facades\Paginator',
         'Password'   => 'Illuminate\Support\Facades\Password',
         'Queue'      => 'Illuminate\Support\Facades\Queue',
@@ -213,7 +213,6 @@ return [
         'Route'      => 'Illuminate\Support\Facades\Route',
         'Schema'     => 'Illuminate\Support\Facades\Schema',
         'Session'    => 'Illuminate\Support\Facades\Session',
-        'Site'       => 'Orchestra\Support\Facades\Site',
         'Theme'      => 'Orchestra\Support\Facades\Theme',
         'URL'        => 'Illuminate\Support\Facades\URL',
         'Validator'  => 'Illuminate\Support\Facades\Validator',
