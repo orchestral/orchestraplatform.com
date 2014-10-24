@@ -12,6 +12,7 @@ class RouteServiceProvider extends ServiceProvider
      */
     protected $scan = [
         'App\Http\Controllers\HomeController',
+        'App\Http\Controllers\DocumentationController',
     ];
 
     /**

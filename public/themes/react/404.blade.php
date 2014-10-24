@@ -1,9 +1,9 @@
 @extends('layout.master')
 
-<?php Site::set('html', ['class' => 'not-found-page']); ?>
-<?php Site::set('html::body', ['id' => 'not-found', 'class' => 'not-found-page']); ?>
-<?php Site::set('html::header.enabled', false); ?>
-<?php Site::set('html::footer.enabled', false); ?>
+<?php set_meta('html', ['class' => 'not-found-page']); ?>
+<?php set_meta('html::body', ['id' => 'not-found', 'class' => 'not-found-page']); ?>
+<?php set_meta('html::header.enabled', false); ?>
+<?php set_meta('html::footer.enabled', false); ?>
 
 @section('content')
 <div class="info">

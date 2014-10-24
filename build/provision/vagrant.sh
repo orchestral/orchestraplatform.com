@@ -9,5 +9,5 @@ if [ -f storage/framework/compiled.php ]; then
     echo ">>> Remove compiled.php"
 fi
 
-echo "<?php return \"local\";" > bootstrap/environment.php
+cat ./build/provision/.env > .env
 composer install --prefer-dist --dev

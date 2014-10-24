@@ -11,7 +11,7 @@ $asset->style('bootstrap', 'packages/orchestra/foundation/vendor/bootstrap/css/b
 $asset->style('theme', Theme::asset('assets/css/theme.css'), ['bootstrap']);
 $asset->style('custom', Theme::asset('assets/css/custom.css'), ['theme']);
 
-$asset->script('jquery', 'packages/orchestra/foundation/vendor/jquery/jquery.min.js', []);
+$asset->script('jquery', 'packages/orchestra/foundation/components/jquery/jquery.min.js', []);
 $asset->script('bootstrap', 'packages/orchestra/foundation/vendor/bootstrap/js/bootstrap.min.js', ['jquery']);
 $asset->script('prettify', Theme::asset('assets/js/prettify.js'), ['jquery']);
 $asset->script('theme', Theme::asset('assets/js/theme.js'), ['bootstrap', 'prettify']); ?>

@@ -1,8 +1,5 @@
 <?php namespace App\Http\Controllers;
 
-use Orchestra\Support\Facades\Site;
-use Illuminate\Support\Facades\View;
-use Orchestra\Support\Str;
 use App\Processor\Documentation as DocumentationProcessor;
 
 class DocumentationController extends BaseController
@@ -10,7 +7,7 @@ class DocumentationController extends BaseController
     /**
      * Construct a new DocumentationController.
      *
-     * @param  \Platform\Processor\Documentation  $processor
+     * @param  \App\Processor\Documentation  $processor
      */
     public function __construct(DocumentationProcessor $processor)
     {
@@ -30,9 +27,12 @@ class DocumentationController extends BaseController
     /**
      * Show documentation.
      *
-     * @param  string  $version
-     * @param  string  $filename
-     * @return \Symfony\Component\HttpFoundation\Response
+     * @Get("docs/{version}/{filename?}")
+     * @Where({"version": "(.*)"})
+     *
+     * @param  string   $version
+     * @param  string   $filename
+     * @return mixed
      */
     public function show($version, $filename = 'index')
     {
@@ -49,9 +49,9 @@ class DocumentationController extends BaseController
      */
     public function showSucceed($version, $toc, $document)
     {
-        Site::set('title', sprintf('%s on v%s', $document->get('title'), $version));
+        set_meta('title', sprintf('%s on v%s', $document->get('title'), $version));
 
-        return View::make('documentation', [
+        return view('documentation', [
             'toc'      => $toc,
             'document' => $document,
             'version'  => $version,

@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('docs/{version}/{filename?}', 'DocumentationController@show')
+$router->get('docs/{version}/{filename?}', 'DocumentationController@show')
     ->where('filename', '(.*)');
 
-Route::get('/', 'HomeController@index');
+$router->get('/', 'HomeController@index');

@@ -2,8 +2,8 @@
 
 <?php
 
-Site::set('html::body', ['id' => 'docs']);
-Site::set('html::header', ['class' => 'navbar-inverse normal']); ?>
+set_meta('html::body', ['id' => 'docs']);
+set_meta('html::header', ['class' => 'navbar-inverse normal']); ?>
 
 @section('content')
 <div id="toc" class="col-sm-2">

@@ -98,6 +98,7 @@ return [
         /*
          * Application Service Providers...
          */
+        'App\Providers\DocumentationServiceProvider',
         'App\Providers\EventServiceProvider',
         'App\Providers\ExtensionServiceProvider',
         'App\Providers\RouteServiceProvider',

@@ -2,8 +2,8 @@
 
 <?php
 
-Site::set('html::body', ['id' => 'blog']);
-Site::set('html::header', ['class' => 'navbar-inverse normal']); ?>
+set_meta('html::body', ['id' => 'blog']);
+set_meta('html::header', ['class' => 'navbar-inverse normal']); ?>
 
 @section('content')
 <div id="posts">
@@ -26,7 +26,7 @@ Site::set('html::header', ['class' => 'navbar-inverse normal']); ?>
 				</div>
 				@endforeach
 
-				{!! $posts->links() !!}
+				{!! $posts->render() !!}
 			</div>
 			<div class="col-md-3 sidebar">
 				@include('orchestra/story::_sidebar')

@@ -1,15 +1,15 @@
 <?php namespace App\Processor;
 
-use Illuminate\Cache\Repository as CacheRepository;
-use Illuminate\Config\Repository as ConfigRepository;
-use Illuminate\Filesystem\Filesystem;
-use Illuminate\Foundation\Application;
-use Illuminate\Support\Arr;
 use Kurenai\Document;
 use Orchestra\Support\Str;
+use Illuminate\Support\Arr;
+use Illuminate\Filesystem\Filesystem;
+use Illuminate\Foundation\Application;
+use Illuminate\Cache\Repository as CacheRepository;
+use Illuminate\Config\Repository as ConfigRepository;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
-class Documentation extends AbstractableProcessor
+class Documentation extends Processor
 {
     /**
      * Cache repository instance.
@@ -105,8 +105,8 @@ class Documentation extends AbstractableProcessor
     /**
      * Parse HTML/Content from string.
      *
-     * @param  \Kurenai\Document    $content
-     * @param  string               $version
+     * @param  string   $content
+     * @param  string   $version
      * @return string
      */
     public function parseContent($content, $version)

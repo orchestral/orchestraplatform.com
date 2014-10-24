@@ -2,8 +2,8 @@
 
 <?php
 
-Site::set('html::body', ['id' => 'blogpost']);
-Site::set('html::header', ['class' => 'navbar-inverse normal']); ?>
+set_meta('html::body', ['id' => 'blogpost']);
+set_meta('html::header', ['class' => 'navbar-inverse normal']); ?>
 
 @section('content')
 <div id="blogpost-wrapper">

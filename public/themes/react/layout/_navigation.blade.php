@@ -1,4 +1,4 @@
-<header{!! HTML::attributes(HTML::decorate(Site::get('html::header', []), ['class' => 'navbar', 'role' => 'banner'])) !!}>
+<header{!! HTML::attributes(HTML::decorate(get_meta('html::header', []), ['class' => 'navbar', 'role' => 'banner'])) !!}>
 	<div class="container">
 		<div class="navbar-header">
 			<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">

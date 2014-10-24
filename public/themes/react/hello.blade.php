@@ -2,8 +2,8 @@
 
 <?php
 
-Site::set('html::body', ['id' => 'home4']);
-Site::set('html::header', ['class' => 'navbar-inverse hero']); ?>
+set_meta('html::body', ['id' => 'home4']);
+set_meta('html::header', ['class' => 'navbar-inverse hero']); ?>
 
 @section('header')
 <div id="hero">
