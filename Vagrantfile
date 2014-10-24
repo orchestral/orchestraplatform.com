@@ -4,7 +4,7 @@
 # Config Github Settings
 github_username = "fideloper"
 github_repo     = "Vaprobash"
-github_branch   = "1.1.0"
+github_branch   = "1.2.0"
 github_url      = "https://raw.githubusercontent.com/#{github_username}/#{github_repo}/#{github_branch}"
 
 # Server Configuration
@@ -155,6 +155,10 @@ Vagrant.configure("2") do |config|
   # Provision Base Packages
   config.vm.provision "shell", path: "#{github_url}/scripts/base.sh", args: [github_url, server_swap, server_timezone]
 
+  # optimize base box
+  config.vm.provision "shell", path: "#{github_url}/scripts/base_box_optimizations.sh",
+    privileged: true
+
   # Provision PHP
   config.vm.provision "shell", path: "#{github_url}/scripts/php.sh", args: [php_timezone, hhvm]
 
@@ -287,11 +291,14 @@ Vagrant.configure("2") do |config|
   # Install git-ftp
   # config.vm.provision "shell", path: "#{github_url}/scripts/git-ftp.sh", privileged: false
 
+  # Install Ansible
+  # config.vm.provision "shell", path: "#{github_url}/scripts/ansible.sh"
+
   ####
   # Local Scripts
   # Any local scripts you may want to run post-provisioning.
   # Add these to the same directory as the Vagrantfile.
   ##########
-  config.vm.provision "shell", path: "./provision/vagrant.sh", args: [mysql_root_password]
+  config.vm.provision "shell", path: "./build/provision/vagrant.sh", args: [mysql_root_password]
 
 end

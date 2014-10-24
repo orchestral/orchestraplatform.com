@@ -4,8 +4,8 @@
 
 cd /vagrant
 
-if [ -f storage/meta/compiled.php ]; then
-    rm storage/meta/compiled.php
+if [ -f storage/framework/compiled.php ]; then
+    rm storage/framework/compiled.php
     echo ">>> Remove compiled.php"
 fi
 
