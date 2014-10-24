@@ -1116,12 +1116,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "2d3270ba764f0e75465c8d4e17e111daab89a8f3"
+                "reference": "1d05907ce84587be4870ba4725ec3037ec67f50a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/2d3270ba764f0e75465c8d4e17e111daab89a8f3",
-                "reference": "2d3270ba764f0e75465c8d4e17e111daab89a8f3",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/1d05907ce84587be4870ba4725ec3037ec67f50a",
+                "reference": "1d05907ce84587be4870ba4725ec3037ec67f50a",
                 "shasum": ""
             },
             "require": {
@@ -1185,7 +1185,7 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2014-10-24 11:43:05"
+            "time": "2014-10-24 11:50:01"
         },
         {
             "name": "orchestra/html",
@@ -1608,12 +1608,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/optimize.git",
-                "reference": "c348d2da35424d480f3906731af5a296e617c4ca"
+                "reference": "49e8a8fbda0bb17f2942023ed37f5c3b67bcf3e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/optimize/zipball/c348d2da35424d480f3906731af5a296e617c4ca",
-                "reference": "c348d2da35424d480f3906731af5a296e617c4ca",
+                "url": "https://api.github.com/repos/orchestral/optimize/zipball/49e8a8fbda0bb17f2942023ed37f5c3b67bcf3e6",
+                "reference": "49e8a8fbda0bb17f2942023ed37f5c3b67bcf3e6",
                 "shasum": ""
             },
             "require": {
@@ -1655,7 +1655,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-10-24 11:31:05"
+            "time": "2014-10-24 11:53:05"
         },
         {
             "name": "orchestra/publisher",
