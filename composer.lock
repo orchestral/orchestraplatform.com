@@ -445,12 +445,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "6b167368c96ad146cdeab9c67ede66e5f9759ac8"
+                "reference": "700bbf22bb325a3ddd10e2fc839feb9b4958387a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/6b167368c96ad146cdeab9c67ede66e5f9759ac8",
-                "reference": "6b167368c96ad146cdeab9c67ede66e5f9759ac8",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/700bbf22bb325a3ddd10e2fc839feb9b4958387a",
+                "reference": "700bbf22bb325a3ddd10e2fc839feb9b4958387a",
                 "shasum": ""
             },
             "require": {
@@ -552,7 +552,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-10-26 02:56:54"
+            "time": "2014-10-26 23:41:09"
         },
         {
             "name": "league/flysystem",
@@ -2778,12 +2778,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Routing.git",
-                "reference": "cba445c08a08b325dd4900857209f1540d657183"
+                "reference": "162615e0ae57315f88258dc7cdd35d9ef2f561cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Routing/zipball/cba445c08a08b325dd4900857209f1540d657183",
-                "reference": "cba445c08a08b325dd4900857209f1540d657183",
+                "url": "https://api.github.com/repos/symfony/Routing/zipball/162615e0ae57315f88258dc7cdd35d9ef2f561cb",
+                "reference": "162615e0ae57315f88258dc7cdd35d9ef2f561cb",
                 "shasum": ""
             },
             "require": {
@@ -2836,7 +2836,7 @@
                 "uri",
                 "url"
             ],
-            "time": "2014-10-26 07:46:28"
+            "time": "2014-10-26 20:31:09"
         },
         {
             "name": "symfony/security-core",
