@@ -445,12 +445,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "700bbf22bb325a3ddd10e2fc839feb9b4958387a"
+                "reference": "f622f516740371b6217d36448f04d407a7594c3f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/700bbf22bb325a3ddd10e2fc839feb9b4958387a",
-                "reference": "700bbf22bb325a3ddd10e2fc839feb9b4958387a",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/f622f516740371b6217d36448f04d407a7594c3f",
+                "reference": "f622f516740371b6217d36448f04d407a7594c3f",
                 "shasum": ""
             },
             "require": {
@@ -552,20 +552,20 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-10-26 23:41:09"
+            "time": "2014-11-01 18:14:57"
         },
         {
             "name": "league/flysystem",
-            "version": "0.5.9",
+            "version": "0.5.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "a41d156d767a49a0f66f9c96059d3b9ca224faf7"
+                "reference": "96fe7ec1ebed35e3dc1e1dce4bbdab2eca0140a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/a41d156d767a49a0f66f9c96059d3b9ca224faf7",
-                "reference": "a41d156d767a49a0f66f9c96059d3b9ca224faf7",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/96fe7ec1ebed35e3dc1e1dce4bbdab2eca0140a2",
+                "reference": "96fe7ec1ebed35e3dc1e1dce4bbdab2eca0140a2",
                 "shasum": ""
             },
             "require": {
@@ -622,21 +622,25 @@
                     "email": "info@frenky.net"
                 }
             ],
-            "description": "Filesystem abstraction, but easy.",
+            "description": "Many filesystems, one API.",
             "keywords": [
+                "Cloud Files",
                 "WebDAV",
                 "aws",
+                "cloud",
+                "copy.com",
                 "dropbox",
                 "file systems",
                 "files",
                 "filesystem",
                 "ftp",
+                "rackspace",
                 "remote",
                 "s3",
                 "sftp",
                 "storage"
             ],
-            "time": "2014-10-18 15:41:49"
+            "time": "2014-10-28 11:35:42"
         },
         {
             "name": "monolog/monolog",
@@ -866,12 +870,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/auth.git",
-                "reference": "5b07ace50283869535c7cec74fdbb90ddfee35df"
+                "reference": "5dffa27f70918a05b481198086b4d3c818891e91"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/auth/zipball/5b07ace50283869535c7cec74fdbb90ddfee35df",
-                "reference": "5b07ace50283869535c7cec74fdbb90ddfee35df",
+                "url": "https://api.github.com/repos/orchestral/auth/zipball/5dffa27f70918a05b481198086b4d3c818891e91",
+                "reference": "5dffa27f70918a05b481198086b4d3c818891e91",
                 "shasum": ""
             },
             "require": {
@@ -927,7 +931,7 @@
                 "permission",
                 "rbac"
             ],
-            "time": "2014-10-15 05:41:37"
+            "time": "2014-11-02 08:26:04"
         },
         {
             "name": "orchestra/control",
@@ -1116,12 +1120,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "77d6a5cfe586b7917b237efb19cb71e96a380af9"
+                "reference": "f2a0579ebfa0f3eb956cfebb72e1aa62f0e2bd03"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/77d6a5cfe586b7917b237efb19cb71e96a380af9",
-                "reference": "77d6a5cfe586b7917b237efb19cb71e96a380af9",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/f2a0579ebfa0f3eb956cfebb72e1aa62f0e2bd03",
+                "reference": "f2a0579ebfa0f3eb956cfebb72e1aa62f0e2bd03",
                 "shasum": ""
             },
             "require": {
@@ -1184,7 +1188,7 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2014-10-26 10:38:46"
+            "time": "2014-11-02 13:18:22"
         },
         {
             "name": "orchestra/html",
@@ -1310,12 +1314,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/kernel.git",
-                "reference": "bd7c7d48247afd0d6a265186397d9757f58654cc"
+                "reference": "a10815be626364ae6779a55ae1822b1f3904029b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/kernel/zipball/bd7c7d48247afd0d6a265186397d9757f58654cc",
-                "reference": "bd7c7d48247afd0d6a265186397d9757f58654cc",
+                "url": "https://api.github.com/repos/orchestral/kernel/zipball/a10815be626364ae6779a55ae1822b1f3904029b",
+                "reference": "a10815be626364ae6779a55ae1822b1f3904029b",
                 "shasum": ""
             },
             "require": {
@@ -1355,7 +1359,7 @@
                 }
             ],
             "description": "Kernel for Orchestra Platform",
-            "time": "2014-10-25 01:46:13"
+            "time": "2014-11-02 15:19:25"
         },
         {
             "name": "orchestra/memory",
@@ -1548,12 +1552,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/notifier.git",
-                "reference": "2be4846d9f714c8721d3cc7b5d5139f37533c8e5"
+                "reference": "f2abbe8fcfdbac63d5f38d185b383c11af93932d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/notifier/zipball/2be4846d9f714c8721d3cc7b5d5139f37533c8e5",
-                "reference": "2be4846d9f714c8721d3cc7b5d5139f37533c8e5",
+                "url": "https://api.github.com/repos/orchestral/notifier/zipball/f2abbe8fcfdbac63d5f38d185b383c11af93932d",
+                "reference": "f2abbe8fcfdbac63d5f38d185b383c11af93932d",
                 "shasum": ""
             },
             "require": {
@@ -1599,7 +1603,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-10-14 06:31:51"
+            "time": "2014-11-02 08:55:11"
         },
         {
             "name": "orchestra/optimize",
@@ -2396,12 +2400,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Debug.git",
-                "reference": "5e0da6230cf3aad7e0a6d992b7aa416f6b8e59c8"
+                "reference": "3548595c26175fdaca19cbec204668c22cda41f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Debug/zipball/5e0da6230cf3aad7e0a6d992b7aa416f6b8e59c8",
-                "reference": "5e0da6230cf3aad7e0a6d992b7aa416f6b8e59c8",
+                "url": "https://api.github.com/repos/symfony/Debug/zipball/3548595c26175fdaca19cbec204668c22cda41f0",
+                "reference": "3548595c26175fdaca19cbec204668c22cda41f0",
                 "shasum": ""
             },
             "require": {
@@ -2443,7 +2447,7 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "http://symfony.com",
-            "time": "2014-10-26 07:46:28"
+            "time": "2014-10-28 10:06:58"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -2603,12 +2607,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpFoundation.git",
-                "reference": "2f3efcba131a1275b5fb491bed9897ceaf7947e2"
+                "reference": "296df31964a95e880a83f8c6afe84a18001751ee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/2f3efcba131a1275b5fb491bed9897ceaf7947e2",
-                "reference": "2f3efcba131a1275b5fb491bed9897ceaf7947e2",
+                "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/296df31964a95e880a83f8c6afe84a18001751ee",
+                "reference": "296df31964a95e880a83f8c6afe84a18001751ee",
                 "shasum": ""
             },
             "require": {
@@ -2647,7 +2651,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "http://symfony.com",
-            "time": "2014-10-26 07:46:28"
+            "time": "2014-11-02 00:37:13"
         },
         {
             "name": "symfony/http-kernel",
@@ -3148,22 +3152,23 @@
         },
         {
             "name": "facebook/webdriver",
-            "version": "v0.4",
+            "version": "v0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/facebook/php-webdriver.git",
-                "reference": "342df507312ea5ae5337be47e16e4268d7ed661f"
+                "reference": "fab0b484142430f4f598baef45680f945a60eb4f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/facebook/php-webdriver/zipball/342df507312ea5ae5337be47e16e4268d7ed661f",
-                "reference": "342df507312ea5ae5337be47e16e4268d7ed661f",
+                "url": "https://api.github.com/repos/facebook/php-webdriver/zipball/fab0b484142430f4f598baef45680f945a60eb4f",
+                "reference": "fab0b484142430f4f598baef45680f945a60eb4f",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.19"
             },
             "require-dev": {
+                "phpdocumentor/phpdocumentor": "2.*",
                 "phpunit/phpunit": "3.7.*"
             },
             "type": "library",
@@ -3184,7 +3189,7 @@
                 "selenium",
                 "webdriver"
             ],
-            "time": "2014-02-21 18:22:11"
+            "time": "2014-10-28 20:04:04"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -3376,12 +3381,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/testbench.git",
-                "reference": "d4d37dbb649fd7c6b893bf6b6252c0236824a6b0"
+                "reference": "5ca35c440780500572acaa7bfc61fb3c9b8bb415"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/testbench/zipball/d4d37dbb649fd7c6b893bf6b6252c0236824a6b0",
-                "reference": "d4d37dbb649fd7c6b893bf6b6252c0236824a6b0",
+                "url": "https://api.github.com/repos/orchestral/testbench/zipball/5ca35c440780500572acaa7bfc61fb3c9b8bb415",
+                "reference": "5ca35c440780500572acaa7bfc61fb3c9b8bb415",
                 "shasum": ""
             },
             "require": {
@@ -3429,7 +3434,7 @@
                 "orchestral",
                 "testing"
             ],
-            "time": "2014-10-26 12:08:03"
+            "time": "2014-11-02 09:02:13"
         },
         {
             "name": "phpunit/php-code-coverage",
