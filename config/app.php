@@ -84,6 +84,20 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+    | Logging Configuration
+    |--------------------------------------------------------------------------
+    |
+    | Here you may configure the log settings for your application. Out of
+    | the box, Laravel uses the Monolog PHP logging library. This gives
+    | you a variety of powerful log handlers / formatters to utilize.
+    |
+    | Available Settings: "single", "daily", "syslog"
+    |
+    */
+    'log' => 'daily',
+
+    /*
+    |--------------------------------------------------------------------------
     | Autoloaded Service Providers
     |--------------------------------------------------------------------------
     |
@@ -98,6 +112,7 @@ return [
         /*
          * Application Service Providers...
          */
+        'App\Providers\AppServiceProvider',
         'App\Providers\DocumentationServiceProvider',
         'App\Providers\EventServiceProvider',
         'App\Providers\ExtensionServiceProvider',
@@ -115,7 +130,6 @@ return [
         'Illuminate\Filesystem\FilesystemServiceProvider',
         'Illuminate\Foundation\Providers\FoundationServiceProvider',
         'Illuminate\Hashing\HashServiceProvider',
-        'Illuminate\Log\LogServiceProvider',
         'Illuminate\Mail\MailServiceProvider',
         'Illuminate\Pagination\PaginationServiceProvider',
         'Illuminate\Foundation\Providers\PublisherServiceProvider',
@@ -123,7 +137,6 @@ return [
         'Illuminate\Redis\RedisServiceProvider',
         'Illuminate\Session\SessionServiceProvider',
         'Illuminate\Validation\ValidationServiceProvider',
-        'Illuminate\View\ViewServiceProvider',
 
         /*
          * Orchestra Platform Service Providers...
@@ -191,7 +204,6 @@ return [
         'Crypt'      => 'Illuminate\Support\Facades\Crypt',
         'DB'         => 'Illuminate\Support\Facades\DB',
         'Event'      => 'Illuminate\Support\Facades\Event',
-        'Facile'     => 'Orchestra\Support\Facades\Facile',
         'File'       => 'Illuminate\Support\Facades\File',
         'Form'       => 'Orchestra\Support\Facades\Form',
         'Foundation' => 'Orchestra\Support\Facades\Foundation',

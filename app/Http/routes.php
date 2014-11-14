@@ -11,7 +11,10 @@
 |
 */
 
-$router->get('docs/{version}/{filename?}', 'DocumentationController@show')
-    ->where('filename', '(.*)');
-
 $router->get('/', 'HomeController@index');
+
+$router->get('docs/{version}', 'DocumentationController@index')
+    ->where('version', '([a-zA-Z0-9\.]+)');
+
+$router->get('docs/{version}/{filename}', 'DocumentationController@show')
+    ->where(['version' => '([a-zA-Z0-9\.]+)', 'filename' => '(.+)?']);

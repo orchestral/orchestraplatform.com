@@ -2,23 +2,21 @@
 
 use Closure;
 use Illuminate\Contracts\Auth\Guard;
-use Illuminate\Http\RedirectResponse;
 use Illuminate\Contracts\Routing\Middleware;
 
-class IsGuest implements Middleware
+class Authenticate implements Middleware
 {
     /**
-     * The Guard implementation.
+     * The authenticator implementation.
      *
-     * @var Guard
+     * @var \Illuminate\Contracts\Auth\Guard
      */
     protected $auth;
 
     /**
      * Create a new filter instance.
      *
-     * @param  Guard  $auth
-     * @return void
+     * @param  \Illuminate\Contracts\Auth\Guard  $auth
      */
     public function __construct(Guard $auth)
     {
@@ -34,8 +32,12 @@ class IsGuest implements Middleware
      */
     public function handle($request, Closure $next)
     {
-        if ($this->auth->check()) {
-            return new RedirectResponse(handles('app::/'));
+        if ($this->auth->guest()) {
+            if ($request->ajax()) {
+                return response('Unauthorized.', 401);
+            } else {
+                return redirect()->guest(handles('orchestra::login'));
+            }
         }
 
         return $next($request);

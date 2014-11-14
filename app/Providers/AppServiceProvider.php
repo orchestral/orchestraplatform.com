@@ -2,20 +2,20 @@
 
 use Illuminate\Support\ServiceProvider;
 
-class DebugServiceProvider extends ServiceProvider
+class AppServiceProvider extends ServiceProvider
 {
     /**
-     * Register any debug handlers.
+     * Bootstrap any application services.
      *
      * @return void
      */
     public function boot()
     {
-        $this->app['orchestra.debug.listener']->attachDebugger();
+        //
     }
 
     /**
-     * Register the service provider.
+     * Register any application services.
      *
      * @return void
      */

@@ -3,7 +3,7 @@
 use Kurenai\Document;
 use Kurenai\DocumentParser;
 use Illuminate\Support\ServiceProvider;
-use Kurenai\Parser\DflydevMarkdownExtra;
+use Kurenai\Parser\ParsedownMarkdownExtra;
 
 class DocumentationServiceProvider extends ServiceProvider
 {
@@ -16,7 +16,7 @@ class DocumentationServiceProvider extends ServiceProvider
     {
         $this->app->bindShared('doc.parser', function () {
             return new DocumentParser(function () {
-                return new Document(new DflydevMarkdownExtra);
+                return new Document(new ParsedownMarkdownExtra);
             });
         });
 

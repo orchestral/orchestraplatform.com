@@ -11,13 +11,12 @@ class Kernel extends HttpKernel
      * @var array
      */
     protected $middleware = [
-        'App\Http\Middleware\UnderMaintenance',
+        'Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode',
         'Illuminate\Cookie\Middleware\EncryptCookies',
-        'Illuminate\Cookie\Middleware\AddQueuedCookiesToRequest',
-        'Illuminate\Session\Middleware\ReadSession',
-        'Illuminate\Session\Middleware\WriteSession',
+        'Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse',
+        'Illuminate\Session\Middleware\StartSession',
         'Illuminate\View\Middleware\ShareErrorsFromSession',
-        'App\Http\Middleware\VerifyCsrfToken',
+        'Illuminate\Foundation\Http\Middleware\VerifyCsrfToken',
     ];
 
     /**
@@ -31,7 +30,9 @@ class Kernel extends HttpKernel
         try {
             return parent::handle($request);
         } catch (Exception $e) {
-            throw $e;
+            $this->reportException($e);
+
+            return $this->renderException($request, $e);
         }
     }
 }

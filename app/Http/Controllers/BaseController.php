@@ -10,7 +10,7 @@ abstract class BaseController extends Controller
     /**
      * Processor instance.
      *
-     * @var \Platform\Processor\AbstractableProcessor
+     * @var \App\Processor\Processor
      */
     protected $processor;
 
