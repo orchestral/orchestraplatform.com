@@ -21,7 +21,7 @@ Foundation::group('app', '/', function ($router) {
         ->where(['version' => '([a-zA-Z0-9\.]+)', 'filename' => '(.+)?']);
 
     $router->get('blogs', function () {
-        return Redirect::to(handles('orchestra/story'));
+        return Redirect::to(handles('orchestra/story::/'));
     });
 
     $router->get('blogs/{any}', function ($any) {
