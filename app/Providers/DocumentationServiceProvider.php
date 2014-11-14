@@ -19,6 +19,5 @@ class DocumentationServiceProvider extends ServiceProvider
                 return new Document(new ParsedownMarkdownExtra);
             });
         });
-
     }
 }
