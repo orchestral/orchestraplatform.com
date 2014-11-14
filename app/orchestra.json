@@ -1,0 +1,14 @@
+{
+    "name": "Orchestra Platform",
+    "description": "Orchestra Platform Website",
+    "author": "Orchestra Platform Development Team",
+    "url": "http://orchestraplatform.com",
+    "version": "0.1.0",
+    "config": {
+        "handles": "/"
+    },
+    "provide": [
+        "App\\Providers\\AppServiceProvider",
+        "App\\Providers\\RouteServiceProvider"
+    ]
+}

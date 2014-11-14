@@ -18,3 +18,7 @@ $router->get('docs/{version}', 'DocumentationController@index')
 
 $router->get('docs/{version}/{filename}', 'DocumentationController@show')
     ->where(['version' => '([a-zA-Z0-9\.]+)', 'filename' => '(.+)?']);
+
+$router->get('blogs/{any}', function ($any) {
+    return Redirect::to(handles("orchestra/story::{$any}"));
+})->where('any', '(.*)');
