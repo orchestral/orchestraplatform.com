@@ -12,9 +12,8 @@
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="{!! handles('app::/') !!}">Home</a></li>
 				<li><a href="{!! handles('orchestra/story::/') !!}">Blog</a></li>
-				<li>
-					<a href="https://www.facebook.com/groups/orchestraplatform/" target="_blank">Forum</a>
-				</li>
+				<li><a href="http://learn.orchestraplatform.com">Learn</a></li>
+				<li><a href="https://www.facebook.com/groups/orchestraplatform/" target="_blank">Forum</a></li>
 				<li class="dropdown">
 					<a href="{!! handles('app::docs/latest/') !!}" class="dropdown-toggle" data-toggle="dropdown">
 						Documentation <b class="caret"></b>
