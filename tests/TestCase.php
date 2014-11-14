@@ -1,6 +1,6 @@
-<?php
+<?php namespace TestCase;
 
-abstract class TestCase extends Orchestra\Testbench\TestCase
+abstract class TestCase extends \Orchestra\Testbench\TestCase
 {
     /**
      * Get application timezone.
