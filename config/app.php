@@ -162,6 +162,9 @@ return [
         'Orchestra\Foundation\FoundationServiceProvider',
 
         'Orchestra\Installation\InstallerServiceProvider',
+
+        'App\Providers\AppServiceProvider',
+        'App\Providers\RouteServiceProvider',
     ],
 
     /*

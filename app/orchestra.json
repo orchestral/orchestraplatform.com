@@ -6,9 +6,5 @@
     "version": "0.1.0",
     "config": {
         "handles": "/"
-    },
-    "provide": [
-        "App\\Providers\\AppServiceProvider",
-        "App\\Providers\\RouteServiceProvider"
-    ]
+    }
 }
