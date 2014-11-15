@@ -108,14 +108,6 @@ return [
     */
 
     'providers' => [
-
-        /*
-         * Application Service Providers...
-         */
-        'App\Providers\DocumentationServiceProvider',
-        'App\Providers\EventServiceProvider',
-        'App\Providers\ExtensionServiceProvider',
-
         /*
          * Laravel Framework Service Providers...
          */
@@ -163,7 +155,13 @@ return [
 
         'Orchestra\Installation\InstallerServiceProvider',
 
+        /*
+         * Application Service Providers...
+         */
         'App\Providers\AppServiceProvider',
+        'App\Providers\DocumentationServiceProvider',
+        'App\Providers\EventServiceProvider',
+        'App\Providers\ExtensionServiceProvider',
         'App\Providers\RouteServiceProvider',
     ],
 

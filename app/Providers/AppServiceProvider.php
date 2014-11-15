@@ -11,6 +11,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        $config = $this->app['config'];
+
+        $config->set('orchestra/extension::handles.app', $config['app.url']);
     }
 
     /**
@@ -20,8 +23,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $config = $this->app['config'];
-
-        $config->set('orchestra/extension::handles.app', $config['app.url']);
+        //
     }
 }

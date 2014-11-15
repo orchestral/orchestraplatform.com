@@ -33,7 +33,7 @@ class DocumentationControllerTest extends TestCase
         Meta::shouldReceive('set')->once()->with('title', m::any())->andReturnNull();
         View::shouldReceive('make')->once()->with('documentation', m::type('Array'), [])->andReturn('documentation');
 
-        $this->call('GET', '/docs/2.0/index');
+        $this->call('GET', 'docs/2.0/index');
 
         $this->assertResponseOk();
     }
