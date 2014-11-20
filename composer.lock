@@ -253,16 +253,16 @@
         },
         {
             "name": "erusev/parsedown",
-            "version": "1.1.1",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/erusev/parsedown.git",
-                "reference": "da5d75e97e1ed19e57bd54fa6cb595a6a0879a67"
+                "reference": "9816507a75b27b61035671cd2fc6f524a9b4c25c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/erusev/parsedown/zipball/da5d75e97e1ed19e57bd54fa6cb595a6a0879a67",
-                "reference": "da5d75e97e1ed19e57bd54fa6cb595a6a0879a67",
+                "url": "https://api.github.com/repos/erusev/parsedown/zipball/9816507a75b27b61035671cd2fc6f524a9b4c25c",
+                "reference": "9816507a75b27b61035671cd2fc6f524a9b4c25c",
                 "shasum": ""
             },
             "type": "library",
@@ -288,20 +288,20 @@
                 "markdown",
                 "parser"
             ],
-            "time": "2014-10-29 20:29:46"
+            "time": "2014-11-19 18:18:56"
         },
         {
             "name": "erusev/parsedown-extra",
-            "version": "0.2.3",
+            "version": "0.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/erusev/parsedown-extra.git",
-                "reference": "e81515ed5549871b16ece3aaab8cf023930b1e7e"
+                "reference": "daa9e57db4de2c4b126d33efe3dedfd6a29f4a37"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/erusev/parsedown-extra/zipball/e81515ed5549871b16ece3aaab8cf023930b1e7e",
-                "reference": "e81515ed5549871b16ece3aaab8cf023930b1e7e",
+                "url": "https://api.github.com/repos/erusev/parsedown-extra/zipball/daa9e57db4de2c4b126d33efe3dedfd6a29f4a37",
+                "reference": "daa9e57db4de2c4b126d33efe3dedfd6a29f4a37",
                 "shasum": ""
             },
             "require": {
@@ -332,7 +332,7 @@
                 "parsedown",
                 "parser"
             ],
-            "time": "2014-10-29 01:21:00"
+            "time": "2014-11-20 02:35:26"
         },
         {
             "name": "illuminate/html",
@@ -473,12 +473,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "025d4d125cf9ff457a346927af9e858aa3a013af"
+                "reference": "19317c9a545c58d8274df23da96c0d2a9c261fc6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/025d4d125cf9ff457a346927af9e858aa3a013af",
-                "reference": "025d4d125cf9ff457a346927af9e858aa3a013af",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/19317c9a545c58d8274df23da96c0d2a9c261fc6",
+                "reference": "19317c9a545c58d8274df23da96c0d2a9c261fc6",
                 "shasum": ""
             },
             "require": {
@@ -581,7 +581,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-11-19 05:10:53"
+            "time": "2014-11-20 01:49:12"
         },
         {
             "name": "league/flysystem",
@@ -1190,12 +1190,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "e614029cef267023fa2ae77bf1e7200fcc8c17ff"
+                "reference": "66be9c18294f796c1f172f284c0b753911f802f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/e614029cef267023fa2ae77bf1e7200fcc8c17ff",
-                "reference": "e614029cef267023fa2ae77bf1e7200fcc8c17ff",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/66be9c18294f796c1f172f284c0b753911f802f7",
+                "reference": "66be9c18294f796c1f172f284c0b753911f802f7",
                 "shasum": ""
             },
             "require": {
@@ -1258,7 +1258,7 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2014-11-19 10:59:05"
+            "time": "2014-11-19 14:20:08"
         },
         {
             "name": "orchestra/html",
@@ -3493,12 +3493,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/testbench.git",
-                "reference": "813a559b7cf3cc2c521daf5303ec695c3d1d0be8"
+                "reference": "3859780de925259e091504f2509004b19cf58cf5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/testbench/zipball/813a559b7cf3cc2c521daf5303ec695c3d1d0be8",
-                "reference": "813a559b7cf3cc2c521daf5303ec695c3d1d0be8",
+                "url": "https://api.github.com/repos/orchestral/testbench/zipball/3859780de925259e091504f2509004b19cf58cf5",
+                "reference": "3859780de925259e091504f2509004b19cf58cf5",
                 "shasum": ""
             },
             "require": {
@@ -3546,7 +3546,7 @@
                 "orchestral",
                 "testing"
             ],
-            "time": "2014-11-16 09:13:50"
+            "time": "2014-11-19 14:13:17"
         },
         {
             "name": "phpunit/php-code-coverage",
