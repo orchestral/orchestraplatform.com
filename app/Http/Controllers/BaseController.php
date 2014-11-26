@@ -1,12 +1,7 @@
 <?php namespace App\Http\Controllers;
 
-use Orchestra\Routing\Controller;
-use Orchestra\Support\Traits\ControllerResponseTrait;
-
 abstract class BaseController extends Controller
 {
-    use ControllerResponseTrait;
-
     /**
      * Processor instance.
      *

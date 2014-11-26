@@ -144,14 +144,14 @@ return [
         'Orchestra\Auth\Passwords\PasswordResetServiceProvider',
         'Orchestra\Publisher\PublisherServiceProvider',
         'Orchestra\Resources\ResourcesServiceProvider',
-        'Orchestra\Foundation\SupportServiceProvider',
+        'Orchestra\Foundation\Providers\SupportServiceProvider',
         'Orchestra\Translation\TranslationServiceProvider',
         'Orchestra\View\ViewServiceProvider',
         'Orchestra\Widget\WidgetServiceProvider',
 
-        'Orchestra\Foundation\ConsoleSupportServiceProvider',
-        'Orchestra\Foundation\FilterServiceProvider',
-        'Orchestra\Foundation\FoundationServiceProvider',
+        'Orchestra\Foundation\Providers\ConsoleSupportServiceProvider',
+        'Orchestra\Foundation\Providers\FilterServiceProvider',
+        'Orchestra\Foundation\Providers\FoundationServiceProvider',
 
         'Orchestra\Installation\InstallerServiceProvider',
 

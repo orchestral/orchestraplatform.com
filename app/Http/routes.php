@@ -11,20 +11,18 @@
 |
 */
 
-Foundation::group('app', '/', function ($router) {
-    $router->get('/', 'HomeController@index');
+$router->get('/', 'WelcomeController@index');
 
-    $router->get('docs/{version}', 'DocumentationController@index')
-        ->where('version', '([a-zA-Z0-9\.]+)');
+$router->get('docs/{version}', 'DocumentationController@index')
+    ->where('version', '([a-zA-Z0-9\.]+)');
 
-    $router->get('docs/{version}/{filename}', 'DocumentationController@show')
-        ->where(['version' => '([a-zA-Z0-9\.]+)', 'filename' => '(.+)?']);
+$router->get('docs/{version}/{filename}', 'DocumentationController@show')
+    ->where(['version' => '([a-zA-Z0-9\.]+)', 'filename' => '(.+)?']);
 
-    $router->get('blogs', function () {
-        return Redirect::to(handles('orchestra/story::/'));
-    });
-
-    $router->get('blogs/{any}', function ($any) {
-        return Redirect::to(handles("orchestra/story::{$any}"));
-    })->where('any', '(.*)');
+$router->get('blogs', function () {
+    return redirect(handles('orchestra/story::/'));
 });
+
+$router->get('blogs/{any}', function ($any) {
+    return redirect(handles("orchestra/story::{$any}"));
+})->where('any', '(.*)');

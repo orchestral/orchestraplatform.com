@@ -36,4 +36,19 @@ class RouteServiceProvider extends ServiceProvider
     {
         $this->loadRoutesFrom(app_path('Http/routes.php'));
     }
+
+    /**
+     * Load the standard routes file for the application.
+     *
+     * @param  string  $path
+     * @return void
+     */
+    protected function loadRoutesFrom($path)
+    {
+        $foundation = $this->app['Orchestra\Contracts\Foundation\Foundation'];
+
+        $foundation->group('app', '/', ['namespace' => $this->namespace], function (Router $router) use ($path) {
+            require $path;
+        });
+    }
 }
