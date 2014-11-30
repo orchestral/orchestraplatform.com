@@ -65,4 +65,17 @@ abstract class TestCase extends \Orchestra\Testbench\TestCase
     {
         $app->singleton('Illuminate\Contracts\Http\Kernel', 'App\Http\Kernel');
     }
+
+    /**
+     * Resolve application core implementation.
+     *
+     * @param  \Illuminate\Foundation\Application  $app
+     * @return void
+     */
+    protected function resolveApplicationCore($app)
+    {
+        parent::resolveApplicationCore($app);
+
+        $app->singleton('Illuminate\Contracts\Debug\ExceptionHandler', 'App\Exceptions\Handler');
+    }
 }

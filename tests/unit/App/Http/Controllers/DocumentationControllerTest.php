@@ -31,9 +31,8 @@ class DocumentationControllerTest extends TestCase
         $this->app->instance('App\Processor\Documentation', $processor);
 
         Meta::shouldReceive('set')->once()->with('title', m::any())->andReturnNull();
-        View::shouldReceive('make')->once()->with('documentation', m::type('Array'), [])->andReturn('documentation');
 
-        $this->call('GET', 'docs/2.0/index');
+        $response = $this->call('GET', 'docs/2.0/index');
 
         $this->assertResponseOk();
     }

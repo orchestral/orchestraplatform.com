@@ -1750,12 +1750,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/optimize.git",
-                "reference": "f957c253cc651c5968dbc1033b084ddc817d686a"
+                "reference": "4025108b3a172550de20db388c514f16fc371e1d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/optimize/zipball/f957c253cc651c5968dbc1033b084ddc817d686a",
-                "reference": "f957c253cc651c5968dbc1033b084ddc817d686a",
+                "url": "https://api.github.com/repos/orchestral/optimize/zipball/4025108b3a172550de20db388c514f16fc371e1d",
+                "reference": "4025108b3a172550de20db388c514f16fc371e1d",
                 "shasum": ""
             },
             "require": {
@@ -1796,7 +1796,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-11-30 05:49:41"
+            "time": "2014-11-30 07:24:32"
         },
         {
             "name": "orchestra/publisher",
