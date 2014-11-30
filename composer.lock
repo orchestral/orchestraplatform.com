@@ -1071,12 +1071,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/control.git",
-                "reference": "3f82ca3f6df8e164f54cf892300549c61fc87a70"
+                "reference": "e9a66a0fb1f4edcaecdcff5883ee7c5712416b0d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/control/zipball/3f82ca3f6df8e164f54cf892300549c61fc87a70",
-                "reference": "3f82ca3f6df8e164f54cf892300549c61fc87a70",
+                "url": "https://api.github.com/repos/orchestral/control/zipball/e9a66a0fb1f4edcaecdcff5883ee7c5712416b0d",
+                "reference": "e9a66a0fb1f4edcaecdcff5883ee7c5712416b0d",
                 "shasum": ""
             },
             "require": {
@@ -1119,7 +1119,7 @@
                 "theme",
                 "timezone"
             ],
-            "time": "2014-11-30 05:57:59"
+            "time": "2014-11-30 06:06:19"
         },
         {
             "name": "orchestra/extension",
