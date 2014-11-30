@@ -133,6 +133,7 @@ return [
          */
         'Orchestra\Asset\AssetServiceProvider',
         'Orchestra\Auth\AuthServiceProvider',
+        'Orchestra\Avatar\AvatarServiceProvider',
         'Orchestra\Routing\ControllerServiceProvider',
         'Orchestra\View\DecoratorServiceProvider',
         'Orchestra\Extension\ExtensionServiceProvider',
@@ -153,6 +154,9 @@ return [
         'Orchestra\Foundation\Providers\FilterServiceProvider',
         'Orchestra\Foundation\Providers\FoundationServiceProvider',
 
+        /**
+         * Orchestra Platform Installer Service Providers...
+         */
         'Orchestra\Installation\InstallerServiceProvider',
 
         /*
@@ -195,6 +199,7 @@ return [
         'ACL'        => 'Orchestra\Support\Facades\ACL',
         'Artisan'    => 'Illuminate\Support\Facades\Artisan',
         'Asset'      => 'Orchestra\Support\Facades\Asset',
+        'Avatar'     => 'Orchestra\Support\Facades\Avatar',
         'Auth'       => 'Illuminate\Support\Facades\Auth',
         'Blade'      => 'Illuminate\Support\Facades\Blade',
         'Cache'      => 'Illuminate\Support\Facades\Cache',
