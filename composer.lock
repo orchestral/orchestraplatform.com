@@ -1255,12 +1255,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "19fe7695a19a944044d22cdca4b8cd2e92f18afb"
+                "reference": "7188d25ac99def08c0364ad24cf965bab852c7d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/19fe7695a19a944044d22cdca4b8cd2e92f18afb",
-                "reference": "19fe7695a19a944044d22cdca4b8cd2e92f18afb",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/7188d25ac99def08c0364ad24cf965bab852c7d0",
+                "reference": "7188d25ac99def08c0364ad24cf965bab852c7d0",
                 "shasum": ""
             },
             "require": {
@@ -1277,7 +1277,6 @@
                 "orchestra/notifier": "3.0.*",
                 "orchestra/optimize": "3.0.*",
                 "orchestra/publisher": "3.0.*",
-                "orchestra/resources": "3.0.*",
                 "orchestra/support": "3.0.*",
                 "orchestra/translation": "3.0.*",
                 "orchestra/view": "3.0.*",
@@ -1324,7 +1323,7 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2014-12-03 23:46:33"
+            "time": "2014-12-04 00:22:40"
         },
         {
             "name": "orchestra/html",
@@ -1860,66 +1859,6 @@
                 "orchestral-platform"
             ],
             "time": "2014-11-30 01:16:08"
-        },
-        {
-            "name": "orchestra/resources",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/orchestral/resources.git",
-                "reference": "aed6ea35ec8930f7f7975c216c3dca1d7360c64f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/resources/zipball/aed6ea35ec8930f7f7975c216c3dca1d7360c64f",
-                "reference": "aed6ea35ec8930f7f7975c216c3dca1d7360c64f",
-                "shasum": ""
-            },
-            "require": {
-                "orchestra/routing": "3.0.*",
-                "orchestra/support-facades": "3.0.*",
-                "php": ">=5.4.0"
-            },
-            "require-dev": {
-                "illuminate/events": "5.0.*",
-                "illuminate/http": "5.0.*",
-                "mockery/mockery": "0.9.*",
-                "orchestra/facile": "3.0.*"
-            },
-            "suggest": {
-                "laravel/framework": "Allow using orchestra/resources component outside of Orchestra Platform",
-                "orchestra/foundation": "Allow using orchestra/resources with Orchestra Platform"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Orchestra\\Resources\\": "src/Resources/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Mior Muhammad Zaki",
-                    "email": "crynobone@gmail.com",
-                    "homepage": "https://github.com/crynobone"
-                }
-            ],
-            "description": "Resources Component for Orchestra Platform",
-            "homepage": "http://orchestraplatform.com/docs/latest/components/resources/",
-            "keywords": [
-                "laravel",
-                "orchestra-platform",
-                "orchestral"
-            ],
-            "time": "2014-11-11 09:57:15"
         },
         {
             "name": "orchestra/story",
