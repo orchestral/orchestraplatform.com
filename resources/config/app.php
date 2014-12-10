@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'debug' => false,
+    'debug' => (bool) getenv('APP_DEBUG') ?: false,
 
     /*
     |--------------------------------------------------------------------------
@@ -78,7 +78,7 @@ return [
     |
     */
 
-    'key' => getenv('APP.KEY'),
+    'key' => getenv('APP_KEY'),
 
     'cipher' => MCRYPT_RIJNDAEL_256,
 
@@ -113,7 +113,6 @@ return [
          */
         'Illuminate\Foundation\Providers\ArtisanServiceProvider',
         'Illuminate\Cache\CacheServiceProvider',
-        'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider',
         'Illuminate\Cookie\CookieServiceProvider',
         'Illuminate\Database\DatabaseServiceProvider',
         'Illuminate\Encryption\EncryptionServiceProvider',
@@ -122,7 +121,6 @@ return [
         'Illuminate\Hashing\HashServiceProvider',
         'Illuminate\Mail\MailServiceProvider',
         'Illuminate\Pagination\PaginationServiceProvider',
-        'Illuminate\Foundation\Providers\PublisherServiceProvider',
         'Illuminate\Queue\QueueServiceProvider',
         'Illuminate\Redis\RedisServiceProvider',
         'Illuminate\Session\SessionServiceProvider',

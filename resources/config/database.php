@@ -48,10 +48,10 @@ return [
 
         'mysql' => [
             'driver'    => 'mysql',
-            'host'      => getenv('DB.HOST') ?: '127.0.0.1',
-            'database'  => getenv('DB.DATABASE') ?: 'orchestraplatform',
-            'username'  => getenv('DB.USERNAME') ?: 'root',
-            'password'  => getenv('DB.PASSWORD') ?: 'root',
+            'host'      => getenv('DB_HOST') ?: '127.0.0.1',
+            'database'  => getenv('DB_DATABASE') ?: 'orchestraplatform',
+            'username'  => getenv('DB_USERNAME') ?: 'root',
+            'password'  => getenv('DB_PASSWORD') ?: 'root',
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',

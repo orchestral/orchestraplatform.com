@@ -4,9 +4,9 @@ use Kurenai\Document;
 use Orchestra\Support\Str;
 use Illuminate\Support\Arr;
 use Illuminate\Filesystem\Filesystem;
-use Illuminate\Foundation\Application;
-use Illuminate\Cache\Repository as CacheRepository;
-use Illuminate\Config\Repository as ConfigRepository;
+use Illuminate\Contracts\Foundation\Application;
+use Illuminate\Contracts\Cache\Repository as CacheRepository;
+use Illuminate\Contracts\Config\Repository as ConfigRepository;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 class Documentation extends Processor
@@ -49,9 +49,9 @@ class Documentation extends Processor
     /**
      * Construct a new documentation processor.
      *
-     * @param  \Illuminate\Foundation\Application $app
-     * @param  \Illuminate\Cache\Repository       $cache
-     * @param  \Illuminate\Config\Repository      $config
+     * @param  \Illuminate\Contracts\Foundation\Application  $app
+     * @param  \Illuminate\Contracts\Cache\Repository  $cache
+     * @param  \Illuminate\Contracts\Config\Repository  $config
      * @param  \Illuminate\Filesystem\Filesystem  $files
      */
     public function __construct(Application $app, CacheRepository $cache, ConfigRepository $config, Filesystem $files)

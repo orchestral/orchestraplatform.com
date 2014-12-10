@@ -23,6 +23,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        // This service provider is a great spot to register your various container
+        // bindings with the application.
+
     }
 }

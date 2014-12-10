@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'default' => 'beanstalkd',
+    'default' => getenv('QUEUE_DRIVER') ?: 'beanstalkd',
 
     /*
     |--------------------------------------------------------------------------
