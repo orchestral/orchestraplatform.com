@@ -476,12 +476,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "c096f8512ad25cc8a09bc64b50f306f330bb889f"
+                "reference": "edd48d8d92692335ad0488c3402cd2d7eb7fcf10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/c096f8512ad25cc8a09bc64b50f306f330bb889f",
-                "reference": "c096f8512ad25cc8a09bc64b50f306f330bb889f",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/edd48d8d92692335ad0488c3402cd2d7eb7fcf10",
+                "reference": "edd48d8d92692335ad0488c3402cd2d7eb7fcf10",
                 "shasum": ""
             },
             "require": {
@@ -583,7 +583,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-12-08 16:03:11"
+            "time": "2014-12-11 17:15:21"
         },
         {
             "name": "league/flysystem",
@@ -1255,12 +1255,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "b6b6f1a8ce4f8006f62d340ac5f2558c598d5e97"
+                "reference": "56a8766c991d3cf084fd916d29ebb4e5796428cd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/b6b6f1a8ce4f8006f62d340ac5f2558c598d5e97",
-                "reference": "b6b6f1a8ce4f8006f62d340ac5f2558c598d5e97",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/56a8766c991d3cf084fd916d29ebb4e5796428cd",
+                "reference": "56a8766c991d3cf084fd916d29ebb4e5796428cd",
                 "shasum": ""
             },
             "require": {
@@ -1324,7 +1324,7 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2014-12-09 07:25:45"
+            "time": "2014-12-10 11:37:20"
         },
         {
             "name": "orchestra/html",
@@ -1807,12 +1807,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/publisher.git",
-                "reference": "36bcb1497b1bdfb2f969bc716bc8084e76570b77"
+                "reference": "82216785395d7891e108e0729cbec432e30afc0f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/publisher/zipball/36bcb1497b1bdfb2f969bc716bc8084e76570b77",
-                "reference": "36bcb1497b1bdfb2f969bc716bc8084e76570b77",
+                "url": "https://api.github.com/repos/orchestral/publisher/zipball/82216785395d7891e108e0729cbec432e30afc0f",
+                "reference": "82216785395d7891e108e0729cbec432e30afc0f",
                 "shasum": ""
             },
             "require": {
@@ -1861,7 +1861,7 @@
                 "orchestral",
                 "orchestral-platform"
             ],
-            "time": "2014-12-10 02:20:11"
+            "time": "2014-12-11 16:19:28"
         },
         {
             "name": "orchestra/story",
@@ -1927,12 +1927,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/support.git",
-                "reference": "0d6ca30d1d301d83008842346152a200d0bfcd88"
+                "reference": "0d95a82fd901e456b8665eb3e68f8972106f7160"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/support/zipball/0d6ca30d1d301d83008842346152a200d0bfcd88",
-                "reference": "0d6ca30d1d301d83008842346152a200d0bfcd88",
+                "url": "https://api.github.com/repos/orchestral/support/zipball/0d95a82fd901e456b8665eb3e68f8972106f7160",
+                "reference": "0d95a82fd901e456b8665eb3e68f8972106f7160",
                 "shasum": ""
             },
             "require": {
@@ -1992,7 +1992,7 @@
                 "utilities",
                 "validator"
             ],
-            "time": "2014-12-09 08:24:22"
+            "time": "2014-12-11 10:58:58"
         },
         {
             "name": "orchestra/translation",
@@ -3053,16 +3053,16 @@
         },
         {
             "name": "vlucas/phpdotenv",
-            "version": "v1.0.9",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "56c252d48dce336da97926591aed71805203815b"
+                "reference": "732d2adb7d916c9593b9d58c3b0d9ebefead07aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/56c252d48dce336da97926591aed71805203815b",
-                "reference": "56c252d48dce336da97926591aed71805203815b",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/732d2adb7d916c9593b9d58c3b0d9ebefead07aa",
+                "reference": "732d2adb7d916c9593b9d58c3b0d9ebefead07aa",
                 "shasum": ""
             },
             "require": {
@@ -3100,7 +3100,7 @@
                 "env",
                 "environment"
             ],
-            "time": "2014-10-16 14:50:21"
+            "time": "2014-12-05 15:19:21"
         }
     ],
     "packages-dev": [
@@ -3340,16 +3340,16 @@
         },
         {
             "name": "guzzlehttp/ringphp",
-            "version": "1.0.4",
+            "version": "1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/RingPHP.git",
-                "reference": "9187999f80720b9494692d2167d75144acb2ad05"
+                "reference": "a903f51b692427318bc813217c0e6505287e79a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/RingPHP/zipball/9187999f80720b9494692d2167d75144acb2ad05",
-                "reference": "9187999f80720b9494692d2167d75144acb2ad05",
+                "url": "https://api.github.com/repos/guzzle/RingPHP/zipball/a903f51b692427318bc813217c0e6505287e79a4",
+                "reference": "a903f51b692427318bc813217c0e6505287e79a4",
                 "shasum": ""
             },
             "require": {
@@ -3386,7 +3386,7 @@
                     "homepage": "https://github.com/mtdowling"
                 }
             ],
-            "time": "2014-12-02 05:01:22"
+            "time": "2014-12-11 05:50:32"
         },
         {
             "name": "guzzlehttp/streams",
