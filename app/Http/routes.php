@@ -19,10 +19,9 @@ $router->get('docs/{version}', 'DocumentationController@index')
 $router->get('docs/{version}/{filename}', 'DocumentationController@show')
     ->where(['version' => '([a-zA-Z0-9\.]+)', 'filename' => '(.+)?']);
 
-$router->get('blogs', function () {
-    return redirect(handles('orchestra/story::/'));
-});
+$router->get('blogs', 'LegacyBlogController@index');
 
-$router->get('blogs/{any}', function ($any) {
-    return redirect(handles("orchestra/story::{$any}"));
-})->where('any', '(.*)');
+$router->get('blogs/{any}', [
+    'uses'  => 'LegacyBlogController@show',
+    'where' => ['any', '(.*)'],
+]);
