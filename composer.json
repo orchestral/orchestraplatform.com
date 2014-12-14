@@ -13,12 +13,12 @@
 	"require-dev": {
 		"mockery/mockery": "0.9.*",
 		"codeception/codeception": "~2.0",
-		"orchestra/testbench": "3.0.*"
+		"orchestra/testbench": "3.0.*",
+		"phpspec/phpspec": "~2.0"
 	},
 	"autoload": {
 		"classmap": [
-			"resources/database",
-			"tests/TestCase.php"
+			"resources/database"
 		],
 		"psr-4": {
 			"App\\": "app/"
