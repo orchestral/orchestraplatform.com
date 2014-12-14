@@ -1072,12 +1072,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/control.git",
-                "reference": "dcd1f350c8a24d1305d268528185b2481a86e36f"
+                "reference": "174307e9cae7df1d4786e3be1c1278d06e848da1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/control/zipball/dcd1f350c8a24d1305d268528185b2481a86e36f",
-                "reference": "dcd1f350c8a24d1305d268528185b2481a86e36f",
+                "url": "https://api.github.com/repos/orchestral/control/zipball/174307e9cae7df1d4786e3be1c1278d06e848da1",
+                "reference": "174307e9cae7df1d4786e3be1c1278d06e848da1",
                 "shasum": ""
             },
             "require": {
@@ -1123,7 +1123,7 @@
                 "theme",
                 "timezone"
             ],
-            "time": "2014-12-14 12:32:15"
+            "time": "2014-12-14 13:08:04"
         },
         {
             "name": "orchestra/extension",
@@ -1869,12 +1869,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/story.git",
-                "reference": "09a9db9b489ee9be25bde4e6033ccba8927cf4de"
+                "reference": "723eeb060bf0c8cd28d18db335430e64ed3b147f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/story/zipball/09a9db9b489ee9be25bde4e6033ccba8927cf4de",
-                "reference": "09a9db9b489ee9be25bde4e6033ccba8927cf4de",
+                "url": "https://api.github.com/repos/orchestral/story/zipball/723eeb060bf0c8cd28d18db335430e64ed3b147f",
+                "reference": "723eeb060bf0c8cd28d18db335430e64ed3b147f",
                 "shasum": ""
             },
             "require": {
@@ -1919,7 +1919,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-12-14 09:27:38"
+            "time": "2014-12-14 13:08:21"
         },
         {
             "name": "orchestra/support",
@@ -2120,12 +2120,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/widget.git",
-                "reference": "a604eb68a24925d91cf757368ffce5048d0628f3"
+                "reference": "94026fd331aebcee3c41e93a9bff90739a82e6ed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/widget/zipball/a604eb68a24925d91cf757368ffce5048d0628f3",
-                "reference": "a604eb68a24925d91cf757368ffce5048d0628f3",
+                "url": "https://api.github.com/repos/orchestral/widget/zipball/94026fd331aebcee3c41e93a9bff90739a82e6ed",
+                "reference": "94026fd331aebcee3c41e93a9bff90739a82e6ed",
                 "shasum": ""
             },
             "require": {
@@ -2171,7 +2171,7 @@
                 "orchestral",
                 "widget"
             ],
-            "time": "2014-12-14 12:19:00"
+            "time": "2014-12-14 13:07:30"
         },
         {
             "name": "patchwork/utf8",
