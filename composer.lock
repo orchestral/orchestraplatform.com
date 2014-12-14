@@ -1072,12 +1072,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/control.git",
-                "reference": "7f3d2776b34ad060ae0f3c729823a4c39776d127"
+                "reference": "dcd1f350c8a24d1305d268528185b2481a86e36f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/control/zipball/7f3d2776b34ad060ae0f3c729823a4c39776d127",
-                "reference": "7f3d2776b34ad060ae0f3c729823a4c39776d127",
+                "url": "https://api.github.com/repos/orchestral/control/zipball/dcd1f350c8a24d1305d268528185b2481a86e36f",
+                "reference": "dcd1f350c8a24d1305d268528185b2481a86e36f",
                 "shasum": ""
             },
             "require": {
@@ -1123,7 +1123,7 @@
                 "theme",
                 "timezone"
             ],
-            "time": "2014-12-10 10:59:27"
+            "time": "2014-12-14 12:32:15"
         },
         {
             "name": "orchestra/extension",
@@ -1869,12 +1869,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/story.git",
-                "reference": "d30e911bcd4e2112a6adbf7e856813ee0e24d31c"
+                "reference": "09a9db9b489ee9be25bde4e6033ccba8927cf4de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/story/zipball/d30e911bcd4e2112a6adbf7e856813ee0e24d31c",
-                "reference": "d30e911bcd4e2112a6adbf7e856813ee0e24d31c",
+                "url": "https://api.github.com/repos/orchestral/story/zipball/09a9db9b489ee9be25bde4e6033ccba8927cf4de",
+                "reference": "09a9db9b489ee9be25bde4e6033ccba8927cf4de",
                 "shasum": ""
             },
             "require": {
@@ -1919,7 +1919,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-12-09 07:48:45"
+            "time": "2014-12-14 09:27:38"
         },
         {
             "name": "orchestra/support",
@@ -2120,12 +2120,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/widget.git",
-                "reference": "2ba00f547eea824516e58e00478919687e04aec2"
+                "reference": "a604eb68a24925d91cf757368ffce5048d0628f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/widget/zipball/2ba00f547eea824516e58e00478919687e04aec2",
-                "reference": "2ba00f547eea824516e58e00478919687e04aec2",
+                "url": "https://api.github.com/repos/orchestral/widget/zipball/a604eb68a24925d91cf757368ffce5048d0628f3",
+                "reference": "a604eb68a24925d91cf757368ffce5048d0628f3",
                 "shasum": ""
             },
             "require": {
@@ -2171,7 +2171,7 @@
                 "orchestral",
                 "widget"
             ],
-            "time": "2014-12-09 06:34:38"
+            "time": "2014-12-14 12:19:00"
         },
         {
             "name": "patchwork/utf8",
@@ -3650,30 +3650,33 @@
         },
         {
             "name": "phpspec/phpspec",
-            "version": "2.0.1",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpspec/phpspec.git",
-                "reference": "61712147412cb647b6cb68b19833a60bfda759a1"
+                "reference": "3d2ac6c2da3d7c1c42b966a39b0754bd055b4c60"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpspec/phpspec/zipball/61712147412cb647b6cb68b19833a60bfda759a1",
-                "reference": "61712147412cb647b6cb68b19833a60bfda759a1",
+                "url": "https://api.github.com/repos/phpspec/phpspec/zipball/3d2ac6c2da3d7c1c42b966a39b0754bd055b4c60",
+                "reference": "3d2ac6c2da3d7c1c42b966a39b0754bd055b4c60",
                 "shasum": ""
             },
             "require": {
+                "doctrine/instantiator": "~1.0,>=1.0.1",
                 "php": ">=5.3.3",
                 "phpspec/php-diff": "~1.0.0",
                 "phpspec/prophecy": "~1.1",
-                "symfony/console": "~2.1",
+                "sebastian/exporter": "~1.0",
+                "symfony/console": "~2.3",
                 "symfony/event-dispatcher": "~2.1",
                 "symfony/finder": "~2.1",
+                "symfony/process": "~2.1",
                 "symfony/yaml": "~2.1"
             },
             "require-dev": {
-                "behat/behat": "~2.5",
-                "bossa/phpspec2-expect": "dev-master",
+                "behat/behat": "~3.0",
+                "bossa/phpspec2-expect": "~1.0",
                 "symfony/filesystem": "~2.1"
             },
             "suggest": {
@@ -3685,7 +3688,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.0.x-dev"
+                    "dev-master": "2.1.x-dev"
                 }
             },
             "autoload": {
@@ -3719,7 +3722,7 @@
                 "testing",
                 "tests"
             ],
-            "time": "2014-07-01 14:09:19"
+            "time": "2014-12-14 09:37:32"
         },
         {
             "name": "phpspec/prophecy",
