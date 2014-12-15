@@ -8,24 +8,30 @@ use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 class FileLoader
 {
     /**
-     * @var Cache
+     * The cache repository implementation.
+     *
+     * @var \Illuminate\Contracts\Cache\Repository
      */
     protected $cache;
 
     /**
-     * @var Filesystem
+     * The filesystem implementation.
+     *
+     * @var \Illuminate\Filesystem\Filesystem
      */
     protected $files;
 
     /**
-     * @var DocumentParser
+     * The markdown parser.
+     *
+     * @var \Kurenai\DocumentParser
      */
     protected $parser;
 
     /**
-     * @param Cache $cache
-     * @param Filesystem $files
-     * @param DocumentParser $parser
+     * @param  \Illuminate\Contracts\Cache\Repository  $cache
+     * @param  \Illuminate\Filesystem\Filesystem  $files
+     * @param  \Kurenai\DocumentParser  $parser
      */
     public function __construct(Cache $cache, Filesystem $files, DocumentParser $parser)
     {
