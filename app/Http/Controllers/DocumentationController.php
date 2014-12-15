@@ -1,15 +1,16 @@
 <?php namespace App\Http\Controllers;
 
-use App\Processor\Documentation as DocumentationProcessor;
+use Kurenai\Document;
+use App\Documentation\Viewer;
 
 class DocumentationController extends BaseController
 {
     /**
      * Construct a new DocumentationController.
      *
-     * @param  \App\Processor\Documentation  $processor
+     * @param  \App\Documentation\Viewer  $processor
      */
-    public function __construct(DocumentationProcessor $processor)
+    public function __construct(Viewer $processor)
     {
         $this->processor = $processor;
 
@@ -56,12 +57,12 @@ class DocumentationController extends BaseController
     /**
      * Display documentation.
      *
-     * @param  string   $version
-     * @param  string   $toc
-     * @param  object   $document
+     * @param  string  $version
+     * @param  \Kurenai\Document  $toc
+     * @param  \Kurenai\Document  $document
      * @return mixed
      */
-    public function showSucceed($version, $toc, $document)
+    public function showSucceed($version, Document $toc, Document $document)
     {
         set_meta('title', sprintf('%s on v%s', $document->get('title'), $version));
 

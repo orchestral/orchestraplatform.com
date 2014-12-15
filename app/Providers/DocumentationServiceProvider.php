@@ -4,9 +4,21 @@ use Kurenai\Document;
 use Kurenai\DocumentParser;
 use Illuminate\Support\ServiceProvider;
 use Kurenai\Parser\ParsedownMarkdownExtra;
+use Orchestra\Support\Providers\Traits\AliasesProviderTrait;
 
 class DocumentationServiceProvider extends ServiceProvider
 {
+    use AliasesProviderTrait;
+
+    /**
+     * List of aliases.
+     *
+     * @var array
+     */
+    protected $aliases = [
+        'doc.parser' => 'Kurenai\DocumentParser',
+    ];
+
     /**
      * Register the service provider.
      *
@@ -19,5 +31,7 @@ class DocumentationServiceProvider extends ServiceProvider
                 return new Document(new ParsedownMarkdownExtra);
             });
         });
+
+        $this->registerCoreContainerAliases();
     }
 }
