@@ -71,14 +71,9 @@ class FileLoader
      */
     protected function getTableOfContent($toc)
     {
-        return $this->cache->get("doc.{$toc}", function () use ($toc) {
-            $this->validateFileDoesExist($toc);
+        $content = $this->loadContent($toc);
 
-            $content = $this->parser->parse($this->files->get($toc));
-            $this->cache->forever("doc.{$toc}", $content);
-
-            return $content;
-        });
+        return $this->parser->parse($content);
     }
 
     /**
@@ -89,11 +84,24 @@ class FileLoader
      */
     protected function getBodyContent($document)
     {
-        return $this->cache->get("doc.{$document}", function () use ($document) {
-            $this->validateFileDoesExist($document);
+        $content = $this->loadContent($document);
 
-            $content = $this->parser->parse($this->files->get($document));
-            $this->cache->forever("doc.{$document}", $content);
+        return $this->parser->parse($content);
+    }
+
+    /**
+     * Load content.
+     *
+     * @param  string  $file
+     * @return mixed
+     */
+    protected function loadContent($file)
+    {
+        return $this->cache->get("doc.{$file}", function () use ($file) {
+            $this->validateFileDoesExist($file);
+
+            $content = $this->files->get($file);
+            $this->cache->forever("doc.{$file}", $content);
 
             return $content;
         });
