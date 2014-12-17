@@ -16,7 +16,7 @@ return [
     |
     */
 
-    'driver' => getenv('SESSION_DRIVER') ?: 'redis',
+    'driver' => env('SESSION_DRIVER') ?: 'redis',
 
     /*
     |--------------------------------------------------------------------------

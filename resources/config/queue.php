@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'default' => getenv('QUEUE_DRIVER') ?: 'beanstalkd',
+    'default' => env('QUEUE_DRIVER') ?: 'beanstalkd',
 
     /*
     |--------------------------------------------------------------------------
@@ -61,6 +61,7 @@ return [
         'redis' => [
             'driver' => 'redis',
             'queue'  => 'default',
+            'expire' => 60,
         ],
 
     ],
@@ -78,7 +79,7 @@ return [
 
     'failed' => [
 
-        'database' => 'mysql', 'table' => 'failed_jobs',
+        'database' => 'primary', 'table' => 'failed_jobs',
 
     ],
 

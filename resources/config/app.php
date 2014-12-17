@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'debug' => (bool) getenv('APP_DEBUG') ?: false,
+    'debug' => env('APP_DEBUG') ?: false,
 
     /*
     |--------------------------------------------------------------------------
@@ -26,7 +26,7 @@ return [
     |
     */
 
-    'url' => 'http://orchestraplatform.com',
+    'url' => env('APP_URL') ?: 'http://orchestraplatform.com',
 
     /*
     |--------------------------------------------------------------------------
@@ -78,7 +78,7 @@ return [
     |
     */
 
-    'key' => getenv('APP_KEY'),
+    'key' => env('APP_KEY'),
 
     'cipher' => MCRYPT_RIJNDAEL_256,
 

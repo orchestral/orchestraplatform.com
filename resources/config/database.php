@@ -26,7 +26,7 @@ return [
     |
     */
 
-    'default' => 'mysql',
+    'default' => 'primary',
 
     /*
     |--------------------------------------------------------------------------
@@ -46,7 +46,7 @@ return [
 
     'connections' => [
 
-        'mysql' => [
+        'primary' => [
             'driver'    => 'mysql',
             'host'      => getenv('DB_HOST') ?: '127.0.0.1',
             'database'  => getenv('DB_DATABASE') ?: 'orchestraplatform',
