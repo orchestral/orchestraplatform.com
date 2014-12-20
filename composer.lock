@@ -476,12 +476,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "ce3f62ee910ef644a76d8f7b71eade2cc48f1c00"
+                "reference": "127e87a4462a23b0405e15ec98182337b3f8c36f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/ce3f62ee910ef644a76d8f7b71eade2cc48f1c00",
-                "reference": "ce3f62ee910ef644a76d8f7b71eade2cc48f1c00",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/127e87a4462a23b0405e15ec98182337b3f8c36f",
+                "reference": "127e87a4462a23b0405e15ec98182337b3f8c36f",
                 "shasum": ""
             },
             "require": {
@@ -583,7 +583,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-12-19 22:35:35"
+            "time": "2014-12-20 04:25:06"
         },
         {
             "name": "league/flysystem",
@@ -1255,12 +1255,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "0b3d5042f177f602eceef004364f8f9195a72fbf"
+                "reference": "2112239fc6c0d8e60956137a1ef5b9971a28ade8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/0b3d5042f177f602eceef004364f8f9195a72fbf",
-                "reference": "0b3d5042f177f602eceef004364f8f9195a72fbf",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/2112239fc6c0d8e60956137a1ef5b9971a28ade8",
+                "reference": "2112239fc6c0d8e60956137a1ef5b9971a28ade8",
                 "shasum": ""
             },
             "require": {
@@ -1324,7 +1324,7 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2014-12-19 15:44:45"
+            "time": "2014-12-20 09:12:27"
         },
         {
             "name": "orchestra/html",
