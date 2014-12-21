@@ -879,7 +879,7 @@
         },
         {
             "name": "orchestra/asset",
-            "version": "dev-master",
+            "version": "v3.0.0-BETA1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/asset.git",
@@ -938,7 +938,7 @@
         },
         {
             "name": "orchestra/auth",
-            "version": "dev-master",
+            "version": "v3.0.0-BETA1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/auth.git",
@@ -1127,7 +1127,7 @@
         },
         {
             "name": "orchestra/extension",
-            "version": "dev-master",
+            "version": "v3.0.0-BETA1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/extension.git",
@@ -1190,7 +1190,7 @@
         },
         {
             "name": "orchestra/facile",
-            "version": "dev-master",
+            "version": "v3.0.0-BETA1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/facile.git",
@@ -1394,7 +1394,7 @@
         },
         {
             "name": "orchestra/installer",
-            "version": "dev-master",
+            "version": "v3.0.0-BETA1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/installer.git",
@@ -1569,7 +1569,7 @@
         },
         {
             "name": "orchestra/messages",
-            "version": "dev-master",
+            "version": "v3.0.0-BETA1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/messages.git",
@@ -1923,7 +1923,7 @@
         },
         {
             "name": "orchestra/support",
-            "version": "dev-master",
+            "version": "v3.0.0-BETA1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/support.git",
@@ -1996,7 +1996,7 @@
         },
         {
             "name": "orchestra/translation",
-            "version": "dev-master",
+            "version": "v3.0.0-BETA1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/translation.git",
