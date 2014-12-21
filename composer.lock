@@ -133,16 +133,16 @@
         },
         {
             "name": "doctrine/annotations",
-            "version": "v1.2.2",
+            "version": "v1.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/annotations.git",
-                "reference": "d63108433190110c0ceb8be6460dda6f78348950"
+                "reference": "eeda578cbe24a170331a1cfdf78be723412df7a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/annotations/zipball/d63108433190110c0ceb8be6460dda6f78348950",
-                "reference": "d63108433190110c0ceb8be6460dda6f78348950",
+                "url": "https://api.github.com/repos/doctrine/annotations/zipball/eeda578cbe24a170331a1cfdf78be723412df7a4",
+                "reference": "eeda578cbe24a170331a1cfdf78be723412df7a4",
                 "shasum": ""
             },
             "require": {
@@ -197,7 +197,7 @@
                 "docblock",
                 "parser"
             ],
-            "time": "2014-12-18 18:30:08"
+            "time": "2014-12-20 20:49:38"
         },
         {
             "name": "doctrine/lexer",
@@ -476,12 +476,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "127e87a4462a23b0405e15ec98182337b3f8c36f"
+                "reference": "979dbd12223ed8919ee5366f1471a5207bad1d79"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/127e87a4462a23b0405e15ec98182337b3f8c36f",
-                "reference": "127e87a4462a23b0405e15ec98182337b3f8c36f",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/979dbd12223ed8919ee5366f1471a5207bad1d79",
+                "reference": "979dbd12223ed8919ee5366f1471a5207bad1d79",
                 "shasum": ""
             },
             "require": {
@@ -583,7 +583,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-12-20 04:25:06"
+            "time": "2014-12-21 04:29:57"
         },
         {
             "name": "league/flysystem",
