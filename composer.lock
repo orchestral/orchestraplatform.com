@@ -476,12 +476,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "11e3d8228e7886c30b59c2023ac11f1f33fa03a8"
+                "reference": "f364f9988e77b2f9b50f7d90d90636b6cf564968"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/11e3d8228e7886c30b59c2023ac11f1f33fa03a8",
-                "reference": "11e3d8228e7886c30b59c2023ac11f1f33fa03a8",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/f364f9988e77b2f9b50f7d90d90636b6cf564968",
+                "reference": "f364f9988e77b2f9b50f7d90d90636b6cf564968",
                 "shasum": ""
             },
             "require": {
@@ -509,6 +509,7 @@
                 "symfony/routing": "2.6.*",
                 "symfony/security-core": "2.6.*",
                 "symfony/translation": "2.6.*",
+                "symfony/var-dumper": "2.6.*",
                 "vlucas/phpdotenv": "~1.0"
             },
             "replace": {
@@ -583,7 +584,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-12-21 20:31:49"
+            "time": "2014-12-22 22:27:11"
         },
         {
             "name": "league/flysystem",
@@ -591,12 +592,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "3a62246ca3608fbd58953e0966a7b454f357d0a5"
+                "reference": "e63bbefb51e49a78a732c5a920240c6e8c08d641"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/3a62246ca3608fbd58953e0966a7b454f357d0a5",
-                "reference": "3a62246ca3608fbd58953e0966a7b454f357d0a5",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/e63bbefb51e49a78a732c5a920240c6e8c08d641",
+                "reference": "e63bbefb51e49a78a732c5a920240c6e8c08d641",
                 "shasum": ""
             },
             "require": {
@@ -671,7 +672,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2014-12-21 22:18:17"
+            "time": "2014-12-22 16:32:36"
         },
         {
             "name": "monolog/monolog",
@@ -1255,12 +1256,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "2112239fc6c0d8e60956137a1ef5b9971a28ade8"
+                "reference": "18776e8060c2d12c9a3802f9882b72a8db62c80a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/2112239fc6c0d8e60956137a1ef5b9971a28ade8",
-                "reference": "2112239fc6c0d8e60956137a1ef5b9971a28ade8",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/18776e8060c2d12c9a3802f9882b72a8db62c80a",
+                "reference": "18776e8060c2d12c9a3802f9882b72a8db62c80a",
                 "shasum": ""
             },
             "require": {
@@ -1324,7 +1325,7 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2014-12-20 09:12:27"
+            "time": "2014-12-23 02:02:30"
         },
         {
             "name": "orchestra/html",
@@ -1635,7 +1636,7 @@
         },
         {
             "name": "orchestra/model",
-            "version": "dev-master",
+            "version": "v3.0.0-BETA1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/model.git",
@@ -3049,6 +3050,59 @@
             "description": "Symfony Translation Component",
             "homepage": "http://symfony.com",
             "time": "2014-12-02 20:19:20"
+        },
+        {
+            "name": "symfony/var-dumper",
+            "version": "v2.6.1",
+            "target-dir": "Symfony/Component/VarDumper",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/var-dumper.git",
+                "reference": "8f3ee04faeca3b8418229b2efbfc8b2b8625b8aa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/8f3ee04faeca3b8418229b2efbfc8b2b8625b8aa",
+                "reference": "8f3ee04faeca3b8418229b2efbfc8b2b8625b8aa",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "ext-symfony_debug": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.6-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "Resources/functions/dump.php"
+                ],
+                "psr-0": {
+                    "Symfony\\Component\\VarDumper\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                }
+            ],
+            "description": "Symfony mechanism for exploring and dumping PHP variables",
+            "homepage": "http://symfony.com",
+            "keywords": [
+                "debug",
+                "dump"
+            ],
+            "time": "2014-11-18 10:08:24"
         },
         {
             "name": "vlucas/phpdotenv",
