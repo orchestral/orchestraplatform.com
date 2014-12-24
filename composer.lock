@@ -476,12 +476,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "f364f9988e77b2f9b50f7d90d90636b6cf564968"
+                "reference": "6286c4e54df004b29976a8eb40a399f9d8424206"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/f364f9988e77b2f9b50f7d90d90636b6cf564968",
-                "reference": "f364f9988e77b2f9b50f7d90d90636b6cf564968",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/6286c4e54df004b29976a8eb40a399f9d8424206",
+                "reference": "6286c4e54df004b29976a8eb40a399f9d8424206",
                 "shasum": ""
             },
             "require": {
@@ -584,7 +584,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-12-22 22:27:11"
+            "time": "2014-12-23 22:39:38"
         },
         {
             "name": "league/flysystem",
@@ -1452,12 +1452,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/kernel.git",
-                "reference": "5a5991369bb1790f1de9f9d4147f32f8bcfb4ad6"
+                "reference": "b9c0c940e8df31c8f7c382af1480c117361ce33f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/kernel/zipball/5a5991369bb1790f1de9f9d4147f32f8bcfb4ad6",
-                "reference": "5a5991369bb1790f1de9f9d4147f32f8bcfb4ad6",
+                "url": "https://api.github.com/repos/orchestral/kernel/zipball/b9c0c940e8df31c8f7c382af1480c117361ce33f",
+                "reference": "b9c0c940e8df31c8f7c382af1480c117361ce33f",
                 "shasum": ""
             },
             "require": {
@@ -1501,7 +1501,7 @@
                 }
             ],
             "description": "Kernel for Orchestra Platform",
-            "time": "2014-12-09 08:48:13"
+            "time": "2014-12-23 15:31:06"
         },
         {
             "name": "orchestra/memory",
@@ -1923,20 +1923,21 @@
         },
         {
             "name": "orchestra/support",
-            "version": "v3.0.0-BETA1",
+            "version": "v3.0.0-BETA2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/support.git",
-                "reference": "0d95a82fd901e456b8665eb3e68f8972106f7160"
+                "reference": "33e486e3578dfab7bc3a147dbb9e66d0dd6e1c31"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/support/zipball/0d95a82fd901e456b8665eb3e68f8972106f7160",
-                "reference": "0d95a82fd901e456b8665eb3e68f8972106f7160",
+                "url": "https://api.github.com/repos/orchestral/support/zipball/33e486e3578dfab7bc3a147dbb9e66d0dd6e1c31",
+                "reference": "33e486e3578dfab7bc3a147dbb9e66d0dd6e1c31",
                 "shasum": ""
             },
             "require": {
                 "illuminate/support": "5.0.*",
+                "orchestra/contracts": "3.0.*",
                 "php": ">=5.4.0"
             },
             "replace": {
@@ -1992,7 +1993,7 @@
                 "utilities",
                 "validator"
             ],
-            "time": "2014-12-11 10:58:58"
+            "time": "2014-12-23 16:02:45"
         },
         {
             "name": "orchestra/translation",
