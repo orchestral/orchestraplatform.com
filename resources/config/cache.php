@@ -49,7 +49,9 @@ return [
         'memcached' => [
             'driver'  => 'memcached',
             'servers' => [
-                'host' => '127.0.0.1', 'port' => 11211, 'weight' => 100
+                [
+                    'host' => '127.0.0.1', 'port' => 11211, 'weight' => 100
+                ],
             ],
         ],
 
