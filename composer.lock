@@ -476,12 +476,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "6286c4e54df004b29976a8eb40a399f9d8424206"
+                "reference": "dfb26d34008a41fc380988a772a527f08530f19f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/6286c4e54df004b29976a8eb40a399f9d8424206",
-                "reference": "6286c4e54df004b29976a8eb40a399f9d8424206",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/dfb26d34008a41fc380988a772a527f08530f19f",
+                "reference": "dfb26d34008a41fc380988a772a527f08530f19f",
                 "shasum": ""
             },
             "require": {
@@ -514,6 +514,7 @@
             },
             "replace": {
                 "illuminate/auth": "self.version",
+                "illuminate/bus": "self.version",
                 "illuminate/cache": "self.version",
                 "illuminate/config": "self.version",
                 "illuminate/console": "self.version",
@@ -531,6 +532,7 @@
                 "illuminate/log": "self.version",
                 "illuminate/mail": "self.version",
                 "illuminate/pagination": "self.version",
+                "illuminate/pipeline": "self.version",
                 "illuminate/queue": "self.version",
                 "illuminate/redis": "self.version",
                 "illuminate/routing": "self.version",
@@ -584,7 +586,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-12-23 22:39:38"
+            "time": "2014-12-27 22:55:08"
         },
         {
             "name": "league/flysystem",
