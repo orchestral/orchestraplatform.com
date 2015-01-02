@@ -1,4 +1,5 @@
 {
+	"name": "orchestra/website",
 	"description": "Orchestra Platform Website",
 	"license": "proprietary",
 	"type": "project",
