@@ -17,8 +17,10 @@ class LegacyBlogController extends Controller
      *
      * @return mixed
      */
-    public function show($any)
+    public function show($year, $month, $day, $slug)
     {
-        return redirect(handles("orchestra/story::{$any}"));
+        $url = implode('/', [$year, $month, $day, $slug]);
+
+        return redirect(handles("orchestra/story::{$url}"));
     }
 }

@@ -21,7 +21,12 @@ $router->get('docs/{version}/{filename}', 'DocumentationController@show')
 
 $router->get('blogs', 'LegacyBlogController@index');
 
-$router->get('blogs/{any}', [
+$router->get('blogs/{year}/{month}/{day}/{slug}', [
     'uses'  => 'LegacyBlogController@show',
-    'where' => ['any', '(.*)'],
+    'where' => [
+        'year'  => '\d{4}',
+        'month' => '\d{1,2}',
+        'day'   => '\d{1,2}',
+        'slug'  => '(.*)',
+    ],
 ]);
