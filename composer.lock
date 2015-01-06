@@ -1339,12 +1339,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "18776e8060c2d12c9a3802f9882b72a8db62c80a"
+                "reference": "6e8123eb888f1df51282e2a36f53dce330361f73"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/18776e8060c2d12c9a3802f9882b72a8db62c80a",
-                "reference": "18776e8060c2d12c9a3802f9882b72a8db62c80a",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/6e8123eb888f1df51282e2a36f53dce330361f73",
+                "reference": "6e8123eb888f1df51282e2a36f53dce330361f73",
                 "shasum": ""
             },
             "require": {
@@ -1408,7 +1408,7 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2014-12-23 02:02:30"
+            "time": "2015-01-05 23:57:38"
         },
         {
             "name": "orchestra/html",
@@ -3301,62 +3301,6 @@
                 "testing"
             ],
             "time": "2014-12-22 10:06:19"
-        },
-        {
-            "name": "patchwork/utf8",
-            "version": "v1.1.26",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/tchwork/utf8.git",
-                "reference": "6b8e46603b49ee87ad6bceb314da94cc04ffcdce"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/tchwork/utf8/zipball/6b8e46603b49ee87ad6bceb314da94cc04ffcdce",
-                "reference": "6b8e46603b49ee87ad6bceb314da94cc04ffcdce",
-                "shasum": ""
-            },
-            "require": {
-                "lib-pcre": ">=7.3",
-                "php": ">=5.3.0"
-            },
-            "suggest": {
-                "ext-iconv": "Use iconv for best performance",
-                "ext-intl": "Use Intl for best performance",
-                "ext-mbstring": "Use Mbstring for best performance"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.1-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Patchwork": "class/",
-                    "Normalizer": "class/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "(Apache-2.0 or GPL-2.0)"
-            ],
-            "authors": [
-                {
-                    "name": "Nicolas Grekas",
-                    "email": "p@tchwork.com"
-                }
-            ],
-            "description": "Portable and performant UTF-8, Unicode and Grapheme Clusters for PHP",
-            "homepage": "https://github.com/tchwork/utf8",
-            "keywords": [
-                "grapheme",
-                "i18n",
-                "unicode",
-                "utf-8",
-                "utf8"
-            ],
-            "time": "2014-11-08 10:13:25"
         },
         {
             "name": "phpdocumentor/reflection-docblock",
