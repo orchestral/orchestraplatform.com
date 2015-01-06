@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'debug' => env('APP_DEBUG') ?: false,
+    'debug' => env('APP_DEBUG', false),
 
     /*
     |--------------------------------------------------------------------------
@@ -26,7 +26,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL') ?: 'http://orchestraplatform.com',
+    'url' => env('APP_URL', 'http://orchestraplatform.com'),
 
     /*
     |--------------------------------------------------------------------------
@@ -164,6 +164,7 @@ return [
          */
         'App\Providers\AppServiceProvider',
         'App\Providers\BusServiceProvider',
+        'App\Providers\ConfigServiceProvider',
         'App\Providers\DocumentationServiceProvider',
         'App\Providers\EventServiceProvider',
         'App\Providers\ExtensionServiceProvider',
