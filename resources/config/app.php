@@ -111,7 +111,6 @@ return [
         /*
          * Laravel Framework Service Providers...
          */
-        'Illuminate\Foundation\Providers\ArtisanServiceProvider',
         'Illuminate\Bus\BusServiceProvider',
         'Illuminate\Cache\CacheServiceProvider',
         'Illuminate\Cookie\CookieServiceProvider',
@@ -131,6 +130,7 @@ return [
         /*
          * Orchestra Platform Service Providers...
          */
+        'Orchestra\Foundation\Providers\ArtisanServiceProvider',
         'Orchestra\Asset\AssetServiceProvider',
         'Orchestra\Auth\AuthServiceProvider',
         'Orchestra\Authorization\AuthorizationServiceProvider',
