@@ -1218,12 +1218,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "d61800fe54855c92124098ba88c9cb99d32d1edb"
+                "reference": "7a0643a92d9b2202503a0c83c950ef0179428359"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/d61800fe54855c92124098ba88c9cb99d32d1edb",
-                "reference": "d61800fe54855c92124098ba88c9cb99d32d1edb",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/7a0643a92d9b2202503a0c83c950ef0179428359",
+                "reference": "7a0643a92d9b2202503a0c83c950ef0179428359",
                 "shasum": ""
             },
             "require": {
@@ -1287,7 +1287,7 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2015-01-12 17:16:59"
+            "time": "2015-01-13 14:12:52"
         },
         {
             "name": "orchestra/html",
