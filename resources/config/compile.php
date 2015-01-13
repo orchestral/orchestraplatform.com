@@ -36,7 +36,11 @@ return [
     */
 
     'config' => [
-        //
+
+        'orchestra/html::form',
+        'orchestra/html::table',
+        'orchestra/foundation::config',
+
     ],
 
     /*
