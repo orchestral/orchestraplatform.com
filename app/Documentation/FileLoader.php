@@ -71,9 +71,13 @@ class FileLoader
      */
     protected function getTableOfContent($toc)
     {
-        $content = $this->loadContent($toc);
+        $parser = $this->parser;
 
-        return $this->parser->parse($content);
+        return $this->cache->rememberForever("doc.toc", function () use ($parser, $toc) {
+            $content = $this->loadContent($toc);
+
+            return $parser->parse($content);
+        });
     }
 
     /**
@@ -97,13 +101,10 @@ class FileLoader
      */
     protected function loadContent($file)
     {
-        return $this->cache->get("doc.{$file}", function () use ($file) {
+        return $this->cache->rememberForever("doc.{$file}", function () use ($file) {
             $this->validateFileDoesExist($file);
 
-            $content = $this->files->get($file);
-            $this->cache->forever("doc.{$file}", $content);
-
-            return $content;
+            return $this->files->get($file);
         });
     }
 
