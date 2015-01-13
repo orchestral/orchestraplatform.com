@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ec721c0764140756faff6481d3b01d0e",
+    "hash": "ed3fce0125a6ebb5f34bf7a7ec7d9aee",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -1830,16 +1830,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/story.git",
-                "reference": "35413d758e0e4bd45cf2735ee38354bc9541cd14"
+                "reference": "190211b995d5462d4dc51c32f8b8803513a7b359"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/story/zipball/35413d758e0e4bd45cf2735ee38354bc9541cd14",
-                "reference": "35413d758e0e4bd45cf2735ee38354bc9541cd14",
+                "url": "https://api.github.com/repos/orchestral/story/zipball/190211b995d5462d4dc51c32f8b8803513a7b359",
+                "reference": "190211b995d5462d4dc51c32f8b8803513a7b359",
                 "shasum": ""
             },
             "require": {
-                "erusev/parsedown-extra": "~0.2",
+                "erusev/parsedown": "1.1.*",
+                "erusev/parsedown-extra": "0.2.*",
                 "orchestra/contracts": "3.0.*",
                 "orchestra/facile": "3.0.*",
                 "php": ">=5.4.0"
@@ -1880,7 +1881,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2015-01-13 01:28:01"
+            "time": "2015-01-13 01:54:08"
         },
         {
             "name": "orchestra/support",
