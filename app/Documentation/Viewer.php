@@ -19,7 +19,7 @@ class Viewer extends Processor
     /**
      * Configuration repository instance.
      *
-     * @var \Illuminate\Config\Repository
+     * @var \Illuminate\Contracts\Config\Repository
      */
     protected $config;
 
