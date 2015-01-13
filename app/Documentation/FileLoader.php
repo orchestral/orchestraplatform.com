@@ -73,7 +73,7 @@ class FileLoader
     {
         $parser = $this->parser;
 
-        return $this->cache->rememberForever("doc.toc", function () use ($parser, $toc) {
+        return $this->cache->rememberForever("doc.{$toc}.html", function () use ($parser, $toc) {
             $content = $this->loadContent($toc);
 
             return $parser->parse($content);
