@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="section-header">
 			<h2>Accomplish more with Orchestra Platform</h2>
-			<p class="lead">Built from {{ count($components) }} components that utilize all the best tool available with Laravel 4 and PHP</p>
+			<p class="lead">Built from {{ count($components) }} components that utilize all the best tool available with Laravel and PHP</p>
 		</div>
 		<div class="row">
 			<div class="col-md-4 item media">

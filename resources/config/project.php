@@ -7,7 +7,6 @@ return [
             'latest'  => '3.0',
             'stable'  => '2.2',
             'lts'     => '2.1',
-
             '2.3'     => '3.0',
         ],
     ],
@@ -30,12 +29,12 @@ return [
         ],
         [
             'name' => 'config',
-            'description' => '',
+            'description' => 'Configuration packages that support environment based and packages config.',
             'type' => ['component', 'package', 'required'],
         ],
         [
             'name' => 'contracts',
-            'description' => '',
+            'description' => 'Interface Collections for Orchestra Platform.',
             'type' => ['component', 'package', 'required'],
         ],
         [
@@ -70,17 +69,17 @@ return [
         ],
         [
             'name' => 'imagine',
-            'description' => '',
+            'description' => 'Image manipulation library integration for Laravel.',
             'type' => ['component', 'package', 'optional'],
         ],
         [
             'name' => 'installer',
-            'description' => '',
+            'description' => 'Orchestra Platform Installation.',
             'type' => ['extension', 'core', 'optional'],
         ],
         [
             'name' => 'kernel',
-            'description' => '',
+            'description' => 'Core improvements of Laravel.',
             'type' => ['component', 'core', 'required'],
         ],
         [
@@ -125,22 +124,22 @@ return [
         ],
         [
             'name' => 'story',
-            'description' => '',
+            'description' => 'Content Management System for Orchestra Platform.',
             'type' => ['extension', 'optional'],
         ],
         [
             'name' => 'tenanti',
-            'description' => '',
+            'description' => 'Multi-tenant Database Schema Manager for Laravel.',
             'type' => ['component', 'package', 'optional'],
         ],
         [
             'name' => 'testbench',
-            'description' => '',
+            'description' => 'Simple package that is supposed to help you write tests for your Laravel package, especially when there is routing involved.',
             'type' => ['component', 'package', 'required'],
         ],
         [
             'name' => 'testing',
-            'description' => '',
+            'description' => 'Testing helper to help you write tests for Orchestra Platform, built on top of Testbench.',
             'type' => ['component', 'core', 'required'],
         ],
         [
