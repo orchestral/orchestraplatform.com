@@ -433,12 +433,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "7411c31ed60ae3b3a65994d48b1ceeb7a09f896e"
+                "reference": "bbba7313c800277ff5ad04dccb78b6e3c90e87bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/7411c31ed60ae3b3a65994d48b1ceeb7a09f896e",
-                "reference": "7411c31ed60ae3b3a65994d48b1ceeb7a09f896e",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/bbba7313c800277ff5ad04dccb78b6e3c90e87bc",
+                "reference": "bbba7313c800277ff5ad04dccb78b6e3c90e87bc",
                 "shasum": ""
             },
             "require": {
@@ -544,7 +544,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2015-01-14 17:44:44"
+            "time": "2015-01-15 15:39:52"
         },
         {
             "name": "league/flysystem",
@@ -970,66 +970,6 @@
             "time": "2014-12-09 05:06:08"
         },
         {
-            "name": "orchestra/avatar",
-            "version": "v3.0.0-BETA1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/orchestral/avatar.git",
-                "reference": "8a13d13e9c5e335e9875182cb5a92525399513c9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/avatar/zipball/8a13d13e9c5e335e9875182cb5a92525399513c9",
-                "reference": "8a13d13e9c5e335e9875182cb5a92525399513c9",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/contracts": "5.0.*",
-                "orchestra/support": "3.0.*",
-                "php": ">=5.4.0"
-            },
-            "require-dev": {
-                "illuminate/container": "5.0.*",
-                "illuminate/database": "5.0.*",
-                "mockery/mockery": "0.9.*"
-            },
-            "suggest": {
-                "laravel/framework": "Allow using orchestra/avatar component outside of Orchestra Platform",
-                "orchestra/foundation": "Allow using orchestra/avatar with Orchestra Platform"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Orchestra\\Avatar\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Mior Muhammad Zaki",
-                    "email": "crynobone@gmail.com",
-                    "homepage": "https://github.com/crynobone"
-                }
-            ],
-            "description": "Avatar Component for Orchestra Platform",
-            "keywords": [
-                "avatar",
-                "gravatar",
-                "laravel",
-                "orchestra-platform",
-                "orchestral"
-            ],
-            "time": "2014-12-09 05:25:22"
-        },
-        {
             "name": "orchestra/control",
             "version": "v3.0.0-BETA1",
             "source": {
@@ -1216,19 +1156,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "0d6a56c9c56ab1b514dca1f59d817ff4cc874e55"
+                "reference": "270d49b85a06ee6817cae5c296977b06e2f563eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/0d6a56c9c56ab1b514dca1f59d817ff4cc874e55",
-                "reference": "0d6a56c9c56ab1b514dca1f59d817ff4cc874e55",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/270d49b85a06ee6817cae5c296977b06e2f563eb",
+                "reference": "270d49b85a06ee6817cae5c296977b06e2f563eb",
                 "shasum": ""
             },
             "require": {
                 "laravel/framework": "5.0.*",
                 "orchestra/asset": "3.0.*",
                 "orchestra/auth": "3.0.*",
-                "orchestra/avatar": "3.0.*",
                 "orchestra/extension": "3.0.*",
                 "orchestra/html": "3.0.*",
                 "orchestra/kernel": "3.0.*",
@@ -1285,7 +1224,7 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2015-01-14 09:21:25"
+            "time": "2015-01-15 23:11:21"
         },
         {
             "name": "orchestra/html",
@@ -3181,6 +3120,66 @@
                 "testing"
             ],
             "time": "2014-12-22 10:06:19"
+        },
+        {
+            "name": "orchestra/avatar",
+            "version": "v3.0.0-BETA1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/orchestral/avatar.git",
+                "reference": "8a13d13e9c5e335e9875182cb5a92525399513c9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/orchestral/avatar/zipball/8a13d13e9c5e335e9875182cb5a92525399513c9",
+                "reference": "8a13d13e9c5e335e9875182cb5a92525399513c9",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/contracts": "5.0.*",
+                "orchestra/support": "3.0.*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "illuminate/container": "5.0.*",
+                "illuminate/database": "5.0.*",
+                "mockery/mockery": "0.9.*"
+            },
+            "suggest": {
+                "laravel/framework": "Allow using orchestra/avatar component outside of Orchestra Platform",
+                "orchestra/foundation": "Allow using orchestra/avatar with Orchestra Platform"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Orchestra\\Avatar\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mior Muhammad Zaki",
+                    "email": "crynobone@gmail.com",
+                    "homepage": "https://github.com/crynobone"
+                }
+            ],
+            "description": "Avatar Component for Orchestra Platform",
+            "keywords": [
+                "avatar",
+                "gravatar",
+                "laravel",
+                "orchestra-platform",
+                "orchestral"
+            ],
+            "time": "2014-12-09 05:25:22"
         },
         {
             "name": "phpdocumentor/reflection-docblock",
