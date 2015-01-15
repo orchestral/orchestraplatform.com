@@ -39,6 +39,11 @@ return [
             'type' => ['component', 'package', 'required'],
         ],
         [
+            'name' => 'control',
+            'description' => 'Official Administration Add-on Extension for Orchestra Platform.',
+            'type' => ['extension', 'required'],
+        ],
+        [
             'name' => 'debug',
             'description' => 'Debugging and some profilling tool.',
             'type' => ['component', 'package', 'optional'],
@@ -71,7 +76,7 @@ return [
         [
             'name' => 'installer',
             'description' => '',
-            'type' => ['component', 'core', 'optional'],
+            'type' => ['extension', 'core', 'optional'],
         ],
         [
             'name' => 'kernel',
@@ -95,7 +100,7 @@ return [
         ],
         [
             'name' => 'notifier',
-            'description' => '',
+            'description' => 'Email Notification for Orchestra Platform.',
             'type' => ['component', 'package', 'required'],
         ],
         [
@@ -105,7 +110,7 @@ return [
         ],
         [
             'name' => 'parser',
-            'description' => '',
+            'description' => 'Framework agnostic package that provide a simple way to parse XML to array without having to write a complex logic.',
             'type' => ['component', 'package', 'optional'],
         ],
         [
@@ -117,6 +122,11 @@ return [
             'name' => 'resources',
             'description' => 'CRUD routing for extensions, useful for distributed extension.',
             'type' => ['component', 'package', 'optional'],
+        ],
+        [
+            'name' => 'story',
+            'description' => '',
+            'type' => ['extension', 'optional'],
         ],
         [
             'name' => 'tenanti',
@@ -132,6 +142,11 @@ return [
             'name' => 'testing',
             'description' => '',
             'type' => ['component', 'core', 'required'],
+        ],
+        [
+            'name' => 'theme-installer',
+            'description' => 'Theme Installer for Orchestra Platform using Composer',
+            'type' => ['component', 'core', 'optional'],
         ],
         [
             'name' => 'translation',

@@ -24,7 +24,10 @@ class WelcomeController extends Controller
     public function index()
     {
         $name = app('orchestra.app')->installed() ? 'welcome' : 'hello';
-        $data['packages'] = new Collection(config('project.packages', []));
+        $data['packages'] = $packages = new Collection(config('project.packages', []));
+        $data['components'] = $packages->filter(function ($package) {
+            return (in_array('component', $package['type']));
+        });
 
         return view($name, $data);
     }
