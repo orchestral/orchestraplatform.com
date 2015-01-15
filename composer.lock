@@ -3122,66 +3122,6 @@
             "time": "2014-12-22 10:06:19"
         },
         {
-            "name": "orchestra/avatar",
-            "version": "v3.0.0-BETA1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/orchestral/avatar.git",
-                "reference": "8a13d13e9c5e335e9875182cb5a92525399513c9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/avatar/zipball/8a13d13e9c5e335e9875182cb5a92525399513c9",
-                "reference": "8a13d13e9c5e335e9875182cb5a92525399513c9",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/contracts": "5.0.*",
-                "orchestra/support": "3.0.*",
-                "php": ">=5.4.0"
-            },
-            "require-dev": {
-                "illuminate/container": "5.0.*",
-                "illuminate/database": "5.0.*",
-                "mockery/mockery": "0.9.*"
-            },
-            "suggest": {
-                "laravel/framework": "Allow using orchestra/avatar component outside of Orchestra Platform",
-                "orchestra/foundation": "Allow using orchestra/avatar with Orchestra Platform"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Orchestra\\Avatar\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Mior Muhammad Zaki",
-                    "email": "crynobone@gmail.com",
-                    "homepage": "https://github.com/crynobone"
-                }
-            ],
-            "description": "Avatar Component for Orchestra Platform",
-            "keywords": [
-                "avatar",
-                "gravatar",
-                "laravel",
-                "orchestra-platform",
-                "orchestral"
-            ],
-            "time": "2014-12-09 05:25:22"
-        },
-        {
             "name": "phpdocumentor/reflection-docblock",
             "version": "2.0.3",
             "source": {
