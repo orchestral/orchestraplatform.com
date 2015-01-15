@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="242px" height="179px" viewBox="0 0 242 179" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.1 (8751) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 22 + Imported Layers</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD" sketch:type="MSArtboardGroup" transform="translate(-100.000000, -2589.000000)">
+            <g id="item-2" sketch:type="MSLayerGroup" transform="translate(100.000000, 2545.000000)">
+                <g id="Rectangle-22-+-Imported-Layers" transform="translate(0.000000, 44.000000)" sketch:type="MSShapeGroup">
+                    <rect id="Rectangle-22" fill="#EEEEEE" x="0" y="0" width="242" height="179"></rect>
+                    <path d="M140.58525,85.3293342 L106.08525,68.0793342 C105.85275,67.9638342 105.57675,67.9743342 105.3555,68.1115842 C105.135,68.2488342 105,68.4895842 105,68.7498342 L105,103.249834 C105,103.510084 105.135,103.750834 105.3555,103.888084 C105.47625,103.962334 105.61275,103.999834 105.75,103.999834 C105.86475,103.999834 105.9795,103.973584 106.08525,103.921084 L140.58525,86.6710842 C140.8395,86.5435842 141,86.2840842 141,85.9998342 C141,85.7155842 140.8395,85.4560842 140.58525,85.3293342" id="Imported-Layers" fill="#58595B"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
