@@ -6,9 +6,9 @@
 			</div>
 			<div class="col-md-8">
 				<ul class="list-inline pull-right navigation">
-					<li><a href="#">Blog</a></li>
+					<li><a href="{{ handles('orchestra/story::/') }}">Blog</a></li>
 					<li><a href="#">Forum</a></li>
-					<li class="docs"><a href="#">Documentation</a></li>
+					<li class="docs"><a href="{{ handles('app::docs/latest') }}">Documentation</a></li>
 					<li class="dload"><a href="#">Download</a></li>
 				</ul>
 			</div>
