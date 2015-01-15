@@ -1,5 +1,5 @@
-@green : #7ED321;
-@blue : #53ADFF;
+@import "_mixins.less";
+@import "_variables.less";
 
 body {
     font-family: "Lato", Helvetica, sans-serif;
@@ -72,9 +72,7 @@ body {
         }
     }
     #hero {
-        background: #202020 url(../img/bg-featured.jpg) no-repeat;
-        background-size: 100%;
-        background-position: 100% 0%;
+        .featured-bg();
         padding:180px 0 0;
         h1 {
             font-size: 28px;
