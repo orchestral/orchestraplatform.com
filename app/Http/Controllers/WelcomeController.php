@@ -1,6 +1,7 @@
 <?php namespace App\Http\Controllers;
 
 use Orchestra\Routing\Controller;
+use Illuminate\Support\Collection;
 
 class WelcomeController extends Controller
 {
@@ -22,6 +23,9 @@ class WelcomeController extends Controller
      */
     public function index()
     {
-        return view(app('orchestra.app')->installed() ? 'welcome' : 'hello');
+        $name = app('orchestra.app')->installed() ? 'welcome' : 'hello';
+        $data['packages'] = new Collection(config('project.packages', []));
+
+        return view($name, $data);
     }
 }

@@ -54,7 +54,7 @@ class Viewer extends Processor
      */
     public function show($listener, $version, $filename = 'index')
     {
-        $version = (string) Arr::get($this->config->get('project.doc.aliases'), $version, $version);
+        $version = (string) Arr::get($this->config->get('project.documentation.aliases'), $version, $version);
         $path = $this->getDocumentationPath($version);
 
         list($toc, $document) = $this->loader->getDocumentation($path, $filename);
