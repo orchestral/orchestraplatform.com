@@ -62,6 +62,8 @@ body #hero {
   background: #202020 url(../img/bg-featured.jpg) no-repeat;
   background-size: 100%;
   background-position: 100% 0%;
+}
+body #hero.introduction {
   padding: 180px 0 0;
 }
 body #hero h1 {

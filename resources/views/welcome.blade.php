@@ -9,4 +9,5 @@
 @include('welcome._testimonial')
 @include('welcome._videos')
 --}}
+@include('welcome._social')
 @stop

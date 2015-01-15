@@ -26,5 +26,9 @@ elixir(function(mix) {
     .copy(dir.vendor+'/font-awesome/css/font-awesome.min.css', dir.web+'/css/vendor')
     .copy(dir.vendor+'/font-awesome/fonts/*', dir.web+'/css/fonts')
     .copy(dir.html+'/fonts/*', dir.web+'/css/fonts')
-    .copy(dir.html+'/img/*', dir.web+'/img');
+    .copy(dir.html+'/img/*', dir.web+'/img')
+    .styles([
+      'public/css/vendor/bootstrap.min.css',
+      'public/css/app.css'
+    ]);
 });
