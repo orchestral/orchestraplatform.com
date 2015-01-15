@@ -8,7 +8,21 @@
 				<ul class="list-inline pull-right navigation">
 					<li><a href="{{ handles('orchestra/story::/') }}">Blog</a></li>
 					<li><a href="#">Forum</a></li>
-					<li class="docs"><a href="{{ handles('app::docs/latest') }}">Documentation</a></li>
+					<li class="docs dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+							Documentation <span class="caret"></span>
+						</a>
+						<ul class="dropdown-menu" role="menu">
+							<li role="presentation" class="dropdown-header">Status</li>
+							@foreach (['dev', 'latest', 'stable', 'lts'] as $alias)
+							<li><a href="{{ handles("app::docs/{$alias}/") }}">{{ $alias }}</a></li>
+							@endforeach
+							<li role="presentation" class="dropdown-header">Version</li>
+							@foreach (['3.0', '2.2', '2.1', '2.0'] as $version)
+							<li><a href="{{ handles("app::docs/{$version}/") }}">{{ $version }}</a></li>
+							@endforeach
+						</ul>
+					</li>
 					<li class="dload"><a href="#">Download</a></li>
 				</ul>
 			</div>

@@ -16,5 +16,4 @@ set_meta('html::header', ['class' => 'navbar-inverse normal']); ?>
 	{!! array_get($html, 'document') !!}
 </div>
 </div>
-
 @stop
