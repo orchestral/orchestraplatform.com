@@ -54,7 +54,7 @@ class Viewer extends Processor
      */
     public function show($listener, $version, $filename = 'index')
     {
-        $version = (string) Arr::get($this->config->get('doc.aliases'), $version, $version);
+        $version = (string) Arr::get($this->config->get('project.doc.aliases'), $version, $version);
         $path = $this->getDocumentationPath($version);
 
         list($toc, $document) = $this->loader->getDocumentation($path, $filename);
@@ -64,7 +64,7 @@ class Viewer extends Processor
         if (!is_null($redirect)) {
             $redirect = $this->parseContent($redirect, $version);
 
-            !Str::startsWith($redirect, 'http') && $redirect = handles("app::{$redirect}");
+            ! Str::startsWith($redirect, 'http') && $redirect = handles("app::{$redirect}");
 
             return $listener->redirect($redirect);
         }
