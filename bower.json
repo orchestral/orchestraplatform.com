@@ -1,7 +1,7 @@
 {
-  "name": "Laravel Application",
+  "name": "Orchestra Platform Website",
   "dependencies": {
-    "bootstrap-sass-official": "~3.3.1",
+    "bootstrap": "~3.3.1",
     "font-awesome": "~4.2.0"
   }
 }
