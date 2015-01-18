@@ -1,13 +1,6 @@
-# Package configuration
-/app/config/packages/*/local/*
-/app/config/packages/*/*/local/*
-/app/config/packages/*/awesome/*
-/app/config/packages/*/*/awesome/*
-
 # Laravel
-/bootstrap/environment.php
 /public/packages/*
-/.env*
+/.env
 /Envoy.blade.php
 
 # Composer
@@ -16,9 +9,6 @@ composer.phar
 
 # Node.js
 node_modules/*
-
-# Codeception
-tests/_output/*
 
 # Vagrant
 /.vagrant/

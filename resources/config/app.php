@@ -78,7 +78,7 @@ return [
     |
     */
 
-    'key' => env('APP_KEY'),
+    'key' => env('APP_KEY', 'SomeRandomString'),
 
     'cipher' => MCRYPT_RIJNDAEL_256,
 
@@ -134,7 +134,6 @@ return [
         'Orchestra\Asset\AssetServiceProvider',
         'Orchestra\Auth\AuthServiceProvider',
         'Orchestra\Authorization\AuthorizationServiceProvider',
-        'Orchestra\Avatar\AvatarServiceProvider',
         'Orchestra\Routing\ControllerServiceProvider',
         'Orchestra\View\DecoratorServiceProvider',
         'Orchestra\Extension\ExtensionServiceProvider',
