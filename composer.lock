@@ -1345,12 +1345,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/kernel.git",
-                "reference": "8d64c6b301eae463bd4ad7bf6ac26bd30117f9e9"
+                "reference": "ca2179ea4543483acf9c1b22f15429ef6a14867d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/kernel/zipball/8d64c6b301eae463bd4ad7bf6ac26bd30117f9e9",
-                "reference": "8d64c6b301eae463bd4ad7bf6ac26bd30117f9e9",
+                "url": "https://api.github.com/repos/orchestral/kernel/zipball/ca2179ea4543483acf9c1b22f15429ef6a14867d",
+                "reference": "ca2179ea4543483acf9c1b22f15429ef6a14867d",
                 "shasum": ""
             },
             "require": {
@@ -1393,7 +1393,7 @@
                 }
             ],
             "description": "Kernel for Orchestra Platform",
-            "time": "2015-01-18 15:58:32"
+            "time": "2015-01-18 16:28:30"
         },
         {
             "name": "orchestra/memory",
