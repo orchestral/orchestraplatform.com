@@ -70,7 +70,8 @@
 		</div>
 		<div class="row">
 			<div class="col-md-6 col-md-offset-3">
-				<blockquote>Orchestra Platform is basically an admin panel that handle extension (Laravel packages that you can enable/disable as how you would with WP plugin) and user management. Basically it is build using multiple small packages that you could either use alone as Laravel package or together as Orchestra Platform.</blockquote>
+				<h3>Orchestra Platform is an admin panel that handles Laravel extensions and user management. Our curation of Laravel extensions provide the boilerplate for any web application development to ensure a speedy deployment using the best tools available on Laravel.</h3>
+				<blockquote>Extensions are Laravel packages that you can enable and disable at will, similar to how Wordpress plugins behave.</blockquote>
 			</div>
 		</div>
 	</div>
