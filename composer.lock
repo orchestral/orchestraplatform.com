@@ -433,12 +433,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "641b8a09fc7043b7d8ac5c66c7d99137c59b44d5"
+                "reference": "bfd01c401f632d5701fee171c24d2b515527a176"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/641b8a09fc7043b7d8ac5c66c7d99137c59b44d5",
-                "reference": "641b8a09fc7043b7d8ac5c66c7d99137c59b44d5",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/bfd01c401f632d5701fee171c24d2b515527a176",
+                "reference": "bfd01c401f632d5701fee171c24d2b515527a176",
                 "shasum": ""
             },
             "require": {
@@ -503,6 +503,8 @@
             "require-dev": {
                 "aws/aws-sdk-php": "~2.7",
                 "iron-io/iron_mq": "~1.5",
+                "league/flysystem-aws-s3-v2": "~1.0",
+                "league/flysystem-rackspace": "~1.0",
                 "mockery/mockery": "~0.9",
                 "pda/pheanstalk": "~3.0",
                 "phpunit/phpunit": "~4.0"
@@ -544,20 +546,20 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2015-01-18 09:36:46"
+            "time": "2015-01-21 21:18:09"
         },
         {
             "name": "league/flysystem",
-            "version": "1.0.0-alpha1",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "c0afa9513c0e555a607652cb56f81bd991f295f3"
+                "reference": "0ba6b6dfd6f456905ee8d6b0bcaab7ec89419b93"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/c0afa9513c0e555a607652cb56f81bd991f295f3",
-                "reference": "c0afa9513c0e555a607652cb56f81bd991f295f3",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/0ba6b6dfd6f456905ee8d6b0bcaab7ec89419b93",
+                "reference": "0ba6b6dfd6f456905ee8d6b0bcaab7ec89419b93",
                 "shasum": ""
             },
             "require": {
@@ -575,16 +577,17 @@
             },
             "suggest": {
                 "ext-fileinfo": "Required for MimeType",
-                "league/event": "Required for EventableFilesystem",
                 "league/flysystem-aws-s3-v2": "Use S3 storage with AWS SDK v2",
                 "league/flysystem-aws-s3-v3": "Use S3 storage with AWS SDK v3",
                 "league/flysystem-azure": "Allows you to use Windows Azure Blob storage",
                 "league/flysystem-cached-adapter": "Flysystem adapter decorator for metadata caching",
                 "league/flysystem-copy": "Allows you to use Copy.com storage",
                 "league/flysystem-dropbox": "Use Dropbox storage",
+                "league/flysystem-eventable-filesystem": "Allows you to use EventableFilesystem",
                 "league/flysystem-rackspace": "Allows you to use Rackspace Cloud Files",
                 "league/flysystem-sftp": "Allows SFTP server storage via phpseclib",
                 "league/flysystem-webdav": "Allows you to use WebDAV storage",
+                "league/flysystem-ziparchive": "Allows you to use ZipArchive adapter",
                 "predis/predis": "Allows you to use Predis for caching"
             },
             "type": "library",
@@ -626,7 +629,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2015-01-18 00:19:19"
+            "time": "2015-01-19 19:19:07"
         },
         {
             "name": "monolog/monolog",
@@ -966,16 +969,16 @@
         },
         {
             "name": "orchestra/control",
-            "version": "v3.0.0-BETA1",
+            "version": "v3.0.0-BETA3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/control.git",
-                "reference": "ee9475e19eb0aa430c34b7b1fcd04690865dd20c"
+                "reference": "d2ae1f8102efe57e2d816f61c883c14fcb8cafdc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/control/zipball/ee9475e19eb0aa430c34b7b1fcd04690865dd20c",
-                "reference": "ee9475e19eb0aa430c34b7b1fcd04690865dd20c",
+                "url": "https://api.github.com/repos/orchestral/control/zipball/d2ae1f8102efe57e2d816f61c883c14fcb8cafdc",
+                "reference": "d2ae1f8102efe57e2d816f61c883c14fcb8cafdc",
                 "shasum": ""
             },
             "require": {
@@ -1021,7 +1024,7 @@
                 "theme",
                 "timezone"
             ],
-            "time": "2014-12-19 06:58:58"
+            "time": "2015-01-20 05:12:14"
         },
         {
             "name": "orchestra/extension",
@@ -1151,12 +1154,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "270d49b85a06ee6817cae5c296977b06e2f563eb"
+                "reference": "23468ffb5b98df34d9929f09f3449727c0e16b7f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/270d49b85a06ee6817cae5c296977b06e2f563eb",
-                "reference": "270d49b85a06ee6817cae5c296977b06e2f563eb",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/23468ffb5b98df34d9929f09f3449727c0e16b7f",
+                "reference": "23468ffb5b98df34d9929f09f3449727c0e16b7f",
                 "shasum": ""
             },
             "require": {
@@ -1219,7 +1222,7 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2015-01-15 23:11:21"
+            "time": "2015-01-22 11:09:46"
         },
         {
             "name": "orchestra/html",
@@ -1345,12 +1348,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/kernel.git",
-                "reference": "ca2179ea4543483acf9c1b22f15429ef6a14867d"
+                "reference": "63cf5f84f7d677f234a3dd8570a181a5726f64a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/kernel/zipball/ca2179ea4543483acf9c1b22f15429ef6a14867d",
-                "reference": "ca2179ea4543483acf9c1b22f15429ef6a14867d",
+                "url": "https://api.github.com/repos/orchestral/kernel/zipball/63cf5f84f7d677f234a3dd8570a181a5726f64a2",
+                "reference": "63cf5f84f7d677f234a3dd8570a181a5726f64a2",
                 "shasum": ""
             },
             "require": {
@@ -1393,7 +1396,7 @@
                 }
             ],
             "description": "Kernel for Orchestra Platform",
-            "time": "2015-01-18 16:28:30"
+            "time": "2015-01-19 02:09:18"
         },
         {
             "name": "orchestra/memory",
