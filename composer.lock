@@ -1641,20 +1641,19 @@
         },
         {
             "name": "orchestra/model",
-            "version": "v3.0.0-BETA1",
+            "version": "v3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/model.git",
-                "reference": "e881a32c63f038082614bc27aec0c85fa20eab82"
+                "reference": "97978f925a166e9c2e08c6c3ee300cbf8b1898fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/model/zipball/e881a32c63f038082614bc27aec0c85fa20eab82",
-                "reference": "e881a32c63f038082614bc27aec0c85fa20eab82",
+                "url": "https://api.github.com/repos/orchestral/model/zipball/97978f925a166e9c2e08c6c3ee300cbf8b1898fc",
+                "reference": "97978f925a166e9c2e08c6c3ee300cbf8b1898fc",
                 "shasum": ""
             },
             "require": {
-                "orchestra/contracts": "3.0.*",
                 "orchestra/notifier": "3.0.*",
                 "orchestra/support": "3.0.*",
                 "php": ">=5.4.0"
@@ -1667,7 +1666,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev"
+                    "dev-master": "3.1-dev"
                 }
             },
             "autoload": {
@@ -1694,20 +1693,20 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-12-09 06:14:09"
+            "time": "2015-02-06 02:01:09"
         },
         {
             "name": "orchestra/notifier",
-            "version": "v3.0.0-BETA2",
+            "version": "v3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/notifier.git",
-                "reference": "2d9854112520808b871d0ec8b2955b9182fbe1a9"
+                "reference": "6fe33ecee922a139d219819724b5cb072c181f35"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/notifier/zipball/2d9854112520808b871d0ec8b2955b9182fbe1a9",
-                "reference": "2d9854112520808b871d0ec8b2955b9182fbe1a9",
+                "url": "https://api.github.com/repos/orchestral/notifier/zipball/6fe33ecee922a139d219819724b5cb072c181f35",
+                "reference": "6fe33ecee922a139d219819724b5cb072c181f35",
                 "shasum": ""
             },
             "require": {
@@ -1722,7 +1721,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev"
+                    "dev-master": "3.1-dev"
                 }
             },
             "autoload": {
@@ -1748,7 +1747,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2015-01-28 23:45:04"
+            "time": "2015-02-06 01:14:51"
         },
         {
             "name": "orchestra/optimize",
@@ -2121,16 +2120,16 @@
         },
         {
             "name": "orchestra/widget",
-            "version": "v3.0.0-BETA1",
+            "version": "v3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/widget.git",
-                "reference": "94026fd331aebcee3c41e93a9bff90739a82e6ed"
+                "reference": "7c8ed8238ed1a32db46cfdc10efd8221b4b6f9c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/widget/zipball/94026fd331aebcee3c41e93a9bff90739a82e6ed",
-                "reference": "94026fd331aebcee3c41e93a9bff90739a82e6ed",
+                "url": "https://api.github.com/repos/orchestral/widget/zipball/7c8ed8238ed1a32db46cfdc10efd8221b4b6f9c4",
+                "reference": "7c8ed8238ed1a32db46cfdc10efd8221b4b6f9c4",
                 "shasum": ""
             },
             "require": {
@@ -2139,7 +2138,6 @@
             },
             "require-dev": {
                 "illuminate/container": "5.0.*",
-                "illuminate/support": "5.0.*",
                 "mockery/mockery": "0.9.*"
             },
             "suggest": {
@@ -2149,7 +2147,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev"
+                    "dev-master": "3.1-dev"
                 }
             },
             "autoload": {
@@ -2176,7 +2174,7 @@
                 "orchestral",
                 "widget"
             ],
-            "time": "2014-12-14 13:07:30"
+            "time": "2015-02-06 02:21:56"
         },
         {
             "name": "pda/pheanstalk",
