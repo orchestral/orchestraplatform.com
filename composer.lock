@@ -537,16 +537,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.0.0",
+            "version": "v5.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "44c61252b5762ff53ad181ed416e3006c50a6a9b"
+                "reference": "30391aa20874c30725f653bea1ea5b895a5217cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/44c61252b5762ff53ad181ed416e3006c50a6a9b",
-                "reference": "44c61252b5762ff53ad181ed416e3006c50a6a9b",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/30391aa20874c30725f653bea1ea5b895a5217cf",
+                "reference": "30391aa20874c30725f653bea1ea5b895a5217cf",
                 "shasum": ""
             },
             "require": {
@@ -658,7 +658,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2015-02-04 13:59:07"
+            "time": "2015-02-06 23:14:12"
         },
         {
             "name": "league/flysystem",
@@ -861,16 +861,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "1.13.0",
+            "version": "1.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "5cb6e71055f7b0b57956b73d324cc4de31278f42"
+                "reference": "bb87460c995d97fe55b39e65f6ffb7f64b0a941e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/5cb6e71055f7b0b57956b73d324cc4de31278f42",
-                "reference": "5cb6e71055f7b0b57956b73d324cc4de31278f42",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/bb87460c995d97fe55b39e65f6ffb7f64b0a941e",
+                "reference": "bb87460c995d97fe55b39e65f6ffb7f64b0a941e",
                 "shasum": ""
             },
             "require": {
@@ -903,7 +903,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2014-09-26 02:52:02"
+            "time": "2015-02-06 05:07:29"
         },
         {
             "name": "nikic/php-parser",
@@ -1262,16 +1262,16 @@
         },
         {
             "name": "orchestra/foundation",
-            "version": "dev-master",
+            "version": "v3.0.0-BETA1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "1f33aa0d4940b65b2f3f0bb125ab568515d71724"
+                "reference": "86af4183dd1a9b70bf228104b3c6692800a02d60"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/1f33aa0d4940b65b2f3f0bb125ab568515d71724",
-                "reference": "1f33aa0d4940b65b2f3f0bb125ab568515d71724",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/86af4183dd1a9b70bf228104b3c6692800a02d60",
+                "reference": "86af4183dd1a9b70bf228104b3c6692800a02d60",
                 "shasum": ""
             },
             "require": {
@@ -1303,7 +1303,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev"
+                    "dev-master": "3.1-dev"
                 }
             },
             "autoload": {
@@ -1335,7 +1335,7 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2015-01-27 10:10:35"
+            "time": "2015-02-06 03:20:43"
         },
         {
             "name": "orchestra/html",
@@ -1457,20 +1457,20 @@
         },
         {
             "name": "orchestra/kernel",
-            "version": "v3.0.0-BETA1",
+            "version": "v3.0.0-BETA2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/kernel.git",
-                "reference": "63cf5f84f7d677f234a3dd8570a181a5726f64a2"
+                "reference": "29fa37481bbfb0575bb4a703f95edd288a95c53a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/kernel/zipball/63cf5f84f7d677f234a3dd8570a181a5726f64a2",
-                "reference": "63cf5f84f7d677f234a3dd8570a181a5726f64a2",
+                "url": "https://api.github.com/repos/orchestral/kernel/zipball/29fa37481bbfb0575bb4a703f95edd288a95c53a",
+                "reference": "29fa37481bbfb0575bb4a703f95edd288a95c53a",
                 "shasum": ""
             },
             "require": {
-                "orchestra/support-core": "3.0.*",
+                "orchestra/support": "3.0.*",
                 "php": ">=5.4.0"
             },
             "replace": {
@@ -1486,7 +1486,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev"
+                    "dev-master": "3.1-dev"
                 }
             },
             "autoload": {
@@ -1509,7 +1509,7 @@
                 }
             ],
             "description": "Kernel for Orchestra Platform",
-            "time": "2015-01-19 02:09:18"
+            "time": "2015-02-07 05:27:44"
         },
         {
             "name": "orchestra/memory",
@@ -1751,16 +1751,16 @@
         },
         {
             "name": "orchestra/optimize",
-            "version": "dev-master",
+            "version": "v3.0.0-BETA1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/optimize.git",
-                "reference": "abde7d21abc184ded15107f342fd6932d3ec7a96"
+                "reference": "8bed2d9cd53e5c741055b1058b88add9e576f19d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/optimize/zipball/abde7d21abc184ded15107f342fd6932d3ec7a96",
-                "reference": "abde7d21abc184ded15107f342fd6932d3ec7a96",
+                "url": "https://api.github.com/repos/orchestral/optimize/zipball/8bed2d9cd53e5c741055b1058b88add9e576f19d",
+                "reference": "8bed2d9cd53e5c741055b1058b88add9e576f19d",
                 "shasum": ""
             },
             "require": {
@@ -1777,7 +1777,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev"
+                    "dev-master": "3.1-dev"
                 }
             },
             "autoload": {
@@ -1801,7 +1801,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2015-01-06 14:34:33"
+            "time": "2015-02-06 03:28:28"
         },
         {
             "name": "orchestra/publisher",
@@ -2056,21 +2056,19 @@
         },
         {
             "name": "orchestra/view",
-            "version": "v3.0.0-BETA1",
+            "version": "v3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/view.git",
-                "reference": "e88d8cb8fe5ed9af02b238fd24714674aa482b40"
+                "reference": "e6ad0d3b9fb2042beb42f3af44484fbaf1d4d091"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/view/zipball/e88d8cb8fe5ed9af02b238fd24714674aa482b40",
-                "reference": "e88d8cb8fe5ed9af02b238fd24714674aa482b40",
+                "url": "https://api.github.com/repos/orchestral/view/zipball/e6ad0d3b9fb2042beb42f3af44484fbaf1d4d091",
+                "reference": "e6ad0d3b9fb2042beb42f3af44484fbaf1d4d091",
                 "shasum": ""
             },
             "require": {
-                "illuminate/contracts": "5.0.*",
-                "orchestra/contracts": "3.0.*",
                 "orchestra/memory": "3.0.*",
                 "php": ">=5.4.0"
             },
@@ -2088,7 +2086,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev"
+                    "dev-master": "3.1-dev"
                 }
             },
             "autoload": {
@@ -2116,7 +2114,7 @@
                 "theme",
                 "view"
             ],
-            "time": "2014-12-09 06:31:00"
+            "time": "2015-02-06 10:16:07"
         },
         {
             "name": "orchestra/widget",
