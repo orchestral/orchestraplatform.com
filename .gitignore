@@ -4,11 +4,11 @@
 /Envoy.blade.php
 
 # Composer
-vendor/*
-composer.phar
+/vendor/*
+/composer.phar
 
 # Node.js
-node_modules/*
+/node_modules/*
 
 # Vagrant
 /.vagrant/
