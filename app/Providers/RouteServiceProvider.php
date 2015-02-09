@@ -1,6 +1,7 @@
 <?php namespace App\Providers;
 
 use Illuminate\Routing\Router;
+use Orchestra\Contracts\Foundation\Foundation;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
 
 class RouteServiceProvider extends ServiceProvider
@@ -30,25 +31,13 @@ class RouteServiceProvider extends ServiceProvider
     /**
      * Define the routes for the application.
      *
+     * @param  \Orchestra\Contracts\Foundation\Foundation  $foundation
      * @return void
      */
-    public function map()
+    public function map(Foundation $foundation)
     {
-        $this->loadRoutesFrom(app_path('Http/routes.php'));
-    }
-
-    /**
-     * Load the standard routes file for the application.
-     *
-     * @param  string  $path
-     * @return void
-     */
-    protected function loadRoutesFrom($path)
-    {
-        $foundation = $this->app['Orchestra\Contracts\Foundation\Foundation'];
-
-        $foundation->group('app', '/', ['namespace' => $this->namespace], function (Router $router) use ($path) {
-            require $path;
+        $foundation->group('app', '/', ['namespace' => $this->namespace], function (Router $router) {
+            require app_path('Http/routes.php');
         });
     }
 }
