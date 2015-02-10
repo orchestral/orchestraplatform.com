@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e89742587d215e4cd093e7d7b379e7ae",
+    "hash": "72fc1471cb42d3453a91cc0f2e0d8ce7",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -68,16 +68,16 @@
         },
         {
             "name": "danielstjules/stringy",
-            "version": "1.8.1",
+            "version": "1.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/danielstjules/Stringy.git",
-                "reference": "6a7b0391b2baf0bfdca3ec0c8d33ff379c2835ad"
+                "reference": "3cf18e9e424a6dedc38b7eb7ef580edb0929461b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/danielstjules/Stringy/zipball/6a7b0391b2baf0bfdca3ec0c8d33ff379c2835ad",
-                "reference": "6a7b0391b2baf0bfdca3ec0c8d33ff379c2835ad",
+                "url": "https://api.github.com/repos/danielstjules/Stringy/zipball/3cf18e9e424a6dedc38b7eb7ef580edb0929461b",
+                "reference": "3cf18e9e424a6dedc38b7eb7ef580edb0929461b",
                 "shasum": ""
             },
             "require": {
@@ -120,7 +120,7 @@
                 "utility",
                 "utils"
             ],
-            "time": "2015-01-08 15:21:43"
+            "time": "2015-02-10 06:19:18"
         },
         {
             "name": "daylerees/kurenai",
@@ -1141,7 +1141,7 @@
         },
         {
             "name": "orchestra/extension",
-            "version": "3.0.x-dev",
+            "version": "v3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/extension.git",
@@ -1267,12 +1267,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "67aa1bb17e9044cd9a0e8707019c1e667c1b8096"
+                "reference": "073cc8a52aa31767a6ef87de2944335114b41ece"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/67aa1bb17e9044cd9a0e8707019c1e667c1b8096",
-                "reference": "67aa1bb17e9044cd9a0e8707019c1e667c1b8096",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/073cc8a52aa31767a6ef87de2944335114b41ece",
+                "reference": "073cc8a52aa31767a6ef87de2944335114b41ece",
                 "shasum": ""
             },
             "require": {
@@ -1336,7 +1336,7 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2015-02-09 12:05:29"
+            "time": "2015-02-10 01:41:05"
         },
         {
             "name": "orchestra/html",
@@ -1405,16 +1405,16 @@
         },
         {
             "name": "orchestra/installer",
-            "version": "v3.0.0-BETA1",
+            "version": "v3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/installer.git",
-                "reference": "d91ae779f227f2a880235f3d105cff19d816dd79"
+                "reference": "3364caa6621cb58d6d30eb9f66ba976872175013"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/installer/zipball/d91ae779f227f2a880235f3d105cff19d816dd79",
-                "reference": "d91ae779f227f2a880235f3d105cff19d816dd79",
+                "url": "https://api.github.com/repos/orchestral/installer/zipball/3364caa6621cb58d6d30eb9f66ba976872175013",
+                "reference": "3364caa6621cb58d6d30eb9f66ba976872175013",
                 "shasum": ""
             },
             "require": {
@@ -1423,12 +1423,12 @@
             "require-dev": {
                 "mockery/mockery": "0.9.*",
                 "orchestra/foundation": "3.0.*",
-                "orchestra/testbench": "3.0.*"
+                "orchestra/testing": "3.0.*"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev"
+                    "dev-master": "3.1-dev"
                 }
             },
             "autoload": {
@@ -1454,20 +1454,20 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2014-12-09 06:20:46"
+            "time": "2015-02-06 00:09:18"
         },
         {
             "name": "orchestra/kernel",
-            "version": "v3.0.0-BETA2",
+            "version": "v3.0.0-BETA3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/kernel.git",
-                "reference": "29fa37481bbfb0575bb4a703f95edd288a95c53a"
+                "reference": "d2696c8986c2338a7848a4a28873bbebb30a819e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/kernel/zipball/29fa37481bbfb0575bb4a703f95edd288a95c53a",
-                "reference": "29fa37481bbfb0575bb4a703f95edd288a95c53a",
+                "url": "https://api.github.com/repos/orchestral/kernel/zipball/d2696c8986c2338a7848a4a28873bbebb30a819e",
+                "reference": "d2696c8986c2338a7848a4a28873bbebb30a819e",
                 "shasum": ""
             },
             "require": {
@@ -1510,7 +1510,7 @@
                 }
             ],
             "description": "Kernel for Orchestra Platform",
-            "time": "2015-02-07 05:27:44"
+            "time": "2015-02-10 01:32:24"
         },
         {
             "name": "orchestra/memory",
@@ -3689,7 +3689,6 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "orchestra/foundation": 20,
-        "orchestra/extension": 20,
         "orchestra/story": 20
     },
     "prefer-stable": true,
