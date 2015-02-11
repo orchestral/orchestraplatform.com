@@ -1082,16 +1082,16 @@
         },
         {
             "name": "orchestra/control",
-            "version": "v3.0.0-BETA3",
+            "version": "v3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/control.git",
-                "reference": "d2ae1f8102efe57e2d816f61c883c14fcb8cafdc"
+                "reference": "db641b0a5e7d08cd0a4897a5646a7878761a9a0d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/control/zipball/d2ae1f8102efe57e2d816f61c883c14fcb8cafdc",
-                "reference": "d2ae1f8102efe57e2d816f61c883c14fcb8cafdc",
+                "url": "https://api.github.com/repos/orchestral/control/zipball/db641b0a5e7d08cd0a4897a5646a7878761a9a0d",
+                "reference": "db641b0a5e7d08cd0a4897a5646a7878761a9a0d",
                 "shasum": ""
             },
             "require": {
@@ -1105,7 +1105,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev"
+                    "dev-master": "3.1-dev"
                 }
             },
             "autoload": {
@@ -1137,7 +1137,7 @@
                 "theme",
                 "timezone"
             ],
-            "time": "2015-01-20 05:12:14"
+            "time": "2015-02-10 10:30:19"
         },
         {
             "name": "orchestra/extension",
@@ -1458,16 +1458,16 @@
         },
         {
             "name": "orchestra/kernel",
-            "version": "v3.0.0-BETA3",
+            "version": "v3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/kernel.git",
-                "reference": "d2696c8986c2338a7848a4a28873bbebb30a819e"
+                "reference": "314654db2648d87d8a5a00951098f72ed3d3e2e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/kernel/zipball/d2696c8986c2338a7848a4a28873bbebb30a819e",
-                "reference": "d2696c8986c2338a7848a4a28873bbebb30a819e",
+                "url": "https://api.github.com/repos/orchestral/kernel/zipball/314654db2648d87d8a5a00951098f72ed3d3e2e8",
+                "reference": "314654db2648d87d8a5a00951098f72ed3d3e2e8",
                 "shasum": ""
             },
             "require": {
@@ -1510,7 +1510,7 @@
                 }
             ],
             "description": "Kernel for Orchestra Platform",
-            "time": "2015-02-10 01:32:24"
+            "time": "2015-02-10 09:26:07"
         },
         {
             "name": "orchestra/memory",
@@ -1806,16 +1806,16 @@
         },
         {
             "name": "orchestra/publisher",
-            "version": "v3.0.0-BETA1",
+            "version": "v3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/publisher.git",
-                "reference": "72945c72e05761e7ebf718e26b93fff3798d11d2"
+                "reference": "200ce233fea51e053bebd4b42fd6e75fdcb28e81"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/publisher/zipball/72945c72e05761e7ebf718e26b93fff3798d11d2",
-                "reference": "72945c72e05761e7ebf718e26b93fff3798d11d2",
+                "url": "https://api.github.com/repos/orchestral/publisher/zipball/200ce233fea51e053bebd4b42fd6e75fdcb28e81",
+                "reference": "200ce233fea51e053bebd4b42fd6e75fdcb28e81",
                 "shasum": ""
             },
             "require": {
@@ -1837,7 +1837,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev"
+                    "dev-master": "3.1-dev"
                 }
             },
             "autoload": {
@@ -1864,7 +1864,7 @@
                 "orchestral",
                 "orchestral-platform"
             ],
-            "time": "2014-12-22 01:28:42"
+            "time": "2015-02-11 00:39:07"
         },
         {
             "name": "orchestra/story",
