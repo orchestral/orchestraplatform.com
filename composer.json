@@ -5,8 +5,8 @@
 	"type": "project",
 	"require": {
 		"orchestra/foundation": "3.0.*",
-		"orchestra/installer": "3.0.*",
-		"orchestra/control": "3.0.*",
+		"orchestra/installer": "~3.0",
+		"orchestra/control": "~3.0",
 		"orchestra/story": "3.0.x-dev",
 		"daylerees/kurenai": "~1.1",
 		"pda/pheanstalk": "~3.0"
@@ -40,7 +40,5 @@
 	},
 	"config": {
 		"preferred-install": "dist"
-	},
-	"prefer-stable": true,
-	"minimum-stability": "dev"
+	}
 }

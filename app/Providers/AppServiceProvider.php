@@ -1,9 +1,12 @@
 <?php namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use Orchestra\Extension\Traits\DomainAwareTrait;
 
 class AppServiceProvider extends ServiceProvider
 {
+    use DomainAwareTrait;
+
     /**
      * Bootstrap any application services.
      *
@@ -11,9 +14,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $config = $this->app['config'];
-
-        $config->set('orchestra/extension::handles.app', $config['app.url']);
+        $this->app['config']->set('orchestra/extension::handles.app', '//{{domain}}');
     }
 
     /**
@@ -27,6 +28,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->registerDomainAwareness();
     }
 }
