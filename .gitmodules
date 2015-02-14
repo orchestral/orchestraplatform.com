@@ -11,3 +11,6 @@
 	path = docs/3.0
 	url = https://github.com/orchestral/docs.git
 	branch = master
+[submodule "docs/3.1"]
+	path = docs/3.1
+	url = https://github.com/orchestral/docs.git
