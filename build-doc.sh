@@ -1,6 +1,6 @@
 #!/bin/sh
 
-VERSIONS=("2.0" "2.1" "2.2" "3.0")
+declare -a VERSIONS=("2.0" "2.1" "2.2" "3.0")
 
 cd docs;
 
