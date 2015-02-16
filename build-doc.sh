@@ -1,9 +1,6 @@
 #!/bin/sh
 
-VERSIONS[0]="2.0";
-VERSIONS[1]="2.1";
-VERSIONS[2]="2.2";
-VERSIONS[3]="3.0";
+VERSIONS=("2.0" "2.1" "2.2" "3.0");
 
 cd docs;
 
