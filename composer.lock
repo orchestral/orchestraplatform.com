@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3eb038de6b98bf526cce7fb5e69e3b95",
+    "hash": "9498d8a7ead5ef7080b5137b3aed6327",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -1752,16 +1752,16 @@
         },
         {
             "name": "orchestra/optimize",
-            "version": "3.0.x-dev",
+            "version": "v3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/optimize.git",
-                "reference": "a19c2d94e563c51773626924be746f0ba99835d0"
+                "reference": "0f2021025aebe5e8421f808b57647dfd85b580e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/optimize/zipball/a19c2d94e563c51773626924be746f0ba99835d0",
-                "reference": "a19c2d94e563c51773626924be746f0ba99835d0",
+                "url": "https://api.github.com/repos/orchestral/optimize/zipball/0f2021025aebe5e8421f808b57647dfd85b580e9",
+                "reference": "0f2021025aebe5e8421f808b57647dfd85b580e9",
                 "shasum": ""
             },
             "require": {
@@ -1802,7 +1802,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2015-02-20 05:04:35"
+            "time": "2015-02-20 07:18:45"
         },
         {
             "name": "orchestra/publisher",
@@ -3688,7 +3688,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "orchestra/optimize": 20,
         "orchestra/story": 20
     },
     "prefer-stable": false,
