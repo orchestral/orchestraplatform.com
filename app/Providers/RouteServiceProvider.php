@@ -1,8 +1,7 @@
 <?php namespace App\Providers;
 
 use Illuminate\Routing\Router;
-use Orchestra\Contracts\Foundation\Foundation;
-use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
+use Orchestra\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
 
 class RouteServiceProvider extends ServiceProvider
 {
@@ -31,13 +30,12 @@ class RouteServiceProvider extends ServiceProvider
     /**
      * Define the routes for the application.
      *
-     * @param  \Orchestra\Contracts\Foundation\Foundation  $foundation
      * @return void
      */
-    public function map(Foundation $foundation)
+    public function map()
     {
-        $foundation->group('app', '/', ['namespace' => $this->namespace], function (Router $router) {
-            require app_path('Http/routes.php');
+        $this->afterExtensionLoaded(function () {
+            $this->loadFrontendRoutesFrom(app_path('Http/routes.php'));
         });
     }
 }
