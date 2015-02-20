@@ -8,5 +8,5 @@
 			</div>
 		</div>
 	</div>
-	<img src="{{ asset('img/chrome@2x.png') }}" width="956">
+	<img src="{{ asset('resources/img/chrome@2x.png') }}" width="956">
 </section>

@@ -59,7 +59,7 @@ body #main-header .navigation li.dload a {
   color: #53adff;
 }
 body #hero {
-  background: #202020 url(../img/bg-featured.jpg) no-repeat;
+  background: #202020 url('/resources/img/bg-featured.jpg') no-repeat;
   background-size: 100%;
   background-position: 100% 0%;
 }
@@ -132,7 +132,6 @@ body #packages ul.package-list {
 }
 body #packages ul.package-list li {
   width: 19.5%;
-  display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;

@@ -2,11 +2,11 @@
     <div class="container">
         <div class="col-md-6 col-md-offset-3 text-center">
             <ul class="list-inline">
-                <li><img src="{{ asset('img/avatar2.png') }}" width="62"></li>
-                <li><img src="{{ asset('img/avatar3.png') }}" width="62"></li>
-                <li class="active"><img src="{{ asset('img/avatar.png') }}" width="62"></li>
-                <li><img src="{{ asset('img/avatar4.png') }}" width="62"></li>
-                <li><img src="{{ asset('img/avatar5.png') }}" width="62"></li>
+                <li><img src="{{ asset('resources/img/avatar2.png') }}" width="62"></li>
+                <li><img src="{{ asset('resources/img/avatar3.png') }}" width="62"></li>
+                <li class="active"><img src="{{ asset('resources/img/avatar.png') }}" width="62"></li>
+                <li><img src="{{ asset('resources/img/avatar4.png') }}" width="62"></li>
+                <li><img src="{{ asset('resources/img/avatar5.png') }}" width="62"></li>
             </ul>
             <div class="item">
                 <h3>Stephanie</h3>
