@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e6dd4c58ad1a0e027fcbd72921e6c35d",
+    "hash": "3eb038de6b98bf526cce7fb5e69e3b95",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -1263,16 +1263,16 @@
         },
         {
             "name": "orchestra/foundation",
-            "version": "v3.0.1",
+            "version": "v3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "ea3f0cde6d9e4bd12fca29d53ec0531fd08bbfa1"
+                "reference": "6078d83490a8fda0d0b3e43fdb50f52d8e26ba14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/ea3f0cde6d9e4bd12fca29d53ec0531fd08bbfa1",
-                "reference": "ea3f0cde6d9e4bd12fca29d53ec0531fd08bbfa1",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/6078d83490a8fda0d0b3e43fdb50f52d8e26ba14",
+                "reference": "6078d83490a8fda0d0b3e43fdb50f52d8e26ba14",
                 "shasum": ""
             },
             "require": {
@@ -1336,7 +1336,7 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2015-02-14 17:50:20"
+            "time": "2015-02-20 02:18:11"
         },
         {
             "name": "orchestra/html",
@@ -1405,16 +1405,16 @@
         },
         {
             "name": "orchestra/installer",
-            "version": "v3.0.0",
+            "version": "v3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/installer.git",
-                "reference": "3364caa6621cb58d6d30eb9f66ba976872175013"
+                "reference": "9cce1123867513e29571aaf275920aed792ec509"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/installer/zipball/3364caa6621cb58d6d30eb9f66ba976872175013",
-                "reference": "3364caa6621cb58d6d30eb9f66ba976872175013",
+                "url": "https://api.github.com/repos/orchestral/installer/zipball/9cce1123867513e29571aaf275920aed792ec509",
+                "reference": "9cce1123867513e29571aaf275920aed792ec509",
                 "shasum": ""
             },
             "require": {
@@ -1422,7 +1422,6 @@
             },
             "require-dev": {
                 "mockery/mockery": "0.9.*",
-                "orchestra/foundation": "3.0.*",
                 "orchestra/testing": "3.0.*"
             },
             "type": "library",
@@ -1454,7 +1453,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2015-02-06 00:09:18"
+            "time": "2015-02-18 07:38:05"
         },
         {
             "name": "orchestra/kernel",
@@ -1753,16 +1752,16 @@
         },
         {
             "name": "orchestra/optimize",
-            "version": "v3.0.0",
+            "version": "3.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/optimize.git",
-                "reference": "7ed0be376991a71bb97f98a43c651f16ba1699cc"
+                "reference": "a19c2d94e563c51773626924be746f0ba99835d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/optimize/zipball/7ed0be376991a71bb97f98a43c651f16ba1699cc",
-                "reference": "7ed0be376991a71bb97f98a43c651f16ba1699cc",
+                "url": "https://api.github.com/repos/orchestral/optimize/zipball/a19c2d94e563c51773626924be746f0ba99835d0",
+                "reference": "a19c2d94e563c51773626924be746f0ba99835d0",
                 "shasum": ""
             },
             "require": {
@@ -1803,7 +1802,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2015-02-11 01:07:06"
+            "time": "2015-02-20 05:04:35"
         },
         {
             "name": "orchestra/publisher",
@@ -3689,6 +3688,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "orchestra/optimize": 20,
         "orchestra/story": 20
     },
     "prefer-stable": false,
