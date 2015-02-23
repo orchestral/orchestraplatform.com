@@ -8,12 +8,12 @@
         </div>
     </div>
 </section>
-<section id="packages">
+<section id="documentation">
     <div class="container">
-        <div id="toc" class="col-sm-2">
+        <div id="sidebar" class="col-md-3">
             {!! array_get($html, 'toc') !!}
         </div>
-        <div id="content" class="col-sm-8">
+        <div id="content" class="col-md-8 col-md-offset-1">
             <div class="page-header">
                 </div>
             {!! array_get($html, 'document') !!}

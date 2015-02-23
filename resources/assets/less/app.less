@@ -303,4 +303,97 @@ body {
             }
         }
     }
+    #documentation {
+        background: #fff;
+        padding:0;
+
+        #sidebar {
+            padding-top:80px;
+            padding-bottom: 80px;
+            border-right: #eee solid 1px;
+
+            h3 {
+                font-size: 13px;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                color: #222;
+                font-weight: 600;
+                position: relative;
+                &:after {
+                    content: '';
+                    border-top: #222 solid 2px;
+                    width: 80px;
+                    margin: 15px auto 15px 0;
+                    position: absolute;
+                    top: 5px;
+                    left: 0;
+                }
+            }
+            > ul {
+                list-style: none;
+                padding:0;
+            }
+        }
+        #content {
+            padding-top:80px;
+            padding-bottom: 80px;
+            color: #555;
+
+            h2 {
+                font-size: 26px;
+                //text-transform: uppercase;
+                //letter-spacing: 1px;
+                color: #222;
+                font-weight: 600;
+                position: relative;
+                margin-bottom: 30px;
+                &:after {
+                    content: '';
+                    border-top: #222 solid 2px;
+                    width: 80px;
+                    margin: 15px auto 15px 0;
+                    position: absolute;
+                    top: 25px;
+                    left: 0;
+                }
+            }
+            h3 {
+                font-size: 14px;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                color: #222;
+                font-weight: 600;
+            }
+            * + h2 {
+                    margin-top: 50px;
+                }
+            * + h3 {
+                margin-top: 20px;
+            }
+            p {
+                font-size: 14px;
+                font-weight: 400;
+                
+            }
+            code {
+                background: lighten(@blue, 28%);
+                //background: #eee;
+                color: rgba(0,0,0,0.7);
+                color: darken(@blue,10%);
+                //color: #fff;
+            }
+            pre {
+                background: #1B1A20;
+                border:none;
+                border-radius: 0;
+                padding: 20px;
+
+                code {
+                    background: none;
+                    color: rgba(255,255,255,0.85);
+                    color: @green;
+                }
+            }
+        }
+    }
 }

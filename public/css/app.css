@@ -132,7 +132,6 @@ body #packages ul.package-list {
 }
 body #packages ul.package-list li {
   width: 19.5%;
-  display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -278,4 +277,88 @@ body #main-footer .navigation li.docs a {
 }
 body #main-footer .navigation li.dload a {
   color: #53adff;
+}
+body #documentation {
+  background: #fff;
+  padding: 0;
+}
+body #documentation #sidebar {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  border-right: #eee solid 1px;
+}
+body #documentation #sidebar h3 {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #222;
+  font-weight: 600;
+  position: relative;
+}
+body #documentation #sidebar h3:after {
+  content: '';
+  border-top: #222 solid 2px;
+  width: 80px;
+  margin: 15px auto 15px 0;
+  position: absolute;
+  top: 5px;
+  left: 0;
+}
+body #documentation #sidebar > ul {
+  list-style: none;
+  padding: 0;
+}
+body #documentation #content {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  color: #555;
+}
+body #documentation #content h2 {
+  font-size: 26px;
+  color: #222;
+  font-weight: 600;
+  position: relative;
+  margin-bottom: 30px;
+}
+body #documentation #content h2:after {
+  content: '';
+  border-top: #222 solid 2px;
+  width: 80px;
+  margin: 15px auto 15px 0;
+  position: absolute;
+  top: 25px;
+  left: 0;
+}
+body #documentation #content h3 {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #222;
+  font-weight: 600;
+}
+body #documentation #content * + h2 {
+  margin-top: 50px;
+}
+body #documentation #content * + h3 {
+  margin-top: 20px;
+}
+body #documentation #content p {
+  font-size: 14px;
+  font-weight: 400;
+}
+body #documentation #content code {
+  background: #e2f1ff;
+  color: rgba(0, 0, 0, 0.7);
+  color: #2095ff;
+}
+body #documentation #content pre {
+  background: #1B1A20;
+  border: none;
+  border-radius: 0;
+  padding: 20px;
+}
+body #documentation #content pre code {
+  background: none;
+  color: rgba(255, 255, 255, 0.85);
+  color: #7ed321;
 }
