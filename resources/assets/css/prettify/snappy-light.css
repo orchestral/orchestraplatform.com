@@ -1,0 +1,57 @@
+/*
+ * Snappy Light
+ * Prettify CSS Theme.
+ *
+ * Copyright (c) 2014 Dayle Rees
+ */
+
+pre {
+  background-color: #ffffff;
+  padding: 2em;
+  color: #555555;
+}
+
+pre code {
+  font-family: 'Source Code Pro', Monaco, Consolas, "Lucida Console", monospace;
+}
+
+pre .pln {
+  color: #555555;
+}
+
+pre .str {
+  color: #4ea1df;
+}
+pre .kwd {
+  color: #4ea1df;
+}
+pre .com {
+  color: #bbbbbb;
+}
+pre .typ {
+  color: #f66153;
+}
+pre .lit {
+  color: #808dd3;
+}
+pre .pun,
+pre .opn,
+pre .clo {
+  color: #555555;
+}
+pre .tag {
+  color: #4ea1df;
+}
+pre .atn {
+  color: #f66153;
+}
+pre .atv {
+  color: #808dd3;
+}
+pre .dec,
+pre .var {
+  color: #4ea1df;
+}
+pre .fun {
+  color: #4ea1df;
+}

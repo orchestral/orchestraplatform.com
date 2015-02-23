@@ -12,6 +12,7 @@ var elixir = require('laravel-elixir');
  */
 
 var dir = {
+  asset: 'resources/assets',
   build: 'public/build/resources',
   html: 'resources/html',
   vendor: 'vendor/bower_components',
@@ -29,18 +30,20 @@ elixir(function(mix) {
     .copy(dir.vendor+'/font-awesome/css/font-awesome.css', dir.web+'/css/vendor/font-awesome.css')
     .copy(dir.vendor+'/font-awesome/fonts', dir.web+'/css/fonts')
     .copy(dir.html+'/fonts', dir.web+'/css/fonts')
-    .copy(dir.html+'/img', dir.web+'/img');
+    .copy(dir.html+'/img', dir.web+'/img')
+    .copy(dir.asset+'/js/prettify.js', dir.web+'/js/vendor/prettify.js')
+    .copy(dir.asset+'/css/prettify/gloom-contrast.css', dir.web+'/css/vendor/prettify.css');
 
   mix.styles([
       'vendor/bootstrap.css',
-      'vendor/prism.okaidia.css',
-      'app.css'
+      'app.css',
+      'vendor/prettify.css'
     ], dir.web+'/css/all.css', dir.web+'/css');
 
   mix.scripts([
       'vendor/jquery.min.js',
       'vendor/bootstrap.js',
-      'vendor/prism.js',
+      'vendor/prettify.js',
       'app.js'
     ], dir.web+'/js/all.js', dir.web+'/js');
 

@@ -355,13 +355,17 @@ body #documentation #content code {
   color: #2095ff;
 }
 body #documentation #content pre {
-  background: #1B1A20;
+  /*background: #1B1A20;*/
   border: none;
   border-radius: 0;
   padding: 20px;
 }
 body #documentation #content pre code {
-  background: none;
-  color: rgba(255, 255, 255, 0.85);
-  color: #7ed321;
+  background: transparent;
+  /*background: none;
+                    color: rgba(255,255,255,0.85);
+                    color: @green;*/
+}
+body #documentation #content pre[class^="language-"] {
+  background: #1B1A20;
 }

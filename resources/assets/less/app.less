@@ -387,15 +387,20 @@ body {
                 //color: #fff;
             }
             pre {
-                background: #1B1A20;
+                /*background: #1B1A20;*/
                 border:none;
                 border-radius: 0;
                 padding: 20px;
 
                 code {
-                    background: none;
+                    background: transparent;
+                    /*background: none;
                     color: rgba(255,255,255,0.85);
-                    color: @green;
+                    color: @green;*/
+                }
+
+                &[class^="language-"] {
+                    background: #1B1A20;
                 }
             }
         }
