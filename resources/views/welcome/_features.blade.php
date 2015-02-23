@@ -7,7 +7,7 @@
 		<div class="row">
 			<div class="col-md-4 item media">
 				<div class="media-object pull-left">
-					<img src="{{ asset('img/icon-laravel.svg') }}">
+					<img src="{{ asset('resources/img/icon-laravel.svg') }}">
 				</div>
 				<div class="media-body">
 					<h3 class="media-heading">Laravel Framework</h3>
@@ -17,7 +17,7 @@
 			</div>
 			<div class="col-md-4 item media">
 				<div class="media-object pull-left">
-					<img src="{{ asset('img/icon-extensions.svg') }}">
+					<img src="{{ asset('resources/img/icon-extensions.svg') }}">
 				</div>
 				<div class="media-body">
 					<h3 class="media-heading">Extensions</h3>
@@ -27,7 +27,7 @@
 			</div>
 			<div class="col-md-4 item media">
 				<div class="media-object pull-left">
-					<img src="{{ asset('img/icon-database.svg') }}">
+					<img src="{{ asset('resources/img/icon-database.svg') }}">
 				</div>
 				<div class="media-body">
 					<h3 class="media-heading">Database Based Configuration</h3>
@@ -39,7 +39,7 @@
 		<div class="row">
 			<div class="col-md-4 item media">
 				<div class="media-object pull-left">
-					<img src="{{ asset('img/icon-resources.svg') }}">
+					<img src="{{ asset('resources/img/icon-resources.svg') }}">
 				</div>
 				<div class="media-body">
 					<h3 class="media-heading">Resources</h3>
@@ -49,7 +49,7 @@
 			</div>
 			<div class="col-md-4 item media">
 				<div class="media-object pull-left">
-					<img src="{{ asset('img/icon-acl.svg') }}">
+					<img src="{{ asset('resources/img/icon-acl.svg') }}">
 				</div>
 				<div class="media-body">
 					<h3 class="media-heading">ACL &amp; User Management</h3>
@@ -59,7 +59,7 @@
 			</div>
 			<div class="col-md-4 item media">
 				<div class="media-object pull-left">
-					<img src="{{ asset('img/icon-responsive.svg') }}">
+					<img src="{{ asset('resources/img/icon-responsive.svg') }}">
 				</div>
 				<div class="media-body">
 					<h3 class="media-heading">Responsive Design</h3>

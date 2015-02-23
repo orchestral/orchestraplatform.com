@@ -15,8 +15,7 @@
 			</div>
 		</div>
 	</footer>
-	<script src="{{ asset('js/vendor/jquery.min.js') }}"></script>
-	<script src="{{ asset('js/vendor/bootstrap.min.js') }}"></script>
+	<script src="{{ elixir('resources/js/all.js') }}"></script>
 	<script type="text/javascript">
 	var _gaq = _gaq || [];
 	_gaq.push(['_setAccount', 'UA-39179956-1']);

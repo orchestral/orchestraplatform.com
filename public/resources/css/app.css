@@ -59,7 +59,7 @@ body #main-header .navigation li.dload a {
   color: #53adff;
 }
 body #hero {
-  background: #202020 url(../img/bg-featured.jpg) no-repeat;
+  background: #202020 url('/resources/img/bg-featured.jpg') no-repeat;
   background-size: 100%;
   background-position: 100% 0%;
 }
