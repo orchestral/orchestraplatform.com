@@ -33,12 +33,14 @@ elixir(function(mix) {
 
   mix.styles([
       'vendor/bootstrap.css',
+      'vendor/prism.okaidia.css',
       'app.css'
     ], dir.web+'/css/all.css', dir.web+'/css');
 
   mix.scripts([
       'vendor/jquery.min.js',
       'vendor/bootstrap.js',
+      'vendor/prism.js',
       'app.js'
     ], dir.web+'/js/all.js', dir.web+'/js');
 
