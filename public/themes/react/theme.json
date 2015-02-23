@@ -1,7 +1,0 @@
-{
-	"name": "React",
-	"description": "React is created using latest HTML5 and CSS3 features, with responsive design works great in any device. Has a complete set of pages and features with lots of options and flexibility for your business or service, startup, SaaS, etc.",
-	"author": "ericklvz",
-	"type": ["frontend", "backend"],
-	"autoload": []
-}
