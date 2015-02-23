@@ -282,6 +282,9 @@ body #documentation {
   background: #fff;
   padding: 0;
 }
+body #documentation ul {
+  padding-left: 15px;
+}
 body #documentation #sidebar {
   padding-top: 80px;
   padding-bottom: 80px;
