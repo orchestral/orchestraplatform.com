@@ -278,18 +278,26 @@ body #main-footer .navigation li.docs a {
 body #main-footer .navigation li.dload a {
   color: #53adff;
 }
-body #documentation {
+body #documentation,
+body #posts,
+body #single-post {
   background: #fff;
   padding: 0;
 }
-body #documentation ul {
+body #documentation ul,
+body #posts ul,
+body #single-post ul {
   padding-left: 15px;
 }
-body #documentation #sidebar {
+body #documentation #sidebar,
+body #posts #sidebar,
+body #single-post #sidebar {
   padding-top: 80px;
   padding-bottom: 80px;
 }
-body #documentation #sidebar h3 {
+body #documentation #sidebar h3,
+body #posts #sidebar h3,
+body #single-post #sidebar h3 {
   font-size: 13px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -298,7 +306,9 @@ body #documentation #sidebar h3 {
   position: relative;
   margin-bottom: 20px;
 }
-body #documentation #sidebar h3:after {
+body #documentation #sidebar h3:after,
+body #posts #sidebar h3:after,
+body #single-post #sidebar h3:after {
   content: '';
   border-top: #222 solid 2px;
   width: 80px;
@@ -307,84 +317,136 @@ body #documentation #sidebar h3:after {
   top: 5px;
   left: 0;
 }
-body #documentation #sidebar > ul {
+body #documentation #sidebar > ul,
+body #posts #sidebar > ul,
+body #single-post #sidebar > ul {
   list-style: none;
   padding: 0;
 }
-body #documentation #sidebar > ul li {
+body #documentation #sidebar > ul li,
+body #posts #sidebar > ul li,
+body #single-post #sidebar > ul li {
   line-height: 1.6;
   font-weight: bold;
 }
-body #documentation #sidebar > ul > li {
+body #documentation #sidebar > ul > li,
+body #posts #sidebar > ul > li,
+body #single-post #sidebar > ul > li {
   margin-bottom: 10px;
   line-height: 25px;
 }
-body #documentation #sidebar > ul > li a {
+body #documentation #sidebar > ul > li a,
+body #posts #sidebar > ul > li a,
+body #single-post #sidebar > ul > li a {
   display: block;
   font-weight: normal;
   color: #0689ff;
 }
-body #documentation #sidebar > ul > li > a {
+body #documentation #sidebar > ul > li > a,
+body #posts #sidebar > ul > li > a,
+body #single-post #sidebar > ul > li > a {
   margin-bottom: -5px;
 }
-body #documentation #sidebar > ul > li > ul {
+body #documentation #sidebar > ul > li > ul,
+body #posts #sidebar > ul > li > ul,
+body #single-post #sidebar > ul > li > ul {
   margin-left: 5px;
   margin-bottom: -5px;
   list-style: square;
 }
-body #documentation #sidebar > ul > li > ul > li {
+body #documentation #sidebar > ul > li > ul > li,
+body #posts #sidebar > ul > li > ul > li,
+body #single-post #sidebar > ul > li > ul > li {
   line-height: 20px;
 }
-body #documentation #sidebar > ul:nth-child(4) {
+body #documentation #sidebar > ul:nth-child(4),
+body #posts #sidebar > ul:nth-child(4),
+body #single-post #sidebar > ul:nth-child(4) {
   list-style: square;
   margin-left: 16px;
 }
-body #documentation #sidebar > ul:nth-child(4) li {
+body #documentation #sidebar > ul:nth-child(4) li,
+body #posts #sidebar > ul:nth-child(4) li,
+body #single-post #sidebar > ul:nth-child(4) li {
   margin: 0;
 }
-body #documentation #sidebar > ul:nth-child(4) li ul {
+body #documentation #sidebar > ul:nth-child(4) li ul,
+body #posts #sidebar > ul:nth-child(4) li ul,
+body #single-post #sidebar > ul:nth-child(4) li ul {
   list-style: disc;
   margin-bottom: 3px;
 }
-body #documentation #content {
+body #documentation #content,
+body #posts #content,
+body #single-post #content {
   padding-top: 80px;
   padding-bottom: 80px;
   color: #555;
   border-left: #eee solid 1px;
 }
-body #documentation #content a {
+body #documentation #content a,
+body #posts #content a,
+body #single-post #content a {
   color: #0689ff;
 }
 body #documentation #content h1,
+body #posts #content h1,
+body #single-post #content h1,
 body #documentation #content h2,
+body #posts #content h2,
+body #single-post #content h2,
 body #documentation #content h3,
+body #posts #content h3,
+body #single-post #content h3,
 body #documentation #content h4,
+body #posts #content h4,
+body #single-post #content h4,
 body #documentation #content h5,
-body #documentation #content h6 {
+body #posts #content h5,
+body #single-post #content h5,
+body #documentation #content h6,
+body #posts #content h6,
+body #single-post #content h6 {
   color: #222;
 }
 body #documentation #content ul,
-body #documentation #content ol {
+body #posts #content ul,
+body #single-post #content ul,
+body #documentation #content ol,
+body #posts #content ol,
+body #single-post #content ol {
   margin-left: 10px;
 }
 body #documentation #content ul li,
-body #documentation #content ol li {
+body #posts #content ul li,
+body #single-post #content ul li,
+body #documentation #content ol li,
+body #posts #content ol li,
+body #single-post #content ol li {
   margin-bottom: 5px;
 }
-body #documentation #content ol li {
+body #documentation #content ol li,
+body #posts #content ol li,
+body #single-post #content ol li {
   list-style: upper-roman;
 }
-body #documentation #content h1 {
+body #documentation #content h1,
+body #posts #content h1,
+body #single-post #content h1 {
   font-weight: 700;
 }
-body #documentation #content h2 {
+body #documentation #content h2,
+body #posts #content h2,
+body #single-post #content h2 {
   font-size: 26px;
   color: #222;
   font-weight: 600;
   position: relative;
   margin-bottom: 30px;
 }
-body #documentation #content h2:after {
+body #documentation #content h2:after,
+body #posts #content h2:after,
+body #single-post #content h2:after {
   content: '';
   border-top: #222 solid 2px;
   width: 80px;
@@ -393,40 +455,56 @@ body #documentation #content h2:after {
   top: 25px;
   left: 0;
 }
-body #documentation #content h3 {
+body #documentation #content h3,
+body #posts #content h3,
+body #single-post #content h3 {
   font-size: 15px;
   text-transform: uppercase;
   letter-spacing: 1px;
   color: #222;
   font-weight: 600;
 }
-body #documentation #content h4 {
+body #documentation #content h4,
+body #posts #content h4,
+body #single-post #content h4 {
   font-size: 14px;
   letter-spacing: 1px;
 }
-body #documentation #content * + h2 {
+body #documentation #content * + h2,
+body #posts #content * + h2,
+body #single-post #content * + h2 {
   margin-top: 50px;
 }
-body #documentation #content * + h3 {
+body #documentation #content * + h3,
+body #posts #content * + h3,
+body #single-post #content * + h3 {
   margin-top: 40px;
 }
-body #documentation #content p {
+body #documentation #content p,
+body #posts #content p,
+body #single-post #content p {
   font-size: 14px;
   font-weight: 400;
 }
-body #documentation #content code {
+body #documentation #content code,
+body #posts #content code,
+body #single-post #content code {
   background: #e2f1ff;
   color: rgba(0, 0, 0, 0.7);
   color: #2095ff;
 }
-body #documentation #content pre {
+body #documentation #content pre,
+body #posts #content pre,
+body #single-post #content pre {
   background: #1B1A20;
   border: none;
   border-radius: 3px;
   padding: 20px;
   margin: 10px 0 20px;
 }
-body #documentation #content pre code {
+body #documentation #content pre code,
+body #posts #content pre code,
+body #single-post #content pre code {
   background: transparent;
   background: none;
   color: rgba(255, 255, 255, 0.85);
