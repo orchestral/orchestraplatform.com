@@ -363,12 +363,16 @@ body #documentation #content h5,
 body #documentation #content h6 {
   color: #222;
 }
-body #documentation #content ul {
+body #documentation #content ul,
+body #documentation #content ol {
   margin-left: 10px;
 }
-body #documentation #content ul li {
-  list-style: upper-roman;
+body #documentation #content ul li,
+body #documentation #content ol li {
   margin-bottom: 5px;
+}
+body #documentation #content ol li {
+  list-style: upper-roman;
 }
 body #documentation #content h1 {
   font-weight: 700;
