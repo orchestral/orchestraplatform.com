@@ -14,7 +14,7 @@
 						</a>
 						<ul class="dropdown-menu" role="menu">
 							<li role="presentation" class="dropdown-header">Version</li>
-							<li><a href="{{ handles("app::docs/3.0/") }}">2.1 <span class="pull-right label label-success">Latest</span></a></li>
+							<li><a href="{{ handles("app::docs/3.0/") }}">3.0 <span class="pull-right label label-success">Latest</span></a></li>
 							<li><a href="{{ handles("app::docs/2.2/") }}">2.2</a></li>
 							<li><a href="{{ handles("app::docs/2.1/") }}">2.1 <span class="pull-right label label-info">LTS</span></a></li>
 							<li><a href="{{ handles("app::docs/2.0/") }}">2.0 <span class="pull-right label label-danger">EOL</span></a></li>
