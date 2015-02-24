@@ -6672,6 +6672,10 @@ body #documentation #content h3 {
   color: #222;
   font-weight: 600;
 }
+body #documentation #content h4 {
+  font-size: 14px;
+  letter-spacing: 1px;
+}
 body #documentation #content * + h2 {
   margin-top: 50px;
 }
@@ -6688,19 +6692,16 @@ body #documentation #content code {
   color: #2095ff;
 }
 body #documentation #content pre {
-  /*background: #1B1A20;*/
+  background: #1B1A20;
   border: none;
   border-radius: 0;
   padding: 20px;
 }
 body #documentation #content pre code {
   background: transparent;
-  /*background: none;
-                    color: rgba(255,255,255,0.85);
-                    color: @green;*/
-}
-body #documentation #content pre[class^="language-"] {
-  background: #1B1A20;
+  background: none;
+  color: rgba(255, 255, 255, 0.85);
+  color: #7ed321;
 }
 
 /*
