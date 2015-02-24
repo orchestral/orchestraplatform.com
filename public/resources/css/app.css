@@ -288,7 +288,6 @@ body #documentation ul {
 body #documentation #sidebar {
   padding-top: 80px;
   padding-bottom: 80px;
-  border-right: #eee solid 1px;
 }
 body #documentation #sidebar h3 {
   font-size: 13px;
@@ -297,6 +296,7 @@ body #documentation #sidebar h3 {
   color: #222;
   font-weight: 600;
   position: relative;
+  margin-bottom: 20px;
 }
 body #documentation #sidebar h3:after {
   content: '';
@@ -311,10 +311,67 @@ body #documentation #sidebar > ul {
   list-style: none;
   padding: 0;
 }
+body #documentation #sidebar > ul li {
+  line-height: 1.6;
+  font-weight: bold;
+}
+body #documentation #sidebar > ul > li {
+  margin-bottom: 10px;
+  line-height: 25px;
+}
+body #documentation #sidebar > ul > li a {
+  display: block;
+  font-weight: normal;
+  color: #0689ff;
+}
+body #documentation #sidebar > ul > li > a {
+  margin-bottom: -5px;
+}
+body #documentation #sidebar > ul > li > ul {
+  margin-left: 5px;
+  margin-bottom: -5px;
+  list-style: square;
+}
+body #documentation #sidebar > ul > li > ul > li {
+  line-height: 20px;
+}
+body #documentation #sidebar > ul:nth-child(4) {
+  list-style: square;
+  margin-left: 16px;
+}
+body #documentation #sidebar > ul:nth-child(4) li {
+  margin: 0;
+}
+body #documentation #sidebar > ul:nth-child(4) li ul {
+  list-style: disc;
+  margin-bottom: 3px;
+}
 body #documentation #content {
   padding-top: 80px;
   padding-bottom: 80px;
   color: #555;
+  border-left: #eee solid 1px;
+}
+body #documentation #content a {
+  color: #0689ff;
+}
+body #documentation #content h1,
+body #documentation #content h2,
+body #documentation #content h3,
+body #documentation #content h4,
+body #documentation #content h5,
+body #documentation #content h6 {
+  color: #222;
+}
+body #documentation #content ul {
+  margin-left: 10px;
+}
+body #documentation #content ul li {
+  list-style: upper-roman;
+  margin-bottom: 5px;
+}
+body #documentation #content h1 {
+  font-weight: 700;
 }
 body #documentation #content h2 {
   font-size: 26px;
@@ -333,7 +390,7 @@ body #documentation #content h2:after {
   left: 0;
 }
 body #documentation #content h3 {
-  font-size: 14px;
+  font-size: 15px;
   text-transform: uppercase;
   letter-spacing: 1px;
   color: #222;
@@ -347,7 +404,7 @@ body #documentation #content * + h2 {
   margin-top: 50px;
 }
 body #documentation #content * + h3 {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 body #documentation #content p {
   font-size: 14px;
@@ -361,8 +418,9 @@ body #documentation #content code {
 body #documentation #content pre {
   background: #1B1A20;
   border: none;
-  border-radius: 0;
+  border-radius: 3px;
   padding: 20px;
+  margin: 10px 0 20px;
 }
 body #documentation #content pre code {
   background: transparent;

@@ -314,7 +314,6 @@ body {
         #sidebar {
             padding-top:80px;
             padding-bottom: 80px;
-            border-right: #eee solid 1px;
 
             h3 {
                 font-size: 13px;
@@ -323,6 +322,7 @@ body {
                 color: #222;
                 font-weight: 600;
                 position: relative;
+                margin-bottom: 20px;
                 &:after {
                     content: '';
                     border-top: #222 solid 2px;
@@ -336,12 +336,73 @@ body {
             > ul {
                 list-style: none;
                 padding:0;
+
+                li {
+                    line-height: 1.6;
+                    font-weight: bold;
+                }
+                > li {
+                    margin-bottom: 10px;
+                    line-height: 25px;
+                    a {
+                        display: block;
+                        font-weight: normal;
+                        color: darken(@blue,15%);
+                    }
+
+                    > a {
+                        margin-bottom: -5px;
+                    }
+
+                    > ul {
+                        //padding:0;
+                        //border-left: #ccc solid 1px;
+                        margin-left: 5px;
+                        margin-bottom: -5px;
+                        list-style: square;
+                        > li {
+                            line-height: 20px;
+                        }
+                    }
+                }
+            }
+            > ul:nth-child(4) {
+                list-style: square;
+                margin-left: 16px;
+                li {
+                    margin: 0;
+                    ul {
+                        list-style: disc;
+                        margin-bottom: 3px;
+                    }
+                }
             }
         }
         #content {
             padding-top:80px;
             padding-bottom: 80px;
             color: #555;
+            border-left: #eee solid 1px;
+
+            a {
+                color: darken(@blue,15%);
+            }
+
+            h1,h2,h3,h4,h5,h6 {
+                color: #222;
+            }
+
+            ul {
+                margin-left: 10px;
+                li {
+                    list-style: upper-roman;
+                    margin-bottom: 5px;
+                }
+            }
+
+            h1 {
+                font-weight: 700;
+            }
 
             h2 {
                 font-size: 26px;
@@ -362,7 +423,7 @@ body {
                 }
             }
             h3 {
-                font-size: 14px;
+                font-size: 15px;
                 text-transform: uppercase;
                 letter-spacing: 1px;
                 color: #222;
@@ -376,7 +437,7 @@ body {
                     margin-top: 50px;
                 }
             * + h3 {
-                margin-top: 20px;
+                margin-top: 40px;
             }
             p {
                 font-size: 14px;
@@ -393,8 +454,9 @@ body {
             pre {
                 background: #1B1A20;
                 border:none;
-                border-radius: 0;
+                border-radius: 3px;
                 padding: 20px;
+                margin:10px 0 20px;
 
                 code {
                     background: transparent;
