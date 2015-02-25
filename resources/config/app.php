@@ -154,9 +154,10 @@ return [
         'Orchestra\Foundation\Providers\FoundationServiceProvider',
 
         /**
-         * Orchestra Platform Installer Service Providers...
+         * Orchestra Platform Additional Service Providers...
          */
         'Orchestra\Installation\InstallerServiceProvider',
+        'Orchestra\Avatar\AvatarServiceProvider',
 
         /*
          * Application Service Providers...

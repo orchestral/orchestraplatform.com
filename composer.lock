@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9498d8a7ead5ef7080b5137b3aed6327",
+    "hash": "7d5038d16425176f6517bed803b0c358",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -1079,6 +1079,66 @@
                 "rbac"
             ],
             "time": "2015-02-21 01:17:17"
+        },
+        {
+            "name": "orchestra/avatar",
+            "version": "v3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/orchestral/avatar.git",
+                "reference": "7d3528155494ce1175576ae9512c704a6cdd3de6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/orchestral/avatar/zipball/7d3528155494ce1175576ae9512c704a6cdd3de6",
+                "reference": "7d3528155494ce1175576ae9512c704a6cdd3de6",
+                "shasum": ""
+            },
+            "require": {
+                "orchestra/support-facades": "3.0.*",
+                "orchestra/support-providers": "3.0.*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "illuminate/container": "5.0.*",
+                "illuminate/database": "5.0.*",
+                "mockery/mockery": "0.9.*"
+            },
+            "suggest": {
+                "laravel/framework": "Allow using orchestra/avatar component outside of Orchestra Platform",
+                "orchestra/foundation": "Allow using orchestra/avatar with Orchestra Platform"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Orchestra\\Avatar\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mior Muhammad Zaki",
+                    "email": "crynobone@gmail.com",
+                    "homepage": "https://github.com/crynobone"
+                }
+            ],
+            "description": "Avatar Component for Orchestra Platform",
+            "keywords": [
+                "avatar",
+                "gravatar",
+                "laravel",
+                "orchestra-platform",
+                "orchestral"
+            ],
+            "time": "2015-02-04 16:57:13"
         },
         {
             "name": "orchestra/control",

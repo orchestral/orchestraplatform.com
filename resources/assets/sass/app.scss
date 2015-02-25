@@ -1,7 +1,6 @@
 @import "variables";
 @import "bootstrap";
 
-$fa-font-path: "/resources/fonts" !default;
 @import "../../../vendor/bower_components/font-awesome/scss/font-awesome";
 
 @import "mixins";
@@ -9,3 +8,4 @@ $fa-font-path: "/resources/fonts" !default;
 @import "partials/base";
 @import "partials/welcome";
 @import "partials/content";
+@import "partials/story";

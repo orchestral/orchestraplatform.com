@@ -7,7 +7,7 @@ body {
             padding-left: 15px;
         }
 
-        #sidebar {
+        #sidebar, .page-sidebar {
             padding-top:80px;
             padding-bottom: 80px;
 
@@ -74,7 +74,7 @@ body {
                 }
             }
         }
-        #content {
+        #content, .page-content {
             padding-top:80px;
             padding-bottom: 80px;
             color: #555;
