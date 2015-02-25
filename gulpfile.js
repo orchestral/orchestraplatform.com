@@ -21,15 +21,13 @@ var dir = {
 
 elixir(function(mix) {
   mix.sass('app.scss', dir.web+'/css');
-  //mix.less('app.less', dir.web+'/css');
   mix.coffee('app.coffee', dir.web+'/js');
 
   mix.copy(dir.vendor+'/jquery/dist/jquery.min.js', dir.web+'/js/vendor/jquery.min.js')
     .copy(dir.vendor+'/jquery/dist/jquery.min.map', dir.web+'/js/vendor/jquery.min.map')
     .copy(dir.vendor+'/bootstrap-sass-official/assets/javascripts/bootstrap.js', dir.web+'/js/vendor/bootstrap.js')
-    .copy(dir.vendor+'/font-awesome/css/font-awesome.css', dir.web+'/css/vendor/font-awesome.css')
-    .copy(dir.vendor+'/font-awesome/fonts', dir.web+'/css/fonts')
-    .copy(dir.html+'/fonts', dir.web+'/css/fonts')
+    .copy(dir.vendor+'/font-awesome/fonts', dir.web+'/fonts')
+    .copy(dir.html+'/fonts', dir.web+'/fonts')
     .copy(dir.html+'/img', dir.web+'/img')
     .copy(dir.asset+'/js/prettify.js', dir.web+'/js/vendor/prettify.js')
     .copy(dir.asset+'/css/prettify/gloom-contrast.css', dir.web+'/css/vendor/prettify.css');
