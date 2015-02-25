@@ -6698,10 +6698,12 @@ body #documentation #content h6 {
 }
 body #documentation #content ul {
   margin-left: 10px;
+  margin-bottom: 20px;
 }
 body #documentation #content ul li {
   list-style: upper-roman;
   margin-bottom: 5px;
+  font-size: 14px;
 }
 body #documentation #content h1 {
   font-weight: 700;
