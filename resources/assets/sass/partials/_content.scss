@@ -1,0 +1,171 @@
+body {
+    #documentation, #posts, #single-post {
+        background: #fff;
+        padding:0;
+
+        ul {
+            padding-left: 15px;
+        }
+
+        #sidebar {
+            padding-top:80px;
+            padding-bottom: 80px;
+
+            h3 {
+                font-size: 13px;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                color: #222;
+                font-weight: 600;
+                position: relative;
+                margin-bottom: 20px;
+                &:after {
+                    content: '';
+                    border-top: #222 solid 2px;
+                    width: 80px;
+                    margin: 15px auto 15px 0;
+                    position: absolute;
+                    top: 5px;
+                    left: 0;
+                }
+            }
+            > ul {
+                list-style: none;
+                padding:0;
+
+                li {
+                    line-height: 1.6;
+                    font-weight: bold;
+                }
+                > li {
+                    margin-bottom: 10px;
+                    line-height: 25px;
+                    a {
+                        display: block;
+                        font-weight: normal;
+                        color: darken($blue, 15%);
+                    }
+
+                    > a {
+                        margin-bottom: -5px;
+                    }
+
+                    > ul {
+                        //padding:0;
+                        //border-left: #ccc solid 1px;
+                        margin-left: 5px;
+                        margin-bottom: -5px;
+                        list-style: square;
+                        > li {
+                            line-height: 20px;
+                        }
+                    }
+                }
+            }
+            > ul:nth-child(4) {
+                list-style: square;
+                margin-left: 16px;
+                li {
+                    margin: 0;
+                    ul {
+                        list-style: disc;
+                        margin-bottom: 3px;
+                    }
+                }
+            }
+        }
+        #content {
+            padding-top:80px;
+            padding-bottom: 80px;
+            color: #555;
+            border-left: #eee solid 1px;
+
+            a {
+                color: darken($blue, 15%);
+            }
+
+            h1,h2,h3,h4,h5,h6 {
+                color: #222;
+            }
+
+            ul, ol {
+                margin-left: 10px;
+                margin-bottom: 20px;
+                li {
+                    margin-bottom: 5px;
+                    font-size: 14px;
+                }
+            }
+
+            ol li {
+                list-style: upper-roman;
+            }
+
+            h1 {
+                font-weight: 700;
+            }
+
+            h2 {
+                font-size: 26px;
+                //text-transform: uppercase;
+                //letter-spacing: 1px;
+                color: #222;
+                font-weight: 600;
+                position: relative;
+                margin-bottom: 30px;
+                &:after {
+                    content: '';
+                    border-top: #222 solid 2px;
+                    width: 80px;
+                    margin: 15px auto 15px 0;
+                    position: absolute;
+                    top: 25px;
+                    left: 0;
+                }
+            }
+            h3 {
+                font-size: 15px;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                color: #222;
+                font-weight: 600;
+            }
+            h4 {
+                font-size: 14px;
+                letter-spacing: 1px;
+            }
+            * + h2 {
+                    margin-top: 50px;
+                }
+            * + h3 {
+                margin-top: 40px;
+            }
+            p {
+                font-size: 14px;
+                font-weight: 400;
+
+            }
+            code {
+                background: lighten($blue, 28%);
+                //background: #eee;
+                color: rgba(0, 0, 0, 0.7);
+                color: darken($blue, 10%);
+                //color: #fff;
+            }
+            pre {
+                background: #1B1A20;
+                border:none;
+                border-radius: 3px;
+                padding: 20px;
+                margin:10px 0 20px;
+
+                code {
+                    background: transparent;
+                    background: none;
+                    color: rgba(255, 255, 255, 0.85);
+                    color: $green;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,5 @@
+@mixin featured-bg() {
+    background: #202020 url(/resources/img/bg-featured.jpg) no-repeat;
+    background-size: 100%;
+    background-position: 100% 0%;
+}
