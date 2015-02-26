@@ -6746,13 +6746,15 @@ body #documentation, body #posts, body #single-post {
         color: rgba(255, 255, 255, 0.85);
         color: #7ED321; }
 
-#posts .page-sidebar, #single-post .page-sidebar {
+body #posts .page-sidebar, body #single-post .page-sidebar {
   text-align: center; }
-  #posts .page-sidebar img.avatar, #single-post .page-sidebar img.avatar {
+  body #posts .page-sidebar img.avatar, body #single-post .page-sidebar img.avatar {
     display: block;
     margin: 50px 0px 25px 45px; }
-  #posts .page-sidebar strong, #single-post .page-sidebar strong {
+  body #posts .page-sidebar strong, body #single-post .page-sidebar strong {
     display: block; }
-#posts .page-content img, #single-post .page-content img {
+body #posts .page-content img, body #single-post .page-content img {
   width: 100%;
   height: auto; }
+body #posts .page-content h1.title a, body #single-post .page-content h1.title a {
+  color: #000 !important; }

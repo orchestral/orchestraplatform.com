@@ -1,18 +1,29 @@
-#posts, #single-post {
-    .page-sidebar {
-        text-align: center;
-        img.avatar {
-            display: block;
-            margin: 50px 0px 25px 45px;
+body {
+    #posts, #single-post {
+        .page-sidebar {
+            text-align: center;
+
+            img.avatar {
+                display: block;
+                margin: 50px 0px 25px 45px;
+            }
+
+            strong {
+                display: block;
+            }
         }
-        strong {
-            display: block;
-        }
-    }
-    .page-content {
-        img {
-            width: 100%;
-            height: auto;
+
+        .page-content {
+            img {
+                width: 100%;
+                height: auto;
+            }
+
+            h1.title {
+                a {
+                    color: #000 !important;
+                }
+            }
         }
     }
 }

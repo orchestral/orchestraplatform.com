@@ -20,8 +20,8 @@ var dir = {
 };
 
 elixir(function(mix) {
-  mix.sass('app.scss', dir.web+'/css');
-  mix.sass('errors.scss', dir.web+'/css');
+  mix.sass(['app.scss', 'errors.scss'], dir.web+'/css');
+
   mix.coffee('app.coffee', dir.web+'/js');
 
   mix.copy(dir.vendor+'/jquery/dist/jquery.min.js', dir.web+'/js/vendor/jquery.min.js')
