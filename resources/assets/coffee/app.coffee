@@ -2,5 +2,5 @@ $ = @jQuery
 
 $(->
   $('pre').addClass('prettyprint')
-  $('#documentation table').addClass('table table-striped')
+  $('table', '#documentation, #posts, #single-post').addClass('table table-striped')
 );

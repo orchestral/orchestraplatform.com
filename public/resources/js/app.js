@@ -5,7 +5,7 @@
 
   $(function() {
     $('pre').addClass('prettyprint');
-    return $('#documentation table').addClass('table table-striped');
+    return $('table', '#documentation, #posts, #single-post').addClass('table table-striped');
   });
 
 }).call(this);
