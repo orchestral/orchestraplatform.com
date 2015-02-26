@@ -6449,6 +6449,17 @@ body {
         color: #7ED321; }
       body #main-footer .navigation li.dload a {
         color: #53ADFF; }
+  body .modal-body pre {
+    background: #1B1A20;
+    border: none;
+    border-radius: 3px;
+    padding: 20px;
+    margin: 10px 0 20px; }
+    body .modal-body pre code {
+      background: transparent;
+      background: none;
+      color: rgba(255, 255, 255, 0.85);
+      color: #7ED321; }
 
 body #main-header {
   padding: 20px 0;

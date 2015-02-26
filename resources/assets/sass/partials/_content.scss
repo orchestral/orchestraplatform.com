@@ -153,18 +153,7 @@ body {
                 //color: #fff;
             }
             pre {
-                background: #1B1A20;
-                border:none;
-                border-radius: 3px;
-                padding: 20px;
-                margin:10px 0 20px;
-
-                code {
-                    background: transparent;
-                    background: none;
-                    color: rgba(255, 255, 255, 0.85);
-                    color: $green;
-                }
+                @include block_code();
             }
         }
     }

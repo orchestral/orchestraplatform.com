@@ -61,4 +61,10 @@ body {
             }
         }
     }
+
+    .modal-body {
+        pre {
+            @include block_code();
+        }
+    }
 }
