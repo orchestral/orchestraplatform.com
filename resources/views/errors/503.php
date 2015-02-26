@@ -2,7 +2,7 @@
 	<head>
 		<?php echo HTML::title('Be right back'); ?>
 		<link href='//fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
-		<link href="{{ asset('resources/css/errors.css') }}" rel="stylesheet">
+		<link href="<?php echo asset('resources/css/errors.css'); ?>" rel="stylesheet">
 	</head>
 	<body>
 		<div class="container">
