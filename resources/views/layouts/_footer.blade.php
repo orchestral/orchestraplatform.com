@@ -2,19 +2,20 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
-					&copy; 2014 - {{ date('Y') }} Orchestra PLatform, hosted with Digital Ocean.
+					&copy; 2014 - {{ date('Y') }} Orchestra Platform, hosted with Digital Ocean.
 				</div>
 				<div class="col-md-6">
 					<ul class="list-inline pull-right navigation">
 						<li><a href="#">Blog</a></li>
 						<li><a href="#">Forum</a></li>
 						<li class="docs"><a href="#">Documentation</a></li>
-						<li class="dload"><a href="#">Download</a></li>
+						<li class="dload"><a href="#" data-toggle="modal" data-target="#download-modal">Download</a></li>
 					</ul>
 				</div>
 			</div>
 		</div>
 	</footer>
+	@include('layouts._download')
 	<script src="{{ elixir('resources/js/all.js') }}"></script>
 	<script type="text/javascript">
 	var _gaq = _gaq || [];

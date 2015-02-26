@@ -36,11 +36,13 @@ return [
             'name' => 'contracts',
             'description' => 'Interface Collections for Orchestra Platform.',
             'type' => ['component', 'package', 'required'],
+            'url' => 'app::docs/latest/components/kernel',
         ],
         [
             'name' => 'control',
             'description' => 'Official Administration Add-on Extension for Orchestra Platform.',
             'type' => ['extension', 'required'],
+            'url' => 'https://github.com/orchestral/control',
         ],
         [
             'name' => 'debug',
@@ -126,6 +128,7 @@ return [
             'name' => 'story',
             'description' => 'Content Management System for Orchestra Platform.',
             'type' => ['extension', 'optional'],
+            'url' => 'https://github.com/orchestral/story',
         ],
         [
             'name' => 'tenanti',

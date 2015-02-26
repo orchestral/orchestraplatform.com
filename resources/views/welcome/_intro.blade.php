@@ -3,7 +3,7 @@
 		<div class="col-md-8 col-md-offset-2">
 			<h1><span>Orchestra Platform</span> provide all the boilerplate for your application, so you can create awesomeness.</h1>
 			<div>
-				<a class="btn btn-dload">Download</a>
+				<a class="btn btn-dload" data-toggle="modal" data-target="#download-modal">Download</a>
 				<a href="{{ handles('app::docs/latest') }}" class="btn btn-docs">Documentation</a>
 			</div>
 		</div>

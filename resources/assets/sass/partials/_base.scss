@@ -1,0 +1,70 @@
+body {
+    font-family: "Lato", Helvetica, sans-serif;
+    font-size: 13px;
+
+    p {
+        line-height: 1.65;
+        //font-weight: 300;
+    }
+    section {
+        padding:80px 0;
+        .section-header {
+            text-align: center;
+            margin-bottom: 60px;
+            h1 {
+
+            }
+            h2 {}
+            h3, h4 {
+                text-transform: uppercase;
+                font-size: 18px;
+                font-weight: 700;
+                letter-spacing: 1.5px;
+            }
+            h4 {
+                font-size: 15px;
+            }
+            p.lead {
+                font-size: 18px;
+                font-weight: 300;
+            }
+            hr {
+                border-top: #222 solid 3px;
+                width: 80px;
+            }
+        }
+    }
+
+    #main-footer {
+        background: #111;
+        padding:40px 0;
+        color: #C5C5C5;
+        text-transform: uppercase;
+        font-size: 11px;
+        letter-spacing: 1px;
+        .navigation {
+            margin: 0;
+            li {
+                a {
+                    color: #c5c5c5;
+                }
+                &.docs {
+                    a {
+                        color: $green;
+                    }
+                }
+                &.dload {
+                    a {
+                        color: $blue;
+                    }
+                }
+            }
+        }
+    }
+
+    .modal-body {
+        pre {
+            @include block_code();
+        }
+    }
+}

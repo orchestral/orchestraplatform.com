@@ -20,7 +20,7 @@
 							<li><a href="{{ handles("app::docs/2.0/") }}">2.0 <span class="pull-right label label-danger">EOL</span></a></li>
 						</ul>
 					</li>
-					<li class="dload"><a href="#">Download</a></li>
+					<li class="dload"><a href="#" data-toggle="modal" data-target="#download-modal">Download</a></li>
 				</ul>
 			</div>
 		</div>
