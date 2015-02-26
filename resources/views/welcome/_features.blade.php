@@ -12,7 +12,7 @@
 				<div class="media-body">
 					<h3 class="media-heading">Laravel Framework</h3>
 					<hr>
-					<p>Craft beer vinyl Intelligentsia, keytar occupy cred kitsch cornhole flannel High Life Etsy ugh</p>
+					<p>Laravel is simply a great framework to work with, and Orchestra Platform has been developing with Laravel since version 3.2.</p>
 				</div>
 			</div>
 			<div class="col-md-4 item media">
@@ -64,7 +64,7 @@
 				<div class="media-body">
 					<h3 class="media-heading">Responsive Design</h3>
 					<hr>
-					<p>Beard forage literally, locavore mlkshk crucifix freegan tofu tilde chia small batch Bushwick pop-up umami stumptown</p>
+					<p>Accessible everywhere, the default theme is built on top of Twitter Bootstrap latest version so you can always access Orchestra Platform.</p>
 				</div>
 			</div>
 		</div>
