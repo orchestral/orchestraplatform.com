@@ -19,6 +19,11 @@ body {
                 height: auto;
             }
 
+            table img {
+                width: inherit !important;
+                height: inherit !important;
+            }
+
             h1.title {
                 a {
                     color: #000 !important;

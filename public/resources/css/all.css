@@ -6767,6 +6767,9 @@ body #posts .page-sidebar, body #single-post .page-sidebar {
 body #posts .page-content img, body #single-post .page-content img {
   width: 100%;
   height: auto; }
+body #posts .page-content table img, body #single-post .page-content table img {
+  width: inherit !important;
+  height: inherit !important; }
 body #posts .page-content h1.title a, body #single-post .page-content h1.title a {
   color: #000 !important; }
 
