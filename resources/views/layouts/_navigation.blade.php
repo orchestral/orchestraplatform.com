@@ -7,7 +7,7 @@
 			<div class="col-md-8">
 				<ul class="list-inline pull-right navigation">
 					<li><a href="{{ handles('orchestra/story::/') }}">Blog</a></li>
-					<li><a href="https://www.facebook.com/groups/orchestraplatform/">Forum</a></li>
+					<li><a href="https://www.facebook.com/groups/orchestraplatform/" target="_blank">Forum</a></li>
 					<li class="docs dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
 							Documentation <span class="caret"></span>
