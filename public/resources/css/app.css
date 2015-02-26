@@ -6459,7 +6459,7 @@ body {
       background: transparent;
       background: none;
       color: rgba(255, 255, 255, 0.85);
-      color: #7ED321; }
+      color: #D8EBE5; }
 
 body #main-header {
   padding: 20px 0;
@@ -6755,7 +6755,7 @@ body #documentation, body #posts, body #single-post {
         background: transparent;
         background: none;
         color: rgba(255, 255, 255, 0.85);
-        color: #7ED321; }
+        color: #D8EBE5; }
 
 body #posts .page-sidebar, body #single-post .page-sidebar {
   text-align: center; }
