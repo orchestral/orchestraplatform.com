@@ -37,9 +37,11 @@ return [
 
     'config' => [
 
+        'website/packages',
         'orchestra/html::form',
         'orchestra/html::table',
         'orchestra/foundation::config',
+        'orchestra/memory::config',
 
     ],
 

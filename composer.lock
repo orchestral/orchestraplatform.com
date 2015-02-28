@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e8822ce0b3abccde6b21ad4d31a8e4f6",
+    "hash": "20a4a68f0ba826780ba21a240065b3e4",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -537,16 +537,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.0.7",
+            "version": "v5.0.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "f46adbb5bc753bd9503ee232e8ce1f4421a78b2a"
+                "reference": "c263240daa383e6b9bd979600dc61dcb2c436d53"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/f46adbb5bc753bd9503ee232e8ce1f4421a78b2a",
-                "reference": "f46adbb5bc753bd9503ee232e8ce1f4421a78b2a",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/c263240daa383e6b9bd979600dc61dcb2c436d53",
+                "reference": "c263240daa383e6b9bd979600dc61dcb2c436d53",
                 "shasum": ""
             },
             "require": {
@@ -658,7 +658,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2015-02-25 20:23:22"
+            "time": "2015-02-27 00:32:38"
         },
         {
             "name": "league/flysystem",
@@ -1517,16 +1517,16 @@
         },
         {
             "name": "orchestra/kernel",
-            "version": "v3.0.2",
+            "version": "3.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/kernel.git",
-                "reference": "2feb84fbd514a01f10c4d3aca2173ec13b43252d"
+                "reference": "d7308805349961380a8de3cc5a476e30a417c374"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/kernel/zipball/2feb84fbd514a01f10c4d3aca2173ec13b43252d",
-                "reference": "2feb84fbd514a01f10c4d3aca2173ec13b43252d",
+                "url": "https://api.github.com/repos/orchestral/kernel/zipball/d7308805349961380a8de3cc5a476e30a417c374",
+                "reference": "d7308805349961380a8de3cc5a476e30a417c374",
                 "shasum": ""
             },
             "require": {
@@ -1570,7 +1570,7 @@
                 }
             ],
             "description": "Kernel for Orchestra Platform",
-            "time": "2015-02-26 02:32:25"
+            "time": "2015-02-28 19:48:06"
         },
         {
             "name": "orchestra/memory",
@@ -3901,7 +3901,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "orchestra/story": 20
+        "orchestra/story": 20,
+        "orchestra/kernel": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
