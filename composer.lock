@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "20a4a68f0ba826780ba21a240065b3e4",
+    "hash": "e8822ce0b3abccde6b21ad4d31a8e4f6",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -1517,16 +1517,16 @@
         },
         {
             "name": "orchestra/kernel",
-            "version": "3.0.x-dev",
+            "version": "v3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/kernel.git",
-                "reference": "d7308805349961380a8de3cc5a476e30a417c374"
+                "reference": "caa5343895458742efd54fc7667df1177f37b70d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/kernel/zipball/d7308805349961380a8de3cc5a476e30a417c374",
-                "reference": "d7308805349961380a8de3cc5a476e30a417c374",
+                "url": "https://api.github.com/repos/orchestral/kernel/zipball/caa5343895458742efd54fc7667df1177f37b70d",
+                "reference": "caa5343895458742efd54fc7667df1177f37b70d",
                 "shasum": ""
             },
             "require": {
@@ -1570,7 +1570,7 @@
                 }
             ],
             "description": "Kernel for Orchestra Platform",
-            "time": "2015-02-28 19:48:06"
+            "time": "2015-03-01 07:59:46"
         },
         {
             "name": "orchestra/memory",
@@ -3901,8 +3901,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "orchestra/story": 20,
-        "orchestra/kernel": 20
+        "orchestra/story": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
