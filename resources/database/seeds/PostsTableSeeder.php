@@ -33,10 +33,10 @@ class PostsTableSeeder extends Seeder
             '2013-09-10-simple-website-8',
         ];
 
-        $parser = new DocumentParser;
+        $parser = new DocumentParser();
 
         foreach ($posts as $post) {
-            $source = file_get_contents(__DIR__."/posts/{$post}.md");
+            $source   = file_get_contents(__DIR__."/posts/{$post}.md");
             $document = $parser->parse($source);
             $metadata = $document->get();
 
@@ -44,7 +44,7 @@ class PostsTableSeeder extends Seeder
 
             list(, $year, $month, $day, $slug) = $matches;
 
-            $content               = new Content;
+            $content               = new Content();
             $content->type         = Content::POST;
             $content->format       = 'markdown';
             $content->title        = $metadata['title'];

@@ -40,8 +40,8 @@ class Viewer extends Processor
     public function __construct(Application $app, Config $config, FileLoader $loader)
     {
         $this->basePath = $app->basePath();
-        $this->config = $config;
-        $this->loader = $loader;
+        $this->config   = $config;
+        $this->loader   = $loader;
     }
 
     /**
@@ -50,12 +50,13 @@ class Viewer extends Processor
      * @param  object  $listener
      * @param  string  $version
      * @param  string  $filename
+     *
      * @return mixed
      */
     public function show($listener, $version, $filename = 'index')
     {
         $version = (string) Arr::get($this->config->get('project.documentation.aliases'), $version, $version);
-        $path = $this->getDocumentationPath($version);
+        $path    = $this->getDocumentationPath($version);
 
         list($toc, $document) = $this->loader->getDocumentation($path, $filename);
 
@@ -77,6 +78,7 @@ class Viewer extends Processor
      *
      * @param  \Kurenai\Document  $content
      * @param  string  $version
+     *
      * @return string
      */
     public function parseMarkdown(Document $content, $version)
@@ -89,6 +91,7 @@ class Viewer extends Processor
      *
      * @param  string  $content
      * @param  string  $version
+     *
      * @return string
      */
     public function parseContent($content, $version)
@@ -104,6 +107,7 @@ class Viewer extends Processor
      * Get documentation base path.
      *
      * @param  string  $version
+     *
      * @return string
      */
     protected function getDocumentationPath($version)

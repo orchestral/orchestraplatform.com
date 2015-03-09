@@ -153,7 +153,7 @@ return [
         'Orchestra\Foundation\Providers\FilterServiceProvider',
         'Orchestra\Foundation\Providers\FoundationServiceProvider',
 
-        /**
+        /*
          * Orchestra Platform Additional Service Providers...
          */
         'Orchestra\Installation\InstallerServiceProvider',

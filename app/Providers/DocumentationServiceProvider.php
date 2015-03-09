@@ -28,7 +28,7 @@ class DocumentationServiceProvider extends ServiceProvider
     {
         $this->app->bindShared('doc.parser', function () {
             return new DocumentParser(function () {
-                return new Document(new ParsedownMarkdownExtra);
+                return new Document(new ParsedownMarkdownExtra());
             });
         });
 

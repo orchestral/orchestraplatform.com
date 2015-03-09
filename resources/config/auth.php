@@ -59,8 +59,8 @@ return [
     */
 
     'password' => [
-        'email' => 'emails.auth.password',
-        'table' => 'password_reminders',
+        'email'  => 'emails.auth.password',
+        'table'  => 'password_reminders',
         'expire' => 60,
     ],
 

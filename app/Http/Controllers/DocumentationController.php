@@ -32,6 +32,7 @@ class DocumentationController extends BaseController
      * @Where({"version": "([a-zA-Z0-9\.]+)"})
      *
      * @param  string   $version
+     *
      * @return mixed
      */
     public function index($version)
@@ -47,6 +48,7 @@ class DocumentationController extends BaseController
      *
      * @param  string   $version
      * @param  string   $filename
+     *
      * @return mixed
      */
     public function show($version, $filename = 'index')
@@ -60,6 +62,7 @@ class DocumentationController extends BaseController
      * @param  string  $version
      * @param  \Kurenai\Document  $toc
      * @param  \Kurenai\Document  $document
+     *
      * @return mixed
      */
     public function showSucceed($version, Document $toc, Document $document)

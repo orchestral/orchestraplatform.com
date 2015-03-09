@@ -35,8 +35,8 @@ class FileLoader
      */
     public function __construct(Cache $cache, Filesystem $files, DocumentParser $parser)
     {
-        $this->cache = $cache;
-        $this->files = $files;
+        $this->cache  = $cache;
+        $this->files  = $files;
         $this->parser = $parser;
     }
 
@@ -45,7 +45,9 @@ class FileLoader
      *
      * @param  string  $path
      * @param  string  $filename
+     *
      * @return array
+     *
      * @throws \Symfony\Component\HttpKernel\Exception\NotFoundHttpException
      */
     public function getDocumentation($path, $filename)
@@ -54,7 +56,7 @@ class FileLoader
             $filename = "{$filename}/index";
         }
 
-        $toc = "{$path}/src/contents.md";
+        $toc      = "{$path}/src/contents.md";
         $document = "{$path}/src/{$filename}.md";
 
         return [
@@ -67,6 +69,7 @@ class FileLoader
      * Get table of content.
      *
      * @param  string  $toc
+     *
      * @return string
      */
     protected function getTableOfContent($toc)
@@ -84,6 +87,7 @@ class FileLoader
      * Get content body.
      *
      * @param  string  $document
+     *
      * @return mixed
      */
     protected function getBodyContent($document)
@@ -97,6 +101,7 @@ class FileLoader
      * Load content.
      *
      * @param  string  $file
+     *
      * @return mixed
      */
     protected function loadContent($file)
@@ -110,13 +115,15 @@ class FileLoader
 
     /**
      * Validate if file does exist.
+     *
      * @param  string  $file
+     *
      * @throws \Symfony\Component\HttpKernel\Exception\NotFoundHttpException
      */
     protected function validateFileDoesExist($file)
     {
         if (! $this->files->exists($file)) {
-            throw new NotFoundHttpException;
+            throw new NotFoundHttpException();
         }
     }
 }
