@@ -16,4 +16,3 @@ It is important that bugfixes are tagged and release as frequent as possible to 
 ### 2.1 Roadmap
 
 I have also posted the release [Roadmap for 2.1](https://github.com/orchestral/platform/issues/13) and welcome any suggestion or request to be consider for it.
-

@@ -7,7 +7,7 @@ author:
 
 ---
 
-It's been awhile since there been a new entries, apologies on that. For the past 9-10 days I been focusing on [Control Extension](https://github.com/orchestral/control) for Orchestra Platform as well as ensuring that we have good test coverage before the official 2.0.0 release. 
+It's been awhile since there been a new entries, apologies on that. For the past 9-10 days I been focusing on [Control Extension](https://github.com/orchestral/control) for Orchestra Platform as well as ensuring that we have good test coverage before the official 2.0.0 release.
 
 ### Code Coverage
 

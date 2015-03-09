@@ -56,5 +56,3 @@ Role management at your disposal, how cool is that? However to prevent accidenta
 ![Control ACL Management](/uploads/2013/06/control-acl-management.png)
 
 Now, here what I would say Orchestra Platform RBAC is so flexible. "Orchestra" and "Playground" has it's own RBAC configuration where it help developer to control different type of association, a user with one extension maybe an admin on another.
-
-

@@ -1,7 +1,7 @@
 ---
 layout: single-blog
 title: Hello World
-author: 
+author:
   name: crynobone
   url: http://github.com/crynobone
 
