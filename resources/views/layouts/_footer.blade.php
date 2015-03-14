@@ -8,7 +8,7 @@
 					<ul class="list-inline pull-right navigation">
 						<li><a href="{{ handles('orchestra/story::/') }}">Blog</a></li>
 						<li><a href="https://www.facebook.com/groups/orchestraplatform/" target="_blank">Forum</a></li>
-						<li class="docs"><a href="{{ handles('app::docs/3.0') }}">Documentation</a></li>
+						<li class="docs"><a href="{{ handles('app::docs/3.0/') }}">Documentation</a></li>
 						<li class="dload"><a href="#" data-toggle="modal" data-target="#download-modal">Download</a></li>
 					</ul>
 				</div>
