@@ -1144,25 +1144,25 @@
         },
         {
             "name": "orchestra/control",
-            "version": "v3.0.1",
+            "version": "v3.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/control.git",
-                "reference": "8d432c6d468e4180725119684d6c0fc0d63900db"
+                "reference": "0b6e83fff895b3f4030b68929ccdaf6f3ee2a1ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/control/zipball/8d432c6d468e4180725119684d6c0fc0d63900db",
-                "reference": "8d432c6d468e4180725119684d6c0fc0d63900db",
+                "url": "https://api.github.com/repos/orchestral/control/zipball/0b6e83fff895b3f4030b68929ccdaf6f3ee2a1ab",
+                "reference": "0b6e83fff895b3f4030b68929ccdaf6f3ee2a1ab",
                 "shasum": ""
             },
             "require": {
+                "orchestra/contracts": "3.0.*",
                 "php": ">=5.4.0"
             },
             "require-dev": {
-                "mockery/mockery": "0.9.*",
                 "orchestra/foundation": "3.0.*",
-                "orchestra/testing": "3.0.*"
+                "phpspec/phpspec": "~2.1"
             },
             "type": "library",
             "extra": {
@@ -1199,7 +1199,7 @@
                 "theme",
                 "timezone"
             ],
-            "time": "2015-03-10 02:38:10"
+            "time": "2015-03-20 12:15:47"
         },
         {
             "name": "orchestra/extension",
@@ -1519,16 +1519,16 @@
         },
         {
             "name": "orchestra/kernel",
-            "version": "v3.0.3",
+            "version": "v3.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/kernel.git",
-                "reference": "caa5343895458742efd54fc7667df1177f37b70d"
+                "reference": "76225c8cf237bc50472cbd3b7f1cb858840d1295"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/kernel/zipball/caa5343895458742efd54fc7667df1177f37b70d",
-                "reference": "caa5343895458742efd54fc7667df1177f37b70d",
+                "url": "https://api.github.com/repos/orchestral/kernel/zipball/76225c8cf237bc50472cbd3b7f1cb858840d1295",
+                "reference": "76225c8cf237bc50472cbd3b7f1cb858840d1295",
                 "shasum": ""
             },
             "require": {
@@ -1543,8 +1543,12 @@
                 "orchestra/routing": "self.version"
             },
             "require-dev": {
+                "hashids/hashids": "~1.0",
                 "laravel/framework": "5.0.*",
                 "mockery/mockery": "0.9.*"
+            },
+            "suggest": {
+                "hashids/hashids": "Allow to use HashId as a URL id replacement (~1.0)."
             },
             "type": "library",
             "extra": {
@@ -1572,7 +1576,7 @@
                 }
             ],
             "description": "Kernel for Orchestra Platform",
-            "time": "2015-03-01 07:59:46"
+            "time": "2015-03-20 12:41:15"
         },
         {
             "name": "orchestra/memory",
