@@ -15,7 +15,8 @@
 	"require-dev": {
 		"mockery/mockery": "0.9.*",
 		"phpspec/phpspec": "~2.1",
-		"fabpot/php-cs-fixer": "~1.5"
+		"fabpot/php-cs-fixer": "~1.5",
+		"stackie/adminlte-theme": "dev-master"
 	},
 	"autoload": {
 		"classmap": [
