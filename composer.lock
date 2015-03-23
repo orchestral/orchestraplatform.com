@@ -909,16 +909,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v1.1.0",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "ac05ef6f95bf8361549604b6031c115f92f39528"
+                "reference": "edbf162e4cf116102d95eb635608b7d310cc01c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/ac05ef6f95bf8361549604b6031c115f92f39528",
-                "reference": "ac05ef6f95bf8361549604b6031c115f92f39528",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/edbf162e4cf116102d95eb635608b7d310cc01c6",
+                "reference": "edbf162e4cf116102d95eb635608b7d310cc01c6",
                 "shasum": ""
             },
             "require": {
@@ -928,7 +928,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-master": "1.2-dev"
                 }
             },
             "autoload": {
@@ -950,7 +950,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2015-01-18 11:29:59"
+            "time": "2015-03-22 16:17:25"
         },
         {
             "name": "orchestra/asset",
@@ -1325,16 +1325,16 @@
         },
         {
             "name": "orchestra/foundation",
-            "version": "v3.0.6",
+            "version": "v3.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "d960cb5b6625291d421e6802bd3c64b318ee10bb"
+                "reference": "82151e4e8a51c61ff26c5a55a64a8c25eb234f13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/d960cb5b6625291d421e6802bd3c64b318ee10bb",
-                "reference": "d960cb5b6625291d421e6802bd3c64b318ee10bb",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/82151e4e8a51c61ff26c5a55a64a8c25eb234f13",
+                "reference": "82151e4e8a51c61ff26c5a55a64a8c25eb234f13",
                 "shasum": ""
             },
             "require": {
@@ -1397,7 +1397,7 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2015-03-10 03:12:04"
+            "time": "2015-03-22 06:14:35"
         },
         {
             "name": "orchestra/html",
@@ -1938,24 +1938,24 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/story.git",
-                "reference": "7abdea51ba28e0ecb660f3ad2d5abcb8f99f353f"
+                "reference": "fb6c9af741bfcd7ad65740604cb6757d990a6a8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/story/zipball/7abdea51ba28e0ecb660f3ad2d5abcb8f99f353f",
-                "reference": "7abdea51ba28e0ecb660f3ad2d5abcb8f99f353f",
+                "url": "https://api.github.com/repos/orchestral/story/zipball/fb6c9af741bfcd7ad65740604cb6757d990a6a8e",
+                "reference": "fb6c9af741bfcd7ad65740604cb6757d990a6a8e",
                 "shasum": ""
             },
             "require": {
                 "erusev/parsedown": "1.1.*",
                 "erusev/parsedown-extra": "0.2.*",
+                "orchestra/contracts": "3.0.*",
                 "orchestra/facile": "3.0.*",
-                "orchestra/foundation": "3.0.*",
                 "php": ">=5.4.0"
             },
             "require-dev": {
-                "mockery/mockery": "0.9.*",
-                "orchestra/testing": "3.0.*"
+                "orchestra/foundation": "3.0.*",
+                "phpspec/phpspec": "~2.1"
             },
             "type": "library",
             "extra": {
@@ -1989,7 +1989,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2015-03-10 14:18:38"
+            "time": "2015-03-22 04:14:04"
         },
         {
             "name": "orchestra/support",
@@ -3323,16 +3323,16 @@
         },
         {
             "name": "fabpot/php-cs-fixer",
-            "version": "v1.5.1",
+            "version": "v1.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfPHP/PHP-CS-Fixer.git",
-                "reference": "85777ebc6a1dac48c904acf9412b29b58b5dd592"
+                "reference": "1dff3bb23fef67d62e266249cd3203b0aa025a7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfPHP/PHP-CS-Fixer/zipball/85777ebc6a1dac48c904acf9412b29b58b5dd592",
-                "reference": "85777ebc6a1dac48c904acf9412b29b58b5dd592",
+                "url": "https://api.github.com/repos/FriendsOfPHP/PHP-CS-Fixer/zipball/1dff3bb23fef67d62e266249cd3203b0aa025a7e",
+                "reference": "1dff3bb23fef67d62e266249cd3203b0aa025a7e",
                 "shasum": ""
             },
             "require": {
@@ -3372,7 +3372,7 @@
                 }
             ],
             "description": "A script to automatically fix Symfony Coding Standard",
-            "time": "2015-03-13 19:33:24"
+            "time": "2015-03-22 12:52:15"
         },
         {
             "name": "mockery/mockery",
@@ -3880,12 +3880,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/stackie/adminlte-theme.git",
-                "reference": "389ec08b5b55e52703a48c953c0077622efc0cf4"
+                "reference": "b8817d0c5806ce196603ad181392f3b28184a4f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stackie/adminlte-theme/zipball/389ec08b5b55e52703a48c953c0077622efc0cf4",
-                "reference": "389ec08b5b55e52703a48c953c0077622efc0cf4",
+                "url": "https://api.github.com/repos/stackie/adminlte-theme/zipball/b8817d0c5806ce196603ad181392f3b28184a4f7",
+                "reference": "b8817d0c5806ce196603ad181392f3b28184a4f7",
                 "shasum": ""
             },
             "require": {
@@ -3912,7 +3912,7 @@
                 }
             ],
             "description": "AdminLTE Theme for Orchestra Platform",
-            "time": "2015-03-21 04:05:08"
+            "time": "2015-03-22 05:57:16"
         },
         {
             "name": "symfony/stopwatch",

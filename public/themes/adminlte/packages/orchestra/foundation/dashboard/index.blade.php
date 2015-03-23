@@ -3,22 +3,19 @@
 @section('content')
 <div class="row">
 	@if (count($panes) > 0)
-
-	<?php $panes->add('mini-profile', '<')->title('Mini Profile')
-		->attributes(['class' => 'three columns widget'])
-		->content(view('orchestra/foundation::components.miniprofile')); ?>
-
 	@foreach ($panes as $id => $pane)
-		<?php $attributes = app('html')->decorate($pane->attributes, ['class' => 'panel']); ?>
+		<?php $attributes = app('html')->decorate($pane->attributes); ?>
 		<div{!! app('html')->attributes($attributes) !!}>
-		@if (! empty($pane->html))
-		{!! $pane->html !!}
-		@else
-		<div class="panel-heading">
-			{!! $pane->title !!}
-		</div>
-		{!! $pane->content !!}
-		@endif
+			@if (! empty($pane->html))
+			{!! $pane->html !!}
+			@else
+			<div class="box box-default">
+				<div class="box-header with-border">
+					<h3 class="box-title">{!! $pane->title !!}</h3>
+				</div>
+				{!! $pane->content !!}
+				@endif
+			</div>
 		</div>
 	@endforeach
 	@else
