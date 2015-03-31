@@ -1326,16 +1326,16 @@
         },
         {
             "name": "orchestra/foundation",
-            "version": "v3.0.7",
+            "version": "v3.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "82151e4e8a51c61ff26c5a55a64a8c25eb234f13"
+                "reference": "f26cbb93f9f4a75e2573d729c06279466d2b9302"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/82151e4e8a51c61ff26c5a55a64a8c25eb234f13",
-                "reference": "82151e4e8a51c61ff26c5a55a64a8c25eb234f13",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/f26cbb93f9f4a75e2573d729c06279466d2b9302",
+                "reference": "f26cbb93f9f4a75e2573d729c06279466d2b9302",
                 "shasum": ""
             },
             "require": {
@@ -1398,7 +1398,7 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2015-03-22 06:14:35"
+            "time": "2015-03-31 14:40:30"
         },
         {
             "name": "orchestra/html",
@@ -1581,16 +1581,16 @@
         },
         {
             "name": "orchestra/memory",
-            "version": "v3.0.4",
+            "version": "v3.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/memory.git",
-                "reference": "1f293f48ba27159deed3bcd23e1adfd3751d5fa0"
+                "reference": "ffa0709e26bb0048fcfe9a1669aa8468dde27dc6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/memory/zipball/1f293f48ba27159deed3bcd23e1adfd3751d5fa0",
-                "reference": "1f293f48ba27159deed3bcd23e1adfd3751d5fa0",
+                "url": "https://api.github.com/repos/orchestral/memory/zipball/ffa0709e26bb0048fcfe9a1669aa8468dde27dc6",
+                "reference": "ffa0709e26bb0048fcfe9a1669aa8468dde27dc6",
                 "shasum": ""
             },
             "require": {
@@ -1640,7 +1640,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2015-03-18 10:30:24"
+            "time": "2015-03-31 14:37:05"
         },
         {
             "name": "orchestra/messages",
