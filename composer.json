@@ -4,7 +4,7 @@
 	"license": "proprietary",
 	"type": "project",
 	"require": {
-		"orchestra/foundation": "^3.0.10",
+		"orchestra/foundation": "^3.0.11",
 		"orchestra/avatar": "~3.0",
 		"orchestra/installer": "~3.0",
 		"orchestra/control": "~3.0",

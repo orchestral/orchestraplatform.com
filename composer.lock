@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9471289a537ea8f8337cc7062fa6abfa",
+    "hash": "69f5b778d5cd1879ed96261adbfda300",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -1326,16 +1326,16 @@
         },
         {
             "name": "orchestra/foundation",
-            "version": "v3.0.10",
+            "version": "v3.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "e2a503f8e09a5829d70b53947d9796d90bf3c1df"
+                "reference": "85f7c7c2abcdc53179e0902ab0605af7d82ab640"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/e2a503f8e09a5829d70b53947d9796d90bf3c1df",
-                "reference": "e2a503f8e09a5829d70b53947d9796d90bf3c1df",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/85f7c7c2abcdc53179e0902ab0605af7d82ab640",
+                "reference": "85f7c7c2abcdc53179e0902ab0605af7d82ab640",
                 "shasum": ""
             },
             "require": {
@@ -1398,7 +1398,7 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2015-04-14 03:12:17"
+            "time": "2015-04-15 05:16:22"
         },
         {
             "name": "orchestra/html",
@@ -1765,16 +1765,16 @@
         },
         {
             "name": "orchestra/notifier",
-            "version": "v3.0.0",
+            "version": "v3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/notifier.git",
-                "reference": "6fe33ecee922a139d219819724b5cb072c181f35"
+                "reference": "85c9f51d650934910a1eee96adecd28b24993b3e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/notifier/zipball/6fe33ecee922a139d219819724b5cb072c181f35",
-                "reference": "6fe33ecee922a139d219819724b5cb072c181f35",
+                "url": "https://api.github.com/repos/orchestral/notifier/zipball/85c9f51d650934910a1eee96adecd28b24993b3e",
+                "reference": "85c9f51d650934910a1eee96adecd28b24993b3e",
                 "shasum": ""
             },
             "require": {
@@ -1782,6 +1782,7 @@
                 "php": ">=5.4.0"
             },
             "require-dev": {
+                "aws/aws-sdk-php": "~2.4",
                 "illuminate/mail": "5.0.*",
                 "jeremeamia/superclosure": "2.0.*",
                 "mockery/mockery": "0.9.*"
@@ -1815,7 +1816,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2015-02-06 01:14:51"
+            "time": "2015-04-15 02:37:50"
         },
         {
             "name": "orchestra/optimize",
@@ -3990,12 +3991,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/stackie/adminlte-theme.git",
-                "reference": "c77c05f8a35d9226e3a09728ce9c3d8c747352c2"
+                "reference": "65ea2337286c324399061a6ff3ce5ca57d3ab790"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stackie/adminlte-theme/zipball/c77c05f8a35d9226e3a09728ce9c3d8c747352c2",
-                "reference": "c77c05f8a35d9226e3a09728ce9c3d8c747352c2",
+                "url": "https://api.github.com/repos/stackie/adminlte-theme/zipball/65ea2337286c324399061a6ff3ce5ca57d3ab790",
+                "reference": "65ea2337286c324399061a6ff3ce5ca57d3ab790",
                 "shasum": ""
             },
             "require": {
@@ -4022,7 +4023,7 @@
                 }
             ],
             "description": "AdminLTE Theme for Orchestra Platform",
-            "time": "2015-03-31 23:50:46"
+            "time": "2015-04-15 07:18:50"
         },
         {
             "name": "symfony/stopwatch",
