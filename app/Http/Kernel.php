@@ -27,6 +27,8 @@ class Kernel extends HttpKernel
         'auth'       => 'App\Http\Middleware\Authenticate',
         'auth.basic' => 'Illuminate\Auth\Middleware\AuthenticateWithBasicAuth',
         'backend'    => 'Orchestra\Foundation\Middleware\UseBackendTheme',
+        'can'        => 'Orchestra\Foundation\Http\Middleware\Can',
         'guest'      => 'App\Http\Middleware\RedirectIfAuthenticated',
+        'manage'     => 'Orchestra\Foundation\Http\Middleware\CanManage',
     ];
 }

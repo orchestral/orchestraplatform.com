@@ -19,16 +19,16 @@ class WelcomeController extends Controller
     /**
      * Show the application welcome screen to the user.
      *
-     * @return Response
+     * @return mixed
      */
     public function index()
     {
-        $name               = app('orchestra.app')->installed() ? 'welcome' : 'hello';
-        $data['packages']   = $packages   = new Collection(config('website.packages', []));
-        $data['components'] = $packages->filter(function ($package) {
+        $name       = app('orchestra.app')->installed() ? 'welcome' : 'hello';
+        $packages   = new Collection(config('website.packages', []));
+        $components = $packages->filter(function ($package) {
             return (in_array('component', $package['type']));
         });
 
-        return view($name, $data);
+        return view($name, compact('packages', 'components'));
     }
 }

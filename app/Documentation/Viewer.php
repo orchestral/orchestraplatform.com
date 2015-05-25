@@ -97,7 +97,7 @@ class Viewer extends Processor
     public function parseContent($content, $version)
     {
         $replacement = [
-            'doc-url' => handles("app::docs")."/{$version}",
+            'doc-url' => handles('app::docs')."/{$version}",
         ];
 
         return Str::replace($content, $replacement);

@@ -9,5 +9,8 @@ if [ -f storage/framework/compiled.php ]; then
     echo ">>> Remove compiled.php"
 fi
 
-cat ./build/provision/.env > .env
+if [ ! -f .env ]; then
+    cat ./resources/provision/.env.vagrant > .env
+fi
+
 composer install --prefer-dist --dev

@@ -4,11 +4,11 @@
 	"license": "proprietary",
 	"type": "project",
 	"require": {
-		"orchestra/foundation": "^3.0.11",
-		"orchestra/avatar": "~3.0",
-		"orchestra/installer": "~3.0",
-		"orchestra/control": "~3.0",
-		"orchestra/story": "~3.0",
+		"orchestra/foundation": "3.1.*",
+		"orchestra/avatar": "~3.1",
+		"orchestra/installer": "~3.1",
+		"orchestra/control": "~3.1",
+		"orchestra/story": "~3.1",
 		"daylerees/kurenai": "~1.1",
 		"pda/pheanstalk": "~3.0"
 	},
@@ -16,7 +16,7 @@
 		"mockery/mockery": "0.9.*",
 		"phpspec/phpspec": "~2.1",
 		"fabpot/php-cs-fixer": "~1.5",
-		"stackie/adminlte-theme": "dev-master"
+		"stackie/adminlte-theme": "~0.1"
 	},
 	"autoload": {
 		"classmap": [
@@ -43,5 +43,7 @@
 	},
 	"config": {
 		"preferred-install": "dist"
-	}
+	},
+	"prefer-stable": true,
+	"minimum-stability": "dev"
 }

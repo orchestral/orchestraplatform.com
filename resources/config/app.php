@@ -94,7 +94,7 @@ return [
     | Available Settings: "single", "daily", "syslog", "errorlog"
     |
     */
-    'log' => 'daily',
+    'log' => 'single',
 
     /*
     |--------------------------------------------------------------------------
@@ -111,6 +111,7 @@ return [
         /*
          * Laravel Framework Service Providers...
          */
+        'Illuminate\Broadcasting\BroadcastServiceProvider',
         'Illuminate\Bus\BusServiceProvider',
         'Illuminate\Cache\CacheServiceProvider',
         'Illuminate\Cookie\CookieServiceProvider',
@@ -150,7 +151,6 @@ return [
         'Orchestra\Widget\WidgetServiceProvider',
 
         'Orchestra\Foundation\Providers\ConsoleSupportServiceProvider',
-        'Orchestra\Foundation\Providers\FilterServiceProvider',
         'Orchestra\Foundation\Providers\FoundationServiceProvider',
 
         /*
@@ -163,8 +163,6 @@ return [
          * Application Service Providers...
          */
         'App\Providers\AppServiceProvider',
-        'App\Providers\BusServiceProvider',
-        'App\Providers\ConfigServiceProvider',
         'App\Providers\DocumentationServiceProvider',
         'App\Providers\EventServiceProvider',
         'App\Providers\ExtensionServiceProvider',
