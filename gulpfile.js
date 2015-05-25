@@ -20,13 +20,15 @@ var dir = {
 };
 
 elixir(function(mix) {
-  mix.sass(['app.scss', 'errors.scss'], dir.web+'/css');
+  mix.sass(['app.scss', 'errors.scss'], dir.web+'/css', {
+    includePaths: [dir.vendor+'/']
+  });
 
   mix.coffee('app.coffee', dir.web+'/js');
 
   mix.copy(dir.vendor+'/jquery/dist/jquery.min.js', dir.web+'/js/vendor/jquery.min.js')
     .copy(dir.vendor+'/jquery/dist/jquery.min.map', dir.web+'/js/vendor/jquery.min.map')
-    .copy(dir.vendor+'/bootstrap-sass-official/assets/javascripts/bootstrap.js', dir.web+'/js/vendor/bootstrap.js')
+    .copy(dir.vendor+'/bootstrap-sass/assets/javascripts/bootstrap.js', dir.web+'/js/vendor/bootstrap.js')
     .copy(dir.vendor+'/font-awesome/fonts', dir.web+'/fonts')
     .copy(dir.html+'/fonts', dir.web+'/fonts')
     .copy(dir.html+'/img', dir.web+'/img')

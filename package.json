@@ -6,7 +6,7 @@
     "gulp-less": "^1.3.6 ",
     "gulp-uglify": "~0.3.1",
     "gulp-util": "^3.0.1",
-    "laravel-elixir": "*"
+    "laravel-elixir": "^1.0.0"
   },
   "private": true
 }
