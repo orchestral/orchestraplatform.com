@@ -1,12 +1,19 @@
 <?php namespace App\Documentation;
 
-use Kurenai\DocumentParser;
 use Illuminate\Filesystem\Filesystem;
+use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Contracts\Cache\Repository as Cache;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 class FileLoader
 {
+    /**
+     * The Application implementation.
+     *
+     * @var \Illuminate\Contracts\Foundation\Application
+     */
+    protected $app;
+
     /**
      * The cache repository implementation.
      *
@@ -22,22 +29,17 @@ class FileLoader
     protected $files;
 
     /**
-     * The markdown parser.
+     * Construct a new File loader.
      *
-     * @var \Kurenai\DocumentParser
-     */
-    protected $parser;
-
-    /**
+     * @param  \Illuminate\Contracts\Foundation\Application  $app
      * @param  \Illuminate\Contracts\Cache\Repository  $cache
      * @param  \Illuminate\Filesystem\Filesystem  $files
-     * @param  \Kurenai\DocumentParser  $parser
      */
-    public function __construct(Cache $cache, Filesystem $files, DocumentParser $parser)
+    public function __construct(Application $app, Cache $cache, Filesystem $files)
     {
-        $this->cache  = $cache;
-        $this->files  = $files;
-        $this->parser = $parser;
+        $this->app   = $app;
+        $this->cache = $cache;
+        $this->files = $files;
     }
 
     /**
@@ -74,13 +76,9 @@ class FileLoader
      */
     protected function getTableOfContent($toc)
     {
-        $parser = $this->parser;
+        $content = $this->loadContent($toc);
 
-        return $this->cache->rememberForever("doc.{$toc}.html", function () use ($parser, $toc) {
-            $content = $this->loadContent($toc);
-
-            return $parser->parse($content);
-        });
+        return $this->getParser()->parse($content);
     }
 
     /**
@@ -94,7 +92,7 @@ class FileLoader
     {
         $content = $this->loadContent($document);
 
-        return $this->parser->parse($content);
+        return $this->getParser()->parse($content);
     }
 
     /**
@@ -125,5 +123,15 @@ class FileLoader
         if (! $this->files->exists($file)) {
             throw new NotFoundHttpException();
         }
+    }
+
+    /**
+     * Get markdown document parser.
+     * 
+     * @return \Kurenai\DocumentParser
+     */
+    protected function getParser()
+    {
+        return $this->app->make('Kurenai\DocumentParser');
     }
 }
