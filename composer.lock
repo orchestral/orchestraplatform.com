@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6f13fb0f7c5f00990a5751e2ff334b55",
+    "hash": "3e2402ccbefae0efe2ab889f2fc726e9",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -121,50 +121,6 @@
                 "utils"
             ],
             "time": "2015-02-10 06:19:18"
-        },
-        {
-            "name": "daylerees/kurenai",
-            "version": "1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/daylerees/kurenai.git",
-                "reference": "581f64394874df527c2dabf80b8b0890a2a39584"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/daylerees/kurenai/zipball/581f64394874df527c2dabf80b8b0890a2a39584",
-                "reference": "581f64394874df527c2dabf80b8b0890a2a39584",
-                "shasum": ""
-            },
-            "require": {
-                "erusev/parsedown-extra": "0.2.*"
-            },
-            "require-dev": {
-                "dflydev/markdown": "1.0.*",
-                "phpunit/phpunit": "4.*"
-            },
-            "suggest": {
-                "dflydev/markdown": "Parsing markdown using dflydev/markdown"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Kurenai": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Markdown document parser with metadata.",
-            "keywords": [
-                "daylerees",
-                "document",
-                "kurenai",
-                "markdown",
-                "metadata"
-            ],
-            "time": "2014-11-07 00:30:07"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -307,20 +263,20 @@
         },
         {
             "name": "erusev/parsedown-extra",
-            "version": "0.2.6",
+            "version": "0.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/erusev/parsedown-extra.git",
-                "reference": "77f604b65b08550f229c2e79c0427c84c0c0979e"
+                "reference": "11a44e076d02ffcc4021713398a60cd73f78b6f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/erusev/parsedown-extra/zipball/77f604b65b08550f229c2e79c0427c84c0c0979e",
-                "reference": "77f604b65b08550f229c2e79c0427c84c0c0979e",
+                "url": "https://api.github.com/repos/erusev/parsedown-extra/zipball/11a44e076d02ffcc4021713398a60cd73f78b6f5",
+                "reference": "11a44e076d02ffcc4021713398a60cd73f78b6f5",
                 "shasum": ""
             },
             "require": {
-                "erusev/parsedown": "~1.1"
+                "erusev/parsedown": "~1.4"
             },
             "type": "library",
             "autoload": {
@@ -347,55 +303,7 @@
                 "parsedown",
                 "parser"
             ],
-            "time": "2014-11-20 20:21:03"
-        },
-        {
-            "name": "fzaninotto/faker",
-            "version": "v1.4.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "010c7efedd88bf31141a02719f51fb44c732d5a0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/010c7efedd88bf31141a02719f51fb44c732d5a0",
-                "reference": "010c7efedd88bf31141a02719f51fb44c732d5a0",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.3"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~4.0",
-                "squizlabs/php_codesniffer": "~1.5"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": []
-            },
-            "autoload": {
-                "psr-0": {
-                    "Faker": "src/",
-                    "Faker\\PHPUnit": "test/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "François Zaninotto"
-                }
-            ],
-            "description": "Faker is a PHP library that generates fake data for you.",
-            "keywords": [
-                "data",
-                "faker",
-                "fixtures"
-            ],
-            "time": "2014-06-04 14:43:02"
+            "time": "2015-01-25 14:52:34"
         },
         {
             "name": "ircmaxell/password-compat",
@@ -589,12 +497,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "4063a08a713d57be062fa4381d52e565bfc0dc28"
+                "reference": "a74cf7c953f26bb70d13946105c1a7bb2beeb68f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/4063a08a713d57be062fa4381d52e565bfc0dc28",
-                "reference": "4063a08a713d57be062fa4381d52e565bfc0dc28",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/a74cf7c953f26bb70d13946105c1a7bb2beeb68f",
+                "reference": "a74cf7c953f26bb70d13946105c1a7bb2beeb68f",
                 "shasum": ""
             },
             "require": {
@@ -604,7 +512,6 @@
                 "ext-mbstring": "*",
                 "ext-mcrypt": "*",
                 "ext-openssl": "*",
-                "fzaninotto/faker": "~1.4",
                 "ircmaxell/password-compat": "~1.0",
                 "jeremeamia/superclosure": "~2.0",
                 "league/flysystem": "~1.0",
@@ -670,6 +577,7 @@
             "suggest": {
                 "aws/aws-sdk-php": "Required to use the SQS queue driver and SES mail driver (~2.4).",
                 "doctrine/dbal": "Required to rename columns and drop SQLite columns (~2.4).",
+                "fzaninotto/faker": "Required to use the eloquent factory builder (~1.4).",
                 "guzzlehttp/guzzle": "Required to use the Mailgun and Mandrill mail drivers (~5.0).",
                 "iron-io/iron_mq": "Required to use the iron queue driver (~2.0).",
                 "league/flysystem-aws-s3-v2": "Required to use the Flysystem S3 driver (~1.0).",
@@ -712,7 +620,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2015-05-24 18:22:16"
+            "time": "2015-05-25 20:31:06"
         },
         {
             "name": "league/flysystem",
@@ -1637,6 +1545,67 @@
             ],
             "description": "Kernel for Orchestra Platform",
             "time": "2015-05-13 15:15:01"
+        },
+        {
+            "name": "orchestra/kurenai",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/orchestral/kurenai.git",
+                "reference": "bbfe0b65272cc9629cf4b72e6a8b03bb57b2e1cd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/orchestral/kurenai/zipball/bbfe0b65272cc9629cf4b72e6a8b03bb57b2e1cd",
+                "reference": "bbfe0b65272cc9629cf4b72e6a8b03bb57b2e1cd",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "erusev/parsedown-extra": "~0.5",
+                "mockery/mockery": "0.9.*"
+            },
+            "suggest": {
+                "erusev/parsedown": "Parsing markdown using erusev/parsedown (~1.5).",
+                "erusev/parsedown-extra": "Parsing markdown using erusev/parsedown-extra (~0.5)."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Kurenai\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mior Muhammad Zaki",
+                    "email": "crynobone@gmail.com",
+                    "homepage": "https://github.com/crynobone"
+                },
+                {
+                    "name": "Dayle Rees",
+                    "email": "theppunkfan@gmail.com",
+                    "homepage": "https://github.com/daylerees"
+                }
+            ],
+            "description": "Markdown document parser with metadata.",
+            "keywords": [
+                "document",
+                "kurenai",
+                "markdown",
+                "metadata"
+            ],
+            "time": "2015-05-25 23:47:16"
         },
         {
             "name": "orchestra/memory",
@@ -3538,6 +3507,54 @@
             ],
             "description": "A tool to automatically fix PHP code style",
             "time": "2015-05-04 17:06:20"
+        },
+        {
+            "name": "fzaninotto/faker",
+            "version": "v1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fzaninotto/Faker.git",
+                "reference": "010c7efedd88bf31141a02719f51fb44c732d5a0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/010c7efedd88bf31141a02719f51fb44c732d5a0",
+                "reference": "010c7efedd88bf31141a02719f51fb44c732d5a0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "~1.5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": []
+            },
+            "autoload": {
+                "psr-0": {
+                    "Faker": "src/",
+                    "Faker\\PHPUnit": "test/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "François Zaninotto"
+                }
+            ],
+            "description": "Faker is a PHP library that generates fake data for you.",
+            "keywords": [
+                "data",
+                "faker",
+                "fixtures"
+            ],
+            "time": "2014-06-04 14:43:02"
         },
         {
             "name": "hamcrest/hamcrest-php",

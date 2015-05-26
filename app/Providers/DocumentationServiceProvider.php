@@ -2,8 +2,8 @@
 
 use Kurenai\Document;
 use Kurenai\DocumentParser;
+use Kurenai\Parser\ParsedownExtra;
 use Illuminate\Support\ServiceProvider;
-use Kurenai\Parser\ParsedownMarkdownExtra;
 use Orchestra\Support\Providers\Traits\AliasesProviderTrait;
 
 class DocumentationServiceProvider extends ServiceProvider
@@ -27,9 +27,7 @@ class DocumentationServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->bindShared('doc.parser', function () {
-            return new DocumentParser(function () {
-                return new Document(new ParsedownMarkdownExtra());
-            });
+            return new DocumentParser(new Document(new ParsedownExtra()));
         });
 
         $this->registerCoreContainerAliases();
