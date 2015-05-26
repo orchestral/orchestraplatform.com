@@ -26,7 +26,7 @@ class DocumentationServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bindShared('doc.parser', function () {
+        $this->app->singleton('doc.parser', function () {
             return new DocumentParser(new Document(new ParsedownExtra()));
         });
 

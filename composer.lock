@@ -1852,12 +1852,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/optimize.git",
-                "reference": "055ddc2533623840edf8d9ed5aff8f5021140a30"
+                "reference": "f5c09599432f6fb4fc96fc5e5cf3b6e1c52ead03"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/optimize/zipball/055ddc2533623840edf8d9ed5aff8f5021140a30",
-                "reference": "055ddc2533623840edf8d9ed5aff8f5021140a30",
+                "url": "https://api.github.com/repos/orchestral/optimize/zipball/f5c09599432f6fb4fc96fc5e5cf3b6e1c52ead03",
+                "reference": "f5c09599432f6fb4fc96fc5e5cf3b6e1c52ead03",
                 "shasum": ""
             },
             "require": {
@@ -1897,7 +1897,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2015-05-24 12:13:18"
+            "time": "2015-05-26 00:04:36"
         },
         {
             "name": "orchestra/publisher",
@@ -3507,54 +3507,6 @@
             ],
             "description": "A tool to automatically fix PHP code style",
             "time": "2015-05-04 17:06:20"
-        },
-        {
-            "name": "fzaninotto/faker",
-            "version": "v1.4.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "010c7efedd88bf31141a02719f51fb44c732d5a0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/010c7efedd88bf31141a02719f51fb44c732d5a0",
-                "reference": "010c7efedd88bf31141a02719f51fb44c732d5a0",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.3"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~4.0",
-                "squizlabs/php_codesniffer": "~1.5"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": []
-            },
-            "autoload": {
-                "psr-0": {
-                    "Faker": "src/",
-                    "Faker\\PHPUnit": "test/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "François Zaninotto"
-                }
-            ],
-            "description": "Faker is a PHP library that generates fake data for you.",
-            "keywords": [
-                "data",
-                "faker",
-                "fixtures"
-            ],
-            "time": "2014-06-04 14:43:02"
         },
         {
             "name": "hamcrest/hamcrest-php",
