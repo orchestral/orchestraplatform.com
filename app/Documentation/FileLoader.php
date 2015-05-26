@@ -127,7 +127,7 @@ class FileLoader
 
     /**
      * Get markdown document parser.
-     * 
+     *
      * @return \Kurenai\DocumentParser
      */
     protected function getParser()
