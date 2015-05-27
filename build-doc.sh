@@ -1,6 +1,6 @@
 #!/bin/sh
 
-VERSIONS=("2.0" "2.1" "2.2" "3.0");
+VERSIONS=("2.0" "2.1" "2.2" "3.0" "3.1");
 
 cd docs;
 
@@ -13,8 +13,9 @@ do
 done
 
 # Update master branch
-cd 3.1;
-git checkout master;
+# cd 3.1;
+# git checkout master;
+# cd ../;
 
-cd ../..;
+cd ../;
 git submodule foreach git pull;
