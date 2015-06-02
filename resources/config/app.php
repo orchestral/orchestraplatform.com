@@ -152,6 +152,7 @@ return [
 
         'Orchestra\Foundation\Providers\ConsoleSupportServiceProvider',
         'Orchestra\Foundation\Providers\FoundationServiceProvider',
+        'Orchestra\Foundation\Providers\RouteServiceProvider',
 
         /*
          * Orchestra Platform Additional Service Providers...

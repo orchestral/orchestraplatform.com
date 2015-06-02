@@ -9,13 +9,12 @@
 		"orchestra/installer": "~3.1",
 		"orchestra/control": "~3.1",
 		"orchestra/story": "~3.1",
-		"orchestra/kurenai": "~1.0",
+		"orchestra/kurenai": "~0.1",
 		"pda/pheanstalk": "~3.0"
 	},
 	"require-dev": {
-		"mockery/mockery": "0.9.*",
 		"phpspec/phpspec": "~2.1",
-		"fabpot/php-cs-fixer": "~1.5",
+		"orchestra/studio": "~3.1",
 		"stackie/adminlte-theme": "~0.1"
 	},
 	"autoload": {
@@ -29,13 +28,16 @@
 	"scripts": {
 		"post-install-cmd": [
 			"php artisan clear-compiled",
-			"php artisan publish:assets orchestra/foundation",
-			"php artisan orchestra:optimize"
+			"php artisan orchestra:assemble"
+		],
+		"pre-update-cmd": [
+			"php artisan clear-compiled"
 		],
 		"post-update-cmd": [
-			"php artisan clear-compiled",
-			"php artisan publish:assets orchestra/foundation",
-			"php artisan orchestra:optimize"
+			"php artisan orchestra:assemble"
+		],
+		"post-root-package-install": [
+			"php -r \"copy('.env.example', '.env');\""
 		],
 		"post-create-project-cmd": [
 			"php artisan key:generate"

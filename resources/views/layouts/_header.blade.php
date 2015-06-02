@@ -7,7 +7,7 @@
 	<meta name="description" content="Orchestra Platform">
 	<meta name="author" content="Orchestra Platform Development Team">
 
-	{!! HTML::title() !!}
+	@title()
 
 	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
 	<link href="{{ elixir('resources/css/all.css') }}" rel="stylesheet">
