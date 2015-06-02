@@ -18,7 +18,7 @@
 				<div class="col-md-1"></div>
 				<div class="post col-md-11">
 					<div class="page-header">
-						<h1><a href="{!! $page->link !!}">{!! $page->title !!}</a></h1>
+						<h1 class="title"><a href="{!! $page->link !!}">{!! $page->title !!}</a></h1>
 					</div>
 					<div class="content">
 						{!! $page->body !!}

@@ -6,6 +6,10 @@ body {
     color: $text-color;
 }
 
+p {
+    line-height: 26px;
+}
+
 h1, h2, h3, .h1, .h2, .h3 {
     margin-top: 20px;
     margin-bottom: 10px;
