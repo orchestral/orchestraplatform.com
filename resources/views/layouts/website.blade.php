@@ -1,5 +1,5 @@
 @include('layouts._header')
-@include('layouts._navigation')
+@include('layouts._navbar')
 
 @yield('content')
 

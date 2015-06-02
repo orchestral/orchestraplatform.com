@@ -9,12 +9,13 @@
 
 	@title()
 
-	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
-	<link href="{{ elixir('resources/css/all.css') }}" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700|Source+Sans+Pro:400,600' rel='stylesheet' type='text/css'>
+	<script src="{{ elixir('js/all.js') }}"></script>
+	<link href="{{ elixir('css/all.css') }}" rel="stylesheet">
 	<!--[if lt IE 9]>
 	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
 </head>
 </html>
-<body>
+<body{!! HTML::attributes(get_meta('html::body.attributes', [])) !!}>

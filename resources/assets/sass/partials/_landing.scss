@@ -1,0 +1,142 @@
+#landing {
+    nav[role="navigation"] {
+        @media (min-width: $screen-md-min) {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+
+            .navbar-brand {
+                color: $white;
+            }
+        }
+    }
+
+    section {
+        &#hero {
+            @include featured-bg();
+            padding: 180px 0 0;
+
+            h1 {
+                color: white;
+                font-size: 28px;
+                font-weight: 300;
+                line-height: 1.35;
+                color: #fff;
+
+                span {
+                    font-weight: 700;
+                }
+            }
+        }
+
+        &#features {
+            .item {
+                margin: 0 0 55px;
+                padding: 0 30px;
+
+                .media-object {
+                    margin-right: 35px;
+                    width: 40px;
+                }
+
+                h3 {
+                    font-size: 13px;
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
+                    color: #222;
+                    font-weight: 600;
+                }
+
+                p {
+                    font-size: 14px;
+                    color: #555;
+                    font-weight: 300;
+                }
+            }
+        }
+
+        &#packages {
+            background-color: #eee;
+
+            ul.package-list {
+                box-sizing: border-box;
+
+                li {
+                    display: -webkit-inline-flex;
+                    display: -ms-inline-flexbox;
+                    display: inline-flex;
+                    padding: 5px;
+                    box-sizing: border-box;
+
+                    @media (max-width: $screen-xs-min) {
+                        width: 100%;
+                    }
+
+                    @media (min-width: $screen-xs-min) {
+                        width: 19.5%;
+                    }
+
+                    .item {
+                        background: #fff;
+                        margin: 0 auto;
+                        padding: 25px;
+                        height: 200px;
+                        box-shadow: rgba(0, 0, 0, 0.1) 0 0 3px 0;
+
+                        h4 {
+                            font-size: 13px;
+                            text-transform: uppercase;
+                            letter-spacing: 1px;
+                            color: #222;
+                            font-weight: 600;
+                        }
+
+                        hr {
+                            @include hr(2px);
+                            margin: 15px auto 15px 0;
+                        }
+
+                        p {
+                            font-size: 12px;
+                            color: #999;
+                            font-weight: 300;
+                            letter-spacing: 0.3px;
+                            line-height: 1.4;
+                            max-height: 115px;
+                        }
+                    }
+                }
+            }
+        }
+
+        &#social {
+            .social-list {
+                li {
+                    margin: 0 10px;
+
+                    a {
+                        display: block;
+                        text-transform: uppercase;
+                        font-size: 11px;
+                        letter-spacing: 1px;
+                        font-weight: 600;
+                    }
+
+                    img {
+                        margin-bottom: 15px;
+                    }
+
+                    &.github a { color: #171717; }
+                }
+            }
+        }
+
+        pre {
+            border: none;
+            background-color: transparent;
+            padding: 50px 0px;
+            font-size: 19px;
+        }
+    }
+}

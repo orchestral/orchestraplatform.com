@@ -1,0 +1,6 @@
+{
+  "sourcemaps": false,
+  "babel": {
+    "enabled": false
+  }
+}

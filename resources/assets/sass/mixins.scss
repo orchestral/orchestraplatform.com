@@ -1,7 +1,18 @@
 @mixin featured-bg {
-    background: #202020 url(/resources/img/bg-featured.jpg) no-repeat;
+    background: #202020 url('#{$img-path}/bg-featured.jpg') no-repeat;
     background-size: 100%;
     background-position: 100% 0%;
+}
+
+@mixin code {
+    background: #e2f1ff;
+    color: rgba(0, 0, 0, 0.7);
+    color: #2095ff;
+}
+
+@mixin hr($px) {
+    border-top: #222 solid $px;
+    width: 80px;
 }
 
 @mixin block-code {
@@ -9,7 +20,9 @@
     border:none;
     border-radius: 3px;
     padding: 20px;
-    margin:10px 0 20px;
+    margin: 10px 0 20px;
+    font-size: 13px;
+    line-height: 1.42857;
 
     code {
         background: transparent;

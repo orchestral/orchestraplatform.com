@@ -2,11 +2,11 @@
 	<div class="container">
 		<div class="col-md-8 col-md-offset-2">
 			<h1><span>Orchestra Platform</span> provide all the boilerplate for your application, so you can create awesomeness.</h1>
-			<div>
-				<a class="btn btn-dload" data-toggle="modal" data-target="#download-modal">Download</a>
-				<a href="{{ handles('app::docs/latest') }}" class="btn btn-docs">Documentation</a>
-			</div>
+			<pre><code>composer create-project orchestra/platform website '3.0.x'</code></pre>
 		</div>
 	</div>
-	<img src="{{ asset('resources/img/chrome@2x.png') }}" width="956">
+
+	<div class="hidden-xs">
+		<img src="{{ asset('resources/img/chrome@2x.png') }}" width="956">
+	</div>
 </section>

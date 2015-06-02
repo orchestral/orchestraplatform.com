@@ -1,0 +1,156 @@
+#documentation {
+    background: #fff;
+    padding: 0;
+
+    section.body {
+        padding: 0;
+    }
+
+    ul {
+        padding-left: 15px;
+    }
+
+    .page-sidebar, .page-content {
+        padding-top: 20px;
+        padding-bottom: 80px;
+    }
+
+    .page-sidebar {
+        h3 {
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #222;
+            font-weight: 600;
+            position: relative;
+            margin-bottom: 20px;
+
+            &:after {
+                content: '';
+                @include hr(2px);
+                margin: 15px auto 15px 0;
+                position: absolute;
+                top: 5px;
+                left: 0;
+            }
+        }
+
+        ul {
+            &:nth-child(4), &:nth-child(6) {
+                list-style: square;
+                margin-left: 16px;
+
+                li {
+                    margin: 0;
+
+                    ul {
+                        list-style: disc;
+                        margin-bottom: 3px;
+                    }
+                }
+            }
+        }
+
+        > ul {
+            list-style: none;
+            padding: 0;
+
+            > li {
+                margin-bottom: 10px;
+                line-height: 25px;
+                font-weight: bold;
+
+                a {
+                    display: block;
+                    font-weight: normal;
+                    color: #0689ff;
+                }
+
+                > a {
+                    display: block;
+                    font-weight: normal;
+                    color: #0689ff;
+                }
+
+                > ul {
+                    margin-left: 5px;
+                    margin-bottom: -5px;
+                    list-style: square;
+
+                    > li {
+                        line-height: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    .page-content {
+        border-left: #eee solid 1px;
+        line-height: 25px;
+
+        code {
+            @include code;
+        }
+
+        pre {
+            @include block_code();
+        }
+
+        h1 {
+            font-weight: 700;
+        }
+
+        h2 {
+            font-size: 26px;
+            color: #222;
+            font-weight: 600;
+            position: relative;
+            margin-bottom: 30px;
+
+            &:after {
+                content: '';
+                @include hr(2px);
+                margin: 15px auto 15px 0;
+                position: absolute;
+                top: 25px;
+                left: 0;
+            }
+        }
+
+        h3 {
+            font-size: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #222;
+            font-weight: 600;
+        }
+
+        h4 {
+            font-size: 14px;
+            letter-spacing: 1px;
+        }
+
+        * + h2 {
+            margin-top: 50px;
+        }
+
+        * + h3 {
+            margin-top: 40px;
+        }
+
+        ol {
+            li {
+                list-style: upper-roman;
+            }
+        }
+
+        ol, ul {
+            font-size: 14px;
+        }
+
+        .page-header {
+            margin: 0px 0 18px;
+        }
+    }
+}

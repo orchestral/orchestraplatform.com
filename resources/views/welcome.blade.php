@@ -1,5 +1,7 @@
 @extends('layouts.website')
 
+@set_meta('html::body.attributes', ['id' => 'landing'])
+
 @section('content')
 @include('welcome._intro')
 @include('welcome._features')

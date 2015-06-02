@@ -1,4 +1,4 @@
-var elixir = require('laravel-elixir');
+var dir, elixir = require('laravel-elixir');
 
 /*
  |--------------------------------------------------------------------------
@@ -11,41 +11,48 @@ var elixir = require('laravel-elixir');
  |
  */
 
-var dir = {
-  asset: 'resources/assets',
-  build: 'public/build/resources',
-  html: 'resources/html',
-  vendor: 'vendor/bower_components',
-  web: 'public/resources'
+dir = {
+  asset: {
+    css: 'public/css',
+    img: 'public/img',
+    js: 'public/js',
+    font: 'public/fonts'
+  },
+  resources: 'resources/assets',
+  vendor: 'vendor/bower_components'
 };
 
-elixir(function(mix) {
-  mix.sass(['app.scss', 'errors.scss'], dir.web+'/css', {
+elixir(function (mix) {
+  mix.sass('app.scss', dir.resources+'/css', {
     includePaths: [dir.vendor+'/']
   });
 
-  mix.coffee('app.coffee', dir.web+'/js');
 
-  mix.copy(dir.vendor+'/jquery/dist/jquery.min.js', dir.web+'/js/vendor/jquery.min.js')
-    .copy(dir.vendor+'/jquery/dist/jquery.min.map', dir.web+'/js/vendor/jquery.min.map')
-    .copy(dir.vendor+'/bootstrap-sass/assets/javascripts/bootstrap.js', dir.web+'/js/vendor/bootstrap.js')
-    .copy(dir.vendor+'/font-awesome/fonts', dir.web+'/fonts')
-    .copy(dir.html+'/fonts', dir.web+'/fonts')
-    .copy(dir.html+'/img', dir.web+'/img')
-    .copy(dir.asset+'/js/prettify.js', dir.web+'/js/vendor/prettify.js')
-    .copy(dir.asset+'/css/prettify/gloom-contrast.css', dir.web+'/css/vendor/prettify.css');
+  mix.coffee('app.coffee', dir.resources+'/js');
+
+  mix.copy(dir.vendor+'/jquery/dist/jquery.min.js', dir.resources+'/js/vendor/jquery.js')
+    .copy(dir.vendor+'/underscore/underscore-min.js', dir.resources+'/js/vendor/underscore.js')
+    .copy(dir.vendor+'/javie/dist/javie.min.js', dir.resources+'/js/vendor/javie.js')
+    .copy(dir.vendor+'/vue/dist/vue.min.js', dir.resources+'/js/vendor/vue.js')
+    .copy(dir.vendor+'/bootstrap-sass/assets/javascripts/bootstrap.min.js',  dir.resources+'/js/vendor/bootstrap.js')
+    .copy(dir.vendor+'/bootstrap-sass/assets/fonts/bootstrap', dir.asset.font)
+    .copy(dir.vendor+'/font-awesome/fonts', dir.asset.font)
+    .copy(dir.resources+'/img', dir.asset.img);
 
   mix.styles([
-      'app.css',
-      'vendor/prettify.css'
-    ], dir.web+'/css/all.css', dir.web+'/css');
+    'app.css',
+    'vendor/prettify.css'
+  ]);
 
   mix.scripts([
-      'vendor/jquery.min.js',
-      'vendor/bootstrap.js',
-      'vendor/prettify.js',
-      'app.js'
-    ], dir.web+'/js/all.js', dir.web+'/js');
+    'vendor/vue.js',
+    'vendor/jquery.js',
+    'vendor/underscore.js',
+    'vendor/javie.js',
+    'vendor/bootstrap.js',
+    'vendor/prettify.js',
+    'app.js'
+  ]);
 
-  mix.version([dir.web+'/css/all.css', dir.web+'/js/all.js']);
+  mix.version([dir.asset.css+'/all.css', dir.asset.js+'/all.js']);
 });

@@ -1,0 +1,46 @@
+nav[role="navigation"] {
+    margin-top: 10px;
+
+    .container {
+        margin: 0 auto;
+    }
+
+    a {
+        color: $text-anchor-base-color;
+        font-size: 16px;
+
+        &.navbar-brand {
+            color: $text-base-color;
+            font-size: 24px;
+            font-weight: bold;
+
+            @media (min-width: $screen-lg-min) {
+                margin-right: 30px;
+            }
+        }
+    }
+
+    button.navbar-toggle {
+        span.icon-bar {
+            background-color: $text-anchor-base-color;
+        }
+    }
+
+    li {
+        &.open {
+            a, a:focus {
+                background: transparent;
+            }
+        }
+        a {
+            &:active, &:hover, &:focus {
+                background: transparent !important;
+                color: $text-anchor-active-color;
+            }
+        }
+
+        i.fa {
+            margin-right: 10px;
+        }
+    }
+}

@@ -1,7 +1,8 @@
-<section id="hero" class="text-center">
-    <div class="container">
-        <div class="col-md-8 col-md-offset-2">
-            <h1>Blog<br><small>Subscribe to the <a href="{{ handles('orchestra/story::rss') }}">feed</a>.</small></h1>
-        </div>
-    </div>
+<section class="heading">
+	<div class="container">
+		<h1>
+			<a href="{{ handles('orchestra/story::/') }}">Blog</a>
+			<small>Subscribe to the <a href="{{ handles('orchestra/story::rss') }}">feed</a>.</small>
+		</h1>
+	</div>
 </section>

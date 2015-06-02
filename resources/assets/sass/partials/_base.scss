@@ -1,70 +1,86 @@
+html, body {
+    height: 100%;
+}
+
 body {
-    font-family: "Lato", Helvetica, sans-serif;
-    font-size: 13px;
+    color: $text-color;
+}
 
-    p {
-        line-height: 1.65;
-        //font-weight: 300;
-    }
-    section {
-        padding:80px 0;
-        .section-header {
-            text-align: center;
-            margin-bottom: 60px;
-            h1 {
+h1, h2, h3, .h1, .h2, .h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
 
-            }
-            h2 {}
-            h3, h4 {
-                text-transform: uppercase;
-                font-size: 18px;
-                font-weight: 700;
-                letter-spacing: 1.5px;
-            }
-            h4 {
-                font-size: 15px;
-            }
-            p.lead {
-                font-size: 18px;
-                font-weight: 300;
-            }
-            hr {
-                border-top: #222 solid 3px;
-                width: 80px;
-            }
+h4, h5, h6, .h4, .h5, .h6 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+hr {
+    @include hr(3px);
+}
+
+section {
+    padding: 80px 0;
+
+    .section-header {
+        text-align: center;
+        margin-bottom: 60px;
+
+        h4 {
+            text-transform: uppercase;
+            font-size: 15px;
+            font-weight: 700;
+            letter-spacing: 1.5px;
         }
     }
 
-    #main-footer {
-        background: #111;
-        padding:40px 0;
-        color: #C5C5C5;
-        text-transform: uppercase;
-        font-size: 11px;
-        letter-spacing: 1px;
-        .navigation {
-            margin: 0;
-            li {
-                a {
-                    color: #c5c5c5;
-                }
-                &.docs {
-                    a {
-                        color: $green;
-                    }
-                }
-                &.dload {
-                    a {
-                        color: $blue;
-                    }
+    &.heading {
+        padding: 20px 0;
+        @include featured-bg;
+
+        h1 {
+            color: $text-anchor-active-color;
+            margin: 40px auto;
+            font-weight: normal;
+            font-size: 22px;
+
+            a, a:hover {
+                color: $text-anchor-active-color;
+            }
+
+            small {
+                color: $white;
+                display: block;
+                margin-top: 10px;
+
+
+                a, a:hover {
+                    color: $white;
                 }
             }
-        }
-    }
-
-    .modal-body {
-        pre {
-            @include block_code();
         }
     }
 }
+
+footer#main-footer {
+    background: #111;
+    padding: 40px 0;
+    color: #C5C5C5;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 1px;
+
+    a {
+        color: $text-anchor-base-color;
+
+        &:hover, &:active {
+            color: $text-anchor-active-color;
+        }
+    }
+
+    i.fa-heart {
+        color: #F4645F;
+    }
+}
+
