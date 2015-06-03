@@ -33,7 +33,7 @@ class PostsTableSeeder extends Seeder
             '2013-09-10-simple-website-8',
         ];
 
-        $parser = new DocumentParser();
+        $parser = app(DocumentParser::class);
 
         foreach ($posts as $post) {
             $source   = file_get_contents(__DIR__."/posts/{$post}.md");
