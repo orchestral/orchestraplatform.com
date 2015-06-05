@@ -4,8 +4,12 @@
 # Config Github Settings
 github_username = "fideloper"
 github_repo     = "Vaprobash"
-github_branch   = "1.2.0"
+github_branch   = "1.4.0"
 github_url      = "https://raw.githubusercontent.com/#{github_username}/#{github_repo}/#{github_branch}"
+
+# Because this:https://developer.github.com/changes/2014-12-08-removing-authorizations-token/
+# https://github.com/settings/tokens
+github_pat          = ""
 
 # Server Configuration
 
@@ -18,6 +22,7 @@ hostname        = "orchestraplatform.app"
 #   172.16.0.1  - 172.31.255.254
 #   192.168.0.1 - 192.168.255.254
 server_ip             = "192.168.22.100"
+server_cpus           = "1"   # Cores
 server_memory         = "512" # MB
 server_swap           = "1024" # Options: false | int (MB) - Guideline: Between one or two times the server_memory
 
@@ -36,11 +41,12 @@ mongo_enable_remote   = "false"  # remote access enabled when true
 
 # Languages and Packages
 php_timezone          = "UTC"    # http://php.net/manual/en/timezones.php
+php_version           = "5.6"    # Options: 5.5 | 5.6
 ruby_version          = "latest" # Choose what ruby version should be installed (will also be the default version)
 ruby_gems             = [        # List any Ruby Gems that you want to install
   #"jekyll",
-  #"sass",
-  "compass",
+  "sass",
+  #"compass",
 ]
 
 # To install HHVM instead of PHP, set this to "true"
@@ -48,7 +54,7 @@ hhvm                  = "false"
 
 # PHP Options
 composer_packages     = [        # List any global Composer packages that you want to install
-  "phpunit/phpunit:~4.0",
+  #"phpunit/phpunit:4.0.*",
   #"codeception/codeception=*",
   #"phpspec/phpspec:2.0.*@dev",
   #"squizlabs/php_codesniffer:1.5.*",
@@ -71,6 +77,13 @@ nodejs_packages       = [          # List any global NodeJS packages that you wa
   #"yo",
 ]
 
+# RabbitMQ settings
+rabbitmq_user = "user"
+rabbitmq_password = "password"
+
+sphinxsearch_version  = "rel22" # rel20, rel21, rel22, beta, daily, stable
+
+
 Vagrant.configure("2") do |config|
 
   # Set server to Ubuntu 14.04
@@ -79,6 +92,12 @@ Vagrant.configure("2") do |config|
   config.vm.define "Vaprobash" do |vapro|
   end
 
+  if Vagrant.has_plugin?("vagrant-hostmanager")
+    config.hostmanager.enabled = true
+    config.hostmanager.manage_host = true
+    config.hostmanager.ignore_private_ip = false
+    config.hostmanager.include_offline = false
+  end
 
   # Create a hostname, don't forget to put it to the `hosts` file
   # This will point to the server's default virtual host
@@ -87,6 +106,7 @@ Vagrant.configure("2") do |config|
 
   # Create a static IP
   config.vm.network :private_network, ip: server_ip
+  config.vm.network :forwarded_port, guest: 80, host: 8000
 
   # Use NFS for the shared folder
   config.vm.synced_folder ".", "/vagrant",
@@ -98,6 +118,9 @@ Vagrant.configure("2") do |config|
   config.vm.provider :virtualbox do |vb|
 
     vb.name = "Orchestra Platform"
+
+    # Set server cpus
+    vb.customize ["modifyvm", :id, "--cpus", server_cpus]
 
     # Set server memory
     vb.customize ["modifyvm", :id, "--memory", server_memory]
@@ -139,11 +162,12 @@ Vagrant.configure("2") do |config|
   # Needs to ensure that the vagrant plugin is installed
   config.vm.provider :digital_ocean do |provider, override|
     override.ssh.private_key_path = '~/.ssh/id_rsa'
+    override.ssh.username = 'vagrant'
     override.vm.box = 'digital_ocean'
     override.vm.box_url = "https://github.com/smdahlen/vagrant-digitalocean/raw/master/box/digital_ocean.box"
 
     provider.token = 'YOUR TOKEN'
-    provider.image = 'Ubuntu 14.04 x64'
+    provider.image = 'ubuntu-14-04-x64'
     provider.region = 'nyc2'
     provider.size = '512mb'
   end
@@ -156,11 +180,10 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell", path: "#{github_url}/scripts/base.sh", args: [github_url, server_swap, server_timezone]
 
   # optimize base box
-  config.vm.provision "shell", path: "#{github_url}/scripts/base_box_optimizations.sh",
-    privileged: true
+  config.vm.provision "shell", path: "#{github_url}/scripts/base_box_optimizations.sh", privileged: true
 
   # Provision PHP
-  config.vm.provision "shell", path: "#{github_url}/scripts/php.sh", args: [php_timezone, hhvm]
+  config.vm.provision "shell", path: "#{github_url}/scripts/php.sh", args: [php_timezone, hhvm, php_version]
 
   # Enable MSSQL for PHP
   # config.vm.provision "shell", path: "#{github_url}/scripts/mssql.sh"
@@ -168,6 +191,8 @@ Vagrant.configure("2") do |config|
   # Provision Vim
   config.vm.provision "shell", path: "#{github_url}/scripts/vim.sh", args: github_url
 
+  # Provision Docker
+  # config.vm.provision "shell", path: "#{github_url}/scripts/docker.sh", args: "permissions"
 
   ####
   # Web Servers
@@ -216,7 +241,7 @@ Vagrant.configure("2") do |config|
   # config.vm.provision "shell", path: "#{github_url}/scripts/elasticsearch.sh"
 
   # Install SphinxSearch
-  # config.vm.provision "shell", path: "#{github_url}/scripts/sphinxsearch.sh"
+  # config.vm.provision "shell", path: "#{github_url}/scripts/sphinxsearch.sh", args: [sphinxsearch_version]
 
   ####
   # Search Server Administration (web-based)
@@ -259,6 +284,9 @@ Vagrant.configure("2") do |config|
   # Install ØMQ
   # config.vm.provision "shell", path: "#{github_url}/scripts/zeromq.sh"
 
+  # Install RabbitMQ
+  # config.vm.provision "shell", path: "#{github_url}/scripts/rabbitmq.sh", args: [rabbitmq_user, rabbitmq_password]
+
   ####
   # Additional Languages
   ##########
@@ -283,16 +311,19 @@ Vagrant.configure("2") do |config|
   # config.vm.provision "shell", path: "#{github_url}/scripts/symfony.sh", privileged: false, args: [server_ip, symfony_root_folder, public_folder]
 
   # Install Screen
-  config.vm.provision "shell", path: "#{github_url}/scripts/screen.sh"
+  # config.vm.provision "shell", path: "#{github_url}/scripts/screen.sh"
 
   # Install Mailcatcher
-  config.vm.provision "shell", path: "#{github_url}/scripts/mailcatcher.sh"
+  # config.vm.provision "shell", path: "#{github_url}/scripts/mailcatcher.sh"
 
   # Install git-ftp
   # config.vm.provision "shell", path: "#{github_url}/scripts/git-ftp.sh", privileged: false
 
   # Install Ansible
   # config.vm.provision "shell", path: "#{github_url}/scripts/ansible.sh"
+
+  # Install Android
+  # config.vm.provision "shell", path: "#{github_url}/scripts/android.sh"
 
   ####
   # Local Scripts
