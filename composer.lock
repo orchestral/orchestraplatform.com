@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4dc0c527b33dd23e819941c1f73d7182",
+    "hash": "44785ca79438d760d5ae93575f91fd60",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -455,12 +455,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "3c1d7672ec207fbd51f3757182a552f4ddd3836e"
+                "reference": "c8ade4de42e8cdb83c3cbffb307a6c4f81e81994"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/3c1d7672ec207fbd51f3757182a552f4ddd3836e",
-                "reference": "3c1d7672ec207fbd51f3757182a552f4ddd3836e",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/c8ade4de42e8cdb83c3cbffb307a6c4f81e81994",
+                "reference": "c8ade4de42e8cdb83c3cbffb307a6c4f81e81994",
                 "shasum": ""
             },
             "require": {
@@ -468,7 +468,6 @@
                 "danielstjules/stringy": "~1.8",
                 "doctrine/inflector": "~1.0",
                 "ext-mbstring": "*",
-                "ext-mcrypt": "*",
                 "ext-openssl": "*",
                 "jeremeamia/superclosure": "~2.0",
                 "league/flysystem": "~1.0",
@@ -487,7 +486,6 @@
                 "symfony/http-kernel": "2.7.*",
                 "symfony/process": "2.7.*",
                 "symfony/routing": "2.7.*",
-                "symfony/security-core": "2.7.*",
                 "symfony/translation": "2.7.*",
                 "symfony/var-dumper": "2.7.*",
                 "vlucas/phpdotenv": "~1.0"
@@ -577,7 +575,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2015-06-02 21:56:35"
+            "time": "2015-06-04 21:23:09"
         },
         {
             "name": "league/flysystem",
@@ -1244,24 +1242,24 @@
         },
         {
             "name": "orchestra/foundation",
-            "version": "v3.1.0-BETA4",
+            "version": "3.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "b67745beb6385ea8c69e73715905ff536cf7464d"
+                "reference": "8776b5345464a7cc459fc60feb27a32d6d466f2d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/b67745beb6385ea8c69e73715905ff536cf7464d",
-                "reference": "b67745beb6385ea8c69e73715905ff536cf7464d",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/8776b5345464a7cc459fc60feb27a32d6d466f2d",
+                "reference": "8776b5345464a7cc459fc60feb27a32d6d466f2d",
                 "shasum": ""
             },
             "require": {
                 "laravel/framework": "5.1.*",
                 "orchestra/asset": "3.1.*",
-                "orchestra/auth": "3.1.*",
-                "orchestra/extension": "3.1.*",
-                "orchestra/html": "3.1.*",
+                "orchestra/auth": "~3.1.1",
+                "orchestra/extension": "~3.1.1",
+                "orchestra/html": "~3.1.1",
                 "orchestra/kernel": "3.1.*",
                 "orchestra/memory": "3.1.*",
                 "orchestra/messages": "3.1.*",
@@ -1322,7 +1320,7 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2015-06-01 06:08:06"
+            "time": "2015-06-04 02:38:29"
         },
         {
             "name": "orchestra/html",
@@ -2117,21 +2115,21 @@
         },
         {
             "name": "orchestra/view",
-            "version": "v3.1.0",
+            "version": "v3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/view.git",
-                "reference": "d412d98659a5910fb94dc80e0050393ff144211c"
+                "reference": "dc752c7b61ecee3a9530ba26b34d357e3e091438"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/view/zipball/d412d98659a5910fb94dc80e0050393ff144211c",
-                "reference": "d412d98659a5910fb94dc80e0050393ff144211c",
+                "url": "https://api.github.com/repos/orchestral/view/zipball/dc752c7b61ecee3a9530ba26b34d357e3e091438",
+                "reference": "dc752c7b61ecee3a9530ba26b34d357e3e091438",
                 "shasum": ""
             },
             "require": {
                 "orchestra/memory": "3.1.*",
-                "php": ">=5.4.0"
+                "php": ">=5.5.0"
             },
             "require-dev": {
                 "illuminate/console": "5.1.*",
@@ -2175,7 +2173,7 @@
                 "theme",
                 "view"
             ],
-            "time": "2015-05-24 04:29:32"
+            "time": "2015-06-03 11:53:34"
         },
         {
             "name": "orchestra/widget",
@@ -3129,69 +3127,6 @@
             "time": "2015-05-19 06:58:17"
         },
         {
-            "name": "symfony/security-core",
-            "version": "v2.7.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/security-core.git",
-                "reference": "af39a58d9dceabeb8c29c1ac347a78d259db1b29"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/security-core/zipball/af39a58d9dceabeb8c29c1ac347a78d259db1b29",
-                "reference": "af39a58d9dceabeb8c29c1ac347a78d259db1b29",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.9"
-            },
-            "require-dev": {
-                "ircmaxell/password-compat": "1.0.*",
-                "psr/log": "~1.0",
-                "symfony/event-dispatcher": "~2.1",
-                "symfony/expression-language": "~2.6",
-                "symfony/http-foundation": "~2.4",
-                "symfony/phpunit-bridge": "~2.7",
-                "symfony/translation": "~2.0,>=2.0.5",
-                "symfony/validator": "~2.5,>=2.5.5"
-            },
-            "suggest": {
-                "ircmaxell/password-compat": "For using the BCrypt password encoder in PHP <5.5",
-                "symfony/event-dispatcher": "",
-                "symfony/expression-language": "For using the expression voter",
-                "symfony/http-foundation": "",
-                "symfony/validator": "For using the user password constraint"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.7-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Symfony\\Component\\Security\\Core\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
-                }
-            ],
-            "description": "Symfony Security Component - Core Library",
-            "homepage": "https://symfony.com",
-            "time": "2015-05-15 13:53:44"
-        },
-        {
             "name": "symfony/translation",
             "version": "v2.7.0",
             "source": {
@@ -4053,7 +3988,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "orchestra/foundation": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
