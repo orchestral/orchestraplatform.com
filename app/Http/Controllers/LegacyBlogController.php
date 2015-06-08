@@ -9,7 +9,7 @@ class LegacyBlogController extends Controller
      */
     public function index()
     {
-        return redirect(handles('orchestra/story::/'));
+        return redirect(handles('orchestra/story::/'), 301);
     }
 
     /**
@@ -21,6 +21,6 @@ class LegacyBlogController extends Controller
     {
         $url = implode('/', [$year, $month, $day, $slug]);
 
-        return redirect(handles("orchestra/story::{$url}"));
+        return redirect(handles("orchestra/story::{$url}"), 301);
     }
 }

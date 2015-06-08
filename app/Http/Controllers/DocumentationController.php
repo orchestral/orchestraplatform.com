@@ -20,16 +20,13 @@ class DocumentationController extends BaseController
     /**
      * {@inheritdoc}
      */
-    protected function setupFilters()
+    protected function setupMiddleware()
     {
         //
     }
 
     /**
      * Show documentation index.
-     *
-     * @Get("docs/{version}")
-     * @Where({"version": "([a-zA-Z0-9\.]+)"})
      *
      * @param  string   $version
      *
@@ -43,9 +40,6 @@ class DocumentationController extends BaseController
     /**
      * Show documentation.
      *
-     * @Get("docs/{version}/{filename}")
-     * @Where({"version": "([a-zA-Z0-9\.]+)", "filename": "(.+)?"})
-     *
      * @param  string   $version
      * @param  string   $filename
      *
@@ -54,6 +48,18 @@ class DocumentationController extends BaseController
     public function show($version, $filename = 'index')
     {
         return $this->processor->show($this, $version, $filename);
+    }
+
+    /**
+     * Redirect.
+     *
+     * @param  string  $to
+     *
+     * @return mixed
+     */
+    public function redirect($to)
+    {
+        return redirect($to, 301);
     }
 
     /**
