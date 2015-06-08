@@ -7842,7 +7842,7 @@ nav[role="navigation"] {
       border-radius: 3px;
       padding: 20px;
       margin: 10px 0 20px;
-      font-size: 13px;
+      font-size: 11px;
       line-height: 1.42857; }
       #documentation .page-content pre code {
         background: transparent;
@@ -7925,7 +7925,7 @@ nav[role="navigation"] {
     border-radius: 3px;
     padding: 20px;
     margin: 10px 0 20px;
-    font-size: 13px;
+    font-size: 11px;
     line-height: 1.42857; }
     #posts .page-content pre code, #post .page-content pre code {
       background: transparent;
