@@ -20,6 +20,20 @@
 				<div class="page-header">
 					<h1>{!! $document->get('title') !!}</h1>
 				</div>
+
+				@if (! is_null($badge = $document->get('badge')))
+				<p>
+					<a href="https://github.com/orchestral/{!! $badge !!}/releases">
+						<img src="https://img.shields.io/github/tag/orchestral/{!! $badge !!}.svg?style=flat" alt="Latest Stable Version" />
+					</a>
+					<a href="https://packagist.org/packages/orchestra/{!! $badge !!}">
+						<img src="https://img.shields.io/packagist/dt/orchestra/{!! $badge !!}.svg?style=flat" alt="Total Downloads" />
+					</a>
+					<a href="https://github.com/orchestral/{!! $badge !!}">
+						<img src="https://img.shields.io/packagist/l/orchestra/{!! $badge !!}.svg?style=flat" alt="MIT License" />
+					</a>
+				</p>
+				@endif
 				{!! array_get($html, 'document') !!}
 			</div>
 		</div>
