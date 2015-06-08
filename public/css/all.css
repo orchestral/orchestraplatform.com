@@ -7704,6 +7704,10 @@ nav[role="navigation"] {
   #landing section#features .item .media-object {
     margin-right: 35px;
     width: 40px; }
+  #landing section#features .item hr {
+    border-top: #222 solid 2px;
+    width: 80px;
+    margin: 15px auto 15px 0; }
   #landing section#features .item h3 {
     font-size: 13px;
     text-transform: uppercase;

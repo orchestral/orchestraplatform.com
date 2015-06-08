@@ -40,6 +40,11 @@
                     width: 40px;
                 }
 
+                hr {
+                    @include hr(2px);
+                    margin: 15px auto 15px 0;
+                }
+
                 h3 {
                     font-size: 13px;
                     text-transform: uppercase;
