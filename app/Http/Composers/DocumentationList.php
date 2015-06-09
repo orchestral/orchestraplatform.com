@@ -57,13 +57,13 @@ class DocumentationList
             '2.0' => ['status' => self::EOL],
         ]);
 
-        $label = [
-            self::LTS    => 'info',
-            self::STABLE => 'success',
-            self::EOL    => 'danger',
+        $status = [
+            self::LTS    => ['label' => 'info', 'name' => 'LTS'],
+            self::STABLE => ['label' => 'success', 'name' => 'STABLE'],
+            self::EOL    => ['label' => 'danger', 'name' => 'EOL'],
         ];
 
-        $view->with(compact('documentation', 'label'));
+        $view->with(compact('documentation', 'status'));
     }
 
     /**

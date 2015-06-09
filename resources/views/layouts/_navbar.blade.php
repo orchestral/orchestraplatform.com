@@ -21,7 +21,7 @@
 						@foreach($documentation as $ver => $doc)
 						<li class="{{ Foundation::is("app::docs/{$ver}*") ? "active" : "" }}">
 							<a href="{{ handles($doc['url']) }}">
-								{{ $ver }} <span class="pull-right label label-{{ $label[$doc['status']] }}">{{ Str::upper($ver) }}</span>
+								{{ $ver }} <span class="pull-right label label-{{ $status[$doc['status']]['label'] }}">{{ Str::upper($status[$doc['status']]['name']) }}</span>
 							</a>
 						</li>
 						@endforeach
