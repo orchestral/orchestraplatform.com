@@ -1,7 +1,7 @@
 <?php namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use App\Http\Composers\DocumentationList;
+use App\Documentation\Composers\DocumentationList;
 
 class ComposerServiceProvider extends ServiceProvider
 {

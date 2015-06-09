@@ -1,5 +1,6 @@
-<?php namespace App\Http\Composers;
+<?php namespace App\Documentation\Composers;
 
+use App\Documentation\Document;
 use Illuminate\Http\Request;
 use Illuminate\Contracts\View\View;
 use Illuminate\Contracts\Routing\UrlGenerator;
@@ -50,20 +51,14 @@ class DocumentationList
     public function compose(View $view)
     {
         $documentation = $this->buildDocumentationUrl([
-            '3.1' => ['status' => self::LTS],
-            '3.0' => ['status' => self::STABLE],
-            '2.2' => ['status' => self::EOL],
-            '2.1' => ['status' => self::LTS],
-            '2.0' => ['status' => self::EOL],
+            new Document('3.1', Document::LTS, "app::docs/3.1/"),
+            new Document('3.0', Document::STABLE, "app::docs/3.0/"),
+            new Document('2.2', Document::EOL, "app::docs/2.2/"),
+            new Document('2.1', Document::LTS, "app::docs/2.1/"),
+            new Document('2.0', Document::EOL, "app::docs/2.0/"),
         ]);
 
-        $status = [
-            self::LTS    => ['label' => 'info', 'name' => 'LTS'],
-            self::STABLE => ['label' => 'success', 'name' => 'STABLE'],
-            self::EOL    => ['label' => 'danger', 'name' => 'EOL'],
-        ];
-
-        $view->with(compact('documentation', 'status'));
+        $view->with(compact('documentation'));
     }
 
     /**
@@ -77,11 +72,11 @@ class DocumentationList
     {
         $current = $this->request->segment(2);
 
-        foreach ($documentation as $ver => &$doc) {
-            $doc['url'] = "app::docs/{$ver}/";
+        foreach ($documentation as $doc) {
+            $ver = $doc->getVersion();
 
             if ($ver !== $current && $this->foundation->is('app::docs*')) {
-                $doc['url'] = strtr($this->urlGenerator->current(), [$current => $ver]);
+                $doc->setURL(strtr($this->urlGenerator->current(), [$current => $ver]));
             }
         }
 

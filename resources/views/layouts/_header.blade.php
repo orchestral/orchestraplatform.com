@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Orchestra Platform">
 	<meta name="author" content="Orchestra Platform Development Team">
+	<meta name="google-site-verification" content="wriGs2g_FgxPwFi5VvM7kZ0Y0v_hi_Ub0QAbKLgRVi0" />
 
 	@title()
 
