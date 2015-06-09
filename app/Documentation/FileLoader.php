@@ -3,7 +3,7 @@
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Contracts\Cache\Repository as Cache;
-use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
+use Illuminate\Contracts\Filesystem\FileNotFoundException;
 
 class FileLoader
 {
@@ -116,12 +116,12 @@ class FileLoader
      *
      * @param  string  $file
      *
-     * @throws \Symfony\Component\HttpKernel\Exception\NotFoundHttpException
+     * @throws \Illuminate\Contracts\Filesystem\FileNotFoundException
      */
     protected function validateFileDoesExist($file)
     {
         if (! $this->files->exists($file)) {
-            throw new NotFoundHttpException();
+            throw new FileNotFoundException();
         }
     }
 

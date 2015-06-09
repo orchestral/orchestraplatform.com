@@ -6,6 +6,7 @@ use Illuminate\Support\Arr;
 use App\Processor\Processor;
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Contracts\Config\Repository as Config;
+use Illuminate\Contracts\Filesystem\FileNotFoundException;
 
 class Viewer extends Processor
 {
@@ -58,7 +59,11 @@ class Viewer extends Processor
         $version = (string) Arr::get($this->config->get('project.documentation.aliases'), $version, $version);
         $path    = $this->getDocumentationPath($version);
 
-        list($toc, $document) = $this->loader->getDocumentation($path, $filename);
+        try {
+            list($toc, $document) = $this->loader->getDocumentation($path, $filename);
+        } catch (FileNotFoundException $e) {
+            return $listener->documentationNotFound($e, $version);
+        }
 
         $redirect = $document->get('see');
 
@@ -70,7 +75,7 @@ class Viewer extends Processor
             return $listener->redirect($redirect);
         }
 
-        return $listener->showSucceed($version, $toc, $document);
+        return $listener->showDocumentation($version, $toc, $document);
     }
 
     /**

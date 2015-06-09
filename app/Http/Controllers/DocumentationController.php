@@ -2,6 +2,8 @@
 
 use Kurenai\Document;
 use App\Documentation\Viewer;
+use Illuminate\Contracts\Filesystem\FileNotFoundException;
+use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 class DocumentationController extends BaseController
 {
@@ -71,9 +73,10 @@ class DocumentationController extends BaseController
      *
      * @return mixed
      */
-    public function showSucceed($version, Document $toc, Document $document)
+    public function showDocumentation($version, Document $toc, Document $document)
     {
         set_meta('title', sprintf('%s on v%s', $document->get('title'), $version));
+        set_meta('doc:version', $version);
 
         return view('documentation', [
             'toc'      => $toc,
@@ -84,5 +87,20 @@ class DocumentationController extends BaseController
                 'document' => $this->processor->parseMarkdown($document, $version),
             ],
         ]);
+    }
+
+    /**
+     * Handle documentation not found.
+     *
+     * @param \Illuminate\Contracts\Filesystem\FileNotFoundException  $e
+     * @param string  $version
+     *
+     * @throws \Symfony\Component\HttpKernel\Exception\NotFoundHttpException
+     */
+    public function documentationNotFound(FileNotFoundException $e, $version)
+    {
+        set_meta('doc:version', $version);
+
+        throw new NotFoundHttpException();
     }
 }
