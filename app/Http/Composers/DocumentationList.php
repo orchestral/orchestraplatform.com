@@ -3,6 +3,7 @@
 use Illuminate\Http\Request;
 use Illuminate\Contracts\View\View;
 use Illuminate\Contracts\Routing\UrlGenerator;
+use Orchestra\Contracts\Foundation\Foundation;
 
 class DocumentationList
 {
@@ -11,9 +12,9 @@ class DocumentationList
     const EOL    = 'eol';
 
     /**
-     * @var \Illuminate\Contracts\Routing\UrlGenerator
+     * @var \Orchestra\Contracts\Foundation\Foundation
      */
-    protected $urlGenerator;
+    protected $foundation;
 
     /**
      * @var \Illuminate\Http\Request
@@ -21,13 +22,20 @@ class DocumentationList
     protected $request;
 
     /**
+     * @var \Illuminate\Contracts\Routing\UrlGenerator
+     */
+    protected $urlGenerator;
+
+    /**
      * Construct a new view composer.
      *
+     * @param  \Orchestra\Contracts\Foundation\Foundation  $foundation
      * @param  \Illuminate\Contracts\Routing\UrlGenerator  $urlGenerator
      * @param  \Illuminate\Http\Request  $request
      */
-    public function __construct(UrlGenerator $urlGenerator, Request $request)
+    public function __construct(Foundation $foundation, UrlGenerator $urlGenerator, Request $request)
     {
+        $this->foundation = $foundation;
         $this->urlGenerator = $urlGenerator;
         $this->request      = $request;
     }
@@ -72,7 +80,7 @@ class DocumentationList
         foreach ($documentation as $ver => &$doc) {
             $doc['url'] = "app::docs/{$ver}/";
 
-            if ($ver !== $current) {
+            if ($ver !== $current && $this->foundation->is('app::docs*')) {
                 $doc['url'] = strtr($this->urlGenerator->current(), [$current => $ver]);
             }
         }
