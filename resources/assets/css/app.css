@@ -7921,6 +7921,33 @@ nav[role="navigation"] {
 #posts .page-content, #post .page-content {
   color: #555;
   border-left: #eee solid 1px; }
+  #posts .page-content h2, #post .page-content h2 {
+    font-size: 26px;
+    color: #222;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 30px; }
+    #posts .page-content h2:after, #post .page-content h2:after {
+      content: '';
+      border-top: #222 solid 2px;
+      width: 80px;
+      margin: 15px auto 15px 0;
+      position: absolute;
+      top: 25px;
+      left: 0; }
+  #posts .page-content h3, #post .page-content h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #222;
+    font-weight: 600; }
+  #posts .page-content h4, #post .page-content h4 {
+    font-size: 20px;
+    letter-spacing: 1px; }
+  #posts .page-content * + h2, #post .page-content * + h2 {
+    margin-top: 50px; }
+  #posts .page-content * + h3, #post .page-content * + h3 {
+    margin-top: 40px; }
   #posts .page-content code, #post .page-content code {
     background: #e2f1ff;
     color: rgba(0, 0, 0, 0.7);
@@ -7951,3 +7978,7 @@ nav[role="navigation"] {
   #posts .page-content .continue-reading, #post .page-content .continue-reading {
     text-align: right;
     margin-top: 30px; }
+  #posts .page-content .post > hr, #post .page-content .post > hr {
+    border-top: #222 solid 3px;
+    width: 80px;
+    margin-top: 40px; }
