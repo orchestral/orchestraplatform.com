@@ -4,6 +4,7 @@
 	"license": "proprietary",
 	"type": "project",
 	"require": {
+		"php": ">=5.5.9",
 		"orchestra/foundation": "3.1.*",
 		"orchestra/avatar": "~3.1",
 		"orchestra/installer": "~3.1",
