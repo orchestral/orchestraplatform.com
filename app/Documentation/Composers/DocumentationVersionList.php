@@ -1,12 +1,12 @@
 <?php namespace App\Documentation\Composers;
 
 use Illuminate\Http\Request;
-use App\Documentation\Document;
+use App\Documentation\Version;
 use Illuminate\Contracts\View\View;
 use Illuminate\Contracts\Routing\UrlGenerator;
 use Orchestra\Contracts\Foundation\Foundation;
 
-class DocumentationList
+class DocumentationVersionList
 {
     const LTS    = 'lts';
     const STABLE = 'stable';
@@ -51,11 +51,11 @@ class DocumentationList
     public function compose(View $view)
     {
         $documentation = $this->buildDocumentationUrl([
-            new Document('3.1', Document::LTS),
-            new Document('3.0', Document::STABLE),
-            new Document('2.2', Document::EOL),
-            new Document('2.1', Document::LTS),
-            new Document('2.0', Document::EOL),
+            new Version('3.1', Version::LTS),
+            new Version('3.0', Version::STABLE),
+            new Version('2.2', Version::EOL),
+            new Version('2.1', Version::LTS),
+            new Version('2.0', Version::EOL),
         ]);
 
         $view->with(compact('documentation'));
@@ -73,10 +73,10 @@ class DocumentationList
         $current = $this->request->segment(2);
 
         foreach ($documentation as $doc) {
-            $ver = $doc->getVersion();
+            $code = $doc->getCode();
 
-            if ($ver !== $current && $this->foundation->is('app::docs*')) {
-                $doc->setURL(strtr($this->urlGenerator->current(), [$current => $ver]));
+            if ($code !== $current && $this->foundation->is('app::docs*')) {
+                $doc->setURL(strtr($this->urlGenerator->current(), [$current => $code]));
             }
         }
 

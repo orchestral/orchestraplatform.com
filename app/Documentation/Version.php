@@ -3,7 +3,7 @@
 use Orchestra\Support\Str;
 use Illuminate\Support\Arr;
 
-class Document
+class Version
 {
     const LTS    = 'lts';
     const STABLE = 'stable';
@@ -21,6 +21,11 @@ class Document
     /**
      * @var string
      */
+    protected $code;
+
+    /**
+     * @var string
+     */
     protected $status;
 
     /**
@@ -29,15 +34,17 @@ class Document
     protected $url;
 
     /**
-     * @var string
+     * Create new version.
+     *
+     * @param  string  $code
+     * @param  string  $status
+     * @param  string|null  $url
      */
-    protected $version;
-
-    public function __construct($version, $status, $url = null)
+    public function __construct($code, $status, $url = null)
     {
-        $this->version = $version;
+        $this->code = $code;
         $this->status = $status;
-        $this->url = $url ?: "app::docs/{$version}/";
+        $this->url = $url ?: "app::docs/{$code}/";
     }
 
     /**
@@ -45,9 +52,9 @@ class Document
      *
      * @return string
      */
-    public function getVersion()
+    public function getCode()
     {
-        return $this->version;
+        return $this->code;
     }
 
     /**

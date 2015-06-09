@@ -1,7 +1,7 @@
 <?php namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use App\Documentation\Composers\DocumentationList;
+use App\Documentation\Composers\DocumentationVersionList;
 
 class ComposerServiceProvider extends ServiceProvider
 {
@@ -12,6 +12,6 @@ class ComposerServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app['view']->composer('layouts._navbar', DocumentationList::class);
+        $this->app['view']->composer('layouts._navbar', DocumentationVersionList::class);
     }
 }

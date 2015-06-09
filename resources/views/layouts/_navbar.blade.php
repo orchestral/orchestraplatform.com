@@ -18,10 +18,10 @@
 					</a>
 					<ul class="dropdown-menu" role="menu">
 						<li role="presentation" class="dropdown-header">Version</li>
-						@foreach($documentation as $doc)
-						<li class="{{ Foundation::is(trim($doc->getURL(), '/')."*") ? "active" : "" }}">
-							<a href="{{ handles($doc->getURL()) }}">
-								{{ $doc->getVersion() }} <span class="pull-right label label-{{ $doc->getLabel() }}">{{ $doc->getStatusName() }}</span>
+						@foreach($documentation as $version)
+						<li class="{{ Foundation::is(trim($version->getURL(), '/')."*") ? "active" : "" }}">
+							<a href="{{ handles($version->getURL()) }}">
+								{{ $version->getCode() }} <span class="pull-right label label-{{ $version->getLabel() }}">{{ $version->getStatusName() }}</span>
 							</a>
 						</li>
 						@endforeach
