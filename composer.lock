@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8cf37768250fbe6bf7d73ab94c754ffd",
+    "hash": "4dc0c527b33dd23e819941c1f73d7182",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -455,12 +455,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "861358ecb610f3e5b10a0f9f0a0f61b09806439d"
+                "reference": "e4ddec92da6b9bf95d0eaf1b2c850b88b80f579d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/861358ecb610f3e5b10a0f9f0a0f61b09806439d",
-                "reference": "861358ecb610f3e5b10a0f9f0a0f61b09806439d",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/e4ddec92da6b9bf95d0eaf1b2c850b88b80f579d",
+                "reference": "e4ddec92da6b9bf95d0eaf1b2c850b88b80f579d",
                 "shasum": ""
             },
             "require": {
@@ -575,7 +575,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2015-06-09 02:15:39"
+            "time": "2015-06-08 20:48:28"
         },
         {
             "name": "league/flysystem",
@@ -1702,16 +1702,16 @@
         },
         {
             "name": "orchestra/model",
-            "version": "v3.1.0",
+            "version": "v3.1.0-BETA1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/model.git",
-                "reference": "b65de854fe20fc6694ef6ee7cc31d78582e0c4ef"
+                "reference": "0b6e5753addd89e872300a9755db65a0a5b4bc21"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/model/zipball/b65de854fe20fc6694ef6ee7cc31d78582e0c4ef",
-                "reference": "b65de854fe20fc6694ef6ee7cc31d78582e0c4ef",
+                "url": "https://api.github.com/repos/orchestral/model/zipball/0b6e5753addd89e872300a9755db65a0a5b4bc21",
+                "reference": "0b6e5753addd89e872300a9755db65a0a5b4bc21",
                 "shasum": ""
             },
             "require": {
@@ -1722,12 +1722,12 @@
             "require-dev": {
                 "illuminate/auth": "5.1.*",
                 "illuminate/database": "5.1.*",
-                "mockery/mockery": "^0.9.1"
+                "mockery/mockery": "0.9.*"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.2-dev"
+                    "dev-master": "3.1-dev"
                 }
             },
             "autoload": {
@@ -1754,7 +1754,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2015-06-09 02:17:43"
+            "time": "2015-04-20 01:06:50"
         },
         {
             "name": "orchestra/notifier",
@@ -3993,8 +3993,6 @@
     "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": {
-        "php": ">=5.5.9"
-    },
+    "platform": [],
     "platform-dev": []
 }
