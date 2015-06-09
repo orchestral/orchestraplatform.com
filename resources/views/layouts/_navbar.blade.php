@@ -19,7 +19,7 @@
 					<ul class="dropdown-menu" role="menu">
 						<li role="presentation" class="dropdown-header">Version</li>
 						@foreach($documentation as $doc)
-						<li class="{{ Foundation::is("app::docs/{$doc->getVersion()}*") ? "active" : "" }}">
+						<li class="{{ Foundation::is(trim($doc->getURL(), '/')."*") ? "active" : "" }}">
 							<a href="{{ handles($doc->getURL()) }}">
 								{{ $doc->getVersion() }} <span class="pull-right label label-{{ $doc->getLabel() }}">{{ $doc->getStatusName() }}</span>
 							</a>

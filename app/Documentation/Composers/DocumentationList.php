@@ -1,7 +1,7 @@
 <?php namespace App\Documentation\Composers;
 
-use App\Documentation\Document;
 use Illuminate\Http\Request;
+use App\Documentation\Document;
 use Illuminate\Contracts\View\View;
 use Illuminate\Contracts\Routing\UrlGenerator;
 use Orchestra\Contracts\Foundation\Foundation;
@@ -51,11 +51,11 @@ class DocumentationList
     public function compose(View $view)
     {
         $documentation = $this->buildDocumentationUrl([
-            new Document('3.1', Document::LTS, "app::docs/3.1/"),
-            new Document('3.0', Document::STABLE, "app::docs/3.0/"),
-            new Document('2.2', Document::EOL, "app::docs/2.2/"),
-            new Document('2.1', Document::LTS, "app::docs/2.1/"),
-            new Document('2.0', Document::EOL, "app::docs/2.0/"),
+            new Document('3.1', Document::LTS),
+            new Document('3.0', Document::STABLE),
+            new Document('2.2', Document::EOL),
+            new Document('2.1', Document::LTS),
+            new Document('2.0', Document::EOL),
         ]);
 
         $view->with(compact('documentation'));

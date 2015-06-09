@@ -1,7 +1,7 @@
-<?php namespace App\Documentation; 
+<?php namespace App\Documentation;
 
-use Illuminate\Support\Arr;
 use Orchestra\Support\Str;
+use Illuminate\Support\Arr;
 
 class Document
 {
@@ -37,7 +37,7 @@ class Document
     {
         $this->version = $version;
         $this->status = $status;
-        $this->url = $url;
+        $this->url = $url ?: "app::docs/{$version}/";
     }
 
     /**
