@@ -18,11 +18,13 @@
 					</a>
 					<ul class="dropdown-menu" role="menu">
 						<li role="presentation" class="dropdown-header">Version</li>
-						<li><a href="{{ handles("app::docs/3.1/") }}">3.1 <span class="pull-right label label-info">LTS</span></a></li>
-						<li><a href="{{ handles("app::docs/3.0/") }}">3.0 <span class="pull-right label label-success">Latest</span></a></li>
-						<li><a href="{{ handles("app::docs/2.2/") }}">2.2 <span class="pull-right label label-danger">EOL</span></a></li>
-						<li><a href="{{ handles("app::docs/2.1/") }}">2.1 <span class="pull-right label label-info">LTS</span></a></li>
-						<li><a href="{{ handles("app::docs/2.0/") }}">2.0 <span class="pull-right label label-danger">EOL</span></a></li>
+						@foreach($documentation as $ver => $doc)
+						<li class="{{ Foundation::is("app::docs/{$ver}*") ? "active" : "" }}">
+							<a href="{{ handles($doc['url']) }}">
+								{{ $ver }} <span class="pull-right label label-{{ $label[$doc['status']] }}">{{ Str::upper($ver) }}</span>
+							</a>
+						</li>
+						@endforeach
 					</ul>
 				</li>
 				<li><a href="{{ handles('orchestra/story::/') }}"><i class="fa fa-book"></i> Blog</a></li>

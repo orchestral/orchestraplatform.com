@@ -164,6 +164,7 @@ return [
          * Application Service Providers...
          */
         App\Providers\AppServiceProvider::class,
+        App\Providers\ComposerServiceProvider::class,
         App\Providers\DocumentationServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\ExtensionServiceProvider::class,
@@ -221,6 +222,7 @@ return [
         'Schema'     => Illuminate\Support\Facades\Schema::class,
         'Session'    => Illuminate\Support\Facades\Session::class,
         'Storage'    => Illuminate\Support\Facades\Storage::class,
+        'Str'        => Orchestra\Support\Str::class,
         'Table'      => Orchestra\Support\Facades\Table::class,
         'Theme'      => Orchestra\Support\Facades\Theme::class,
         'URL'        => Illuminate\Support\Facades\URL::class,

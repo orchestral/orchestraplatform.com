@@ -31,6 +31,12 @@ nav[role="navigation"] {
             a, a:focus {
                 background: transparent;
             }
+
+            li.active {
+                a {
+                    color: $text-anchor-active-color;
+                }
+            }
         }
         a {
             &:active, &:hover, &:focus {

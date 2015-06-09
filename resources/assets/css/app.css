@@ -7669,6 +7669,8 @@ nav[role="navigation"] {
     background-color: #A7B3C2; }
   nav[role="navigation"] li.open a, nav[role="navigation"] li.open a:focus {
     background: transparent; }
+  nav[role="navigation"] li.open li.active a {
+    color: #F9604C; }
   nav[role="navigation"] li a:active, nav[role="navigation"] li a:hover, nav[role="navigation"] li a:focus {
     background: transparent !important;
     color: #F9604C; }
