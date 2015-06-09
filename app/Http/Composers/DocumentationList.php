@@ -35,7 +35,7 @@ class DocumentationList
      */
     public function __construct(Foundation $foundation, UrlGenerator $urlGenerator, Request $request)
     {
-        $this->foundation = $foundation;
+        $this->foundation   = $foundation;
         $this->urlGenerator = $urlGenerator;
         $this->request      = $request;
     }
