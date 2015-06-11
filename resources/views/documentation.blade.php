@@ -54,15 +54,16 @@ jQuery(window).ready(function ($) {
         var object = $(el);
 
         object.on('click', function (e) {
-            var anchor, current;
+            var anchor, current, name;
 
             e.preventDefault();
 
             current = $(this);
             anchor = current.prev().children().eq(0);
+            name = anchor.attr('name');
 
-            if (anchor.size() > 0) {
-                window.location.hash = anchor.attr('name');
+            if (anchor.size() > 0 && ! _.isUndefined(name)) {
+                window.location.hash = name;
             }
         });
     });
