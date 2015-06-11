@@ -62,7 +62,7 @@ jQuery(window).ready(function ($) {
             anchor = current.prev().children().eq(0);
             name = anchor.attr('name');
 
-            if (anchor.size() > 0 && ! _.isUndefined(name)) {
+            if (! _.isUndefined(name)) {
                 window.location.hash = name;
             }
         });
