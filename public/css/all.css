@@ -7890,6 +7890,8 @@ nav[role="navigation"] {
       font-size: 14px; }
     #documentation .page-content .page-header {
       margin: 0px 0 18px; }
+      #documentation .page-content .page-header div.github-star {
+        padding-top: 10px; }
 
 #posts section.body, #post section.body {
   padding: 0; }

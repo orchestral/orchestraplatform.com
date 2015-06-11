@@ -17,11 +17,17 @@
 			<div class="col-md-1">
 			</div>
 			<div class="col-md-11">
+				#{{ $badge = $document->get('badge') }}
 				<div class="page-header">
+					@if (! is_null($badge))
+					<div class="pull-right github-star">
+						<iframe src="https://ghbtns.com/github-btn.html?user=orchestral&repo={!! $badge !!}&type=star&count=true" frameborder="0" scrolling="0" width="100px" height="20px"></iframe>
+					</div>
+					@endif
 					<h1>{!! $document->get('title') !!}</h1>
 				</div>
 
-				@if (! is_null($badge = $document->get('badge')))
+				@if (! is_null($badge))
 				<p>
 					<a href="https://github.com/orchestral/{!! $badge !!}/releases">
 						<img src="https://img.shields.io/github/tag/orchestral/{!! $badge !!}.svg?style=flat" alt="Latest Stable Version" />
@@ -32,7 +38,6 @@
 					<a href="https://github.com/orchestral/{!! $badge !!}">
 						<img src="https://img.shields.io/packagist/l/orchestra/{!! $badge !!}.svg?style=flat" alt="MIT License" />
 					</a>
-                    <iframe src="https://ghbtns.com/github-btn.html?user=orchestral&repo={!! $badge !!}&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
 				</p>
 				@endif
 				{!! array_get($html, 'document') !!}
