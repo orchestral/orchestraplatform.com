@@ -54,13 +54,16 @@ jQuery(window).ready(function ($) {
         var object = $(el);
 
         object.on('click', function (e) {
-            var anchor, current, name;
+            var current, name;
 
             e.preventDefault();
 
             current = $(this);
-            anchor = current.prev().children().eq(0);
-            name = anchor.attr('name');
+            name = current.attr('id');
+
+            if (_.isUndefined(name)) {
+                name = current.prev().children().eq(0).attr('name');
+            }
 
             if (! _.isUndefined(name)) {
                 window.location.hash = name;
