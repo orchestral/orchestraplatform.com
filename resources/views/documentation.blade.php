@@ -32,6 +32,7 @@
 					<a href="https://github.com/orchestral/{!! $badge !!}">
 						<img src="https://img.shields.io/packagist/l/orchestra/{!! $badge !!}.svg?style=flat" alt="MIT License" />
 					</a>
+                    <iframe src="https://ghbtns.com/github-btn.html?user=orchestral&repo={!! $badge !!}&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
 				</p>
 				@endif
 				{!! array_get($html, 'document') !!}
