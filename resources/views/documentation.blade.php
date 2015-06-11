@@ -46,3 +46,26 @@
 	</div>
 </section>
 @stop
+
+@push('assets.footer')
+<script>
+jQuery(window).ready(function ($) {
+    $('h2, h3, h4, h5', '.page-content').each(function (key, el) {
+        var object = $(el);
+
+        object.on('click', function (e) {
+            var anchor, current;
+
+            e.preventDefault();
+
+            current = $(this);
+            anchor = current.prev().children().eq(0);
+
+            if (anchor.size() > 0) {
+                window.location.hash = anchor.attr('name');
+            }
+        });
+    });
+});
+</script>
+@endpush

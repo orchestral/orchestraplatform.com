@@ -20,5 +20,6 @@
 		</div>
 	</footer>
 	@include('partials._analytic')
+	@stack('assets.footer')
 </body>
 </html>
