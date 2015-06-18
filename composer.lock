@@ -1003,27 +1003,27 @@
         },
         {
             "name": "orchestra/avatar",
-            "version": "v3.1.0",
+            "version": "v3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/avatar.git",
-                "reference": "fa09f20dd0504a85543c604cecd5447e6596076b"
+                "reference": "ca9d3491557e8db82eb976d13e14976ef66fa673"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/avatar/zipball/fa09f20dd0504a85543c604cecd5447e6596076b",
-                "reference": "fa09f20dd0504a85543c604cecd5447e6596076b",
+                "url": "https://api.github.com/repos/orchestral/avatar/zipball/ca9d3491557e8db82eb976d13e14976ef66fa673",
+                "reference": "ca9d3491557e8db82eb976d13e14976ef66fa673",
                 "shasum": ""
             },
             "require": {
-                "orchestra/support-facades": "3.1.*",
-                "orchestra/support-providers": "3.1.*",
-                "php": ">=5.4.0"
+                "orchestra/support-facades": "~3.1.0",
+                "orchestra/support-providers": "~3.1.0",
+                "php": ">=5.5.0"
             },
             "require-dev": {
-                "illuminate/container": "5.1.*",
-                "illuminate/database": "5.1.*",
-                "mockery/mockery": "0.9.*"
+                "illuminate/container": "~5.1.0",
+                "illuminate/database": "~5.1.0",
+                "mockery/mockery": "^0.9.1"
             },
             "suggest": {
                 "laravel/framework": "Allow using orchestra/avatar component outside of Orchestra Platform (~5.1).",
@@ -1059,7 +1059,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2015-05-17 11:55:17"
+            "time": "2015-06-18 00:58:40"
         },
         {
             "name": "orchestra/control",
@@ -1183,29 +1183,29 @@
         },
         {
             "name": "orchestra/facile",
-            "version": "v3.1.0",
+            "version": "v3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/facile.git",
-                "reference": "6c40c935e35a9fb978346c535fc9edefd24b71a9"
+                "reference": "1b06c1ac3015d8eb04bae391a093182b43889801"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/facile/zipball/6c40c935e35a9fb978346c535fc9edefd24b71a9",
-                "reference": "6c40c935e35a9fb978346c535fc9edefd24b71a9",
+                "url": "https://api.github.com/repos/orchestral/facile/zipball/1b06c1ac3015d8eb04bae391a093182b43889801",
+                "reference": "1b06c1ac3015d8eb04bae391a093182b43889801",
                 "shasum": ""
             },
             "require": {
-                "illuminate/contracts": "5.1.*",
-                "orchestra/support-facades": "3.1.*",
-                "php": ">=5.4.0"
+                "illuminate/contracts": "~5.1.0",
+                "orchestra/support-facades": "~3.1.0",
+                "php": ">=5.5.0"
             },
             "require-dev": {
-                "illuminate/database": "5.1.*",
-                "illuminate/http": "5.1.*",
-                "illuminate/pagination": "5.1.*",
+                "illuminate/database": "~5.1.0",
+                "illuminate/http": "~5.1.0",
+                "illuminate/pagination": "~5.1.0",
                 "mockery/mockery": "0.9.*",
-                "orchestra/support-core": "3.1.*"
+                "orchestra/support-core": "~3.1.0"
             },
             "suggest": {
                 "laravel/framework": "Allow using orchestra/facile component outside of Orchestra Platform (~5.1).",
@@ -1240,7 +1240,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2015-05-17 05:36:46"
+            "time": "2015-06-17 13:45:17"
         },
         {
             "name": "orchestra/foundation",
@@ -1867,29 +1867,29 @@
         },
         {
             "name": "orchestra/publisher",
-            "version": "v3.1.0",
+            "version": "v3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/publisher.git",
-                "reference": "86eb8139509a37dd3d80ed3a959eb412fe7b4b9c"
+                "reference": "0d9fa0b8e251bfd6007c04118e0cce5fcf115815"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/publisher/zipball/86eb8139509a37dd3d80ed3a959eb412fe7b4b9c",
-                "reference": "86eb8139509a37dd3d80ed3a959eb412fe7b4b9c",
+                "url": "https://api.github.com/repos/orchestral/publisher/zipball/0d9fa0b8e251bfd6007c04118e0cce5fcf115815",
+                "reference": "0d9fa0b8e251bfd6007c04118e0cce5fcf115815",
                 "shasum": ""
             },
             "require": {
-                "illuminate/support": "5.1.*",
-                "php": ">=5.4.0"
+                "illuminate/support": "~5.1.0",
+                "php": ">=5.5.0"
             },
             "require-dev": {
-                "illuminate/console": "5.1.*",
-                "illuminate/container": "5.1.*",
-                "illuminate/database": "5.1.*",
-                "illuminate/filesystem": "5.1.*",
+                "illuminate/console": "~5.1.0",
+                "illuminate/container": "~5.1.0",
+                "illuminate/database": "~5.1.0",
+                "illuminate/filesystem": "~5.1.0",
                 "mockery/mockery": "0.9.*",
-                "orchestra/extension": "3.1.*"
+                "orchestra/extension": "~3.1.0"
             },
             "suggest": {
                 "laravel/framework": "Allow using orchestra/extension component outside of Orchestra Platform (~5.1).",
@@ -1925,7 +1925,7 @@
                 "orchestral",
                 "orchestral-platform"
             ],
-            "time": "2015-05-24 06:01:02"
+            "time": "2015-06-17 21:41:41"
         },
         {
             "name": "orchestra/story",
