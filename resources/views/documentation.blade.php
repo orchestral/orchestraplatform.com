@@ -46,30 +46,3 @@
 	</div>
 </section>
 @stop
-
-@push('assets.footer')
-<script>
-jQuery(window).ready(function ($) {
-    $('h2, h3, h4, h5', '.page-content').each(function (key, el) {
-        var object = $(el);
-
-        object.on('click', function (e) {
-            var current, name;
-
-            e.preventDefault();
-
-            current = $(this);
-            name = current.attr('id');
-
-            if (_.isUndefined(name)) {
-                name = current.prev().children().eq(0).attr('name');
-            }
-
-            if (! _.isUndefined(name)) {
-                window.location.hash = name;
-            }
-        });
-    });
-});
-</script>
-@endpush

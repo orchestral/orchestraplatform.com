@@ -19,6 +19,7 @@ dir = {
     font: 'public/fonts'
   },
   resources: 'resources/assets',
+  browserify: 'resources/js',
   vendor: 'vendor/bower_components'
 };
 
@@ -27,8 +28,7 @@ elixir(function (mix) {
     includePaths: [dir.vendor+'/']
   });
 
-
-  mix.coffee('app.coffee', dir.resources+'/js');
+  mix.browserify('app.js', dir.resources+'/js/app.js', dir.browserify);
 
   mix.copy(dir.vendor+'/jquery/dist/jquery.min.js', dir.resources+'/js/vendor/jquery.js')
     .copy(dir.vendor+'/underscore/underscore-min.js', dir.resources+'/js/vendor/underscore.js')

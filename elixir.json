@@ -1,6 +1,6 @@
 {
   "sourcemaps": false,
   "babel": {
-    "enabled": false
+    "enabled": true
   }
 }
