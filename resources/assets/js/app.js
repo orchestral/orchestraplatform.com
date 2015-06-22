@@ -59,12 +59,10 @@ var Bootstrap = (function () {
         var object = (0, _vendorJquery2['default'])(el);
 
         object.on('click', function (e) {
-          var current, name;
-
           e.preventDefault();
 
-          current = (0, _vendorJquery2['default'])(this);
-          name = current.attr('id');
+          var current = (0, _vendorJquery2['default'])(this);
+          var name = current.attr('id');
 
           if (_vendorUnderscore2['default'].isUndefined(name)) {
             name = current.prev().children().eq(0).attr('name');

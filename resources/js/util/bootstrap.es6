@@ -16,15 +16,13 @@ class Bootstrap {
 
   onWindowReady() {
     $('h2, h3, h4, h5', '.page-content').each((key, el) => {
-      var object = $(el);
+      let object = $(el);
 
       object.on('click', function (e) {
-          var current, name;
-
           e.preventDefault();
 
-          current = $(this);
-          name = current.attr('id');
+          let current = $(this);
+          let name = current.attr('id');
 
           if (_.isUndefined(name)) {
               name = current.prev().children().eq(0).attr('name');
