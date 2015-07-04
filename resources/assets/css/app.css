@@ -7877,6 +7877,8 @@ nav[role="navigation"] {
       letter-spacing: 1px;
       color: #222;
       font-weight: 600; }
+      #documentation .page-content h3 code {
+        text-transform: none; }
     #documentation .page-content h4 {
       font-size: 20px;
       letter-spacing: 1px; }

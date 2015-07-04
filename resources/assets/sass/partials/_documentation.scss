@@ -124,6 +124,10 @@
             letter-spacing: 1px;
             color: #222;
             font-weight: 600;
+
+            code {
+                text-transform: none;
+            }
         }
 
         h4 {
