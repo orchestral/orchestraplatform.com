@@ -1241,16 +1241,16 @@
         },
         {
             "name": "orchestra/foundation",
-            "version": "3.1.x-dev",
+            "version": "v3.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "9ab63b39a36d9b4bbd09e0b50f80d60fb3396ca1"
+                "reference": "32cd239b1e6ad334b2015c0075bbae98ef27058b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/9ab63b39a36d9b4bbd09e0b50f80d60fb3396ca1",
-                "reference": "9ab63b39a36d9b4bbd09e0b50f80d60fb3396ca1",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/32cd239b1e6ad334b2015c0075bbae98ef27058b",
+                "reference": "32cd239b1e6ad334b2015c0075bbae98ef27058b",
                 "shasum": ""
             },
             "require": {
@@ -1319,7 +1319,7 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2015-07-04 07:50:13"
+            "time": "2015-07-04 14:05:25"
         },
         {
             "name": "orchestra/html",
@@ -1443,16 +1443,16 @@
         },
         {
             "name": "orchestra/kernel",
-            "version": "3.1.x-dev",
+            "version": "v3.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/kernel.git",
-                "reference": "50d763b8b5a8630871a7a4446611d591f74e676b"
+                "reference": "930503b120c79c5dc79150fc88dd4c7d89836011"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/kernel/zipball/50d763b8b5a8630871a7a4446611d591f74e676b",
-                "reference": "50d763b8b5a8630871a7a4446611d591f74e676b",
+                "url": "https://api.github.com/repos/orchestral/kernel/zipball/930503b120c79c5dc79150fc88dd4c7d89836011",
+                "reference": "930503b120c79c5dc79150fc88dd4c7d89836011",
                 "shasum": ""
             },
             "require": {
@@ -1504,7 +1504,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2015-07-03 17:20:40"
+            "time": "2015-07-04 14:10:59"
         },
         {
             "name": "orchestra/kurenai",
