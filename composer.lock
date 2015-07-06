@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c4d7c64f5cf5139d2fed1e75471e8df9",
+    "hash": "e781627114a234760ae15b55d1c043d9",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -1928,16 +1928,16 @@
         },
         {
             "name": "orchestra/story",
-            "version": "v3.1.0",
+            "version": "3.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/story.git",
-                "reference": "8278cd7d27fc9b9f2fc08c015a7c085e7d8010b0"
+                "reference": "fed65d05b6ce8c10356c4100e0ee880b618f4df2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/story/zipball/8278cd7d27fc9b9f2fc08c015a7c085e7d8010b0",
-                "reference": "8278cd7d27fc9b9f2fc08c015a7c085e7d8010b0",
+                "url": "https://api.github.com/repos/orchestral/story/zipball/fed65d05b6ce8c10356c4100e0ee880b618f4df2",
+                "reference": "fed65d05b6ce8c10356c4100e0ee880b618f4df2",
                 "shasum": ""
             },
             "require": {
@@ -1983,7 +1983,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2015-06-09 13:54:34"
+            "time": "2015-07-06 00:03:32"
         },
         {
             "name": "orchestra/support",
