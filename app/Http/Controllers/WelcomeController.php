@@ -31,4 +31,14 @@ class WelcomeController extends Controller
 
         return view($name, compact('packages', 'components'));
     }
+
+    /**
+     * Show pricing or plan page.
+     *
+     * @return mixed
+     */
+    public function plan()
+    {
+        return view('plan');
+    }
 }

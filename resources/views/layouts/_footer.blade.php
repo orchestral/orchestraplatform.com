@@ -6,9 +6,10 @@
 				</div>
 				<div class="col-md-6 hidden-xs">
 					<ul class="list-inline pull-right navigation">
+						<li class="docs"><a href="{{ handles('app::docs/latest') }}">Documentation</a></li>
+						<li><a href="{{ handles('app::plan') }}">Plan</a></li>
 						<li><a href="{{ handles('orchestra/story::/') }}">Blog</a></li>
 						<li><a href="https://www.facebook.com/groups/orchestraplatform/" target="_blank">Forum</a></li>
-						<li class="docs"><a href="{{ handles('app::docs/latest') }}">Documentation</a></li>
 					</ul>
 				</div>
 			</div>

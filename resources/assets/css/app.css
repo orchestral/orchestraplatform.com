@@ -7986,3 +7986,55 @@ nav[role="navigation"] {
     border-top: #222 solid 3px;
     width: 80px;
     margin-top: 40px; }
+
+#plan .flat .plan {
+  background: #fff;
+  border-radius: 6px;
+  list-style: none;
+  margin: 0 0 15px;
+  padding: 0 0 20px;
+  text-align: center; }
+  #plan .flat .plan li {
+    border-top: 1px solid #f5f5f5;
+    color: #ccc;
+    padding: 10px 15px;
+    transition: 300ms; }
+    #plan .flat .plan li.plan-price {
+      border-top: 0;
+      font-size: 18px; }
+    #plan .flat .plan li.plan-name {
+      background: #e74c3c;
+      border-radius: 6px 6px 0 0;
+      color: #fff;
+      font-size: 24px;
+      line-height: 24px;
+      margin-bottom: 30px;
+      padding: 15px; }
+    #plan .flat .plan li > strong {
+      color: #e74c3c; }
+    #plan .flat .plan li.plan-action {
+      border-top: 0;
+      margin-top: 10px; }
+  #plan .flat .plan.featured {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1); }
+    #plan .flat .plan.featured li.plan-name {
+      background: #000; }
+    #plan .flat .plan.featured:hover li.plan-name {
+      background: #c0392b; }
+  #plan .flat .plan.hover li.plan-name {
+    background: #000; }
+
+#plan section.body {
+  background-color: #f5f5f5;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+#plan .flat {
+  clear: both; }
+  #plan .flat hr {
+    padding: 10px 0 20px; }
+  #plan .flat .summary {
+    font-size: 18px;
+    margin-bottom: 30px; }

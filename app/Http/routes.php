@@ -13,6 +13,8 @@
 
 $router->get('/', 'WelcomeController@index');
 
+$router->get('plan', 'WelcomeController@plan');
+
 $router->get('docs/{version}', 'DocumentationController@index')
     ->where('version', '([a-zA-Z0-9\.]+)');
 
