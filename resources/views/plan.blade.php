@@ -18,6 +18,9 @@
                 <p>
                     However, at the same time we also aware that we need resources and money to continue improving Orchestra Platform and ensure that this project continue to grows with better documentation, extensions and themes.
                 </p>
+                <p>
+                    If you have any question, feel free to contact us at {!! HTML::mailto('hello@orchestraplatform.besnappy.com') !!}.
+                </p>
             </div>
             <hr>
 

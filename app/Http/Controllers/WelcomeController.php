@@ -40,6 +40,7 @@ class WelcomeController extends Controller
     public function plan()
     {
         set_meta('title', 'Plan');
+
         return view('plan');
     }
 }
