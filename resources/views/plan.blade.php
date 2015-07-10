@@ -11,20 +11,17 @@
 <section class="body">
     <div class="container">
         <div class="row flat">
-            <div class="col-xs-12 summary">
+            <div class="col-xs-12 notes">
                 <p>
                     At Orchestra Platform we always feel that our core products should be available to anyone at no cost (<a href="{{ handles('app::docs/latest/license') }}">MIT Licensed</a>).
                 </p>
                 <p>
                     However, at the same time we also aware that we need resources and money to continue improving Orchestra Platform and ensure that this project continue to grows with better documentation, extensions and themes.
                 </p>
-                <p>
-                    If you have any question, feel free to contact us at {!! HTML::mailto('hello@orchestraplatform.besnappy.com') !!}.
-                </p>
             </div>
             <hr>
 
-            <div class="col-lg-4 col-md-4 col-xs-6">
+            <div class="col-lg-4 col-md-4 col-xs-12">
                 <ul class="plan free-plan">
                     <li class="plan-name">Free</li>
                     <li class="plan-price">
@@ -48,7 +45,7 @@
                 </ul>
             </div>
 
-            <div class="col-lg-4 col-md-4 col-xs-6">
+            <div class="col-lg-4 col-md-4 col-xs-12">
                 <ul class="plan standard-plan featured">
                     <li class="plan-name">Standard</li>
                     <li class="plan-price">
@@ -72,7 +69,7 @@
                 </ul>
             </div>
 
-            <div class="col-lg-4 col-md-4 col-xs-6">
+            <div class="col-lg-4 col-md-4 col-xs-12">
                 <ul class="plan enterprise-plan">
                     <li class="plan-name">Enterprise</li>
                     <li class="plan-price">
@@ -98,7 +95,14 @@
                     </li>
                 </ul>
             </div>
+
+            <div class="class-xs-12 footnote">
+                <p class="text-center">
+                    If you have any question, feel free to contact us at {!! HTML::mailto('hello@orchestraplatform.besnappy.com') !!}.
+                </p>
+            </div>
         </div>
+
     </div>
 </section>
 @stop

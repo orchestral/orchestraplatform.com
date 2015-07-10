@@ -14,9 +14,15 @@
             padding: 10px 0 20px;
         }
 
-        .summary {
+        .notes {
+            clear: both;
             font-size: 18px;
-            margin-bottom: 30px;
+            margin: 30px 0;
+        }
+
+        .footnote {
+            clear: both;
+            padding-top: 30px;
         }
     }
 }

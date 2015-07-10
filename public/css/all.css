@@ -8239,9 +8239,13 @@ nav[role="navigation"] {
   clear: both; }
   #plan .flat hr {
     padding: 10px 0 20px; }
-  #plan .flat .summary {
+  #plan .flat .notes {
+    clear: both;
     font-size: 18px;
-    margin-bottom: 30px; }
+    margin: 30px 0; }
+  #plan .flat .footnote {
+    clear: both;
+    padding-top: 30px; }
 
 /*
  * Gloom Contrast
