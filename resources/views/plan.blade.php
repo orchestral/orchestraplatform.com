@@ -5,7 +5,7 @@
 @section('content')
 <section class="heading">
     <div class="container">
-        <h1>Plan</h1>
+        <h1>@get_meta('title')</h1>
     </div>
 </section>
 <section class="body">
