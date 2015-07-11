@@ -64,7 +64,7 @@
                         <strong>Prioritize bugfixes</strong> for maintained versions
                     </li>
                     <li class="plan-action">
-                        <a href="https://gum.co/orchestraplatform" class="btn btn-danger btn-lg">Subscribe</a>
+                        <a href="https://gum.co/orchestraplatform/EARLYBIRD" class="btn btn-danger btn-lg">Subscribe</a>
                     </li>
                 </ul>
             </div>
@@ -91,7 +91,7 @@
                         <strong>Extended support</strong> for any 2.x &amp; 3.x versions
                     </li>
                     <li class="plan-action">
-                        <a href="https://gum.co/orchestraplatform-enterprise" class="btn btn-danger btn-lg">Subscribe</a>
+                        <a href="https://gum.co/orchestraplatform-enterprise/EARLYBIRD" class="btn btn-danger btn-lg">Subscribe</a>
                     </li>
                 </ul>
             </div>
