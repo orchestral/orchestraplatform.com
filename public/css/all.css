@@ -8109,6 +8109,7 @@ nav[role="navigation"] {
   #posts .page-header h1.title, #post .page-header h1.title {
     color: #222;
     margin-top: 0px;
+    font-size: 30px;
     font-weight: 700; }
     #posts .page-header h1.title a, #post .page-header h1.title a {
       color: #000 !important; }
