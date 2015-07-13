@@ -27,6 +27,10 @@
 		}
 	},
 	"scripts": {
+	    "update-frontend": [
+            "bower update",
+            "gulp"
+	    ],
 		"post-install-cmd": [
 			"php artisan clear-compiled",
 			"php artisan orchestra:assemble"
