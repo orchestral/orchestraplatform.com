@@ -52,13 +52,15 @@
             position: relative;
             margin-bottom: 30px;
 
-            &:after {
-                content: '';
-                @include hr(2px);
-                margin: 15px auto 15px 0;
-                position: absolute;
-                top: 25px;
-                left: 0;
+            @media (min-width: $screen-md-min) {
+                &:after {
+                    content: '';
+                    @include hr(2px);
+                    margin: 15px auto 15px 0;
+                    position: absolute;
+                    top: 25px;
+                    left: 0;
+                }
             }
         }
 
@@ -97,7 +99,7 @@
         }
 
         p {
-            font-size: 14px;
+            font-size: 15px;
             font-weight: 400;
             line-height: 1.65;
         }

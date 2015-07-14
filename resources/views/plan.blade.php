@@ -16,7 +16,7 @@
                     At Orchestra Platform we always feel that our core products should be available to anyone at no cost (<a href="{{ handles('app::docs/latest/license') }}">MIT Licensed</a>).
                 </p>
                 <p>
-                    However, at the same time we also aware that we need resources and money to continue improving Orchestra Platform and ensure that this project continue to grows with better documentation, extensions and themes.
+                    However, at the same time we also aware that we need resources and money to continue improving Orchestra Platform and ensure that this project continues to grow with better documentation, extensions and themes.
                 </p>
             </div>
             <hr>
