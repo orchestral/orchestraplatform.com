@@ -8098,6 +8098,8 @@ nav[role="navigation"] {
       list-style: upper-roman; }
     #documentation .page-content ol, #documentation .page-content ul {
       font-size: 14px; }
+    #documentation .page-content table td {
+      font-size: 14px; }
     #documentation .page-content .page-header {
       margin: 0px 0 18px; }
       #documentation .page-content .page-header div.github-star {
@@ -8189,6 +8191,8 @@ nav[role="navigation"] {
   #posts .page-content table img, #post .page-content table img {
     width: inherit !important;
     height: inherit !important; }
+  #posts .page-content table td, #post .page-content table td {
+    font-size: 14px; }
   #posts .page-content .continue-reading, #post .page-content .continue-reading {
     text-align: right;
     margin-top: 30px; }
