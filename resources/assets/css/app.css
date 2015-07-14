@@ -7995,51 +7995,53 @@ nav[role="navigation"] {
   #documentation .page-sidebar, #documentation .page-content {
     padding-top: 20px;
     padding-bottom: 80px; }
-  #documentation .page-sidebar h3 {
-    font-size: 13px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #222;
-    font-weight: 600;
-    position: relative;
-    margin-bottom: 20px; }
-    #documentation .page-sidebar h3:after {
-      content: '';
-      border-top: #222 solid 2px;
-      width: 80px;
-      margin: 15px auto 15px 0;
-      position: absolute;
-      top: 5px;
-      left: 0; }
-  #documentation .page-sidebar ul:nth-child(4), #documentation .page-sidebar ul:nth-child(6) {
-    list-style: square;
-    margin-left: 16px; }
-    #documentation .page-sidebar ul:nth-child(4) li, #documentation .page-sidebar ul:nth-child(6) li {
-      margin: 0; }
-      #documentation .page-sidebar ul:nth-child(4) li ul, #documentation .page-sidebar ul:nth-child(6) li ul {
-        list-style: disc;
-        margin-bottom: 3px; }
-  #documentation .page-sidebar > ul {
-    list-style: none;
-    padding: 0; }
-    #documentation .page-sidebar > ul > li {
-      margin-bottom: 10px;
-      line-height: 25px;
-      font-weight: bold; }
-      #documentation .page-sidebar > ul > li a {
-        display: block;
-        font-weight: normal;
-        color: #0689ff; }
-      #documentation .page-sidebar > ul > li > a {
-        display: block;
-        font-weight: normal;
-        color: #0689ff; }
-      #documentation .page-sidebar > ul > li > ul {
-        margin-left: 5px;
-        margin-bottom: -5px;
-        list-style: square; }
-        #documentation .page-sidebar > ul > li > ul > li {
-          line-height: 20px; }
+  #documentation .page-sidebar {
+    font-size: 13px; }
+    #documentation .page-sidebar h3 {
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #222;
+      font-weight: 600;
+      position: relative;
+      margin-bottom: 20px; }
+      #documentation .page-sidebar h3:after {
+        content: '';
+        border-top: #222 solid 2px;
+        width: 80px;
+        margin: 15px auto 15px 0;
+        position: absolute;
+        top: 5px;
+        left: 0; }
+    #documentation .page-sidebar ul:nth-child(4), #documentation .page-sidebar ul:nth-child(6) {
+      list-style: square;
+      margin-left: 16px; }
+      #documentation .page-sidebar ul:nth-child(4) li, #documentation .page-sidebar ul:nth-child(6) li {
+        margin: 0; }
+        #documentation .page-sidebar ul:nth-child(4) li ul, #documentation .page-sidebar ul:nth-child(6) li ul {
+          list-style: disc;
+          margin-bottom: 3px; }
+    #documentation .page-sidebar > ul {
+      list-style: none;
+      padding: 0; }
+      #documentation .page-sidebar > ul > li {
+        margin-bottom: 10px;
+        line-height: 25px;
+        font-weight: bold; }
+        #documentation .page-sidebar > ul > li a {
+          display: block;
+          font-weight: normal;
+          color: #0689ff; }
+        #documentation .page-sidebar > ul > li > a {
+          display: block;
+          font-weight: normal;
+          color: #0689ff; }
+        #documentation .page-sidebar > ul > li > ul {
+          margin-left: 5px;
+          margin-bottom: -5px;
+          list-style: square; }
+          #documentation .page-sidebar > ul > li > ul > li {
+            line-height: 20px; }
   #documentation .page-content {
     border-left: #eee solid 1px;
     line-height: 25px; }
