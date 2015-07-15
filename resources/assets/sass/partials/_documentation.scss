@@ -99,6 +99,10 @@
             @include block_code();
         }
 
+        p {
+            line-height: 2.2;
+        }
+
         h1 {
             font-weight: 700;
         }
@@ -154,7 +158,8 @@
         }
 
         ol, ul {
-            font-size: 14px;
+            font-size: 15px;
+            line-height: 1.8;
         }
 
         table {

@@ -8062,6 +8062,8 @@ nav[role="navigation"] {
         background: none;
         color: rgba(255, 255, 255, 0.85);
         color: #fff; }
+    #documentation .page-content p {
+      line-height: 2.2; }
     #documentation .page-content h1 {
       font-weight: 700; }
     #documentation .page-content h2 {
@@ -8097,7 +8099,8 @@ nav[role="navigation"] {
     #documentation .page-content ol li {
       list-style: upper-roman; }
     #documentation .page-content ol, #documentation .page-content ul {
-      font-size: 14px; }
+      font-size: 15px;
+      line-height: 1.8; }
     #documentation .page-content table td {
       font-size: 14px; }
     #documentation .page-content .page-header {
@@ -8187,7 +8190,7 @@ nav[role="navigation"] {
   #posts .page-content p, #post .page-content p {
     font-size: 15px;
     font-weight: 400;
-    line-height: 1.65; }
+    line-height: 2.2; }
   #posts .page-content table img, #post .page-content table img {
     width: inherit !important;
     height: inherit !important; }
