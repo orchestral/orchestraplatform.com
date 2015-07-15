@@ -8045,6 +8045,11 @@ nav[role="navigation"] {
   #documentation .page-content {
     border-left: #eee solid 1px;
     line-height: 25px; }
+    #documentation .page-content blockquote {
+      background-color: #f9f9f9; }
+      #documentation .page-content blockquote p {
+        font-size: 14px;
+        line-height: 2.0; }
     #documentation .page-content code {
       background: #e2f1ff;
       color: rgba(0, 0, 0, 0.7);
@@ -8054,7 +8059,7 @@ nav[role="navigation"] {
       border: none;
       border-radius: 3px;
       padding: 20px;
-      margin: 10px 0 20px;
+      margin: 15px 0 20px;
       font-size: 12px;
       line-height: 1.42857; }
       #documentation .page-content pre code {
@@ -8176,7 +8181,7 @@ nav[role="navigation"] {
     border: none;
     border-radius: 3px;
     padding: 20px;
-    margin: 10px 0 20px;
+    margin: 15px 0 20px;
     font-size: 12px;
     line-height: 1.42857; }
     #posts .page-content pre code, #post .page-content pre code {

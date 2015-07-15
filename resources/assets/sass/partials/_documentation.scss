@@ -91,6 +91,14 @@
         border-left: #eee solid 1px;
         line-height: 25px;
 
+        blockquote {
+            background-color: #f9f9f9;
+            p {
+                font-size: 14px;
+                line-height: 2.0;
+            }
+        }
+
         code {
             @include code;
         }
