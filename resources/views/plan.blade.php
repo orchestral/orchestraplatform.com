@@ -50,7 +50,7 @@
                 <ul class="plan standard-plan featured">
                     <li class="plan-name">Standard</li>
                     <li class="plan-price">
-                        <strong>$100</strong> / year
+                        <strong>$35</strong> / 3 months
                     </li>
                     <li>
                         <strong>License</strong> single user
@@ -74,7 +74,7 @@
                 <ul class="plan enterprise-plan">
                     <li class="plan-name">Enterprise</li>
                     <li class="plan-price">
-                        <strong>$1000</strong> / year
+                        <strong>$350</strong> / 3 months
                     </li>
                     <li>
                         <strong>License</strong> single user
