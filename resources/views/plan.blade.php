@@ -1,5 +1,6 @@
 @extends('layouts.website')
 
+@set_meta('title', 'Subscribe to a plan')
 @set_meta('html::body.attributes', ['id' => 'plan'])
 
 @section('content')
@@ -64,7 +65,7 @@
                         <strong>Prioritize bugfixes</strong> for maintained versions
                     </li>
                     <li class="plan-action">
-                        <a href="https://gum.co/orchestraplatform/EARLYBIRD" class="btn btn-danger btn-lg">Subscribe</a>
+                        <a class="gumroad-button" href="https://gumroad.com/l/wSiTB">Subscribe</a>
                     </li>
                 </ul>
             </div>
@@ -91,7 +92,7 @@
                         <strong>Extended support</strong> for any 2.x &amp; 3.x versions
                     </li>
                     <li class="plan-action">
-                        <a href="https://gum.co/orchestraplatform-enterprise/EARLYBIRD" class="btn btn-danger btn-lg">Subscribe</a>
+                        <a class="gumroad-button" href="https://gumroad.com/l/DMFi">Subscribe</a>
                     </li>
                 </ul>
             </div>
