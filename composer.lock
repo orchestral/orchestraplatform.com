@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "69e9bd852cc3d567ced43bd858bb86a2",
+    "hash": "98205d110c60b6ada7b855af13d4f163",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -428,7 +428,7 @@
                     "name": "Jeremy Lindblom",
                     "email": "jeremeamia@gmail.com",
                     "homepage": "https://github.com/jeremeamia",
-                    "role": "Developer"
+                    "role": "developer"
                 }
             ],
             "description": "Serialize Closure objects, including their context and binding",
@@ -1116,19 +1116,20 @@
         },
         {
             "name": "orchestra/extension",
-            "version": "v3.1.4",
+            "version": "v3.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/extension.git",
-                "reference": "3d2290807a3d49f9bd1a75ab849b7ffc68f6156b"
+                "reference": "067a305075239b059c3450743d01a13217bed3e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/extension/zipball/3d2290807a3d49f9bd1a75ab849b7ffc68f6156b",
-                "reference": "3d2290807a3d49f9bd1a75ab849b7ffc68f6156b",
+                "url": "https://api.github.com/repos/orchestral/extension/zipball/067a305075239b059c3450743d01a13217bed3e4",
+                "reference": "067a305075239b059c3450743d01a13217bed3e4",
                 "shasum": ""
             },
             "require": {
+                "orchestra/contracts": "~3.1.6",
                 "orchestra/memory": "~3.1.0",
                 "php": ">=5.5.0"
             },
@@ -1173,7 +1174,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2015-06-26 21:40:16"
+            "time": "2015-07-26 06:52:39"
         },
         {
             "name": "orchestra/facile",
@@ -1238,25 +1239,25 @@
         },
         {
             "name": "orchestra/foundation",
-            "version": "v3.1.5",
+            "version": "v3.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "1882a12c352f04cad944cba6eb9c09f1e819f8e7"
+                "reference": "9431e623766793fec04fa6be904e31a2d581026c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/1882a12c352f04cad944cba6eb9c09f1e819f8e7",
-                "reference": "1882a12c352f04cad944cba6eb9c09f1e819f8e7",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/9431e623766793fec04fa6be904e31a2d581026c",
+                "reference": "9431e623766793fec04fa6be904e31a2d581026c",
                 "shasum": ""
             },
             "require": {
-                "laravel/framework": "~5.1.0",
+                "laravel/framework": "~5.1.8",
                 "orchestra/asset": "~3.1.0",
                 "orchestra/auth": "~3.1.3",
-                "orchestra/extension": "~3.1.4",
+                "orchestra/extension": "~3.1.5",
                 "orchestra/html": "~3.1.1",
-                "orchestra/kernel": "~3.1.5",
+                "orchestra/kernel": "~3.1.6",
                 "orchestra/memory": "~3.1.0",
                 "orchestra/messages": "~3.1.0",
                 "orchestra/model": "~3.1.0",
@@ -1273,7 +1274,7 @@
             "require-dev": {
                 "mockery/mockery": "^0.9.1",
                 "orchestra/resources": "~3.1.0",
-                "orchestra/testing": "~3.1.0"
+                "orchestra/testing": "~3.1.3"
             },
             "suggest": {
                 "orchestra/ftp-updater": "Allow Extension with asset to be updated/uploaded environment without SSH support (~3.1).",
@@ -1316,7 +1317,7 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2015-07-06 13:48:49"
+            "time": "2015-07-26 06:46:11"
         },
         {
             "name": "orchestra/html",
@@ -1440,16 +1441,16 @@
         },
         {
             "name": "orchestra/kernel",
-            "version": "v3.1.5",
+            "version": "v3.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/kernel.git",
-                "reference": "930503b120c79c5dc79150fc88dd4c7d89836011"
+                "reference": "c449a67ce018f59b2f56e180927cb4294ea7739b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/kernel/zipball/930503b120c79c5dc79150fc88dd4c7d89836011",
-                "reference": "930503b120c79c5dc79150fc88dd4c7d89836011",
+                "url": "https://api.github.com/repos/orchestral/kernel/zipball/c449a67ce018f59b2f56e180927cb4294ea7739b",
+                "reference": "c449a67ce018f59b2f56e180927cb4294ea7739b",
                 "shasum": ""
             },
             "require": {
@@ -1501,7 +1502,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2015-07-04 14:10:59"
+            "time": "2015-07-26 07:15:12"
         },
         {
             "name": "orchestra/kurenai",
