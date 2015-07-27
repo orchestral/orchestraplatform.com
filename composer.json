@@ -1,56 +1,57 @@
 {
-	"name": "orchestra/website",
-	"description": "Orchestra Platform Website",
-	"license": "proprietary",
-	"type": "project",
-	"require": {
-		"php": ">=5.5.9",
-		"orchestra/foundation": "~3.1.6",
-		"orchestra/avatar": "~3.1",
-		"orchestra/installer": "~3.1",
-		"orchestra/control": "~3.1",
-		"orchestra/story": "~3.1.1",
-		"orchestra/kurenai": "~0.1",
-		"pda/pheanstalk": "~3.0"
-	},
-	"require-dev": {
-		"phpspec/phpspec": "~2.1",
-		"orchestra/studio": "~3.1",
-		"stackie/adminlte-theme": "~0.1"
-	},
-	"autoload": {
-		"classmap": [
-			"resources/database"
-		],
-		"psr-4": {
-			"App\\": "app/"
-		}
-	},
-	"scripts": {
-	    "update-frontend": [
+    "name": "orchestra/website",
+    "description": "Orchestra Platform Website",
+    "license": "proprietary",
+    "type": "project",
+    "require": {
+        "php": ">=5.5.9",
+        "orchestra/foundation": "~3.1.6",
+        "orchestra/avatar": "~3.1",
+        "orchestra/installer": "~3.1",
+        "orchestra/extension": "~3.1.6",
+        "orchestra/control": "~3.1",
+        "orchestra/story": "~3.1.1",
+        "orchestra/kurenai": "~0.1",
+        "pda/pheanstalk": "~3.0"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "~2.1",
+        "orchestra/studio": "~3.1",
+        "stackie/adminlte-theme": "^0.1"
+    },
+    "autoload": {
+        "classmap": [
+            "resources/database"
+        ],
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "scripts": {
+        "update-frontend": [
             "bower update",
             "gulp"
-	    ],
-		"post-install-cmd": [
-			"php artisan clear-compiled",
-			"php artisan orchestra:assemble"
-		],
-		"pre-update-cmd": [
-			"php artisan clear-compiled"
-		],
-		"post-update-cmd": [
-			"php artisan orchestra:assemble"
-		],
-		"post-root-package-install": [
-			"php -r \"copy('.env.example', '.env');\""
-		],
-		"post-create-project-cmd": [
-			"php artisan key:generate"
-		]
-	},
-	"config": {
-		"preferred-install": "dist"
-	},
-	"prefer-stable": true,
-	"minimum-stability": "dev"
+        ],
+        "post-install-cmd": [
+            "php artisan clear-compiled",
+            "php artisan orchestra:assemble"
+        ],
+        "pre-update-cmd": [
+            "php artisan clear-compiled"
+        ],
+        "post-update-cmd": [
+            "php artisan orchestra:assemble"
+        ],
+        "post-root-package-install": [
+            "php -r \"copy('.env.example', '.env');\""
+        ],
+        "post-create-project-cmd": [
+            "php artisan key:generate"
+        ]
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
 }

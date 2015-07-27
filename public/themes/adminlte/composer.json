@@ -1,25 +1,32 @@
 {
-	"name": "stackie/adminlte-theme",
-	"description": "AdminLTE Theme for Orchestra Platform",
-	"type": "orchestra-theme",
-	"license": "MIT",
-	"authors": [
-		{
-			"name": "Mior Muhammad Zaki",
-			"email": "crynobone@gmail.com",
-			"homepage": "https://github.com/crynobone"
-		}
-	],
-	"require": {
-		"php": ">=5.4.0",
-		"orchestra/avatar": "~3.0",
-		"orchestra/theme-installer": "~1.0"
-	},
-	"extra": {
-		"theme-name": "adminlte",
-		"branch-alias": {
-			"dev-master": "1.0-dev"
-		}
-	},
-	"minimum-stability": "dev"
+    "name": "stackie/adminlte-theme",
+    "description": "AdminLTE Theme for Orchestra Platform",
+    "type": "orchestra-theme",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mior Muhammad Zaki",
+            "email": "crynobone@gmail.com",
+            "homepage": "https://github.com/crynobone"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "orchestra/avatar": "~3.0",
+        "orchestra/theme-installer": "~1.0"
+    },
+    "scripts": {
+        "update-frontend": [
+            "bower update",
+            "bower-installer",
+            "gulp"
+        ]
+    },
+    "extra": {
+        "theme-name": "adminlte",
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "minimum-stability": "dev"
 }
