@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2545c18e8bd5c13d4b426571db8cefbb",
+    "hash": "5ce2aea086eab5979857eed7a0c536f3",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -1116,16 +1116,16 @@
         },
         {
             "name": "orchestra/extension",
-            "version": "v3.1.6",
+            "version": "v3.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/extension.git",
-                "reference": "6e24edd6c721d45e81e7152699d21ec1cba3215a"
+                "reference": "a525939a9785d41aaf63896794d285261c994138"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/extension/zipball/6e24edd6c721d45e81e7152699d21ec1cba3215a",
-                "reference": "6e24edd6c721d45e81e7152699d21ec1cba3215a",
+                "url": "https://api.github.com/repos/orchestral/extension/zipball/a525939a9785d41aaf63896794d285261c994138",
+                "reference": "a525939a9785d41aaf63896794d285261c994138",
                 "shasum": ""
             },
             "require": {
@@ -1138,7 +1138,7 @@
                 "illuminate/container": "~5.1.0",
                 "illuminate/filesystem": "~5.1.0",
                 "illuminate/http": "~5.1.0",
-                "mockery/mockery": "0.9.*"
+                "mockery/mockery": "^0.9.1"
             },
             "suggest": {
                 "laravel/framework": "Allow using orchestra/extension component outside of Orchestra Platform (~5.1).",
@@ -1174,7 +1174,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2015-07-26 11:47:48"
+            "time": "2015-07-28 04:49:39"
         },
         {
             "name": "orchestra/facile",
@@ -1239,16 +1239,16 @@
         },
         {
             "name": "orchestra/foundation",
-            "version": "v3.1.6",
+            "version": "v3.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "9431e623766793fec04fa6be904e31a2d581026c"
+                "reference": "8dd4ae181a0ff9de07111258339012647f8429bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/9431e623766793fec04fa6be904e31a2d581026c",
-                "reference": "9431e623766793fec04fa6be904e31a2d581026c",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/8dd4ae181a0ff9de07111258339012647f8429bf",
+                "reference": "8dd4ae181a0ff9de07111258339012647f8429bf",
                 "shasum": ""
             },
             "require": {
@@ -1317,7 +1317,7 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2015-07-26 06:46:11"
+            "time": "2015-07-28 04:36:21"
         },
         {
             "name": "orchestra/html",
