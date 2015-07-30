@@ -65,7 +65,7 @@
                         <strong>Prioritize bugfixes</strong> for maintained versions
                     </li>
                     <li class="plan-action">
-                        <a class="gumroad-button" href="https://gumroad.com/l/wSiTB">Subscribe</a>
+                        <a class="gumroad-button" href="https://gumroad.com/l/wSiTB/EARLYBIRD">Subscribe</a>
                     </li>
                 </ul>
             </div>
@@ -92,7 +92,7 @@
                         <strong>Extended support</strong> for any 2.x &amp; 3.x versions
                     </li>
                     <li class="plan-action">
-                        <a class="gumroad-button" href="https://gumroad.com/l/DMFi">Subscribe</a>
+                        <a class="gumroad-button" href="https://gumroad.com/l/DMFi/EARLYBIRD">Subscribe</a>
                     </li>
                 </ul>
             </div>
