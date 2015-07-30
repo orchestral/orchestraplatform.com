@@ -574,16 +574,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "1.0.10",
+            "version": "1.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "3475ce0b1b5cab41f012905c4c58ad645088f7c9"
+                "reference": "c16222fdc02467eaa12cb6d6d0e65527741f6040"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/3475ce0b1b5cab41f012905c4c58ad645088f7c9",
-                "reference": "3475ce0b1b5cab41f012905c4c58ad645088f7c9",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/c16222fdc02467eaa12cb6d6d0e65527741f6040",
+                "reference": "c16222fdc02467eaa12cb6d6d0e65527741f6040",
                 "shasum": ""
             },
             "require": {
@@ -651,7 +651,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2015-07-21 19:35:53"
+            "time": "2015-07-28 20:41:58"
         },
         {
             "name": "monolog/monolog",
@@ -1864,20 +1864,21 @@
         },
         {
             "name": "orchestra/publisher",
-            "version": "v3.1.1",
+            "version": "v3.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/publisher.git",
-                "reference": "0d9fa0b8e251bfd6007c04118e0cce5fcf115815"
+                "reference": "80f71fe60272044051f87e40652a8d835f7e3516"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/publisher/zipball/0d9fa0b8e251bfd6007c04118e0cce5fcf115815",
-                "reference": "0d9fa0b8e251bfd6007c04118e0cce5fcf115815",
+                "url": "https://api.github.com/repos/orchestral/publisher/zipball/80f71fe60272044051f87e40652a8d835f7e3516",
+                "reference": "80f71fe60272044051f87e40652a8d835f7e3516",
                 "shasum": ""
             },
             "require": {
                 "illuminate/support": "~5.1.0",
+                "orchestra/contracts": "~3.1.0",
                 "php": ">=5.5.0"
             },
             "require-dev": {
@@ -1885,8 +1886,7 @@
                 "illuminate/container": "~5.1.0",
                 "illuminate/database": "~5.1.0",
                 "illuminate/filesystem": "~5.1.0",
-                "mockery/mockery": "0.9.*",
-                "orchestra/extension": "~3.1.0"
+                "mockery/mockery": "0.9.*"
             },
             "suggest": {
                 "laravel/framework": "Allow using orchestra/extension component outside of Orchestra Platform (~5.1).",
@@ -1922,7 +1922,7 @@
                 "orchestral",
                 "orchestral-platform"
             ],
-            "time": "2015-06-17 21:41:41"
+            "time": "2015-07-29 10:02:00"
         },
         {
             "name": "orchestra/story",
