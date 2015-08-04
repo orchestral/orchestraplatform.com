@@ -1,10 +1,19 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use Illuminate\Database\Eloquent\Model as Eloquent;
+use Illuminate\Database\Eloquent\Model;
 
 class DatabaseSeeder extends Seeder
 {
+    /**
+     * List of seeders.
+     *
+     * @var array
+     */
+    protected $seeders = [
+        PostsTableSeeder::class,
+    ];
+
     /**
      * Run the database seeds.
      *
@@ -12,10 +21,12 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        Eloquent::unguard();
+        Model::unguard();
 
-        $this->call('PostsTableSeeder');
+        foreach ($this->seeders as $seeder) {
+            $this->call($seeder);
+        }
 
-        Eloquent::reguard();
+        Model::reguard();
     }
 }

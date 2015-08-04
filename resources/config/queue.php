@@ -67,9 +67,10 @@ return [
         ],
 
         'redis' => [
-            'driver' => 'redis',
-            'queue'  => 'default',
-            'expire' => 60,
+            'driver'     => 'redis',
+            'connection' => 'default',
+            'queue'      => 'default',
+            'expire'     => 60,
         ],
 
     ],
@@ -86,7 +87,8 @@ return [
     */
 
     'failed' => [
-        'database' => env('DB_CONNECTION', 'primary'), 'table' => 'failed_jobs',
+        'database' => env('DB_CONNECTION', 'primary'),
+        'table'    => 'failed_jobs',
     ],
 
 ];

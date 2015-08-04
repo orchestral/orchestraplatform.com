@@ -37,8 +37,9 @@ return [
         ],
 
         'database' => [
-            'driver' => 'database',
-            'table'  => 'cache',
+            'driver'     => 'database',
+            'table'      => 'cache',
+            'connection' => null,
         ],
 
         'file' => [
@@ -56,7 +57,8 @@ return [
         ],
 
         'redis' => [
-            'driver' => 'redis',
+            'driver'     => 'redis',
+            'connection' => 'default',
         ],
 
     ],
