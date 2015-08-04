@@ -13,9 +13,9 @@ class Version
      * @var array
      */
     protected $label = [
-        'lts' => 'info',
+        'lts'    => 'info',
         'stable' => 'success',
-        'eol' => 'danger',
+        'eol'    => 'danger',
     ];
 
     /**
@@ -42,9 +42,9 @@ class Version
      */
     public function __construct($code, $status, $url = null)
     {
-        $this->code = $code;
+        $this->code   = $code;
         $this->status = $status;
-        $this->url = $url ?: "app::docs/{$code}/";
+        $this->url    = $url ?: "app::docs/{$code}/";
     }
 
     /**
@@ -101,6 +101,7 @@ class Version
      * Set URL.
      *
      * @param  string  $url
+     *
      * @return $this
      */
     public function setURL($url)
@@ -109,5 +110,4 @@ class Version
 
         return $this;
     }
-
 }

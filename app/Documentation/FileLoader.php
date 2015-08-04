@@ -2,7 +2,7 @@
 
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Contracts\Foundation\Application;
-use Illuminate\Contracts\Cache\Repository as Cache;
+use Illuminate\Contracts\Cache\Factory as Cache;
 use Illuminate\Contracts\Filesystem\FileNotFoundException;
 
 class FileLoader
@@ -38,7 +38,7 @@ class FileLoader
     public function __construct(Application $app, Cache $cache, Filesystem $files)
     {
         $this->app   = $app;
-        $this->cache = $cache;
+        $this->cache = $cache->driver('file');
         $this->files = $files;
     }
 
