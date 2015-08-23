@@ -3350,25 +3350,29 @@
         },
         {
             "name": "orchestra/studio",
-            "version": "v3.1.0",
+            "version": "v3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/studio.git",
-                "reference": "2866bade4415d5a61aa2d3c1aa9cd7d637635777"
+                "reference": "46b90ba0c6d14f921dcb0b5b4f068c314f58bbc3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/studio/zipball/2866bade4415d5a61aa2d3c1aa9cd7d637635777",
-                "reference": "2866bade4415d5a61aa2d3c1aa9cd7d637635777",
+                "url": "https://api.github.com/repos/orchestral/studio/zipball/46b90ba0c6d14f921dcb0b5b4f068c314f58bbc3",
+                "reference": "46b90ba0c6d14f921dcb0b5b4f068c314f58bbc3",
                 "shasum": ""
             },
             "require": {
-                "orchestra/support": "3.1.*",
+                "orchestra/support": "~3.1.0",
                 "php": ">=5.4.0"
             },
             "require-dev": {
-                "illuminate/console": "5.1.*",
+                "illuminate/console": "~5.1.0",
+                "illuminate/filesystem": "~5.1.0",
                 "mockery/mockery": "0.9.*"
+            },
+            "suggest": {
+                "wikimedia/composer-merge-plugin": "Add workbench support for Orchestra Platform (~1.1)."
             },
             "type": "library",
             "extra": {
@@ -3393,7 +3397,7 @@
                 }
             ],
             "description": "Code Generator for Orchestra Platform",
-            "time": "2015-06-09 14:08:32"
+            "time": "2015-08-23 10:17:21"
         },
         {
             "name": "orchestra/theme-installer",
