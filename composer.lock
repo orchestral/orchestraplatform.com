@@ -1756,16 +1756,16 @@
         },
         {
             "name": "orchestra/notifier",
-            "version": "v3.1.4",
+            "version": "v3.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/notifier.git",
-                "reference": "fc44b418cf5f842ed2cd1755528748d43d4a29a8"
+                "reference": "3809c8865e067c00478a12e4d57da5ebf1ffd993"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/notifier/zipball/fc44b418cf5f842ed2cd1755528748d43d4a29a8",
-                "reference": "fc44b418cf5f842ed2cd1755528748d43d4a29a8",
+                "url": "https://api.github.com/repos/orchestral/notifier/zipball/3809c8865e067c00478a12e4d57da5ebf1ffd993",
+                "reference": "3809c8865e067c00478a12e4d57da5ebf1ffd993",
                 "shasum": ""
             },
             "require": {
@@ -1808,20 +1808,20 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2015-08-22 19:14:48"
+            "time": "2015-08-24 04:53:08"
         },
         {
             "name": "orchestra/optimize",
-            "version": "v3.1.1",
+            "version": "v3.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/optimize.git",
-                "reference": "d2a6300262b12452ef3c57c10b7bdc1e40ba4301"
+                "reference": "fd8903c51cd8ec25545be967062e969bea6a91b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/optimize/zipball/d2a6300262b12452ef3c57c10b7bdc1e40ba4301",
-                "reference": "d2a6300262b12452ef3c57c10b7bdc1e40ba4301",
+                "url": "https://api.github.com/repos/orchestral/optimize/zipball/fd8903c51cd8ec25545be967062e969bea6a91b1",
+                "reference": "fd8903c51cd8ec25545be967062e969bea6a91b1",
                 "shasum": ""
             },
             "require": {
@@ -1861,7 +1861,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2015-06-16 15:45:59"
+            "time": "2015-08-24 00:01:34"
         },
         {
             "name": "orchestra/publisher",
