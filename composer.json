@@ -17,7 +17,8 @@
     "require-dev": {
         "phpspec/phpspec": "~2.1",
         "orchestra/studio": "~3.1",
-        "stackie/adminlte-theme": "^0.1"
+        "stackie/adminlte-theme": "^0.1",
+        "laravel/homestead": "~2.1"
     },
     "autoload": {
         "classmap": [

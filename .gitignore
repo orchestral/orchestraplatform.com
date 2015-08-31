@@ -12,6 +12,7 @@
 
 # Vagrant
 /.vagrant/
+/Homestead.yaml
 
 # PHP-CS-Fixer
 .php_cs.cache
