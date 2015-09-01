@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d9f342e978041416ccd84a2b8d1fdfd1",
+    "hash": "4600a52be66dda3e6eeb95c1f280e682",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -1927,27 +1927,27 @@
         },
         {
             "name": "orchestra/story",
-            "version": "v3.1.2",
+            "version": "v3.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/story.git",
-                "reference": "a7b378dd12845c231a0be7604791706ca268ef96"
+                "reference": "3a82d16483ec020a6e422d679337bdc974059f60"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/story/zipball/a7b378dd12845c231a0be7604791706ca268ef96",
-                "reference": "a7b378dd12845c231a0be7604791706ca268ef96",
+                "url": "https://api.github.com/repos/orchestral/story/zipball/3a82d16483ec020a6e422d679337bdc974059f60",
+                "reference": "3a82d16483ec020a6e422d679337bdc974059f60",
                 "shasum": ""
             },
             "require": {
                 "erusev/parsedown": "~1.1",
                 "erusev/parsedown-extra": "~0.2",
-                "orchestra/contracts": "3.1.*",
-                "orchestra/facile": "3.1.*",
+                "orchestra/contracts": "~3.1.0",
+                "orchestra/facile": "~3.1.0",
                 "php": ">=5.5.0"
             },
             "require-dev": {
-                "orchestra/foundation": "3.1.*",
+                "orchestra/foundation": "~3.1.0",
                 "phpspec/phpspec": "~2.1"
             },
             "type": "library",
@@ -1982,7 +1982,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2015-08-22 16:25:03"
+            "time": "2015-09-01 10:10:29"
         },
         {
             "name": "orchestra/support",
