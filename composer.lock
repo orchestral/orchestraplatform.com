@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4600a52be66dda3e6eeb95c1f280e682",
+    "hash": "d72f1f080f4ca6f01c44bb99f5fd5355",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -1986,16 +1986,16 @@
         },
         {
             "name": "orchestra/support",
-            "version": "v3.1.2",
+            "version": "v3.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/support.git",
-                "reference": "fc2f2e53c050f97b804836001d434f77e652530f"
+                "reference": "af295e526a1d10f308d203d18e37c2cd33aff31f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/support/zipball/fc2f2e53c050f97b804836001d434f77e652530f",
-                "reference": "fc2f2e53c050f97b804836001d434f77e652530f",
+                "url": "https://api.github.com/repos/orchestral/support/zipball/af295e526a1d10f308d203d18e37c2cd33aff31f",
+                "reference": "af295e526a1d10f308d203d18e37c2cd33aff31f",
                 "shasum": ""
             },
             "require": {
@@ -2010,10 +2010,8 @@
             },
             "require-dev": {
                 "illuminate/database": "~5.1.0",
-                "illuminate/events": "~5.1.0",
                 "illuminate/routing": "~5.1.0",
                 "illuminate/session": "~5.1.0",
-                "illuminate/validation": "~5.1.0",
                 "mockery/mockery": "0.9.*"
             },
             "suggest": {
@@ -2054,7 +2052,7 @@
                 "utilities",
                 "validator"
             ],
-            "time": "2015-06-16 06:37:13"
+            "time": "2015-09-02 01:10:22"
         },
         {
             "name": "orchestra/translation",
@@ -2235,16 +2233,16 @@
         },
         {
             "name": "pda/pheanstalk",
-            "version": "v3.0.2",
+            "version": "v3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pda/pheanstalk.git",
-                "reference": "2078587884faf43fc00976b152b2dde0b5e3830e"
+                "reference": "430e77c551479aad0c6ada0450ee844cf656a18b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pda/pheanstalk/zipball/2078587884faf43fc00976b152b2dde0b5e3830e",
-                "reference": "2078587884faf43fc00976b152b2dde0b5e3830e",
+                "url": "https://api.github.com/repos/pda/pheanstalk/zipball/430e77c551479aad0c6ada0450ee844cf656a18b",
+                "reference": "430e77c551479aad0c6ada0450ee844cf656a18b",
                 "shasum": ""
             },
             "require": {
@@ -2256,7 +2254,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.x-dev"
+                    "dev-master": "3.0-dev"
                 }
             },
             "autoload": {
@@ -2281,7 +2279,7 @@
             "keywords": [
                 "beanstalkd"
             ],
-            "time": "2014-11-08 20:00:00"
+            "time": "2015-08-07 21:42:41"
         },
         {
             "name": "predis/predis",
@@ -3350,16 +3348,16 @@
         },
         {
             "name": "laravel/homestead",
-            "version": "v2.1.6",
+            "version": "v2.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/homestead.git",
-                "reference": "968dd528fee49eecc496610c053a80e42b61560b"
+                "reference": "5690eca04402f6bc16b6fb785daeb0f435b65299"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/homestead/zipball/968dd528fee49eecc496610c053a80e42b61560b",
-                "reference": "968dd528fee49eecc496610c053a80e42b61560b",
+                "url": "https://api.github.com/repos/laravel/homestead/zipball/5690eca04402f6bc16b6fb785daeb0f435b65299",
+                "reference": "5690eca04402f6bc16b6fb785daeb0f435b65299",
                 "shasum": ""
             },
             "require": {
@@ -3387,7 +3385,7 @@
                 }
             ],
             "description": "A virtual machine for web artisans.",
-            "time": "2015-08-04 02:11:37"
+            "time": "2015-09-02 02:20:48"
         },
         {
             "name": "orchestra/studio",
