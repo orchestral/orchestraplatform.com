@@ -28,6 +28,8 @@ elixir(function (mix) {
     includePaths: [dir.vendor+'/']
   });
 
+  mix.sass('errors.scss', dir.resources+'/css');
+
   mix.browserify('app.js', dir.resources+'/js/app.js', dir.browserify);
 
   mix.copy(dir.vendor+'/jquery/dist/jquery.min.js', dir.resources+'/js/vendor/jquery.js')
@@ -42,7 +44,11 @@ elixir(function (mix) {
   mix.styles([
     'app.css',
     'vendor/prettify.css'
-  ]);
+  ], dir.asset.css);
+
+  mix.styles([
+    'errors.css'
+  ], dir.asset.css+'/errors.css');
 
   mix.scripts([
     'vendor/vue.js',
@@ -54,5 +60,9 @@ elixir(function (mix) {
     'app.js'
   ]);
 
-  mix.version([dir.asset.css+'/all.css', dir.asset.js+'/all.js']);
+  mix.version([
+    dir.asset.css+'/all.css',
+    dir.asset.css+'/errors.css',
+    dir.asset.js+'/all.js'
+  ]);
 });

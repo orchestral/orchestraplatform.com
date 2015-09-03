@@ -2,7 +2,7 @@
 	<head>
 		@title('File not found')
 		<link href='https://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
-		<link href="{!! asset('resources/css/errors.css') !!}" rel="stylesheet">
+		<link href="{!! elixir('css/errors.css') !!}" rel="stylesheet">
 	</head>
 	<body>
 		<div class="container">
