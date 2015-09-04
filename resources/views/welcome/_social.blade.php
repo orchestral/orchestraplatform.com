@@ -9,17 +9,17 @@
 				<ul class="list-inline social-list">
 					<li class="github">
 						<a href="https://github.com/orchestral" target="_blank">
-							<img src="{{ asset('resources/img/icon-github.svg') }}"><br>Github
+							<img src="{{ asset('img/icon-github.svg') }}"><br>Github
 						</a>
 					</li>
 					<li class="facebook">
 						<a href="https://www.facebook.com/groups/orchestraplatform" target="_blank">
-							<img src="{{ asset('resources/img/icon-facebook.svg') }}"><br>Facebook
+							<img src="{{ asset('img/icon-facebook.svg') }}"><br>Facebook
 						</a>
 					</li>
 					<li class="twitter">
 						<a href="https://twitter.com/getorchestra" target="_blank">
-							<img src="{{ asset('resources/img/icon-twitter.svg') }}"><br>Twitter
+							<img src="{{ asset('img/icon-twitter.svg') }}"><br>Twitter
 						</a>
 					</li>
 				</ul>
