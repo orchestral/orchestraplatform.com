@@ -446,16 +446,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.1.15",
+            "version": "v5.1.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "231b5ee6d8439edb5f7d45da00fd31d915bdf6f0"
+                "reference": "e34dcc0c57e0f560248aec5128161256ff8bf4e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/231b5ee6d8439edb5f7d45da00fd31d915bdf6f0",
-                "reference": "231b5ee6d8439edb5f7d45da00fd31d915bdf6f0",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/e34dcc0c57e0f560248aec5128161256ff8bf4e1",
+                "reference": "e34dcc0c57e0f560248aec5128161256ff8bf4e1",
                 "shasum": ""
             },
             "require": {
@@ -570,7 +570,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2015-09-03 16:00:33"
+            "time": "2015-09-04 12:46:14"
         },
         {
             "name": "league/flysystem",
@@ -1814,16 +1814,16 @@
         },
         {
             "name": "orchestra/optimize",
-            "version": "v3.1.2",
+            "version": "v3.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/optimize.git",
-                "reference": "fd8903c51cd8ec25545be967062e969bea6a91b1"
+                "reference": "993d77387ab4b36314bb5ff48608ec50cd9bbab7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/optimize/zipball/fd8903c51cd8ec25545be967062e969bea6a91b1",
-                "reference": "fd8903c51cd8ec25545be967062e969bea6a91b1",
+                "url": "https://api.github.com/repos/orchestral/optimize/zipball/993d77387ab4b36314bb5ff48608ec50cd9bbab7",
+                "reference": "993d77387ab4b36314bb5ff48608ec50cd9bbab7",
                 "shasum": ""
             },
             "require": {
@@ -1863,7 +1863,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2015-08-24 00:01:34"
+            "time": "2015-09-04 15:18:13"
         },
         {
             "name": "orchestra/publisher",
