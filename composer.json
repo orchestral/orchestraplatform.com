@@ -10,7 +10,7 @@
         "orchestra/installer": "~3.1",
         "orchestra/story": "~3.1.4",
         "orchestra/avatar": "~3.1",
-        "orchestra/kurenai": "~0.1",
+        "laravie/kurenai": "^0.1",
         "pda/pheanstalk": "~3.0"
     },
     "require-dev": {

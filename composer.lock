@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5f82fbdaf25473feca3bf624b7f08536",
+    "hash": "c1255e0281b6c476a84e8260b97ec200",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -571,6 +571,72 @@
                 "laravel"
             ],
             "time": "2015-09-04 12:46:14"
+        },
+        {
+            "name": "laravie/kurenai",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravie/kurenai.git",
+                "reference": "4e642086cdd05ccf2649fc0917d911b7999c79d9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravie/kurenai/zipball/4e642086cdd05ccf2649fc0917d911b7999c79d9",
+                "reference": "4e642086cdd05ccf2649fc0917d911b7999c79d9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "conflict": {
+                "daylerees/kurenai": "~1.0"
+            },
+            "require-dev": {
+                "erusev/parsedown-extra": "~0.5",
+                "league/commonmark": "~0.9.0",
+                "mockery/mockery": "0.9.*"
+            },
+            "suggest": {
+                "erusev/parsedown": "Parsing markdown using erusev/parsedown (~1.5).",
+                "erusev/parsedown-extra": "Parsing markdown using erusev/parsedown-extra (~0.5).",
+                "league/commonmark": "Parsing markdown using league/commonmark (~0.9)."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Kurenai\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mior Muhammad Zaki",
+                    "email": "crynobone@gmail.com",
+                    "homepage": "https://github.com/crynobone"
+                },
+                {
+                    "name": "Dayle Rees",
+                    "email": "theppunkfan@gmail.com",
+                    "homepage": "https://github.com/daylerees"
+                }
+            ],
+            "description": "Markdown document parser with metadata.",
+            "keywords": [
+                "document",
+                "kurenai",
+                "markdown",
+                "metadata"
+            ],
+            "time": "2015-09-06 12:12:14"
         },
         {
             "name": "league/flysystem",
@@ -1504,72 +1570,6 @@
                 "orchestral"
             ],
             "time": "2015-09-03 23:38:16"
-        },
-        {
-            "name": "orchestra/kurenai",
-            "version": "v0.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/orchestral/kurenai.git",
-                "reference": "49c755fc682b2db58b4a425c45b289311315415b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/kurenai/zipball/49c755fc682b2db58b4a425c45b289311315415b",
-                "reference": "49c755fc682b2db58b4a425c45b289311315415b",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4.0"
-            },
-            "conflict": {
-                "daylerees/kurenai": "~1.0"
-            },
-            "require-dev": {
-                "erusev/parsedown-extra": "~0.5",
-                "league/commonmark": "~0.9.0",
-                "mockery/mockery": "0.9.*"
-            },
-            "suggest": {
-                "erusev/parsedown": "Parsing markdown using erusev/parsedown (~1.5).",
-                "erusev/parsedown-extra": "Parsing markdown using erusev/parsedown-extra (~0.5).",
-                "league/commonmark": "Parsing markdown using league/commonmark (~0.9)."
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Kurenai\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Mior Muhammad Zaki",
-                    "email": "crynobone@gmail.com",
-                    "homepage": "https://github.com/crynobone"
-                },
-                {
-                    "name": "Dayle Rees",
-                    "email": "theppunkfan@gmail.com",
-                    "homepage": "https://github.com/daylerees"
-                }
-            ],
-            "description": "Markdown document parser with metadata.",
-            "keywords": [
-                "document",
-                "kurenai",
-                "markdown",
-                "metadata"
-            ],
-            "time": "2015-06-21 10:38:26"
         },
         {
             "name": "orchestra/memory",
