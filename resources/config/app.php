@@ -159,6 +159,7 @@ return [
          */
         Orchestra\Installation\InstallerServiceProvider::class,
         Orchestra\Avatar\AvatarServiceProvider::class,
+        Fideloper\Proxy\TrustedProxyServiceProvider::class,
 
         /*
          * Application Service Providers...

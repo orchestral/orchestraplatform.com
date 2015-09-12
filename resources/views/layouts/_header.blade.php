@@ -16,7 +16,7 @@
 	<meta property="og:site_name" content="{{ memorize('site.name') }}">
 	<meta property="og:title" content="{{ get_meta('title') }}">
 
-	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700|Source+Sans+Pro:400,600' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700|Source+Sans+Pro:400,600' rel='stylesheet' type='text/css'>
 	<script src="{{ elixir('js/all.js') }}"></script>
 	<script src="https://gumroad.com/js/gumroad.js"></script>
 	<link href="{{ elixir('css/all.css') }}" rel="stylesheet">
