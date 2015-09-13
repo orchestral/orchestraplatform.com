@@ -27,6 +27,7 @@
 						@endforeach
 					</ul>
 				</li>
+				<li><a href="http://cookbook.orchestraplatform.com"><i class="fa fa-leanpub"></i> Cookbook</a></li>
 				<li><a href="{{ handles('app::plan') }}"><i class="fa fa-credit-card"></i> Plan</a></li>
 				<li><a href="{{ handles('orchestra/story::/') }}"><i class="fa fa-book"></i> Blog</a></li>
 				<!--li><a href="#"><i class="fa fa-comments"></i> Discussion</a></li-->
