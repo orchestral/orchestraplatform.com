@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ff5161f631e1a39973901a5c6ca3930d",
+    "hash": "eb9f7c81ec2d72fbea52f1a0a154e6f1",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -1359,16 +1359,16 @@
         },
         {
             "name": "orchestra/foundation",
-            "version": "v3.1.12",
+            "version": "3.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "2f72dc895b6f12e0b1d4abdddb0eb9b29c38c57e"
+                "reference": "8a8b641b6db8c68544db486431ffa1b94b90b55c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/2f72dc895b6f12e0b1d4abdddb0eb9b29c38c57e",
-                "reference": "2f72dc895b6f12e0b1d4abdddb0eb9b29c38c57e",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/8a8b641b6db8c68544db486431ffa1b94b90b55c",
+                "reference": "8a8b641b6db8c68544db486431ffa1b94b90b55c",
                 "shasum": ""
             },
             "require": {
@@ -1437,7 +1437,7 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2015-09-14 11:20:33"
+            "time": "2015-09-14 11:47:51"
         },
         {
             "name": "orchestra/html",
