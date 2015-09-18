@@ -5,6 +5,7 @@
         "This file is @generated automatically"
     ],
     "hash": "d0b5e803f355c8ad94047874850e322a",
+    "content-hash": "016374a2f17417c10d2742446bb4ca07",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -497,16 +498,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.1.16",
+            "version": "v5.1.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "e34dcc0c57e0f560248aec5128161256ff8bf4e1"
+                "reference": "415b5d824e15ee7cd18b8b23f96ae32b0b51d6a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/e34dcc0c57e0f560248aec5128161256ff8bf4e1",
-                "reference": "e34dcc0c57e0f560248aec5128161256ff8bf4e1",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/415b5d824e15ee7cd18b8b23f96ae32b0b51d6a0",
+                "reference": "415b5d824e15ee7cd18b8b23f96ae32b0b51d6a0",
                 "shasum": ""
             },
             "require": {
@@ -621,7 +622,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2015-09-04 12:46:14"
+            "time": "2015-09-16 16:57:12"
         },
         {
             "name": "laravie/kurenai",
@@ -2041,16 +2042,16 @@
         },
         {
             "name": "orchestra/support",
-            "version": "v3.1.4",
+            "version": "v3.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/support.git",
-                "reference": "bd8b2bf29207edbba4630215e77fdc8e7d6d8d3e"
+                "reference": "dff78128d4d101b854d738d28ba5b51bf806553c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/support/zipball/bd8b2bf29207edbba4630215e77fdc8e7d6d8d3e",
-                "reference": "bd8b2bf29207edbba4630215e77fdc8e7d6d8d3e",
+                "url": "https://api.github.com/repos/orchestral/support/zipball/dff78128d4d101b854d738d28ba5b51bf806553c",
+                "reference": "dff78128d4d101b854d738d28ba5b51bf806553c",
                 "shasum": ""
             },
             "require": {
@@ -2107,7 +2108,7 @@
                 "utilities",
                 "validator"
             ],
-            "time": "2015-09-12 16:05:54"
+            "time": "2015-09-18 03:06:25"
         },
         {
             "name": "orchestra/translation",
