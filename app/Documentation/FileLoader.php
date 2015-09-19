@@ -1,8 +1,9 @@
 <?php namespace App\Documentation;
 
+use Kurenai\DocumentParser;
 use Illuminate\Filesystem\Filesystem;
-use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Contracts\Cache\Factory as Cache;
+use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Contracts\Filesystem\FileNotFoundException;
 
 class FileLoader
@@ -76,9 +77,7 @@ class FileLoader
      */
     protected function getTableOfContent($toc)
     {
-        $content = $this->loadContent($toc);
-
-        return $this->getParser()->parse($content);
+        return $this->loadContent($toc);
     }
 
     /**
@@ -90,9 +89,7 @@ class FileLoader
      */
     protected function getBodyContent($document)
     {
-        $content = $this->loadContent($document);
-
-        return $this->getParser()->parse($content);
+        return $this->loadContent($document);
     }
 
     /**
@@ -107,7 +104,9 @@ class FileLoader
         return $this->cache->rememberForever("doc.{$file}", function () use ($file) {
             $this->validateFileDoesExist($file);
 
-            return $this->files->get($file);
+            $content = $this->files->get($file);
+
+            return $this->getParser()->parse($content);
         });
     }
 
@@ -132,6 +131,6 @@ class FileLoader
      */
     protected function getParser()
     {
-        return $this->app->make('Kurenai\DocumentParser');
+        return $this->app->make(DocumentParser::class);
     }
 }
