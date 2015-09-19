@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d0b5e803f355c8ad94047874850e322a",
-    "content-hash": "016374a2f17417c10d2742446bb4ca07",
+    "hash": "0319f5787d7abc3b02e0474b749d01fd",
+    "content-hash": "7be915fb8d62c2c6b0e2ff80a4bbe9ca",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -1044,16 +1044,16 @@
         },
         {
             "name": "orchestra/auth",
-            "version": "v3.1.6",
+            "version": "v3.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/auth.git",
-                "reference": "d1c922a7074e254624f20f178f208bbf7035c72d"
+                "reference": "9c15e5645bf4104858f69207703ada20b6a25d67"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/auth/zipball/d1c922a7074e254624f20f178f208bbf7035c72d",
-                "reference": "d1c922a7074e254624f20f178f208bbf7035c72d",
+                "url": "https://api.github.com/repos/orchestral/auth/zipball/9c15e5645bf4104858f69207703ada20b6a25d67",
+                "reference": "9c15e5645bf4104858f69207703ada20b6a25d67",
                 "shasum": ""
             },
             "require": {
@@ -1113,7 +1113,7 @@
                 "permission",
                 "rbac"
             ],
-            "time": "2015-09-12 19:13:25"
+            "time": "2015-09-19 03:29:17"
         },
         {
             "name": "orchestra/avatar",
@@ -1177,16 +1177,16 @@
         },
         {
             "name": "orchestra/control",
-            "version": "v3.1.3",
+            "version": "v3.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/control.git",
-                "reference": "83a264ac644aac94ae138af322f8669974c61c8a"
+                "reference": "887f0d4e8412da8fa84f0f3dc2d1213485733ba6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/control/zipball/83a264ac644aac94ae138af322f8669974c61c8a",
-                "reference": "83a264ac644aac94ae138af322f8669974c61c8a",
+                "url": "https://api.github.com/repos/orchestral/control/zipball/887f0d4e8412da8fa84f0f3dc2d1213485733ba6",
+                "reference": "887f0d4e8412da8fa84f0f3dc2d1213485733ba6",
                 "shasum": ""
             },
             "require": {
@@ -1233,7 +1233,7 @@
                 "theme",
                 "timezone"
             ],
-            "time": "2015-09-15 15:27:39"
+            "time": "2015-09-18 16:24:25"
         },
         {
             "name": "orchestra/extension",
@@ -1442,16 +1442,16 @@
         },
         {
             "name": "orchestra/html",
-            "version": "v3.1.5",
+            "version": "3.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/html.git",
-                "reference": "210909cfd000b4b5c9b326ad594c543cb638a680"
+                "reference": "1988a9b9043195bdca08312d7177697af7e95e5a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/html/zipball/210909cfd000b4b5c9b326ad594c543cb638a680",
-                "reference": "210909cfd000b4b5c9b326ad594c543cb638a680",
+                "url": "https://api.github.com/repos/orchestral/html/zipball/1988a9b9043195bdca08312d7177697af7e95e5a",
+                "reference": "1988a9b9043195bdca08312d7177697af7e95e5a",
                 "shasum": ""
             },
             "require": {
@@ -1504,7 +1504,7 @@
                 "orchestral",
                 "table"
             ],
-            "time": "2015-09-14 11:27:04"
+            "time": "2015-09-19 04:40:30"
         },
         {
             "name": "orchestra/installer",
