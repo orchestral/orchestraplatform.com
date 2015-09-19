@@ -1,36 +1,46 @@
+#{{ $active = null }}
 <ul class="sidebar-menu">
     <li class="header">MAIN NAVIGATION</li>
-    @foreach ($menu as $item)
-        @if (1 > count($item->childs))
-            <li id="{{ $item->id }}">
-                <a href="{!! $item->link !!}">
-                    {!! $item->title !!}
+    @foreach($menu as $item)
+        @if(1 > count($item->get('childs')))
+            <li data-menu="{{ $parent = $item->get('id') }}">
+                #{{ $active = ($item->active() ? $parent : $active) }}
+                <a href="{{ $item->get('link') }}">
+                    {!! $item->get('title') !!}
                 </a>
             </li>
         @else
-            <li id="{{ $item->id }}" class="treeview">
-                <a href="#">{!! $item->title !!}</a>
+            <li data-menu="{{ $parent = $item->get('id') }}" class="treeview">
+                <a href="#">{!! $item->get('title') !!}</a>
+                #{{ $active = ($item->active() ? $parent : $active) }}
                 <ul class="treeview-menu">
-                    @unless ($item->link == '#' && ! empty($item->link))
+                    @if($item->hasLink())
                     <li>
-                        <a href="{!! $item->link !!}">
-                            {!! $item->title !!}
+                        <a href="{{ $item->get('link') }}">
+                            {!! $item->get('title') !!}
                         </a>
                     </li>
                     <li class="divider"></li>
-                    @endunless
-                    @foreach ($item->childs as $child)
-                        <?php $grands = $child->childs; ?>
-                        <li class="{!! (! empty($grands) ? "dropdown-submenu" : "normal") !!}">
-                            <a href="{!! $child->link !!}">
-                                {!! $child->title !!}
+                    @endif
+                    @foreach($item->get('childs') as $child)
+                        #{{ $grands = $child->get('childs') }}
+                        #{{ $active = ($child->active() ? $parent : $active) }}
+                        <li{!! HTML::attributes(
+                            HTML::decorate(
+                                ['class' => $child->active() ? 'active' : ''],
+                                ['class' => (! empty($grands) ? "dropdown-submenu" : "normal")]
+                            )
+                        ) !!}>
+                            <a href="{{ $child->get('link') }}">
+                                {!! $child->get('title') !!}
                             </a>
-                            @if (! empty($child->childs))
+                            @if(! empty($child->get('childs')))
                             <ul class="dropdown-menu">
-                                @foreach ($child->childs as $grand)
-                                <li>
-                                    <a href="{!! $grand->link !!}">
-                                        {!! $grand->title !!}
+                                @foreach($child->get('childs') as $grand)
+                                #{{ $active = ($grand->active() ? $parent : $active) }}
+                                <li{!! HTML::attributes(['class' => $grand->active() ? 'active' : '']) !!}>
+                                    <a href="{{ $grand->get('link') }}">
+                                        {!! $grand->get('title') !!}
                                     </a>
                                 </li>
                                 @endforeach
@@ -43,3 +53,16 @@
         @endif
     @endforeach
 </ul>
+
+#{{ ($active == 'home' && ! Foundation::is('orchestra::/')) && $active = null }}
+
+@push('orchestra.footer')
+@unless(is_null($active))
+<script>
+jQuery(function ($) {
+    var active = "{!! $active !!}";
+    $('li[data-menu="'+active+'"]').addClass('active');
+});
+</script>
+@endunless
+@endpush

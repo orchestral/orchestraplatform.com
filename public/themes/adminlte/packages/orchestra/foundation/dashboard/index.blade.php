@@ -2,25 +2,22 @@
 
 @section('content')
 <div class="row">
-	@if (count($panes) > 0)
-	@foreach ($panes as $id => $pane)
-		<?php $attributes = app('html')->decorate($pane->attributes); ?>
-		<div{!! app('html')->attributes($attributes) !!}>
-			@if (! empty($pane->html))
-			{!! $pane->html !!}
+	@forelse($panes as $id => $pane)
+		<div{!! HTML::attributes(HTML::decorate($pane->get('attributes'))) !!}>
+			@if(! empty($pane->get('html')))
+			{!! $pane->get('html') !!}
 			@else
 			<div class="box box-default">
 				<div class="box-header with-border">
-					<h3 class="box-title">{!! $pane->title !!}</h3>
+					<h3 class="box-title">{!! $pane->get('title') !!}</h3>
 				</div>
-				{!! $pane->content !!}
-				@endif
+				{!! $pane->get('content') !!}
+			@endif
 			</div>
 		</div>
-	@endforeach
-	@else
+	@empty
 	@include('orchestra/foundation::dashboard._welcome')
-	@endif
+	@endforelse
 </div>
 
 @stop

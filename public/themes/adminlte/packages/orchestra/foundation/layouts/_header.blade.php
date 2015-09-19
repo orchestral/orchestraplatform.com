@@ -3,16 +3,15 @@
 <meta name="csrf-token" content="{{ csrf_token() }}">
 <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
 
-<?php $asset = app('orchestra.asset')->container('orchestra.header');
-
-$asset->style('select2', 'packages/orchestra/foundation/components/select2/select2.css');
-$asset->style('jquery-ui', 'packages/orchestra/foundation/vendor/delta/theme/jquery-ui.css');
-$asset->style('bootstrap', Theme::asset('components/bootstrap/css/bootstrap.css'));
-$asset->style('font-awesome', Theme::asset('components/font-awesome/css/font-awesome.css'), ['bootstrap']);
-$asset->style('adminlte', Theme::asset('assets/css/style.css'), ['bootstrap', 'select2', 'jquery-ui']);
-$asset->script('underscore', 'packages/orchestra/foundation/components/underscore/underscore.js');
-$asset->script('jquery', 'packages/orchestra/foundation/components/jquery/jquery.min.js');
-$asset->script('javie', 'packages/orchestra/foundation/components/javie/javie.min.js', ['jquery', 'underscore']); ?>
+#{{ $asset = app('orchestra.asset')->container('orchestra.header') }}
+#{{ $asset->style('select2', 'packages/orchestra/foundation/components/select2/select2.css') }}
+#{{ $asset->style('jquery-ui', 'packages/orchestra/foundation/vendor/delta/theme/jquery-ui.css') }}
+#{{ $asset->style('bootstrap', Theme::asset('components/bootstrap/css/bootstrap.css')) }}
+#{{ $asset->style('font-awesome', Theme::asset('components/font-awesome/css/font-awesome.css'), ['bootstrap']) }}
+#{{ $asset->style('adminlte', Theme::asset('assets/css/style.css'), ['bootstrap', 'select2', 'jquery-ui']) }}
+#{{ $asset->script('underscore', 'packages/orchestra/foundation/components/underscore/underscore.js') }}
+#{{ $asset->script('jquery', 'packages/orchestra/foundation/components/jquery/jquery.min.js') }}
+#{{ $asset->script('javie', 'packages/orchestra/foundation/components/javie/javie.min.js', ['jquery', 'underscore']) }}
 
 {!! $asset->show() !!}
 

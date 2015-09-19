@@ -1,3 +1,5 @@
+@inject('user', 'Illuminate\Contracts\Auth\Authenticatable')
+
 <header class="main-header">
 	<a href="{{ handles('orchestra::/') }}" class="logo">{{ memorize('site.name') }}</a>
 	<nav class="navbar navbar-static-top" role="navigation">
@@ -7,12 +9,10 @@
 
 		@yield('navbar')
 
-		<?php $user = app('auth')->user(); ?>
-
 		<div class="navbar-custom-menu">
 			<ul class="nav navbar-nav">
-				@if (! is_null($user))
-				<?php $avatar = app('orchestra.avatar')->user($user); ?>
+				@if(! is_null($user))
+				#{{ $avatar = app('orchestra.avatar')->user($user) }}
 				<li class="dropdown user user-menu">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
 						<img src="{{ $avatar }}" class="user-image" alt="User Image"/>

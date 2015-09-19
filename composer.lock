@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0319f5787d7abc3b02e0474b749d01fd",
-    "content-hash": "7be915fb8d62c2c6b0e2ff80a4bbe9ca",
+    "hash": "2e76972fb6cff80a1f400d8c3165bb9c",
+    "content-hash": "44e0471cfbf33a00a734ba794c839454",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -626,20 +626,21 @@
         },
         {
             "name": "laravie/kurenai",
-            "version": "v0.1.0",
+            "version": "v0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravie/kurenai.git",
-                "reference": "4e642086cdd05ccf2649fc0917d911b7999c79d9"
+                "reference": "a9d87a0845d4ebe506dccf9e54dbe3023cd7a8eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravie/kurenai/zipball/4e642086cdd05ccf2649fc0917d911b7999c79d9",
-                "reference": "4e642086cdd05ccf2649fc0917d911b7999c79d9",
+                "url": "https://api.github.com/repos/laravie/kurenai/zipball/a9d87a0845d4ebe506dccf9e54dbe3023cd7a8eb",
+                "reference": "a9d87a0845d4ebe506dccf9e54dbe3023cd7a8eb",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.4.0"
+                "php": ">=5.4.0",
+                "symfony/yaml": "~2.5"
             },
             "conflict": {
                 "daylerees/kurenai": "~1.0"
@@ -688,7 +689,7 @@
                 "markdown",
                 "metadata"
             ],
-            "time": "2015-09-06 12:12:14"
+            "time": "2015-09-07 06:21:38"
         },
         {
             "name": "league/flysystem",
@@ -940,16 +941,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v1.4.0",
+            "version": "v1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "196f177cfefa0f1f7166c0a05d8255889be12418"
+                "reference": "f78af2c9c86107aa1a34cd1dbb5bbe9eeb0d9f51"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/196f177cfefa0f1f7166c0a05d8255889be12418",
-                "reference": "196f177cfefa0f1f7166c0a05d8255889be12418",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/f78af2c9c86107aa1a34cd1dbb5bbe9eeb0d9f51",
+                "reference": "f78af2c9c86107aa1a34cd1dbb5bbe9eeb0d9f51",
                 "shasum": ""
             },
             "require": {
@@ -981,7 +982,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2015-07-14 17:31:05"
+            "time": "2015-09-19 14:15:08"
         },
         {
             "name": "orchestra/asset",
@@ -1044,16 +1045,16 @@
         },
         {
             "name": "orchestra/auth",
-            "version": "v3.1.7",
+            "version": "3.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/auth.git",
-                "reference": "9c15e5645bf4104858f69207703ada20b6a25d67"
+                "reference": "b00f17534dd66b8ce5c3fe7fbc9663483e425fb2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/auth/zipball/9c15e5645bf4104858f69207703ada20b6a25d67",
-                "reference": "9c15e5645bf4104858f69207703ada20b6a25d67",
+                "url": "https://api.github.com/repos/orchestral/auth/zipball/b00f17534dd66b8ce5c3fe7fbc9663483e425fb2",
+                "reference": "b00f17534dd66b8ce5c3fe7fbc9663483e425fb2",
                 "shasum": ""
             },
             "require": {
@@ -1113,7 +1114,7 @@
                 "permission",
                 "rbac"
             ],
-            "time": "2015-09-19 03:29:17"
+            "time": "2015-09-19 15:10:10"
         },
         {
             "name": "orchestra/avatar",
@@ -1360,16 +1361,16 @@
         },
         {
             "name": "orchestra/foundation",
-            "version": "v3.1.14",
+            "version": "3.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "974aa4ac87e553fd9f0f55e63240f670510e2f6d"
+                "reference": "338a77e47aeff7c574c8fe8a6e17165d68501b7b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/974aa4ac87e553fd9f0f55e63240f670510e2f6d",
-                "reference": "974aa4ac87e553fd9f0f55e63240f670510e2f6d",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/338a77e47aeff7c574c8fe8a6e17165d68501b7b",
+                "reference": "338a77e47aeff7c574c8fe8a6e17165d68501b7b",
                 "shasum": ""
             },
             "require": {
@@ -1438,20 +1439,20 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2015-09-15 14:55:16"
+            "time": "2015-09-19 06:01:20"
         },
         {
             "name": "orchestra/html",
-            "version": "3.1.x-dev",
+            "version": "v3.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/html.git",
-                "reference": "1988a9b9043195bdca08312d7177697af7e95e5a"
+                "reference": "ab4bcf6ca669ec1ebdbc9745fe6dbde56c77d20f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/html/zipball/1988a9b9043195bdca08312d7177697af7e95e5a",
-                "reference": "1988a9b9043195bdca08312d7177697af7e95e5a",
+                "url": "https://api.github.com/repos/orchestral/html/zipball/ab4bcf6ca669ec1ebdbc9745fe6dbde56c77d20f",
+                "reference": "ab4bcf6ca669ec1ebdbc9745fe6dbde56c77d20f",
                 "shasum": ""
             },
             "require": {
@@ -1504,20 +1505,20 @@
                 "orchestral",
                 "table"
             ],
-            "time": "2015-09-19 04:40:30"
+            "time": "2015-09-19 16:01:57"
         },
         {
             "name": "orchestra/installer",
-            "version": "v3.1.1",
+            "version": "v3.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/installer.git",
-                "reference": "e8b996a6cc230b1d287ee7c60214088cb0bb6cce"
+                "reference": "9af6fa970a7c0998d0335483930a1b5eb4cd0486"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/installer/zipball/e8b996a6cc230b1d287ee7c60214088cb0bb6cce",
-                "reference": "e8b996a6cc230b1d287ee7c60214088cb0bb6cce",
+                "url": "https://api.github.com/repos/orchestral/installer/zipball/9af6fa970a7c0998d0335483930a1b5eb4cd0486",
+                "reference": "9af6fa970a7c0998d0335483930a1b5eb4cd0486",
                 "shasum": ""
             },
             "require": {
@@ -1526,7 +1527,7 @@
             },
             "require-dev": {
                 "mockery/mockery": "0.9.*",
-                "orchestra/foundation": "~3.1.0",
+                "orchestra/foundation": "~3.1.14",
                 "orchestra/testing": "~3.1.0"
             },
             "type": "library",
@@ -1558,7 +1559,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2015-07-12 09:52:06"
+            "time": "2015-09-19 16:24:18"
         },
         {
             "name": "orchestra/kernel",
@@ -1754,16 +1755,16 @@
         },
         {
             "name": "orchestra/model",
-            "version": "v3.1.2",
+            "version": "3.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/model.git",
-                "reference": "92a959040bc05eb0f701f0017639b1857190dd23"
+                "reference": "734478df8100d6b43c05d00dc41dabcb6d9bca34"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/model/zipball/92a959040bc05eb0f701f0017639b1857190dd23",
-                "reference": "92a959040bc05eb0f701f0017639b1857190dd23",
+                "url": "https://api.github.com/repos/orchestral/model/zipball/734478df8100d6b43c05d00dc41dabcb6d9bca34",
+                "reference": "734478df8100d6b43c05d00dc41dabcb6d9bca34",
                 "shasum": ""
             },
             "require": {
@@ -1807,7 +1808,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2015-09-08 10:35:48"
+            "time": "2015-09-19 15:04:50"
         },
         {
             "name": "orchestra/notifier",
@@ -3249,6 +3250,55 @@
             "time": "2015-08-31 12:28:11"
         },
         {
+            "name": "symfony/yaml",
+            "version": "v2.7.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Yaml.git",
+                "reference": "2dc7b06c065df96cc686c66da2705e5e18aef661"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Yaml/zipball/2dc7b06c065df96cc686c66da2705e5e18aef661",
+                "reference": "2dc7b06c065df96cc686c66da2705e5e18aef661",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9"
+            },
+            "require-dev": {
+                "symfony/phpunit-bridge": "~2.7"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.7-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Yaml\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Yaml Component",
+            "homepage": "https://symfony.com",
+            "time": "2015-08-24 07:13:45"
+        },
+        {
             "name": "tijsverkoyen/css-to-inline-styles",
             "version": "1.5.4",
             "source": {
@@ -3440,16 +3490,16 @@
         },
         {
             "name": "orchestra/studio",
-            "version": "v3.1.2",
+            "version": "3.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/studio.git",
-                "reference": "ee73ad5bfa8fe12d5332bd43d6787c3ac6f85b5d"
+                "reference": "bf0230a52a58750ded7173f3aadda18fdec68673"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/studio/zipball/ee73ad5bfa8fe12d5332bd43d6787c3ac6f85b5d",
-                "reference": "ee73ad5bfa8fe12d5332bd43d6787c3ac6f85b5d",
+                "url": "https://api.github.com/repos/orchestral/studio/zipball/bf0230a52a58750ded7173f3aadda18fdec68673",
+                "reference": "bf0230a52a58750ded7173f3aadda18fdec68673",
                 "shasum": ""
             },
             "require": {
@@ -3487,7 +3537,7 @@
                 }
             ],
             "description": "Code Generator for Orchestra Platform",
-            "time": "2015-09-12 19:20:12"
+            "time": "2015-09-19 15:46:20"
         },
         {
             "name": "orchestra/theme-installer",
@@ -3991,20 +4041,21 @@
         },
         {
             "name": "stackie/adminlte-theme",
-            "version": "v0.1.2",
+            "version": "v0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/stackie/adminlte-theme.git",
-                "reference": "f056c6176b43187ccd11f129e0d47827d6cf9713"
+                "reference": "d5bb49c966a3b157cd594c5ea997506fdbd503b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stackie/adminlte-theme/zipball/f056c6176b43187ccd11f129e0d47827d6cf9713",
-                "reference": "f056c6176b43187ccd11f129e0d47827d6cf9713",
+                "url": "https://api.github.com/repos/stackie/adminlte-theme/zipball/d5bb49c966a3b157cd594c5ea997506fdbd503b8",
+                "reference": "d5bb49c966a3b157cd594c5ea997506fdbd503b8",
                 "shasum": ""
             },
             "require": {
-                "orchestra/avatar": "~3.0",
+                "orchestra/avatar": "~3.1",
+                "orchestra/contracts": "~3.1",
                 "orchestra/theme-installer": "~1.0",
                 "php": ">=5.4.0"
             },
@@ -4027,56 +4078,7 @@
                 }
             ],
             "description": "AdminLTE Theme for Orchestra Platform",
-            "time": "2015-09-12 15:02:08"
-        },
-        {
-            "name": "symfony/yaml",
-            "version": "v2.7.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/Yaml.git",
-                "reference": "2dc7b06c065df96cc686c66da2705e5e18aef661"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Yaml/zipball/2dc7b06c065df96cc686c66da2705e5e18aef661",
-                "reference": "2dc7b06c065df96cc686c66da2705e5e18aef661",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.9"
-            },
-            "require-dev": {
-                "symfony/phpunit-bridge": "~2.7"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.7-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Symfony\\Component\\Yaml\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
-                }
-            ],
-            "description": "Symfony Yaml Component",
-            "homepage": "https://symfony.com",
-            "time": "2015-08-24 07:13:45"
+            "time": "2015-09-13 05:23:58"
         }
     ],
     "aliases": [],
