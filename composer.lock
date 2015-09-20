@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2e76972fb6cff80a1f400d8c3165bb9c",
-    "content-hash": "44e0471cfbf33a00a734ba794c839454",
+    "hash": "7736a0c033e00ccfdf47654333258023",
+    "content-hash": "79af86072bc641eab1ae90e3dd09204e",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -693,20 +693,23 @@
         },
         {
             "name": "league/flysystem",
-            "version": "1.0.12",
+            "version": "1.0.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "7323424a9d39c24e597ed3f2144419dfbb52e086"
+                "reference": "76caed01a57527599b55919f0746104f288b3d56"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/7323424a9d39c24e597ed3f2144419dfbb52e086",
-                "reference": "7323424a9d39c24e597ed3f2144419dfbb52e086",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/76caed01a57527599b55919f0746104f288b3d56",
+                "reference": "76caed01a57527599b55919f0746104f288b3d56",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4.0"
+            },
+            "conflict": {
+                "league/flysystem-sftp": "<1.0.6"
             },
             "require-dev": {
                 "ext-fileinfo": "*",
@@ -770,7 +773,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2015-09-05 12:06:41"
+            "time": "2015-09-20 13:05:34"
         },
         {
             "name": "monolog/monolog",
@@ -1178,21 +1181,21 @@
         },
         {
             "name": "orchestra/control",
-            "version": "v3.1.4",
+            "version": "3.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/control.git",
-                "reference": "887f0d4e8412da8fa84f0f3dc2d1213485733ba6"
+                "reference": "011052fb22ba0508e61376f48ab564d3f61999cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/control/zipball/887f0d4e8412da8fa84f0f3dc2d1213485733ba6",
-                "reference": "887f0d4e8412da8fa84f0f3dc2d1213485733ba6",
+                "url": "https://api.github.com/repos/orchestral/control/zipball/011052fb22ba0508e61376f48ab564d3f61999cf",
+                "reference": "011052fb22ba0508e61376f48ab564d3f61999cf",
                 "shasum": ""
             },
             "require": {
                 "orchestra/extension": "~3.1.8",
-                "orchestra/support": "~3.1.1",
+                "orchestra/support": "~3.1.3",
                 "php": ">=5.5.0"
             },
             "require-dev": {
@@ -1234,7 +1237,7 @@
                 "theme",
                 "timezone"
             ],
-            "time": "2015-09-18 16:24:25"
+            "time": "2015-09-20 16:31:10"
         },
         {
             "name": "orchestra/extension",
@@ -1755,22 +1758,22 @@
         },
         {
             "name": "orchestra/model",
-            "version": "3.1.x-dev",
+            "version": "v3.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/model.git",
-                "reference": "734478df8100d6b43c05d00dc41dabcb6d9bca34"
+                "reference": "178dfd995855741b9a99030274fd45344b587b6e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/model/zipball/734478df8100d6b43c05d00dc41dabcb6d9bca34",
-                "reference": "734478df8100d6b43c05d00dc41dabcb6d9bca34",
+                "url": "https://api.github.com/repos/orchestral/model/zipball/178dfd995855741b9a99030274fd45344b587b6e",
+                "reference": "178dfd995855741b9a99030274fd45344b587b6e",
                 "shasum": ""
             },
             "require": {
                 "orchestra/contracts": "~3.1.9",
                 "orchestra/notifier": "~3.1.0",
-                "orchestra/support": "~3.1.0",
+                "orchestra/support": "~3.1.3",
                 "php": ">=5.5.0"
             },
             "require-dev": {
@@ -1808,7 +1811,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2015-09-19 15:04:50"
+            "time": "2015-09-20 13:57:19"
         },
         {
             "name": "orchestra/notifier",
@@ -1983,16 +1986,16 @@
         },
         {
             "name": "orchestra/story",
-            "version": "v3.1.5",
+            "version": "3.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/story.git",
-                "reference": "3576f62f35781a43483cfb5095082aa935d63921"
+                "reference": "61162386a710e2917739e3ab80f3cb6b9e5b362a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/story/zipball/3576f62f35781a43483cfb5095082aa935d63921",
-                "reference": "3576f62f35781a43483cfb5095082aa935d63921",
+                "url": "https://api.github.com/repos/orchestral/story/zipball/61162386a710e2917739e3ab80f3cb6b9e5b362a",
+                "reference": "61162386a710e2917739e3ab80f3cb6b9e5b362a",
                 "shasum": ""
             },
             "require": {
@@ -2039,7 +2042,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2015-09-15 15:38:46"
+            "time": "2015-09-20 16:36:09"
         },
         {
             "name": "orchestra/support",

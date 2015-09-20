@@ -6,7 +6,7 @@
 @include('orchestra/story::_hero')
 <section class="body">
 	<div class="container">
-		 @foreach ($posts as $post)
+		 @foreach($posts as $post)
 		<div class="row">
 			<div class="page-sidebar col-sm-2">
 				<div class="author">
@@ -19,12 +19,12 @@
 				<div class="col-md-1"></div>
 				<div class="post col-md-11">
 					<div class="page-header">
-						<h1 class="title"><a href="{!! $post->link !!}">{!! $post->title !!}</a></h1>
+						<h1 class="title"><a href="{!! $post->url() !!}">{!! $post->title !!}</a></h1>
 					</div>
 					<div class="intro">
 						{!! $post->excerpt !!}
 					</div>
-					<a href="{!! $post->link !!}" class="continue-reading">Continue reading this post</a>
+					<a href="{!! $post->url() !!}" class="continue-reading">Continue reading this post</a>
 				</div>
 			</div>
 		</div>
