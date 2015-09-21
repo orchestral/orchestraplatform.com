@@ -1181,16 +1181,16 @@
         },
         {
             "name": "orchestra/control",
-            "version": "3.1.x-dev",
+            "version": "v3.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/control.git",
-                "reference": "011052fb22ba0508e61376f48ab564d3f61999cf"
+                "reference": "d37815a24ecf471311da1b6326dc1fef10e3e27f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/control/zipball/011052fb22ba0508e61376f48ab564d3f61999cf",
-                "reference": "011052fb22ba0508e61376f48ab564d3f61999cf",
+                "url": "https://api.github.com/repos/orchestral/control/zipball/d37815a24ecf471311da1b6326dc1fef10e3e27f",
+                "reference": "d37815a24ecf471311da1b6326dc1fef10e3e27f",
                 "shasum": ""
             },
             "require": {
@@ -1237,7 +1237,7 @@
                 "theme",
                 "timezone"
             ],
-            "time": "2015-09-20 16:31:10"
+            "time": "2015-09-21 01:05:12"
         },
         {
             "name": "orchestra/extension",
@@ -1990,12 +1990,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/story.git",
-                "reference": "61162386a710e2917739e3ab80f3cb6b9e5b362a"
+                "reference": "c4479c867d4d98b82c72c48c01f0524326218d38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/story/zipball/61162386a710e2917739e3ab80f3cb6b9e5b362a",
-                "reference": "61162386a710e2917739e3ab80f3cb6b9e5b362a",
+                "url": "https://api.github.com/repos/orchestral/story/zipball/c4479c867d4d98b82c72c48c01f0524326218d38",
+                "reference": "c4479c867d4d98b82c72c48c01f0524326218d38",
                 "shasum": ""
             },
             "require": {
@@ -2004,6 +2004,7 @@
                 "orchestra/contracts": "~3.1.0",
                 "orchestra/extension": "~3.1.8",
                 "orchestra/facile": "~3.1.0",
+                "orchestra/model": "~3.1.3",
                 "php": ">=5.5.0"
             },
             "require-dev": {
@@ -2042,7 +2043,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2015-09-20 16:36:09"
+            "time": "2015-09-21 01:35:19"
         },
         {
             "name": "orchestra/support",
