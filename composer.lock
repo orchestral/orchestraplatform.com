@@ -1368,12 +1368,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "338a77e47aeff7c574c8fe8a6e17165d68501b7b"
+                "reference": "b04c1c572ee3672dcfc18c0ce6657f0a7a903a47"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/338a77e47aeff7c574c8fe8a6e17165d68501b7b",
-                "reference": "338a77e47aeff7c574c8fe8a6e17165d68501b7b",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/b04c1c572ee3672dcfc18c0ce6657f0a7a903a47",
+                "reference": "b04c1c572ee3672dcfc18c0ce6657f0a7a903a47",
                 "shasum": ""
             },
             "require": {
@@ -1381,7 +1381,7 @@
                 "orchestra/asset": "~3.1.0",
                 "orchestra/auth": "~3.1.3",
                 "orchestra/extension": "~3.1.8",
-                "orchestra/html": "~3.1.5",
+                "orchestra/html": "~3.1.7",
                 "orchestra/kernel": "~3.1.8",
                 "orchestra/memory": "~3.1.0",
                 "orchestra/messages": "~3.1.0",
@@ -1442,20 +1442,20 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2015-09-19 06:01:20"
+            "time": "2015-09-22 06:07:04"
         },
         {
             "name": "orchestra/html",
-            "version": "v3.1.6",
+            "version": "3.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/html.git",
-                "reference": "ab4bcf6ca669ec1ebdbc9745fe6dbde56c77d20f"
+                "reference": "3041a1ed5106fa1644497018db7c29fdca020302"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/html/zipball/ab4bcf6ca669ec1ebdbc9745fe6dbde56c77d20f",
-                "reference": "ab4bcf6ca669ec1ebdbc9745fe6dbde56c77d20f",
+                "url": "https://api.github.com/repos/orchestral/html/zipball/3041a1ed5106fa1644497018db7c29fdca020302",
+                "reference": "3041a1ed5106fa1644497018db7c29fdca020302",
                 "shasum": ""
             },
             "require": {
@@ -1508,7 +1508,7 @@
                 "orchestral",
                 "table"
             ],
-            "time": "2015-09-19 16:01:57"
+            "time": "2015-09-22 06:06:29"
         },
         {
             "name": "orchestra/installer",
@@ -3452,6 +3452,61 @@
             "time": "2015-06-14 21:17:01"
         },
         {
+            "name": "franzl/studio",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/franzliedke/studio.git",
+                "reference": "047fb094a65181f86bdcc754663bec3037ae0611"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/franzliedke/studio/zipball/047fb094a65181f86bdcc754663bec3037ae0611",
+                "reference": "047fb094a65181f86bdcc754663bec3037ae0611",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0",
+                "illuminate/support": "~5.0",
+                "symfony/console": "^2.7",
+                "symfony/filesystem": "~2.5",
+                "symfony/finder": "~2.5",
+                "symfony/process": "~2.5"
+            },
+            "replace": {
+                "franzliedke/studio": "self.version"
+            },
+            "require-dev": {
+                "composer/composer": "dev-master"
+            },
+            "bin": [
+                "bin/studio"
+            ],
+            "type": "composer-plugin",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.10.x-dev"
+                },
+                "class": "Studio\\Composer\\StudioPlugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Studio\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Develop your Composer libraries with style",
+            "keywords": [
+                "composer",
+                "development",
+                "workflow"
+            ],
+            "time": "2015-09-21 20:48:13"
+        },
+        {
             "name": "laravel/homestead",
             "version": "v2.1.7",
             "source": {
@@ -3498,15 +3553,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/studio.git",
-                "reference": "bf0230a52a58750ded7173f3aadda18fdec68673"
+                "reference": "79b9a9ba60fdd1d95a758d18df5b6c8e837b0cd7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/studio/zipball/bf0230a52a58750ded7173f3aadda18fdec68673",
-                "reference": "bf0230a52a58750ded7173f3aadda18fdec68673",
+                "url": "https://api.github.com/repos/orchestral/studio/zipball/79b9a9ba60fdd1d95a758d18df5b6c8e837b0cd7",
+                "reference": "79b9a9ba60fdd1d95a758d18df5b6c8e837b0cd7",
                 "shasum": ""
             },
             "require": {
+                "franzl/studio": "^0.10",
                 "orchestra/support": "~3.1.0",
                 "php": ">=5.4.0"
             },
@@ -3541,7 +3597,7 @@
                 }
             ],
             "description": "Code Generator for Orchestra Platform",
-            "time": "2015-09-19 15:46:20"
+            "time": "2015-09-21 11:20:08"
         },
         {
             "name": "orchestra/theme-installer",
@@ -4083,6 +4139,55 @@
             ],
             "description": "AdminLTE Theme for Orchestra Platform",
             "time": "2015-09-13 05:23:58"
+        },
+        {
+            "name": "symfony/filesystem",
+            "version": "v2.7.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Filesystem.git",
+                "reference": "f079e9933799929584200b9a926f72f29e291654"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Filesystem/zipball/f079e9933799929584200b9a926f72f29e291654",
+                "reference": "f079e9933799929584200b9a926f72f29e291654",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9"
+            },
+            "require-dev": {
+                "symfony/phpunit-bridge": "~2.7"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.7-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Filesystem\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Filesystem Component",
+            "homepage": "https://symfony.com",
+            "time": "2015-08-27 07:03:44"
         }
     ],
     "aliases": [],
