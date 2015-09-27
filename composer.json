@@ -9,8 +9,6 @@
         "orchestra/avatar": "~3.1",
         "orchestra/control": "~3.1.5",
         "orchestra/auth": "~3.1.8",
-        "orchestra/html": "~3.1.6",
-        "orchestra/model": "~3.1.3",
         "orchestra/installer": "~3.1.2",
         "orchestra/story": "~3.1.6",
         "laravie/kurenai": "^0.2",

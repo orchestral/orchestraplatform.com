@@ -9,7 +9,7 @@ class Bootstrap {
 
   onDocumentReady() {
     $(function () {
-      $('pre').addClass('prettyprint')
+      $('pre:not([rel])').addClass('prettyprint')
       $('table', '#documentation, #posts, #post').addClass('table table-striped')
     });
   }

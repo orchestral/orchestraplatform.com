@@ -48,7 +48,7 @@ var Bootstrap = (function () {
     key: 'onDocumentReady',
     value: function onDocumentReady() {
       (0, _vendorJquery2['default'])(function () {
-        (0, _vendorJquery2['default'])('pre').addClass('prettyprint');
+        (0, _vendorJquery2['default'])('pre:not([rel])').addClass('prettyprint');
         (0, _vendorJquery2['default'])('table', '#documentation, #posts, #post').addClass('table table-striped');
       });
     }
