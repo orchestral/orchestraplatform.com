@@ -13,9 +13,9 @@ do
 done
 
 # Update master branch
-# cd 3.1;
-# git checkout master;
-# cd ../;
+cd 3.2;
+git checkout master;
+cd ../;
 
 cd ../;
 git submodule foreach git pull;

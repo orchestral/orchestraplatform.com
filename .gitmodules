@@ -1,16 +1,24 @@
 [submodule "docs/2.0"]
 	path = docs/2.0
 	url = https://github.com/orchestral/docs.git
+	branch = 2.0
 [submodule "docs/2.1"]
 	path = docs/2.1
 	url = https://github.com/orchestral/docs.git
+	branch = 2.1
 [submodule "docs/2.2"]
 	path = docs/2.2
 	url = https://github.com/orchestral/docs.git
+	branch = 2.2
 [submodule "docs/3.0"]
 	path = docs/3.0
 	url = https://github.com/orchestral/docs.git
-	branch = master
+	branch = 3.0
 [submodule "docs/3.1"]
 	path = docs/3.1
 	url = https://github.com/orchestral/docs.git
+	branch = 3.1
+[submodule "docs/3.2"]
+	path = docs/3.2
+	url = git@github.com:orchestral/docs.git
+	branch = master
