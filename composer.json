@@ -32,7 +32,7 @@
     "scripts": {
         "update-frontend": [
             "bower update",
-            "gulp"
+            "gulp --production"
         ],
         "post-install-cmd": [
             "php artisan clear-compiled",
