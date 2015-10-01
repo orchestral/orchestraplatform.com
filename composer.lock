@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "57d507f900e591f4814bd01abc8c8052",
-    "content-hash": "f196b3f4f0d96acabb7c098d24356db3",
+    "hash": "236ec7d827304fc8e2487f5109b6f8b7",
+    "content-hash": "ca849b68cf3209bce053e8bc01e7e790",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -498,16 +498,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.1.17",
+            "version": "v5.1.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "415b5d824e15ee7cd18b8b23f96ae32b0b51d6a0"
+                "reference": "2703f4b395631fd3a2165ad74074d3531acfeccf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/415b5d824e15ee7cd18b8b23f96ae32b0b51d6a0",
-                "reference": "415b5d824e15ee7cd18b8b23f96ae32b0b51d6a0",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/2703f4b395631fd3a2165ad74074d3531acfeccf",
+                "reference": "2703f4b395631fd3a2165ad74074d3531acfeccf",
                 "shasum": ""
             },
             "require": {
@@ -622,7 +622,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2015-09-16 16:57:12"
+            "time": "2015-09-30 20:42:12"
         },
         {
             "name": "laravie/kurenai",
@@ -693,16 +693,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "1.0.14",
+            "version": "1.0.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "202c7775d959f377e2e302d93e7127c47604438a"
+                "reference": "31525caf9e8772683672fefd8a1ca0c0736020f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/202c7775d959f377e2e302d93e7127c47604438a",
-                "reference": "202c7775d959f377e2e302d93e7127c47604438a",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/31525caf9e8772683672fefd8a1ca0c0736020f4",
+                "reference": "31525caf9e8772683672fefd8a1ca0c0736020f4",
                 "shasum": ""
             },
             "require": {
@@ -773,7 +773,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2015-09-22 19:18:28"
+            "time": "2015-09-30 22:26:59"
         },
         {
             "name": "monolog/monolog",
@@ -1241,16 +1241,16 @@
         },
         {
             "name": "orchestra/extension",
-            "version": "v3.1.8",
+            "version": "3.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/extension.git",
-                "reference": "201a01b7c8571c5207173822df915dee8c48f25a"
+                "reference": "c1842eeb64993c5da8c2a5f15fa74b2ee760cf02"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/extension/zipball/201a01b7c8571c5207173822df915dee8c48f25a",
-                "reference": "201a01b7c8571c5207173822df915dee8c48f25a",
+                "url": "https://api.github.com/repos/orchestral/extension/zipball/c1842eeb64993c5da8c2a5f15fa74b2ee760cf02",
+                "reference": "c1842eeb64993c5da8c2a5f15fa74b2ee760cf02",
                 "shasum": ""
             },
             "require": {
@@ -1299,7 +1299,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2015-09-03 10:13:45"
+            "time": "2015-10-01 00:37:50"
         },
         {
             "name": "orchestra/facile",
@@ -1364,23 +1364,23 @@
         },
         {
             "name": "orchestra/foundation",
-            "version": "v3.1.15",
+            "version": "3.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "a4dfe3f70f3bcaea61e91c74293faf8d90495c78"
+                "reference": "35e68c2f3d2a93a6e592c53a92c4b8c6fc428cf1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/a4dfe3f70f3bcaea61e91c74293faf8d90495c78",
-                "reference": "a4dfe3f70f3bcaea61e91c74293faf8d90495c78",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/35e68c2f3d2a93a6e592c53a92c4b8c6fc428cf1",
+                "reference": "35e68c2f3d2a93a6e592c53a92c4b8c6fc428cf1",
                 "shasum": ""
             },
             "require": {
                 "laravel/framework": "~5.1.9",
                 "orchestra/asset": "~3.1.0",
                 "orchestra/auth": "~3.1.3",
-                "orchestra/extension": "~3.1.8",
+                "orchestra/extension": "~3.1.9",
                 "orchestra/html": "~3.1.7",
                 "orchestra/kernel": "~3.1.8",
                 "orchestra/memory": "~3.1.0",
@@ -1442,7 +1442,7 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2015-09-22 06:37:30"
+            "time": "2015-10-01 00:40:19"
         },
         {
             "name": "orchestra/html",
@@ -3457,12 +3457,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/franzliedke/studio.git",
-                "reference": "535f14db37f118eb470490002a7994a1cd209432"
+                "reference": "6ad1e660e7dabc38e7c34c1d7abc57f82064505e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/franzliedke/studio/zipball/535f14db37f118eb470490002a7994a1cd209432",
-                "reference": "535f14db37f118eb470490002a7994a1cd209432",
+                "url": "https://api.github.com/repos/franzliedke/studio/zipball/6ad1e660e7dabc38e7c34c1d7abc57f82064505e",
+                "reference": "6ad1e660e7dabc38e7c34c1d7abc57f82064505e",
                 "shasum": ""
             },
             "require": {
@@ -3477,7 +3477,8 @@
                 "franzliedke/studio": "self.version"
             },
             "require-dev": {
-                "composer/composer": "dev-master"
+                "composer/composer": "dev-master",
+                "phpspec/phpspec": "~2.3"
             },
             "bin": [
                 "bin/studio"
@@ -3504,7 +3505,7 @@
                 "development",
                 "workflow"
             ],
-            "time": "2015-09-25 12:07:17"
+            "time": "2015-09-28 22:12:00"
         },
         {
             "name": "laravel/homestead",
