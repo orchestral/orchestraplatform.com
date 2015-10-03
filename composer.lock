@@ -1048,16 +1048,16 @@
         },
         {
             "name": "orchestra/auth",
-            "version": "3.1.x-dev",
+            "version": "v3.1.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/auth.git",
-                "reference": "b00f17534dd66b8ce5c3fe7fbc9663483e425fb2"
+                "reference": "b4553912df9527fd79830276bcff2cdc3f86ca0c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/auth/zipball/b00f17534dd66b8ce5c3fe7fbc9663483e425fb2",
-                "reference": "b00f17534dd66b8ce5c3fe7fbc9663483e425fb2",
+                "url": "https://api.github.com/repos/orchestral/auth/zipball/b4553912df9527fd79830276bcff2cdc3f86ca0c",
+                "reference": "b4553912df9527fd79830276bcff2cdc3f86ca0c",
                 "shasum": ""
             },
             "require": {
@@ -1117,7 +1117,7 @@
                 "permission",
                 "rbac"
             ],
-            "time": "2015-09-19 15:10:10"
+            "time": "2015-10-02 23:38:16"
         },
         {
             "name": "orchestra/avatar",
@@ -1368,12 +1368,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "0b753a7d1e60fbee6b925e3004c7e0f72ea9b7bd"
+                "reference": "8f0eacdfad4f428f0111f3fc9e3f84588f73afce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/0b753a7d1e60fbee6b925e3004c7e0f72ea9b7bd",
-                "reference": "0b753a7d1e60fbee6b925e3004c7e0f72ea9b7bd",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/8f0eacdfad4f428f0111f3fc9e3f84588f73afce",
+                "reference": "8f0eacdfad4f428f0111f3fc9e3f84588f73afce",
                 "shasum": ""
             },
             "require": {
@@ -1442,20 +1442,20 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2015-10-01 06:28:39"
+            "time": "2015-10-03 00:35:03"
         },
         {
             "name": "orchestra/html",
-            "version": "v3.1.7",
+            "version": "v3.1.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/html.git",
-                "reference": "723f37efd11232ab65f6d46c9d428e6bf7f87991"
+                "reference": "a95f7e899f49e367b9f9d316d1f0152d44bce8fe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/html/zipball/723f37efd11232ab65f6d46c9d428e6bf7f87991",
-                "reference": "723f37efd11232ab65f6d46c9d428e6bf7f87991",
+                "url": "https://api.github.com/repos/orchestral/html/zipball/a95f7e899f49e367b9f9d316d1f0152d44bce8fe",
+                "reference": "a95f7e899f49e367b9f9d316d1f0152d44bce8fe",
                 "shasum": ""
             },
             "require": {
@@ -1508,7 +1508,7 @@
                 "orchestral",
                 "table"
             ],
-            "time": "2015-09-22 06:33:40"
+            "time": "2015-10-02 23:24:41"
         },
         {
             "name": "orchestra/installer",
