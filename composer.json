@@ -12,7 +12,8 @@
         "orchestra/story": "~3.1.6",
         "laravie/kurenai": "^0.2",
         "pda/pheanstalk": "~3.0",
-        "fideloper/proxy": "^3.0"
+        "fideloper/proxy": "^3.0",
+        "laravie/quemon": "~1.0"
     },
     "require-dev": {
         "phpspec/phpspec": "~2.1",

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "faf36d95dc4140cea6c65f504f226f90",
-    "content-hash": "ad6ef6ef152b31ee37c8f99675d35565",
+    "hash": "af38e0574014b73034faab56ec4029a9",
+    "content-hash": "b2a69199e6257568b55b60fd94558f3a",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -690,6 +690,52 @@
                 "metadata"
             ],
             "time": "2015-09-07 06:21:38"
+        },
+        {
+            "name": "laravie/quemon",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravie/quemon.git",
+                "reference": "615924633c30f5c38bf2814adad86f1c6a359575"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravie/quemon/zipball/615924633c30f5c38bf2814adad86f1c6a359575",
+                "reference": "615924633c30f5c38bf2814adad86f1c6a359575",
+                "shasum": ""
+            },
+            "require": {
+                "orchestra/contracts": "~3.1",
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "^0.9.1",
+                "orchestra/foundation": "~3.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Laravie\\Quemon\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mior Muhammad Zaki",
+                    "email": "crynobone@gmail.com"
+                }
+            ],
+            "description": "Quemon Extension for Orchestra Platform",
+            "time": "2015-10-12 03:38:15"
         },
         {
             "name": "league/flysystem",
