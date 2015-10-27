@@ -30,7 +30,7 @@
         }
     },
     "scripts": {
-        "update-frontend": [
+        "update:frontend": [
             "bower update",
             "gulp --production"
         ],
