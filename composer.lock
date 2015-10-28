@@ -498,16 +498,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.1.20",
+            "version": "v5.1.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "435af155ed15a6b1d03a0d0a46ae4c347d96b0d7"
+                "reference": "21a3f2023c2f59dcd5dc3a0ec5d8ab4c9c2f52a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/435af155ed15a6b1d03a0d0a46ae4c347d96b0d7",
-                "reference": "435af155ed15a6b1d03a0d0a46ae4c347d96b0d7",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/21a3f2023c2f59dcd5dc3a0ec5d8ab4c9c2f52a9",
+                "reference": "21a3f2023c2f59dcd5dc3a0ec5d8ab4c9c2f52a9",
                 "shasum": ""
             },
             "require": {
@@ -521,7 +521,7 @@
                 "monolog/monolog": "~1.11",
                 "mtdowling/cron-expression": "~1.0",
                 "nesbot/carbon": "~1.19",
-                "paragonie/random_compat": "^1.0.4",
+                "paragonie/random_compat": "^1.0.6",
                 "php": ">=5.5.9",
                 "psy/psysh": "~0.5.1",
                 "swiftmailer/swiftmailer": "~5.1",
@@ -623,7 +623,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2015-10-14 15:49:40"
+            "time": "2015-10-28 03:48:55"
         },
         {
             "name": "laravie/kurenai",
