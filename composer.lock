@@ -498,16 +498,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.1.21",
+            "version": "v5.1.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "21a3f2023c2f59dcd5dc3a0ec5d8ab4c9c2f52a9"
+                "reference": "11d9627c7cd4d12b6e884b87daa7a2f898cf54cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/21a3f2023c2f59dcd5dc3a0ec5d8ab4c9c2f52a9",
-                "reference": "21a3f2023c2f59dcd5dc3a0ec5d8ab4c9c2f52a9",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/11d9627c7cd4d12b6e884b87daa7a2f898cf54cb",
+                "reference": "11d9627c7cd4d12b6e884b87daa7a2f898cf54cb",
                 "shasum": ""
             },
             "require": {
@@ -623,7 +623,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2015-10-28 03:48:55"
+            "time": "2015-10-28 21:58:18"
         },
         {
             "name": "laravie/kurenai",
@@ -1807,16 +1807,16 @@
         },
         {
             "name": "orchestra/model",
-            "version": "v3.1.4",
+            "version": "v3.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/model.git",
-                "reference": "efc1fec29c0022e725b16345bb55f4422b3907cd"
+                "reference": "90219417f2ee636eb683197efae624a988929e27"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/model/zipball/efc1fec29c0022e725b16345bb55f4422b3907cd",
-                "reference": "efc1fec29c0022e725b16345bb55f4422b3907cd",
+                "url": "https://api.github.com/repos/orchestral/model/zipball/90219417f2ee636eb683197efae624a988929e27",
+                "reference": "90219417f2ee636eb683197efae624a988929e27",
                 "shasum": ""
             },
             "require": {
@@ -1860,7 +1860,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2015-10-02 13:40:16"
+            "time": "2015-10-28 10:45:16"
         },
         {
             "name": "orchestra/notifier",
