@@ -4,34 +4,34 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3cb7f75939651fc709ffb3d2417ac0ca",
-    "content-hash": "a488eb259db5bbbba5a6b73cb675de50",
+    "hash": "023a29945b232d7cf4bb1ef2619603e7",
+    "content-hash": "62074e550d0a80ba6d329a809f47460e",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
-            "version": "2.0.0",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ClassPreloader/ClassPreloader.git",
-                "reference": "8c3c14b10309e3b40bce833913a6c0c0b8c8f962"
+                "reference": "9b10b913c2bdf90c3d2e0d726b454fb7f77c552a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ClassPreloader/ClassPreloader/zipball/8c3c14b10309e3b40bce833913a6c0c0b8c8f962",
-                "reference": "8c3c14b10309e3b40bce833913a6c0c0b8c8f962",
+                "url": "https://api.github.com/repos/ClassPreloader/ClassPreloader/zipball/9b10b913c2bdf90c3d2e0d726b454fb7f77c552a",
+                "reference": "9b10b913c2bdf90c3d2e0d726b454fb7f77c552a",
                 "shasum": ""
             },
             "require": {
-                "nikic/php-parser": "~1.3",
+                "nikic/php-parser": "^1.0|^2.0",
                 "php": ">=5.5.9"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.0"
+                "phpunit/phpunit": "^4.8|^5.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.0-dev"
+                    "dev-master": "3.0-dev"
                 }
             },
             "autoload": {
@@ -59,7 +59,7 @@
                 "class",
                 "preload"
             ],
-            "time": "2015-06-28 21:39:13"
+            "time": "2015-11-09 22:51:51"
         },
         {
             "name": "danielstjules/stringy",
@@ -498,20 +498,20 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.1.23",
+            "version": "v5.1.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "a4ea877d2bb6a68796b244a741594968796c1c4e"
+                "reference": "875baf2d1645ce23e2ec0bf94fa7bb3e7fbfd6ed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/a4ea877d2bb6a68796b244a741594968796c1c4e",
-                "reference": "a4ea877d2bb6a68796b244a741594968796c1c4e",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/875baf2d1645ce23e2ec0bf94fa7bb3e7fbfd6ed",
+                "reference": "875baf2d1645ce23e2ec0bf94fa7bb3e7fbfd6ed",
                 "shasum": ""
             },
             "require": {
-                "classpreloader/classpreloader": "~2.0",
+                "classpreloader/classpreloader": "~2.0|~3.0",
                 "danielstjules/stringy": "~1.8",
                 "doctrine/inflector": "~1.0",
                 "ext-mbstring": "*",
@@ -521,9 +521,9 @@
                 "monolog/monolog": "~1.11",
                 "mtdowling/cron-expression": "~1.0",
                 "nesbot/carbon": "~1.19",
-                "paragonie/random_compat": "^1.0.6",
+                "paragonie/random_compat": "~1.1",
                 "php": ">=5.5.9",
-                "psy/psysh": "~0.5.1",
+                "psy/psysh": "0.6.*",
                 "swiftmailer/swiftmailer": "~5.1",
                 "symfony/console": "2.7.*",
                 "symfony/css-selector": "2.7.*",
@@ -623,20 +623,20 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2015-11-03 16:32:33"
+            "time": "2015-11-11 22:45:42"
         },
         {
             "name": "laravie/html",
-            "version": "v5.1.1",
+            "version": "v5.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravie/html.git",
-                "reference": "7b2c477f7431f28c0eac5bb0316e029096fc1d12"
+                "reference": "f708c72290efb402793b61f58e679323b00e427d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravie/html/zipball/7b2c477f7431f28c0eac5bb0316e029096fc1d12",
-                "reference": "7b2c477f7431f28c0eac5bb0316e029096fc1d12",
+                "url": "https://api.github.com/repos/laravie/html/zipball/f708c72290efb402793b61f58e679323b00e427d",
+                "reference": "f708c72290efb402793b61f58e679323b00e427d",
                 "shasum": ""
             },
             "require": {
@@ -686,20 +686,20 @@
                 }
             ],
             "description": "HTML and Form Builders for the Laravel Framework",
-            "time": "2015-11-06 00:41:18"
+            "time": "2015-11-18 23:35:26"
         },
         {
             "name": "laravie/kurenai",
-            "version": "v0.3.0",
+            "version": "v1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravie/kurenai.git",
-                "reference": "732f2ff967f0da2a5afbbeb34943e258173429ce"
+                "reference": "4444ae761f36995fc3a10f0e8d37accd66809c3a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravie/kurenai/zipball/732f2ff967f0da2a5afbbeb34943e258173429ce",
-                "reference": "732f2ff967f0da2a5afbbeb34943e258173429ce",
+                "url": "https://api.github.com/repos/laravie/kurenai/zipball/4444ae761f36995fc3a10f0e8d37accd66809c3a",
+                "reference": "4444ae761f36995fc3a10f0e8d37accd66809c3a",
                 "shasum": ""
             },
             "require": {
@@ -753,7 +753,7 @@
                 "markdown",
                 "metadata"
             ],
-            "time": "2015-10-28 00:27:37"
+            "time": "2015-11-20 00:11:14"
         },
         {
             "name": "laravie/quemon",
@@ -1291,6 +1291,54 @@
             "time": "2015-07-06 07:56:48"
         },
         {
+            "name": "orchestra/contracts",
+            "version": "v3.1.13",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/orchestral/contracts.git",
+                "reference": "ebe16d5f7f76f655555a0f83b82a126b06579ef7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/orchestral/contracts/zipball/ebe16d5f7f76f655555a0f83b82a126b06579ef7",
+                "reference": "ebe16d5f7f76f655555a0f83b82a126b06579ef7",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/contracts": "~5.1.0",
+                "php": ">=5.5.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Orchestra\\Contracts\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mior Muhammad Zaki",
+                    "email": "crynobone@gmail.com",
+                    "homepage": "https://github.com/crynobone"
+                }
+            ],
+            "description": "Contracts for Orchestra Platform",
+            "keywords": [
+                "contracts",
+                "orchestra-platform",
+                "orchestral"
+            ],
+            "time": "2015-11-18 10:24:34"
+        },
+        {
             "name": "orchestra/control",
             "version": "v3.1.6",
             "source": {
@@ -1476,20 +1524,20 @@
         },
         {
             "name": "orchestra/foundation",
-            "version": "v3.1.17",
+            "version": "v3.1.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "a6b22a8fe269f20b725c9db52e643eee4fbd76dc"
+                "reference": "8c4aece8e307e7afcb88ce299f4e38e8be1cb453"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/a6b22a8fe269f20b725c9db52e643eee4fbd76dc",
-                "reference": "a6b22a8fe269f20b725c9db52e643eee4fbd76dc",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/8c4aece8e307e7afcb88ce299f4e38e8be1cb453",
+                "reference": "8c4aece8e307e7afcb88ce299f4e38e8be1cb453",
                 "shasum": ""
             },
             "require": {
-                "laravel/framework": "~5.1.9",
+                "laravel/framework": "~5.1.24",
                 "orchestra/asset": "~3.1.0",
                 "orchestra/auth": "~3.1.3",
                 "orchestra/extension": "~3.1.9",
@@ -1554,7 +1602,7 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2015-10-29 18:03:46"
+            "time": "2015-11-12 01:44:08"
         },
         {
             "name": "orchestra/html",
@@ -1676,24 +1724,24 @@
         },
         {
             "name": "orchestra/kernel",
-            "version": "v3.1.11",
+            "version": "v3.1.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/kernel.git",
-                "reference": "58bd3e9b2adf1539435b5e5c189a23f45d9973e6"
+                "reference": "a355908ac6b0124dd59c1ce596cca816c018e751"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/kernel/zipball/58bd3e9b2adf1539435b5e5c189a23f45d9973e6",
-                "reference": "58bd3e9b2adf1539435b5e5c189a23f45d9973e6",
+                "url": "https://api.github.com/repos/orchestral/kernel/zipball/a355908ac6b0124dd59c1ce596cca816c018e751",
+                "reference": "a355908ac6b0124dd59c1ce596cca816c018e751",
                 "shasum": ""
             },
             "require": {
+                "orchestra/contracts": "~3.1.13",
                 "php": ">=5.5.0"
             },
             "replace": {
                 "orchestra/config": "self.version",
-                "orchestra/contracts": "self.version",
                 "orchestra/database": "self.version",
                 "orchestra/http": "self.version",
                 "orchestra/routing": "self.version"
@@ -1736,7 +1784,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2015-09-12 19:25:50"
+            "time": "2015-11-18 09:59:06"
         },
         {
             "name": "orchestra/memory",
@@ -1803,16 +1851,16 @@
         },
         {
             "name": "orchestra/messages",
-            "version": "v3.1.2",
+            "version": "v3.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/messages.git",
-                "reference": "1f08c2caf5130010c7b29432cd1d8cfc0225a24a"
+                "reference": "84aab38a01afb9d4999e9a148da8aa8a4ff24449"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/messages/zipball/1f08c2caf5130010c7b29432cd1d8cfc0225a24a",
-                "reference": "1f08c2caf5130010c7b29432cd1d8cfc0225a24a",
+                "url": "https://api.github.com/repos/orchestral/messages/zipball/84aab38a01afb9d4999e9a148da8aa8a4ff24449",
+                "reference": "84aab38a01afb9d4999e9a148da8aa8a4ff24449",
                 "shasum": ""
             },
             "require": {
@@ -1864,7 +1912,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2015-06-16 11:43:22"
+            "time": "2015-11-19 00:05:14"
         },
         {
             "name": "orchestra/model",
@@ -2404,20 +2452,23 @@
         },
         {
             "name": "paragonie/random_compat",
-            "version": "1.0.10",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "2fa50aa2f17066fa74ba00d943e8cee1a98284af"
+                "reference": "19f765b66c6fbb56ee3b11bc16d52e38eebdc295"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/2fa50aa2f17066fa74ba00d943e8cee1a98284af",
-                "reference": "2fa50aa2f17066fa74ba00d943e8cee1a98284af",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/19f765b66c6fbb56ee3b11bc16d52e38eebdc295",
+                "reference": "19f765b66c6fbb56ee3b11bc16d52e38eebdc295",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.2.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*|5.*"
             },
             "suggest": {
                 "ext-libsodium": "Provides a modern crypto API that can be used to generate random bytes."
@@ -2445,7 +2496,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2015-10-23 13:21:37"
+            "time": "2015-11-10 00:45:41"
         },
         {
             "name": "pda/pheanstalk",
@@ -2587,29 +2638,29 @@
         },
         {
             "name": "psy/psysh",
-            "version": "v0.5.2",
+            "version": "v0.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "aaf8772ade08b5f0f6830774a5d5c2f800415975"
+                "reference": "0f04df0b23663799a8941fae13cd8e6299bde3ed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/aaf8772ade08b5f0f6830774a5d5c2f800415975",
-                "reference": "aaf8772ade08b5f0f6830774a5d5c2f800415975",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/0f04df0b23663799a8941fae13cd8e6299bde3ed",
+                "reference": "0f04df0b23663799a8941fae13cd8e6299bde3ed",
                 "shasum": ""
             },
             "require": {
                 "dnoegel/php-xdg-base-dir": "0.1",
                 "jakub-onderka/php-console-highlighter": "0.3.*",
-                "nikic/php-parser": "^1.2.1",
+                "nikic/php-parser": "^1.2.1|~2.0",
                 "php": ">=5.3.9",
                 "symfony/console": "~2.3.10|^2.4.2|~3.0",
                 "symfony/var-dumper": "~2.7|~3.0"
             },
             "require-dev": {
                 "fabpot/php-cs-fixer": "~1.5",
-                "phpunit/phpunit": "~3.7|~4.0",
+                "phpunit/phpunit": "~3.7|~4.0|~5.0",
                 "squizlabs/php_codesniffer": "~2.0",
                 "symfony/finder": "~2.1|~3.0"
             },
@@ -2625,15 +2676,15 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-develop": "0.6.x-dev"
+                    "dev-develop": "0.7.x-dev"
                 }
             },
             "autoload": {
                 "files": [
                     "src/Psy/functions.php"
                 ],
-                "psr-0": {
-                    "Psy\\": "src/"
+                "psr-4": {
+                    "Psy\\": "src/Psy/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2655,7 +2706,7 @@
                 "interactive",
                 "shell"
             ],
-            "time": "2015-07-16 15:26:57"
+            "time": "2015-11-12 16:18:56"
         },
         {
             "name": "spatie/array-to-xml",

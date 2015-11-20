@@ -22,3 +22,6 @@
 	path = docs/3.2
 	url = https://github.com/orchestral/docs.git
 	branch = master
+[submodule "docs/3.3"]
+	path = docs/3.3
+	url = https://github.com/orchestral/docs.git

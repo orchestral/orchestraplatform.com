@@ -1,6 +1,6 @@
 #!/bin/sh
 
-VERSIONS=("2.0" "2.1" "2.2" "3.0" "3.1");
+VERSIONS=("2.0" "2.1" "2.2" "3.0" "3.1" "3.2");
 
 cd docs;
 
@@ -13,7 +13,7 @@ do
 done
 
 # Update master branch
-cd 3.2;
+cd 3.3;
 git checkout master;
 cd ../;
 
