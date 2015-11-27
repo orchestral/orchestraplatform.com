@@ -2203,16 +2203,16 @@
         },
         {
             "name": "orchestra/support",
-            "version": "v3.1.6",
+            "version": "v3.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/support.git",
-                "reference": "800172583fd438d85143ef30e35bdc8d38e284a1"
+                "reference": "bd2d44588dfc594381c80869ed3419f06a28caf3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/support/zipball/800172583fd438d85143ef30e35bdc8d38e284a1",
-                "reference": "800172583fd438d85143ef30e35bdc8d38e284a1",
+                "url": "https://api.github.com/repos/orchestral/support/zipball/bd2d44588dfc594381c80869ed3419f06a28caf3",
+                "reference": "bd2d44588dfc594381c80869ed3419f06a28caf3",
                 "shasum": ""
             },
             "require": {
@@ -2269,7 +2269,7 @@
                 "utilities",
                 "validator"
             ],
-            "time": "2015-11-20 12:54:22"
+            "time": "2015-11-25 07:01:32"
         },
         {
             "name": "orchestra/translation",
