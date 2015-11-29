@@ -1340,16 +1340,16 @@
         },
         {
             "name": "orchestra/control",
-            "version": "v3.1.6",
+            "version": "v3.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/control.git",
-                "reference": "39459120c0ca5f39a3872e8dea1b4c1f1ea1e87c"
+                "reference": "6fdc894f429d63fe37386dd5095008b1a8d63fc6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/control/zipball/39459120c0ca5f39a3872e8dea1b4c1f1ea1e87c",
-                "reference": "39459120c0ca5f39a3872e8dea1b4c1f1ea1e87c",
+                "url": "https://api.github.com/repos/orchestral/control/zipball/6fdc894f429d63fe37386dd5095008b1a8d63fc6",
+                "reference": "6fdc894f429d63fe37386dd5095008b1a8d63fc6",
                 "shasum": ""
             },
             "require": {
@@ -1359,7 +1359,7 @@
             },
             "require-dev": {
                 "mockery/mockery": "^0.9.1",
-                "orchestra/foundation": "~3.1.14"
+                "orchestra/foundation": "~3.1.19"
             },
             "type": "library",
             "extra": {
@@ -1396,7 +1396,7 @@
                 "theme",
                 "timezone"
             ],
-            "time": "2015-10-02 12:07:08"
+            "time": "2015-11-29 08:24:41"
         },
         {
             "name": "orchestra/extension",
@@ -1524,30 +1524,31 @@
         },
         {
             "name": "orchestra/foundation",
-            "version": "v3.1.18",
+            "version": "v3.1.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "8c4aece8e307e7afcb88ce299f4e38e8be1cb453"
+                "reference": "8b88be2f104e6bb09bd1c67e8cc2e500c4af9af8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/8c4aece8e307e7afcb88ce299f4e38e8be1cb453",
-                "reference": "8c4aece8e307e7afcb88ce299f4e38e8be1cb453",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/8b88be2f104e6bb09bd1c67e8cc2e500c4af9af8",
+                "reference": "8b88be2f104e6bb09bd1c67e8cc2e500c4af9af8",
                 "shasum": ""
             },
             "require": {
                 "laravel/framework": "~5.1.24",
                 "orchestra/asset": "~3.1.0",
                 "orchestra/auth": "~3.1.3",
+                "orchestra/contracts": "~3.1.13",
                 "orchestra/extension": "~3.1.9",
                 "orchestra/html": "~3.1.7",
-                "orchestra/kernel": "~3.1.8",
+                "orchestra/kernel": "~3.1.13",
                 "orchestra/memory": "~3.1.0",
                 "orchestra/messages": "~3.1.0",
                 "orchestra/model": "~3.1.0",
                 "orchestra/notifier": "~3.1.0",
-                "orchestra/optimize": "~3.1.0",
+                "orchestra/optimize": "~3.1.6",
                 "orchestra/publisher": "~3.1.0",
                 "orchestra/support": "~3.1.1",
                 "orchestra/translation": "~3.1.0",
@@ -1559,7 +1560,8 @@
             "require-dev": {
                 "mockery/mockery": "^0.9.1",
                 "orchestra/resources": "~3.1.0",
-                "orchestra/testing": "~3.1.3"
+                "orchestra/testing": "~3.1.3",
+                "phpunit/phpunit": "~4.0"
             },
             "suggest": {
                 "orchestra/ftp-updater": "Allow Extension with asset to be updated/uploaded environment without SSH support (~3.1).",
@@ -1602,7 +1604,7 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2015-11-12 01:44:08"
+            "time": "2015-11-29 08:02:44"
         },
         {
             "name": "orchestra/html",
@@ -2027,16 +2029,16 @@
         },
         {
             "name": "orchestra/optimize",
-            "version": "v3.1.5",
+            "version": "v3.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/optimize.git",
-                "reference": "12a542f9dbf67352c88d51fba01bfc8e033ad88a"
+                "reference": "41226bcd15f9c878ad4612edc01a6d705fa15ffa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/optimize/zipball/12a542f9dbf67352c88d51fba01bfc8e033ad88a",
-                "reference": "12a542f9dbf67352c88d51fba01bfc8e033ad88a",
+                "url": "https://api.github.com/repos/orchestral/optimize/zipball/41226bcd15f9c878ad4612edc01a6d705fa15ffa",
+                "reference": "41226bcd15f9c878ad4612edc01a6d705fa15ffa",
                 "shasum": ""
             },
             "require": {
@@ -2076,7 +2078,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2015-09-15 15:13:44"
+            "time": "2015-11-29 08:36:54"
         },
         {
             "name": "orchestra/publisher",
@@ -3943,35 +3945,36 @@
         },
         {
             "name": "phpspec/phpspec",
-            "version": "2.3.0",
+            "version": "2.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpspec/phpspec.git",
-                "reference": "36635a903bdeb54899d7407bc95610501fd98559"
+                "reference": "1d3938e6d9ffb1bd4805ea8ddac62ea48767f358"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpspec/phpspec/zipball/36635a903bdeb54899d7407bc95610501fd98559",
-                "reference": "36635a903bdeb54899d7407bc95610501fd98559",
+                "url": "https://api.github.com/repos/phpspec/phpspec/zipball/1d3938e6d9ffb1bd4805ea8ddac62ea48767f358",
+                "reference": "1d3938e6d9ffb1bd4805ea8ddac62ea48767f358",
                 "shasum": ""
             },
             "require": {
                 "doctrine/instantiator": "^1.0.1",
+                "ext-tokenizer": "*",
                 "php": ">=5.3.3",
                 "phpspec/php-diff": "~1.0.0",
                 "phpspec/prophecy": "~1.4",
                 "sebastian/exporter": "~1.0",
-                "symfony/console": "~2.3",
-                "symfony/event-dispatcher": "~2.1",
-                "symfony/finder": "~2.1",
-                "symfony/process": "^2.6",
-                "symfony/yaml": "~2.1"
+                "symfony/console": "~2.3|~3.0",
+                "symfony/event-dispatcher": "~2.1|~3.0",
+                "symfony/finder": "~2.1|~3.0",
+                "symfony/process": "^2.6|~3.0",
+                "symfony/yaml": "~2.1|~3.0"
             },
             "require-dev": {
                 "behat/behat": "^3.0.11",
                 "bossa/phpspec2-expect": "~1.0",
                 "phpunit/phpunit": "~4.4",
-                "symfony/filesystem": "~2.1"
+                "symfony/filesystem": "~2.1|~3.0"
             },
             "suggest": {
                 "phpspec/nyan-formatters": "~1.0 – Adds Nyan formatters"
@@ -4016,7 +4019,7 @@
                 "testing",
                 "tests"
             ],
-            "time": "2015-09-07 07:07:37"
+            "time": "2015-11-29 02:03:49"
         },
         {
             "name": "phpspec/prophecy",
