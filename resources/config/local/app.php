@@ -2,6 +2,6 @@
 
 return [
     'providers' => append_config([
-        'Orchestra\Studio\StudioServiceProvider',
+        Orchestra\Studio\StudioServiceProvider::class,
     ]),
 ];
