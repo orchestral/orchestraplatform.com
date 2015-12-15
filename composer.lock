@@ -1406,16 +1406,16 @@
         },
         {
             "name": "orchestra/extension",
-            "version": "v3.1.10",
+            "version": "v3.1.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/extension.git",
-                "reference": "2d21b5b5bce503b80fa6f2b8aa252fcd4027e951"
+                "reference": "be7c95d7d8d5cf069d7de2272628c1530fe1ec2f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/extension/zipball/2d21b5b5bce503b80fa6f2b8aa252fcd4027e951",
-                "reference": "2d21b5b5bce503b80fa6f2b8aa252fcd4027e951",
+                "url": "https://api.github.com/repos/orchestral/extension/zipball/be7c95d7d8d5cf069d7de2272628c1530fe1ec2f",
+                "reference": "be7c95d7d8d5cf069d7de2272628c1530fe1ec2f",
                 "shasum": ""
             },
             "require": {
@@ -1464,7 +1464,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2015-10-22 01:16:45"
+            "time": "2015-12-15 02:10:39"
         },
         {
             "name": "orchestra/facile",
@@ -1730,16 +1730,16 @@
         },
         {
             "name": "orchestra/kernel",
-            "version": "v3.1.13",
+            "version": "v3.1.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/kernel.git",
-                "reference": "a355908ac6b0124dd59c1ce596cca816c018e751"
+                "reference": "a6d03e58fa517efb6fe598e67b024649c1fa013d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/kernel/zipball/a355908ac6b0124dd59c1ce596cca816c018e751",
-                "reference": "a355908ac6b0124dd59c1ce596cca816c018e751",
+                "url": "https://api.github.com/repos/orchestral/kernel/zipball/a6d03e58fa517efb6fe598e67b024649c1fa013d",
+                "reference": "a6d03e58fa517efb6fe598e67b024649c1fa013d",
                 "shasum": ""
             },
             "require": {
@@ -1754,7 +1754,7 @@
             },
             "require-dev": {
                 "hashids/hashids": "~1.0",
-                "laravel/framework": "~5.1.0",
+                "laravel/framework": "~5.1.18",
                 "mockery/mockery": "0.9.*"
             },
             "suggest": {
@@ -1763,7 +1763,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.2-dev"
+                    "dev-master": "3.3-dev"
                 }
             },
             "autoload": {
@@ -1790,7 +1790,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2015-11-18 09:59:06"
+            "time": "2015-12-15 02:25:18"
         },
         {
             "name": "orchestra/memory",
