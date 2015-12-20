@@ -5,17 +5,19 @@ use Illuminate\Support\Arr;
 
 class Version
 {
+    const DEV    = 'dev';
+    const EOL    = 'eol';
     const LTS    = 'lts';
     const STABLE = 'stable';
-    const EOL    = 'eol';
 
     /**
      * @var array
      */
     protected $label = [
+        'dev'    => 'warning',
+        'eol'    => 'danger',
         'lts'    => 'info',
         'stable' => 'success',
-        'eol'    => 'danger',
     ];
 
     /**

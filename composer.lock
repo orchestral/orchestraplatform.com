@@ -1474,16 +1474,16 @@
         },
         {
             "name": "orchestra/facile",
-            "version": "3.2.x-dev",
+            "version": "v3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/facile.git",
-                "reference": "912c0a382603400fcdb9c1ae93d3729b5af2b15f"
+                "reference": "5373e3ddfdec002e1ea8ebb183b36e492b16d3ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/facile/zipball/912c0a382603400fcdb9c1ae93d3729b5af2b15f",
-                "reference": "912c0a382603400fcdb9c1ae93d3729b5af2b15f",
+                "url": "https://api.github.com/repos/orchestral/facile/zipball/5373e3ddfdec002e1ea8ebb183b36e492b16d3ca",
+                "reference": "5373e3ddfdec002e1ea8ebb183b36e492b16d3ca",
                 "shasum": ""
             },
             "require": {
@@ -1532,7 +1532,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2015-12-13 19:03:24"
+            "time": "2015-12-20 13:27:02"
         },
         {
             "name": "orchestra/foundation",
@@ -1802,16 +1802,16 @@
         },
         {
             "name": "orchestra/memory",
-            "version": "3.2.x-dev",
+            "version": "v3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/memory.git",
-                "reference": "f2ebfafc38d8b900791b8eb52d8d59e833444510"
+                "reference": "12abe56480c527f59a0a73daa05839541b28e16e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/memory/zipball/f2ebfafc38d8b900791b8eb52d8d59e833444510",
-                "reference": "f2ebfafc38d8b900791b8eb52d8d59e833444510",
+                "url": "https://api.github.com/repos/orchestral/memory/zipball/12abe56480c527f59a0a73daa05839541b28e16e",
+                "reference": "12abe56480c527f59a0a73daa05839541b28e16e",
                 "shasum": ""
             },
             "require": {
@@ -1862,7 +1862,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2015-12-13 19:10:03"
+            "time": "2015-12-20 15:06:53"
         },
         {
             "name": "orchestra/messages",
@@ -1931,7 +1931,7 @@
         },
         {
             "name": "orchestra/model",
-            "version": "3.2.x-dev",
+            "version": "v3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/model.git",
