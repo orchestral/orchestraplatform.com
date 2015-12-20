@@ -53,7 +53,7 @@ class DocumentationVersionList
         $documentation = $this->buildDocumentationUrl([
             new Version('3.2', Version::DEV),
             new Version('3.1', Version::LTS),
-            new Version('3.0', Version::OEL),
+            new Version('3.0', Version::EOL),
             new Version('2.2', Version::EOL),
             new Version('2.1', Version::EOL),
         ]);
