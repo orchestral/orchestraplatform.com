@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6928cbcd8bea91e92054ce39bc3cbfd2",
-    "content-hash": "d5f6fab14e0d2f58cde31239b2401e80",
+    "hash": "3b1b8dc388b18a85ae0b51096c2bb70b",
+    "content-hash": "13a6b733dd973843515b6dde5ed20544",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -302,16 +302,16 @@
         },
         {
             "name": "fideloper/proxy",
-            "version": "3.0.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fideloper/TrustedProxy.git",
-                "reference": "cc7937c3b4e285e24e020beeaff331180a641e6d"
+                "reference": "d0d3cd036d269b3197a580b5d22e7887fcbb89c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fideloper/TrustedProxy/zipball/cc7937c3b4e285e24e020beeaff331180a641e6d",
-                "reference": "cc7937c3b4e285e24e020beeaff331180a641e6d",
+                "url": "https://api.github.com/repos/fideloper/TrustedProxy/zipball/d0d3cd036d269b3197a580b5d22e7887fcbb89c5",
+                "reference": "d0d3cd036d269b3197a580b5d22e7887fcbb89c5",
                 "shasum": ""
             },
             "require": {
@@ -349,7 +349,7 @@
                 "proxy",
                 "trusted proxy"
             ],
-            "time": "2015-02-04 20:24:17"
+            "time": "2015-12-03 18:16:00"
         },
         {
             "name": "jakub-onderka/php-console-color",
