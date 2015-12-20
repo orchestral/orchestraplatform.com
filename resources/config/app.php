@@ -4,6 +4,19 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+    | Application Environment
+    |--------------------------------------------------------------------------
+    |
+    | This value determines the "environment" your application is currently
+    | running in. This may determine how you prefer to configure various
+    | services your application utilizes. Set this in your ".env" file.
+    |
+    */
+
+    'env' => env('APP_ENV', 'production'),
+
+    /*
+    |--------------------------------------------------------------------------
     | Application Debug Mode
     |--------------------------------------------------------------------------
     |
@@ -78,7 +91,7 @@ return [
     |
     */
 
-    'key' => env('APP_KEY', 'SomeRandomString'),
+    'key' => env('APP_KEY'),
 
     'cipher' => 'AES-256-CBC',
 
@@ -109,6 +122,7 @@ return [
     */
 
     'providers' => [
+
         /*
          * Laravel Framework Service Providers...
          */
@@ -132,11 +146,9 @@ return [
         /*
          * Orchestra Platform Service Providers...
          */
-        Orchestra\Foundation\Providers\ArtisanServiceProvider::class,
         Orchestra\Asset\AssetServiceProvider::class,
         Orchestra\Auth\AuthServiceProvider::class,
         Orchestra\Authorization\AuthorizationServiceProvider::class,
-        Orchestra\Routing\ControllerServiceProvider::class,
         Orchestra\View\DecoratorServiceProvider::class,
         Orchestra\Extension\ExtensionServiceProvider::class,
         Orchestra\Html\HtmlServiceProvider::class,
@@ -194,7 +206,6 @@ return [
         'Avatar'     => Orchestra\Support\Facades\Avatar::class,
         'Auth'       => Illuminate\Support\Facades\Auth::class,
         'Blade'      => Illuminate\Support\Facades\Blade::class,
-        'Bus'        => Illuminate\Support\Facades\Bus::class,
         'Cache'      => Illuminate\Support\Facades\Cache::class,
         'Config'     => Illuminate\Support\Facades\Config::class,
         'Cookie'     => Illuminate\Support\Facades\Cookie::class,

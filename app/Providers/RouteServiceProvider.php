@@ -31,12 +31,12 @@ class RouteServiceProvider extends ServiceProvider
     /**
      * Define the routes for the application.
      *
+     * @param  \Illuminate\Routing\Router  $router
+     *
      * @return void
      */
-    public function map()
+    public function map(Router $router)
     {
-        $this->afterExtensionLoaded(function () {
-            $this->loadFrontendRoutesFrom(app_path('Http/routes.php'));
-        });
+        $this->loadFrontendRoutesFrom(app_path('Http/routes.php'));
     }
 }
