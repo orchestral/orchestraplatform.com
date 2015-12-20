@@ -14,7 +14,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->app['config']->set('orchestra/extension::handles.app', '//{{domain}}');
+        $this->app->make('config')->set('orchestra/extension::handles.app', '//{{domain}}');
     }
 
     /**

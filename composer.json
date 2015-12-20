@@ -19,7 +19,7 @@
         "phpspec/phpspec": "~2.4",
         "orchestra/studio": "~3.2",
         "stackie/adminlte-theme": "^0.2",
-        "laravel/homestead": "^2.1.7"
+        "laravel/homestead": "^2.1.9"
     },
     "autoload": {
         "classmap": [
@@ -29,10 +29,21 @@
             "App\\": "app/"
         }
     },
+    "autoload-dev": {
+        "classmap": [
+            "tests/TestCase.php"
+        ]
+    },
     "scripts": {
         "update:frontend": [
             "bower update",
             "gulp --production"
+        ],
+        "post-root-package-install": [
+            "php -r \"copy('.env.example', '.env');\""
+        ],
+        "post-create-project-cmd": [
+            "php artisan key:generate"
         ],
         "post-install-cmd": [
             "php artisan clear-compiled",
@@ -43,12 +54,6 @@
         ],
         "post-update-cmd": [
             "php artisan orchestra:assemble"
-        ],
-        "post-root-package-install": [
-            "php -r \"copy('.env.example', '.env');\""
-        ],
-        "post-create-project-cmd": [
-            "php artisan key:generate"
         ]
     },
     "config": {
