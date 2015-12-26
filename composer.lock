@@ -627,16 +627,16 @@
         },
         {
             "name": "laravie/html",
-            "version": "v5.2.0",
+            "version": "v5.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravie/html.git",
-                "reference": "6a43e0a51cfc04fde7342eef9bf8d626c964fd20"
+                "reference": "43f1ba013476e5a14c87ba5c83f997f7848c53ee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravie/html/zipball/6a43e0a51cfc04fde7342eef9bf8d626c964fd20",
-                "reference": "6a43e0a51cfc04fde7342eef9bf8d626c964fd20",
+                "url": "https://api.github.com/repos/laravie/html/zipball/43f1ba013476e5a14c87ba5c83f997f7848c53ee",
+                "reference": "43f1ba013476e5a14c87ba5c83f997f7848c53ee",
                 "shasum": ""
             },
             "require": {
@@ -687,7 +687,8 @@
                 }
             ],
             "description": "HTML and Form Builders for the Laravel Framework",
-            "time": "2015-12-21 10:48:53"
+            "homepage": "https://github.com/laravie/html",
+            "time": "2015-12-26 17:18:46"
         },
         {
             "name": "laravie/kurenai",
@@ -1350,16 +1351,16 @@
         },
         {
             "name": "orchestra/control",
-            "version": "v3.2.0-BETA1",
+            "version": "v3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/control.git",
-                "reference": "785ad2555f365515d80b02e5abc0903746fd2165"
+                "reference": "ac6b5bd0767f9438e553084b5e4169929118ce86"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/control/zipball/785ad2555f365515d80b02e5abc0903746fd2165",
-                "reference": "785ad2555f365515d80b02e5abc0903746fd2165",
+                "url": "https://api.github.com/repos/orchestral/control/zipball/ac6b5bd0767f9438e553084b5e4169929118ce86",
+                "reference": "ac6b5bd0767f9438e553084b5e4169929118ce86",
                 "shasum": ""
             },
             "require": {
@@ -1407,7 +1408,7 @@
                 "theme",
                 "timezone"
             ],
-            "time": "2015-11-29 08:26:21"
+            "time": "2015-12-26 18:37:11"
         },
         {
             "name": "orchestra/extension",
@@ -1536,23 +1537,24 @@
         },
         {
             "name": "orchestra/foundation",
-            "version": "v3.2.0-BETA2",
+            "version": "v3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "8f28748c05114cab7ad428f6278bebeff047e5c2"
+                "reference": "32fdbdf63d4df60c36c813a9d2cb1ee2e8cbe109"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/8f28748c05114cab7ad428f6278bebeff047e5c2",
-                "reference": "8f28748c05114cab7ad428f6278bebeff047e5c2",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/32fdbdf63d4df60c36c813a9d2cb1ee2e8cbe109",
+                "reference": "32fdbdf63d4df60c36c813a9d2cb1ee2e8cbe109",
                 "shasum": ""
             },
             "require": {
-                "laravel/framework": "~5.2.0",
+                "laravel/framework": "~5.2.5",
+                "laravie/html": "~5.2.1",
                 "orchestra/asset": "~3.2.0",
                 "orchestra/auth": "~3.2.0",
-                "orchestra/contracts": "~3.2.0",
+                "orchestra/contracts": "~3.2.1",
                 "orchestra/extension": "~3.2.0",
                 "orchestra/html": "~3.2.0",
                 "orchestra/kernel": "~3.2.0",
@@ -1615,7 +1617,7 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2015-12-23 01:55:02"
+            "time": "2015-12-26 19:09:59"
         },
         {
             "name": "orchestra/html",
@@ -2046,16 +2048,16 @@
         },
         {
             "name": "orchestra/optimize",
-            "version": "v3.2.0-BETA1",
+            "version": "v3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/optimize.git",
-                "reference": "e3923d61d531b5e5691b80322c6c7339a7dadcf1"
+                "reference": "f23b574bd81f22c17a274d922d05152a4c92e52d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/optimize/zipball/e3923d61d531b5e5691b80322c6c7339a7dadcf1",
-                "reference": "e3923d61d531b5e5691b80322c6c7339a7dadcf1",
+                "url": "https://api.github.com/repos/orchestral/optimize/zipball/f23b574bd81f22c17a274d922d05152a4c92e52d",
+                "reference": "f23b574bd81f22c17a274d922d05152a4c92e52d",
                 "shasum": ""
             },
             "require": {
@@ -2095,7 +2097,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2015-12-08 23:22:06"
+            "time": "2015-12-26 18:52:02"
         },
         {
             "name": "orchestra/publisher",
@@ -2161,16 +2163,16 @@
         },
         {
             "name": "orchestra/story",
-            "version": "v3.2.0-BETA1",
+            "version": "v3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/story.git",
-                "reference": "eb0e1ee18b785519b9b10f826ef89ea44c5470f5"
+                "reference": "bddc92c72522b195411ad2dea634772cdc0899cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/story/zipball/eb0e1ee18b785519b9b10f826ef89ea44c5470f5",
-                "reference": "eb0e1ee18b785519b9b10f826ef89ea44c5470f5",
+                "url": "https://api.github.com/repos/orchestral/story/zipball/bddc92c72522b195411ad2dea634772cdc0899cc",
+                "reference": "bddc92c72522b195411ad2dea634772cdc0899cc",
                 "shasum": ""
             },
             "require": {
@@ -2217,7 +2219,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2015-12-13 04:41:47"
+            "time": "2015-12-26 18:48:02"
         },
         {
             "name": "orchestra/support",
@@ -2832,16 +2834,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v2.8.0",
+            "version": "v2.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "d232bfc100dfd32b18ccbcab4bcc8f28697b7e41"
+                "reference": "2e06a5ccb19dcf9b89f1c6a677a39a8df773635a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/d232bfc100dfd32b18ccbcab4bcc8f28697b7e41",
-                "reference": "d232bfc100dfd32b18ccbcab4bcc8f28697b7e41",
+                "url": "https://api.github.com/repos/symfony/console/zipball/2e06a5ccb19dcf9b89f1c6a677a39a8df773635a",
+                "reference": "2e06a5ccb19dcf9b89f1c6a677a39a8df773635a",
                 "shasum": ""
             },
             "require": {
@@ -2888,20 +2890,20 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2015-11-30 12:35:10"
+            "time": "2015-12-22 10:25:57"
         },
         {
             "name": "symfony/css-selector",
-            "version": "v3.0.0",
+            "version": "v3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/css-selector.git",
-                "reference": "2563cd23b8822eac1b2a4a47d99de160b58492c1"
+                "reference": "4613311fd46e146f506403ce2f8a0c71d402d2a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/css-selector/zipball/2563cd23b8822eac1b2a4a47d99de160b58492c1",
-                "reference": "2563cd23b8822eac1b2a4a47d99de160b58492c1",
+                "url": "https://api.github.com/repos/symfony/css-selector/zipball/4613311fd46e146f506403ce2f8a0c71d402d2a3",
+                "reference": "4613311fd46e146f506403ce2f8a0c71d402d2a3",
                 "shasum": ""
             },
             "require": {
@@ -2941,20 +2943,20 @@
             ],
             "description": "Symfony CssSelector Component",
             "homepage": "https://symfony.com",
-            "time": "2015-10-30 23:35:59"
+            "time": "2015-12-05 17:45:07"
         },
         {
             "name": "symfony/debug",
-            "version": "v3.0.0",
+            "version": "v3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
-                "reference": "0623b00095f0833412ee6f92f421e9adf4c7e113"
+                "reference": "73612266ac709769effdbfc0762e5b07cfd2ac2a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/debug/zipball/0623b00095f0833412ee6f92f421e9adf4c7e113",
-                "reference": "0623b00095f0833412ee6f92f421e9adf4c7e113",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/73612266ac709769effdbfc0762e5b07cfd2ac2a",
+                "reference": "73612266ac709769effdbfc0762e5b07cfd2ac2a",
                 "shasum": ""
             },
             "require": {
@@ -2998,11 +3000,11 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2015-11-27 05:46:53"
+            "time": "2015-12-26 13:39:53"
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v3.0.0",
+            "version": "v3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
@@ -3062,16 +3064,16 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v3.0.0",
+            "version": "v3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "3577eb98dba90721d1a0a3edfc6956ab8b1aecee"
+                "reference": "8617895eb798b6bdb338321ce19453dc113e5675"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/3577eb98dba90721d1a0a3edfc6956ab8b1aecee",
-                "reference": "3577eb98dba90721d1a0a3edfc6956ab8b1aecee",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/8617895eb798b6bdb338321ce19453dc113e5675",
+                "reference": "8617895eb798b6bdb338321ce19453dc113e5675",
                 "shasum": ""
             },
             "require": {
@@ -3107,20 +3109,20 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2015-10-30 23:35:59"
+            "time": "2015-12-05 11:13:14"
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v3.0.0",
+            "version": "v3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "1563f784900958afdb584ca82a072c578ed8a929"
+                "reference": "939c8c28a5b1e4ab7317bc30c1f9aa881c4b06b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/1563f784900958afdb584ca82a072c578ed8a929",
-                "reference": "1563f784900958afdb584ca82a072c578ed8a929",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/939c8c28a5b1e4ab7317bc30c1f9aa881c4b06b5",
+                "reference": "939c8c28a5b1e4ab7317bc30c1f9aa881c4b06b5",
                 "shasum": ""
             },
             "require": {
@@ -3159,20 +3161,20 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
-            "time": "2015-11-27 14:30:17"
+            "time": "2015-12-18 15:43:53"
         },
         {
             "name": "symfony/http-kernel",
-            "version": "v3.0.0",
+            "version": "v3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-kernel.git",
-                "reference": "2f7071c25cae37b79be6d9ea1c43c1035d8c6b06"
+                "reference": "f7933e9f19e26e7baba7ec04735b466fedd3a6db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/2f7071c25cae37b79be6d9ea1c43c1035d8c6b06",
-                "reference": "2f7071c25cae37b79be6d9ea1c43c1035d8c6b06",
+                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/f7933e9f19e26e7baba7ec04735b466fedd3a6db",
+                "reference": "f7933e9f19e26e7baba7ec04735b466fedd3a6db",
                 "shasum": ""
             },
             "require": {
@@ -3241,7 +3243,7 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "https://symfony.com",
-            "time": "2015-11-30 20:59:24"
+            "time": "2015-12-26 16:46:13"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -3412,16 +3414,16 @@
         },
         {
             "name": "symfony/process",
-            "version": "v2.8.0",
+            "version": "v2.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "1b988a88e3551102f3c2d9e1d47a18c3a78d6312"
+                "reference": "62c254438b5040bc2217156e1570cf2206e8540c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/1b988a88e3551102f3c2d9e1d47a18c3a78d6312",
-                "reference": "1b988a88e3551102f3c2d9e1d47a18c3a78d6312",
+                "url": "https://api.github.com/repos/symfony/process/zipball/62c254438b5040bc2217156e1570cf2206e8540c",
+                "reference": "62c254438b5040bc2217156e1570cf2206e8540c",
                 "shasum": ""
             },
             "require": {
@@ -3457,20 +3459,20 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2015-11-30 12:35:10"
+            "time": "2015-12-23 11:03:46"
         },
         {
             "name": "symfony/routing",
-            "version": "v3.0.0",
+            "version": "v3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/routing.git",
-                "reference": "252014dfa4685e80f9216ae4b7d78b1a50dd55c2"
+                "reference": "3b1bac52f42cb0f54df1a2dbabd55a1d214e2a59"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/routing/zipball/252014dfa4685e80f9216ae4b7d78b1a50dd55c2",
-                "reference": "252014dfa4685e80f9216ae4b7d78b1a50dd55c2",
+                "url": "https://api.github.com/repos/symfony/routing/zipball/3b1bac52f42cb0f54df1a2dbabd55a1d214e2a59",
+                "reference": "3b1bac52f42cb0f54df1a2dbabd55a1d214e2a59",
                 "shasum": ""
             },
             "require": {
@@ -3531,20 +3533,20 @@
                 "uri",
                 "url"
             ],
-            "time": "2015-11-26 07:02:09"
+            "time": "2015-12-23 08:00:11"
         },
         {
             "name": "symfony/translation",
-            "version": "v3.0.0",
+            "version": "v3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "7f14717150a7445f8475864d1235875dd04061fb"
+                "reference": "dff0867826a7068d673801b7522f8e2634016ef9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/7f14717150a7445f8475864d1235875dd04061fb",
-                "reference": "7f14717150a7445f8475864d1235875dd04061fb",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/dff0867826a7068d673801b7522f8e2634016ef9",
+                "reference": "dff0867826a7068d673801b7522f8e2634016ef9",
                 "shasum": ""
             },
             "require": {
@@ -3595,20 +3597,20 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
-            "time": "2015-11-18 13:48:51"
+            "time": "2015-12-05 17:45:07"
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v3.0.0",
+            "version": "v3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "737e07704cca83f9dd0af926d45ce27eedc25657"
+                "reference": "87db8700deb12ba2b65e858f656a1f885530bcb0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/737e07704cca83f9dd0af926d45ce27eedc25657",
-                "reference": "737e07704cca83f9dd0af926d45ce27eedc25657",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/87db8700deb12ba2b65e858f656a1f885530bcb0",
+                "reference": "87db8700deb12ba2b65e858f656a1f885530bcb0",
                 "shasum": ""
             },
             "require": {
@@ -3658,20 +3660,20 @@
                 "debug",
                 "dump"
             ],
-            "time": "2015-11-18 13:48:51"
+            "time": "2015-12-05 11:13:14"
         },
         {
             "name": "symfony/yaml",
-            "version": "v3.0.0",
+            "version": "v3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "177a015cb0e19ff4a49e0e2e2c5fc1c1bee07002"
+                "reference": "3df409958a646dad2bc5046c3fb671ee24a1a691"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/177a015cb0e19ff4a49e0e2e2c5fc1c1bee07002",
-                "reference": "177a015cb0e19ff4a49e0e2e2c5fc1c1bee07002",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/3df409958a646dad2bc5046c3fb671ee24a1a691",
+                "reference": "3df409958a646dad2bc5046c3fb671ee24a1a691",
                 "shasum": ""
             },
             "require": {
@@ -3707,7 +3709,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2015-11-30 12:36:17"
+            "time": "2015-12-26 13:39:53"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
@@ -3906,21 +3908,21 @@
         },
         {
             "name": "orchestra/studio",
-            "version": "v3.2.0-BETA1",
+            "version": "v3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/studio.git",
-                "reference": "5b478438ba97730aee55c1ceee22a20773f31f5f"
+                "reference": "4d3b1fd79613d622bcb6e7b027d132ce3a317339"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/studio/zipball/5b478438ba97730aee55c1ceee22a20773f31f5f",
-                "reference": "5b478438ba97730aee55c1ceee22a20773f31f5f",
+                "url": "https://api.github.com/repos/orchestral/studio/zipball/4d3b1fd79613d622bcb6e7b027d132ce3a317339",
+                "reference": "4d3b1fd79613d622bcb6e7b027d132ce3a317339",
                 "shasum": ""
             },
             "require": {
                 "orchestra/support": "~3.2.0",
-                "php": ">=5.4.0"
+                "php": ">=5.5.0"
             },
             "require-dev": {
                 "illuminate/console": "~5.2.0",
@@ -3954,7 +3956,7 @@
                 }
             ],
             "description": "Code Generator for Orchestra Platform",
-            "time": "2015-12-22 06:46:24"
+            "time": "2015-12-26 18:58:50"
         },
         {
             "name": "orchestra/theme-installer",
