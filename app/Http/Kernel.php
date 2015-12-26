@@ -30,6 +30,12 @@ class Kernel extends HttpKernel
             Middleware\VerifyCsrfToken::class,
         ],
 
+        'orchestra' => [
+            'web',
+            \Orchestra\Foundation\Http\Middleware\LoginAs::class,
+            \Orchestra\Foundation\Http\Middleware\UseBackendTheme::class,
+        ],
+
         'api' => [
             'throttle:60,1',
         ],
@@ -38,11 +44,14 @@ class Kernel extends HttpKernel
     /**
      * The application's route middleware.
      *
+     * These middleware may be assigned to groups or used individually.
+     *
      * @var array
      */
     protected $routeMiddleware = [
         'auth'       => Middleware\Authenticate::class,
         'auth.basic' => \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
+        'throttle'   => \Illuminate\Routing\Middleware\ThrottleRequests::class,
         'backend'    => \Orchestra\Foundation\Middleware\UseBackendTheme::class,
         'can'        => \Orchestra\Foundation\Http\Middleware\Can::class,
         'guest'      => Middleware\RedirectIfAuthenticated::class,
