@@ -32,8 +32,8 @@ class Kernel extends HttpKernel
 
         'orchestra' => [
             'web',
+            'backend',
             \Orchestra\Foundation\Http\Middleware\LoginAs::class,
-            \Orchestra\Foundation\Http\Middleware\UseBackendTheme::class,
         ],
 
         'api' => [
@@ -51,10 +51,9 @@ class Kernel extends HttpKernel
     protected $routeMiddleware = [
         'auth'       => Middleware\Authenticate::class,
         'auth.basic' => \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
-        'throttle'   => \Illuminate\Routing\Middleware\ThrottleRequests::class,
-        'backend'    => \Orchestra\Foundation\Middleware\UseBackendTheme::class,
+        'backend'    => \Orchestra\Foundation\Http\Middleware\UseBackendTheme::class,
         'can'        => \Orchestra\Foundation\Http\Middleware\Can::class,
         'guest'      => Middleware\RedirectIfAuthenticated::class,
-        'manage'     => \Orchestra\Foundation\Http\Middleware\CanManage::class,
+        'throttle'   => \Illuminate\Routing\Middleware\ThrottleRequests::class,
     ];
 }
