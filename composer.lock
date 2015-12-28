@@ -1169,16 +1169,16 @@
         },
         {
             "name": "orchestra/auth",
-            "version": "v3.2.0",
+            "version": "v3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/auth.git",
-                "reference": "c64dc9e4c5750c656e38609ae4ba9c1f88ada088"
+                "reference": "028b925baf89cdc628209e1f18e5c969bb34b0d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/auth/zipball/c64dc9e4c5750c656e38609ae4ba9c1f88ada088",
-                "reference": "c64dc9e4c5750c656e38609ae4ba9c1f88ada088",
+                "url": "https://api.github.com/repos/orchestral/auth/zipball/028b925baf89cdc628209e1f18e5c969bb34b0d9",
+                "reference": "028b925baf89cdc628209e1f18e5c969bb34b0d9",
                 "shasum": ""
             },
             "require": {
@@ -1239,7 +1239,7 @@
                 "permission",
                 "rbac"
             ],
-            "time": "2015-12-22 00:42:06"
+            "time": "2015-12-27 23:52:42"
         },
         {
             "name": "orchestra/avatar",
@@ -1537,23 +1537,23 @@
         },
         {
             "name": "orchestra/foundation",
-            "version": "v3.2.0",
+            "version": "v3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "32fdbdf63d4df60c36c813a9d2cb1ee2e8cbe109"
+                "reference": "d6584db6c2e59e271f506b09d533c40ce5ed3232"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/32fdbdf63d4df60c36c813a9d2cb1ee2e8cbe109",
-                "reference": "32fdbdf63d4df60c36c813a9d2cb1ee2e8cbe109",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/d6584db6c2e59e271f506b09d533c40ce5ed3232",
+                "reference": "d6584db6c2e59e271f506b09d533c40ce5ed3232",
                 "shasum": ""
             },
             "require": {
                 "laravel/framework": "~5.2.5",
                 "laravie/html": "~5.2.1",
                 "orchestra/asset": "~3.2.0",
-                "orchestra/auth": "~3.2.0",
+                "orchestra/auth": "~3.2.1",
                 "orchestra/contracts": "~3.2.1",
                 "orchestra/extension": "~3.2.0",
                 "orchestra/html": "~3.2.0",
@@ -1561,7 +1561,7 @@
                 "orchestra/memory": "~3.2.0",
                 "orchestra/messages": "~3.2.0",
                 "orchestra/model": "~3.2.0",
-                "orchestra/notifier": "~3.2.0",
+                "orchestra/notifier": "~3.2.1",
                 "orchestra/optimize": "~3.2.0",
                 "orchestra/publisher": "~3.2.0",
                 "orchestra/support": "~3.2.0",
@@ -1617,7 +1617,7 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2015-12-26 19:09:59"
+            "time": "2015-12-27 23:58:52"
         },
         {
             "name": "orchestra/html",
