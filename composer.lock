@@ -1804,16 +1804,16 @@
         },
         {
             "name": "orchestra/memory",
-            "version": "v3.2.0",
+            "version": "v3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/memory.git",
-                "reference": "12abe56480c527f59a0a73daa05839541b28e16e"
+                "reference": "f441e0e0b3a47955f82ad09282e8487ab3ea00d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/memory/zipball/12abe56480c527f59a0a73daa05839541b28e16e",
-                "reference": "12abe56480c527f59a0a73daa05839541b28e16e",
+                "url": "https://api.github.com/repos/orchestral/memory/zipball/f441e0e0b3a47955f82ad09282e8487ab3ea00d6",
+                "reference": "f441e0e0b3a47955f82ad09282e8487ab3ea00d6",
                 "shasum": ""
             },
             "require": {
@@ -1864,7 +1864,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2015-12-20 15:06:53"
+            "time": "2015-12-28 07:19:38"
         },
         {
             "name": "orchestra/messages",
@@ -3760,16 +3760,16 @@
         },
         {
             "name": "vlucas/phpdotenv",
-            "version": "v2.1.0",
+            "version": "v2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "c10040e0df17d2ee88e9212b50cbe9319e878f59"
+                "reference": "101d5d7498bcd827e73c20da2f687e79d2d139f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/c10040e0df17d2ee88e9212b50cbe9319e878f59",
-                "reference": "c10040e0df17d2ee88e9212b50cbe9319e878f59",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/101d5d7498bcd827e73c20da2f687e79d2d139f9",
+                "reference": "101d5d7498bcd827e73c20da2f687e79d2d139f9",
                 "shasum": ""
             },
             "require": {
@@ -3807,7 +3807,7 @@
                 "env",
                 "environment"
             ],
-            "time": "2015-10-28 18:53:35"
+            "time": "2015-11-19 09:09:30"
         }
     ],
     "packages-dev": [
