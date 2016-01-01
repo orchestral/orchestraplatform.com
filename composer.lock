@@ -498,16 +498,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.2.5",
+            "version": "v5.2.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "1d165631b90d104c517d54455a5e867584645473"
+                "reference": "b774c304ee81fcf5402fa06b261b364ba8f29cf0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/1d165631b90d104c517d54455a5e867584645473",
-                "reference": "1d165631b90d104c517d54455a5e867584645473",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/b774c304ee81fcf5402fa06b261b364ba8f29cf0",
+                "reference": "b774c304ee81fcf5402fa06b261b364ba8f29cf0",
                 "shasum": ""
             },
             "require": {
@@ -534,7 +534,7 @@
                 "symfony/routing": "2.8.*|3.0.*",
                 "symfony/translation": "2.8.*|3.0.*",
                 "symfony/var-dumper": "2.8.*|3.0.*",
-                "vlucas/phpdotenv": "~2.0"
+                "vlucas/phpdotenv": "~2.2"
             },
             "replace": {
                 "illuminate/auth": "self.version",
@@ -568,7 +568,6 @@
             },
             "require-dev": {
                 "aws/aws-sdk-php": "~3.0",
-                "iron-io/iron_mq": "~2.0",
                 "mockery/mockery": "~0.9.2",
                 "pda/pheanstalk": "~3.0",
                 "phpunit/phpunit": "~4.1",
@@ -623,7 +622,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2015-12-24 15:39:57"
+            "time": "2015-12-31 17:41:58"
         },
         {
             "name": "laravie/html",
@@ -1169,16 +1168,16 @@
         },
         {
             "name": "orchestra/auth",
-            "version": "v3.2.1",
+            "version": "v3.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/auth.git",
-                "reference": "028b925baf89cdc628209e1f18e5c969bb34b0d9"
+                "reference": "9e5c5218e635a8f9f21b370b91bde0195f6a6fe3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/auth/zipball/028b925baf89cdc628209e1f18e5c969bb34b0d9",
-                "reference": "028b925baf89cdc628209e1f18e5c969bb34b0d9",
+                "url": "https://api.github.com/repos/orchestral/auth/zipball/9e5c5218e635a8f9f21b370b91bde0195f6a6fe3",
+                "reference": "9e5c5218e635a8f9f21b370b91bde0195f6a6fe3",
                 "shasum": ""
             },
             "require": {
@@ -1239,7 +1238,7 @@
                 "permission",
                 "rbac"
             ],
-            "time": "2015-12-27 23:52:42"
+            "time": "2016-01-01 12:33:17"
         },
         {
             "name": "orchestra/avatar",
@@ -1412,16 +1411,16 @@
         },
         {
             "name": "orchestra/extension",
-            "version": "v3.2.0",
+            "version": "v3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/extension.git",
-                "reference": "da3f561c171997872613401b4d5bb2673bd2e3ee"
+                "reference": "2c2b81fa8e0425821c5266270fc93585fb4ac626"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/extension/zipball/da3f561c171997872613401b4d5bb2673bd2e3ee",
-                "reference": "da3f561c171997872613401b4d5bb2673bd2e3ee",
+                "url": "https://api.github.com/repos/orchestral/extension/zipball/2c2b81fa8e0425821c5266270fc93585fb4ac626",
+                "reference": "2c2b81fa8e0425821c5266270fc93585fb4ac626",
                 "shasum": ""
             },
             "require": {
@@ -1471,7 +1470,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2015-12-22 07:41:41"
+            "time": "2016-01-01 12:51:39"
         },
         {
             "name": "orchestra/facile",
@@ -1537,26 +1536,26 @@
         },
         {
             "name": "orchestra/foundation",
-            "version": "v3.2.1",
+            "version": "v3.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "d6584db6c2e59e271f506b09d533c40ce5ed3232"
+                "reference": "b89d120b66ee7a78ba0ee5af44ed36a927eb942a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/d6584db6c2e59e271f506b09d533c40ce5ed3232",
-                "reference": "d6584db6c2e59e271f506b09d533c40ce5ed3232",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/b89d120b66ee7a78ba0ee5af44ed36a927eb942a",
+                "reference": "b89d120b66ee7a78ba0ee5af44ed36a927eb942a",
                 "shasum": ""
             },
             "require": {
-                "laravel/framework": "~5.2.5",
+                "laravel/framework": "~5.2.6",
                 "laravie/html": "~5.2.1",
                 "orchestra/asset": "~3.2.0",
-                "orchestra/auth": "~3.2.1",
+                "orchestra/auth": "~3.2.2",
                 "orchestra/contracts": "~3.2.1",
                 "orchestra/extension": "~3.2.0",
-                "orchestra/html": "~3.2.0",
+                "orchestra/html": "~3.2.1",
                 "orchestra/kernel": "~3.2.0",
                 "orchestra/memory": "~3.2.0",
                 "orchestra/messages": "~3.2.0",
@@ -1617,7 +1616,7 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2015-12-27 23:58:52"
+            "time": "2016-01-01 12:20:20"
         },
         {
             "name": "orchestra/html",
@@ -3908,16 +3907,16 @@
         },
         {
             "name": "orchestra/studio",
-            "version": "v3.2.0",
+            "version": "v3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/studio.git",
-                "reference": "4d3b1fd79613d622bcb6e7b027d132ce3a317339"
+                "reference": "124d052176df76329c1bb9cd9439a9cd370b6cdf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/studio/zipball/4d3b1fd79613d622bcb6e7b027d132ce3a317339",
-                "reference": "4d3b1fd79613d622bcb6e7b027d132ce3a317339",
+                "url": "https://api.github.com/repos/orchestral/studio/zipball/124d052176df76329c1bb9cd9439a9cd370b6cdf",
+                "reference": "124d052176df76329c1bb9cd9439a9cd370b6cdf",
                 "shasum": ""
             },
             "require": {
@@ -3956,7 +3955,7 @@
                 }
             ],
             "description": "Code Generator for Orchestra Platform",
-            "time": "2015-12-26 18:58:50"
+            "time": "2016-01-01 12:07:54"
         },
         {
             "name": "orchestra/theme-installer",
@@ -4088,16 +4087,16 @@
         },
         {
             "name": "phpspec/phpspec",
-            "version": "2.4.0",
+            "version": "2.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpspec/phpspec.git",
-                "reference": "1d3938e6d9ffb1bd4805ea8ddac62ea48767f358"
+                "reference": "5528ce1e93a1efa090c9404aba3395c329b4e6ed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpspec/phpspec/zipball/1d3938e6d9ffb1bd4805ea8ddac62ea48767f358",
-                "reference": "1d3938e6d9ffb1bd4805ea8ddac62ea48767f358",
+                "url": "https://api.github.com/repos/phpspec/phpspec/zipball/5528ce1e93a1efa090c9404aba3395c329b4e6ed",
+                "reference": "5528ce1e93a1efa090c9404aba3395c329b4e6ed",
                 "shasum": ""
             },
             "require": {
@@ -4162,7 +4161,7 @@
                 "testing",
                 "tests"
             ],
-            "time": "2015-11-29 02:03:49"
+            "time": "2016-01-01 10:17:54"
         },
         {
             "name": "phpspec/prophecy",
