@@ -498,16 +498,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.2.6",
+            "version": "v5.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "b774c304ee81fcf5402fa06b261b364ba8f29cf0"
+                "reference": "26cd65eaa4bcc0fb0be381cfb7cfdcda06a3c2b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/b774c304ee81fcf5402fa06b261b364ba8f29cf0",
-                "reference": "b774c304ee81fcf5402fa06b261b364ba8f29cf0",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/26cd65eaa4bcc0fb0be381cfb7cfdcda06a3c2b4",
+                "reference": "26cd65eaa4bcc0fb0be381cfb7cfdcda06a3c2b4",
                 "shasum": ""
             },
             "require": {
@@ -622,7 +622,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2015-12-31 17:41:58"
+            "time": "2016-01-07 13:54:34"
         },
         {
             "name": "laravie/html",
@@ -758,16 +758,16 @@
         },
         {
             "name": "laravie/quemon",
-            "version": "v1.0.0",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravie/quemon.git",
-                "reference": "615924633c30f5c38bf2814adad86f1c6a359575"
+                "reference": "1f92affbf514fec7ae6037d7df5bf2b14ae9c9db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravie/quemon/zipball/615924633c30f5c38bf2814adad86f1c6a359575",
-                "reference": "615924633c30f5c38bf2814adad86f1c6a359575",
+                "url": "https://api.github.com/repos/laravie/quemon/zipball/1f92affbf514fec7ae6037d7df5bf2b14ae9c9db",
+                "reference": "1f92affbf514fec7ae6037d7df5bf2b14ae9c9db",
                 "shasum": ""
             },
             "require": {
@@ -800,7 +800,7 @@
                 }
             ],
             "description": "Quemon Extension for Orchestra Platform",
-            "time": "2015-10-12 03:38:15"
+            "time": "2016-01-08 23:59:29"
         },
         {
             "name": "league/flysystem",
@@ -2473,16 +2473,16 @@
         },
         {
             "name": "paragonie/random_compat",
-            "version": "1.1.4",
+            "version": "1.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "d762ee5b099a29044603cd4649851e81aa66cb47"
+                "reference": "dd8998b7c846f6909f4e7a5f67fabebfc412a4f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/d762ee5b099a29044603cd4649851e81aa66cb47",
-                "reference": "d762ee5b099a29044603cd4649851e81aa66cb47",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/dd8998b7c846f6909f4e7a5f67fabebfc412a4f7",
+                "reference": "dd8998b7c846f6909f4e7a5f67fabebfc412a4f7",
                 "shasum": ""
             },
             "require": {
@@ -2517,7 +2517,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2015-12-10 14:48:13"
+            "time": "2016-01-06 13:31:20"
         },
         {
             "name": "pda/pheanstalk",
