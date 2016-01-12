@@ -26,6 +26,12 @@
 		data-lang="en"
 		>
 	</script>
+	<script>
+	  ((window.gitter = {}).chat = {}).options = {
+	    room: 'orchestral/platform'
+	  };
+	</script>
+	<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
 	@include('partials._analytic')
 	@stack('assets.footer')
 </body>
