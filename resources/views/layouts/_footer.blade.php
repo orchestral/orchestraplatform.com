@@ -20,12 +20,6 @@
 			</div>
 		</div>
 	</footer>
-	<script
-		src="//d2s6cp23z9c3gz.cloudfront.net/js/embed.widget.min.js"
-		data-domain="orchestraplatform.besnappy.com"
-		data-lang="en"
-		>
-	</script>
 	<script>
 	  ((window.gitter = {}).chat = {}).options = {
 	    room: 'orchestral/platform'
