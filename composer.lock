@@ -498,16 +498,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.2.12",
+            "version": "v5.2.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "6b6255ad7bfbdb721b8d00b09d52b146c5d363d7"
+                "reference": "0683b59b4b37e4a15614d62dfa7e526e35525df1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/6b6255ad7bfbdb721b8d00b09d52b146c5d363d7",
-                "reference": "6b6255ad7bfbdb721b8d00b09d52b146c5d363d7",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/0683b59b4b37e4a15614d62dfa7e526e35525df1",
+                "reference": "0683b59b4b37e4a15614d62dfa7e526e35525df1",
                 "shasum": ""
             },
             "require": {
@@ -622,7 +622,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2016-01-26 04:15:37"
+            "time": "2016-02-02 14:57:14"
         },
         {
             "name": "laravie/html",
@@ -1537,20 +1537,20 @@
         },
         {
             "name": "orchestra/foundation",
-            "version": "v3.2.2",
+            "version": "v3.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "b89d120b66ee7a78ba0ee5af44ed36a927eb942a"
+                "reference": "b6094684cf6845a9f00612b96d33fb9ee8dbd37e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/b89d120b66ee7a78ba0ee5af44ed36a927eb942a",
-                "reference": "b89d120b66ee7a78ba0ee5af44ed36a927eb942a",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/b6094684cf6845a9f00612b96d33fb9ee8dbd37e",
+                "reference": "b6094684cf6845a9f00612b96d33fb9ee8dbd37e",
                 "shasum": ""
             },
             "require": {
-                "laravel/framework": "~5.2.6",
+                "laravel/framework": "~5.2.8",
                 "laravie/html": "~5.2.1",
                 "orchestra/asset": "~3.2.0",
                 "orchestra/auth": "~3.2.2",
@@ -1617,20 +1617,20 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2016-01-01 12:20:20"
+            "time": "2016-01-29 11:21:10"
         },
         {
             "name": "orchestra/html",
-            "version": "v3.2.2",
+            "version": "v3.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/html.git",
-                "reference": "0ee49d864603e60786e99f0d09f629333742fc10"
+                "reference": "da509aca97f2a7abc7e6f8746205d71f5a5a8d3a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/html/zipball/0ee49d864603e60786e99f0d09f629333742fc10",
-                "reference": "0ee49d864603e60786e99f0d09f629333742fc10",
+                "url": "https://api.github.com/repos/orchestral/html/zipball/da509aca97f2a7abc7e6f8746205d71f5a5a8d3a",
+                "reference": "da509aca97f2a7abc7e6f8746205d71f5a5a8d3a",
                 "shasum": ""
             },
             "require": {
@@ -1680,7 +1680,7 @@
                 "orchestral",
                 "table"
             ],
-            "time": "2016-01-06 01:34:42"
+            "time": "2016-01-31 14:22:31"
         },
         {
             "name": "orchestra/installer",
@@ -2352,16 +2352,16 @@
         },
         {
             "name": "orchestra/view",
-            "version": "v3.2.0",
+            "version": "v3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/view.git",
-                "reference": "dccd20ce3418195762d0dc51eb68ad6a3e419893"
+                "reference": "73413f1abc45fe8f62dafdb86431934a2ef7a6a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/view/zipball/dccd20ce3418195762d0dc51eb68ad6a3e419893",
-                "reference": "dccd20ce3418195762d0dc51eb68ad6a3e419893",
+                "url": "https://api.github.com/repos/orchestral/view/zipball/73413f1abc45fe8f62dafdb86431934a2ef7a6a8",
+                "reference": "73413f1abc45fe8f62dafdb86431934a2ef7a6a8",
                 "shasum": ""
             },
             "require": {
@@ -2412,7 +2412,7 @@
                 "theme",
                 "view"
             ],
-            "time": "2015-12-14 04:56:56"
+            "time": "2016-01-31 14:05:10"
         },
         {
             "name": "orchestra/widget",
@@ -2474,16 +2474,16 @@
         },
         {
             "name": "paragonie/random_compat",
-            "version": "1.1.5",
+            "version": "1.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "dd8998b7c846f6909f4e7a5f67fabebfc412a4f7"
+                "reference": "e6f80ab77885151908d0ec743689ca700886e8b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/dd8998b7c846f6909f4e7a5f67fabebfc412a4f7",
-                "reference": "dd8998b7c846f6909f4e7a5f67fabebfc412a4f7",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/e6f80ab77885151908d0ec743689ca700886e8b0",
+                "reference": "e6f80ab77885151908d0ec743689ca700886e8b0",
                 "shasum": ""
             },
             "require": {
@@ -2518,7 +2518,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2016-01-06 13:31:20"
+            "time": "2016-01-29 16:19:52"
         },
         {
             "name": "pda/pheanstalk",
