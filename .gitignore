@@ -1,4 +1,5 @@
 # Laravel
+/public/storage/*
 /public/packages/*
 /.env
 /Envoy.blade.php
