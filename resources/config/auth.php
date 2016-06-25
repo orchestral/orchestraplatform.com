@@ -103,7 +103,7 @@ return [
         'users' => [
             'provider' => 'users',
             'email'    => 'emails.notification',
-            'table'    => 'password_resets',
+            'table'    => 'password_reminders',
             'expire'   => 60,
         ],
     ],
