@@ -13,7 +13,8 @@
         "laravie/kurenai": "~1.0",
         "pda/pheanstalk": "~3.0",
         "fideloper/proxy": "~3.0.1",
-        "laravie/quemon": "~1.0"
+        "laravie/quemon": "~1.0",
+        "guzzlehttp/guzzle": "~6.2"
     },
     "require-dev": {
         "orchestra/studio": "~3.3",
