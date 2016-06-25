@@ -1548,12 +1548,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "b3fae05b8f14f3d40e7cdcf105ec2d9fe58128e7"
+                "reference": "e124fd4f5518fa15cf1e6a9314343827ff2bcba2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/b3fae05b8f14f3d40e7cdcf105ec2d9fe58128e7",
-                "reference": "b3fae05b8f14f3d40e7cdcf105ec2d9fe58128e7",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/e124fd4f5518fa15cf1e6a9314343827ff2bcba2",
+                "reference": "e124fd4f5518fa15cf1e6a9314343827ff2bcba2",
                 "shasum": ""
             },
             "require": {
@@ -1565,7 +1565,7 @@
                 "orchestra/extension": "~3.3.0",
                 "orchestra/html": "~3.3.1",
                 "orchestra/kernel": "~3.3.1",
-                "orchestra/memory": "~3.3.0",
+                "orchestra/memory": "~3.3.1",
                 "orchestra/messages": "~3.3.0",
                 "orchestra/model": "~3.3.2",
                 "orchestra/notifier": "~3.3.1",
@@ -1624,7 +1624,7 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2016-06-25 10:53:26"
+            "time": "2016-06-25 12:54:31"
         },
         {
             "name": "orchestra/html",
@@ -1813,16 +1813,16 @@
         },
         {
             "name": "orchestra/memory",
-            "version": "v3.3.0",
+            "version": "v3.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/memory.git",
-                "reference": "256358261d6a388212caa1869652d59ad19bdfc1"
+                "reference": "b0f358ba5ed89d398f58f8c2cecb6d99f593775f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/memory/zipball/256358261d6a388212caa1869652d59ad19bdfc1",
-                "reference": "256358261d6a388212caa1869652d59ad19bdfc1",
+                "url": "https://api.github.com/repos/orchestral/memory/zipball/b0f358ba5ed89d398f58f8c2cecb6d99f593775f",
+                "reference": "b0f358ba5ed89d398f58f8c2cecb6d99f593775f",
                 "shasum": ""
             },
             "require": {
@@ -1873,7 +1873,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2016-06-11 12:28:15"
+            "time": "2016-06-25 12:52:39"
         },
         {
             "name": "orchestra/messages",
