@@ -26,5 +26,4 @@
 	<![endif]-->
 	@stack('assets.header')
 </head>
-</html>
 <body{!! HTML::attributes(get_meta('html::body.attributes', [])) !!}>

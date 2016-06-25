@@ -9,7 +9,7 @@ before_script:
   - bash ./build-doc.sh
   - travis_retry composer install --prefer-dist --no-interaction
 
-script: ./vendor/bin/phpspec run
+script: phpunit
 
 matrix:
   fast_finish: true
