@@ -4,8 +4,8 @@
     "license": "proprietary",
     "type": "project",
     "require": {
-        "php": ">=5.5.9",
-        "orchestra/foundation": "~3.2.5",
+        "php": "^7.0.0",
+        "orchestra/foundation": "~3.2.7",
         "orchestra/avatar": "~3.2",
         "orchestra/control": "~3.2",
         "orchestra/installer": "~3.2",
@@ -19,7 +19,7 @@
         "phpspec/phpspec": "~2.4",
         "orchestra/studio": "~3.2",
         "stackie/adminlte-theme": "^0.2",
-        "laravel/homestead": "^2.1.8"
+        "laravel/homestead": "^3.0"
     },
     "autoload": {
         "classmap": [
@@ -46,13 +46,11 @@
             "php artisan key:generate"
         ],
         "post-install-cmd": [
-            "php artisan clear-compiled",
+            "Orchestra\\Foundation\\ComposerScripts::postInstall",
             "php artisan orchestra:assemble"
         ],
-        "pre-update-cmd": [
-            "php artisan clear-compiled"
-        ],
         "post-update-cmd": [
+            "Orchestra\\Foundation\\ComposerScripts::postUpdate",
             "php artisan orchestra:assemble"
         ]
     },
