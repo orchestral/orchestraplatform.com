@@ -13,8 +13,8 @@
 
 $factory[App\User::class] = function (Faker\Generator $faker) {
     return [
-        'email' => $faker->email,
-        'password' => str_random(10),
+        'email' => $faker->safeEmail,
+        'password' => '$2y$10$m71Wj3Rv/05R2Pt1roDVGeHA2VeNluTqjTj2g8q61F4wGqbHvK9z.',
         'remember_token' => str_random(10),
         'status' => App\User::VERIFIED,
     ];
