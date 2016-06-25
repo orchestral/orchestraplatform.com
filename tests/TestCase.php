@@ -1,8 +1,8 @@
 <?php
 
 use App\User;
+use Illuminate\Support\Arr;
 use Orchestra\Testing\ApplicationTestCase;
-use Orchestra\Contracts\Installation\Installation;
 
 abstract class TestCase extends ApplicationTestCase
 {
@@ -31,31 +31,12 @@ abstract class TestCase extends ApplicationTestCase
     }
 
     /**
-     * Install Orchestra Platform and get the administrator user.
+     * Create admin user.
      *
      * @return \App\User
      */
-    protected function createAdminUser(Installation $installer = null)
+    protected function createAdminUser()
     {
-        if (is_null($installer)) {
-            $installer = $this->makeInstaller();
-        }
-
-        $user = factory(User::class)->create();
-
-        $installer->create($user, [
-            'site_name' => 'Orchestra Platform',
-            'email'     => 'hello@orchestraplatform.com',
-        ]);
-
-        $this->artisan('migrate');
-
-        $this->app['orchestra.installed'] = true;
-
-        $this->beforeApplicationDestroyed(function () {
-            $this->app['orchestra.installed'] = false;
-        });
-
-        return $user;
+        return factory(User::class)->create();
     }
 }

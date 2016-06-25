@@ -4870,12 +4870,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/testing.git",
-                "reference": "1a18d3f96ef6ba8646fc6a4b871d530b6c23964c"
+                "reference": "0bf66074462b8386de3b1b3e04b7ca3fe91d3ce4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/testing/zipball/1a18d3f96ef6ba8646fc6a4b871d530b6c23964c",
-                "reference": "1a18d3f96ef6ba8646fc6a4b871d530b6c23964c",
+                "url": "https://api.github.com/repos/orchestral/testing/zipball/0bf66074462b8386de3b1b3e04b7ca3fe91d3ce4",
+                "reference": "0bf66074462b8386de3b1b3e04b7ca3fe91d3ce4",
                 "shasum": ""
             },
             "require": {
@@ -4917,7 +4917,7 @@
                 }
             ],
             "description": "Orchestra Platform Testing Helper",
-            "time": "2016-06-24 09:49:32"
+            "time": "2016-06-25 14:58:01"
         },
         {
             "name": "phpdocumentor/reflection-common",
