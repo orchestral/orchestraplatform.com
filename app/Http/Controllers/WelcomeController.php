@@ -2,9 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use Orchestra\Routing\Controller;
-use Illuminate\Support\Collection;
-
 class WelcomeController extends Controller
 {
     /*
@@ -26,7 +23,7 @@ class WelcomeController extends Controller
     public function index()
     {
         $name       = app('orchestra.app')->installed() ? 'welcome' : 'hello';
-        $packages   = new Collection(config('website.packages', []));
+        $packages   = collect(config('website.packages', []));
         $components = $packages->filter(function ($package) {
             return (in_array('component', $package['type']));
         });

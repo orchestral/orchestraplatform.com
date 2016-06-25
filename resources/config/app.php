@@ -4,6 +4,18 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+    | Application Name
+    |--------------------------------------------------------------------------
+    |
+    | This value is the name of your application. This value is used when the
+    | framework needs to place the application's name in a notification or
+    | any other location as required by the application or its packages.
+    */
+
+    'name' => 'My Application',
+
+    /*
+    |--------------------------------------------------------------------------
     | Application Environment
     |--------------------------------------------------------------------------
     |
@@ -156,6 +168,7 @@ return [
         Orchestra\Notifier\MailServiceProvider::class,
         Orchestra\Memory\MemoryServiceProvider::class,
         Orchestra\Messages\MessagesServiceProvider::class,
+        Orchestra\Notifications\NotificationServiceProvider::class,
         Orchestra\Notifier\NotifierServiceProvider::class,
         Orchestra\Optimize\OptimizeServiceProvider::class,
         Orchestra\Auth\Passwords\PasswordResetServiceProvider::class,
@@ -172,7 +185,6 @@ return [
         /*
          * Orchestra Platform Additional Service Providers...
          */
-        Orchestra\Installation\InstallerServiceProvider::class,
         Orchestra\Avatar\AvatarServiceProvider::class,
         Fideloper\Proxy\TrustedProxyServiceProvider::class,
 
@@ -183,8 +195,10 @@ return [
         App\Providers\ComposerServiceProvider::class,
         App\Providers\DocumentationServiceProvider::class,
         App\Providers\AuthServiceProvider::class,
+        // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\ExtensionServiceProvider::class,
+        App\Providers\InstallerServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
     ],
 
@@ -208,6 +222,7 @@ return [
         'Avatar'     => Orchestra\Support\Facades\Avatar::class,
         'Auth'       => Illuminate\Support\Facades\Auth::class,
         'Blade'      => Illuminate\Support\Facades\Blade::class,
+        'Broadcast'  => Illuminate\Support\Facades\Broadcast::class,
         'Cache'      => Illuminate\Support\Facades\Cache::class,
         'Config'     => Illuminate\Support\Facades\Config::class,
         'Cookie'     => Illuminate\Support\Facades\Cookie::class,

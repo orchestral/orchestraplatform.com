@@ -4,11 +4,11 @@
     "license": "proprietary",
     "type": "project",
     "require": {
-        "php": "^5.6.0 || ^7.0.0",
-        "orchestra/foundation": "~3.2.7",
-        "orchestra/avatar": "~3.2",
-        "orchestra/control": "~3.2",
-        "orchestra/installer": "~3.2",
+        "php": "^7.0.0",
+        "orchestra/foundation": "~3.3.0",
+        "orchestra/avatar": "~3.3",
+        "orchestra/installer": "~3.3",
+        "orchestra/control": "~3.3",
         "orchestra/story": "~3.2",
         "laravie/kurenai": "~1.0",
         "pda/pheanstalk": "~3.0",
@@ -16,9 +16,8 @@
         "laravie/quemon": "~1.0"
     },
     "require-dev": {
-        "phpspec/phpspec": "~2.4",
-        "orchestra/studio": "~3.2",
-        "stackie/adminlte-theme": "^0.2",
+        "orchestra/studio": "~3.3",
+        "orchestra/testing": "~3.3",
         "laravel/homestead": "^3.0"
     },
     "autoload": {

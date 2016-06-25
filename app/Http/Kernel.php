@@ -31,6 +31,13 @@ class Kernel extends HttpKernel
             \Illuminate\Session\Middleware\StartSession::class,
             \Illuminate\View\Middleware\ShareErrorsFromSession::class,
             Middleware\VerifyCsrfToken::class,
+            'bindings',
+        ],
+
+        'orchestra' => [
+            'web',
+            'backend',
+            \Orchestra\Foundation\Http\Middleware\LoginAs::class,
         ],
 
         'orchestra' => [
@@ -41,6 +48,7 @@ class Kernel extends HttpKernel
 
         'api' => [
             'throttle:60,1',
+            'bindings',
         ],
     ];
 
@@ -52,11 +60,12 @@ class Kernel extends HttpKernel
      * @var array
      */
     protected $routeMiddleware = [
-        'auth'       => Middleware\Authenticate::class,
+        'auth' => \Illuminate\Auth\Middleware\Authenticate::class,
         'auth.basic' => \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
-        'backend'    => \Orchestra\Foundation\Http\Middleware\UseBackendTheme::class,
-        'can'        => \Orchestra\Foundation\Http\Middleware\Can::class,
-        'guest'      => Middleware\RedirectIfAuthenticated::class,
-        'throttle'   => \Illuminate\Routing\Middleware\ThrottleRequests::class,
+        'backend' => \Orchestra\Foundation\Http\Middleware\UseBackendTheme::class,
+        'bindings' => \Illuminate\Routing\Middleware\SubstituteBindings::class,
+        'can' => \Orchestra\Foundation\Http\Middleware\Can::class,
+        'guest' => Middleware\RedirectIfAuthenticated::class,
+        'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
     ];
 }
