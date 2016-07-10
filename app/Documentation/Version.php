@@ -1,4 +1,6 @@
-<?php namespace App\Documentation;
+<?php
+
+namespace App\Documentation;
 
 use Orchestra\Support\Str;
 use Illuminate\Support\Arr;

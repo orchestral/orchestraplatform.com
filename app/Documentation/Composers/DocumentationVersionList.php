@@ -1,4 +1,6 @@
-<?php namespace App\Documentation\Composers;
+<?php
+
+namespace App\Documentation\Composers;
 
 use Illuminate\Http\Request;
 use App\Documentation\Version;

@@ -1,4 +1,6 @@
-<?php namespace App\Documentation;
+<?php
+
+namespace App\Documentation;
 
 use Kurenai\DocumentParser;
 use Illuminate\Filesystem\Filesystem;
@@ -49,9 +51,9 @@ class FileLoader
      * @param  string  $path
      * @param  string  $filename
      *
-     * @return array
-     *
      * @throws \Symfony\Component\HttpKernel\Exception\NotFoundHttpException
+     *
+     * @return array
      */
     public function getDocumentation($path, $filename)
     {

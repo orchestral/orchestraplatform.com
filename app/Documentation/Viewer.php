@@ -1,4 +1,6 @@
-<?php namespace App\Documentation;
+<?php
+
+namespace App\Documentation;
 
 use Kurenai\Document;
 use Orchestra\Support\Str;

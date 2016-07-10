@@ -1,4 +1,6 @@
-<?php namespace App\Processor;
+<?php
+
+namespace App\Processor;
 
 abstract class Processor
 {
