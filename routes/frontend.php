@@ -13,7 +13,4 @@ use Illuminate\Routing\Router;
 |
 */
 
-$router->group(['middleware' => ['web']], function (Router $router) {
-    $router->get('/', 'WelcomeController@index');
-    $router->get('home', 'HomeController@index');
-});
+$router->get('home', 'HomeController@index');
