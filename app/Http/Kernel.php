@@ -40,12 +40,6 @@ class Kernel extends HttpKernel
             \Orchestra\Foundation\Http\Middleware\LoginAs::class,
         ],
 
-        'orchestra' => [
-            'web',
-            'backend',
-            \Orchestra\Foundation\Http\Middleware\LoginAs::class,
-        ],
-
         'api' => [
             'throttle:60,1',
             'bindings',

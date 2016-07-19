@@ -1,7 +1,6 @@
 <?php
 
 use App\User;
-use Illuminate\Support\Arr;
 use Orchestra\Testing\ApplicationTestCase;
 
 abstract class TestCase extends ApplicationTestCase

@@ -5,9 +5,9 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "bootstrap-sass": "~3.3.5",
+    "bootstrap-sass": "~3.3.6",
     "font-awesome": "~4.3.0",
     "javie": "^2.0.0",
-    "vue": "~1.0.0"
+    "vue": "~1.0.20"
   }
 }
